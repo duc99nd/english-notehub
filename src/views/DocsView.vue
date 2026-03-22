@@ -2,7 +2,18 @@
 import { computed, nextTick, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { RouterLink, useRoute, useRouter } from 'vue-router'
-import { BookOpenText, ChevronUp, ListTree, PanelRightClose, PanelRightOpen } from 'lucide-vue-next'
+import {
+  ArrowLeft,
+  ArrowRight,
+  BookOpenText,
+  ChevronUp,
+  Languages,
+  ListTree,
+  PanelRightClose,
+  PanelRightOpen,
+  Search,
+  Sparkles,
+} from 'lucide-vue-next'
 import { persistLocale, type AppLocale } from '@/i18n'
 import {
   getDocBySlug,
@@ -11,11 +22,11 @@ import {
   getDocTitle,
   type DocHeading,
   type DocItem,
+  type DocSummary,
 } from '@/lib/content'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
-import { Separator } from '@/components/ui/separator'
 import { Sheet, SheetContent, SheetHeader, SheetTitle } from '@/components/ui/sheet'
 
 const docs = getDocs()
@@ -29,9 +40,15 @@ const docsSheetOpen = ref(false)
 const tocSheetOpen = ref(false)
 const showDesktopToc = ref(true)
 const activeHeadingId = ref('')
+const activeDoc = ref<DocItem | null>(null)
+const isDocLoading = ref(false)
+const sectionCountBySlug = ref<Record<string, number>>({})
 
 let headingElements: HTMLElement[] = []
 let rafId = 0
+let loadRequestId = 0
+
+const totalDocs = docs.length
 
 const currentLocale = computed<AppLocale>({
   get: () => (locale.value === 'vi' ? 'vi' : 'en'),
@@ -48,13 +65,7 @@ const filteredDocs = computed(() => {
   }
 
   return docs.filter((doc) => {
-    const haystack = [
-      doc.titleEn,
-      doc.titleVi,
-      doc.subtitleEn,
-      doc.subtitleVi,
-      ...doc.headings.map((heading) => heading.text),
-    ]
+    const haystack = [doc.titleEn, doc.titleVi, doc.subtitleEn, doc.subtitleVi]
       .join(' ')
       .toLowerCase()
 
@@ -62,54 +73,99 @@ const filteredDocs = computed(() => {
   })
 })
 
+const filteredDocsCount = computed(() => filteredDocs.value.length)
+
 const activeSlug = computed(() => {
-  const value = route.params.slug
-  return typeof value === 'string' ? value : ''
+  const routeSlug = route.params.slug
+  if (typeof routeSlug === 'string') {
+    return routeSlug
+  }
+  return docs[0]?.slug ?? ''
 })
 
-const activeDoc = computed<DocItem | null>(() => {
-  if (!docs.length) {
+const activeDocIndex = computed(() => docs.findIndex(doc => doc.slug === activeSlug.value))
+
+const previousDoc = computed(() => {
+  if (activeDocIndex.value <= 0) {
     return null
   }
 
-  if (activeSlug.value) {
-    return getDocBySlug(activeSlug.value) ?? docs[0]
+  return docs[activeDocIndex.value - 1] ?? null
+})
+
+const nextDoc = computed(() => {
+  if (activeDocIndex.value === -1 || activeDocIndex.value >= docs.length - 1) {
+    return null
   }
 
-  return docs[0]
+  return docs[activeDocIndex.value + 1] ?? null
 })
+
+const totalSectionCount = computed(() => {
+  const counts = Object.values(sectionCountBySlug.value)
+  if (!counts.length) {
+    return undefined
+  }
+
+  return counts.reduce((sum, count) => sum + count, 0)
+})
+
+const quickJumpHeadings = computed(() => activeDoc.value?.headings.slice(0, 6) ?? [])
 
 const mainGridClass = computed(() => {
   if (showDesktopToc.value) {
-    return 'lg:grid-cols-[280px_minmax(0,1fr)_260px]'
+    return 'lg:grid-cols-[320px_minmax(0,1fr)_290px]'
   }
 
-  return 'lg:grid-cols-[280px_minmax(0,1fr)]'
+  return 'lg:grid-cols-[320px_minmax(0,1fr)]'
 })
 
-watch(
-  () => route.params.slug,
-  (slugParam) => {
-    if (!docs.length) {
-      return
-    }
-
-    if (typeof slugParam !== 'string' || !getDocBySlug(slugParam)) {
-      void router.replace({
-        name: 'docs',
-        params: { slug: docs[0].slug },
-      })
-    }
-  },
-  { immediate: true },
-)
-
 function headingClass(level: number): string {
-  return level === 3 ? 'pl-4 text-xs' : 'text-sm'
+  if (level === 1) {
+    return 'text-sm font-semibold text-foreground'
+  }
+
+  if (level === 2) {
+    return 'pl-4 text-[0.82rem]'
+  }
+
+  return 'pl-8 text-[0.78rem]'
 }
 
 function getHeadingText(heading: DocHeading): string {
   return heading.text
+}
+
+function formatCount(count: number | undefined): string {
+  return typeof count === 'number' ? String(count).padStart(2, '0') : '…'
+}
+
+function docOrderLabel(slug: string): string {
+  const index = docs.findIndex(doc => doc.slug === slug)
+  return index === -1 ? '00' : String(index + 1).padStart(2, '0')
+}
+
+function docTitle(doc: DocSummary | DocItem): string {
+  return getDocTitle(doc, currentLocale.value)
+}
+
+function docSubtitle(doc: DocSummary | DocItem): string {
+  return getDocSubtitle(doc, currentLocale.value)
+}
+
+function docSectionCount(slug: string): string {
+  const count = sectionCountBySlug.value[slug]
+  return typeof count === 'number' ? String(count) : '…'
+}
+
+function closePanels(): void {
+  docsSheetOpen.value = false
+  tocSheetOpen.value = false
+}
+
+function handleHeadingNavigation(id: string): void {
+  activeHeadingId.value = id
+  tocSheetOpen.value = false
 }
 
 function getHeadingElements(): HTMLElement[] {
@@ -131,7 +187,7 @@ function syncActiveHeadingFromScroll(): void {
     return
   }
 
-  const threshold = window.scrollY + 120
+  const threshold = window.scrollY + 160
   let matched = headingElements[0]?.id ?? ''
 
   for (const heading of headingElements) {
@@ -168,6 +224,100 @@ async function refreshHeadingsAndSync(): Promise<void> {
   queueHeadingSync()
 }
 
+function getTargetSlug(input: string): string {
+  if (!docs.length) {
+    return ''
+  }
+
+  if (docs.some(doc => doc.slug === input)) {
+    return input
+  }
+
+  return docs[0].slug
+}
+
+async function loadActiveDocBySlug(slug: string): Promise<void> {
+  if (!slug) {
+    activeDoc.value = null
+    return
+  }
+
+  isDocLoading.value = true
+  activeDoc.value = null
+  headingElements = []
+  activeHeadingId.value = ''
+
+  loadRequestId += 1
+  const requestId = loadRequestId
+  const loadedDoc = await getDocBySlug(slug)
+  if (requestId !== loadRequestId) {
+    return
+  }
+
+  activeDoc.value = loadedDoc ?? null
+  if (loadedDoc) {
+    sectionCountBySlug.value = {
+      ...sectionCountBySlug.value,
+      [loadedDoc.slug]: loadedDoc.sectionCount,
+    }
+  }
+  isDocLoading.value = false
+}
+
+async function preloadSectionCounts(): Promise<void> {
+  const entries = await Promise.all(
+    docs.map(async (doc) => {
+      const loadedDoc = await getDocBySlug(doc.slug)
+      return loadedDoc ? ([doc.slug, loadedDoc.sectionCount] as const) : null
+    }),
+  )
+
+  const nextCounts = Object.fromEntries(
+    entries.filter((entry): entry is [string, number] => entry !== null),
+  )
+
+  sectionCountBySlug.value = {
+    ...sectionCountBySlug.value,
+    ...nextCounts,
+  }
+}
+
+function scheduleSectionCountPreload(): void {
+  const run = () => {
+    void preloadSectionCounts()
+  }
+
+  if (typeof window.requestIdleCallback === 'function') {
+    window.requestIdleCallback(run)
+    return
+  }
+
+  window.setTimeout(run, 160)
+}
+
+watch(
+  () => route.params.slug,
+  (slugParam) => {
+    const requestedSlug = typeof slugParam === 'string' ? slugParam : ''
+    const targetSlug = getTargetSlug(requestedSlug)
+    if (!targetSlug) {
+      activeDoc.value = null
+      return
+    }
+
+    if (requestedSlug !== targetSlug) {
+      void router.replace({
+        name: 'docs',
+        params: { slug: targetSlug },
+      })
+      return
+    }
+
+    void loadActiveDocBySlug(targetSlug)
+  },
+  { immediate: true },
+)
+
 watch(
   () => [activeDoc.value?.slug, route.hash],
   () => {
@@ -179,6 +329,7 @@ watch(
 onMounted(() => {
   window.addEventListener('scroll', queueHeadingSync, { passive: true })
   window.addEventListener('resize', queueHeadingSync)
+  scheduleSectionCountPreload()
 })
 
 onBeforeUnmount(() => {
@@ -189,268 +340,493 @@ onBeforeUnmount(() => {
   }
 })
 
-function selectDocument(slug: string): void {
-  docsSheetOpen.value = false
-  tocSheetOpen.value = false
-
-  void router.push({
-    name: 'docs',
-    params: { slug },
-  })
-}
-
-function jumpToHeading(id: string): void {
-  if (!activeDoc.value) {
-    return
-  }
-
-  activeHeadingId.value = id
-  tocSheetOpen.value = false
-
-  void router.push({
-    name: 'docs',
-    params: { slug: activeDoc.value.slug },
-    hash: `#${id}`,
-  })
-}
-
 function scrollToTop(): void {
   window.scrollTo({ top: 0, behavior: 'smooth' })
-}
-
-function docTitle(doc: DocItem): string {
-  return getDocTitle(doc, currentLocale.value)
-}
-
-function docSubtitle(doc: DocItem): string {
-  return getDocSubtitle(doc, currentLocale.value)
 }
 </script>
 
 <template>
-  <div class="min-h-screen bg-background">
-    <header class="sticky top-0 z-40 border-b bg-background/95 backdrop-blur">
-      <div class="mx-auto flex h-16 max-w-[1400px] items-center gap-3 px-4">
-        <RouterLink to="/docs" class="flex min-w-0 items-center gap-3">
-          <img
-            src="/brand/logo-mark.svg"
-            alt="English Notehub"
-            class="size-9 rounded-lg border bg-card object-cover"
-          />
-          <img
-            src="/brand/logo-wordmark.svg"
-            alt="English Notehub"
-            class="hidden h-7 w-auto sm:block"
-          />
+  <a href="#main-content" class="skip-link">{{ t('nav.skipToContent') }}</a>
+
+  <div class="relative min-h-screen bg-background">
+    <div
+      class="pointer-events-none absolute inset-x-0 top-0 h-[28rem] bg-[radial-gradient(circle_at_top_right,rgba(255,107,75,0.18),transparent_30%),radial-gradient(circle_at_left_top,rgba(255,210,140,0.22),transparent_24%)]"
+    />
+
+    <header class="sticky top-0 z-40 border-b border-white/10 bg-[#1a1411]/88 text-white backdrop-blur-xl">
+      <div class="mx-auto flex min-h-20 max-w-[1500px] items-center gap-4 px-4 py-3 sm:px-6">
+        <RouterLink to="/docs" class="group flex min-w-0 items-center gap-4">
+          <span
+            class="flex size-12 items-center justify-center rounded-[1rem] border border-white/10 bg-white/5 shadow-[0_12px_28px_rgba(0,0,0,0.18)]"
+          >
+            <img src="/brand/logo-mark.svg" alt="English Notehub logo" class="size-9" />
+          </span>
+          <div class="min-w-0">
+            <p class="notehub-label text-white/40">Study Desk</p>
+            <p class="truncate text-lg font-semibold tracking-[-0.04em] text-white">
+              {{ t('app.name') }}
+            </p>
+          </div>
         </RouterLink>
 
-        <div class="ml-auto flex items-center gap-2">
+        <div class="ml-auto flex flex-wrap items-center justify-end gap-2">
           <Button
             variant="outline"
             size="sm"
-            class="inline-flex lg:hidden"
+                class="inline-flex border-white/10 bg-white/5 text-white hover:border-white/20 hover:bg-white/10 hover:text-white lg:hidden"
             @click="docsSheetOpen = true"
           >
-            <BookOpenText class="mr-1 size-4" />
+            <BookOpenText class="size-4" aria-hidden="true" />
             {{ t('actions.openDocs') }}
           </Button>
 
           <Button
             variant="outline"
             size="sm"
-            class="inline-flex lg:hidden"
+                class="inline-flex border-white/10 bg-white/5 text-white hover:border-white/20 hover:bg-white/10 hover:text-white lg:hidden"
             @click="tocSheetOpen = true"
           >
-            <ListTree class="mr-1 size-4" />
+            <ListTree class="size-4" aria-hidden="true" />
             {{ t('actions.openContents') }}
           </Button>
 
           <Button
             variant="outline"
             size="sm"
-            class="hidden lg:inline-flex"
+                class="hidden border-white/10 bg-white/5 text-white hover:border-white/20 hover:bg-white/10 hover:text-white lg:inline-flex"
             @click="showDesktopToc = !showDesktopToc"
           >
-            <PanelRightClose v-if="showDesktopToc" class="mr-1 size-4" />
-            <PanelRightOpen v-else class="mr-1 size-4" />
+            <PanelRightClose v-if="showDesktopToc" class="size-4" aria-hidden="true" />
+            <PanelRightOpen v-else class="size-4" aria-hidden="true" />
             {{ showDesktopToc ? t('actions.hideContents') : t('actions.showContents') }}
           </Button>
 
-          <label for="locale" class="hidden text-xs font-medium text-muted-foreground sm:block">
-            {{ t('nav.language') }}
-          </label>
-          <select
-            id="locale"
-            v-model="currentLocale"
-            class="h-9 rounded-md border bg-background px-3 text-sm shadow-sm focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring"
+          <div
+            class="flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-2 text-white shadow-[0_10px_24px_rgba(0,0,0,0.15)]"
           >
-            <option value="en">{{ t('locale.en') }}</option>
-            <option value="vi">{{ t('locale.vi') }}</option>
-          </select>
+            <Languages class="size-4 text-primary" aria-hidden="true" />
+            <label for="locale" class="sr-only">{{ t('nav.language') }}</label>
+            <select
+              id="locale"
+              v-model="currentLocale"
+              class="appearance-none bg-transparent text-sm font-medium text-white focus-visible:outline-none"
+            >
+              <option value="en" class="bg-[#1a1411] text-white">{{ t('locale.en') }}</option>
+              <option value="vi" class="bg-[#1a1411] text-white">{{ t('locale.vi') }}</option>
+            </select>
+          </div>
         </div>
       </div>
     </header>
 
-    <main class="mx-auto grid max-w-[1400px] grid-cols-1" :class="mainGridClass">
-      <aside class="hidden border-r lg:block">
-        <div class="sticky top-16 h-[calc(100vh-4rem)] overflow-y-auto p-4">
-          <p class="mb-3 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
-            {{ t('nav.documents') }}
-          </p>
-          <Input
-            v-model="searchQuery"
-            :placeholder="t('placeholders.search')"
-            class="mb-4 bg-card"
-          />
-          <div class="space-y-2">
-            <button
+    <main
+      id="main-content"
+      class="relative mx-auto grid max-w-[1500px] grid-cols-1 gap-6 px-4 pb-14 pt-6 sm:px-6 lg:pb-16 lg:pt-8"
+      :class="mainGridClass"
+    >
+      <aside class="hidden lg:block">
+        <div class="surface-panel sticky top-24 h-[calc(100vh-7.5rem)] overflow-hidden rounded-[1.9rem]">
+          <div class="border-b border-foreground/10 px-5 pb-4 pt-5">
+            <p class="notehub-label text-muted-foreground">{{ t('labels.referenceLibrary') }}</p>
+            <div class="mt-4 grid grid-cols-2 gap-3">
+              <div class="rounded-[1.25rem] bg-background/70 p-3">
+                <p class="notehub-label text-muted-foreground">{{ t('labels.totalDocs') }}</p>
+                <p class="mt-3 text-2xl font-semibold tracking-[-0.04em] tabular-nums text-foreground">
+                  {{ formatCount(totalDocs) }}
+                </p>
+              </div>
+              <div class="rounded-[1.25rem] bg-background/70 p-3">
+                <p class="notehub-label text-muted-foreground">{{ t('labels.filteredDocs') }}</p>
+                <p class="mt-3 text-2xl font-semibold tracking-[-0.04em] tabular-nums text-foreground">
+                  {{ formatCount(filteredDocsCount) }}
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="border-b border-foreground/10 px-5 py-4">
+            <label for="desktop-doc-search" class="sr-only">{{ t('actions.searchDocuments') }}</label>
+            <div class="relative">
+              <Search
+                class="pointer-events-none absolute left-4 top-1/2 size-4 -translate-y-1/2 text-muted-foreground"
+                aria-hidden="true"
+              />
+              <Input
+                id="desktop-doc-search"
+                v-model="searchQuery"
+                type="search"
+                name="desktop-doc-search"
+                autocomplete="off"
+                :placeholder="t('placeholders.search')"
+                class="pl-11"
+              />
+            </div>
+          </div>
+
+          <nav
+            class="docs-scroll h-[calc(100%-13.25rem)] overflow-y-auto px-3 py-3"
+            :aria-label="t('nav.documents')"
+          >
+            <RouterLink
               v-for="doc in filteredDocs"
               :key="doc.slug"
-              type="button"
-              class="w-full rounded-lg border p-3 text-left transition hover:bg-accent/60"
+              :to="{ name: 'docs', params: { slug: doc.slug } }"
+              class="group block rounded-[1.4rem] border p-4 text-left transition-[transform,border-color,background-color,box-shadow] duration-200"
               :class="
-                activeDoc?.slug === doc.slug
-                  ? 'border-primary/40 bg-accent/60'
-                  : 'border-border bg-card'
+                activeSlug === doc.slug
+                  ? 'border-primary/30 bg-primary/10 shadow-[0_18px_36px_rgba(255,107,75,0.08)]'
+                  : 'border-border/80 bg-white/60 hover:-translate-y-0.5 hover:border-foreground/20 hover:bg-white/80'
               "
-              @click="selectDocument(doc.slug)"
+              :aria-current="activeSlug === doc.slug ? 'page' : undefined"
+              @click="closePanels"
             >
-              <p class="line-clamp-2 text-sm font-medium text-foreground">{{ docTitle(doc) }}</p>
-              <p class="mt-1 line-clamp-2 text-xs text-muted-foreground">{{ docSubtitle(doc) }}</p>
-              <Badge variant="secondary" class="mt-2">
-                {{ doc.sectionCount }} {{ t('labels.sections') }}
-              </Badge>
-            </button>
-          </div>
+              <div class="flex items-start gap-3">
+                <span
+                  class="flex size-10 shrink-0 items-center justify-center rounded-full border text-[0.72rem] font-semibold tracking-[0.18em] tabular-nums"
+                  :class="
+                    activeSlug === doc.slug
+                      ? 'border-primary/30 bg-primary/20 text-primary'
+                      : 'border-foreground/10 bg-background/80 text-muted-foreground'
+                  "
+                >
+                  {{ docOrderLabel(doc.slug) }}
+                </span>
+
+                <div class="min-w-0 flex-1">
+                  <div class="flex items-start justify-between gap-3">
+                    <p class="line-clamp-2 text-sm font-semibold tracking-[-0.02em] text-foreground">
+                      {{ docTitle(doc) }}
+                    </p>
+                    <Badge variant="outline" class="shrink-0 tabular-nums">
+                      {{ docSectionCount(doc.slug) }}
+                    </Badge>
+                  </div>
+                  <p class="mt-2 line-clamp-2 text-xs leading-5 text-muted-foreground">
+                    {{ docSubtitle(doc) }}
+                  </p>
+                </div>
+              </div>
+            </RouterLink>
+          </nav>
         </div>
       </aside>
 
-      <section class="min-w-0">
-        <article v-if="activeDoc" class="px-4 py-8 sm:px-6 lg:px-10">
-          <div class="mb-6 rounded-xl border bg-card p-4">
-            <p class="text-xs uppercase tracking-wide text-muted-foreground">
-              {{ t('actions.openDocument') }}
-            </p>
-            <h1 class="mt-2 text-2xl font-semibold text-foreground">{{ docTitle(activeDoc) }}</h1>
-            <p class="mt-1 text-sm text-muted-foreground">{{ docSubtitle(activeDoc) }}</p>
-            <Badge variant="secondary" class="mt-3">
-              {{ activeDoc.sectionCount }} {{ t('labels.sections') }}
-            </Badge>
+      <section class="min-w-0 space-y-6">
+        <section class="surface-panel-dark relative overflow-hidden rounded-[2rem] px-6 py-7 text-white sm:px-8 sm:py-8">
+          <div class="absolute -right-10 top-[-20px] h-40 w-40 rounded-full bg-primary/20 blur-3xl" />
+          <div class="absolute bottom-[-48px] left-[18%] h-36 w-36 rounded-full bg-amber-200/10 blur-3xl" />
+
+          <div class="relative flex flex-col gap-8 xl:flex-row xl:items-end xl:justify-between">
+            <div class="max-w-3xl">
+              <div class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2">
+                <Sparkles class="size-4 text-primary" aria-hidden="true" />
+                <span class="notehub-label text-white/70">{{ t('labels.bilingualMode') }}</span>
+              </div>
+
+              <p class="mt-5 notehub-label text-white/40">
+                {{ activeDoc ? `Doc ${docOrderLabel(activeDoc.slug)} / ${formatCount(totalDocs)}` : 'Reference Library' }}
+              </p>
+              <h1 class="mt-3 max-w-3xl text-4xl font-semibold tracking-[-0.06em] text-white sm:text-5xl lg:text-[3.75rem]">
+                {{ activeDoc ? docTitle(activeDoc) : t('app.name') }}
+              </h1>
+              <p class="mt-4 max-w-2xl text-base leading-8 text-white/70 sm:text-lg">
+                {{ activeDoc ? docSubtitle(activeDoc) : t('app.subtitle') }}
+              </p>
+            </div>
+
+            <div class="grid gap-3 sm:grid-cols-3 xl:min-w-[430px]">
+              <div class="rounded-[1.35rem] border border-white/10 bg-white/5 p-4">
+                <p class="notehub-label text-white/50">{{ t('labels.totalDocs') }}</p>
+                <p class="mt-3 text-3xl font-semibold tracking-[-0.05em] tabular-nums text-white">
+                  {{ formatCount(totalDocs) }}
+                </p>
+              </div>
+
+              <div class="rounded-[1.35rem] border border-white/10 bg-white/5 p-4">
+                <p class="notehub-label text-white/50">{{ t('labels.totalSections') }}</p>
+                <p class="mt-3 text-3xl font-semibold tracking-[-0.05em] tabular-nums text-white">
+                  {{ formatCount(totalSectionCount) }}
+                </p>
+              </div>
+
+              <div class="rounded-[1.35rem] border border-white/10 bg-white/5 p-4">
+                <p class="notehub-label text-white/50">{{ t('labels.filteredDocs') }}</p>
+                <p class="mt-3 text-3xl font-semibold tracking-[-0.05em] tabular-nums text-white">
+                  {{ formatCount(filteredDocsCount) }}
+                </p>
+              </div>
+            </div>
           </div>
 
-          <div
-            ref="articleContentRef"
-            class="prose prose-slate max-w-none prose-headings:scroll-mt-24 prose-headings:font-semibold prose-p:leading-7 prose-li:leading-7 prose-a:text-primary hover:prose-a:text-primary/80 prose-pre:rounded-xl prose-blockquote:border-l-primary prose-blockquote:text-muted-foreground"
-          >
+          <div v-if="quickJumpHeadings.length && activeDoc" class="relative mt-8">
+            <div class="flex items-center gap-3">
+              <p class="notehub-label text-white/50">{{ t('labels.quickJump') }}</p>
+              <div class="h-px flex-1 bg-white/10" />
+            </div>
+
+            <div class="mt-4 flex flex-wrap gap-2">
+              <RouterLink
+                v-for="heading in quickJumpHeadings"
+                :key="heading.id"
+                :to="{ name: 'docs', params: { slug: activeDoc.slug }, hash: `#${heading.id}` }"
+                class="rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-white/80 transition-[transform,background-color,border-color,color] duration-200 hover:-translate-y-0.5 hover:border-white/20 hover:bg-white/10 hover:text-white"
+                @click="handleHeadingNavigation(heading.id)"
+              >
+                {{ getHeadingText(heading) }}
+              </RouterLink>
+            </div>
+          </div>
+        </section>
+
+        <article v-if="activeDoc" class="surface-panel overflow-hidden rounded-[2rem]">
+          <div class="flex flex-col gap-4 border-b border-foreground/10 px-6 py-5 sm:flex-row sm:items-end sm:justify-between sm:px-8">
+            <div>
+              <p class="notehub-label text-muted-foreground">{{ t('labels.currentDoc') }}</p>
+              <h2 class="mt-3 text-2xl font-semibold tracking-[-0.05em] text-foreground sm:text-3xl">
+                {{ docTitle(activeDoc) }}
+              </h2>
+              <p class="mt-2 max-w-2xl text-sm leading-6 text-muted-foreground sm:text-base">
+                {{ docSubtitle(activeDoc) }}
+              </p>
+            </div>
+
+            <div class="flex flex-wrap items-center gap-3">
+              <Badge variant="default">{{ t('labels.currentSections') }}</Badge>
+              <div class="rounded-full border border-foreground/10 bg-background/75 px-4 py-2 text-sm">
+                <span class="font-semibold tabular-nums text-foreground">{{ formatCount(activeDoc.sectionCount) }}</span>
+                <span class="ml-2 text-muted-foreground">{{ t('labels.sections') }}</span>
+              </div>
+            </div>
+          </div>
+
+          <div ref="articleContentRef" class="notehub-prose max-w-none px-6 py-8 sm:px-8 lg:px-12 lg:py-10">
             <div v-html="activeDoc.html" />
+          </div>
+
+          <div class="border-t border-foreground/10 bg-background/50 px-6 py-6 sm:px-8">
+            <div class="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
+              <div>
+                <p class="notehub-label text-muted-foreground">{{ t('labels.continueReading') }}</p>
+                <p class="mt-2 max-w-xl text-sm leading-6 text-muted-foreground">
+                  {{ t('app.subtitle') }}
+                </p>
+              </div>
+
+              <div class="grid gap-3 sm:grid-cols-2">
+                <RouterLink
+                  v-if="previousDoc"
+                  :to="{ name: 'docs', params: { slug: previousDoc.slug } }"
+                  class="group flex min-w-[220px] items-center gap-3 rounded-[1.3rem] border border-foreground/10 bg-white/70 px-4 py-3 text-left transition-[transform,border-color,background-color,box-shadow] duration-200 hover:-translate-y-0.5 hover:border-foreground/20 hover:bg-white"
+                >
+                  <span class="flex size-9 items-center justify-center rounded-full bg-background text-foreground">
+                    <ArrowLeft class="size-4" aria-hidden="true" />
+                  </span>
+                  <div class="min-w-0">
+                    <p class="notehub-label text-muted-foreground">{{ t('actions.previousDoc') }}</p>
+                    <p class="mt-1 line-clamp-1 text-sm font-semibold text-foreground">
+                      {{ docTitle(previousDoc) }}
+                    </p>
+                  </div>
+                </RouterLink>
+
+                <RouterLink
+                  v-if="nextDoc"
+                  :to="{ name: 'docs', params: { slug: nextDoc.slug } }"
+                  class="group flex min-w-[220px] items-center gap-3 rounded-[1.3rem] border border-foreground/10 bg-white/70 px-4 py-3 text-left transition-[transform,border-color,background-color,box-shadow] duration-200 hover:-translate-y-0.5 hover:border-foreground/20 hover:bg-white"
+                >
+                  <span class="flex size-9 items-center justify-center rounded-full bg-background text-foreground">
+                    <ArrowRight class="size-4" aria-hidden="true" />
+                  </span>
+                  <div class="min-w-0">
+                    <p class="notehub-label text-muted-foreground">{{ t('actions.nextDoc') }}</p>
+                    <p class="mt-1 line-clamp-1 text-sm font-semibold text-foreground">
+                      {{ docTitle(nextDoc) }}
+                    </p>
+                  </div>
+                </RouterLink>
+              </div>
+            </div>
           </div>
         </article>
 
-        <div v-else class="px-6 py-10 text-muted-foreground">
+        <div v-else-if="isDocLoading" class="surface-panel rounded-[2rem] px-6 py-8 sm:px-8">
+          <div class="animate-pulse space-y-5">
+            <div class="h-5 w-32 rounded-full bg-muted" />
+            <div class="h-12 w-3/4 rounded-[1rem] bg-muted" />
+            <div class="h-4 w-2/3 rounded-full bg-muted" />
+            <div class="h-4 w-full rounded-full bg-muted" />
+            <div class="h-4 w-11/12 rounded-full bg-muted" />
+            <div class="h-4 w-10/12 rounded-full bg-muted" />
+          </div>
+        </div>
+
+        <div v-else class="surface-panel rounded-[2rem] px-6 py-8 text-muted-foreground sm:px-8">
           {{ t('labels.noSections') }}
         </div>
       </section>
 
-      <aside v-if="showDesktopToc" class="hidden border-l lg:block">
-        <div class="sticky top-16 h-[calc(100vh-4rem)] overflow-y-auto p-4">
-          <p class="mb-3 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
-            {{ t('nav.contents') }}
-          </p>
-
-          <div v-if="activeDoc?.headings.length" class="space-y-1">
-            <button
-              v-for="heading in activeDoc.headings"
-              :key="heading.id"
-              type="button"
-              class="block w-full rounded px-2 py-1 text-left text-muted-foreground transition hover:bg-accent hover:text-accent-foreground"
-              :class="[
-                headingClass(heading.level),
-                activeHeadingId === heading.id ? 'bg-accent text-accent-foreground' : '',
-              ]"
-              @click="jumpToHeading(heading.id)"
-            >
-              {{ getHeadingText(heading) }}
-            </button>
+      <aside v-if="showDesktopToc" class="hidden lg:block">
+        <div class="surface-panel sticky top-24 h-[calc(100vh-7.5rem)] overflow-hidden rounded-[1.9rem]">
+          <div class="border-b border-foreground/10 px-5 pb-4 pt-5">
+            <p class="notehub-label text-muted-foreground">{{ t('nav.contents') }}</p>
+            <div class="mt-3 flex items-center justify-between gap-3">
+              <h2 class="text-lg font-semibold tracking-[-0.03em] text-foreground">
+                {{ t('nav.contents') }}
+              </h2>
+              <Badge variant="outline" class="tabular-nums">
+                {{ formatCount(activeDoc?.headings.length) }}
+              </Badge>
+            </div>
           </div>
 
-          <p v-else class="text-sm text-muted-foreground">
-            {{ t('labels.noSections') }}
-          </p>
+          <div class="docs-scroll flex h-[calc(100%-5.75rem)] flex-col overflow-y-auto px-4 pb-4 pt-4">
+            <nav v-if="activeDoc?.headings.length" class="space-y-1.5" :aria-label="t('nav.contents')">
+              <RouterLink
+                v-for="heading in activeDoc.headings"
+                :key="heading.id"
+                :to="{ name: 'docs', params: { slug: activeDoc.slug }, hash: `#${heading.id}` }"
+                class="block rounded-[1rem] border px-3 py-2.5 text-left transition-[background-color,border-color,color,transform] duration-200 hover:-translate-y-0.5"
+                :class="[
+                  headingClass(heading.level),
+                  activeHeadingId === heading.id
+                    ? 'border-primary/30 bg-primary/10 text-foreground shadow-[0_10px_24px_rgba(255,107,75,0.08)]'
+                    : 'border-transparent text-muted-foreground hover:border-foreground/10 hover:bg-background/80 hover:text-foreground',
+                ]"
+                :aria-current="activeHeadingId === heading.id ? 'location' : undefined"
+                @click="handleHeadingNavigation(heading.id)"
+              >
+                {{ getHeadingText(heading) }}
+              </RouterLink>
+            </nav>
 
-          <Separator class="my-4" />
-          <Button size="sm" variant="outline" class="w-full" @click="scrollToTop">
-            <ChevronUp class="mr-1 size-4" />
-            {{ t('actions.backToTop') }}
-          </Button>
+            <p v-else class="text-sm text-muted-foreground">
+              {{ t('labels.noSections') }}
+            </p>
+
+            <div class="mt-auto pt-5">
+              <div class="h-px bg-foreground/10" />
+              <Button size="sm" variant="outline" class="mt-5 w-full" @click="scrollToTop">
+                <ChevronUp class="size-4" aria-hidden="true" />
+                {{ t('actions.backToTop') }}
+              </Button>
+            </div>
+          </div>
         </div>
       </aside>
     </main>
 
     <Sheet v-model:open="docsSheetOpen">
-      <SheetContent side="left" class="w-[92vw] p-0 sm:max-w-sm">
-        <SheetHeader class="border-b p-4">
-          <SheetTitle>{{ t('nav.documents') }}</SheetTitle>
-        </SheetHeader>
-        <div class="h-[calc(100vh-4.5rem)] overflow-y-auto p-4">
-          <Input
-            v-model="searchQuery"
-            :placeholder="t('placeholders.search')"
-            class="mb-4 bg-card"
-          />
-          <div class="space-y-2">
-            <button
+      <SheetContent side="left" class="w-[92vw] border-none bg-transparent p-0 shadow-none sm:max-w-md">
+        <div class="surface-panel flex h-full flex-col overflow-hidden rounded-[1.75rem]">
+          <SheetHeader class="border-b border-foreground/10 p-5">
+            <SheetTitle class="text-left">{{ t('labels.referenceLibrary') }}</SheetTitle>
+          </SheetHeader>
+
+          <div class="border-b border-foreground/10 px-5 py-4">
+            <label for="mobile-doc-search" class="sr-only">{{ t('actions.searchDocuments') }}</label>
+            <div class="relative">
+              <Search
+                class="pointer-events-none absolute left-4 top-1/2 size-4 -translate-y-1/2 text-muted-foreground"
+                aria-hidden="true"
+              />
+              <Input
+                id="mobile-doc-search"
+                v-model="searchQuery"
+                type="search"
+                name="mobile-doc-search"
+                autocomplete="off"
+                :placeholder="t('placeholders.search')"
+                class="pl-11"
+              />
+            </div>
+          </div>
+
+          <nav
+            class="docs-scroll h-[calc(100vh-10.75rem)] overflow-y-auto px-3 py-3"
+            :aria-label="t('nav.documents')"
+          >
+            <RouterLink
               v-for="doc in filteredDocs"
               :key="`mobile-${doc.slug}`"
-              type="button"
-              class="w-full rounded-lg border p-3 text-left transition hover:bg-accent/60"
+              :to="{ name: 'docs', params: { slug: doc.slug } }"
+              class="group block rounded-[1.35rem] border p-4 text-left transition-[transform,border-color,background-color,box-shadow] duration-200"
               :class="
-                activeDoc?.slug === doc.slug
-                  ? 'border-primary/40 bg-accent/60'
-                  : 'border-border bg-card'
+                activeSlug === doc.slug
+                  ? 'border-primary/30 bg-primary/10 shadow-[0_18px_36px_rgba(255,107,75,0.08)]'
+                  : 'border-border/80 bg-white/60 hover:-translate-y-0.5 hover:border-foreground/20 hover:bg-white/80'
               "
-              @click="selectDocument(doc.slug)"
+              :aria-current="activeSlug === doc.slug ? 'page' : undefined"
+              @click="closePanels"
             >
-              <p class="line-clamp-2 text-sm font-medium text-foreground">{{ docTitle(doc) }}</p>
-              <p class="mt-1 line-clamp-2 text-xs text-muted-foreground">{{ docSubtitle(doc) }}</p>
-              <Badge variant="secondary" class="mt-2">
-                {{ doc.sectionCount }} {{ t('labels.sections') }}
-              </Badge>
-            </button>
-          </div>
+              <div class="flex items-start gap-3">
+                <span
+                  class="flex size-10 shrink-0 items-center justify-center rounded-full border text-[0.72rem] font-semibold tracking-[0.18em] tabular-nums"
+                  :class="
+                    activeSlug === doc.slug
+                      ? 'border-primary/30 bg-primary/20 text-primary'
+                      : 'border-foreground/10 bg-background/80 text-muted-foreground'
+                  "
+                >
+                  {{ docOrderLabel(doc.slug) }}
+                </span>
+
+                <div class="min-w-0 flex-1">
+                  <div class="flex items-start justify-between gap-3">
+                    <p class="line-clamp-2 text-sm font-semibold tracking-[-0.02em] text-foreground">
+                      {{ docTitle(doc) }}
+                    </p>
+                    <Badge variant="outline" class="shrink-0 tabular-nums">
+                      {{ docSectionCount(doc.slug) }}
+                    </Badge>
+                  </div>
+                  <p class="mt-2 line-clamp-2 text-xs leading-5 text-muted-foreground">
+                    {{ docSubtitle(doc) }}
+                  </p>
+                </div>
+              </div>
+            </RouterLink>
+          </nav>
         </div>
       </SheetContent>
     </Sheet>
 
     <Sheet v-model:open="tocSheetOpen">
-      <SheetContent side="right" class="w-[88vw] p-0 sm:max-w-sm">
-        <SheetHeader class="border-b p-4">
-          <SheetTitle>{{ t('nav.contents') }}</SheetTitle>
-        </SheetHeader>
-        <div class="h-[calc(100vh-4.5rem)] overflow-y-auto p-4">
-          <div v-if="activeDoc?.headings.length" class="space-y-1">
-            <button
-              v-for="heading in activeDoc.headings"
-              :key="`mobile-${heading.id}`"
-              type="button"
-              class="block w-full rounded px-2 py-1 text-left text-muted-foreground transition hover:bg-accent hover:text-accent-foreground"
-              :class="[
-                headingClass(heading.level),
-                activeHeadingId === heading.id ? 'bg-accent text-accent-foreground' : '',
-              ]"
-              @click="jumpToHeading(heading.id)"
-            >
-              {{ getHeadingText(heading) }}
-            </button>
-          </div>
-          <p v-else class="text-sm text-muted-foreground">
-            {{ t('labels.noSections') }}
-          </p>
+      <SheetContent side="right" class="w-[92vw] border-none bg-transparent p-0 shadow-none sm:max-w-md">
+        <div class="surface-panel flex h-full flex-col overflow-hidden rounded-[1.75rem]">
+          <SheetHeader class="border-b border-foreground/10 p-5">
+            <SheetTitle class="text-left">{{ t('nav.contents') }}</SheetTitle>
+          </SheetHeader>
 
-          <Separator class="my-4" />
-          <Button size="sm" variant="outline" class="w-full" @click="scrollToTop">
-            <ChevronUp class="mr-1 size-4" />
-            {{ t('actions.backToTop') }}
-          </Button>
+          <div class="docs-scroll h-[calc(100vh-10.25rem)] overflow-y-auto px-4 py-4">
+            <nav v-if="activeDoc?.headings.length" class="space-y-1.5" :aria-label="t('nav.contents')">
+              <RouterLink
+                v-for="heading in activeDoc.headings"
+                :key="`mobile-${heading.id}`"
+                :to="{ name: 'docs', params: { slug: activeDoc.slug }, hash: `#${heading.id}` }"
+                class="block rounded-[1rem] border px-3 py-2.5 text-left transition-[background-color,border-color,color,transform] duration-200"
+                :class="[
+                  headingClass(heading.level),
+                  activeHeadingId === heading.id
+                    ? 'border-primary/30 bg-primary/10 text-foreground shadow-[0_10px_24px_rgba(255,107,75,0.08)]'
+                    : 'border-transparent text-muted-foreground hover:border-foreground/10 hover:bg-background/80 hover:text-foreground',
+                ]"
+                :aria-current="activeHeadingId === heading.id ? 'location' : undefined"
+                @click="handleHeadingNavigation(heading.id)"
+              >
+                {{ getHeadingText(heading) }}
+              </RouterLink>
+            </nav>
+
+            <p v-else class="text-sm text-muted-foreground">
+              {{ t('labels.noSections') }}
+            </p>
+
+            <div class="mt-5 h-px bg-foreground/10" />
+            <Button size="sm" variant="outline" class="mt-5 w-full" @click="scrollToTop">
+              <ChevronUp class="size-4" aria-hidden="true" />
+              {{ t('actions.backToTop') }}
+            </Button>
+          </div>
         </div>
       </SheetContent>
     </Sheet>

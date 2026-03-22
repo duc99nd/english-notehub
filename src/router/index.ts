@@ -1,5 +1,4 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import DocsView from '@/views/DocsView.vue'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -30,7 +29,7 @@ const router = createRouter({
     {
       path: '/docs/:slug?',
       name: 'docs',
-      component: DocsView,
+      component: () => import('@/views/DocsView.vue'),
     },
   ],
 })

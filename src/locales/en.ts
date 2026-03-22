@@ -1,19 +1,29 @@
 export default {
   app: {
     name: 'English Notehub',
-    subtitle: 'Fast reference for speaking, writing, and meetings',
+    subtitle: 'A sharper study desk for meetings, writing, and confident client English',
   },
   nav: {
     documents: 'Documents',
     contents: 'Contents',
     language: 'Language',
+    skipToContent: 'Skip To Content',
   },
   labels: {
     sections: 'sections',
     noSections: 'No sections found',
+    referenceLibrary: 'Reference Library',
+    totalDocs: 'Total Docs',
+    totalSections: 'Total Sections',
+    currentSections: 'Current Sections',
+    filteredDocs: 'Visible Docs',
+    quickJump: 'Quick Jump',
+    currentDoc: 'Current Document',
+    continueReading: 'Continue Reading',
+    bilingualMode: 'EN & VI Ready',
   },
   placeholders: {
-    search: 'Filter documents...',
+    search: 'Filter documents…',
   },
   actions: {
     openDocument: 'Open document',
@@ -22,6 +32,9 @@ export default {
     openContents: 'TOC',
     hideContents: 'Hide TOC',
     showContents: 'Show TOC',
+    previousDoc: 'Previous doc',
+    nextDoc: 'Next doc',
+    searchDocuments: 'Search documents',
   },
   locale: {
     en: 'English',
