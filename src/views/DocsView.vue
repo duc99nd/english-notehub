@@ -9,10 +9,14 @@ import {
   ChevronUp,
   Languages,
   ListTree,
+  Moon,
+  PanelLeftClose,
+  PanelLeftOpen,
   PanelRightClose,
   PanelRightOpen,
   Search,
   Sparkles,
+  Sun,
 } from 'lucide-vue-next'
 import { persistLocale, type AppLocale } from '@/i18n'
 import {
@@ -26,6 +30,7 @@ import {
 } from '@/lib/content'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
+import { useTheme } from '@/composables/useTheme'
 import { Input } from '@/components/ui/input'
 import { Sheet, SheetContent, SheetHeader, SheetTitle } from '@/components/ui/sheet'
 
@@ -33,12 +38,14 @@ const docs = getDocs()
 const route = useRoute()
 const router = useRouter()
 const { t, locale } = useI18n()
+const { isDark, toggleTheme } = useTheme()
 
 const articleContentRef = ref<HTMLElement | null>(null)
 const searchQuery = ref('')
 const docsSheetOpen = ref(false)
 const tocSheetOpen = ref(false)
 const showDesktopToc = ref(true)
+const showDesktopSidebar = ref(true)
 const activeHeadingId = ref('')
 const activeDoc = ref<DocItem | null>(null)
 const isDocLoading = ref(false)
@@ -113,11 +120,19 @@ const totalSectionCount = computed(() => {
 const quickJumpHeadings = computed(() => activeDoc.value?.headings.slice(0, 6) ?? [])
 
 const mainGridClass = computed(() => {
-  if (showDesktopToc.value) {
+  const sidebar = showDesktopSidebar.value
+  const toc = showDesktopToc.value
+
+  if (sidebar && toc) {
     return 'lg:grid-cols-[320px_minmax(0,1fr)_290px]'
   }
-
-  return 'lg:grid-cols-[320px_minmax(0,1fr)]'
+  if (sidebar && !toc) {
+    return 'lg:grid-cols-[320px_minmax(0,1fr)]'
+  }
+  if (!sidebar && toc) {
+    return 'lg:grid-cols-[minmax(0,1fr)_290px]'
+  }
+  return 'lg:grid-cols-[minmax(0,1fr)]'
 })
 
 function headingClass(level: number): string {
@@ -166,6 +181,12 @@ function closePanels(): void {
 function handleHeadingNavigation(id: string): void {
   activeHeadingId.value = id
   tocSheetOpen.value = false
+  nextTick(() => {
+    const el = document.getElementById(id)
+    if (el) {
+      el.scrollIntoView({ behavior: 'instant', block: 'start' })
+    }
+  })
 }
 
 function getHeadingElements(): HTMLElement[] {
@@ -249,7 +270,7 @@ async function loadActiveDocBySlug(slug: string): Promise<void> {
 
   loadRequestId += 1
   const requestId = loadRequestId
-  const loadedDoc = await getDocBySlug(slug)
+  const loadedDoc = await getDocBySlug(slug, currentLocale.value)
   if (requestId !== loadRequestId) {
     return
   }
@@ -267,7 +288,7 @@ async function loadActiveDocBySlug(slug: string): Promise<void> {
 async function preloadSectionCounts(): Promise<void> {
   const entries = await Promise.all(
     docs.map(async (doc) => {
-      const loadedDoc = await getDocBySlug(doc.slug)
+      const loadedDoc = await getDocBySlug(doc.slug, currentLocale.value)
       return loadedDoc ? ([doc.slug, loadedDoc.sectionCount] as const) : null
     }),
   )
@@ -318,6 +339,17 @@ watch(
   { immediate: true },
 )
 
+// Re-load doc content when locale changes
+watch(
+  currentLocale,
+  () => {
+    const slug = typeof route.params.slug === 'string' ? route.params.slug : ''
+    if (slug) {
+      void loadActiveDocBySlug(slug)
+    }
+  },
+)
+
 watch(
   () => [activeDoc.value?.slug, route.hash],
   () => {
@@ -341,7 +373,7 @@ onBeforeUnmount(() => {
 })
 
 function scrollToTop(): void {
-  window.scrollTo({ top: 0, behavior: 'smooth' })
+  window.scrollTo({ top: 0, behavior: 'instant' })
 }
 </script>
 
@@ -350,50 +382,59 @@ function scrollToTop(): void {
 
   <div class="relative min-h-screen bg-background">
     <div
-      class="pointer-events-none absolute inset-x-0 top-0 h-[28rem] bg-[radial-gradient(circle_at_top_right,rgba(255,107,75,0.18),transparent_30%),radial-gradient(circle_at_left_top,rgba(255,210,140,0.22),transparent_24%)]"
+      class="pointer-events-none absolute inset-x-0 top-0 h-[28rem] bg-[radial-gradient(circle_at_top_right,hsl(221_83%_53%_/_0.08),transparent_30%),radial-gradient(circle_at_left_top,hsl(210_40%_96%_/_0.15),transparent_24%)] dark:bg-[radial-gradient(circle_at_top_right,hsl(217_91%_60%_/_0.12),transparent_30%),radial-gradient(circle_at_left_top,hsl(217_33%_17%_/_0.2),transparent_24%)]"
     />
 
-    <header class="sticky top-0 z-40 border-b border-white/10 bg-[#1a1411]/88 text-white backdrop-blur-xl">
+    <header class="sticky top-0 z-40 border-b border-border bg-background/90 backdrop-blur-xl">
       <div class="mx-auto flex min-h-20 max-w-[1500px] items-center gap-4 px-4 py-3 sm:px-6">
-        <RouterLink to="/docs" class="group flex min-w-0 items-center gap-4">
-          <span
-            class="flex size-12 items-center justify-center rounded-[1rem] border border-white/10 bg-white/5 shadow-[0_12px_28px_rgba(0,0,0,0.18)]"
-          >
-            <img src="/brand/logo-mark.svg" alt="English Notehub logo" class="size-9" />
+        <RouterLink to="/docs" class="group flex shrink-0 items-center gap-3 sm:gap-4">
+          <span class="flex size-10 items-center justify-center overflow-hidden rounded-xl shadow-sm sm:size-12">
+            <img src="/brand/logo-mark.svg" alt="English Notehub logo" class="size-full" />
           </span>
-          <div class="min-w-0">
-            <p class="notehub-label text-white/40">Study Desk</p>
-            <p class="truncate text-lg font-semibold tracking-[-0.04em] text-white">
-              {{ t('app.name') }}
+          <div class="hidden min-w-0 sm:block">
+            <p class="text-[0.65rem] font-semibold uppercase tracking-[0.15em] text-muted-foreground">Study Desk</p>
+            <p class="text-base font-bold tracking-[-0.02em]">
+              <span class="text-foreground">English </span><span class="bg-gradient-to-br from-teal-500 to-blue-500 bg-clip-text text-transparent">Notehub</span>
             </p>
           </div>
         </RouterLink>
 
-        <div class="ml-auto flex flex-wrap items-center justify-end gap-2">
+        <div class="ml-auto flex items-center gap-1.5 sm:gap-2">
           <Button
             variant="outline"
             size="sm"
-                class="inline-flex border-white/10 bg-white/5 text-white hover:border-white/20 hover:bg-white/10 hover:text-white lg:hidden"
+            class="size-9 p-0 lg:hidden"
+            :aria-label="t('actions.openDocs')"
             @click="docsSheetOpen = true"
           >
             <BookOpenText class="size-4" aria-hidden="true" />
-            {{ t('actions.openDocs') }}
           </Button>
 
           <Button
             variant="outline"
             size="sm"
-                class="inline-flex border-white/10 bg-white/5 text-white hover:border-white/20 hover:bg-white/10 hover:text-white lg:hidden"
+            class="size-9 p-0 lg:hidden"
+            :aria-label="t('actions.openContents')"
             @click="tocSheetOpen = true"
           >
             <ListTree class="size-4" aria-hidden="true" />
-            {{ t('actions.openContents') }}
           </Button>
 
           <Button
             variant="outline"
             size="sm"
-                class="hidden border-white/10 bg-white/5 text-white hover:border-white/20 hover:bg-white/10 hover:text-white lg:inline-flex"
+            class="hidden lg:inline-flex"
+            @click="showDesktopSidebar = !showDesktopSidebar"
+          >
+            <PanelLeftClose v-if="showDesktopSidebar" class="size-4" aria-hidden="true" />
+            <PanelLeftOpen v-else class="size-4" aria-hidden="true" />
+            {{ showDesktopSidebar ? t('actions.hideDocs') : t('actions.showDocs') }}
+          </Button>
+
+          <Button
+            variant="outline"
+            size="sm"
+            class="hidden lg:inline-flex"
             @click="showDesktopToc = !showDesktopToc"
           >
             <PanelRightClose v-if="showDesktopToc" class="size-4" aria-hidden="true" />
@@ -401,20 +442,26 @@ function scrollToTop(): void {
             {{ showDesktopToc ? t('actions.hideContents') : t('actions.showContents') }}
           </Button>
 
-          <div
-            class="flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-2 text-white shadow-[0_10px_24px_rgba(0,0,0,0.15)]"
+          <Button
+            variant="outline"
+            size="sm"
+            class="size-9 p-0"
+            :aria-label="isDark ? 'Switch to light mode' : 'Switch to dark mode'"
+            @click="toggleTheme"
+          >
+            <Sun v-if="isDark" class="size-4" aria-hidden="true" />
+            <Moon v-else class="size-4" aria-hidden="true" />
+          </Button>
+
+          <Button
+            variant="outline"
+            size="sm"
+            class="size-9 gap-2 rounded-full p-0 sm:w-auto sm:px-3"
+            @click="currentLocale = currentLocale === 'en' ? 'vi' : 'en'"
           >
             <Languages class="size-4 text-primary" aria-hidden="true" />
-            <label for="locale" class="sr-only">{{ t('nav.language') }}</label>
-            <select
-              id="locale"
-              v-model="currentLocale"
-              class="appearance-none bg-transparent text-sm font-medium text-white focus-visible:outline-none"
-            >
-              <option value="en" class="bg-[#1a1411] text-white">{{ t('locale.en') }}</option>
-              <option value="vi" class="bg-[#1a1411] text-white">{{ t('locale.vi') }}</option>
-            </select>
-          </div>
+            <span class="hidden text-sm font-semibold sm:inline">{{ currentLocale === 'en' ? 'EN' : 'VI' }}</span>
+          </Button>
         </div>
       </div>
     </header>
@@ -424,8 +471,8 @@ function scrollToTop(): void {
       class="relative mx-auto grid max-w-[1500px] grid-cols-1 gap-6 px-4 pb-14 pt-6 sm:px-6 lg:pb-16 lg:pt-8"
       :class="mainGridClass"
     >
-      <aside class="hidden lg:block">
-        <div class="surface-panel sticky top-24 h-[calc(100vh-7.5rem)] overflow-hidden rounded-[1.9rem]">
+      <aside v-if="showDesktopSidebar" class="hidden lg:block">
+        <div class="surface-panel sticky top-24 flex h-[calc(100vh-7.5rem)] flex-col overflow-hidden rounded-[1.9rem]">
           <div class="border-b border-foreground/10 px-5 pb-4 pt-5">
             <p class="notehub-label text-muted-foreground">{{ t('labels.referenceLibrary') }}</p>
             <div class="mt-4 grid grid-cols-2 gap-3">
@@ -464,7 +511,7 @@ function scrollToTop(): void {
           </div>
 
           <nav
-            class="docs-scroll h-[calc(100%-13.25rem)] overflow-y-auto px-3 py-3"
+            class="docs-scroll min-h-0 flex-1 overflow-y-auto px-3 pb-6 pt-3"
             :aria-label="t('nav.documents')"
           >
             <RouterLink
@@ -475,7 +522,7 @@ function scrollToTop(): void {
               :class="
                 activeSlug === doc.slug
                   ? 'border-primary/30 bg-primary/10 shadow-[0_18px_36px_rgba(255,107,75,0.08)]'
-                  : 'border-border/80 bg-white/60 hover:-translate-y-0.5 hover:border-foreground/20 hover:bg-white/80'
+                  : 'border-border bg-card hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-[0_8px_24px_rgba(59,130,246,0.10)]'
               "
               :aria-current="activeSlug === doc.slug ? 'page' : undefined"
               @click="closePanels"
@@ -512,13 +559,13 @@ function scrollToTop(): void {
       </aside>
 
       <section class="min-w-0 space-y-6">
-        <section class="surface-panel-dark relative overflow-hidden rounded-[2rem] px-6 py-7 text-white sm:px-8 sm:py-8">
+        <section class="surface-panel-dark relative overflow-hidden rounded-[2rem] px-5 py-5 text-white sm:px-6 sm:py-6">
           <div class="absolute -right-10 top-[-20px] h-40 w-40 rounded-full bg-primary/20 blur-3xl" />
           <div class="absolute bottom-[-48px] left-[18%] h-36 w-36 rounded-full bg-amber-200/10 blur-3xl" />
 
           <div class="relative flex flex-col gap-8 xl:flex-row xl:items-end xl:justify-between">
             <div class="max-w-3xl">
-              <div class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2">
+              <div class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-1.5">
                 <Sparkles class="size-4 text-primary" aria-hidden="true" />
                 <span class="notehub-label text-white/70">{{ t('labels.bilingualMode') }}</span>
               </div>
@@ -526,7 +573,7 @@ function scrollToTop(): void {
               <p class="mt-5 notehub-label text-white/40">
                 {{ activeDoc ? `Doc ${docOrderLabel(activeDoc.slug)} / ${formatCount(totalDocs)}` : 'Reference Library' }}
               </p>
-              <h1 class="mt-3 max-w-3xl text-4xl font-semibold tracking-[-0.06em] text-white sm:text-5xl lg:text-[3.75rem]">
+              <h1 class="mt-3 max-w-3xl text-2xl font-semibold tracking-[-0.04em] text-white sm:text-3xl lg:text-4xl">
                 {{ activeDoc ? docTitle(activeDoc) : t('app.name') }}
               </h1>
               <p class="mt-4 max-w-2xl text-base leading-8 text-white/70 sm:text-lg">
@@ -534,22 +581,22 @@ function scrollToTop(): void {
               </p>
             </div>
 
-            <div class="grid gap-3 sm:grid-cols-3 xl:min-w-[430px]">
-              <div class="rounded-[1.35rem] border border-white/10 bg-white/5 p-4">
+            <div class="grid gap-2 sm:grid-cols-3 xl:min-w-[360px]">
+              <div class="rounded-[1.35rem] border border-white/10 bg-white/5 p-3">
                 <p class="notehub-label text-white/50">{{ t('labels.totalDocs') }}</p>
                 <p class="mt-3 text-3xl font-semibold tracking-[-0.05em] tabular-nums text-white">
                   {{ formatCount(totalDocs) }}
                 </p>
               </div>
 
-              <div class="rounded-[1.35rem] border border-white/10 bg-white/5 p-4">
+              <div class="rounded-[1.35rem] border border-white/10 bg-white/5 p-3">
                 <p class="notehub-label text-white/50">{{ t('labels.totalSections') }}</p>
                 <p class="mt-3 text-3xl font-semibold tracking-[-0.05em] tabular-nums text-white">
                   {{ formatCount(totalSectionCount) }}
                 </p>
               </div>
 
-              <div class="rounded-[1.35rem] border border-white/10 bg-white/5 p-4">
+              <div class="rounded-[1.35rem] border border-white/10 bg-white/5 p-3">
                 <p class="notehub-label text-white/50">{{ t('labels.filteredDocs') }}</p>
                 <p class="mt-3 text-3xl font-semibold tracking-[-0.05em] tabular-nums text-white">
                   {{ formatCount(filteredDocsCount) }}
@@ -558,7 +605,7 @@ function scrollToTop(): void {
             </div>
           </div>
 
-          <div v-if="quickJumpHeadings.length && activeDoc" class="relative mt-8">
+          <div v-if="quickJumpHeadings.length && activeDoc" class="relative mt-5">
             <div class="flex items-center gap-3">
               <p class="notehub-label text-white/50">{{ t('labels.quickJump') }}</p>
               <div class="h-px flex-1 bg-white/10" />
@@ -579,25 +626,7 @@ function scrollToTop(): void {
         </section>
 
         <article v-if="activeDoc" class="surface-panel overflow-hidden rounded-[2rem]">
-          <div class="flex flex-col gap-4 border-b border-foreground/10 px-6 py-5 sm:flex-row sm:items-end sm:justify-between sm:px-8">
-            <div>
-              <p class="notehub-label text-muted-foreground">{{ t('labels.currentDoc') }}</p>
-              <h2 class="mt-3 text-2xl font-semibold tracking-[-0.05em] text-foreground sm:text-3xl">
-                {{ docTitle(activeDoc) }}
-              </h2>
-              <p class="mt-2 max-w-2xl text-sm leading-6 text-muted-foreground sm:text-base">
-                {{ docSubtitle(activeDoc) }}
-              </p>
-            </div>
 
-            <div class="flex flex-wrap items-center gap-3">
-              <Badge variant="default">{{ t('labels.currentSections') }}</Badge>
-              <div class="rounded-full border border-foreground/10 bg-background/75 px-4 py-2 text-sm">
-                <span class="font-semibold tabular-nums text-foreground">{{ formatCount(activeDoc.sectionCount) }}</span>
-                <span class="ml-2 text-muted-foreground">{{ t('labels.sections') }}</span>
-              </div>
-            </div>
-          </div>
 
           <div ref="articleContentRef" class="notehub-prose max-w-none px-6 py-8 sm:px-8 lg:px-12 lg:py-10">
             <div v-html="activeDoc.html" />
@@ -616,7 +645,7 @@ function scrollToTop(): void {
                 <RouterLink
                   v-if="previousDoc"
                   :to="{ name: 'docs', params: { slug: previousDoc.slug } }"
-                  class="group flex min-w-[220px] items-center gap-3 rounded-[1.3rem] border border-foreground/10 bg-white/70 px-4 py-3 text-left transition-[transform,border-color,background-color,box-shadow] duration-200 hover:-translate-y-0.5 hover:border-foreground/20 hover:bg-white"
+                  class="group flex min-w-[220px] items-center gap-3 rounded-xl border border-border bg-card px-4 py-3 text-left transition-[transform,border-color,box-shadow] duration-200 hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-[0_8px_24px_rgba(59,130,246,0.10)]"
                 >
                   <span class="flex size-9 items-center justify-center rounded-full bg-background text-foreground">
                     <ArrowLeft class="size-4" aria-hidden="true" />
@@ -632,7 +661,7 @@ function scrollToTop(): void {
                 <RouterLink
                   v-if="nextDoc"
                   :to="{ name: 'docs', params: { slug: nextDoc.slug } }"
-                  class="group flex min-w-[220px] items-center gap-3 rounded-[1.3rem] border border-foreground/10 bg-white/70 px-4 py-3 text-left transition-[transform,border-color,background-color,box-shadow] duration-200 hover:-translate-y-0.5 hover:border-foreground/20 hover:bg-white"
+                  class="group flex min-w-[220px] items-center gap-3 rounded-xl border border-border bg-card px-4 py-3 text-left transition-[transform,border-color,box-shadow] duration-200 hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-[0_8px_24px_rgba(59,130,246,0.10)]"
                 >
                   <span class="flex size-9 items-center justify-center rounded-full bg-background text-foreground">
                     <ArrowRight class="size-4" aria-hidden="true" />
@@ -753,7 +782,7 @@ function scrollToTop(): void {
               :class="
                 activeSlug === doc.slug
                   ? 'border-primary/30 bg-primary/10 shadow-[0_18px_36px_rgba(255,107,75,0.08)]'
-                  : 'border-border/80 bg-white/60 hover:-translate-y-0.5 hover:border-foreground/20 hover:bg-white/80'
+                  : 'border-border/80 bg-white/60 hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-[0_8px_24px_rgba(59,130,246,0.10)]'
               "
               :aria-current="activeSlug === doc.slug ? 'page' : undefined"
               @click="closePanels"

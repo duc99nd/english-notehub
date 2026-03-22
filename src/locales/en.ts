@@ -32,6 +32,8 @@ export default {
     openContents: 'TOC',
     hideContents: 'Hide TOC',
     showContents: 'Show TOC',
+    hideDocs: 'Hide Docs',
+    showDocs: 'Show Docs',
     previousDoc: 'Previous doc',
     nextDoc: 'Next doc',
     searchDocuments: 'Search documents',

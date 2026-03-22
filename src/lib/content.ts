@@ -35,52 +35,52 @@ interface FileMeta {
 }
 
 const FILE_META: Record<string, FileMeta> = {
-  english_meeting_templates_for_team_lead_notion: {
+  '1_meeting_templates': {
     slug: 'meeting-templates',
     titleEn: 'English Meeting Templates For Team Lead',
     subtitleEn: 'Safe speaking formulas for weekly client meetings',
-    titleVi: 'Mau cau hop hang tuan voi khach hang',
-    subtitleVi: 'Cong thuc noi an toan cho team lead',
+    titleVi: 'Mẫu câu họp hàng tuần với khách hàng',
+    subtitleVi: 'Công thức nói an toàn cho team lead',
     order: 1,
   },
-  english_speaking_grammar_reference: {
+  '2_speaking_grammar': {
     slug: 'speaking-grammar',
     titleEn: 'English Speaking Grammar Reference',
     subtitleEn: 'Practical grammar for meetings and work communication',
-    titleVi: 'Ngu phap speaking thuc dung',
-    subtitleVi: 'Cong thuc ngan gon de noi trong meeting',
+    titleVi: 'Ngữ pháp speaking thực dụng',
+    subtitleVi: 'Công thức ngắn gọn để nói trong meeting',
     order: 2,
   },
-  english_writing_reference: {
+  '3_writing_reference': {
     slug: 'writing-reference',
     titleEn: 'English Writing Reference',
     subtitleEn: 'Practical templates for work and client communication',
-    titleVi: 'Mau cau writing trong cong viec',
-    subtitleVi: 'Chat, email, follow-up de dung ngay',
+    titleVi: 'Mẫu câu writing trong công việc',
+    subtitleVi: 'Chat, email, follow-up để dùng ngay',
     order: 3,
   },
-  english_vocabulary_reference: {
+  '4_vocabulary_reference': {
     slug: 'vocabulary-reference',
     titleEn: 'English Vocabulary Reference',
     subtitleEn: 'Core words and collocations for daily work',
-    titleVi: 'Tu vung cong viec can dung nhieu',
-    subtitleVi: 'Tu va cum tu cho speaking va writing',
+    titleVi: 'Từ vựng công việc cần dùng nhiều',
+    subtitleVi: 'Từ và cụm từ cho speaking và writing',
     order: 4,
   },
-  english_client_situations_reference: {
+  '5_client_situations': {
     slug: 'client-situations',
     titleEn: 'English Client Situations Reference',
     subtitleEn: 'Practical English for difficult client situations',
-    titleVi: 'Tinh huong kho voi khach hang',
-    subtitleVi: 'Mau cau de phan hoi lich su va chac chan',
+    titleVi: 'Tình huống khó với khách hàng',
+    subtitleVi: 'Mẫu câu để phản hồi lịch sự và chắc chắn',
     order: 5,
   },
-  english_small_talk_and_rapport: {
+  '6_small_talk_rapport': {
     slug: 'small-talk-rapport',
     titleEn: 'English Small Talk And Rapport',
     subtitleEn: 'Natural opening and closing lines for meetings',
-    titleVi: 'Small talk va tao ket noi tu nhien',
-    subtitleVi: 'Mo va dong hoi hop than thien hon',
+    titleVi: 'Small talk và tạo kết nối tự nhiên',
+    subtitleVi: 'Mở và đóng hội họp thân thiện hơn',
     order: 6,
   },
 }
@@ -105,9 +105,8 @@ function slugify(input: string): string {
 
 function createFallbackTitle(fileName: string): string {
   return fileName
-    .replace(/^english_/, '')
+    .replace(/^\d+_/, '')
     .replace(/_reference$/, '')
-    .replace(/_notion$/, '')
     .replace(/_/g, ' ')
     .replace(/\b\w/g, char => char.toUpperCase())
 }
@@ -124,13 +123,28 @@ function isTocPreludeHeading(input: string): boolean {
   return normalized === 'muc-luc' || normalized === 'contents' || normalized === 'table-of-contents'
 }
 
-const markdownModules = import.meta.glob('../../docs/english_*.md', {
+// English (default) markdown modules — docs/en/
+const markdownModules = import.meta.glob('../../docs/en/*.md', {
+  query: '?raw',
+  import: 'default',
+}) as Record<string, () => Promise<string>>
+
+// Vietnamese markdown modules — docs/vn/
+const markdownModulesVi = import.meta.glob('../../docs/vn/*.md', {
   query: '?raw',
   import: 'default',
 }) as Record<string, () => Promise<string>>
 
 const moduleLoaderByFileName = new Map<string, () => Promise<string>>(
   Object.entries(markdownModules).map(([filePath, loader]) => [
+    filePath.split('/').pop()?.replace('.md', '') ?? filePath,
+    loader,
+  ]),
+)
+
+// Vietnamese loaders share the same base filenames as English
+const viModuleLoaderByFileName = new Map<string, () => Promise<string>>(
+  Object.entries(markdownModulesVi).map(([filePath, loader]) => [
     filePath.split('/').pop()?.replace('.md', '') ?? filePath,
     loader,
   ]),
@@ -155,8 +169,8 @@ const docs: DocSummary[] = Object.keys(markdownModules)
   .sort((a, b) => a.order - b.order)
 
 const docBySlug = new Map(docs.map(doc => [doc.slug, doc]))
-const cacheBySlug = new Map<string, DocItem>()
-const pendingBySlug = new Map<string, Promise<DocItem | undefined>>()
+const cacheByKey = new Map<string, DocItem>()
+const pendingByKey = new Map<string, Promise<DocItem | undefined>>()
 
 async function renderMarkdown(raw: string): Promise<Pick<DocItem, 'html' | 'headings' | 'sectionCount'>> {
   const [{ default: MarkdownIt }, { default: markdownItAnchor }] = await Promise.all([
@@ -184,7 +198,7 @@ async function renderMarkdown(raw: string): Promise<Pick<DocItem, 'html' | 'head
       const level = Number(String(token.tag).replace('h', ''))
       const text = stripMarkdownSyntax(info.title)
 
-      if ((level === 1 || level === 2 || level === 3) && !isTocPreludeHeading(text)) {
+      if ((level === 1 || level === 2) && !isTocPreludeHeading(text)) {
         headings.push({
           id: info.slug,
           text,
@@ -194,15 +208,52 @@ async function renderMarkdown(raw: string): Promise<Pick<DocItem, 'html' | 'head
     },
   })
 
+  let html = parser.render(raw)
+
+  // Strip inline TOC section (MỤC LỤC / Contents / Table of Contents) from rendered HTML.
+  // This heading + its following list is redundant because the sidebar TOC already shows it.
+  html = html.replace(
+    /<h1[^>]*>(?:MỤC LỤC|MỤC LỤC|Contents|Table of Contents)<\/h1>\s*(?:<(?:ul|ol)[^>]*>[\s\S]*?<\/(?:ul|ol)>\s*)*/gi,
+    '',
+  )
+
+  // Convert inline code references to .md files into clickable links
+  // e.g. <code>english_speaking_grammar_reference.md</code>  →  <a href="/docs/speaking-grammar">…</a>
+  // Supports both new numbered filenames and legacy english_* filenames
+  const LEGACY_SLUG_MAP: Record<string, string> = {
+    english_meeting_templates_for_team_lead_notion: 'meeting-templates',
+    english_speaking_grammar_reference: 'speaking-grammar',
+    english_writing_reference: 'writing-reference',
+    english_vocabulary_reference: 'vocabulary-reference',
+    english_client_situations_reference: 'client-situations',
+    english_small_talk_and_rapport: 'small-talk-rapport',
+  }
+
+  html = html.replace(
+    /<code>([a-z0-9_]+)\.md<\/code>/gi,
+    (_match: string, fileName: string) => {
+      const meta = FILE_META[fileName]
+      const slug = meta?.slug ?? LEGACY_SLUG_MAP[fileName]
+      if (slug) {
+        return `<a href="/docs/${slug}" class="doc-file-link"><code>${fileName}.md</code></a>`
+      }
+      return `<code>${fileName}.md</code>`
+    },
+  )
+
   return {
-    html: parser.render(raw),
+    html,
     headings,
     sectionCount: headings.length,
   }
 }
 
-async function loadDoc(summary: DocSummary): Promise<DocItem | undefined> {
-  const loader = moduleLoaderByFileName.get(summary.fileName)
+async function loadDoc(summary: DocSummary, locale: AppLocale = 'en'): Promise<DocItem | undefined> {
+  // Try Vietnamese loader first if locale is 'vi'
+  const loader = locale === 'vi'
+    ? (viModuleLoaderByFileName.get(summary.fileName) ?? moduleLoaderByFileName.get(summary.fileName))
+    : moduleLoaderByFileName.get(summary.fileName)
+
   if (!loader) {
     return undefined
   }
@@ -224,13 +275,15 @@ export function getDocs(): DocSummary[] {
   return docs
 }
 
-export async function getDocBySlug(slug: string): Promise<DocItem | undefined> {
-  if (cacheBySlug.has(slug)) {
-    return cacheBySlug.get(slug)
+export async function getDocBySlug(slug: string, locale: AppLocale = 'en'): Promise<DocItem | undefined> {
+  const cacheKey = `${slug}:${locale}`
+
+  if (cacheByKey.has(cacheKey)) {
+    return cacheByKey.get(cacheKey)
   }
 
-  if (pendingBySlug.has(slug)) {
-    return pendingBySlug.get(slug)
+  if (pendingByKey.has(cacheKey)) {
+    return pendingByKey.get(cacheKey)
   }
 
   const summary = docBySlug.get(slug)
@@ -238,18 +291,18 @@ export async function getDocBySlug(slug: string): Promise<DocItem | undefined> {
     return undefined
   }
 
-  const pending = loadDoc(summary)
+  const pending = loadDoc(summary, locale)
     .then((doc) => {
       if (doc) {
-        cacheBySlug.set(slug, doc)
+        cacheByKey.set(cacheKey, doc)
       }
       return doc
     })
     .finally(() => {
-      pendingBySlug.delete(slug)
+      pendingByKey.delete(cacheKey)
     })
 
-  pendingBySlug.set(slug, pending)
+  pendingByKey.set(cacheKey, pending)
   return pending
 }
 
