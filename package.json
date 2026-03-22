@@ -1,0 +1,53 @@
+{
+  "name": "english-notehub",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "type-check": "vue-tsc --noEmit",
+    "lint": "eslint . --ext .ts,.tsx,.vue,.js,.mjs --max-warnings=0",
+    "lint:fix": "eslint . --ext .ts,.tsx,.vue,.js,.mjs --fix",
+    "format": "prettier . --write",
+    "format:check": "prettier . --check",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "logo:generate": "node scripts/generate-logo.mjs"
+  },
+  "dependencies": {
+    "@vueuse/core": "^14.2.1",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "fuse.js": "^7.1.0",
+    "lucide-vue-next": "^0.577.0",
+    "markdown-it": "^14.1.1",
+    "markdown-it-anchor": "^9.2.0",
+    "pinia": "^3.0.4",
+    "reka-ui": "^2.9.2",
+    "tailwind-merge": "^3.5.0",
+    "tailwindcss-animate": "^1.0.7",
+    "vue": "^3.5.30",
+    "vue-i18n": "^11.3.0",
+    "vue-router": "^5.0.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.19",
+    "@types/markdown-it": "^14.1.2",
+    "@types/node": "^24.12.0",
+    "@typescript-eslint/eslint-plugin": "8.57.1",
+    "@typescript-eslint/parser": "8.57.1",
+    "@vitejs/plugin-vue": "^6.0.5",
+    "@vue/tsconfig": "^0.9.0",
+    "autoprefixer": "^10.4.27",
+    "eslint": "8.57.1",
+    "eslint-config-prettier": "9.1.2",
+    "eslint-plugin-vue": "9.33.0",
+    "postcss": "^8.5.8",
+    "prettier": "3.6.2",
+    "tailwindcss": "^3.4.18",
+    "typescript": "~5.9.3",
+    "vite": "^8.0.1",
+    "vue-eslint-parser": "9.4.3",
+    "vue-tsc": "^3.2.5"
+  }
+}

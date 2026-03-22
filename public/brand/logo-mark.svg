@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="English Notehub mark">
+  <defs>
+    <linearGradient id="notehubGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f766e" />
+      <stop offset="100%" stop-color="#0ea5a4" />
+    </linearGradient>
+  </defs>
+  <rect x="6" y="6" width="116" height="116" rx="24" fill="#f8fafc" />
+  <rect x="16" y="16" width="96" height="96" rx="18" fill="url(#notehubGradient)" />
+  <rect x="34" y="34" width="60" height="60" rx="12" fill="#ffffff" opacity="0.95" />
+  <path d="M46 50h20a10 10 0 0 1 10 10v18h-8V61a4 4 0 0 0-4-4H46z" fill="#0f766e" />
+  <path d="M82 50h-8v28h8z" fill="#0ea5a4" />
+  <circle cx="86" cy="78" r="8" fill="#0f766e" />
+</svg>

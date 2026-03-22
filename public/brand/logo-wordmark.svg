@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 96" role="img" aria-label="English Notehub">
+  <rect x="0" y="0" width="420" height="96" rx="20" fill="#f8fafc" />
+  <g transform="translate(10,8)">
+    <rect x="0" y="0" width="80" height="80" rx="18" fill="#0f766e" />
+    <rect x="16" y="16" width="48" height="48" rx="10" fill="#ffffff" />
+    <path d="M26 30h16a8 8 0 0 1 8 8v14h-7V39a3 3 0 0 0-3-3H26z" fill="#0f766e" />
+    <path d="M55 30h-7v22h7z" fill="#0ea5a4" />
+    <circle cx="58" cy="53" r="6.5" fill="#0f766e" />
+  </g>
+  <text x="108" y="44" fill="#0f172a" font-family="Poppins, Segoe UI, sans-serif" font-size="28" font-weight="700">ENGLISH</text>
+  <text x="108" y="72" fill="#0f766e" font-family="Poppins, Segoe UI, sans-serif" font-size="28" font-weight="700">NOTEHUB</text>
+</svg>
