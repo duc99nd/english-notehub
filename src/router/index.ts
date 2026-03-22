@@ -11,7 +11,7 @@ const router = createRouter({
       return {
         el: to.hash,
         top: 96,
-        behavior: 'smooth',
+        behavior: 'instant',
       }
     }
 
