@@ -1,1154 +1,341 @@
 # TÀI LIỆU NGỮ PHÁP SPEAKING THỰC DỤNG
 
-## Practical grammar, formulas, and vocabulary for meetings and work communication
+## Ngữ pháp, công thức và từ vựng thực tế dùng cho họp hành và giao tiếp trong công việc
 
 > **Mục đích của tài liệu này**
 >
-> - Tài liệu tham khảo tập trung vào ngữ pháp và từ vựng dùng trong giao tiếp
-> - Bao gồm các cuộc họp hàng tuần, cập nhật hàng ngày, hỏi đáp với khách hàng, theo dõi và giải thích logic
-> - Ưu tiên các mẫu ngắn, rõ ràng, tự nhiên và dễ nhớ
-> - Bao gồm các ví dụ thực tế — chỉ cần thay thế từ khóa và sử dụng ngay lập tức
+> - Tài liệu tham khảo tập trung vào ngữ pháp và từ vựng thực tế dùng trong giao tiếp nói (Speaking).
+> - Phục vụ các cuộc họp hàng tuần (weekly meetings), cập nhật hàng ngày (daily standups), hỏi đáp với khách hàng (Q&A), theo dõi tiến độ (follow-ups) và giải thích logic hệ thống.
+> - Ưu tiên các mẫu câu ngắn gọn, rõ ràng, tự nhiên, dễ nhớ và có thể áp dụng được ngay.
+> - Bao gồm các ví dụ thực tế — chỉ cần thay thế từ khóa và sử dụng ngay lập tức.
 
 > **Cách sử dụng tài liệu này**
 >
-> - Không học ngữ pháp theo kiểu hàn lâm
-> - Học theo nhóm: công thức, thì, từ nối, giới từ, cấu trúc câu
-> - Mở đúng phần cho tình huống của bạn
-> - Học các câu ví dụ trước, sau đó học tên ngữ pháp
+> - Không học ngữ pháp theo kiểu lý thuyết hàn lâm.
+> - Học theo nhóm: công thức nói, thì động từ, từ nối, giới từ, cấu trúc câu thông dụng.
+> - Tra cứu trực tiếp phần ngữ pháp phù hợp với tình huống giao tiếp của bạn.
+> - Ghi nhớ các câu ví dụ trước, sau đó mới liên hệ đến tên cấu trúc ngữ pháp để hiểu bản chất.
 
 ---
 
-# 1. GRAMMAR MINDSET FOR SPEAKING
+# 1. TƯ DUY NGỮ PHÁP KHI NÓI (SPEAKING MINDSET)
 
-## 1.1. Mục tiêu thực sự
+## 1.1. Mục tiêu thực tế
 
-When speaking in meetings, you don't need complex grammar. You just need:
+Khi nói trong các buổi họp, bạn không cần dùng cấu trúc ngữ pháp quá phức tạp hay hoa mỹ. Bạn chỉ cần:
 
-- correct main idea
-- correct basic tense
-- short, easy-to-understand sentences
-- repeat familiar formulas
+- **Đúng ý chính (Correct main idea)**: Tập trung truyền tải rõ ràng thông tin cần thiết.
+- **Đúng thì cơ bản (Correct basic tense)**: Chọn đúng thì để khách hàng biết việc đó đã làm, đang làm hay sắp làm.
+- **Câu ngắn gọn, dễ hiểu (Short, clear sentences)**: Tránh viết/nói câu ghép quá dài. Hãy ngắt câu bằng dấu chấm.
+- **Lặp lại các công thức quen thuộc (Repeat familiar formulas)**: Sử dụng các mẫu câu có sẵn để giảm thời gian suy nghĩ.
 
-## 1.2. Công thức an toàn nhất
+## 1.2. Các công thức an toàn nhất
 
-If stuck, always fall back to these:
+Nếu bạn bị bí từ hoặc không biết diễn đạt thế nào, hãy dùng ngay các cấu trúc cơ bản sau:
 
-- **We completed [task].**
-- **We're working on [task].**
-- **We'll focus on [task].**
-- **We found an issue with [topic].**
-- **Could you clarify [point]?**
-- **Let me double-check and get back to you.**
-
-## 1.3. Thứ tự ưu tiên học
-
-1. Learn example sentences
-2. Learn common phrasal verbs
-3. Learn basic tenses
-4. Learn connectors
-5. Learn softening phrases
+- **We completed [task].** (Chúng tôi đã hoàn thành [nhiệm vụ].)
+- **We're working on [task].** (Chúng tôi đang làm [nhiệm vụ].)
+- **We'll focus on [task].** (Chúng tôi sẽ tập trung vào [nhiệm vụ].)
+- **We found an issue with [topic].** (Chúng tôi phát hiện ra một lỗi liên quan đến [chủ đề].)
+- **Could you clarify [point]?** (Bạn có thể làm rõ [điểm này] giúp tôi không?)
+- **Let me double-check and get back to you.** (Để tôi kiểm tra lại kỹ và phản hồi bạn sau.)
 
 ---
 
-# 2. BASIC SENTENCE STRUCTURES
+# 2. CẤU TRÚC CÂU CƠ BẢN (BASIC SENTENCE STRUCTURES)
 
-## 2.1. Structure 1: Subject + Verb
+## 2.1. Cấu trúc 1: Chủ ngữ + Động từ (S-V)
 
-The simplest sentence type.
+Loại câu đơn giản nhất. Rất tốt khi muốn cập nhật trạng thái nhanh hoặc xác nhận thông tin lập tức.
 
-### 💡 Examples
+### 💡 Ví dụ
 
-- **The system works correctly.**
-- **We agree with this approach.**
-- **The client needs more details.**
+- **The system works correctly.** (Hệ thống hoạt động đúng rồi.)
+- **We agree with this approach.** (Chúng tôi đồng ý với cách tiếp cận này.)
+- **The API failed.** (API đã bị lỗi.)
 
-## 2.2. Structure 2: Subject + Be + Adjective
+## 2.2. Cấu trúc 2: Chủ ngữ + Be + Tính từ (S-Be-Adj)
 
-Used to describe a state.
+Dùng để mô tả trạng thái, tình trạng hiện tại của công việc.
 
-### 💡 Examples
+### 💡 Ví dụ
 
-- **The feature is ready.**
-- **The issue is minor.**
-- **The result is clear.**
+- **The feature is ready.** (Tính năng đã sẵn sàng.)
+- **The issue is minor.** (Lỗi này nhỏ thôi.)
+- **The server is down.** (Máy chủ đang bị sập.)
 
-## 2.3. Structure 3: Subject + Verb + Object
+## 2.3. Cấu trúc 3: Chủ ngữ + Động từ + Tân ngữ (S-V-O)
 
-### 💡 Examples
+Cấu trúc câu phổ biến nhất để nói rõ ai làm hành động gì.
 
-- **We finished the API integration.**
-- **The team reviewed the feedback.**
-- **The client confirmed the requirement.**
+### 💡 Ví dụ
 
-## 2.4. Structure 4: Subject + Verb + That-clause
+- **We finished the API integration.** (Chúng tôi đã tích hợp xong API.)
+- **The team reviewed the feedback.** (Team đã xem lại phản hồi rồi.)
+- **The client confirmed the requirement.** (Khách hàng đã xác nhận yêu cầu.)
 
-Used for thoughts, confirmations, and explanations.
+## 2.4. Cấu trúc 4: Chủ ngữ + Động từ + Mệnh đề "That" (S-V-That)
 
-### 💡 Examples
+Dùng khi đưa ra ý kiến, lời khẳng định, báo cáo hoặc giải thích.
 
-- **We think that this flow is correct.**
-- **I believe that this approach is safer.**
-- **We confirmed that the issue came from the API.**
+### 💡 Ví dụ
 
-## 2.5. Structure 5: If + condition, result
+- **We think that this flow is correct.** (Chúng tôi nghĩ là luồng này đúng rồi.)
+- **I believe that this approach is safer.** (Tôi tin rằng cách tiếp cận này an toàn hơn.)
+- **We confirmed that the issue came from the API.** (Chúng tôi xác nhận lỗi bắt nguồn từ phía API.)
 
-### 💡 Examples
+## 2.5. Cấu trúc 5: If + điều kiện, kết quả (If-clause)
 
-- **If the user clicks this button, the modal opens.**
-- **If we get confirmation today, we'll start tomorrow.**
+Dùng để giải thích logic nghiệp vụ, quy tắc hệ thống hoặc hệ quả.
 
----
+### 💡 Ví dụ
 
-# 3. COMMON SPEAKING FORMULAS
-
-## 3.1. Progress Reporting
-
-- **Last week, we completed [task].**
-- **Currently, we're working on [task].**
-- **Next, we'll focus on [task].**
-- **We've already finished [task].**
-- **We're still reviewing [item].**
-
-## 3.2. Talking About Issues
-
-- **We found an issue with [topic].**
-- **We ran into an issue during [process].**
-- **The issue seems to be related to [cause].**
-- **We're still investigating the root cause.**
-- **This may affect the timeline slightly.**
-
-## 3.3. Requesting Confirmation
-
-- **Could you confirm this point?**
-- **Could you clarify the expected behavior?**
-- **We'd like to confirm whether [A] or [B] is correct.**
-- **Please let us know if this direction works for you.**
-
-## 3.4. When You're Not Sure
-
-- **Let me double-check this first.**
-- **I'd like to verify this internally.**
-- **I'm not fully sure about this yet.**
-- **I don't want to give you incorrect information.**
-
-## 3.5. Explaining Logic
-
-- **In simple terms, [A] happens first, then [B].**
-- **Basically, the system checks [condition] before [action].**
-- **For example, if [case], the system will [result].**
-- **So the expected result is [result].**
+- **If the user clicks this button, the modal opens.** (Nếu người dùng click nút này, modal sẽ mở ra.)
+- **If we get confirmation today, we'll start tomorrow.** (Nếu chúng tôi nhận được xác nhận hôm nay, ngày mai chúng tôi sẽ bắt đầu.)
 
 ---
 
-# 4. COMMON MEETING VERBS
+# 3. CÁC THÌ ĐỘNG TỪ CHỦ CHỐT VÀ SỰ KHÁC BIỆT CHI TIẾT
 
-## 4.1. Essential Safe Verbs
+Sử dụng sai thì động từ có thể gây hiểu lầm lớn về mặt tiến độ. Dưới đây là cách ánh xạ các thì trực tiếp vào báo cáo công việc của bạn.
 
-- **complete**
-- **finish**
-- **work on**
-- **review**
-- **check**
-- **confirm**
-- **update**
-- **discuss**
-- **clarify**
-- **follow up**
-- **investigate**
-- **fix**
-- **resolve**
-- **share**
-- **support**
+## 3.1. Thì hiện tại đơn (Present Simple - Dùng cho Logic & Sự thật)
 
-## 4.2. Quick Examples
+Dùng để mô tả các trạng thái lâu dài, quy luật chung, logic nghiệp vụ của hệ thống hoặc cách một tính năng hoạt động.
 
-- **We completed the first phase.**
-- **We're working on the payment flow.**
-- **Let me check that point.**
-- **Could you clarify this requirement?**
-- **We'll follow up after the meeting.**
+### 🔣 Công thức
 
-## 4.3. Verbs by Situation
+- **S + V(s/es)**
 
-### Reporting
+### 💡 Ví dụ
 
-- **complete**, **finish**, **deliver**, **share**
+- **The system sends an email after approval.** (Hệ thống sẽ gửi email sau khi được duyệt.)
+- **The user selects a payment method.** (Người dùng chọn phương thức thanh toán.)
+- **This database stores transaction logs.** (Database này lưu trữ log giao dịch.)
 
-### In Progress
+## 3.2. Thì hiện tại tiếp diễn (Present Continuous - Việc đang làm)
 
-- **work on**, **review**, **investigate**, **validate**
+Dùng để cập nhật trực tiếp những công việc bạn hoặc team đang tiến hành tại chính thời điểm họp.
 
-### Asking the Client
+### 🔣 Công thức
 
-- **confirm**, **clarify**, **explain**, **share**
+- **S + am/is/are + V-ing**
 
-### Post-Meeting Follow-Up
+### 💡 Ví dụ
 
-- **follow up**, **update**, **send**, **check**
+- **We're working on the admin dashboard.** (Chúng tôi đang làm màn hình admin.)
+- **The team is fixing the remaining bugs.** (Cả team đang sửa nốt các bug còn lại.)
+- **I am checking the API response logs.** (Tôi đang kiểm tra log phản hồi của API.)
 
----
+## 3.3. Thì hiện tại hoàn thành vs. Quá khứ đơn (Phân biệt khi báo cáo tiến độ)
 
-# 5. KEY TENSES FOR SPEAKING
+Đây là điểm dễ gây nhầm lẫn nhất khi trao đổi với khách hàng.
 
-## 5.1. Present Simple
+### Thì hiện tại hoàn thành: Báo cáo trạng thái hoàn thành (Không nêu thời gian cụ thể)
 
-### 🎯 When to Use
+Dùng thì hiện tại hoàn thành khi muốn thông báo một task **đã làm xong và hiện tại đã sẵn sàng**. Trọng tâm là **kết quả hiện tại**, không phải thời điểm làm.
 
-- Stating general facts
-- Explaining processes
-- Describing business logic
+- **Công thức**: `S + have/has + V3/ed`
+- **Ví dụ**: **"We have deployed the changes."** (Chúng tôi đã deploy xong các thay đổi rồi - Kết quả: Hiện tại server đã có code mới, khách có thể vào test).
 
-### 🔣 Formula
+### Thì quá khứ đơn: Báo cáo sự kiện đã xảy ra (Có thời gian cụ thể trong quá khứ)
 
-- **Subject + verb**
+Dùng thì quá khứ đơn nếu bạn muốn nhấn mạnh vào **thời điểm cụ thể** trong quá khứ khi hành động xảy ra (ví dụ: yesterday, last night, 2 hours ago).
 
-### 💡 Examples
+- **Công thức**: `S + V2/ed`
+- **Ví dụ**: **"We deployed the changes yesterday."** (Trọng tâm: Việc deploy đã diễn ra vào ngày hôm qua).
 
-- **The system sends an email after approval.**
-- **The user selects a payment method.**
-- **This process starts when the order is confirmed.**
+| Tình huống   | Hiện tại hoàn thành (Không thời gian cụ thể)             | Quá khứ đơn (Có thời gian cụ thể)                                     |
+| :----------- | :------------------------------------------------------- | :-------------------------------------------------------------------- |
+| **Sửa Bug**  | We've fixed the login bug. (Đã sửa xong, test được luôn) | We fixed the bug 2 hours ago. (Vừa sửa xong cách đây 2 tiếng)         |
+| **Cập nhật** | The client has updated the ticket. (Vé đã được cập nhật) | The client updated the ticket on Monday. (Khách cập nhật hôm thứ Hai) |
+| **Release**  | We have released version 1.2. (Bản 1.2 đã lên)           | We released version 1.2 last week. (Đã release từ tuần trước)         |
 
-## 5.2. Present Continuous
+## 3.4. Thì tương lai: will vs. going to / plan to
 
-### 🎯 When to Use
-
-- Talking about current ongoing work
-- Updating what the team is doing right now
-
-### 🔣 Formula
-
-- **Subject + am/is/are + V-ing**
-
-### 💡 Examples
-
-- **We're working on the admin dashboard.**
-- **The team is fixing the remaining bugs.**
-- **We're reviewing the latest feedback.**
-
-## 5.3. Present Perfect
-
-### 🎯 When to Use
-
-- Reporting completed work still relevant to now
-- Sharing results
-
-### 🔣 Formula
-
-- **Subject + have/has + past participle**
-
-### 💡 Examples
-
-- **We've completed the login module.**
-- **We've already fixed that issue.**
-- **The team has finished the initial testing.**
-
-## 5.4. Past Simple
-
-### 🎯 When to Use
-
-- Talking about actions at a specific past time
-
-### 💡 Examples
-
-- **We deployed the update yesterday.**
-- **The client shared feedback on Monday.**
-- **We discussed this in the previous meeting.**
-
-## 5.5. Future with will
-
-### 🎯 When to Use
-
-- Talking about next steps
-- Promises, commitments, predictions
-
-### 💡 Examples
-
-- **We'll update the document today.**
-- **We'll continue with testing tomorrow.**
-- **I'll get back to you after the meeting.**
-
-## 5.6. Plan to / Going to
-
-### 🎯 When to Use
-
-- Talking about pre-existing plans
-
-### 💡 Examples
-
-- **We plan to complete this by Friday.**
-- **We're going to start UAT next week.**
-- **The next step is going to be API integration.**
-
-## 5.7. Quick Memory Aid
-
-- **Done** → **have completed / finished**
-- **Doing** → **are working on**
-- **Next** → **will / plan to**
-- **Logic** → **present simple**
+- **will**: Dùng cho lời hứa tức thời, quyết định đưa ra ngay tại cuộc họp.
+  - _Ví dụ_: **"I will email you the link after we finish."** (Tôi sẽ gửi mail link ngay sau khi họp xong.)
+- **going to / plan to**: Dùng cho kế hoạch đã được sắp xếp trước, lộ trình dự kiến.
+  - _Ví dụ_: **"We are going to start testing tomorrow."** (Chúng tôi đã lên lịch chạy test vào ngày mai.)
 
 ---
 
-# 6. COMMON MODAL VERBS
+# 4. ĐỘNG TỪ KHUYẾT THIẾU & MỨC ĐỘ CHẮC CHẮN (CERTAINTY)
 
-## 6.1. can
+Trong giao tiếp với khách hàng, hãy tránh việc hứa chắc chắn 100% đối với những việc bạn chưa hoàn toàn kiểm chứng. Hãy dùng động từ khuyết thiếu để quản lý kỳ vọng (expectation management).
 
-### 🎯 When to Use
+```mermaid
+graph TD
+    A[Mức độ chắc chắn] --> B(100% chắc chắn - will)
+    A --> C(80% khả thi - should)
+    A --> D(50% có thể - may/can)
+    A --> E(20% dè dặt - might/could)
+```
 
-- Expressing ability or possibility
-
-### 💡 Examples
-
-- **We can complete this by Friday.**
-- **We can support that request.**
-
-## 6.2. could
-
-### 🎯 When to Use
-
-- More polite when asking questions
-- Softer suggestions
-
-### 💡 Examples
-
-- **Could you clarify this point?**
-- **Could you repeat that, please?**
-
-## 6.3. should
-
-### 🎯 When to Use
-
-- Making suggestions or recommendations
-
-### 💡 Examples
-
-- **We should review this flow again.**
-- **This should be handled on the backend.**
-
-## 6.4. may
-
-### 🎯 When to Use
-
-- Expressing possibility
-- Softer, safer tone
-
-### 💡 Examples
-
-- **This may affect the timeline slightly.**
-- **There may be some impact on testing.**
-
-## 6.5. might
-
-### 🎯 When to Use
-
-- Lower probability or more cautious tone
-
-### 💡 Examples
-
-- **This might be caused by the latest API change.**
-- **We might need more time for validation.**
-
-## 6.6. would
-
-### 🎯 When to Use
-
-- More polite requests
-- Softening sentences
-
-### 💡 Examples
-
-- **I'd like to give a quick update.**
-- **We'd like to confirm one point with you.**
-- **Would you mind explaining this scenario?**
+- **will** (100%): Cam kết chắc chắn xảy ra.
+  - **"We will fix this by tomorrow."** (Chúng tôi chắc chắn sẽ sửa xong trước ngày mai).
+- **should** (80%): Kết quả dự kiến sẽ xảy ra nếu theo đúng logic bình thường.
+  - **"The server should restart automatically."** (Theo cấu hình thì server sẽ tự động restart).
+- **may / can** (50%): Khả năng có thể xảy ra nhưng chưa chắc chắn.
+  - **"This issue may delay the release."** (Vấn đề này có thể sẽ làm chậm tiến độ release).
+- **might / could** (20%): Khả năng rất thấp, mang tính dè dặt hoặc cảnh báo rủi ro.
+  - **"We could run into database issues if we change this configuration."** (Chúng ta có thể gặp lỗi DB nếu đổi config này - cảnh báo rủi ro).
 
 ---
 
-# 7. CONDITIONALS
+# 5. THỂ BỊ ĐỘNG DÙNG TRONG GIAO TIẾP NGOẠI GIAO (DIPLOMATIC PASSIVE VOICE)
 
-## 7.1. Zero Conditional
+Hãy dùng thể bị động khi muốn trao đổi một cách khách quan, chuyên nghiệp hoặc để **giảm bớt sự đổ lỗi** khi giải thích về sai sót hoặc sự cố.
 
-### 🎯 When to Use
+- **Chủ động (Trực diện / Đổ lỗi)**: "Our developer deleted the database table." (Lập trình viên của tôi đã xóa bảng dữ liệu.)
+- **Bị động (Khách quan / Ngoại giao)**: "The database table was accidentally deleted." (Bảng dữ liệu đã vô tình bị xóa.)
 
-- Stating general truths
-- Describing logic that's always true
+### Các mẫu bị động thông dụng:
 
-### 🔣 Formula
-
-- **If + present simple, present simple**
-
-### 💡 Examples
-
-- **If the user enters invalid data, the system shows an error.**
-- **If the payment fails, the order stays pending.**
-
-## 7.2. First Conditional
-
-### 🎯 When to Use
-
-- Talking about conditions likely to happen in the future
-
-### 🔣 Formula
-
-- **If + present simple, will + verb**
-
-### 💡 Examples
-
-- **If we get your confirmation today, we'll start development tomorrow.**
-- **If the issue continues, we'll need more time.**
-
-## 7.3. Most Useful Meeting Patterns
-
-- **If this happens, we'll update you right away.**
-- **If needed, we can discuss this in more detail later.**
-- **If you agree, we'll move forward with this approach.**
+- **The issue has been resolved.** (Vấn đề đã được giải quyết - Tập trung vào kết quả, không cần khoe ai làm.)
+- **The feature was deployed yesterday.** (Tính năng đã được deploy hôm qua.)
+- **The database credentials were changed.** (Thông tin kết nối cơ sở dữ liệu đã thay đổi.)
+- **You will be notified once the build completes.** (Bạn sẽ được thông báo sau khi build xong.)
 
 ---
 
-# 8. PASSIVE VOICE
+# 6. MỆNH ĐỀ QUAN HỆ ĐỂ RÚT GỌN CÂU (RELATIVE CLAUSES)
 
-## 8.1. When to Use
+Mệnh đề quan hệ giúp bạn nối 2 ý ngắn thành 1 câu ghép mượt mà, chuyên nghiệp và tiết kiệm thời gian nói.
 
-- Focusing on the result, not who did it
-- Making sentences sound professional and concise
+- **Thay vì nói**: "We found a bug. It blocks users from registering."
+- **Nên nói**: **"We found a bug that blocks users from registering."** (Chúng tôi tìm thấy một bug mà nó chặn người dùng đăng ký.)
 
-## 8.2. Formula
+### Các đại từ quan hệ cốt lõi trong IT:
 
-- **be + past participle**
-
-## 8.3. Examples
-
-- **The issue has been fixed.**
-- **The feature was deployed yesterday.**
-- **The report will be shared after the meeting.**
-- **The request is being reviewed by our team.**
-
-## 8.4. When It's Most Useful
-
-- Closing tasks
-- Status reports
-- Follow-up messages
+- **that / which** (dùng cho vật/tính năng):
+  - **"We updated the API endpoint that was causing the slow load time."** (Đã update API endpoint cái mà gây ra việc load chậm.)
+- **who** (dùng cho người):
+  - **"The developer who is handling the payment flow is out today."** (Dev người mà làm cổng thanh toán hôm nay nghỉ phép.)
+- **where** (dùng cho trang, các bước hoặc vị trí):
+  - **"This is the screen where the validation error occurs."** (Đây là màn hình nơi mà xảy ra lỗi validate.)
+- **when** (dùng cho thời gian/sự kiện):
+  - **"That was the moment when the server went down."** (Đó là thời điểm lúc mà server bị sập.)
 
 ---
 
-# 9. RELATIVE CLAUSES
+# 7. GIỚI TỪ DÙNG TRONG NGÀNH CÔNG NGHỆ THÔNG TIN (IT PREPOSITIONS)
 
-## 9.1. What Are Relative Clauses?
+Sử dụng giới từ đúng trong IT rất quan trọng để tránh gây hiểu lầm. Hãy học thuộc lòng các cụm sau:
 
-They help connect two ideas into one natural sentence.
+### 📱 Dùng "On" (Giao diện, Màn hình, Nền tảng)
 
-Instead of:
+- **on** the screen / page / dashboard (trên màn hình / trang / trang quản trị)
+- **on** mobile / desktop (trên di động / máy tính)
+- **on** AWS / the cloud (trên AWS / đám mây)
+- **on** the homepage (trên trang chủ)
 
-- **We have one feature. It needs more testing.**
+### 💾 Dùng "In" (Trong Code, Database, Trạng thái)
 
-You can say:
+- **in** the code / script (trong code / mã script)
+- **in** the database / table (trong database / bảng dữ liệu)
+- **in** the database config (trong file cấu hình DB)
+- **in** progress / in review (đang tiến hành / đang được review)
 
-- **We have one feature that needs more testing.**
+### 🌐 Dùng "At" (URL Endpoints, Địa điểm chính xác)
 
-## 9.2. that
+- **at** the endpoint URL (tại URL endpoint)
+- **at** the bottom of the page (ở phía cuối trang)
+- **at** the moment (vào lúc này)
 
-### 🎯 When to Use
+### ⏳ Dùng "By" (Mốc hạn chót - Deadlines)
 
-- Replacing people or things in simple sentences
-- Very safe in work communication
-
-### 💡 Examples
-
-- **The issue that we found yesterday is now fixed.**
-- **The feature that the client requested is in progress.**
-- **We need to review the case that caused the error.**
-
-## 9.3. which
-
-### 🎯 When to Use
-
-- Replacing things or events
-- Slightly more formal than `that`
-
-### 💡 Examples
-
-- **The report, which was shared this morning, includes the latest updates.**
-- **This is the flow which needs client confirmation.**
-
-## 9.4. who
-
-### 🎯 When to Use
-
-- Replacing people
-
-### 💡 Examples
-
-- **The client who joined the last meeting asked about this point again.**
-- **The developer who handled this task is checking it now.**
-
-## 9.5. where
-
-### 🎯 When to Use
-
-- Replacing places, screens, steps, or situations
-
-### 💡 Examples
-
-- **This is the screen where the issue happens.**
-- **We found one step where users may get confused.**
-
-## 9.6. when
-
-### 🎯 When to Use
-
-- Replacing time or moments
-
-### 💡 Examples
-
-- **The meeting when we discussed this issue was very helpful.**
-- **There was one moment when the API response changed unexpectedly.**
-
-## 9.7. whose
-
-### 🎯 When to Use
-
-- Showing possession
-- More common in writing, but worth knowing
-
-### 💡 Examples
-
-- **We have one client whose request is quite urgent.**
-- **This is the user whose order failed during checkout.**
-
-## 9.8. Safe Meeting Usage
-
-For natural yet controlled sentences, use these patterns:
-
-- **This is the issue that we need to discuss today.**
-- **This is the screen where the problem appears.**
-- **The task that we completed last week is now ready for QA.**
-- **The client who raised this concern is waiting for our update.**
-
-## 9.9. Shortened Forms
-
-In real speech, you can often drop the relative pronoun:
-
-### 💡 Examples
-
-- **The issue we found yesterday is now fixed.**
-- **The feature we discussed last week is ready.**
-
-These are shortened forms of:
-
-- **The issue that we found yesterday is now fixed.**
-- **The feature that we discussed last week is ready.**
-
-## 9.10. Practical Tips
-
-- If unsure, **that** is the safest choice
-- In speaking, don't force overly long structures
-- Only use relative clauses when they make the sentence clearer
-- If a sentence gets too long, splitting into two short sentences is better
+- **by** Friday / tomorrow / 5 PM (trước thứ Sáu / trước ngày mai / trước 5h chiều)
 
 ---
 
-# 10. CONNECTORS AND CONJUNCTIONS
+# 8. TỪ NỐI ĐỂ LIÊN KẾT Ý MẠCH LẠC (CONNECTORS)
 
-## 10.1. Starting a Point
+Hãy dùng các từ nối sau để bài phát biểu cập nhật tiến độ của bạn có cấu trúc rõ ràng, chuyên nghiệp.
 
-- **First,**
-- **To start with,**
-- **Let me begin with**
+### 8.1. Thứ tự trước sau (Sequencing)
 
-### Example
+- **"First, we finished the UI. Next, we will connect the API. Finally, we will run the tests."** (Đầu tiên chúng tôi làm xong UI. Tiếp theo sẽ kết nối API. Cuối cùng sẽ chạy test.)
 
-- **First, let me share the progress update.**
+### 8.2. Thêm thông tin (Adding Information)
 
-## 10.2. Adding a Point
+- **"We updated the profile page. Also, we added validation to the email field."** (Chúng tôi đã update trang cá nhân. Ngoài ra cũng thêm validate vào trường email.)
 
-- **Also,**
-- **In addition,**
-- **Besides that,**
-- **On top of that,**
+### 8.3. Đối lập, tương phản (Handling issues/contrast)
 
-### Example
+- **"The database queries are optimized. However, the external API is still slow."** (Các câu query DB đã được tối ưu. Tuy nhiên, API bên thứ ba vẫn chậm.)
 
-- **We fixed the login issue. In addition, we improved the validation flow.**
+### 8.4. Nguyên nhân và Kết quả (Cause and Effect)
 
-## 10.3. Transitioning
-
-- **Next,**
-- **Then,**
-- **After that,**
-- **Moving on to**
-
-### Example
-
-- **Next, I'd like to talk about the open issues.**
-
-## 10.4. Stating a Reason
-
-- **because**
-- **since**
-- **as**
-- **because of + noun**
-
-### Example
-
-- **The release was delayed because we found a critical bug.**
-- **The meeting was moved because of a scheduling conflict.**
-
-## 10.5. Stating a Result
-
-- **so**
-- **therefore**
-- **as a result**
-- **that's why**
-
-### Example
-
-- **We need one more day, so we'll share the update tomorrow.**
-- **The API response changed. As a result, the current logic needs to be updated.**
-
-## 10.6. Showing Contrast
-
-- **but**
-- **however**
-- **although**
-- **while**
-
-### Example
-
-- **The feature is mostly done, but we still need to finish testing.**
-- **We completed the UI. However, the backend integration is still pending.**
-
-## 10.7. Giving Examples
-
-- **for example**
-- **for instance**
-- **such as**
-
-### Example
-
-- **Some edge cases still need review, for example, guest checkout and expired sessions.**
-
-## 10.8. Summarizing
-
-- **So,**
-- **In short,**
-- **Overall,**
-- **Basically,**
-
-### Example
-
-- **Overall, the project is still on track.**
+- **"The payment provider changed their API, so we have to update our code."** (Nhà cung cấp thanh toán đã đổi API, nên chúng tôi phải cập nhật lại code.)
+- **"We missed the response from the server. As a result, the user sees a timeout error."** (Chúng ta bị lỡ phản hồi từ server. Kết quả là người dùng thấy lỗi timeout.)
 
 ---
 
-# 11. COMMON PREPOSITIONS
+# 9. CÁC CÂU NÓI GIẢM NÓI TRÁNH (SOFTENING & DIPLOMACY)
 
-## 11.1. at
+Làm thế nào để nói giảm nói tránh lịch sự khi phải từ chối hoặc đưa tin xấu cho khách hàng.
 
-### Common Uses
+### 9.1. Từ chối/bất đồng ý kiến lịch sự
 
-- **at the moment**, **at this point**, **at 3 PM**
+- **"I see your point, but..."** (Tôi hiểu ý của bạn, nhưng...)
+- **"That is a good option, however, it might take longer to build."** (Đó là phương án tốt, tuy nhiên, nó có thể mất nhiều thời gian phát triển hơn.)
 
-### Example
+### 9.2. Giảm nhẹ yêu cầu (Nhờ vả lịch sự)
 
-- **At the moment, we're still checking this issue.**
+- **"Could you please confirm the priority?"** (Bạn có thể vui lòng xác nhận độ ưu tiên giúp chúng tôi không?)
+- **"It would be helpful if you could share the design specs."** (Sẽ rất hữu ích nếu bạn có thể chia sẻ tài liệu thiết kế.)
+- **"Would you mind double-checking this logic?"** (Bạn có phiền kiểm tra lại logic này giúp không?)
 
-## 11.2. on
+### 9.3. Trả lời khi chưa có thông tin chính xác (Tránh nói "I don't know" trực diện)
 
-### Common Uses
-
-- **on Monday**, **on the dashboard**, **work on**, **focus on**
-
-### Example
-
-- **We're working on the reporting module.**
-- **Let's focus on the main issue first.**
-
-## 11.3. in
-
-### Common Uses
-
-- **in the system**, **in this case**, **in the next phase**, **in progress**
-
-### Example
-
-- **This logic is already implemented in the system.**
-- **The task is still in progress.**
-
-## 11.4. for
-
-### Common Uses
-
-- **for the client**, **for this case**, **for testing**, **wait for**
-
-### Example
-
-- **We're waiting for confirmation from your side.**
-
-## 11.5. with
-
-### Common Uses
-
-- **issue with**, **align with**, **confirm with**, **discuss with**
-
-### Example
-
-- **We found an issue with the payment flow.**
-- **Let me confirm this with the team.**
-
-## 11.6. by
-
-### Common Uses
-
-- **by Friday**, **by the end of the week**, **shared by our team**
-
-### Example
-
-- **We plan to complete this by Friday.**
-
-## 11.7. after / before
-
-### 💡 Examples
-
-- **We'll follow up after the meeting.**
-- **Please confirm this before implementation.**
-
-## 11.8. between
-
-### Example
-
-- **We need to choose between option A and option B.**
+- **"I don't have the exact answer right now. Let me check and get back to you."** (Tôi chưa có câu trả lời chính xác ngay lúc này. Để tôi kiểm tra và phản hồi lại bạn.)
+- **"I want to verify this with the team first to give you the most accurate response."** (Tôi muốn xác nhận lại với team trước để đưa ra câu trả lời chính xác nhất cho bạn.)
 
 ---
 
-# 12. SMALL BUT ESSENTIAL WORDS
+# 10. CÁC LỖI THƯỜNG GẶP CẦN TRÁNH (COMMON MISTAKES)
 
-## 12.1. already
+### ❌ Lỗi 1: Dùng "Discuss about"
 
-Emphasizes something has happened before now.
+- _Sai_: "We need to discuss about the database design."
+- _Đúng_: **"We need to discuss the database design."** (Sau "discuss" là tân ngữ luôn, không có "about").
 
-### 💡 Examples
+### ❌ Lỗi 2: Dùng "Explain me"
 
-- **We've already fixed that issue.**
-- **I already shared the document in the group.**
+- _Sai_: "Can you explain me this feature?"
+- _Đúng_: **"Can you explain this feature to me?"** hoặc **"Can you explain this feature?"**
 
-## 12.2. yet
+### ❌ Lỗi 3: Quên chia thì quá khứ đối với task đã làm xong
 
-Used in negative sentences or questions (= not yet).
+- _Sai_: "Yesterday we deploy the website."
+- _Đúng_: **"Yesterday we deployed the website."** (Có "yesterday" thì động từ bắt buộc phải ở quá khứ).
 
-### 💡 Examples
+### ❌ Lỗi 4: Dùng "I'm agree"
 
-- **We haven't finished this part yet.**
-- **Have you reviewed the latest version yet?**
-
-## 12.3. still
-
-Emphasizes something is continuing.
-
-### 💡 Examples
-
-- **We're still working on this issue.**
-- **The team is still validating the logic.**
-
-## 12.4. once
-
-Means "after" or "as soon as."
-
-### 💡 Examples
-
-- **Once we get your confirmation, we'll move forward.**
-- **Once testing is complete, we'll deploy the update.**
-
-## 12.5. just
-
-Used to soften a sentence or mean "only" / "recently."
-
-### 💡 Examples
-
-- **I just want to confirm one point.**
-- **We just received the latest feedback.**
-- **Just to make sure, this is the final version, right?**
-
-## 12.6. so
-
-Connects a cause to a result or conclusion.
-
-### 💡 Examples
-
-- **We found one blocker, so we need a bit more time.**
-- **So, our next step is to update the API.**
-
-## 12.7. then
-
-Means "after that" or "in that case."
-
-### 💡 Examples
-
-- **We'll finish the UI first, then move to testing.**
-- **If that's the case, then we should update the flow as well.**
-
-## 12.8. also
-
-Adds another point.
-
-### Example
-
-- **We completed the main task. We also fixed two related bugs.**
-
-## 12.9. actually
-
-Used to gently correct or add context.
-
-### 💡 Examples
-
-- **Actually, this issue started after the latest deployment.**
-- **Actually, we already tested that scenario.**
-
-## 12.10. basically
-
-Very useful when explaining logic.
-
-### Example
-
-- **Basically, the system checks the status before allowing the next step.**
-
-## 12.11. probably / maybe
-
-Expresses uncertainty or caution.
-
-### 💡 Examples
-
-- **This is probably caused by the recent API change.**
-- **Maybe we should review this flow one more time.**
-
-## 12.12. right now / at the moment
-
-Refers to the current time.
-
-### 💡 Examples
-
-- **I don't have the exact answer right now.**
-- **At the moment, we're still checking this point.**
-
-## 12.13. you guys
-
-### 🎯 When to Use
-
-- Very common in casual conversation
-- Sounds friendly and natural
-- Appropriate when the other team is relaxed and informal
-
-### Note
-
-In formal client meetings, safer alternatives are:
-
-- **your team**
-- **everyone**
-- **all of you**
-
-### 💡 Examples
-
-- **Could you guys confirm this point for us?**
-- **Are you guys okay with this direction?**
-
-### Safer alternatives
-
-- **Could your team confirm this point for us?**
-- **Is everyone okay with this direction?**
+- _Sai_: "I'm agree with you."
+- _Đúng_: **"I agree with you."** (Agree là động từ thường, không dùng với "am").
 
 ---
 
-# 13. COMMON WORK COLLOCATIONS
-
-Collocations are word pairs that naturally go together.
-
-## 13.1. Progress
-
-- **make progress**
-- **stay on track**
-- **fall behind schedule**
-- **meet the deadline**
-
-### 💡 Examples
-
-- **We're making good progress.**
-- **The project is still on track.**
-
-## 13.2. Issues
-
-- **raise an issue**
-- **report an issue**
-- **investigate the root cause**
-- **resolve the issue**
-
-### 💡 Examples
-
-- **We'd like to raise one issue today.**
-- **The team is investigating the root cause.**
-
-## 13.3. Confirmation
-
-- **confirm the requirement**
-- **clarify the expectation**
-- **align on the approach**
-- **get confirmation**
-
-### Example
-
-- **We'd like to align on the approach before moving forward.**
-
-## 13.4. Follow-Up
-
-- **follow up on**
-- **send an update**
-- **share the details**
-- **get back to someone**
-
-### 💡 Examples
-
-- **I'll follow up on this after the meeting.**
-- **Let me get back to you later today.**
-
----
-
-# 14. SOFTENING PHRASES
-
-## 14.1. Safe Opening Phrases
-
-- **I think...**
-- **From our understanding...**
-- **As far as I know...**
-- **At the moment...**
-- **It seems that...**
-
-### 💡 Examples
-
-- **From our understanding, this flow starts after approval.**
-- **As far as I know, this issue only affects admin users.**
-
-## 14.2. Confirmation Phrases
-
-- **Just to make sure...**
-- **If I understand correctly...**
-- **So, you mean...**
-
-### Example
-
-- **If I understand correctly, you'd like us to update both flows, right?**
-
-## 14.3. Polite Request Phrases
-
-- **Could you...**
-- **Would you mind...**
-- **We'd appreciate it if...**
-- **It would be helpful if...**
-
-### 💡 Examples
-
-- **Would you mind sharing an example?**
-- **It would be helpful if you could confirm this today.**
-
----
-
-# 15. PHRASES FOR THINKING, CHECKING, AND PAUSING
-
-## 15.1. Buying Time to Think
-
-- **Let me think for a moment.**
-- **Let me think about that.**
-- **Give me a second to think about it.**
-- **Let me organize my thoughts for a second.**
-
-### Example
-
-- **That's a good question. Let me think for a moment.**
-
-## 15.2. Checking Information
-
-- **Let me check.**
-- **Let me check that for you.**
-- **Let me double-check this point.**
-- **Let me verify that first.**
-
-### Example
-
-- **Let me check the latest update from our side.**
-
-## 15.3. Asking Someone to Wait
-
-- **Hold on a second.**
-- **Just a second.**
-- **One moment, please.**
-- **Give me a moment.**
-- **Wait a second.**
-
-### Note
-
-- **Hold on** and **wait a second** are natural in conversation
-- In formal meetings, **one moment, please** or **give me a moment** sounds more polite
-
-### 💡 Examples
-
-- **One moment, please. Let me open the latest file.**
-- **Hold on a second, I want to check one detail.**
-
-## 15.4. While Answering
-
-- **Let me see.**
-- **How should I put this?**
-- **Let me explain it step by step.**
-- **Let me make sure I answer this clearly.**
-
-### Example
-
-- **Let me see. I think the issue is in the validation logic.**
-
----
-
-# 16. COMMON Q&A PATTERNS
-
-## 16.1. Asking for Confirmation
-
-- **Could you confirm the expected behavior?**
-- **Could you clarify this requirement?**
-- **Is my understanding correct?**
-
-## 16.2. When You Can't Hear
-
-- **Sorry, could you repeat that?**
-- **Sorry, I didn't catch that clearly.**
-- **Could you say that again a bit more slowly?**
-
-## 16.3. Answering When You Know
-
-- **Yes, in this case, the system should [action].**
-- **The expected behavior is [behavior].**
-- **According to the current logic, [result].**
-
-## 16.4. Answering When Unsure
-
-- **Let me double-check this point first.**
-- **I'd like to verify that internally.**
-- **I'll follow up with a clear answer after the meeting.**
-
-## 16.5. Short Explanations
-
-- **In simple terms, [A] happens first, then [B].**
-- **Basically, this rule is here to prevent [problem].**
-- **For example, if [case], then [result].**
-
----
-
-# 17. COMMON MISTAKES TO AVOID
-
-## 17.1. Word-by-Word Translation
-
-### Avoid
-
-- **Today I want to present about last week tasks.**
-
-### Better
-
-- **Today, I'd like to give a quick update on last week's progress.**
-
-## 17.2. Wrong Prepositions
-
-### Avoid
-
-- **Discuss about this issue**
-
-### Correct
-
-- **Discuss this issue**
-
-## 17.3. Forgetting Tense
-
-### Avoid
-
-- **Yesterday we discuss this point.**
-
-### Correct
-
-- **Yesterday, we discussed this point.**
-
-## 17.4. Being Too Direct
-
-### Too Blunt
-
-- **You need to explain this.**
-
-### Softer
-
-- **Could you help explain this part?**
-
-## 17.5. Saying "I don't know" Too Bluntly
-
-### Better Alternatives
-
-- **I'm not sure about that at the moment.**
-- **Let me check and get back to you.**
-
----
-
-# 18. QUICK REFERENCE CHEAT SHEET
-
-## 18.1. 10 Golden Formulas
-
-1. **We completed [task].**
-2. **We're working on [task].**
-3. **We'll focus on [task].**
-4. **We found an issue with [topic].**
-5. **This may affect [timeline].**
-6. **Could you clarify [point]?**
-7. **Could you confirm [A] or [B]?**
-8. **If I understand correctly, [idea], right?**
-9. **Let me double-check and get back to you.**
-10. **We'll follow up after the meeting.**
-
-## 18.2. Tense Quick Reference
-
-- **Done** → **We've completed...**
-- **Doing** → **We're working on...**
-- **Next** → **We'll... / We plan to...**
-- **Logic** → **The system checks...**
-
-## 18.3. Essential Connectors
-
-- **First**
-- **Next**
-- **Also**
-- **However**
-- **Because**
-- **So**
-- **For example**
-- **Overall**
-
-## 18.4. Essential Phrasal Verbs
-
-- **work on**
-- **follow up on**
-- **check on**
-- **move on to**
-- **align on**
-- **get back to**
-
----
-
-# KẾT LUẬN
-
-To speak well at work, you don't need to learn complex grammar.
-
-You just need to:
-
-- master simple sentences
-- use the right basic tenses
-- remember familiar formulas
-- use connectors for smooth flow
-- use softening phrases to sound natural
-
-> **Final tip:** If stuck, fall back to short formulas:
->
-> - **We completed [task].**
-> - **We're working on [task].**
-> - **We'll focus on [task].**
-> - **Could you clarify this point?**
-> - **Let me double-check and get back to you.**
+# 11. BẢNG TRA CỨU NHANH (QUICK REFERENCE CHEAT SHEET)
+
+## 11.1. Báo cáo tiến độ nhanh (Status Reporting)
+
+- **Task đã xong**: **"We have completed [task]."** / **"We completed [task] yesterday."**
+- **Task đang làm**: **"We are currently working on [task]."** / **"We're working on [task]."**
+- **Task sắp tới**: **"Next, we will focus on [task]."** / **"We plan to start [task] tomorrow."**
+- **Blockers / Lỗi**: **"We ran into a blocker with [topic]."** / **"We have an issue with [topic]."**
+
+## 11.2. Bảng quy chuẩn giới từ thông dụng
+
+| Cụm từ    | Giới từ đúng                       | Ví dụ thực tế                                 |
+| :-------- | :--------------------------------- | :-------------------------------------------- |
+| Work      | **on** a task                      | "We are working **on** the payment gateway."  |
+| Focus     | **on** an issue                    | "Let's focus **on** the performance bug."     |
+| Look      | **into** a bug                     | "We will look **into** the connection error." |
+| Follow up | **on** a thread                    | "I'll follow up **on** that email today."     |
+| Agree     | **with** a person / **on** a topic | "We agree **on** the proposed timeline."      |
+| Issue     | **with** a feature                 | "There is an issue **with** the login form."  |
 
 ---

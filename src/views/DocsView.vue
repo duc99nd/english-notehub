@@ -90,7 +90,7 @@ const activeSlug = computed(() => {
   return docs[0]?.slug ?? ''
 })
 
-const activeDocIndex = computed(() => docs.findIndex(doc => doc.slug === activeSlug.value))
+const activeDocIndex = computed(() => docs.findIndex((doc) => doc.slug === activeSlug.value))
 
 const previousDoc = computed(() => {
   if (activeDocIndex.value <= 0) {
@@ -156,7 +156,7 @@ function formatCount(count: number | undefined): string {
 }
 
 function docOrderLabel(slug: string): string {
-  const index = docs.findIndex(doc => doc.slug === slug)
+  const index = docs.findIndex((doc) => doc.slug === slug)
   return index === -1 ? '00' : String(index + 1).padStart(2, '0')
 }
 
@@ -250,7 +250,7 @@ function getTargetSlug(input: string): string {
     return ''
   }
 
-  if (docs.some(doc => doc.slug === input)) {
+  if (docs.some((doc) => doc.slug === input)) {
     return input
   }
 
@@ -340,15 +340,12 @@ watch(
 )
 
 // Re-load doc content when locale changes
-watch(
-  currentLocale,
-  () => {
-    const slug = typeof route.params.slug === 'string' ? route.params.slug : ''
-    if (slug) {
-      void loadActiveDocBySlug(slug)
-    }
-  },
-)
+watch(currentLocale, () => {
+  const slug = typeof route.params.slug === 'string' ? route.params.slug : ''
+  if (slug) {
+    void loadActiveDocBySlug(slug)
+  }
+})
 
 watch(
   () => [activeDoc.value?.slug, route.hash],
@@ -388,13 +385,23 @@ function scrollToTop(): void {
     <header class="sticky top-0 z-40 border-b border-border bg-background/90 backdrop-blur-xl">
       <div class="mx-auto flex min-h-20 max-w-[1500px] items-center gap-4 px-4 py-3 sm:px-6">
         <RouterLink to="/docs" class="group flex shrink-0 items-center gap-3 sm:gap-4">
-          <span class="flex size-10 items-center justify-center overflow-hidden rounded-xl shadow-sm sm:size-12">
+          <span
+            class="flex size-10 items-center justify-center overflow-hidden rounded-xl shadow-sm sm:size-12"
+          >
             <img src="/brand/logo-mark.svg" alt="English Notehub logo" class="size-full" />
           </span>
           <div class="hidden min-w-0 sm:block">
-            <p class="text-[0.65rem] font-semibold uppercase tracking-[0.15em] text-muted-foreground">Study Desk</p>
+            <p
+              class="text-[0.65rem] font-semibold uppercase tracking-[0.15em] text-muted-foreground"
+            >
+              Study Desk
+            </p>
             <p class="text-base font-bold tracking-[-0.02em]">
-              <span class="text-foreground">English </span><span class="bg-gradient-to-br from-teal-500 to-blue-500 bg-clip-text text-transparent">Notehub</span>
+              <span class="text-foreground">English </span
+              ><span
+                class="bg-gradient-to-br from-teal-500 to-blue-500 bg-clip-text text-transparent"
+                >Notehub</span
+              >
             </p>
           </div>
         </RouterLink>
@@ -460,7 +467,9 @@ function scrollToTop(): void {
             @click="currentLocale = currentLocale === 'en' ? 'vi' : 'en'"
           >
             <Languages class="size-4 text-primary" aria-hidden="true" />
-            <span class="hidden text-sm font-semibold sm:inline">{{ currentLocale === 'en' ? 'EN' : 'VI' }}</span>
+            <span class="hidden text-sm font-semibold sm:inline">{{
+              currentLocale === 'en' ? 'EN' : 'VI'
+            }}</span>
           </Button>
         </div>
       </div>
@@ -472,19 +481,25 @@ function scrollToTop(): void {
       :class="mainGridClass"
     >
       <aside v-if="showDesktopSidebar" class="hidden lg:block">
-        <div class="surface-panel sticky top-24 flex h-[calc(100vh-7.5rem)] flex-col overflow-hidden rounded-[1.9rem]">
+        <div
+          class="surface-panel sticky top-24 flex h-[calc(100vh-7.5rem)] flex-col overflow-hidden rounded-[1.9rem]"
+        >
           <div class="border-b border-foreground/10 px-5 pb-4 pt-5">
             <p class="notehub-label text-muted-foreground">{{ t('labels.referenceLibrary') }}</p>
             <div class="mt-4 grid grid-cols-2 gap-3">
               <div class="rounded-[1.25rem] bg-background/70 p-3">
                 <p class="notehub-label text-muted-foreground">{{ t('labels.totalDocs') }}</p>
-                <p class="mt-3 text-2xl font-semibold tracking-[-0.04em] tabular-nums text-foreground">
+                <p
+                  class="mt-3 text-2xl font-semibold tracking-[-0.04em] tabular-nums text-foreground"
+                >
                   {{ formatCount(totalDocs) }}
                 </p>
               </div>
               <div class="rounded-[1.25rem] bg-background/70 p-3">
                 <p class="notehub-label text-muted-foreground">{{ t('labels.filteredDocs') }}</p>
-                <p class="mt-3 text-2xl font-semibold tracking-[-0.04em] tabular-nums text-foreground">
+                <p
+                  class="mt-3 text-2xl font-semibold tracking-[-0.04em] tabular-nums text-foreground"
+                >
                   {{ formatCount(filteredDocsCount) }}
                 </p>
               </div>
@@ -492,7 +507,9 @@ function scrollToTop(): void {
           </div>
 
           <div class="border-b border-foreground/10 px-5 py-4">
-            <label for="desktop-doc-search" class="sr-only">{{ t('actions.searchDocuments') }}</label>
+            <label for="desktop-doc-search" class="sr-only">{{
+              t('actions.searchDocuments')
+            }}</label>
             <div class="relative">
               <Search
                 class="pointer-events-none absolute left-4 top-1/2 size-4 -translate-y-1/2 text-muted-foreground"
@@ -541,7 +558,9 @@ function scrollToTop(): void {
 
                 <div class="min-w-0 flex-1">
                   <div class="flex items-start justify-between gap-3">
-                    <p class="line-clamp-2 text-sm font-semibold tracking-[-0.02em] text-foreground">
+                    <p
+                      class="line-clamp-2 text-sm font-semibold tracking-[-0.02em] text-foreground"
+                    >
                       {{ docTitle(doc) }}
                     </p>
                     <Badge variant="outline" class="shrink-0 tabular-nums">
@@ -559,21 +578,35 @@ function scrollToTop(): void {
       </aside>
 
       <section class="min-w-0 space-y-6">
-        <section class="surface-panel-dark relative overflow-hidden rounded-[2rem] px-5 py-5 text-white sm:px-6 sm:py-6">
-          <div class="absolute -right-10 top-[-20px] h-40 w-40 rounded-full bg-primary/20 blur-3xl" />
-          <div class="absolute bottom-[-48px] left-[18%] h-36 w-36 rounded-full bg-amber-200/10 blur-3xl" />
+        <section
+          class="surface-panel-dark relative overflow-hidden rounded-[2rem] px-5 py-5 text-white sm:px-6 sm:py-6"
+        >
+          <div
+            class="absolute -right-10 top-[-20px] h-40 w-40 rounded-full bg-primary/20 blur-3xl"
+          />
+          <div
+            class="absolute bottom-[-48px] left-[18%] h-36 w-36 rounded-full bg-amber-200/10 blur-3xl"
+          />
 
           <div class="relative flex flex-col gap-8 xl:flex-row xl:items-end xl:justify-between">
             <div class="max-w-3xl">
-              <div class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-1.5">
+              <div
+                class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-1.5"
+              >
                 <Sparkles class="size-4 text-primary" aria-hidden="true" />
                 <span class="notehub-label text-white/70">{{ t('labels.bilingualMode') }}</span>
               </div>
 
               <p class="mt-5 notehub-label text-white/40">
-                {{ activeDoc ? `Doc ${docOrderLabel(activeDoc.slug)} / ${formatCount(totalDocs)}` : 'Reference Library' }}
+                {{
+                  activeDoc
+                    ? `Doc ${docOrderLabel(activeDoc.slug)} / ${formatCount(totalDocs)}`
+                    : 'Reference Library'
+                }}
               </p>
-              <h1 class="mt-3 max-w-3xl text-2xl font-semibold tracking-[-0.04em] text-white sm:text-3xl lg:text-4xl">
+              <h1
+                class="mt-3 max-w-3xl text-2xl font-semibold tracking-[-0.04em] text-white sm:text-3xl lg:text-4xl"
+              >
                 {{ activeDoc ? docTitle(activeDoc) : t('app.name') }}
               </h1>
               <p class="mt-4 max-w-2xl text-base leading-8 text-white/70 sm:text-lg">
@@ -626,9 +659,10 @@ function scrollToTop(): void {
         </section>
 
         <article v-if="activeDoc" class="surface-panel overflow-hidden rounded-[2rem]">
-
-
-          <div ref="articleContentRef" class="notehub-prose max-w-none px-6 py-8 sm:px-8 lg:px-12 lg:py-10">
+          <div
+            ref="articleContentRef"
+            class="notehub-prose max-w-none px-6 py-8 sm:px-8 lg:px-12 lg:py-10"
+          >
             <div v-html="activeDoc.html" />
           </div>
 
@@ -647,11 +681,15 @@ function scrollToTop(): void {
                   :to="{ name: 'docs', params: { slug: previousDoc.slug } }"
                   class="group flex min-w-[220px] items-center gap-3 rounded-xl border border-border bg-card px-4 py-3 text-left transition-[transform,border-color,box-shadow] duration-200 hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-[0_8px_24px_rgba(59,130,246,0.10)]"
                 >
-                  <span class="flex size-9 items-center justify-center rounded-full bg-background text-foreground">
+                  <span
+                    class="flex size-9 items-center justify-center rounded-full bg-background text-foreground"
+                  >
                     <ArrowLeft class="size-4" aria-hidden="true" />
                   </span>
                   <div class="min-w-0">
-                    <p class="notehub-label text-muted-foreground">{{ t('actions.previousDoc') }}</p>
+                    <p class="notehub-label text-muted-foreground">
+                      {{ t('actions.previousDoc') }}
+                    </p>
                     <p class="mt-1 line-clamp-1 text-sm font-semibold text-foreground">
                       {{ docTitle(previousDoc) }}
                     </p>
@@ -663,7 +701,9 @@ function scrollToTop(): void {
                   :to="{ name: 'docs', params: { slug: nextDoc.slug } }"
                   class="group flex min-w-[220px] items-center gap-3 rounded-xl border border-border bg-card px-4 py-3 text-left transition-[transform,border-color,box-shadow] duration-200 hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-[0_8px_24px_rgba(59,130,246,0.10)]"
                 >
-                  <span class="flex size-9 items-center justify-center rounded-full bg-background text-foreground">
+                  <span
+                    class="flex size-9 items-center justify-center rounded-full bg-background text-foreground"
+                  >
                     <ArrowRight class="size-4" aria-hidden="true" />
                   </span>
                   <div class="min-w-0">
@@ -695,7 +735,9 @@ function scrollToTop(): void {
       </section>
 
       <aside v-if="showDesktopToc" class="hidden lg:block">
-        <div class="surface-panel sticky top-24 h-[calc(100vh-7.5rem)] overflow-hidden rounded-[1.9rem]">
+        <div
+          class="surface-panel sticky top-24 h-[calc(100vh-7.5rem)] overflow-hidden rounded-[1.9rem]"
+        >
           <div class="border-b border-foreground/10 px-5 pb-4 pt-5">
             <p class="notehub-label text-muted-foreground">{{ t('nav.contents') }}</p>
             <div class="mt-3 flex items-center justify-between gap-3">
@@ -708,8 +750,14 @@ function scrollToTop(): void {
             </div>
           </div>
 
-          <div class="docs-scroll flex h-[calc(100%-5.75rem)] flex-col overflow-y-auto px-4 pb-4 pt-4">
-            <nav v-if="activeDoc?.headings.length" class="space-y-1.5" :aria-label="t('nav.contents')">
+          <div
+            class="docs-scroll flex h-[calc(100%-5.75rem)] flex-col overflow-y-auto px-4 pb-4 pt-4"
+          >
+            <nav
+              v-if="activeDoc?.headings.length"
+              class="space-y-1.5"
+              :aria-label="t('nav.contents')"
+            >
               <RouterLink
                 v-for="heading in activeDoc.headings"
                 :key="heading.id"
@@ -745,14 +793,19 @@ function scrollToTop(): void {
     </main>
 
     <Sheet v-model:open="docsSheetOpen">
-      <SheetContent side="left" class="w-[92vw] border-none bg-transparent p-0 shadow-none sm:max-w-md">
+      <SheetContent
+        side="left"
+        class="w-[92vw] border-none bg-transparent p-0 shadow-none sm:max-w-md"
+      >
         <div class="surface-panel flex h-full flex-col overflow-hidden rounded-[1.75rem]">
           <SheetHeader class="border-b border-foreground/10 p-5">
             <SheetTitle class="text-left">{{ t('labels.referenceLibrary') }}</SheetTitle>
           </SheetHeader>
 
           <div class="border-b border-foreground/10 px-5 py-4">
-            <label for="mobile-doc-search" class="sr-only">{{ t('actions.searchDocuments') }}</label>
+            <label for="mobile-doc-search" class="sr-only">{{
+              t('actions.searchDocuments')
+            }}</label>
             <div class="relative">
               <Search
                 class="pointer-events-none absolute left-4 top-1/2 size-4 -translate-y-1/2 text-muted-foreground"
@@ -801,7 +854,9 @@ function scrollToTop(): void {
 
                 <div class="min-w-0 flex-1">
                   <div class="flex items-start justify-between gap-3">
-                    <p class="line-clamp-2 text-sm font-semibold tracking-[-0.02em] text-foreground">
+                    <p
+                      class="line-clamp-2 text-sm font-semibold tracking-[-0.02em] text-foreground"
+                    >
                       {{ docTitle(doc) }}
                     </p>
                     <Badge variant="outline" class="shrink-0 tabular-nums">
@@ -820,14 +875,21 @@ function scrollToTop(): void {
     </Sheet>
 
     <Sheet v-model:open="tocSheetOpen">
-      <SheetContent side="right" class="w-[92vw] border-none bg-transparent p-0 shadow-none sm:max-w-md">
+      <SheetContent
+        side="right"
+        class="w-[92vw] border-none bg-transparent p-0 shadow-none sm:max-w-md"
+      >
         <div class="surface-panel flex h-full flex-col overflow-hidden rounded-[1.75rem]">
           <SheetHeader class="border-b border-foreground/10 p-5">
             <SheetTitle class="text-left">{{ t('nav.contents') }}</SheetTitle>
           </SheetHeader>
 
           <div class="docs-scroll h-[calc(100vh-10.25rem)] overflow-y-auto px-4 py-4">
-            <nav v-if="activeDoc?.headings.length" class="space-y-1.5" :aria-label="t('nav.contents')">
+            <nav
+              v-if="activeDoc?.headings.length"
+              class="space-y-1.5"
+              :aria-label="t('nav.contents')"
+            >
               <RouterLink
                 v-for="heading in activeDoc.headings"
                 :key="`mobile-${heading.id}`"

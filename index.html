@@ -17,13 +17,16 @@
     />
     <script>
       // Apply dark mode immediately to prevent flash
-      (function() {
-        const theme = localStorage.getItem('english-notehub.theme');
-        if (theme === 'dark' || (!theme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-          document.documentElement.classList.add('dark');
-          document.querySelector('meta[name="theme-color"]').content = '#0f1117';
+      ;(function () {
+        const theme = localStorage.getItem('english-notehub.theme')
+        if (
+          theme === 'dark' ||
+          (!theme && window.matchMedia('(prefers-color-scheme: dark)').matches)
+        ) {
+          document.documentElement.classList.add('dark')
+          document.querySelector('meta[name="theme-color"]').content = '#0f1117'
         }
-      })();
+      })()
     </script>
     <title>English Notehub</title>
   </head>

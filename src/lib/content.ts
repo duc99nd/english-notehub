@@ -83,6 +83,22 @@ const FILE_META: Record<string, FileMeta> = {
     subtitleVi: 'Mở và đóng hội họp thân thiện hơn',
     order: 6,
   },
+  '7_interview_preparation': {
+    slug: 'interview-preparation',
+    titleEn: 'Job Interview Preparation',
+    subtitleEn: 'Standard QA and strategies for professional English interviews',
+    titleVi: 'Chuẩn bị phỏng vấn tiếng Anh',
+    subtitleVi: 'Câu hỏi thường gặp và chiến thuật trả lời phỏng vấn',
+    order: 7,
+  },
+  '8_conversation_scenarios': {
+    slug: 'conversation-scenarios',
+    titleEn: 'Real-world Conversation Scenarios',
+    subtitleEn: 'Bilingual reading comprehension dialogues for daily work and meetings',
+    titleVi: 'Kịch bản hội thoại thực tế',
+    subtitleVi: 'Hội thoại mẫu đọc hiểu cho standup, client meeting và phỏng vấn',
+    order: 8,
+  },
 }
 
 function stripMarkdownSyntax(input: string): string {
@@ -108,7 +124,7 @@ function createFallbackTitle(fileName: string): string {
     .replace(/^\d+_/, '')
     .replace(/_reference$/, '')
     .replace(/_/g, ' ')
-    .replace(/\b\w/g, char => char.toUpperCase())
+    .replace(/\b\w/g, (char) => char.toUpperCase())
 }
 
 function stripLeadingDocHeadings(markdown: string): string {
@@ -168,11 +184,13 @@ const docs: DocSummary[] = Object.keys(markdownModules)
   })
   .sort((a, b) => a.order - b.order)
 
-const docBySlug = new Map(docs.map(doc => [doc.slug, doc]))
+const docBySlug = new Map(docs.map((doc) => [doc.slug, doc]))
 const cacheByKey = new Map<string, DocItem>()
 const pendingByKey = new Map<string, Promise<DocItem | undefined>>()
 
-async function renderMarkdown(raw: string): Promise<Pick<DocItem, 'html' | 'headings' | 'sectionCount'>> {
+async function renderMarkdown(
+  raw: string,
+): Promise<Pick<DocItem, 'html' | 'headings' | 'sectionCount'>> {
   const [{ default: MarkdownIt }, { default: markdownItAnchor }] = await Promise.all([
     import('markdown-it'),
     import('markdown-it-anchor'),
@@ -229,17 +247,14 @@ async function renderMarkdown(raw: string): Promise<Pick<DocItem, 'html' | 'head
     english_small_talk_and_rapport: 'small-talk-rapport',
   }
 
-  html = html.replace(
-    /<code>([a-z0-9_]+)\.md<\/code>/gi,
-    (_match: string, fileName: string) => {
-      const meta = FILE_META[fileName]
-      const slug = meta?.slug ?? LEGACY_SLUG_MAP[fileName]
-      if (slug) {
-        return `<a href="/docs/${slug}" class="doc-file-link"><code>${fileName}.md</code></a>`
-      }
-      return `<code>${fileName}.md</code>`
-    },
-  )
+  html = html.replace(/<code>([a-z0-9_]+)\.md<\/code>/gi, (_match: string, fileName: string) => {
+    const meta = FILE_META[fileName]
+    const slug = meta?.slug ?? LEGACY_SLUG_MAP[fileName]
+    if (slug) {
+      return `<a href="/docs/${slug}" class="doc-file-link"><code>${fileName}.md</code></a>`
+    }
+    return `<code>${fileName}.md</code>`
+  })
 
   return {
     html,
@@ -248,11 +263,16 @@ async function renderMarkdown(raw: string): Promise<Pick<DocItem, 'html' | 'head
   }
 }
 
-async function loadDoc(summary: DocSummary, locale: AppLocale = 'en'): Promise<DocItem | undefined> {
+async function loadDoc(
+  summary: DocSummary,
+  locale: AppLocale = 'en',
+): Promise<DocItem | undefined> {
   // Try Vietnamese loader first if locale is 'vi'
-  const loader = locale === 'vi'
-    ? (viModuleLoaderByFileName.get(summary.fileName) ?? moduleLoaderByFileName.get(summary.fileName))
-    : moduleLoaderByFileName.get(summary.fileName)
+  const loader =
+    locale === 'vi'
+      ? (viModuleLoaderByFileName.get(summary.fileName) ??
+        moduleLoaderByFileName.get(summary.fileName))
+      : moduleLoaderByFileName.get(summary.fileName)
 
   if (!loader) {
     return undefined
@@ -275,7 +295,10 @@ export function getDocs(): DocSummary[] {
   return docs
 }
 
-export async function getDocBySlug(slug: string, locale: AppLocale = 'en'): Promise<DocItem | undefined> {
+export async function getDocBySlug(
+  slug: string,
+  locale: AppLocale = 'en',
+): Promise<DocItem | undefined> {
   const cacheKey = `${slug}:${locale}`
 
   if (cacheByKey.has(cacheKey)) {
