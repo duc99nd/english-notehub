@@ -6,7 +6,7 @@ Mistakes are inevitable in software development. You might send incorrect server
 
 ## 1. Academic vs. Daily Apology English
 
-Keep your apologies simple and human. Do not sound like a legal contract.
+Keep your apologies simple and human. Stiff, academic language can make you sound defensive or insincere.
 
 | ❌ Academic / Too Formal (Avoid) | 🟢 Daily & Conversational (Use instead) |
 | :--- | :--- |
@@ -14,18 +14,55 @@ Keep your apologies simple and human. Do not sound like a legal contract.
 | "I apologize for the oversight regarding the exclusion of the attachment in my preceding correspondence." | "Whoops, forgot the attachment! Here it is." |
 | "I misspoke during our oral presentation regarding the database engine." | "Sorry, I made a mistake in the meeting. We are using Postgres, not MySQL." |
 | "Please accept my apologies for failing to attend our scheduled appointment." | "Sorry I missed our call today. I got caught up in a production issue." |
+| "I take full responsibility for the transmission of erroneous credentials." | "Apologies, I sent the wrong password in my last message. Please use this one instead." |
+| "We are engaged in rectification efforts to resolve this anomaly." | "We're working on a fix right now." |
+| "My delay in responding was caused by an unexpected accumulation of tasks." | "Sorry for the late reply, I was caught up in a bug fix." |
+| "The system is exhibiting degraded performance due to a deployment mishap." | "Staging is currently slow because of a bad update. We're fixing it." |
+| "It was an inadvertent omission on my part." | "Sorry, that was an oversight on my part." |
+| "Please disregard the previous notification as it contains inaccuracies." | "Please ignore my last message. I sent the wrong link." |
+| "I am sorry for the inconvenience caused by my late arrival." | "Sorry for running late. My last call ran over." |
+| "We apologize for the temporary interruption of our online services." | "Sorry for the downtime. We are back online now." |
 
 ---
 
 ## 2. Key Terms to Know
 
-* **Misspoke:** Said something wrong by accident. ("Sorry, I misspoke in the meeting yesterday.")
-* **Roll back:** To return code or a database to a previous working version. ("I rolled back the server to the last stable build.")
-* **Caught up:** To be busy or trapped doing something else. ("Sorry for the late reply, I was caught up in a bug fix.")
-* **Run over:** To go past the scheduled end time. ("My last meeting ran over by 10 minutes.")
-* **Whoops / Oops:** Casual expressions used for small, harmless mistakes. ("Whoops, forgot to add the link!")
-* **Oversight:** A minor mistake made because you forgot to check something. ("Sorry, that was an oversight on my part.")
-* **Mix-up:** A minor confusion or misunderstanding. ("Apologies for the mix-up on the server credentials.")
+Master these 17 terms to apologize and correct technical mistakes professionally:
+
+1. **Misspoke:** Said something wrong by accident.
+   * *"Sorry, I misspoke in the meeting yesterday."*
+2. **Roll back:** To return code or a database to a previous working version.
+   * *"I rolled back the server to the last stable build."*
+3. **Caught up:** To be busy or trapped doing something else.
+   * *"Sorry for the late reply, I was caught up in a bug fix."*
+4. **Run over:** To go past the scheduled end time.
+   * *"My last meeting ran over by 10 minutes."*
+5. **Whoops / Oops:** Casual expressions used for small, harmless mistakes.
+   * *"Whoops, forgot to add the link!"*
+6. **Oversight:** A minor mistake made because you forgot to check something.
+   * *"Sorry, that was an oversight on my part."*
+7. **Mix-up:** A minor confusion or misunderstanding.
+   * *"Apologies for the mix-up on the server credentials."*
+8. **Disregard:** Ignore something (usually a previous message or email).
+   * *"Please disregard my previous email, as the issue has been resolved."*
+9. **Outage:** A period when a service or system is unavailable.
+   * *"We had a minor database outage this morning."*
+10. **Hotfix:** A quick software patch to fix an urgent bug.
+    * *"I am deploying a hotfix to resolve the login issue."*
+11. **My bad:** Extremely casual slang meaning "my mistake" (use only with close peers).
+    * *"Ah, my bad, I merged the wrong branch."*
+12. **Inconvenience:** Trouble or difficulty caused to someone.
+    * *"We apologize for any inconvenience this delay may cause."*
+13. **Slip-up:** A small, careless mistake.
+    * *"Sorry for the slip-up in the calculations."*
+14. **Overlook:** To fail to notice or consider something.
+    * *"I overlooked the validation step in the pull request."*
+15. **Downtime:** Time during which a machine or system is not working.
+    * *"The migration will require 10 minutes of downtime."*
+16. **Rectify:** To correct or make something right.
+    * *"We are working hard to rectify the situation as soon as possible."*
+17. **Inadvertently:** Accidental or without intention.
+    * *"I inadvertently deleted the test database."*
 
 ---
 
@@ -55,11 +92,13 @@ Sometimes, using the passive voice is more polite because it avoids pointing fin
 Use the Present Perfect tense (`have/has + V3`) to report a mistake you just made or resolved.
 * *"I **have accidentally deployed** the wrong branch."*
 * *"We **have resolved** the server issue."*
+* *"I **have updated** the credentials in the dashboard."*
 
 ### 4.3. "Apologize for" + Verb-ing
 Always use the gerund (`V-ing`) after the preposition *for*.
 * *"I apologize **for missing** our sync."*
 * *"We apologize **for causing** the delay."*
+* *"I apologize **for sending** the wrong link."*
 
 ---
 
@@ -106,6 +145,26 @@ Always use the gerund (`V-ing`) after the preposition *for*.
 >
 > I apologize for the delay. I am working to wrap it up by **[New date/time, e.g., Monday noon]**. I will keep you posted on the progress."
 
+### Template F: Sending Wrong Database Credentials (Slack message)
+> "Apologies for the mix-up on the database credentials I sent earlier. Please **disregard** those details. The correct database host is **[Host name]** and the port is **[Port]**. Let me know if you are still having trouble connecting."
+
+### Template G: Double Booking / Running Late for Meeting (Slack message)
+> "Hi **[Name]**, I'm so sorry, but I'm running about 5 minutes late for our sync. My last client meeting is running over. I will join as soon as possible. Thanks for waiting!"
+
+### Template H: Formal Apology to Client for Service Outage (Email)
+> **Subject:** Apology for Service Outage - **[Your Company Name]**
+>
+> Dear **[Client Name]**,
+>
+> Please accept our sincere apologies for the service outage that occurred on **[Date]** between **[Start Time]** and **[End Time]**. We understand how critical our platform is to your daily operations, and we deeply regret the disruption this caused.
+>
+> Our engineering team identified the root cause as a **[Brief description, e.g., database connection timeout]**. We have implemented a hotfix to prevent this issue from recurring and have upgraded our server capacity.
+>
+> Thank you for your patience and understanding.
+>
+> Best regards,
+> **[Your Name/Company Name]**
+
 ---
 
 ## 6. Tone Adjustments: Peer vs. Client
@@ -117,6 +176,7 @@ Modify your apology depending on who you are talking to.
 | **Forgot link** | "Oops, here is the link: [URL]" | "Apologies, here is the link for your reference: [URL]" |
 | **Missed meeting** | "Sorry I missed the call, got caught up." | "Please accept my apologies for missing our meeting today. I had an urgent issue." |
 | **Server bug** | "My bad, bad query. Rolling back." | "We apologize for the inconvenience. We identified a slow database query and have rolled back the changes." |
+| **Sending wrong file** | "Sent the wrong PDF. Use this one instead." | "Please disregard the previous attachment. I have attached the corrected version here." |
 
 ---
 
@@ -127,6 +187,7 @@ Modify your apology depending on who you are talking to.
 * **Dev:** *"I'm rolling back the deployment now. The server should be back online in 5 minutes. I will run the migrations locally first to verify."*
 * **Manager:** *"Sounds good. Let us know when it's back."*
 * **Dev (5 mins later):** *"Staging is back online and fully functional. Sorry for the disruption!"*
+* **Manager:** *"Good job on the quick fix. Let's make sure we add a deployment checklist next time."*
 
 ---
 
@@ -138,3 +199,7 @@ Modify your apology depending on who you are talking to.
   * Do not say: *"The server broke because Huy didn't review my code properly."* Own the team outcome, and use passive voice if needed.
 * **Defensive responses:**
   * Do not say: *"Well, it worked on my local machine, so the staging environment must be configured wrong."* Focus on fixing the issue first.
+* **Not outlining the next steps:**
+  * Don't just say *"Sorry I broke the server."* and leave it at that. Always provide the status: *"Sorry I broke the server, I am rolling it back now."*
+* **Waiting too long to report the error:**
+  * If you break production, don't try to hide it and fix it in secret. Acknowledge it immediately so the team is aware of the incident.
