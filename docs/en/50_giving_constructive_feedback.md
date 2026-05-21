@@ -5,6 +5,7 @@ Feedback is the engine of growth in high-performing engineering teams. However, 
 ## 1. Using the "SBI" Feedback Model (Situation, Behavior, Impact)
 
 The SBI model is a proven professional framework:
+
 1. **Situation:** Define the specific context (when and where).
 2. **Behavior:** Describe the observable behavior (do not assume intent).
 3. **Impact:** Explain how the behavior affected you, the team, or the project.

@@ -77,7 +77,7 @@ Prepositions (in, on, at, to, for, with, by, from) are tiny words that cause hug
 3.  ❌ "The meeting is **in** Monday." → 🟢 "The meeting is **on** Monday."
 4.  ❌ "I depend **with** this library." → 🟢 "I depend **on** this library."
 5.  ❌ "Please push **in** the main branch." → 🟢 "Please push **to** the main branch."
-6.  ❌ "We discussed **about** the bug." → 🟢 "We discussed the bug." (*discuss* doesn't need a preposition)
+6.  ❌ "We discussed **about** the bug." → 🟢 "We discussed the bug." (_discuss_ doesn't need a preposition)
 7.  ❌ "The error happened **in** 3 PM." → 🟢 "The error happened **at** 3 PM."
 8.  ❌ "I need to connect **with** the database." → 🟢 "I need to connect **to** the database."
 9.  ❌ "This is compatible **to** version 2." → 🟢 "This is compatible **with** version 2."
@@ -87,17 +87,17 @@ Prepositions (in, on, at, to, for, with, by, from) are tiny words that cause hug
 
 ## 5. Quick Reference Table
 
-| Action | Correct Preposition | Example |
-| :--- | :--- | :--- |
-| Deploy | **to** | "Deploy **to** production" |
-| Work | **on** | "Work **on** a task" |
-| Depend | **on** | "Depend **on** an API" |
-| Connect | **to** | "Connect **to** the database" |
-| Integrate | **with** | "Integrate **with** Stripe" |
-| Compatible | **with** | "Compatible **with** v3" |
-| Based | **on** | "Based **on** benchmarks" |
-| Merge | **into** | "Merge **into** main" |
-| Meeting time | **at** | "Meeting **at** 10 AM" |
-| Specific day | **on** | "Deploy **on** Friday" |
-| Duration | **in** | "Ready **in** 2 hours" |
-| Deadline | **by** | "Finish **by** EOD" |
+| Action       | Correct Preposition | Example                       |
+| :----------- | :------------------ | :---------------------------- |
+| Deploy       | **to**              | "Deploy **to** production"    |
+| Work         | **on**              | "Work **on** a task"          |
+| Depend       | **on**              | "Depend **on** an API"        |
+| Connect      | **to**              | "Connect **to** the database" |
+| Integrate    | **with**            | "Integrate **with** Stripe"   |
+| Compatible   | **with**            | "Compatible **with** v3"      |
+| Based        | **on**              | "Based **on** benchmarks"     |
+| Merge        | **into**            | "Merge **into** main"         |
+| Meeting time | **at**              | "Meeting **at** 10 AM"        |
+| Specific day | **on**              | "Deploy **on** Friday"        |
+| Duration     | **in**              | "Ready **in** 2 hours"        |
+| Deadline     | **by**              | "Finish **by** EOD"           |

@@ -3,6 +3,7 @@
 ## Giới thiệu bản thân tự tin và đáng nhớ trong 30-60 giây
 
 > **Mục đích của tài liệu này**
+>
 > - Hiểu elevator pitch là gì và khi nào nên sử dụng trong môi trường chuyên nghiệp
 > - Nắm vững cấu trúc 3 phần để giới thiệu bản thân ấn tượng
 > - Thực hành với các mẫu có sẵn dành riêng cho kỹ sư phần mềm
@@ -277,37 +278,44 @@ Pitch mở rộng thêm thành tựu, bối cảnh và định hướng vào ph�
 
 Hoàn thành pitch này với thông tin của bạn:
 
-> "Hi, I'm ____________. I'm a ____________ with ____________ years of experience. I currently work at ____________, where I ____________. One thing I'm proud of is ____________. I'm particularly interested in ____________, and I'm always happy to connect with people who share that passion."
+> "Hi, I'm ****\_\_\_\_****. I'm a ****\_\_\_\_**** with ****\_\_\_\_**** years of experience. I currently work at ****\_\_\_\_****, where I ****\_\_\_\_****. One thing I'm proud of is ****\_\_\_\_****. I'm particularly interested in ****\_\_\_\_****, and I'm always happy to connect with people who share that passion."
 
 Thực hành các biến thể:
-- "In my current role, I focus on ____________."
-- "My biggest professional achievement so far is ____________."
-- "What excites me most about my field is ____________."
-- "I'm looking to ____________ in the next stage of my career."
+
+- "In my current role, I focus on ****\_\_\_\_****."
+- "My biggest professional achievement so far is ****\_\_\_\_****."
+- "What excites me most about my field is ****\_\_\_\_****."
+- "I'm looking to ****\_\_\_\_**** in the next stage of my career."
 
 ## Các lỗi thường gặp cần tránh
 
 **Lỗi 1: Quá chung chung**
+
 - Sai: "I work in tech."
 - Đúng: "I build mobile apps for healthcare companies."
 
 **Lỗi 2: Quá dài**
+
 - Sai: Một bài thuyết trình năm phút về toàn bộ lịch sử nghề nghiệp.
 - Đúng: Tóm tắt 30 giây tập trung với một chi tiết đáng nhớ.
 
 **Lỗi 3: Quá khiêm tốn**
+
 - Sai: "I'm just a developer. Nothing special."
 - Đúng: "I'm a developer who builds tools used by 50,000 people daily."
 
 **Lỗi 4: Quá kỹ thuật với người không chuyên**
+
 - Sai: "I implement SSR with hydration using a custom webpack config."
 - Đúng: "I make websites load faster so users have a better experience."
 
 **Lỗi 5: Không có câu mở đầu trò chuyện**
+
 - Sai: "I'm a developer. Nice to meet you." (kết thúc đột ngột)
 - Đúng: "I'm a developer working on AI-powered chatbots. Have you used any AI tools recently?"
 
 **Lỗi 6: Học thuộc và đọc như máy**
+
 - Sai: Nói đều đều, nhìn xa xăm.
 - Đúng: Giao tiếp bằng mắt, mỉm cười và điều chỉnh lời nói theo tình huống.
 

@@ -121,6 +121,7 @@ End by listing the immediate priorities and what you need from the stakeholders 
 ## 6. Status Report Email Template
 
 ### Weekly Status Email to Client / Executive
+
 > **Subject:** Project Status Report - Week of Oct 14, 2026
 >
 > Hi **[Client Name / Stakeholders]**,
@@ -130,18 +131,22 @@ End by listing the immediate priorities and what you need from the stakeholders 
 > **Overall Health:** 🟢 Green (On Track)
 >
 > **Accomplishments This Week:**
+>
 > - Completed the user authentication module (100% done).
 > - Deployed the checkout flow to staging for QA testing.
 > - Resolved 3 critical bugs flagged during last week's UAT.
 >
 > **Risks & Mitigations:**
+>
 > - **Risk:** Third-party API credentials not yet received.
 > - **Mitigation:** Frontend development continues using mocked API responses.
 >
 > **Schedule Update:**
+>
 > - No changes to the timeline. We remain on track for the October 22nd release.
 >
 > **Action Items:**
+>
 > - **[Client Name]:** Please provide production API keys by Friday.
 > - **[Dev Team]:** Complete load testing by Wednesday.
 >
@@ -156,26 +161,26 @@ End by listing the immediate priorities and what you need from the stakeholders 
 
 Use these standard metrics to add credibility and data to your reports:
 
-| Metric | What it Measures | Example |
-| :--- | :--- | :--- |
-| **Sprint Velocity** | Story points completed per sprint | "Our velocity this sprint was 42 points, up from 38 last sprint." |
-| **Bug Escape Rate** | Bugs found in production vs. caught in QA | "Bug escape rate decreased from 12% to 4% this quarter." |
-| **Code Coverage** | Percentage of code covered by automated tests | "Code coverage is currently at 78%, up from 72%." |
-| **Deployment Frequency** | How often code is deployed to production | "We deployed to production 8 times this sprint." |
-| **Mean Time to Recovery (MTTR)** | Average time to resolve production incidents | "Our MTTR improved from 45 minutes to 12 minutes." |
-| **Burndown Progress** | Work remaining vs. time remaining | "We have 18 story points remaining with 4 days left in the sprint." |
+| Metric                           | What it Measures                              | Example                                                             |
+| :------------------------------- | :-------------------------------------------- | :------------------------------------------------------------------ |
+| **Sprint Velocity**              | Story points completed per sprint             | "Our velocity this sprint was 42 points, up from 38 last sprint."   |
+| **Bug Escape Rate**              | Bugs found in production vs. caught in QA     | "Bug escape rate decreased from 12% to 4% this quarter."            |
+| **Code Coverage**                | Percentage of code covered by automated tests | "Code coverage is currently at 78%, up from 72%."                   |
+| **Deployment Frequency**         | How often code is deployed to production      | "We deployed to production 8 times this sprint."                    |
+| **Mean Time to Recovery (MTTR)** | Average time to resolve production incidents  | "Our MTTR improved from 45 minutes to 12 minutes."                  |
+| **Burndown Progress**            | Work remaining vs. time remaining             | "We have 18 story points remaining with 4 days left in the sprint." |
 
 ---
 
 ## 8. Common Mistakes to Avoid
 
-* **Reporting only good news:**
-  * Hiding risks erodes trust. Stakeholders prefer transparency with a mitigation plan over discovering problems too late.
-* **Using technical jargon with business stakeholders:**
-  * Don't say *"The Redis cache TTL expired."* Say *"The temporary data storage expired, causing slower page loads."*
-* **Not providing context for schedule changes:**
-  * Don't just say *"The release is delayed."* Explain why, by how much, and what the recovery plan is.
-* **Forgetting action items for stakeholders:**
-  * Status reports should clearly state what you need from the client or management team, not just what you are doing.
-* **Sending reports inconsistently:**
-  * Establish a fixed reporting cadence (weekly, bi-weekly) and stick to it. Inconsistent reporting creates anxiety.
+- **Reporting only good news:**
+  - Hiding risks erodes trust. Stakeholders prefer transparency with a mitigation plan over discovering problems too late.
+- **Using technical jargon with business stakeholders:**
+  - Don't say _"The Redis cache TTL expired."_ Say _"The temporary data storage expired, causing slower page loads."_
+- **Not providing context for schedule changes:**
+  - Don't just say _"The release is delayed."_ Explain why, by how much, and what the recovery plan is.
+- **Forgetting action items for stakeholders:**
+  - Status reports should clearly state what you need from the client or management team, not just what you are doing.
+- **Sending reports inconsistently:**
+  - Establish a fixed reporting cadence (weekly, bi-weekly) and stick to it. Inconsistent reporting creates anxiety.

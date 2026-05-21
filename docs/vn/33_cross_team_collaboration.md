@@ -8,6 +8,20 @@
 > - Phá vỡ rào cản phòng ban và giao tiếp tôn trọng giữa các chuyên môn khác nhau
 > - Xử lý các blocker bị gây ra bởi dependency từ bên ngoài
 
+```mermaid
+graph TD
+    Dev["Developer (Dev Team)"] <-->|Cấu hình Server, CI/CD, Quyền truy cập DB| DevOps["DevOps & Hạ tầng"]
+    Dev <-->|Figma Mockups, Spacing, SVG Assets| Design["UI/UX Design"]
+    Dev <-->|Bug Reports, Repro Steps, Kiểm thử Release| QA["QA & Testing"]
+    Dev <-->|Analytics, SEO Meta, Feature Flags| Marketing["Product & Marketing"]
+
+    style Dev fill:#eff6ff,stroke:#3b82f6,stroke-width:2px
+    style DevOps fill:#faf5ff,stroke:#a855f7,stroke-width:1px
+    style Design fill:#fff1f2,stroke:#f43f5e,stroke-width:1px
+    style QA fill:#f0fdf4,stroke:#22c55e,stroke-width:1px
+    style Marketing fill:#fffbeb,stroke:#f59e0b,stroke-width:1px
+```
+
 ---
 
 # 1. NÓI CHUYỆN VỚI DEVOPS & HẠ TẦNG

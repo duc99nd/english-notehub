@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { computed, nextTick, onBeforeUnmount, onMounted, ref, watch } from 'vue'
+import mermaid from 'mermaid'
 import { useI18n } from 'vue-i18n'
 import { RouterLink, useRoute, useRouter } from 'vue-router'
 import {
@@ -92,21 +93,18 @@ watch(
   [activeDoc, currentLocale],
   ([newDoc]) => {
     if (newDoc) {
-      const activeCat = currentLocale.value === 'vi'
-        ? (newDoc.categoryVi || 'Khác')
-        : (newDoc.categoryEn || 'Other')
+      const activeCat =
+        currentLocale.value === 'vi' ? newDoc.categoryVi || 'Khác' : newDoc.categoryEn || 'Other'
       expandedCategories.value[activeCat] = true
     }
   },
-  { immediate: true }
+  { immediate: true },
 )
 
 const groupedDocs = computed(() => {
   const groups = new Map<string, DocSummary[]>()
   for (const doc of filteredDocs.value) {
-    const cat = currentLocale.value === 'vi' 
-      ? (doc.categoryVi || 'Khác') 
-      : (doc.categoryEn || 'Other')
+    const cat = currentLocale.value === 'vi' ? doc.categoryVi || 'Khác' : doc.categoryEn || 'Other'
     if (!groups.has(cat)) {
       groups.set(cat, [])
     }
@@ -114,7 +112,7 @@ const groupedDocs = computed(() => {
   }
   return Array.from(groups.entries()).map(([category, items]) => ({
     category,
-    items
+    items,
   }))
 })
 
@@ -391,6 +389,69 @@ watch(
   { immediate: true },
 )
 
+watch(
+  activeDoc,
+  (doc) => {
+    if (typeof window === 'undefined') return
+    if (doc) {
+      const title = docTitle(doc)
+      const subtitle = docSubtitle(doc)
+      document.title = `${title} | English Notehub`
+      const meta = document.querySelector('meta[name="description"]')
+      if (meta) {
+        meta.setAttribute('content', subtitle || 'English Notehub')
+      }
+    } else {
+      document.title = 'English Notehub — Learn English with Simple Notes'
+      const meta = document.querySelector('meta[name="description"]')
+      if (meta) {
+        meta.setAttribute(
+          'content',
+          'English Notehub is a simple place to learn English grammar, vocabulary, common phrases, business English, and interview English with practical examples.',
+        )
+      }
+    }
+  },
+  { immediate: true },
+)
+
+watch(
+  [activeDoc, isDark],
+  async ([newDoc]) => {
+    if (!newDoc) return
+    await nextTick()
+
+    const elements = document.querySelectorAll('.mermaid')
+    if (elements.length > 0) {
+      mermaid.initialize({
+        startOnLoad: false,
+        theme: isDark.value ? 'dark' : 'neutral',
+        securityLevel: 'loose',
+        themeVariables: {
+          fontFamily: 'Inter, system-ui, sans-serif',
+        },
+      })
+
+      for (const el of elements) {
+        const src = el.getAttribute('data-mermaid-src')
+        if (src) {
+          el.textContent = src
+          el.removeAttribute('data-processed')
+        }
+      }
+
+      try {
+        await mermaid.run({
+          querySelector: '.mermaid',
+        })
+      } catch (err) {
+        console.error('Mermaid render error:', err)
+      }
+    }
+  },
+  { immediate: true },
+)
+
 onMounted(() => {
   window.addEventListener('scroll', queueHeadingSync, { passive: true })
   window.addEventListener('resize', queueHeadingSync)
@@ -577,7 +638,10 @@ function scrollToTop(): void {
                   <ListTree class="size-3.5 text-primary/70" />
                   <span>{{ group.category }}</span>
                 </span>
-                <span class="text-xs transition-transform duration-200" :class="{ 'rotate-180': !expandedCategories[group.category] }">
+                <span
+                  class="text-xs transition-transform duration-200"
+                  :class="{ 'rotate-180': !expandedCategories[group.category] }"
+                >
                   <ChevronUp class="size-3" />
                 </span>
               </button>
@@ -649,14 +713,18 @@ function scrollToTop(): void {
                   class="inline-flex items-center gap-2 rounded-full border border-foreground/10 bg-foreground/5 px-4 py-1.5"
                 >
                   <Sparkles class="size-4 text-primary" aria-hidden="true" />
-                  <span class="notehub-label text-muted-foreground">{{ t('labels.bilingualMode') }}</span>
+                  <span class="notehub-label text-muted-foreground">{{
+                    t('labels.bilingualMode')
+                  }}</span>
                 </div>
 
                 <div
                   v-if="activeDoc"
                   class="inline-flex items-center gap-2 rounded-full border border-primary/30 bg-primary/20 px-4 py-1.5"
                 >
-                  <span class="notehub-label text-primary font-bold uppercase tracking-wider text-[0.65rem]">
+                  <span
+                    class="notehub-label text-primary font-bold uppercase tracking-wider text-[0.65rem]"
+                  >
                     {{ currentLocale === 'vi' ? activeDoc.categoryVi : activeDoc.categoryEn }}
                   </span>
                 </div>
@@ -682,21 +750,29 @@ function scrollToTop(): void {
             <div class="grid gap-2 sm:grid-cols-3 xl:min-w-[360px]">
               <div class="rounded-[1.35rem] border border-foreground/10 bg-foreground/5 p-3">
                 <p class="notehub-label text-muted-foreground/80">{{ t('labels.totalDocs') }}</p>
-                <p class="mt-3 text-3xl font-semibold tracking-[-0.05em] tabular-nums text-foreground">
+                <p
+                  class="mt-3 text-3xl font-semibold tracking-[-0.05em] tabular-nums text-foreground"
+                >
                   {{ formatCount(totalDocs) }}
                 </p>
               </div>
 
               <div class="rounded-[1.35rem] border border-foreground/10 bg-foreground/5 p-3">
-                <p class="notehub-label text-muted-foreground/80">{{ t('labels.totalSections') }}</p>
-                <p class="mt-3 text-3xl font-semibold tracking-[-0.05em] tabular-nums text-foreground">
+                <p class="notehub-label text-muted-foreground/80">
+                  {{ t('labels.totalSections') }}
+                </p>
+                <p
+                  class="mt-3 text-3xl font-semibold tracking-[-0.05em] tabular-nums text-foreground"
+                >
                   {{ formatCount(totalSectionCount) }}
                 </p>
               </div>
 
               <div class="rounded-[1.35rem] border border-foreground/10 bg-foreground/5 p-3">
                 <p class="notehub-label text-muted-foreground/80">{{ t('labels.filteredDocs') }}</p>
-                <p class="mt-3 text-3xl font-semibold tracking-[-0.05em] tabular-nums text-foreground">
+                <p
+                  class="mt-3 text-3xl font-semibold tracking-[-0.05em] tabular-nums text-foreground"
+                >
                   {{ formatCount(filteredDocsCount) }}
                 </p>
               </div>
@@ -902,7 +978,10 @@ function scrollToTop(): void {
                   <ListTree class="size-3.5 text-primary/70" />
                   <span>{{ group.category }}</span>
                 </span>
-                <span class="text-xs transition-transform duration-200" :class="{ 'rotate-180': !expandedCategories[group.category] }">
+                <span
+                  class="text-xs transition-transform duration-200"
+                  :class="{ 'rotate-180': !expandedCategories[group.category] }"
+                >
                   <ChevronUp class="size-3" />
                 </span>
               </button>

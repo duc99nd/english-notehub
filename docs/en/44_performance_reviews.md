@@ -20,6 +20,7 @@ Before walking into a performance review, thorough preparation is essential. Sta
 Use these phrases in your self-assessment document or review preparation notes:
 
 **Opening your self-assessment:**
+
 - "Over the past review period, I have consistently contributed to [team/project] by..."
 - "During this cycle, my primary focus areas were..."
 - "I would like to highlight three key areas of contribution this period..."
@@ -27,6 +28,7 @@ Use these phrases in your self-assessment document or review preparation notes:
 - "This review period has been a significant growth opportunity for me, particularly in..."
 
 **Describing your overall contribution:**
+
 - "I took ownership of [project] and successfully delivered it on schedule."
 - "I proactively identified and resolved [issue] before it impacted the client."
 - "I contributed beyond my core responsibilities by..."
@@ -38,6 +40,7 @@ Use these phrases in your self-assessment document or review preparation notes:
 Always quantify your work when possible. Numbers speak louder than words in reviews.
 
 **Using metrics effectively:**
+
 - "Reduced API response time by 40%, from 800ms to under 500ms."
 - "Delivered 12 feature releases with zero critical bugs in production."
 - "Increased test coverage from 45% to 78% across the core module."
@@ -45,6 +48,7 @@ Always quantify your work when possible. Numbers speak louder than words in revi
 - "Mentored 2 junior developers, both of whom successfully completed their probation period."
 
 **When you don't have hard numbers:**
+
 - "Streamlined the deployment process, reducing manual steps significantly."
 - "Improved the onboarding documentation, which received positive feedback from new team members."
 - "Led knowledge-sharing sessions that improved team velocity on similar tasks."
@@ -60,6 +64,7 @@ Presenting your work positively is not bragging -- it is an essential profession
 ## 2.1. Templates for Presenting Your Work
 
 **The "Delivered-Improved-Achieved" framework:**
+
 - "I **delivered** the payment integration module two weeks ahead of schedule, which allowed the team to start UAT earlier."
 - "I **improved** the CI/CD pipeline build time by 35%, reducing the average build from 12 minutes to under 8 minutes."
 - "I **achieved** a 99.5% uptime for the reporting service during the holiday peak season."
@@ -67,6 +72,7 @@ Presenting your work positively is not bragging -- it is an essential profession
 - "I **implemented** automated regression tests that catch an average of 8 bugs before each release."
 
 **Talking about collaborative achievements:**
+
 - "I collaborated with the design team to refine the user experience, resulting in a 20% increase in user engagement."
 - "I worked closely with the client to clarify requirements, reducing scope changes by 30%."
 - "I partnered with the QA team to establish a more efficient testing workflow."
@@ -88,6 +94,7 @@ Every developer has areas to improve. The key is to frame them as growth opportu
 ## 3.1. Framing Weaknesses Positively
 
 **Using the "Recognize-Action-Result" pattern:**
+
 - "I recognize that my skills in [area] need improvement. To address this, I have been [action], and I am already seeing progress in [result]."
 - "One area I want to develop further is [skill]. I have started [action] and plan to [next step] by [timeframe]."
 - "Early in the period, I struggled with [challenge]. I addressed this by [action], and now I feel much more confident."
@@ -95,6 +102,7 @@ Every developer has areas to improve. The key is to frame them as growth opportu
 - "While I have made progress in [area], I see room for continued growth, and I plan to focus on [specific goal] next period."
 
 **Common improvement areas with sample phrases:**
+
 - **Communication:** "I am working on being more proactive in sharing updates with stakeholders. I have started sending weekly status summaries and scheduling brief check-ins."
 - **Time estimation:** "I have been refining my estimation skills by tracking actual vs. estimated hours for each task and adjusting my approach based on the data."
 - **Technical breadth:** "I have been expanding my knowledge in [technology] through online courses and applying what I learn in side projects."
@@ -110,6 +118,7 @@ How you respond to feedback says as much about you as the work itself. Stay calm
 ## 4.1. Positive Responses to Criticism
 
 **When receiving constructive feedback:**
+
 - "Thank you for that feedback. I appreciate you sharing this perspective."
 - "That is helpful to hear. I was not fully aware of how that was perceived."
 - "I understand your point. Can you give me a specific example so I can better understand the situation?"
@@ -117,6 +126,7 @@ How you respond to feedback says as much about you as the work itself. Stay calm
 - "I appreciate the honesty. This gives me a clear direction for improvement."
 
 **When you disagree with feedback (staying professional):**
+
 - "I appreciate the feedback. I have a different perspective on this -- would it be okay to share my side?"
 - "Thank you for raising this. I would like to provide some additional context that might be relevant."
 - "I understand where you are coming from. In that particular instance, [context]. How would you suggest I handle similar situations in the future?"
@@ -148,6 +158,7 @@ Performance reviews are forward-looking. Use this section to show ambition and a
 - "By December, I aim to complete three technical blog posts for the engineering team blog."
 
 **Professional development goals:**
+
 - "I plan to deepen my expertise in system design by studying architecture patterns and applying them in our upcoming projects."
 - "I want to improve my mentoring skills by formally onboarding at least one new team member next quarter."
 - "I aim to contribute to at least two open-source projects relevant to our tech stack this year."

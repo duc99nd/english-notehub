@@ -2,11 +2,40 @@
 
 When a production outage or major bug occurs, clear, calm, and structured communication is vital. The team must work together to triage the issue, communicate progress to stakeholders, and implement a hotfix. This document covers real-time communication during a live incident.
 
+```mermaid
+flowchart TD
+    Start([1. Incident Alerted 🚨]) --> Detect{Triage Severity}
+    Detect -->|Sev-1 / Critical| Roles[2. Assign Roles 👥]
+    Roles --> IC["Incident Commander (IC)<br/>• Orchestrates response"]
+    Roles --> LI["Lead Investigator<br/>• Debugs & creates hotfix"]
+    Roles --> CL["Comms Lead<br/>• Updates Slack & Status Page"]
+    IC & LI & CL --> WarRoom[3. Create Slack War Room & Huddle 💬]
+    WarRoom --> Investigate[4. Investigate & Isolate Bug 🔍]
+    Investigate --> Rollback{Can Rollback?}
+    Rollback -->|Yes| DoRollback[Rollback to Stable Release] --> Monitor[5. Monitor & Validate 📈]
+    Rollback -->|No / Hotfix needed| Hotfix[Create & Test Hotfix] --> Deploy[Deploy Hotfix 🚀] --> Monitor
+    Monitor --> StatusOk{System Stable?}
+    StatusOk -->|No| Investigate
+    StatusOk -->|Yes| Resolve[6. Resolve Incident & Update Status Page ✅]
+    Resolve --> PostMortem[7. Blameless Post-Mortem & Action Items 📝]
+    PostMortem --> End([System Guardrails Improved])
+
+    style Start fill:#fee2e2,stroke:#ef4444,stroke-width:2px
+    style End fill:#dcfce7,stroke:#22c55e,stroke-width:2px
+    style IC fill:#eff6ff,stroke:#3b82f6,stroke-width:1px
+    style LI fill:#eff6ff,stroke:#3b82f6,stroke-width:1px
+    style CL fill:#eff6ff,stroke:#3b82f6,stroke-width:1px
+    style WarRoom fill:#faf5ff,stroke:#a855f7,stroke-width:1px
+    style Hotfix fill:#fffbeb,stroke:#f59e0b,stroke-width:1px
+    style Resolve fill:#dcfce7,stroke:#22c55e,stroke-width:1px
+```
+
 ---
 
 ## 1. Incident Roles in a War Room
 
 To coordinate efficiently under pressure, establish three key roles in your team:
+
 1.  **Incident Commander (IC):** Manages the response process, assigns tasks, and ensures the team remains focused on finding the solution.
 2.  **Lead Investigator:** Focuses entirely on debugging, tracing logs, and writing the code/hotfix.
 3.  **Communications Lead (Comms):** Updates Slack channels, informs clients/management, and manages status pages so developers aren't interrupted.
@@ -111,6 +140,7 @@ Ensure that lessons are learned from the outage.
 ## 7. Incident Notification Templates
 
 ### Status Page Template (For External Users)
+
 > **Investigating:** We are currently investigating an issue causing slow response times and error pages on our checkout page. Our engineering team is actively working on a fix.
 >
 > **Identified:** We have identified a database locking issue as the root cause. We are preparing a database migration to resolve this.
@@ -123,17 +153,17 @@ Ensure that lessons are learned from the outage.
 
 ## 8. Simulated Slack Incident Log: `#incident-checkout-crash`
 
-*Huy (Lead Dev), Lan (QA), and John (Comms Lead) coordinate a response to a production checkout crash.*
+_Huy (Lead Dev), Lan (QA), and John (Comms Lead) coordinate a response to a production checkout crash._
 
-*   **10:15 AM - Huy:** `[Alert] checkout page is returning 500 Internal Server Error for Web users.`
-*   **10:16 AM - John:** `Got it. Setting this as Severity 1. I'll declare the incident and update the status page. Huy, are you the Lead Investigator?`
-*   **10:17 AM - Huy:** `Yes, I am looking at Sentry now. Lan, can you verify if mobile app checkout is also affected?`
-*   **10:19 AM - Lan:** `Testing iOS now... Yes, mobile is also returning 500 error during final step.`
-*   **10:20 AM - Huy:** `Found it. Sentry shows database connection pool timeout. We ran out of active connections because the new promotional widget query is too slow.`
-*   **10:22 AM - John:** `Understood. I will update stakeholders. What's the plan, Huy?`
-*   **10:23 AM - Huy:** `I will write a hotfix to disable the promo widget temporarily so users can check out. I am preparing the hotfix branch now.`
-*   **10:28 AM - Huy:** `Hotfix build succeeded. Deploying to production now.`
-*   **10:31 AM - Huy:** `Fix is live. Lan, please run a sanity check on staging and production.`
-*   **10:33 AM - Lan:** `Staging checkout is successful. Production checkout works too! No errors in the console.`
-*   **10:34 AM - Huy:** `Error rates dropped. CPU utilization is back to 15%. John, we are good to resolve the incident.`
-*   **10:35 AM - John:** `Status page updated to Resolved. Let's schedule the post-mortem for tomorrow morning to optimize that widget query.`
+- **10:15 AM - Huy:** `[Alert] checkout page is returning 500 Internal Server Error for Web users.`
+- **10:16 AM - John:** `Got it. Setting this as Severity 1. I'll declare the incident and update the status page. Huy, are you the Lead Investigator?`
+- **10:17 AM - Huy:** `Yes, I am looking at Sentry now. Lan, can you verify if mobile app checkout is also affected?`
+- **10:19 AM - Lan:** `Testing iOS now... Yes, mobile is also returning 500 error during final step.`
+- **10:20 AM - Huy:** `Found it. Sentry shows database connection pool timeout. We ran out of active connections because the new promotional widget query is too slow.`
+- **10:22 AM - John:** `Understood. I will update stakeholders. What's the plan, Huy?`
+- **10:23 AM - Huy:** `I will write a hotfix to disable the promo widget temporarily so users can check out. I am preparing the hotfix branch now.`
+- **10:28 AM - Huy:** `Hotfix build succeeded. Deploying to production now.`
+- **10:31 AM - Huy:** `Fix is live. Lan, please run a sanity check on staging and production.`
+- **10:33 AM - Lan:** `Staging checkout is successful. Production checkout works too! No errors in the console.`
+- **10:34 AM - Huy:** `Error rates dropped. CPU utilization is back to 15%. John, we are good to resolve the incident.`
+- **10:35 AM - John:** `Status page updated to Resolved. Let's schedule the post-mortem for tomorrow morning to optimize that widget query.`

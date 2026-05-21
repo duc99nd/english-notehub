@@ -696,8 +696,8 @@ const FILE_META: Record<string, FileMeta> = {
     titleVi: 'Cụm Động Từ (Phrasal Verbs) Trong IT',
     subtitleVi: 'Các cụm động từ thiết yếu cho lập trình, vận hành và họp hành',
     order: 66,
-    categoryEn: 'Pronunciation & Fluency',
-    categoryVi: 'Phát Âm & Trôi Chảy',
+    categoryEn: 'Vocabulary Deep Dives',
+    categoryVi: 'Từ vựng Chuyên sâu',
   },
   '67_articles_a_an_the': {
     slug: 'articles-a-an-the',
@@ -706,8 +706,8 @@ const FILE_META: Record<string, FileMeta> = {
     titleVi: 'Mạo Từ (A / An / The) Trong IT',
     subtitleVi: 'Khi nào dùng a, an, the hoặc bỏ mạo từ trong viết và nói IT',
     order: 67,
-    categoryEn: 'Pronunciation & Fluency',
-    categoryVi: 'Phát Âm & Trôi Chảy',
+    categoryEn: 'Speaking Grammar Hacks',
+    categoryVi: 'Mẹo Ngữ pháp Speaking',
   },
   '68_prepositions_in_it': {
     slug: 'prepositions-in-it',
@@ -716,38 +716,41 @@ const FILE_META: Record<string, FileMeta> = {
     titleVi: 'Giới Từ Trong Ngữ Cảnh IT',
     subtitleVi: 'Cách dùng giới từ đúng khi deploy, work, depend, connect và lên lịch',
     order: 68,
-    categoryEn: 'Pronunciation & Fluency',
-    categoryVi: 'Phát Âm & Trôi Chảy',
+    categoryEn: 'Speaking Grammar Hacks',
+    categoryVi: 'Mẹo Ngữ pháp Speaking',
   },
   '69_confusing_words_in_it': {
     slug: 'confusing-words-in-it',
     titleEn: 'Confusing Words in IT & Development',
-    subtitleEn: 'Clarifying say/tell/speak/talk, error/bug/exception, and other confusing technical words',
+    subtitleEn:
+      'Clarifying say/tell/speak/talk, error/bug/exception, and other confusing technical words',
     titleVi: 'Từ Vựng Dễ Nhầm Lẫn Trong IT',
     subtitleVi: 'Phân biệt say/tell/speak/talk, error/bug/exception và các từ chuyên ngành dễ nhầm',
     order: 69,
-    categoryEn: 'Pronunciation & Fluency',
-    categoryVi: 'Phát Âm & Trôi Chảy',
+    categoryEn: 'Vocabulary Deep Dives',
+    categoryVi: 'Từ vựng Chuyên sâu',
   },
   '70_polite_request_templates': {
     slug: 'polite-request-templates',
     titleEn: 'Polite Request Templates & Email Hacks',
-    subtitleEn: 'Copy-pasteable templates for requesting info, reporting bugs, and explaining delays',
+    subtitleEn:
+      'Copy-pasteable templates for requesting info, reporting bugs, and explaining delays',
     titleVi: 'Mẫu Câu Yêu Cầu & Viết Email',
     subtitleVi: 'Các mẫu câu và email chuyên nghiệp để hỏi thông tin, báo bug và thông báo delay',
     order: 70,
-    categoryEn: 'Pronunciation & Fluency',
-    categoryVi: 'Phát Âm & Trôi Chảy',
+    categoryEn: 'Foundation & Daily Communication',
+    categoryVi: 'Nền tảng Kỹ năng',
   },
   '71_common_daily_phrases': {
     slug: 'common-daily-phrases',
     titleEn: '10 Useful Daily English Phrases',
-    subtitleEn: 'Essential everyday office expressions for standups, Slack, and quick status updates',
+    subtitleEn:
+      'Essential everyday office expressions for standups, Slack, and quick status updates',
     titleVi: '10 Cụm Từ Giao Tiếp Hàng Ngày',
     subtitleVi: 'Các diễn đạt công sở thường nhật cho standup, Slack và cập nhật tiến độ nhanh',
     order: 71,
-    categoryEn: 'Pronunciation & Fluency',
-    categoryVi: 'Phát Âm & Trôi Chảy',
+    categoryEn: 'Foundation & Daily Communication',
+    categoryVi: 'Nền tảng Kỹ năng',
   },
   '72_business_english_developers': {
     slug: 'business-english-for-developers',
@@ -756,9 +759,18 @@ const FILE_META: Record<string, FileMeta> = {
     titleVi: 'Tiếng Anh Công Việc Cho Developer',
     subtitleVi: 'Các mẫu câu cốt lõi để báo cáo trạng thái, tái hiện lỗi và giải thích nguyên nhân',
     order: 72,
-    categoryEn: 'Pronunciation & Fluency',
-    categoryVi: 'Phát Âm & Trôi Chảy',
+    categoryEn: 'Foundation & Daily Communication',
+    categoryVi: 'Nền tảng Kỹ năng',
   },
+}
+
+function escapeHtml(unsafe: string): string {
+  return unsafe
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#039;')
 }
 
 function stripMarkdownSyntax(input: string): string {
@@ -887,6 +899,22 @@ async function renderMarkdown(
       }
     },
   })
+
+  const defaultRender =
+    parser.renderer.rules.fence ||
+    function (tokens, idx, options, _env, self) {
+      return self.renderToken(tokens, idx, options)
+    }
+
+  parser.renderer.rules.fence = (tokens, idx, options, env, self) => {
+    const token = tokens[idx]
+    const info = token.info ? token.info.trim() : ''
+    if (info === 'mermaid') {
+      const escaped = escapeHtml(token.content)
+      return `<div class="mermaid" data-mermaid-src="${escaped}">${escaped}</div>`
+    }
+    return defaultRender(tokens, idx, options, env, self)
+  }
 
   let html = parser.render(raw)
 

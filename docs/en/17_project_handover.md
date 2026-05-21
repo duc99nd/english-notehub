@@ -1,7 +1,9 @@
 # PROJECT HANDOVER
 
 A complete guide to transferring project ownership smoothly
+
 > **Purpose of this document**
+>
 > - Learn how to plan and execute a structured project handover
 > - Master phrases for explaining codebase, architecture, and known issues
 > - Prepare professional handover documentation and email templates

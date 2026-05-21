@@ -9,13 +9,17 @@ In Pull Request descriptions, system designs, and code comments, you must clearl
 To describe the goal of a code change or architecture decision, use these patterns.
 
 ### Pattern A: "In order to / So as to + Base Verb" (Very formal & clear)
+
 Use this at the beginning or middle of a sentence.
+
 - **"We refactored the fetch hook in order to improve page responsiveness."**
 - **"In order to avoid SQL injection, we prepared all raw database queries."**
 - **"We disabled the service so as to save CPU cycles."**
 
 ### Pattern B: "So that / In order that + Subject + can/could/would + Verb"
+
 Use this when the target of the action changes or contains a condition.
+
 - **"We set up a fallback database so that users can access their profiles if the primary fails."**
 - **"The script was updated so that the QA team could automate regression tests."**
 
@@ -85,21 +89,23 @@ Use these transitions to describe the consequences of database updates, memory o
 Use these structures in your next Git pull request:
 
 ### PR Template A (Incident Fix)
+
 > **Proposed Changes:**
-> We updated the authentication middleware **in order to** prevent token reuse. 
-> 
+> We updated the authentication middleware **in order to** prevent token reuse.
+>
 > **Technical Reason:**
 > The previous setup was vulnerable **because** tokens were stored locally without expiration validation.
-> 
+>
 > **Result:**
 > Tokens are now validated on every request. **As a result**, unauthorized requests are rejected immediately, **thereby** improving API security.
 
 ### PR Template B (Performance Upgrade)
+
 > **Proposed Changes:**
 > We sharded the transaction table **so that** read speeds remain consistent.
-> 
+>
 > **Technical Reason:**
 > Latency was increasing **due to** the large volume of historical rows.
-> 
+>
 > **Result:**
 > The queries now target smaller shards. **Consequently**, database load is reduced, **thereby** stabilizing the system.

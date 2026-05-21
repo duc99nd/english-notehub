@@ -102,18 +102,23 @@ Always try to offer an alternative that is realistic and safe.
 ## 6. Professional "Pushback" Email/Slack Templates
 
 ### Template A: When a PM demands working overtime
+
 > "I understand we are close to the release, but working overtime this week will lead to developer fatigue and increase the likelihood of introducing critical bugs. Let's look at reducing the release scope instead. I suggest we set up a quick call to discuss the trade-offs."
 
 ### Template B: When a stakeholder asks you to skip writing tests
+
 > "Writing unit tests is a core part of our Definition of Done. Skipping them to save time will create technical debt that will cost us double to fix later. I recommend we keep the tests and, if needed, extend the timeline by 1 day."
 
 ### Template C: When someone asks you to deploy without code review
+
 > "I appreciate the urgency, but our team has a strict policy of requiring at least one code review before any production deployment. This policy was put in place after a previous incident. I can ask [Name] to do a fast-track review today."
 
 ### Template D: When the scope keeps expanding
+
 > "I want to flag that we've received 5 additional requests this sprint that were not in the original scope. While I understand each one seems small individually, they collectively add up to about 1.5 weeks of extra work. Can we schedule a scope review meeting?"
 
 ### Template E: When asked to build something insecure
+
 > "I understand the business need, but implementing this without proper input validation would expose our system to serious security vulnerabilities. I recommend we take 1 extra day to implement it securely. This protects both our users and our reputation."
 
 ---
@@ -131,13 +136,13 @@ If your pushback is ignored and you're being forced to do something you believe 
 
 ## 8. Common Mistakes to Avoid
 
-* **Just saying "no" without explaining why:**
-  * Always pair your "no" with a technical reason and an alternative solution.
-* **Getting emotional or defensive:**
-  * Stay calm and objective. Use data, estimates, and past incident references to support your position.
-* **Complaining to peers instead of escalating:**
-  * If the request is truly unreasonable, don't just vent in private. Raise it formally through the proper channels.
-* **Always saying "yes" to avoid conflict:**
-  * Short-term people-pleasing leads to long-term burnout, bugs, and missed deadlines.
-* **Failing to document the decision:**
-  * If you push back and lose, make sure the decision and its risks are documented. This protects you if things go wrong.
+- **Just saying "no" without explaining why:**
+  - Always pair your "no" with a technical reason and an alternative solution.
+- **Getting emotional or defensive:**
+  - Stay calm and objective. Use data, estimates, and past incident references to support your position.
+- **Complaining to peers instead of escalating:**
+  - If the request is truly unreasonable, don't just vent in private. Raise it formally through the proper channels.
+- **Always saying "yes" to avoid conflict:**
+  - Short-term people-pleasing leads to long-term burnout, bugs, and missed deadlines.
+- **Failing to document the decision:**
+  - If you push back and lose, make sure the decision and its risks are documented. This protects you if things go wrong.

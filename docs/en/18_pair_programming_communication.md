@@ -8,12 +8,12 @@ Pair programming is when two developers work on the same task together. One is t
 
 Keep it simple. You are talking to a colleague who is sitting right next to you or sharing your screen.
 
-| ❌ Academic / Too Formal (Avoid) | 🟢 Daily & Conversational (Use instead) |
-| :--- | :--- |
-| "I shall assume the role of the driver and proceed to write the algorithm." | "I'll type first. Tell me what you think." |
+| ❌ Academic / Too Formal (Avoid)                                               | 🟢 Daily & Conversational (Use instead)             |
+| :----------------------------------------------------------------------------- | :-------------------------------------------------- |
+| "I shall assume the role of the driver and proceed to write the algorithm."    | "I'll type first. Tell me what you think."          |
 | "Your proposed implementation contains a logical discrepancy on line fifteen." | "I think we have a bug on line 15. Let's check it." |
-| "Let us execute a syntax review before proceeding to commit the code." | "Let's double-check the code before we commit." |
-| "I request that you cease typing so I can inspect the structure." | "Wait a second, let me look at that function." |
+| "Let us execute a syntax review before proceeding to commit the code."         | "Let's double-check the code before we commit."     |
+| "I request that you cease typing so I can inspect the structure."              | "Wait a second, let me look at that function."      |
 
 ---
 
@@ -31,13 +31,17 @@ Keep it simple. You are talking to a colleague who is sitting right next to you 
 ## 3. Communication Patterns for the Roles
 
 ### A. If you are the Driver (Người gõ):
+
 Explain what you are typing in real-time so your navigator can follow you.
+
 - "I'm going to create a new helper function here." (Tôi sẽ tạo một hàm helper mới ở đây.)
 - "I'll write a simple loop to process this list." (Tôi sẽ viết một vòng lặp đơn giản để xử lý list này.)
 - "Let's console.log this response to see what data we get." (Hãy in log kết quả này ra để xem nhận được data gì nhé.)
 
 ### B. If you are the Navigator (Người chỉ đường):
+
 Guide the driver without micromanaging every character. Ask open questions.
+
 - "Instead of a loop here, what if we use `map`?" (Thay vì dùng vòng lặp, nếu dùng `map` thì sao?)
 - "I think we need to import `dbHelper` at the top of the file." (Tôi nghĩ mình cần import `dbHelper` ở đầu file.)
 - "Should we add a check in case the user ID is null?" (Chúng ta có nên check trường hợp user ID bị null không?)

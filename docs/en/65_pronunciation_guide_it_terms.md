@@ -8,69 +8,69 @@ Many Vietnamese developers read technical words daily but mispronounce them in m
 
 These are words you say in every standup and architecture discussion.
 
-| Word | ❌ Common Mistake | 🟢 Correct (IPA) | Phonetic Hint |
-| :--- | :--- | :--- | :--- |
-| **cache** | /kash-ee/ or /catch/ | /kæʃ/ | Rhymes with "cash" |
-| **SQL** | /sequel/ or /es-queue-el/ | Both are correct! | "sequel" or "S-Q-L" |
-| **nginx** | /en-jinx/ | /ˌɛndʒɪnˈɛks/ | "engine-X" |
-| **Ubuntu** | /yoo-BUN-too/ | /ʊˈbʊntuː/ | "oo-BOON-too" (stress on 2nd syllable) |
-| **MySQL** | /my-sequel/ | /maɪˌɛskjuːˈɛl/ | "my-S-Q-L" (official) |
-| **PostgreSQL** | /post-gres-quel/ | /ˈpoʊstɡrɛsˌkjuːˈɛl/ | "post-GRES-Q-L" |
-| **Redis** | /REE-dis/ | /ˈrɛdɪs/ | "RED-iss" (like "red" + "is") |
-| **Kubernetes** | /koo-ber-nets/ | /kuːbərˈnɛtiːz/ | "koo-ber-NET-eez" |
-| **daemon** | /DAY-mon/ | /ˈdiːmən/ | "DEE-mun" (not "day-mon") |
-| **schema** | /SHEE-ma/ | /ˈskiːmə/ | "SKEE-muh" |
+| Word           | ❌ Common Mistake         | 🟢 Correct (IPA)     | Phonetic Hint                          |
+| :------------- | :------------------------ | :------------------- | :------------------------------------- |
+| **cache**      | /kash-ee/ or /catch/      | /kæʃ/                | Rhymes with "cash"                     |
+| **SQL**        | /sequel/ or /es-queue-el/ | Both are correct!    | "sequel" or "S-Q-L"                    |
+| **nginx**      | /en-jinx/                 | /ˌɛndʒɪnˈɛks/        | "engine-X"                             |
+| **Ubuntu**     | /yoo-BUN-too/             | /ʊˈbʊntuː/           | "oo-BOON-too" (stress on 2nd syllable) |
+| **MySQL**      | /my-sequel/               | /maɪˌɛskjuːˈɛl/      | "my-S-Q-L" (official)                  |
+| **PostgreSQL** | /post-gres-quel/          | /ˈpoʊstɡrɛsˌkjuːˈɛl/ | "post-GRES-Q-L"                        |
+| **Redis**      | /REE-dis/                 | /ˈrɛdɪs/             | "RED-iss" (like "red" + "is")          |
+| **Kubernetes** | /koo-ber-nets/            | /kuːbərˈnɛtiːz/      | "koo-ber-NET-eez"                      |
+| **daemon**     | /DAY-mon/                 | /ˈdiːmən/            | "DEE-mun" (not "day-mon")              |
+| **schema**     | /SHEE-ma/                 | /ˈskiːmə/            | "SKEE-muh"                             |
 
 ---
 
 ## 2. Programming & Code Words
 
-| Word | ❌ Common Mistake | 🟢 Correct (IPA) | Phonetic Hint |
-| :--- | :--- | :--- | :--- |
-| **char** | /char/ (like charcoal) | /kɑːr/ or /tʃɑːr/ | Both accepted; "car" is more common |
-| **null** | /nool/ | /nʌl/ | Rhymes with "dull" |
-| **sudo** | /sue-doo/ | /ˈsuːduː/ | "SOO-doo" |
-| **regex** | /ree-jex/ | /ˈrɛɡɛks/ | "REG-ex" (short for regular expression) |
-| **boolean** | /boo-lee-an/ | /ˈbuːliən/ | "BOO-lee-un" |
-| **integer** | /in-teh-ger/ | /ˈɪntɪdʒər/ | "IN-tih-jur" |
-| **tuple** | /too-ple/ | /ˈtʌpəl/ or /ˈtjuːpəl/ | "TUP-ul" or "TOO-pul" |
-| **concatenate** | /kon-ka-te-nate/ | /kənˈkætəneɪt/ | "kun-KAT-uh-nate" |
-| **parameter** | /para-MEE-ter/ | /pəˈræmɪtər/ | "puh-RAM-ih-ter" |
-| **variable** | /vari-ABLE/ | /ˈvɛriəbəl/ | "VAIR-ee-uh-bul" |
+| Word            | ❌ Common Mistake      | 🟢 Correct (IPA)       | Phonetic Hint                           |
+| :-------------- | :--------------------- | :--------------------- | :-------------------------------------- |
+| **char**        | /char/ (like charcoal) | /kɑːr/ or /tʃɑːr/      | Both accepted; "car" is more common     |
+| **null**        | /nool/                 | /nʌl/                  | Rhymes with "dull"                      |
+| **sudo**        | /sue-doo/              | /ˈsuːduː/              | "SOO-doo"                               |
+| **regex**       | /ree-jex/              | /ˈrɛɡɛks/              | "REG-ex" (short for regular expression) |
+| **boolean**     | /boo-lee-an/           | /ˈbuːliən/             | "BOO-lee-un"                            |
+| **integer**     | /in-teh-ger/           | /ˈɪntɪdʒər/            | "IN-tih-jur"                            |
+| **tuple**       | /too-ple/              | /ˈtʌpəl/ or /ˈtjuːpəl/ | "TUP-ul" or "TOO-pul"                   |
+| **concatenate** | /kon-ka-te-nate/       | /kənˈkætəneɪt/         | "kun-KAT-uh-nate"                       |
+| **parameter**   | /para-MEE-ter/         | /pəˈræmɪtər/           | "puh-RAM-ih-ter"                        |
+| **variable**    | /vari-ABLE/            | /ˈvɛriəbəl/            | "VAIR-ee-uh-bul"                        |
 
 ---
 
 ## 3. Frameworks & Tools
 
-| Word | ❌ Common Mistake | 🟢 Correct (IPA) | Phonetic Hint |
-| :--- | :--- | :--- | :--- |
-| **Vue** | /voo/ or /V-U-E/ | /vjuː/ | Just like "view" |
-| **Django** | /dee-jango/ | /ˈdʒæŋɡoʊ/ | "JANG-oh" (the D is silent) |
-| **Vercel** | /ver-kel/ | /vɜːrˈsɛl/ | "vur-SEL" |
-| **Vite** | /vite/ (rhymes with "kite") | /viːt/ | "VEET" (French word for "fast") |
-| **PyPI** | /pie-pie/ | /paɪpiːaɪ/ | "pie-P-I" |
-| **npm** | /num/ | /ˌɛnˌpiːˈɛm/ | Always say the letters: "N-P-M" |
-| **Figma** | /fig-ma/ | /ˈfɪɡmə/ | "FIG-muh" |
-| **OAuth** | /oh-oth/ | /ˈoʊɔːθ/ | "OH-awth" |
-| **WYSIWYG** | /wiz-ee-wig/ | /ˈwɪziwɪɡ/ | "WIZ-ee-wig" |
-| **Linux** | /lie-nux/ | /ˈlɪnʊks/ | "LIN-ucks" (like Linus Torvalds) |
+| Word        | ❌ Common Mistake           | 🟢 Correct (IPA) | Phonetic Hint                    |
+| :---------- | :-------------------------- | :--------------- | :------------------------------- |
+| **Vue**     | /voo/ or /V-U-E/            | /vjuː/           | Just like "view"                 |
+| **Django**  | /dee-jango/                 | /ˈdʒæŋɡoʊ/       | "JANG-oh" (the D is silent)      |
+| **Vercel**  | /ver-kel/                   | /vɜːrˈsɛl/       | "vur-SEL"                        |
+| **Vite**    | /vite/ (rhymes with "kite") | /viːt/           | "VEET" (French word for "fast")  |
+| **PyPI**    | /pie-pie/                   | /paɪpiːaɪ/       | "pie-P-I"                        |
+| **npm**     | /num/                       | /ˌɛnˌpiːˈɛm/     | Always say the letters: "N-P-M"  |
+| **Figma**   | /fig-ma/                    | /ˈfɪɡmə/         | "FIG-muh"                        |
+| **OAuth**   | /oh-oth/                    | /ˈoʊɔːθ/         | "OH-awth"                        |
+| **WYSIWYG** | /wiz-ee-wig/                | /ˈwɪziwɪɡ/       | "WIZ-ee-wig"                     |
+| **Linux**   | /lie-nux/                   | /ˈlɪnʊks/        | "LIN-ucks" (like Linus Torvalds) |
 
 ---
 
 ## 4. General Tech Vocabulary
 
-| Word | ❌ Common Mistake | 🟢 Correct (IPA) | Phonetic Hint |
-| :--- | :--- | :--- | :--- |
-| **data** | /DAH-ta/ | /ˈdeɪtə/ or /ˈdætə/ | "DAY-tuh" (US) or "DAH-tuh" (UK) |
-| **queue** | /kwee-yoo/ | /kjuː/ | Sounds exactly like the letter "Q" |
-| **algorithm** | /al-go-RITH-um/ | /ˈælɡəˌrɪðəm/ | "AL-guh-rith-um" |
-| **deprecated** | /dee-pre-KATE-ed/ | /ˈdɛprɪkeɪtɪd/ | "DEP-rih-kay-tid" |
-| **asynchronous** | /a-syn-CRON-ous/ | /eɪˈsɪŋkrənəs/ | "ay-SINK-ruh-nus" |
-| **middleware** | /middle-WARE/ | /ˈmɪdəlˌwɛr/ | "MID-ul-wair" |
-| **latency** | /la-TEN-cy/ | /ˈleɪtənsi/ | "LAY-ten-see" |
-| **repository** | /repo-SIT-ory/ | /rɪˈpɒzɪtɔːri/ | "rih-POZ-ih-tor-ee" |
-| **configuration** | /con-fi-GUR-ation/ | /kənˌfɪɡjəˈreɪʃən/ | "kun-fig-yuh-RAY-shun" |
-| **deployment** | /de-PLOY-ment/ | /dɪˈplɔɪmənt/ | "dih-PLOY-munt" |
+| Word              | ❌ Common Mistake  | 🟢 Correct (IPA)    | Phonetic Hint                      |
+| :---------------- | :----------------- | :------------------ | :--------------------------------- |
+| **data**          | /DAH-ta/           | /ˈdeɪtə/ or /ˈdætə/ | "DAY-tuh" (US) or "DAH-tuh" (UK)   |
+| **queue**         | /kwee-yoo/         | /kjuː/              | Sounds exactly like the letter "Q" |
+| **algorithm**     | /al-go-RITH-um/    | /ˈælɡəˌrɪðəm/       | "AL-guh-rith-um"                   |
+| **deprecated**    | /dee-pre-KATE-ed/  | /ˈdɛprɪkeɪtɪd/      | "DEP-rih-kay-tid"                  |
+| **asynchronous**  | /a-syn-CRON-ous/   | /eɪˈsɪŋkrənəs/      | "ay-SINK-ruh-nus"                  |
+| **middleware**    | /middle-WARE/      | /ˈmɪdəlˌwɛr/        | "MID-ul-wair"                      |
+| **latency**       | /la-TEN-cy/        | /ˈleɪtənsi/         | "LAY-ten-see"                      |
+| **repository**    | /repo-SIT-ory/     | /rɪˈpɒzɪtɔːri/      | "rih-POZ-ih-tor-ee"                |
+| **configuration** | /con-fi-GUR-ation/ | /kənˌfɪɡjəˈreɪʃən/  | "kun-fig-yuh-RAY-shun"             |
+| **deployment**    | /de-PLOY-ment/     | /dɪˈplɔɪmənt/       | "dih-PLOY-munt"                    |
 
 ---
 
@@ -78,7 +78,7 @@ These are words you say in every standup and architecture discussion.
 
 Be careful not to confuse these pairs in meetings:
 
-1.  **"cache" /kæʃ/  vs. "catch" /kætʃ/:** "Let me clear the **cache**" ≠ "Let me **catch** the bug."
+1.  **"cache" /kæʃ/ vs. "catch" /kætʃ/:** "Let me clear the **cache**" ≠ "Let me **catch** the bug."
 2.  **"route" /ruːt/ vs. "root" /ruːt/:** In US English, both sound the same. In UK English, "route" is /raʊt/.
 3.  **"merge" /mɜːrdʒ/ vs. "much" /mʌtʃ/:** "Please **merge** the PR" — not "Please **much** the PR."
 4.  **"queue" /kjuː/ vs. "query" /ˈkwɪri/:** "Add a task to the **queue**" vs. "Run a database **query**."

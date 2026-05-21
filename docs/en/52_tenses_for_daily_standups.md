@@ -7,6 +7,7 @@ When reporting your progress in daily standups or weekly syncs, using the correc
 ## 1. The Core Three-Part Standup Structure
 
 Most daily updates follow this simple three-part formula:
+
 1.  **What I did yesterday** (Completed Tasks)
 2.  **What I am doing today** (Current Tasks)
 3.  **Any blockers** (Issues)
@@ -18,6 +19,7 @@ Most daily updates follow this simple three-part formula:
 This is the most common tense mistake developers make.
 
 ### 💡 Hack 1: The "Already" vs. "Yesterday" Rule
+
 - **Present Perfect (`have/has + V3/ed`)**: Focuses on the **result** now. Use when you can add the word **"already"** or **"just"** in your head. Do not mention a specific past time.
   - **"We have deployed the changes."** (Result: The code is live on staging now, ready for testing).
   - **"I have refactored the auth module."** (Result: The code is clean now, ready for review).
@@ -43,13 +45,14 @@ This is the most common tense mistake developers make.
 ## 3. Present Continuous vs. Present Simple (The Current Tasks)
 
 ### 💡 Hack 2: Active Work-in-Progress
-- **Present Continuous (`am/is/are + V-ing`)**: Use this to report what you are actively working on *today*.
+
+- **Present Continuous (`am/is/are + V-ing`)**: Use this to report what you are actively working on _today_.
   - **"Today, I'm working on the database indexing."**
   - **"We are fixing the remaining UI bugs."**
 - **Present Simple (`V/V-s`)**: Do **NOT** use this for status updates. Only use it to explain business rules or how a feature works.
-  - ❌ *Wrong*: "Today, I work on the database indexing."
-  - 🟢 *Correct*: **"Today, I am working on the database indexing."**
-  - 🟢 *Correct (Fact/Logic)*: **"This query runs automatically every midnight."**
+  - ❌ _Wrong_: "Today, I work on the database indexing."
+  - 🟢 _Correct_: **"Today, I am working on the database indexing."**
+  - 🟢 _Correct (Fact/Logic)_: **"This query runs automatically every midnight."**
 
 ### 💡 Expansion: 10 Practical Examples for Current Tasks
 
@@ -69,10 +72,12 @@ This is the most common tense mistake developers make.
 ## 4. Present Continuous for Confirmed Future Plans
 
 ### 💡 Hack 3: Ditch "will" for Scheduled Releases
+
 While **"will"** is fine for immediate promises made during the meeting ("I will check that link now"), use **Present Continuous** or **"plan to"** for scheduled future tasks to sound more professional and prepared.
-- ❌ *Sounds weak*: "We will deploy the update tomorrow."
-- 🟢 *Sounds committed*: **"We are deploying the update tomorrow morning."**
-- 🟢 *Sounds planned*: **"We plan to start testing on Wednesday."**
+
+- ❌ _Sounds weak_: "We will deploy the update tomorrow."
+- 🟢 _Sounds committed_: **"We are deploying the update tomorrow morning."**
+- 🟢 _Sounds planned_: **"We plan to start testing on Wednesday."**
 
 ### 💡 Expansion: 10 Practical Examples for Planned Tasks
 
@@ -113,29 +118,33 @@ Use the Present Perfect to explain how a blocker has affected your progress, and
 Here is how complete updates sound for different positions:
 
 ### 🖥️ Front-End Developer Update
+
 > "Yesterday, I **finished writing the test cases** for the login form and **merged the navbar styling fixes**.
-> 
+>
 > Today, I **am integrating the profile settings page** with the backend API.
-> 
+>
 > **Blocker:** I have run into a small UI alignment issue on mobile screens, so I am discussing this with the designer today. Once that is clear, I'll submit the PR."
 
 ### ⚙️ Back-End Developer Update
+
 > "Yesterday, I **optimized the product search query** which has significantly reduced response times. I also **updated the database seed scripts**.
-> 
+>
 > Today, I **am configuring the OAuth callback handlers** for Google and GitHub.
-> 
+>
 > **Blocker:** I don't have any blockers, but I am waiting for Huy to review my PR for the migration scripts so that we can sync databases."
 
 ### 🧪 QA Engineer Update
+
 > "Yesterday, I **conducted manual regression tests** on the checkout flow and **logged three critical UI issues** in Jira.
-> 
+>
 > Today, I **am writing automated E2E test scripts** for the user dashboard.
-> 
+>
 > **Blocker:** The staging server is currently unstable, which is slowing down my automated tests. I'm waiting for the DevOps team to restart it."
 
 ### ☁️ DevOps Engineer Update
+
 > "Yesterday, I **migrated the staging environment** to a new cluster and **optimized the build pipeline caching**.
-> 
+>
 > Today, I **am investigating the server resource utilization** to resolve the CPU spikes we saw last night.
-> 
+>
 > **Blocker:** I'm waiting for the API keys from the client to finalize the CI/CD integration for the production environment."

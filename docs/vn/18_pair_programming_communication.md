@@ -8,12 +8,12 @@ Pair programming (Lập trình cặp) là hình thức hai lập trình viên c�
 
 Hãy trò chuyện một cách tự nhiên. Bạn đang nói chuyện với một đồng nghiệp đang ngồi ngay cạnh hoặc đang xem màn hình chia sẻ của bạn.
 
-| ❌ Học thuật / Quá trang trọng (Nên tránh) | 🟢 Daily & Giao tiếp (Nên dùng) |
-| :--- | :--- |
-| "I shall assume the role of the driver and proceed to write the algorithm." | "I'll type first. Tell me what you think." *(Tôi sẽ gõ trước nhé. Có gì góp ý nha.)* |
-| "Your proposed implementation contains a logical discrepancy on line fifteen." | "I think we have a bug on line 15. Let's check it." *(Tôi nghĩ mình bị bug ở dòng 15 rồi. Check thử xem.)* |
-| "Let us execute a syntax review before proceeding to commit the code." | "Let's double-check the code before we commit." *(Chúng ta rà lại code một lượt trước khi commit nhé.)* |
-| "I request that you cease typing so I can inspect the structure." | "Wait a second, let me look at that function." *(Đợi chút, để tôi ngó kỹ hàm đó xem sao.)* |
+| ❌ Học thuật / Quá trang trọng (Nên tránh)                                     | 🟢 Daily & Giao tiếp (Nên dùng)                                                                            |
+| :----------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------- |
+| "I shall assume the role of the driver and proceed to write the algorithm."    | "I'll type first. Tell me what you think." _(Tôi sẽ gõ trước nhé. Có gì góp ý nha.)_                       |
+| "Your proposed implementation contains a logical discrepancy on line fifteen." | "I think we have a bug on line 15. Let's check it." _(Tôi nghĩ mình bị bug ở dòng 15 rồi. Check thử xem.)_ |
+| "Let us execute a syntax review before proceeding to commit the code."         | "Let's double-check the code before we commit." _(Chúng ta rà lại code một lượt trước khi commit nhé.)_    |
+| "I request that you cease typing so I can inspect the structure."              | "Wait a second, let me look at that function." _(Đợi chút, để tôi ngó kỹ hàm đó xem sao.)_                 |
 
 ---
 
@@ -31,16 +31,20 @@ Hãy trò chuyện một cách tự nhiên. Bạn đang nói chuyện với mộ
 ## 3. Cách giao tiếp của từng vai trò
 
 ### A. Nếu bạn là Driver (Người gõ code):
+
 Hãy giải thích những gì bạn đang gõ trong thời gian thực để Navigator có thể theo dõi được mạch suy nghĩ của bạn.
-- "I'm going to create a new helper function here." *(Tôi sẽ tạo một hàm helper mới ở đây nhé.)*
-- "I'll write a simple loop to process this list." *(Tôi sẽ viết một vòng lặp đơn giản để xử lý danh sách này.)*
-- "Let's console.log this response to see what data we get." *(Hãy in log cái response này ra xem mình nhận được data gì nào.)*
+
+- "I'm going to create a new helper function here." _(Tôi sẽ tạo một hàm helper mới ở đây nhé.)_
+- "I'll write a simple loop to process this list." _(Tôi sẽ viết một vòng lặp đơn giản để xử lý danh sách này.)_
+- "Let's console.log this response to see what data we get." _(Hãy in log cái response này ra xem mình nhận được data gì nào.)_
 
 ### B. Nếu bạn là Navigator (Người chỉ đường):
+
 Định hướng cho Driver ở mức tổng quan, tránh can thiệp quá sâu vào từng ký tự gõ. Hãy đặt câu hỏi mở.
-- "Instead of a loop here, what if we use `map`?" *(Thay vì dùng vòng lặp ở đây, dùng `map` liệu có ổn hơn không?)*
-- "I think we need to import `dbHelper` at the top of the file." *(Tôi nghĩ mình cần import `dbHelper` ở đầu file đó.)*
-- "Should we add a check in case the user ID is null?" *(Chúng ta có nên check trường hợp user ID bị null không nhỉ?)*
+
+- "Instead of a loop here, what if we use `map`?" _(Thay vì dùng vòng lặp ở đây, dùng `map` liệu có ổn hơn không?)_
+- "I think we need to import `dbHelper` at the top of the file." _(Tôi nghĩ mình cần import `dbHelper` ở đầu file đó.)_
+- "Should we add a check in case the user ID is null?" _(Chúng ta có nên check trường hợp user ID bị null không nhỉ?)_
 
 ---
 
@@ -49,34 +53,34 @@ Hãy giải thích những gì bạn đang gõ trong thời gian thực để Na
 Dưới đây là đoạn hội thoại tự nhiên giữa **Huy (Driver)** và **Đức (Navigator)** khi cùng nhau fix một bug trong component React.
 
 > **Huy (Driver):** "Okay, let me share my screen. Can you see it?"
-> *(Được rồi, để tôi share màn hình nhé. Bạn thấy chưa?)*
+> _(Được rồi, để tôi share màn hình nhé. Bạn thấy chưa?)_
 >
 > **Duc (Navigator):** "Yes, looks clear. Let's start with the checkout button error."
-> *(Thấy rồi, rõ lắm. Bắt đầu với cái lỗi của nút checkout nhé.)*
+> _(Thấy rồi, rõ lắm. Bắt đầu với cái lỗi của nút checkout nhé.)_
 >
 > **Huy (Driver):** "Right. I'm opening `CheckoutButton.tsx` now. First, I'll add an event handler for the click."
-> *(Ok. Tôi mở file `CheckoutButton.tsx` rồi. Đầu tiên tôi sẽ viết hàm xử lý sự kiện click.)*
+> _(Ok. Tôi mở file `CheckoutButton.tsx` rồi. Đầu tiên tôi sẽ viết hàm xử lý sự kiện click.)_
 >
 > **Duc (Navigator):** "Wait, I think we have a check on line 12 for the user status, but what if the user is not logged in?"
-> *(Đợi chút, tôi thấy có đoạn check trạng thái user ở dòng 12, nhưng nếu user chưa đăng nhập thì sao nhỉ?)*
+> _(Đợi chút, tôi thấy có đoạn check trạng thái user ở dòng 12, nhưng nếu user chưa đăng nhập thì sao nhỉ?)_
 >
 > **Huy (Driver):** "Ah, good catch! Let me write an if-statement to redirect them if they are logged out."
-> *(À, tinh mắt đấy! Để tôi viết câu lệnh if để redirect họ đi nếu chưa đăng nhập.)*
+> _(À, tinh mắt đấy! Để tôi viết câu lệnh if để redirect họ đi nếu chưa đăng nhập.)_
 >
 > **Duc (Navigator):** "Actually, can we show a simple modal instead of redirecting? It's better for UX."
-> *(Thực ra, mình hiển thị một cái modal thông báo thay vì redirect được không? Trải nghiệm người dùng sẽ tốt hơn.)*
+> _(Thực ra, mình hiển thị một cái modal thông báo thay vì redirect được không? Trải nghiệm người dùng sẽ tốt hơn.)_
 >
 > **Huy (Driver):** "That makes sense. Let me search our codebase to see if we have a modal component ready."
-> *(Hợp lý đấy. Để tôi search trong code xem có component modal nào dùng sẵn được không.)*
+> _(Hợp lý đấy. Để tôi search trong code xem có component modal nào dùng sẵn được không.)_
 >
 > **Duc (Navigator):** "Yeah, we have `LoginModal` in the components folder. Let's import it."
-> *(Có đấy, chúng ta có `LoginModal` trong folder components. Import nó vào đi.)*
+> _(Có đấy, chúng ta có `LoginModal` trong folder components. Import nó vào đi.)_
 >
 > **Huy (Driver):** "Done. Let's test it locally. I'll click the button... perfect, the modal popped up."
-> *(Xong rồi. Test thử local nhé. Tôi click nút này... ngon luôn, modal hiện lên rồi.)*
+> _(Xong rồi. Test thử local nhé. Tôi click nút này... ngon luôn, modal hiện lên rồi.)_
 >
 > **Duc (Navigator):** "Awesome! Let's commit this and push. Thanks for pairing with me today."
-> *(Tuyệt vời! Commit rồi push code thôi. Cảm ơn đã pair cùng tôi hôm nay nhé.)*
+> _(Tuyệt vời! Commit rồi push code thôi. Cảm ơn đã pair cùng tôi hôm nay nhé.)_
 >
 > **Huy (Driver):** "Thank you! I'm glad we solved this so quickly."
-> *(Cảm ơn bạn! Rất vui vì chúng ta xử lý lỗi này nhanh như vậy.)*
+> _(Cảm ơn bạn! Rất vui vì chúng ta xử lý lỗi này nhanh như vậy.)_

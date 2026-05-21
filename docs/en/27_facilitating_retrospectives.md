@@ -104,54 +104,62 @@ Every Retro must end with clear, actionable items assigned to specific owners wi
 Keep retros fresh by rotating formats every few sprints. Here are popular alternatives:
 
 ### 6.1. Start / Stop / Continue
-* **Start:** Things the team should begin doing. *"Start writing automated tests before merging."*
-* **Stop:** Things the team should stop doing. *"Stop deploying on Friday afternoons."*
-* **Continue:** Things that are working well. *"Continue the daily standup at 9:30 AM."*
+
+- **Start:** Things the team should begin doing. _"Start writing automated tests before merging."_
+- **Stop:** Things the team should stop doing. _"Stop deploying on Friday afternoons."_
+- **Continue:** Things that are working well. _"Continue the daily standup at 9:30 AM."_
 
 ### 6.2. Mad / Sad / Glad
-* **Mad:** Things that frustrated the team. *"Mad: Unclear requirements from the client mid-sprint."*
-* **Sad:** Things that disappointed the team. *"Sad: We couldn't ship the chat feature as planned."*
-* **Glad:** Things that made the team happy. *"Glad: The new staging environment is much faster."*
+
+- **Mad:** Things that frustrated the team. _"Mad: Unclear requirements from the client mid-sprint."_
+- **Sad:** Things that disappointed the team. _"Sad: We couldn't ship the chat feature as planned."_
+- **Glad:** Things that made the team happy. _"Glad: The new staging environment is much faster."_
 
 ### 6.3. Sailboat Retrospective
-* **Wind (What pushes us forward):** *"Great collaboration between frontend and backend teams."*
-* **Anchor (What slows us down):** *"Manual deployment process."*
-* **Rocks (Risks ahead):** *"The third-party API has been unstable recently."*
-* **Island (Our goal):** *"Ship a stable v2.0 by end of Q3."*
+
+- **Wind (What pushes us forward):** _"Great collaboration between frontend and backend teams."_
+- **Anchor (What slows us down):** _"Manual deployment process."_
+- **Rocks (Risks ahead):** _"The third-party API has been unstable recently."_
+- **Island (Our goal):** _"Ship a stable v2.0 by end of Q3."_
 
 ### 6.4. 4Ls (Liked, Learned, Lacked, Longed for)
-* **Liked:** *"Liked the pair programming sessions this sprint."*
-* **Learned:** *"Learned that our database can't handle more than 500 concurrent connections."*
-* **Lacked:** *"Lacked clear documentation for the onboarding flow."*
-* **Longed for:** *"Longed for better automated testing coverage."*
+
+- **Liked:** _"Liked the pair programming sessions this sprint."_
+- **Learned:** _"Learned that our database can't handle more than 500 concurrent connections."_
+- **Lacked:** _"Lacked clear documentation for the onboarding flow."_
+- **Longed for:** _"Longed for better automated testing coverage."_
 
 ---
 
 ## 7. Advanced Facilitation Techniques
 
 ### 7.1. Silent Writing Before Discussion
-* Give the team 5 minutes of silence to write their thoughts on sticky notes before any discussion begins. This prevents groupthink and ensures introverts contribute equally.
+
+- Give the team 5 minutes of silence to write their thoughts on sticky notes before any discussion begins. This prevents groupthink and ensures introverts contribute equally.
 
 ### 7.2. Timeboxing Topics
-* Allocate a fixed number of minutes per topic (e.g., 5 minutes). When time runs out, vote on whether to extend or move on. This prevents one issue from dominating the entire retro.
+
+- Allocate a fixed number of minutes per topic (e.g., 5 minutes). When time runs out, vote on whether to extend or move on. This prevents one issue from dominating the entire retro.
 
 ### 7.3. Action Item Follow-Through Tracking
-* Start every retro by reviewing previous action items. Track completion rates over time. If action items are consistently ignored, the retro loses credibility.
+
+- Start every retro by reviewing previous action items. Track completion rates over time. If action items are consistently ignored, the retro loses credibility.
 
 ### 7.4. Rotating the Facilitator Role
-* Don't let the same person (usually the Scrum Master) facilitate every retro. Rotating the role gives team members ownership and brings fresh perspectives to the format.
+
+- Don't let the same person (usually the Scrum Master) facilitate every retro. Rotating the role gives team members ownership and brings fresh perspectives to the format.
 
 ---
 
 ## 8. Common Mistakes to Avoid
 
-* **Skipping the Retro because "we're too busy":**
-  * The retro is the single most important ceremony for continuous improvement. Skipping it signals that process improvement doesn't matter.
-* **Turning it into a blame session:**
-  * If someone says *"This happened because [Name] didn't test properly,"* redirect: *"Let's focus on what process change would have caught this."*
-* **Creating too many action items:**
-  * Limit to 2-3 high-impact actions per sprint. Ten action items means zero will get done.
-* **Never following up on previous action items:**
-  * If past actions are consistently ignored, team members will stop contributing honestly.
-* **Only focusing on negatives:**
-  * Celebrate wins! Acknowledging what went well motivates the team and reinforces good behaviors.
+- **Skipping the Retro because "we're too busy":**
+  - The retro is the single most important ceremony for continuous improvement. Skipping it signals that process improvement doesn't matter.
+- **Turning it into a blame session:**
+  - If someone says _"This happened because [Name] didn't test properly,"_ redirect: _"Let's focus on what process change would have caught this."_
+- **Creating too many action items:**
+  - Limit to 2-3 high-impact actions per sprint. Ten action items means zero will get done.
+- **Never following up on previous action items:**
+  - If past actions are consistently ignored, team members will stop contributing honestly.
+- **Only focusing on negatives:**
+  - Celebrate wins! Acknowledging what went well motivates the team and reinforces good behaviors.

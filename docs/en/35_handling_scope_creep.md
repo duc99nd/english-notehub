@@ -83,18 +83,23 @@ If the new feature is absolutely necessary, explain that the project plan needs 
 ## 5. Templates for Pushing Back on Creeping Scope
 
 ### Template A: When a PM asks for a "quick change"
+
 > "Although it looks like a small change on the frontend, it requires major changes to our database schema and API validation logic. I recommend we defer this until after our initial release to avoid introducing regression bugs."
 
 ### Template B: When a client adds features mid-sprint
+
 > "We are currently in the middle of our sprint, and our scope is locked. Let's discuss this during the next sprint planning meeting so we can properly estimate and prioritize it."
 
 ### Template C: When the requirements change completely
+
 > "Given that these requirements are substantially different from the original plan, we need to pause development and re-estimate the entire module. I'll prepare a revised timeline and share it with you by Friday."
 
 ### Template D: When "just one more thing" keeps happening
+
 > "I've noticed that we've received 4 additional feature requests this sprint that were not in the original scope. While each one is individually small, together they represent about 2 weeks of additional work. Can we set up a scope review meeting to prioritize these?"
 
 ### Template E: When the scope change is reasonable but needs formal approval
+
 > "This is a valid enhancement, and I agree it would add value. However, it will push our delivery date by 3 days. I'll prepare the change request document and send it to you for sign-off today."
 
 ---
@@ -103,8 +108,8 @@ If the new feature is absolutely necessary, explain that the project plan needs 
 
 When explaining scope creep to non-technical stakeholders, use the Iron Triangle (also called the Triple Constraint):
 
-* **Scope** (What we build) + **Time** (When we deliver) + **Cost** (How much it costs) = **Quality**
-* You can adjust one side, but it always affects the others.
+- **Scope** (What we build) + **Time** (When we deliver) + **Cost** (How much it costs) = **Quality**
+- You can adjust one side, but it always affects the others.
 
 ### 💡 5 Practical Analogies:
 
@@ -118,23 +123,23 @@ When explaining scope creep to non-technical stakeholders, use the Iron Triangle
 
 ## 7. Scope Creep Prevention Strategies
 
-* **Lock the scope before the sprint starts.** Once sprint planning is complete, no new features should be added without a formal change request.
-* **Require written sign-off.** Every scope change should be documented and approved by the project sponsor in writing.
-* **Use a "Parking Lot" for new ideas.** Create a shared document or Jira epic where anyone can log new ideas. Review them during sprint planning, not mid-sprint.
-* **Define "Done" clearly.** A well-written Definition of Done prevents features from being expanded endlessly during development.
-* **Track scope changes visually.** Use a burnup chart to show how the total scope has increased over time. This makes scope creep visible to stakeholders.
+- **Lock the scope before the sprint starts.** Once sprint planning is complete, no new features should be added without a formal change request.
+- **Require written sign-off.** Every scope change should be documented and approved by the project sponsor in writing.
+- **Use a "Parking Lot" for new ideas.** Create a shared document or Jira epic where anyone can log new ideas. Review them during sprint planning, not mid-sprint.
+- **Define "Done" clearly.** A well-written Definition of Done prevents features from being expanded endlessly during development.
+- **Track scope changes visually.** Use a burnup chart to show how the total scope has increased over time. This makes scope creep visible to stakeholders.
 
 ---
 
 ## 8. Common Mistakes to Avoid
 
-* **Saying "yes" to everything to avoid conflict:**
-  * This leads to missed deadlines, burnout, and low-quality releases. Learn to say "yes, but..." with trade-offs.
-* **Not documenting the original scope:**
-  * If the original scope isn't written down, you can't prove that a request is "out of scope."
-* **Treating every request as urgent:**
-  * Not every feature request needs to be in the current sprint. Use a backlog to defer non-critical items.
-* **Blaming the client for scope creep:**
-  * Scope creep is often a communication failure. The client may genuinely not understand the impact of their request.
-* **Forgetting to update the project plan:**
-  * If you accept a scope change, you must update the timeline, budget, and resource allocation accordingly.
+- **Saying "yes" to everything to avoid conflict:**
+  - This leads to missed deadlines, burnout, and low-quality releases. Learn to say "yes, but..." with trade-offs.
+- **Not documenting the original scope:**
+  - If the original scope isn't written down, you can't prove that a request is "out of scope."
+- **Treating every request as urgent:**
+  - Not every feature request needs to be in the current sprint. Use a backlog to defer non-critical items.
+- **Blaming the client for scope creep:**
+  - Scope creep is often a communication failure. The client may genuinely not understand the impact of their request.
+- **Forgetting to update the project plan:**
+  - If you accept a scope change, you must update the timeline, budget, and resource allocation accordingly.

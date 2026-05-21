@@ -3,6 +3,7 @@
 ## Giao tiếp hiệu quả với đồng nghiệp và khách hàng quốc tế
 
 > **Mục đích của tài liệu này**
+>
 > - Hiểu cách khác biệt văn hóa ảnh hưởng đến giao tiếp nơi làm việc
 > - Nhận diện những thách thức phổ biến mà kỹ sư Việt Nam gặp phải trong đội ngũ toàn cầu
 > - Học các cụm từ và chiến lược thực tế cho hợp tác đa văn hóa
@@ -156,6 +157,7 @@ Sự khẳng định (assertiveness) nghĩa là thể hiện nhu cầu và ý ki
 - Phản hồi thường đi kèm với sự tích cực: "Great work on this. One thing to improve is..."
 
 **Cụm từ hữu ích:**
+
 - "Sounds good. Let me take a stab at it and share my progress tomorrow."
 - "I'm blocked on the API response. Can we sync briefly after lunch?"
 - "Just a heads-up, I might need an extra day for testing."
@@ -169,6 +171,7 @@ Sự khẳng định (assertiveness) nghĩa là thể hiện nhu cầu và ý ki
 - Hài hước và sự tự trào phổ biến trong môi trường chuyên nghiệp.
 
 **Cụm từ hữu ích:**
+
 - "Shall we have a quick chat about the deployment schedule?"
 - "I think we might want to revisit the caching strategy."
 - "Brilliant, that makes sense. I'll get started on it straight away."
@@ -182,6 +185,7 @@ Sự khẳng định (assertiveness) nghĩa là thể hiện nhu cầu và ý ki
 - Từ viết tắt phổ biến: "arvo" (buổi chiều), "brekkie" (bữa sáng), "defo" (chắc chắn).
 
 **Cụm từ hữu ích:**
+
 - "No worries, I'll sort that out this arvo."
 - "Good on ya for catching that bug early."
 - "Let's have a quick yarn about the new feature."
@@ -235,9 +239,11 @@ Các chuyên gia phương Tây mong đợi email ngắn gọn, rõ ràng và t�
 - Kết thúc bằng hành động rõ ràng: "Please review by Friday and let me know if you have questions."
 
 **Quá trang trọng cho doanh nghiệp phương Tây:**
+
 - "Dear Sir, I am writing to you because I want to ask about..."
 
 **Phù hợp chuyên nghiệp:**
+
 - "Hi [First name], I wanted to follow up on our discussion about the API migration. Here's a summary of the proposed changes..."
 
 ## Nghề thuật Chat (Slack, Teams)
@@ -248,6 +254,7 @@ Các chuyên gia phương Tây mong đợi email ngắn gọn, rõ ràng và t�
 - Phản hồi kịp thời nhưng đừng kỳ vọng người khác trả lời ngay lập tức.
 
 **Tin nhắn Slack tốt:**
+
 - "Hey [name], quick question about the deployment pipeline. When you have a moment, could you check if the staging environment is up?"
 - "Update: the database migration is complete. No downtime recorded. Details in the thread."
 - "Heads up -- I'm seeing some latency spikes on the production API. Investigating now."
@@ -270,6 +277,7 @@ Các chuyên gia phương Tây mong đợi email ngắn gọn, rõ ràng và t�
 - Chèn vào lúc tạm dừng tự nhiên: "Can I add something here?"
 
 **Cụm từ tham gia thảo luận:**
+
 - "I'd like to chime in on that point."
 - "Building on what [name] said, I think we should also consider..."
 - "I have a quick update on the frontend side."

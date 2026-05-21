@@ -10,16 +10,16 @@ Dùng **"the"** khi cả bạn và người nghe đều biết chính xác đang
 
 ### 💡 10 Ví dụ thực tế:
 
-1.  **"The database is down."** *(Database bị sập rồi — Cả hai đều biết đang nói DB production của chúng ta).*
-2.  **"Can you review the PR I submitted this morning?"** *(Một PR cụ thể mà cả hai đều biết).*
-3.  **"The client approved the design mockup."** *(Khách hàng cụ thể của chúng ta, bản mockup cụ thể đó).*
-4.  **"I will fix the bug you reported in Jira."** *(Con bug cụ thể từ ticket Jira).*
-5.  **"The staging environment is not responding."** *(Server staging cụ thể của chúng ta).*
-6.  **"Please update the README file."** *(File README trong repo này).*
-7.  **"The deployment pipeline failed at the test stage."** *(Pipeline cụ thể của chúng ta).*
-8.  **"The API returns a 500 error when the payload is empty."** *(API đã được xác định cụ thể).*
-9.  **"The migration script needs to be run manually."** *(Script migration cụ thể đã bàn).*
-10. **"Let's discuss the architecture in tomorrow's meeting."** *(Kiến trúc của dự án chúng ta).*
+1.  **"The database is down."** _(Database bị sập rồi — Cả hai đều biết đang nói DB production của chúng ta)._
+2.  **"Can you review the PR I submitted this morning?"** _(Một PR cụ thể mà cả hai đều biết)._
+3.  **"The client approved the design mockup."** _(Khách hàng cụ thể của chúng ta, bản mockup cụ thể đó)._
+4.  **"I will fix the bug you reported in Jira."** _(Con bug cụ thể từ ticket Jira)._
+5.  **"The staging environment is not responding."** _(Server staging cụ thể của chúng ta)._
+6.  **"Please update the README file."** _(File README trong repo này)._
+7.  **"The deployment pipeline failed at the test stage."** _(Pipeline cụ thể của chúng ta)._
+8.  **"The API returns a 500 error when the payload is empty."** _(API đã được xác định cụ thể)._
+9.  **"The migration script needs to be run manually."** _(Script migration cụ thể đã bàn)._
+10. **"Let's discuss the architecture in tomorrow's meeting."** _(Kiến trúc của dự án chúng ta)._
 
 ---
 
@@ -29,16 +29,16 @@ Dùng **"a"** (trước phụ âm) hoặc **"an"** (trước nguyên âm) khi gi
 
 ### 💡 10 Ví dụ thực tế:
 
-1.  **"We need to create a new branch for this feature."** *(Một nhánh mới bất kỳ, chưa xác định cụ thể).*
-2.  **"There is a bug in the checkout flow."** *(Đề cập một bug lần đầu tiên).*
-3.  **"I found an error in the configuration file."** *(Lần đầu đề cập — "an" trước nguyên âm).*
-4.  **"We should use a load balancer to distribute traffic."** *(Một bộ cân bằng tải nào đó, nói chung).*
-5.  **"He is a senior developer at our company."** *(Mô tả vai trò/nghề nghiệp).*
-6.  **"Can you write a unit test for this function?"** *(Một unit test bất kỳ cho hàm này).*
-7.  **"We received an alert from the monitoring dashboard."** *(Một cảnh báo chưa xác định cụ thể).*
-8.  **"This requires a migration script."** *(Một script migration bất kỳ phù hợp).*
-9.  **"She submitted a pull request last night."** *(Một PR mới, chưa xác định).*
-10. **"We need an API key to access the third-party service."** *(Một API key hợp lệ bất kỳ).*
+1.  **"We need to create a new branch for this feature."** _(Một nhánh mới bất kỳ, chưa xác định cụ thể)._
+2.  **"There is a bug in the checkout flow."** _(Đề cập một bug lần đầu tiên)._
+3.  **"I found an error in the configuration file."** _(Lần đầu đề cập — "an" trước nguyên âm)._
+4.  **"We should use a load balancer to distribute traffic."** _(Một bộ cân bằng tải nào đó, nói chung)._
+5.  **"He is a senior developer at our company."** _(Mô tả vai trò/nghề nghiệp)._
+6.  **"Can you write a unit test for this function?"** _(Một unit test bất kỳ cho hàm này)._
+7.  **"We received an alert from the monitoring dashboard."** _(Một cảnh báo chưa xác định cụ thể)._
+8.  **"This requires a migration script."** _(Một script migration bất kỳ phù hợp)._
+9.  **"She submitted a pull request last night."** _(Một PR mới, chưa xác định)._
+10. **"We need an API key to access the third-party service."** _(Một API key hợp lệ bất kỳ)._
 
 ---
 
@@ -48,53 +48,58 @@ Bỏ mạo từ khi dùng **danh từ không đếm được** theo nghĩa chung
 
 ### 💡 10 Ví dụ thực tế:
 
-1.  **"Software is eating the world."** *(Phần mềm nói chung — không dùng "the software").*
-2.  **"Data flows from the frontend to the backend."** *(Dữ liệu nói chung).*
-3.  **"We write code in TypeScript."** *(Code nói chung, TypeScript là danh từ riêng).*
-4.  **"Developers should write unit tests."** *(Lập trình viên nói chung).*
-5.  **"Redis is used for caching."** *(Redis là danh từ riêng).*
-6.  **"We deploy to AWS every Friday."** *(AWS là danh từ riêng).*
-7.  **"Information should be encrypted at rest."** *(Thông tin nói chung).*
-8.  **"JavaScript runs in browsers."** *(Cả hai đều nói chung).*
-9.  **"Equipment for the server room has arrived."** *(Thiết bị nói chung).*
-10. **"We use Docker for containerization."** *(Docker = danh từ riêng, containerization = khái niệm chung).*
+1.  **"Software is eating the world."** _(Phần mềm nói chung — không dùng "the software")._
+2.  **"Data flows from the frontend to the backend."** _(Dữ liệu nói chung)._
+3.  **"We write code in TypeScript."** _(Code nói chung, TypeScript là danh từ riêng)._
+4.  **"Developers should write unit tests."** _(Lập trình viên nói chung)._
+5.  **"Redis is used for caching."** _(Redis là danh từ riêng)._
+6.  **"We deploy to AWS every Friday."** _(AWS là danh từ riêng)._
+7.  **"Information should be encrypted at rest."** _(Thông tin nói chung)._
+8.  **"JavaScript runs in browsers."** _(Cả hai đều nói chung)._
+9.  **"Equipment for the server room has arrived."** _(Thiết bị nói chung)._
+10. **"We use Docker for containerization."** _(Docker = danh từ riêng, containerization = khái niệm chung)._
 
 ---
 
 ## 4. Các Lỗi Phổ Biến Mà Dev Việt Nam Hay Mắc
 
 ### ❌ Lỗi 1: Thêm "the" trước khái niệm chung
+
 - ❌ "**The** software development is challenging."
 - 🟢 "**Software** development is challenging."
 
 ### ❌ Lỗi 2: Bỏ "the" trước vật cụ thể
+
 - ❌ "I will check **database** now."
 - 🟢 "I will check **the database** now."
 
 ### ❌ Lỗi 3: Dùng "a" với danh từ không đếm được
+
 - ❌ "We received **a feedback** from the client."
 - 🟢 "We received **feedback** from the client." (hoặc "**a piece of** feedback")
 
 ### ❌ Lỗi 4: Quên "an" trước nguyên âm
+
 - ❌ "There is **a** error in the log file."
 - 🟢 "There is **an** error in the log file."
 
 ### ❌ Lỗi 5: Thêm mạo từ trước danh từ riêng
+
 - ❌ "We deploy our code to **the** Vercel."
 - 🟢 "We deploy our code to **Vercel**."
 
 ### 💡 10 Lỗi Cần Sửa Thêm:
 
-1.  ❌ "I need **an** information." → 🟢 "I need **some** information." *(Information không đếm được)*
-2.  ❌ "We use **the** MongoDB." → 🟢 "We use **MongoDB**." *(Danh từ riêng)*
+1.  ❌ "I need **an** information." → 🟢 "I need **some** information." _(Information không đếm được)_
+2.  ❌ "We use **the** MongoDB." → 🟢 "We use **MongoDB**." _(Danh từ riêng)_
 3.  ❌ "Please push **the** code to **the** GitHub." → 🟢 "Please push **the** code to **GitHub**."
-4.  ❌ "He is **developer**." → 🟢 "He is **a** developer." *(Thiếu mạo từ mô tả nghề)*
+4.  ❌ "He is **developer**." → 🟢 "He is **a** developer." _(Thiếu mạo từ mô tả nghề)_
 5.  ❌ "**The** each endpoint needs testing." → 🟢 "**Each** endpoint needs testing."
-6.  ❌ "We need to buy **equipments**." → 🟢 "We need to buy **equipment**." *(Không đếm được)*
+6.  ❌ "We need to buy **equipments**." → 🟢 "We need to buy **equipment**." _(Không đếm được)_
 7.  ❌ "Can you check **a log**?" (khi cụ thể) → 🟢 "Can you check **the log**?"
-8.  ❌ "She gave **an advice**." → 🟢 "She gave **advice**." *(hoặc "**a piece of** advice")*
+8.  ❌ "She gave **an advice**." → 🟢 "She gave **advice**." _(hoặc "**a piece of** advice")_
 9.  ❌ "We had **the** meeting about deployment." (lần đầu đề cập) → 🟢 "We had **a** meeting about deployment."
-10. ❌ "**A** server we discussed is down." → 🟢 "**The** server we discussed is down." *(Đã biết cụ thể)*
+10. ❌ "**A** server we discussed is down." → 🟢 "**The** server we discussed is down." _(Đã biết cụ thể)_
 
 ---
 

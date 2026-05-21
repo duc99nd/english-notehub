@@ -101,12 +101,12 @@ In remote meetings, visual cues are missing. Use these phrases to manage turn-ta
 
 ## 6. Simulated Meeting Dialogue: "The Staging Server Crash"
 
-*This dialogue shows a real-time technical debate between Huy (Lead Developer), Lan (QA Engineer), and John (Product Owner). Pay attention to how they interrupt and hold the floor.*
+_This dialogue shows a real-time technical debate between Huy (Lead Developer), Lan (QA Engineer), and John (Product Owner). Pay attention to how they interrupt and hold the floor._
 
-*   **Huy:** "...so the main reason the staging server crashed yesterday is that we ran a bulk import script without database indexes. The CPU utilization jumped to 100% within seconds, and then—"
-*   **John:** *(Interrupting)* "Sorry, Huy, let me stop you there. Didn't we write an index for the user table last sprint?"
-*   **Huy:** *(Holding the Floor)* "Hold that thought, John. I will show you the schema structure in a minute. As I was saying, the bulk import script was inserting rows into the unindexed history table, not the user table. That is what caused the bottleneck."
-*   **Lan:** *(Polite Interruption)* "If I could just jump in here for a second, Huy. We also noticed that the server didn't recover even after the script was killed."
-*   **Huy:** *(Retaking the Floor)* "Yes, thanks Lan. Going back to what I was saying about the CPU jump: because there were too many active connections, the connection pool was completely exhausted, which prevented the server from recovering."
-*   **John:** "So what is the solution? Should we roll back the import?"
-*   **Huy:** "I suggest adding the index to the history table first, and then re-running the script. That's all from my side. Over to you, Lan, for the QA update."
+- **Huy:** "...so the main reason the staging server crashed yesterday is that we ran a bulk import script without database indexes. The CPU utilization jumped to 100% within seconds, and then—"
+- **John:** _(Interrupting)_ "Sorry, Huy, let me stop you there. Didn't we write an index for the user table last sprint?"
+- **Huy:** _(Holding the Floor)_ "Hold that thought, John. I will show you the schema structure in a minute. As I was saying, the bulk import script was inserting rows into the unindexed history table, not the user table. That is what caused the bottleneck."
+- **Lan:** _(Polite Interruption)_ "If I could just jump in here for a second, Huy. We also noticed that the server didn't recover even after the script was killed."
+- **Huy:** _(Retaking the Floor)_ "Yes, thanks Lan. Going back to what I was saying about the CPU jump: because there were too many active connections, the connection pool was completely exhausted, which prevented the server from recovering."
+- **John:** "So what is the solution? Should we roll back the import?"
+- **Huy:** "I suggest adding the index to the history table first, and then re-running the script. That's all from my side. Over to you, Lan, for the QA update."

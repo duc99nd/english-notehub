@@ -8,12 +8,12 @@ Designing databases and APIs is a team effort. You will need to debate schema ch
 
 Speak directly. You are collaborating, not writing a thesis paper.
 
-| ❌ Academic / Too Formal (Avoid) | 🟢 Daily & Conversational (Use instead) |
-| :--- | :--- |
-| "We should proceed to implement a normalized schema structure up to the third normal form." | "Let's normalize these tables to keep the database clean." |
+| ❌ Academic / Too Formal (Avoid)                                                             | 🟢 Daily & Conversational (Use instead)                             |
+| :------------------------------------------------------------------------------------------- | :------------------------------------------------------------------ |
+| "We should proceed to implement a normalized schema structure up to the third normal form."  | "Let's normalize these tables to keep the database clean."          |
 | "I recommend we establish a relational mapping between the user entity and the log records." | "Let's link the users table to the logs table using a foreign key." |
-| "The payload format of the REST resource is suboptimal and exhibits data over-fetching." | "The API is returning too much unused data. We should clean it up." |
-| "We must execute a database indexing strategy to minimize latency." | "Let's add an index to speed up the query." |
+| "The payload format of the REST resource is suboptimal and exhibits data over-fetching."     | "The API is returning too much unused data. We should clean it up." |
+| "We must execute a database indexing strategy to minimize latency."                          | "Let's add an index to speed up the query."                         |
 
 ---
 
@@ -33,16 +33,18 @@ Speak directly. You are collaborating, not writing a thesis paper.
 
 When recommending a database or API design, always state the **Action**, the **Benefit**, and the **Trade-off** (cost).
 
--   **Formula:** *"We should **[Action]** because it will **[Benefit]**, even though it **[Trade-off]**."*
--   **Example 1:** *"We should use a JSONB column because it will make the schema flexible, even though it's slightly harder to query than standard tables."*
--   **Example 2:** *"We should add an index because it will make search queries faster, even though it makes write operations a bit slower."*
+- **Formula:** _"We should **[Action]** because it will **[Benefit]**, even though it **[Trade-off]**."_
+- **Example 1:** _"We should use a JSONB column because it will make the schema flexible, even though it's slightly harder to query than standard tables."_
+- **Example 2:** _"We should add an index because it will make search queries faster, even though it makes write operations a bit slower."_
 
 ---
 
 ## 4. Fill-in-the-blank Templates
 
 ### Template A: Proposing a Schema Change
+
 Use this when you want to change how data is stored.
+
 > "I'm looking at how we store **[data type, e.g., product images]**.
 >
 > Right now, we are **[current way, e.g., saving them in a comma-separated string]**.
@@ -50,7 +52,9 @@ Use this when you want to change how data is stored.
 > Instead, I suggest **[proposed way, e.g., creating a separate `product_images` table]** with a foreign key. This will make it much easier to **[benefit, e.g., delete or reorder images]** later."
 
 ### Template B: Polishing API Endpoints (REST standard)
+
 Use this during code reviews or planning meetings.
+
 > "For the new **[feature, e.g., user feedback]** endpoint, instead of nesting it under **[nested URL, e.g., `/users/:id/feedback`]**, I think we should keep it flat: **[flat URL, e.g., `/feedback?user_id=123`]**.
 >
 > This follows our standard conventions and makes the frontend code cleaner. What do you think?"

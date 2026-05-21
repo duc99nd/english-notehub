@@ -1,7 +1,9 @@
 # PITCHING CODE REFACTORING
 
 How to convince your manager and team to invest in code quality
+
 > **Purpose of this document**
+>
 > - Learn when and how to pitch refactoring to managers and product owners
 > - Build business cases that translate technical debt into financial impact
 > - Handle common objections like "It works, don't touch it" and "We don't have time"

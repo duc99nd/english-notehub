@@ -7,6 +7,7 @@ Clear, concise communication during debugging is critical. When a bug occurs, de
 A professional bug report avoids vague sentences like "the app is broken." It contains a clear title, environment details, reproduction steps, expected vs. actual behavior, and severity.
 
 ### Key Vocabulary:
+
 - **Flaky bug / Intermittent issue:** A bug that happens randomly and is hard to reproduce.
 - **Regression:** A bug that occurs in a feature that was previously working fine, usually introduced after a new deploy.
 - **Edge case:** A rare scenario that only occurs under very specific, unusual conditions.
@@ -14,6 +15,7 @@ A professional bug report avoids vague sentences like "the app is broken." It co
 - **Workaround:** A temporary bypass to let users continue working while you develop a permanent fix.
 
 ### Template:
+
 > **Title:** [Bug] User Profile Page returns 500 error when clicking "Save" without uploading an avatar
 >
 > **Environment:** Staging (v2.4.1), Chrome v121, MacOS Sonoma
@@ -21,6 +23,7 @@ A professional bug report avoids vague sentences like "the app is broken." It co
 > **Severity:** High (blocks profile completion)
 >
 > **Reproduction Steps:**
+>
 > 1. Log in to the application.
 > 2. Navigate to the `/settings/profile` page.
 > 3. Modify the "Display Name" field.
@@ -40,18 +43,21 @@ A professional bug report avoids vague sentences like "the app is broken." It co
 When stakeholders ask for updates, use these structures to report your progress without sounding overwhelmed.
 
 ### When starting the investigation:
+
 - "I'm currently **digging into** the Datadog logs to trace the root cause of this memory leak."
 - "I have managed to **reproduce the issue locally**, and I'm currently stepping through the execution flow."
 - "I'm checking the database replica to see if we have a connection pool exhaustion problem."
 - "I am **bisecting the commits** to find exactly when this regression was introduced."
 
 ### When describing the root cause:
+
 - "The crash was **caused by a null pointer exception** when parsing the nested JSON payload."
 - "It turns out to be a **race condition** between our frontend state update and the WebSocket connection initialization."
 - "We hit a **rate limit** on the third-party translation API, which caused all subsequent translation queries to fail."
 - "A database migration script failed to add a default value to the `status` column, which **triggered a constraint violation**."
 
 ### When proposing a solution:
+
 - "I've rolled out a **hotfix** to patch the security vulnerability on staging. Can you verify it on your end?"
 - "We deployed a **workaround** by disabling the broken feature flag, which restores basic checkout functionality while we work on a permanent patch."
 - "To prevent this from happening again, we will add an integration test to cover this specific edge case."
@@ -74,10 +80,12 @@ QA and developers must work closely. Use these polite phrases to request logs or
 An critical bug has bypassed testing and is currently active in production. The Tech Lead and QA Engineer are collaborating on Slack.
 
 ### 👥 Characters:
+
 - **Duc** (Tech Lead)
 - **Sarah** (QA Lead)
 
 ### 💬 Dialogue:
+
 - **Sarah**: "Hi Duc, we are seeing a spike in checkout errors in production. Multiple users are reporting that the Stripe modal doesn't open. It's currently blocking all payments."
 - **Duc**: "Understood. That's a blocker. Do we have any error codes from the logs?"
 - **Sarah**: "Yes, here is a screenshot of the browser console. It shows a `Stripe is not defined` error. It seems like the Stripe SDK script is failing to load."

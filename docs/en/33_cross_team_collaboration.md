@@ -8,6 +8,20 @@
 > - Break down silos and communicate respectfully across disciplines
 > - Resolve blockers caused by external dependencies
 
+```mermaid
+graph TD
+    Dev["Developer (Dev Team)"] <-->|Server Specs, CI/CD Pipelines, DB Access| DevOps["DevOps & Infrastructure"]
+    Dev <-->|Figma Files, SVG Assets, Responsive Breaks| Design["UI/UX Design"]
+    Dev <-->|Bug Reports, Repro Steps, Sanity Checks| QA["QA & Testing"]
+    Dev <-->|SEO Meta, Feature Flags, UTM Tracking| Marketing["Product & Marketing"]
+
+    style Dev fill:#eff6ff,stroke:#3b82f6,stroke-width:2px
+    style DevOps fill:#faf5ff,stroke:#a855f7,stroke-width:1px
+    style Design fill:#fff1f2,stroke:#f43f5e,stroke-width:1px
+    style QA fill:#f0fdf4,stroke:#22c55e,stroke-width:1px
+    style Marketing fill:#fffbeb,stroke:#f59e0b,stroke-width:1px
+```
+
 ---
 
 ## 1. Talking to DevOps & Infrastructure
@@ -91,24 +105,30 @@ When discussing analytics, SEO, release notes, and feature toggles.
 Use these professional templates when you need something from another team.
 
 ### Template A: Requesting Database Access from DevOps
+
 > "Hi DevOps team, I need **read-only access** to the production PostgreSQL database for debugging a customer-reported issue. My AWS IAM username is `duc.tv`. Could you please provision this access? I will only need it for the next 48 hours. Thanks!"
 
 ### Template B: Requesting Design Assets from UI/UX
+
 > "Hi Design team, we are starting development on the settings page this sprint. Could you please finalize and share the following in Figma:
+>
 > - All button states (default, hover, disabled, loading)
 > - Color tokens for the new theme
 > - Mobile responsive breakpoints
-> We need these by Wednesday to stay on schedule. Thanks!"
+>   We need these by Wednesday to stay on schedule. Thanks!"
 
 ### Template C: Requesting QA Sign-off for Release
+
 > "Hi QA team, the release candidate `v2.1.0` has been deployed to staging. All development tickets are closed. Could you please run the full regression suite and provide sign-off by Thursday EOD so we can deploy to production on Friday morning? Thanks!"
 
 ### Template D: Requesting Copy from Marketing
+
 > "Hi Marketing team, the onboarding flow is ready for content. We need the final copy for the following screens:
+>
 > 1. Welcome page headline and subtext
 > 2. Feature highlights (3 bullet points each)
 > 3. CTA button labels
-> Could you share these in the shared Google Doc by Monday? Thanks!"
+>    Could you share these in the shared Google Doc by Monday? Thanks!"
 
 ---
 
@@ -133,24 +153,24 @@ When your team is blocked because of a dependency on another team.
 
 ## 7. Cross-Team Communication Etiquette
 
-* **Always provide context.** Don't just say *"Can you help?"* Say *"Can you help with [specific task] because [reason]? We need it by [deadline]."*
-* **Use the right channel.** Don't DM individuals for team requests. Post in the team's public Slack channel so the right person can pick it up.
-* **Respect their sprint.** Other teams have their own priorities. When making requests, ask about their capacity rather than demanding immediate action.
-* **Follow up, don't nag.** If there's no response after 24 hours, send a polite follow-up. If still no response, escalate to the team lead.
-* **Say thank you.** When another team helps you, acknowledge it publicly. A simple *"Thanks to the DevOps team for setting up the staging environment so quickly!"* goes a long way.
+- **Always provide context.** Don't just say _"Can you help?"_ Say _"Can you help with [specific task] because [reason]? We need it by [deadline]."_
+- **Use the right channel.** Don't DM individuals for team requests. Post in the team's public Slack channel so the right person can pick it up.
+- **Respect their sprint.** Other teams have their own priorities. When making requests, ask about their capacity rather than demanding immediate action.
+- **Follow up, don't nag.** If there's no response after 24 hours, send a polite follow-up. If still no response, escalate to the team lead.
+- **Say thank you.** When another team helps you, acknowledge it publicly. A simple _"Thanks to the DevOps team for setting up the staging environment so quickly!"_ goes a long way.
 
 ---
 
 ## 8. Common Mistakes to Avoid
 
-* **Expecting other teams to know your context:**
-  * Don't assume the DevOps team knows your project. Always include the project name, environment, and what you need.
-* **Making urgent requests without proper process:**
-  * ❌ DMing a DevOps engineer at 9 PM: *"Can you deploy this hotfix now?"*
-  * 🟢 Following the incident process: creating a ticket, tagging the on-call engineer, and using the incident Slack channel.
-* **Blaming other teams for delays without data:**
-  * Instead of saying *"Design is always late,"* say *"The design deliverables for the last 3 sprints averaged 2 days late. Can we discuss how to improve this?"*
-* **Not documenting cross-team agreements:**
-  * If the DevOps team agrees to provision a server by Friday, follow up with a Slack message confirming the agreement. Verbal agreements get forgotten.
-* **Using technical jargon with non-technical teams:**
-  * Don't tell the marketing team *"We added cache-busting headers."* Say *"Users will now always see the latest version of the page."*
+- **Expecting other teams to know your context:**
+  - Don't assume the DevOps team knows your project. Always include the project name, environment, and what you need.
+- **Making urgent requests without proper process:**
+  - ❌ DMing a DevOps engineer at 9 PM: _"Can you deploy this hotfix now?"_
+  - 🟢 Following the incident process: creating a ticket, tagging the on-call engineer, and using the incident Slack channel.
+- **Blaming other teams for delays without data:**
+  - Instead of saying _"Design is always late,"_ say _"The design deliverables for the last 3 sprints averaged 2 days late. Can we discuss how to improve this?"_
+- **Not documenting cross-team agreements:**
+  - If the DevOps team agrees to provision a server by Friday, follow up with a Slack message confirming the agreement. Verbal agreements get forgotten.
+- **Using technical jargon with non-technical teams:**
+  - Don't tell the marketing team _"We added cache-busting headers."_ Say _"Users will now always see the latest version of the page."_

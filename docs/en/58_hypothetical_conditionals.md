@@ -1,6 +1,6 @@
 # Hypothetical Conditionals for Retros
 
-During Sprint Retrospectives, post-mortem incident reviews, or design planning sessions, you will need to discuss imaginary scenarios: either planning what *would* happen if you chose a design, or reflecting on what *should have* happened to prevent a past crash.
+During Sprint Retrospectives, post-mortem incident reviews, or design planning sessions, you will need to discuss imaginary scenarios: either planning what _would_ happen if you chose a design, or reflecting on what _should have_ happened to prevent a past crash.
 
 ---
 
@@ -9,7 +9,7 @@ During Sprint Retrospectives, post-mortem incident reviews, or design planning s
 Use this to discuss imaginary, present scenarios (things that are NOT real or NOT true right now).
 
 - **Formula:** `If + Subject + Verb (Past Simple), Subject + would/could + Verb (Base)`
-- **💡 Note:** For the verb `be`, use `were` for all subjects in formal contexts (*If I were, if it were*), though *was* is common in casual talk.
+- **💡 Note:** For the verb `be`, use `were` for all subjects in formal contexts (_If I were, if it were_), though _was_ is common in casual talk.
 
 ### 💡 10 Practical Examples:
 

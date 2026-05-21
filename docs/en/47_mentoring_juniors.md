@@ -25,6 +25,7 @@
 Mentoring is not about being the smartest person in the room. It is about helping someone else grow. As a mentor, your job is to guide, not to do. You accelerate their learning by sharing your experience, asking the right questions, and creating a safe space to make mistakes.
 
 Key responsibilities:
+
 - Be available and approachable for questions
 - Provide timely, honest, and kind feedback
 - Share context and history that juniors lack
@@ -121,16 +122,19 @@ Focus on the code, not the person. Explain the "why" behind every suggestion.
 ## 3.3. Phrases for Different Types of Feedback
 
 **Nits (minor style issues):**
+
 - "Tiny nit: let's add a space before the parenthesis here."
 - "Minor formatting note: our linter prefers single quotes."
 - "Small thing: can we rename this variable to be more descriptive? Something like `userAge` instead of `a`."
 
 **Suggestions (optional improvements):**
+
 - "Optional suggestion: we could extract this into a helper function for readability."
 - "This works fine as-is. If you want to take it further, consider using a reduce here."
 - "Just a thought: would it be cleaner to use early returns here instead of nesting?"
 
 **Required changes (must fix before merging):**
+
 - "This needs to be fixed before we merge: the API endpoint is missing authentication."
 - "I can't approve this yet because the test coverage is below our threshold. Let's add tests for the main scenarios."
 - "This approach has a potential race condition. Let's discuss an alternative."

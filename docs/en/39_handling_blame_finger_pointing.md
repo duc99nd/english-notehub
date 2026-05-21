@@ -2,6 +2,30 @@
 
 In software development, mistakes happen. Code breaks, deployments fail, or deadlines are missed. When things go wrong, people sometimes search for a scapegoat rather than a solution. Handling blame and finger-pointing professionally requires maintaining composure, focusing on the facts, acknowledging errors constructively, and steering the conversation back to resolution and prevention.
 
+```mermaid
+flowchart TD
+    Incident[An Incident Occurs / Accusation Made ⚠️] --> ResponseType{Reaction Strategy}
+    
+    ResponseType -->|Defensive / Toxic Loop ❌| ToxicStart["Get Defensive & Angry<br/>• React emotionally"]
+    ToxicStart --> Accuse["Point Fingers & Excuse<br/>• Push blame away"]
+    Accuse --> Morale["Morale Drops & Trust Broken<br/>• Silos form"]
+    Morale --> Repeats["No Process Improvements<br/>• Same bug repeats"]
+    Repeats --> ToxicStart
+    
+    ResponseType -->|Professional / Blameless Loop ✅| ProfStart["Maintain Composure 🧘<br/>• Stay objective & calm"]
+    ProfStart --> Facts["Present Facts & Data<br/>• Check logs/git commits"]
+    Facts --> Constructive["Acknowledge Constructively<br/>• Own actual mistakes"]
+    Constructive --> Steer["Steer to Solutions 🎯<br/>• Focus on restoration"]
+    Steer --> PostMortem["Blameless Post-Mortem<br/>• Document timeline"]
+    PostMortem --> Guardrails["Add Guardrails<br/>• Code gates/tests"]
+    Guardrails --> Success([System Stable & Team Stronger])
+    
+    style Incident fill:#fee2e2,stroke:#ef4444,stroke-width:2px
+    style ToxicStart fill:#fff1f2,stroke:#f43f5e,stroke-width:1px
+    style ProfStart fill:#f0fdf4,stroke:#22c55e,stroke-width:1px
+    style Success fill:#dcfce7,stroke:#22c55e,stroke-width:2px
+```
+
 ---
 
 ## 1. Maintaining Composure & De-escalating
@@ -83,18 +107,23 @@ When others keep focusing on the mistake, redirect the conversation to the recov
 ## 5. Templates for Handling Heated Accusations
 
 ### Template A: When blamed for a delay because requirements changed
+
 > "The delay was not caused by developer performance, but by the fact that the checkout flow requirements were updated three times during the sprint. To prevent this, we should lock requirements before starting development."
 
 ### Template B: When blamed for a production bug
+
 > "While it is true that the bug slipped through to production, our current QA process doesn't cover cross-browser testing on older devices. I suggest we invest in automated cross-browser testing tools to address this gap."
 
 ### Template C: When a manager blames the team publicly
+
 > "I'd like to discuss this privately. Public blame damages team morale and doesn't help us solve the problem. I'm happy to walk through the timeline and share the facts."
 
 ### Template D: When blamed for something another team caused
+
 > "I understand the frustration, but I want to clarify the timeline. The infrastructure change that caused this outage was made by the DevOps team, not our backend team. Here is the deployment log for reference. Let's involve the right team in this discussion."
 
 ### Template E: When the entire team is blamed for one person's mistake
+
 > "It's not accurate to say the entire team failed. This was an isolated incident caused by a specific configuration error. However, I agree that our process should have caught it. Let's focus on improving the process."
 
 ---
@@ -104,11 +133,13 @@ When others keep focusing on the mistake, redirect the conversation to the recov
 After a major incident, conduct a blameless post-mortem. Focus on systems and processes, not individuals.
 
 ### Post-Mortem Template:
+
 > **Incident Title:** Checkout Page 500 Error - October 12, 2026
 >
 > **Summary:** The checkout page returned 500 errors for all users for 25 minutes.
 >
 > **Timeline:**
+>
 > - 10:15 AM: Alert triggered. CPU usage spiked to 100%.
 > - 10:17 AM: War room created. Huy (Lead Investigator), Lan (QA), John (Comms).
 > - 10:20 AM: Root cause identified: unoptimized promotional widget query.
@@ -118,15 +149,18 @@ After a major incident, conduct a blameless post-mortem. Focus on systems and pr
 > **Root Cause:** A new database query for the promotional widget did not use indexes, causing a full table scan under load.
 >
 > **What Went Well:**
+>
 > - Alert triggered within 2 minutes.
 > - Team mobilized quickly.
 > - Hotfix deployed in 13 minutes.
 >
 > **What Could Be Improved:**
+>
 > - The query was not load-tested before deployment.
 > - There was no circuit breaker to prevent cascading failures.
 >
 > **Action Items:**
+>
 > 1. Add index to the promotions table. (Owner: Huy, Deadline: Oct 13)
 > 2. Implement query performance testing in CI. (Owner: Duc, Deadline: Oct 18)
 > 3. Add circuit breaker for non-critical UI widgets. (Owner: Sarah, Deadline: Oct 20)
@@ -137,26 +171,26 @@ After a major incident, conduct a blameless post-mortem. Focus on systems and pr
 
 Quick phrases you can use to defuse blame in real time:
 
-| Blame-Oriented Statement | Solution-Oriented Redirect |
-| :--- | :--- |
-| "This is your fault." | "Let's focus on the fix first, and then we'll review the timeline." |
-| "You should have caught this." | "You're right, our process needs improvement. Let's discuss what check would have caught this." |
-| "Why didn't you test this?" | "Good question. Let's discuss how we can improve our test coverage to prevent this." |
-| "This always happens with your team." | "I'd like to look at the data. Can we review the last 3 incidents to find patterns?" |
-| "Who authorized this deployment?" | "The deployment followed our standard process. Let's review if the process needs updating." |
-| "This is unacceptable." | "I understand the impact. Here's what we're doing to fix it and prevent it from happening again." |
+| Blame-Oriented Statement              | Solution-Oriented Redirect                                                                        |
+| :------------------------------------ | :------------------------------------------------------------------------------------------------ |
+| "This is your fault."                 | "Let's focus on the fix first, and then we'll review the timeline."                               |
+| "You should have caught this."        | "You're right, our process needs improvement. Let's discuss what check would have caught this."   |
+| "Why didn't you test this?"           | "Good question. Let's discuss how we can improve our test coverage to prevent this."              |
+| "This always happens with your team." | "I'd like to look at the data. Can we review the last 3 incidents to find patterns?"              |
+| "Who authorized this deployment?"     | "The deployment followed our standard process. Let's review if the process needs updating."       |
+| "This is unacceptable."               | "I understand the impact. Here's what we're doing to fix it and prevent it from happening again." |
 
 ---
 
 ## 8. Common Mistakes to Avoid
 
-* **Getting defensive:**
-  * Saying *"It's not my fault!"* makes you look guilty even if you're not. Stay calm and present the facts.
-* **Blaming others in return:**
-  * Retaliatory blame (*"Well, YOUR team didn't give us the right specs!"*) escalates the conflict and solves nothing.
-* **Apologizing excessively:**
-  * One clear apology is enough. Repeating *"I'm so sorry"* 10 times undermines your credibility.
-* **Not documenting incidents:**
-  * If you don't write a post-mortem, the same mistake will happen again, and the blame cycle will repeat.
-* **Accepting blame for things you didn't do:**
-  * Being a team player doesn't mean accepting responsibility for other teams' mistakes. Clarify the facts diplomatically.
+- **Getting defensive:**
+  - Saying _"It's not my fault!"_ makes you look guilty even if you're not. Stay calm and present the facts.
+- **Blaming others in return:**
+  - Retaliatory blame (_"Well, YOUR team didn't give us the right specs!"_) escalates the conflict and solves nothing.
+- **Apologizing excessively:**
+  - One clear apology is enough. Repeating _"I'm so sorry"_ 10 times undermines your credibility.
+- **Not documenting incidents:**
+  - If you don't write a post-mortem, the same mistake will happen again, and the blame cycle will repeat.
+- **Accepting blame for things you didn't do:**
+  - Being a team player doesn't mean accepting responsibility for other teams' mistakes. Clarify the facts diplomatically.

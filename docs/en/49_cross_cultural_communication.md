@@ -3,6 +3,7 @@
 ## Communicate effectively with international colleagues and clients
 
 > **Purpose of this document**
+>
 > - Understand how cultural differences affect workplace communication
 > - Recognize common challenges Vietnamese engineers face in global teams
 > - Learn practical phrases and strategies for cross-cultural collaboration
@@ -154,6 +155,7 @@ Asking questions shows engagement, not ignorance.
 - Feedback tends to be mixed with positivity: "Great work on this. One thing to improve is..."
 
 **Useful phrases:**
+
 - "Sounds good. Let me take a stab at it and share my progress tomorrow."
 - "I'm blocked on the API response. Can we sync briefly after lunch?"
 - "Just a heads-up, I might need an extra day for testing."
@@ -167,6 +169,7 @@ Asking questions shows engagement, not ignorance.
 - Humor and self-deprecation are common in professional settings.
 
 **Useful phrases:**
+
 - "Shall we have a quick chat about the deployment schedule?"
 - "I think we might want to revisit the caching strategy."
 - "Brilliant, that makes sense. I'll get started on it straight away."
@@ -180,6 +183,7 @@ Asking questions shows engagement, not ignorance.
 - Shortened words are common: "arvo" (afternoon), "brekkie" (breakfast), "defo" (definitely).
 
 **Useful phrases:**
+
 - "No worries, I'll sort that out this arvo."
 - "Good on ya for catching that bug early."
 - "Let's have a quick yarn about the new feature."
@@ -233,9 +237,11 @@ Western professionals expect emails to be concise, clear, and action-oriented.
 - End with a clear call to action: "Please review by Friday and let me know if you have questions."
 
 **Too informal for Western business:**
+
 - "Hi Sir, I am writing to you because I want to ask about..."
 
 **Appropriately professional:**
+
 - "Hi [First name], I wanted to follow up on our discussion about the API migration. Here's a summary of the proposed changes..."
 
 ## Chat Etiquette (Slack, Teams)
@@ -246,6 +252,7 @@ Western professionals expect emails to be concise, clear, and action-oriented.
 - Be responsive but don't expect instant replies from others.
 
 **Good Slack messages:**
+
 - "Hey [name], quick question about the deployment pipeline. When you have a moment, could you check if the staging environment is up?"
 - "Update: the database migration is complete. No downtime recorded. Details in the thread."
 - "Heads up -- I'm seeing some latency spikes on the production API. Investigating now."
@@ -268,6 +275,7 @@ Western professionals expect emails to be concise, clear, and action-oriented.
 - Jump in during natural pauses: "Can I add something here?"
 
 **Phrases for joining the discussion:**
+
 - "I'd like to chime in on that point."
 - "Building on what [name] said, I think we should also consider..."
 - "I have a quick update on the frontend side."

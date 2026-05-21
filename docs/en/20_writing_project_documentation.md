@@ -8,12 +8,12 @@ Writing clear project documentation is just as important as writing clean code. 
 
 When writing READMEs or API guides, be direct. Use active commands instead of passive, overly formal sentences.
 
-| ❌ Academic / Too Formal (Avoid) | 🟢 Daily & Conversational (Use instead) |
-| :--- | :--- |
-| "In order to initiate the execution of the application, the operator is required to run the development command." | "Run `npm run dev` to start the app locally." |
-| "The directory structure of the repository dictates that modular utilities be allocated within the directory designated as utils." | "Put helper functions inside the `src/utils` folder." |
-| "It is highly recommended that you configure your environment keys in the local file." | "Copy `.env.example` to `.env` and fill in your keys." |
-| "Documentation must be kept in absolute synchronization with code modifications." | "Always update the docs when you change a feature." |
+| ❌ Academic / Too Formal (Avoid)                                                                                                   | 🟢 Daily & Conversational (Use instead)                |
+| :--------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------- |
+| "In order to initiate the execution of the application, the operator is required to run the development command."                  | "Run `npm run dev` to start the app locally."          |
+| "The directory structure of the repository dictates that modular utilities be allocated within the directory designated as utils." | "Put helper functions inside the `src/utils` folder."  |
+| "It is highly recommended that you configure your environment keys in the local file."                                             | "Copy `.env.example` to `.env` and fill in your keys." |
+| "Documentation must be kept in absolute synchronization with code modifications."                                                  | "Always update the docs when you change a feature."    |
 
 ---
 
@@ -32,18 +32,20 @@ When writing READMEs or API guides, be direct. Use active commands instead of pa
 
 Always write instructions using the **imperative mood** (starting with verbs). It sounds professional and is much easier to read.
 
-- ❌ **Don't say:** *"The user should copy the database connection string and then paste it."* (Too long, passive)
-- 🟢 **Do say:** *"Copy and paste the database connection string."* (Direct, active)
+- ❌ **Don't say:** _"The user should copy the database connection string and then paste it."_ (Too long, passive)
+- 🟢 **Do say:** _"Copy and paste the database connection string."_ (Direct, active)
 
-- ❌ **Don't say:** *"Running the linter is required before you make a commit."*
-- 🟢 **Do say:** *"Run `npm run lint` before committing."*
+- ❌ **Don't say:** _"Running the linter is required before you make a commit."_
+- 🟢 **Do say:** _"Run `npm run lint` before committing."_
 
 ---
 
 ## 4. Fill-in-the-blank Templates
 
 ### Template A: The "How to Run" README Section
+
 Copy this simple template for any new project you start.
+
 > ### Local Development Setup
 >
 > Follow these steps to run the project on your machine:
@@ -62,7 +64,9 @@ Copy this simple template for any new project you start.
 >    Open your browser and navigate to **`http://localhost:[Port]`**.
 
 ### Template B: Standard Pull Request (PR) Template
+
 Use this to document code changes when submitting a Pull Request.
+
 > ## Description
 >
 > This PR introduces **[summary of change, e.g., Google OAuth login]** to the **[module/page name, e.g., settings page]**.

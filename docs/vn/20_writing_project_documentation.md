@@ -8,12 +8,12 @@ Viết tài liệu dự án (documentation) rõ ràng cũng quan trọng như vi
 
 Khi viết file README hoặc hướng dẫn API, hãy đi thẳng vào vấn đề. Sử dụng các câu mệnh lệnh chủ động thay vì các câu bị động quá trang trọng và dài dòng.
 
-| ❌ Học thuật / Quá trang trọng (Nên tránh) | 🟢 Daily & Giao tiếp (Nên dùng) |
-| :--- | :--- |
-| "In order to initiate the execution of the application, the operator is required to run the development command." | "Run `npm run dev` to start the app locally." *(Chạy `npm run dev` để khởi động app ở local.)* |
-| "The directory structure of the repository dictates that modular utilities be allocated within the directory designated as utils." | "Put helper functions inside the `src/utils` folder." *(Để các hàm helper vào thư mục `src/utils`.)* |
-| "It is highly recommended that you configure your environment keys in the local file." | "Copy `.env.example` to `.env` and fill in your keys." *(Copy `.env.example` thành `.env` rồi điền các key của bạn vào.)* |
-| "Documentation must be kept in absolute synchronization with code modifications." | "Always update the docs when you change a feature." *(Luôn cập nhật tài liệu khi bạn thay đổi một tính năng nào đó.)* |
+| ❌ Học thuật / Quá trang trọng (Nên tránh)                                                                                         | 🟢 Daily & Giao tiếp (Nên dùng)                                                                                           |
+| :--------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------ |
+| "In order to initiate the execution of the application, the operator is required to run the development command."                  | "Run `npm run dev` to start the app locally." _(Chạy `npm run dev` để khởi động app ở local.)_                            |
+| "The directory structure of the repository dictates that modular utilities be allocated within the directory designated as utils." | "Put helper functions inside the `src/utils` folder." _(Để các hàm helper vào thư mục `src/utils`.)_                      |
+| "It is highly recommended that you configure your environment keys in the local file."                                             | "Copy `.env.example` to `.env` and fill in your keys." _(Copy `.env.example` thành `.env` rồi điền các key của bạn vào.)_ |
+| "Documentation must be kept in absolute synchronization with code modifications."                                                  | "Always update the docs when you change a feature." _(Luôn cập nhật tài liệu khi bạn thay đổi một tính năng nào đó.)_     |
 
 ---
 
@@ -32,18 +32,20 @@ Khi viết file README hoặc hướng dẫn API, hãy đi thẳng vào vấn đ
 
 Luôn viết hướng dẫn bắt đầu bằng một **động từ hành động** (thể mệnh lệnh). Cách viết này giúp tài liệu cực kỳ dễ đọc và chuyên nghiệp.
 
-- ❌ **Không viết:** *"The user should copy the database connection string and then paste it."* (Quá dài, bị động)
-- 🟢 **Nên viết:** *"Copy and paste the database connection string."* (Trực tiếp, chủ động)
+- ❌ **Không viết:** _"The user should copy the database connection string and then paste it."_ (Quá dài, bị động)
+- 🟢 **Nên viết:** _"Copy and paste the database connection string."_ (Trực tiếp, chủ động)
 
-- ❌ **Không viết:** *"Running the linter is required before you make a commit."*
-- 🟢 **Nên viết:** *"Run `npm run lint` before committing."*
+- ❌ **Không viết:** _"Running the linter is required before you make a commit."_
+- 🟢 **Nên viết:** _"Run `npm run lint` before committing."_
 
 ---
 
 ## 4. Mẫu câu điền vào chỗ trống (Templates)
 
 ### Mẫu A: Hướng dẫn cài đặt và chạy dự án (mục Setup trong README)
+
 Sử dụng mẫu đơn giản này cho bất kỳ dự án nào bạn bắt đầu làm.
+
 > ### Local Development Setup
 >
 > Follow these steps to run the project on your machine:
@@ -62,7 +64,9 @@ Sử dụng mẫu đơn giản này cho bất kỳ dự án nào bạn bắt đ�
 >    Open your browser and navigate to **`http://localhost:[Cổng chạy app]`**.
 
 ### Mẫu B: Nội dung mô tả khi gửi Pull Request (PR Template)
+
 Dùng khi bạn tạo PR để đồng nghiệp review code của bạn.
+
 > ## Description
 >
 > This PR introduces **[tóm tắt thay đổi, ví dụ: Google OAuth login]** to the **[tên trang/module, ví dụ: settings page]**.

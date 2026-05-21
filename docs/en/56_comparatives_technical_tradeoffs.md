@@ -30,6 +30,7 @@ When arguing for an architectural choice or comparing alternative tech stacks, y
 Don't just say one is "better" than another. Describe the scale of the difference using modifiers before the comparative adjective.
 
 ### 💡 Hack 1: Showing Large Differences (Much, Way, Far, Significantly)
+
 - **much / far / significantly + comparative:** (Formal & Professional)
   - **"GraphQL is significantly more flexible than REST for complex UIs."**
   - **"AWS Lambda is far cheaper than EC2 for low-traffic websites."**
@@ -37,6 +38,7 @@ Don't just say one is "better" than another. Describe the scale of the differenc
   - **"This new indexing strategy makes the queries way faster."**
 
 ### 💡 Hack 2: Showing Small Differences (Slightly, Marginally)
+
 - **slightly / marginally / a bit + comparative:**
   - **"Next.js build time is slightly longer since we added the image optimization library."**
   - **"Option B is a bit cheaper, but the performance is identical."**

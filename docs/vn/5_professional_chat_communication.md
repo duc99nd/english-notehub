@@ -8,13 +8,13 @@ Giao tiếp hiệu quả trên các nền tảng chat như Slack, Microsoft Team
 
 Đừng viết những đoạn văn dài dòng và quá trang trọng trong cửa sổ chat. Hãy giao tiếp tự nhiên nhưng vẫn giữ sự chuyên nghiệp.
 
-| ❌ Học thuật / Quá trang trọng (Nên tránh) | 🟢 Daily & Giao tiếp (Nên dùng) |
-| :--- | :--- |
-| "Dear John, I am writing to inquire if you possess the availability to inspect this bug." | "Hey John, do you have a quick second to look at this bug?" *(Hey John, có rảnh vài giây ngó hộ tôi cái bug này với?)* |
-| "Please accept my apologies for the delayed response." | "Sorry for the late reply!" / "Sorry, just seeing this now." *(Xin lỗi vì rep trễ nhé! / Xin lỗi, giờ tôi mới thấy tin nhắn.)* |
-| "I have successfully resolved the issue and request your review." | "Just fixed the bug! Let me know if it looks good." *(Tôi vừa fix xong bug rồi! Xem hộ tôi ổn chưa nhé.)* |
-| "I am currently unavailable due to my lunch hour." | "Heading out for lunch, back in 30 mins! 🍔" *(Tôi đi ăn trưa chút, 30 phút nữa quay lại nhé!)* |
-| "Could you kindly provide the documentations?" | "Can you send me the link to the docs?" *(Gửi tôi xin link tài liệu với nhé?)* |
+| ❌ Học thuật / Quá trang trọng (Nên tránh)                                                | 🟢 Daily & Giao tiếp (Nên dùng)                                                                                                |
+| :---------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------- |
+| "Dear John, I am writing to inquire if you possess the availability to inspect this bug." | "Hey John, do you have a quick second to look at this bug?" _(Hey John, có rảnh vài giây ngó hộ tôi cái bug này với?)_         |
+| "Please accept my apologies for the delayed response."                                    | "Sorry for the late reply!" / "Sorry, just seeing this now." _(Xin lỗi vì rep trễ nhé! / Xin lỗi, giờ tôi mới thấy tin nhắn.)_ |
+| "I have successfully resolved the issue and request your review."                         | "Just fixed the bug! Let me know if it looks good." _(Tôi vừa fix xong bug rồi! Xem hộ tôi ổn chưa nhé.)_                      |
+| "I am currently unavailable due to my lunch hour."                                        | "Heading out for lunch, back in 30 mins! 🍔" _(Tôi đi ăn trưa chút, 30 phút nữa quay lại nhé!)_                                |
+| "Could you kindly provide the documentations?"                                            | "Can you send me the link to the docs?" _(Gửi tôi xin link tài liệu với nhé?)_                                                 |
 
 ---
 
@@ -22,12 +22,12 @@ Giao tiếp hiệu quả trên các nền tảng chat như Slack, Microsoft Team
 
 Các lập trình viên bận rộn cực kỳ ghét việc nhận được một tin nhắn chỉ vỏn vẹn chữ "Hi" hoặc "Hello" rồi im lặng chờ đối phương phản hồi. Hãy luôn đưa ra yêu cầu cụ thể ngay trong tin nhắn đầu tiên.
 
-*   **❌ Chưa tốt (Tốn thời gian của cả hai):**
-    *   *Bạn:* "Hi Duc." (Đợi 10 phút sau)
-    *   *Đức:* "Hey! Có chuyện gì thế?"
-    *   *Bạn:* "Gửi tôi xin API keys với."
-*   **🟢 Chuẩn giao tiếp nhanh (Tiết kiệm thời gian):**
-    *   *Bạn:* "Hi Duc, hope you're having a good day. Could you send me the API keys for the staging environment when you have a chance? Thanks!" *(Chào Đức, chúc ngày mới tốt lành. Gửi giúp tôi API keys của môi trường staging khi nào tiện nhé. Cảm ơn nhiều!)*
+- **❌ Chưa tốt (Tốn thời gian của cả hai):**
+  - _Bạn:_ "Hi Duc." (Đợi 10 phút sau)
+  - _Đức:_ "Hey! Có chuyện gì thế?"
+  - _Bạn:_ "Gửi tôi xin API keys với."
+- **🟢 Chuẩn giao tiếp nhanh (Tiết kiệm thời gian):**
+  - _Bạn:_ "Hi Duc, hope you're having a good day. Could you send me the API keys for the staging environment when you have a chance? Thanks!" _(Chào Đức, chúc ngày mới tốt lành. Gửi giúp tôi API keys của môi trường staging khi nào tiện nhé. Cảm ơn nhiều!)_
 
 ---
 
@@ -36,13 +36,16 @@ Các lập trình viên bận rộn cực kỳ ghét việc nhận được mộ
 Hãy dùng các mẫu câu đơn giản này khi bạn cần hỗ trợ xử lý lỗi hoặc review code.
 
 ### Công thức báo lỗi & nhờ giúp:
-> "Hey **[Tên đồng nghiệp]**, I'm getting a **[mã lỗi, ví dụ: 500 error]** on the **[tên trang/component, ví dụ: login page]**. Have you run into this before? Here is a screenshot of the error." *(Hey [Tên], tôi đang gặp lỗi [500] ở [trang login]. Bạn có từng gặp lỗi này chưa? Gửi bạn ảnh chụp màn hình lỗi nhé.)*
+
+> "Hey **[Tên đồng nghiệp]**, I'm getting a **[mã lỗi, ví dụ: 500 error]** on the **[tên trang/component, ví dụ: login page]**. Have you run into this before? Here is a screenshot of the error." _(Hey [Tên], tôi đang gặp lỗi [500] ở [trang login]. Bạn có từng gặp lỗi này chưa? Gửi bạn ảnh chụp màn hình lỗi nhé.)_
 
 ### Công thức nhờ review PR:
-> "Hi team, could someone take a look at my PR when you get a chance? It's for the **[tính năng, ví dụ: payment integration]**. Thanks! **[link to PR]**" *(Chào cả nhà, ai tiện ngó qua giúp tôi cái PR này nhé? Đây là phần [tích hợp thanh toán]. Cảm ơn! [Link PR])*
+
+> "Hi team, could someone take a look at my PR when you get a chance? It's for the **[tính năng, ví dụ: payment integration]**. Thanks! **[link to PR]**" _(Chào cả nhà, ai tiện ngó qua giúp tôi cái PR này nhé? Đây là phần [tích hợp thanh toán]. Cảm ơn! [Link PR])_
 
 ### Hỏi nhanh tiến độ:
-> "Hey **[Tên]**, are we still on track for the deployment today?" *(Hey [Tên], kế hoạch deploy hôm nay của chúng ta vẫn đúng tiến độ chứ?)*
+
+> "Hey **[Tên]**, are we still on track for the deployment today?" _(Hey [Tên], kế hoạch deploy hôm nay của chúng ta vẫn đúng tiến độ chứ?)_
 
 ---
 
@@ -50,10 +53,10 @@ Hãy dùng các mẫu câu đơn giản này khi bạn cần hỗ trợ xử lý
 
 Cập nhật nhanh tiến độ công việc của bạn cho team mà không cần viết báo cáo dài dòng.
 
-- **Bắt đầu ngày làm việc:** "Morning team! Today I'm working on the **[tên task]**." *(Chào cả nhà! Hôm nay tôi làm task [tên task] nhé.)*
-- **Gặp blocker (bị nghẽn):** "Hey guys, I'm currently **blocked** by **[vấn đề]**. Can anyone from DevOps help me out?" *(Mọi người ơi, tôi đang bị nghẽn ở chỗ [vấn đề]. Có ai bên DevOps rảnh hỗ trợ tôi chút được không?)*
-- **Rời máy tạm thời:** "AFK (Away From Keyboard) for a dentist appointment. Will be back online around 3 PM." *(Tôi rời máy đi khám răng chút. Tầm 3h chiều tôi online lại nhé.)*
-- **Cuối ngày/Log off:** "Logging off for the day. Have a good evening everyone!" *(Tôi off đây. Chúc mọi người buổi tối vui vẻ!)*
+- **Bắt đầu ngày làm việc:** "Morning team! Today I'm working on the **[tên task]**." _(Chào cả nhà! Hôm nay tôi làm task [tên task] nhé.)_
+- **Gặp blocker (bị nghẽn):** "Hey guys, I'm currently **blocked** by **[vấn đề]**. Can anyone from DevOps help me out?" _(Mọi người ơi, tôi đang bị nghẽn ở chỗ [vấn đề]. Có ai bên DevOps rảnh hỗ trợ tôi chút được không?)_
+- **Rời máy tạm thời:** "AFK (Away From Keyboard) for a dentist appointment. Will be back online around 3 PM." _(Tôi rời máy đi khám răng chút. Tầm 3h chiều tôi online lại nhé.)_
+- **Cuối ngày/Log off:** "Logging off for the day. Have a good evening everyone!" _(Tôi off đây. Chúc mọi người buổi tối vui vẻ!)_
 
 ---
 

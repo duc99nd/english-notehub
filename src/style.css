@@ -357,4 +357,30 @@
     margin-top: 0.5rem;
     margin-bottom: 1rem;
   }
+
+  /* Mermaid Diagram Styling */
+  .notehub-prose .mermaid {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    border: 1px solid hsl(var(--border));
+    margin: 1.5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: auto;
+    transition:
+      background-color 0.2s,
+      border-color 0.2s;
+  }
+
+  .dark .notehub-prose .mermaid {
+    background: hsl(224 40% 6%);
+    border-color: hsl(217 33% 17%);
+  }
+
+  .notehub-prose .mermaid svg {
+    max-width: 100% !important;
+    height: auto !important;
+  }
 }

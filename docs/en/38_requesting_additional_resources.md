@@ -12,7 +12,7 @@ Explain clearly that the current capacity is insufficient to meet the project go
 
 ## 2. Providing Data-Driven Rationale (The "Why")
 
-Do not just ask for people; explain *why* they are needed. Use data such as velocity, burndown charts, or skill gaps.
+Do not just ask for people; explain _why_ they are needed. Use data such as velocity, burndown charts, or skill gaps.
 
 - "Our current team velocity is 25 story points per sprint, but the remaining backlog requires an average velocity of 35 points to meet the launch date."
 - "The integration of the mapping API requires specialized GIS knowledge that our current developers do not possess."

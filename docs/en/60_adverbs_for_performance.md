@@ -10,7 +10,7 @@ Instead of saying "sometimes" or "often," use precise IT adverbs to describe occ
 
 ### 💡 10 Practical Examples:
 
-1.  **"The database is consistently slow during midnight backups."** (Not: *slow consistently*)
+1.  **"The database is consistently slow during midnight backups."** (Not: _slow consistently_)
 2.  **"This background worker periodically cleans up expired user tokens."**
 3.  **"The third-party API intermittently fails with a 502 Bad Gateway."** (Highly valued in debugging!)
 4.  **"The application pool randomly restarts without any error codes."**
@@ -28,6 +28,7 @@ Instead of saying "sometimes" or "often," use precise IT adverbs to describe occ
 Use these to describe changes in CPU utilization, memory leaks, page speeds, or API response times.
 
 ### 💡 Hack 1: Describing Large Changes
+
 - **significantly / considerably / substantially (đáng kể):**
   - **"Adding Redis significantly reduced the API response time."**
 - **drastically (mạnh mẽ/triệt để):**
@@ -36,6 +37,7 @@ Use these to describe changes in CPU utilization, memory leaks, page speeds, or 
   - **"Memory usage is increasing exponentially, indicating a memory leak."**
 
 ### 💡 Hack 2: Describing Small or Gradual Changes
+
 - **gradually (dần dần/từ từ):**
   - **"The connection pool size is gradually climbing."**
 - **marginally / slightly (một chút / không đáng kể):**
@@ -61,34 +63,36 @@ Use these to describe changes in CPU utilization, memory leaks, page speeds, or 
 Many developers put adverbs in incorrect positions, making sentences sound unnatural.
 
 ### Rule A: Put the adverb BEFORE a standard action verb
-- **"We significantly improved the loading speed."** (Not: *We improved significantly...*)
-- **"The scheduler automatically runs the job."** (Not: *runs automatically the job*)
+
+- **"We significantly improved the loading speed."** (Not: _We improved significantly..._)
+- **"The scheduler automatically runs the job."** (Not: _runs automatically the job_)
 
 ### Rule B: Put the adverb AFTER auxiliary/helper verbs (is/are, have/has, can)
-- **"The servers are consistently overloaded."** (Adverb after *are*).
-- **"We have already deployed the fix."** (Adverb after *have*).
+
+- **"The servers are consistently overloaded."** (Adverb after _are_).
+- **"We have already deployed the fix."** (Adverb after _have_).
 
 ### 💡 10 Word-Order Examples:
 
-1.  **"The system automatically exports reports every Sunday."** (Before *exports*)
-2.  **"The server has successfully recovered from the crash."** (After *has*)
-3.  **"We heavily rely on third-party APIs for map rendering."** (Before *rely*)
-4.  **"The configuration files were manually updated by Huy."** (After *were*)
-5.  **"You can easily scale the application with Kubernetes."** (After *can*)
-6.  **"The background job is currently running on the server."** (After *is*)
-7.  **"We immediately paused the database migration scripts."** (Before *paused*)
-8.  **"The backup script has consistently failed since Monday."** (After *has*)
-9.  **"I normally test the endpoints on local before committing."** (Before *test*)
-10. **"The credentials should always be stored in environment variables."** (After *should*)
+1.  **"The system automatically exports reports every Sunday."** (Before _exports_)
+2.  **"The server has successfully recovered from the crash."** (After _has_)
+3.  **"We heavily rely on third-party APIs for map rendering."** (Before _rely_)
+4.  **"The configuration files were manually updated by Huy."** (After _were_)
+5.  **"You can easily scale the application with Kubernetes."** (After _can_)
+6.  **"The background job is currently running on the server."** (After _is_)
+7.  **"We immediately paused the database migration scripts."** (Before _paused_)
+8.  **"The backup script has consistently failed since Monday."** (After _has_)
+9.  **"I normally test the endpoints on local before committing."** (Before _test_)
+10. **"The credentials should always be stored in environment variables."** (After _should_)
 
 ---
 
 ## 4. Performance Summary Table
 
-| Metric Change | Recommended Adverb | Example Sentence |
-| :--- | :--- | :--- |
-| Huge Drop | **drastically** / **significantly** | "CPU usage has **significantly** dropped." |
-| Slow Climb | **gradually** | "Memory is **gradually** leaking over time." |
-| Chập chờn | **intermittently** | "The API is **intermittently** failing." |
-| Định kỳ | **periodically** | "Cron jobs run **periodically**." |
-| Tự động | **automatically** | "The server restarts **automatically** on failure." |
+| Metric Change | Recommended Adverb                  | Example Sentence                                    |
+| :------------ | :---------------------------------- | :-------------------------------------------------- |
+| Huge Drop     | **drastically** / **significantly** | "CPU usage has **significantly** dropped."          |
+| Slow Climb    | **gradually**                       | "Memory is **gradually** leaking over time."        |
+| Chập chờn     | **intermittently**                  | "The API is **intermittently** failing."            |
+| Định kỳ       | **periodically**                    | "Cron jobs run **periodically**."                   |
+| Tự động       | **automatically**                   | "The server restarts **automatically** on failure." |

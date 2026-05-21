@@ -17,18 +17,19 @@ Not all comments serve the same purpose. Using the right comment tag helps your 
 
 ### Standard Comment Tags
 
-| Tag | Purpose | Urgency | Example |
-| :--- | :--- | :--- | :--- |
-| `// TODO` | Planned work not yet done | Medium | `// TODO: Add input validation for edge cases` |
-| `// FIXME` | Known bug that needs fixing | High | `// FIXME: Crashes when payload is null` |
-| `// HACK` | Temporary workaround | Medium | `// HACK: Hardcoded value until API v2 is ready` |
-| `// NOTE` | Important information for readers | Info | `// NOTE: This runs on every keystroke` |
-| `// XXX` | Dangerous or problematic code | High | `// XXX: This mutates the original array` |
-| `// OPTIMIZE` | Code that works but is slow | Low | `// OPTIMIZE: Re-render could be avoided here` |
+| Tag           | Purpose                           | Urgency | Example                                          |
+| :------------ | :-------------------------------- | :------ | :----------------------------------------------- |
+| `// TODO`     | Planned work not yet done         | Medium  | `// TODO: Add input validation for edge cases`   |
+| `// FIXME`    | Known bug that needs fixing       | High    | `// FIXME: Crashes when payload is null`         |
+| `// HACK`     | Temporary workaround              | Medium  | `// HACK: Hardcoded value until API v2 is ready` |
+| `// NOTE`     | Important information for readers | Info    | `// NOTE: This runs on every keystroke`          |
+| `// XXX`      | Dangerous or problematic code     | High    | `// XXX: This mutates the original array`        |
+| `// OPTIMIZE` | Code that works but is slow       | Low     | `// OPTIMIZE: Re-render could be avoided here`   |
 
 ### When to Use Each Tag (With Examples)
 
 **TODO** -- For planned but unimplemented work:
+
 - `// TODO: Implement retry logic for failed API calls`
 - `// TODO: Add localization support for error messages`
 - `// TODO: Replace this mock data with real API endpoint once backend is ready`
@@ -36,17 +37,20 @@ Not all comments serve the same purpose. Using the right comment tag helps your 
 - `// TODO(username): Add rate limiting before opening this endpoint to public`
 
 **FIXME** -- For known bugs that need a fix soon:
+
 - `// FIXME: The date formatting breaks for timezones east of UTC`
 - `// FIXME: This regex doesn't handle Unicode characters in names`
 - `// FIXME: Memory leak -- event listeners are not removed on unmount`
 - `// FIXME: Returns incorrect total when cart has mixed currencies`
 
 **HACK** -- For temporary workarounds with a plan to fix:
+
 - `// HACK: Using setTimeout to wait for the modal animation to finish. Replace with transitionend event.`
 - `// HACK: Adding extra padding here because Safari miscalculates the container height.`
 - `// HACK: Sending a second request to bypass the caching layer temporarily.`
 
 **NOTE** -- For important context readers should know:
+
 - `// NOTE: This function is called from 3 different places. Changing the signature will require updates in all callers.`
 - `// NOTE: The API returns prices in cents, not dollars.`
 - `// NOTE: This middleware runs BEFORE authentication, so req.user is not available here.`
@@ -134,26 +138,32 @@ A great PR description saves the reviewer's time and provides necessary context.
 
 ```markdown
 ## Summary
+
 [1-2 sentences describing what this PR does and why]
 
 ## Changes
+
 - [Change 1]
 - [Change 2]
 - [Change 3]
 
 ## Testing Steps
+
 1. [Step 1]
 2. [Step 2]
 3. [Verify expected result]
 
 ## Screenshots / Recordings
+
 [If UI changes, attach before/after screenshots]
 
 ## Related Issues
+
 Closes #123
 Related to #456
 
 ## Notes for Reviewers
+
 [Anything the reviewer should know before reviewing]
 ```
 
@@ -326,25 +336,30 @@ Ready-to-use templates for the most common PR types. Copy, adapt, and use.
 
 ```markdown
 ## Summary
+
 Fixes #123 -- App crashes when user submits empty form on the checkout page.
 
 ## Root Cause
+
 The `validateForm()` function was not checking for `null` values before accessing
 string properties. When the form fields were empty, `null.trim()` threw an
 unhandled TypeError.
 
 ## Changes
+
 - Added null/undefined check in `validateForm()` before string operations
 - Added unit tests for empty, null, and undefined form inputs
 - Updated error message to be more descriptive
 
 ## Testing Steps
+
 1. Navigate to `/checkout`
 2. Leave all fields empty and click Submit
 3. Verify that a validation error message appears instead of a white screen
 4. Fill in the form correctly and verify checkout completes successfully
 
 ## Regression Risk
+
 Low. The change only adds a guard clause. Existing happy-path tests still pass.
 ```
 
@@ -352,10 +367,12 @@ Low. The change only adds a guard clause. Existing happy-path tests still pass.
 
 ```markdown
 ## Summary
+
 Adds user profile editing functionality, allowing users to update their name,
 avatar, and bio from the settings page.
 
 ## Changes
+
 - Created `ProfileEditor` component with form validation
 - Added `PATCH /api/users/:id` endpoint on the backend (already merged in PR #110)
 - Added profile image upload with S3 integration
@@ -363,11 +380,13 @@ avatar, and bio from the settings page.
 - Added 12 unit tests and 3 integration tests
 
 ## Screenshots
-| Before | After |
-|--------|-------|
+
+| Before       | After        |
+| ------------ | ------------ |
 | [screenshot] | [screenshot] |
 
 ## Testing Steps
+
 1. Log in as any user
 2. Go to Settings > Profile
 3. Edit name, bio, and upload a new avatar
@@ -375,6 +394,7 @@ avatar, and bio from the settings page.
 5. Test on mobile viewport (375px) to confirm responsive layout
 
 ## Notes
+
 - The avatar upload has a 5MB file size limit. An error toast appears if exceeded.
 - The bio field has a 280-character limit with a live counter.
 ```
@@ -383,10 +403,12 @@ avatar, and bio from the settings page.
 
 ```markdown
 ## Summary
+
 Refactors the authentication module to use a strategy pattern, making it easier
 to add new auth providers (Google, GitHub) in the future.
 
 ## Changes
+
 - Extracted auth provider logic into separate strategy classes
 - Created `AuthProvider` interface with `login()`, `logout()`, `refresh()` methods
 - Migrated existing email/password auth to `EmailAuthStrategy`
@@ -394,12 +416,14 @@ to add new auth providers (Google, GitHub) in the future.
 - No functional changes -- all existing tests pass without modification
 
 ## Testing Steps
+
 1. Run the full test suite: `npm test` (all 47 tests should pass)
 2. Log in with email/password -- verify flow is unchanged
 3. Verify token refresh still works after 15 minutes
 4. Verify logout clears session correctly
 
 ## Risk
+
 Medium. This touches the auth flow, which is critical. Recommend thorough
 testing on staging before merging.
 ```
@@ -408,21 +432,25 @@ testing on staging before merging.
 
 ```markdown
 ## Summary
+
 Updates the API documentation for the v2 endpoints and adds a new
 contributing guide.
 
 ## Changes
+
 - Updated README with correct setup instructions for Node 20+
 - Added API documentation for `/api/v2/reports` endpoints
 - Added `CONTRIBUTING.md` with branch naming and PR guidelines
 - Fixed 6 broken links in the existing docs
 
 ## Testing Steps
+
 1. Run `npm run docs:build` and verify no broken links
 2. Review the rendered docs at `localhost:3000/docs`
 3. Confirm all code examples in the API docs are accurate
 
 ## Notes
+
 No code changes in this PR. Safe to merge without staging deployment.
 ```
 
@@ -430,21 +458,25 @@ No code changes in this PR. Safe to merge without staging deployment.
 
 ```markdown
 ## Summary
+
 Updates the CI/CD pipeline to use GitHub Actions instead of CircleCI and
 adds Dependabot configuration for automated dependency updates.
 
 ## Changes
+
 - Created `.github/workflows/ci.yml` with lint, test, and build stages
 - Created `.github/workflows/deploy.yml` for staging and production deploys
 - Added `dependabot.yml` for weekly npm and Docker dependency checks
 - Removed `.circleci/` config files
 
 ## Testing Steps
+
 1. Verify the CI workflow triggers on this PR (check the Actions tab)
 2. Confirm all pipeline stages pass (lint, test, build)
 3. Verify the workflow file syntax is valid
 
 ## Notes
+
 - The old CircleCI config will be decommissioned after this is merged.
 - Deployment secrets have already been configured in GitHub.
 ```
@@ -470,6 +502,7 @@ Good commit messages tell a story. They explain what changed and why, making it 
 ### Good vs Bad Commit Messages
 
 **BAD** -- vague and unhelpful:
+
 - `fix bug`
 - `update stuff`
 - `wip`
@@ -479,6 +512,7 @@ Good commit messages tell a story. They explain what changed and why, making it 
 - `lint`
 
 **GOOD** -- clear and specific:
+
 - `fix(auth): resolve crash when session token is expired`
 - `feat(checkout): add Stripe payment gateway integration`
 - `refactor(api): extract validation logic into shared middleware`
@@ -521,18 +555,21 @@ The tone of your review comments matters as much as the technical content. Good 
 ### Tone Guidelines
 
 **Ask, don't tell:**
+
 - "Could we extract this into a helper function?" (Good)
 - "Extract this into a helper function." (Too direct)
 - "What do you think about using Optional Chaining here?" (Good)
 - "Use Optional Chaining here." (Too direct)
 
 **Use "we" instead of "you":**
+
 - "We should add error handling here." (Collaborative)
 - "You forgot to add error handling." (Accusatory)
 - "Let's rename this variable to be more descriptive." (Collaborative)
 - "You named this poorly." (Hostile)
 
 **Acknowledge good work:**
+
 - "Nice approach! I like how you separated the concerns here."
 - "This is a clean solution. Well done."
 - "Great test coverage on this module."
@@ -546,24 +583,27 @@ The tone of your review comments matters as much as the technical content. Good 
 
 ### Using Conventional Comment Prefixes
 
-| Prefix | Meaning |
-| :--- | :--- |
-| `nit:` | Minor, optional, won't block merge |
-| `suggestion:` | A different approach to consider |
-| `question:` | Asking for clarification, not requesting a change |
-| `praise:` | Positive feedback on good code |
-| `issue:` | A real problem that should be fixed before merge |
-| `blocker:` | Must be fixed before this PR can merge |
+| Prefix        | Meaning                                           |
+| :------------ | :------------------------------------------------ |
+| `nit:`        | Minor, optional, won't block merge                |
+| `suggestion:` | A different approach to consider                  |
+| `question:`   | Asking for clarification, not requesting a change |
+| `praise:`     | Positive feedback on good code                    |
+| `issue:`      | A real problem that should be fixed before merge  |
+| `blocker:`    | Must be fixed before this PR can merge            |
 
 ### Handling Sensitive Situations
 
 **When you find a critical bug:**
+
 - "I found a potential issue that could cause data loss in production. Could you take a look at line 142? When two requests arrive simultaneously, the second one overwrites the first one's changes."
 
 **When the code quality is below standard:**
+
 - "I have a few suggestions that could improve the readability of this function. Would you be open to pairing on it for 15 minutes?"
 
 **When you need to reject an approach entirely:**
+
 - "I appreciate the effort here, but I think this approach might cause issues at scale. Could we set up a quick design discussion to explore alternatives?"
 
 ---
@@ -580,20 +620,25 @@ The tone of your review comments matters as much as the technical content. Good 
 **Incident Ticket**: #[number]
 
 ### What happened?
+
 [Describe the issue and user impact]
 
 ### Root cause
+
 [Explain what caused the bug]
 
 ### Fix
+
 [Describe the fix in 1-3 sentences]
 
 ### Testing
+
 - [ ] Verified fix in staging environment
 - [ ] Confirmed no regression in related features
 - [ ] Added test to prevent recurrence
 
 ### Rollback Plan
+
 If this fix causes issues, revert this commit and [describe fallback].
 
 / cc @oncall
@@ -603,49 +648,59 @@ If this fix causes issues, revert this commit and [describe fallback].
 
 ```markdown
 ## Summary
+
 Adds / modifies / removes [table/column/index]
 
 ## Schema Changes
+
 - Added column `preferences` (JSONB) to `users` table
 - Added index on `users.email` for faster lookups
 - Removed deprecated `legacy_id` column from `orders`
 
 ## Migration Details
+
 - Migration file: `20240115_001_add_user_preferences.sql`
 - Direction: Forward only / Reversible
 - Estimated execution time: ~2 minutes on production data
 
 ## Rollback Plan
+
 `npm run db:rollback` will reverse the migration.
 
 ## Testing Steps
+
 1. Run `npm run db:migrate` on a fresh database
 2. Verify the schema matches expected state
 3. Run rollback and verify clean reversal
 4. Run full test suite
 
 ## Warnings
+
 - This migration locks the `users` table. Should be deployed during off-peak hours.
 - Data backfill script will run as a separate job.
 ```
 
 ### Template: API Changes / New Endpoint
 
-```markdown
+````markdown
 ## Summary
+
 Adds / modifies the `[METHOD] /api/[path]` endpoint.
 
 ## API Contract
 
 **Request:**
+
 ```json
 {
   "field1": "string",
   "field2": 123
 }
 ```
+````
 
 **Response (200):**
+
 ```json
 {
   "id": "abc-123",
@@ -654,26 +709,31 @@ Adds / modifies the `[METHOD] /api/[path]` endpoint.
 ```
 
 **Error Responses:**
+
 - `400` -- Invalid request body
 - `401` -- Missing or expired token
 - `404` -- Resource not found
 - `429` -- Rate limit exceeded
 
 ## Breaking Changes
+
 - [ ] None
 - [ ] Yes -- describe what breaks and the migration path
 
 ## Testing Steps
+
 1. Start the local server: `npm run dev`
 2. Use the Postman collection in `/docs/api/` to test all endpoints
 3. Verify response codes and body match the contract above
 4. Test with invalid inputs and verify correct error responses
 
 ## Documentation
+
 - [ ] Updated OpenAPI / Swagger spec
 - [ ] Updated API changelog
 - [ ] Notified frontend team of changes
-```
+
+````
 
 ### Template: Performance Improvement
 
@@ -708,33 +768,39 @@ Improves the performance of [feature/page/endpoint] by [approach].
 2. Verify the page loads in under 2 seconds
 3. Confirm all existing functionality still works
 4. Run the performance test suite: `npm run test:perf`
-```
+````
 
 ### Template: Dependency Update
 
 ```markdown
 ## Summary
+
 Updates [package] from v[X] to v[Y].
 
 ## Reason
+
 - Security patch for CVE-2024-XXXXX
 - Fixes a bug that was causing [issue]
 - Required for compatibility with [other package]
 
 ## Changes
+
 - Updated `package.json` and ran `npm install`
 - Updated breaking API usages in [files]
 - All existing tests pass
 
 ## Breaking Changes in [package] v[Y]
+
 - [List any breaking changes that affected our codebase]
 
 ## Testing Steps
+
 1. Delete `node_modules` and run `npm install`
 2. Run `npm test` -- all tests should pass
 3. Manually test [affected feature]
 
 ## Rollback
+
 If issues are found, revert this PR and pin the package to v[X].
 ```
 

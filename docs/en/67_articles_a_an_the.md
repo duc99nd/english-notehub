@@ -64,22 +64,27 @@ Omit the article with **uncountable nouns** used in a general sense, **plural no
 ## 4. Common Mistakes Vietnamese Developers Make
 
 ### ❌ Mistake 1: Adding "the" before general concepts
+
 - ❌ "**The** software development is challenging."
 - 🟢 "**Software** development is challenging."
 
 ### ❌ Mistake 2: Dropping "the" before specific items
+
 - ❌ "I will check **database** now."
 - 🟢 "I will check **the database** now."
 
 ### ❌ Mistake 3: Using "a" with uncountable nouns
+
 - ❌ "We received **a feedback** from the client."
 - 🟢 "We received **feedback** from the client." (or "**a piece of** feedback")
 
 ### ❌ Mistake 4: Forgetting "an" before vowel sounds
+
 - ❌ "There is **a** error in the log file."
 - 🟢 "There is **an** error in the log file."
 
 ### ❌ Mistake 5: Adding articles before proper nouns
+
 - ❌ "We deploy our code to **the** Vercel."
 - 🟢 "We deploy our code to **Vercel**."
 

@@ -9,53 +9,56 @@ When writing meeting minutes, explaining client decisions in Slack, or writing A
 Reporting verbs follow specific grammatical patterns. Using the wrong pattern after a verb is a frequent error.
 
 ### Pattern A: Verb + that + Clause (`Subject + Verb`)
+
 Use this to report facts, agreements, or statements directly.
 
-*   **10 Practical Examples:**
-    1.  **"The client confirmed that they want the dark mode option."**
-    2.  **"Huy pointed out that the staging server was misconfigured."**
-    3.  **"The team agreed that we should deprecate the legacy API."**
-    4.  **"The tester reported that the application crashed on tablet views."**
-    5.  **"The architect explained that the bottleneck is inside the SQL join logic."**
-    6.  **"DevOps announced that the migration would begin at midnight."**
-    7.  **"The logs reveal that the server ran out of memory."**
-    8.  **"The security audit concluded that our secrets were exposed."**
-    9.  **"Huy stated that he had completed the signup integration."**
-    10. **"The PO confirmed that the design was approved."**
+- **10 Practical Examples:**
+  1.  **"The client confirmed that they want the dark mode option."**
+  2.  **"Huy pointed out that the staging server was misconfigured."**
+  3.  **"The team agreed that we should deprecate the legacy API."**
+  4.  **"The tester reported that the application crashed on tablet views."**
+  5.  **"The architect explained that the bottleneck is inside the SQL join logic."**
+  6.  **"DevOps announced that the migration would begin at midnight."**
+  7.  **"The logs reveal that the server ran out of memory."**
+  8.  **"The security audit concluded that our secrets were exposed."**
+  9.  **"Huy stated that he had completed the signup integration."**
+  10. **"The PO confirmed that the design was approved."**
 
 ---
 
 ### Pattern B: Verb + Object (Someone) + to-V (`to + Verb`)
+
 Use this to report requests, demands, or instructions given to team members.
 
-*   **10 Practical Examples:**
-    1.  **"The client asked us to deliver the dashboard by Monday."**
-    2.  **"Huy reminded me to update the environment variables."**
-    3.  **"The DevOps lead advised the team to check container resources."**
-    4.  **"The manager instructed us to prioritize the security hotfix."**
-    5.  **"We requested the client to send the new API credentials."**
-    6.  **"The database admin warned the team not to run large queries on production."**
-    7.  **"I encouraged the junior dev to write unit tests first."**
-    8.  **"The lead architect invited the backend team to discuss the schema."**
-    9.  **"The client permitted us to use serverless instances."**
-    10. **"The QA lead requested the developers to deploy the fixes to staging."**
+- **10 Practical Examples:**
+  1.  **"The client asked us to deliver the dashboard by Monday."**
+  2.  **"Huy reminded me to update the environment variables."**
+  3.  **"The DevOps lead advised the team to check container resources."**
+  4.  **"The manager instructed us to prioritize the security hotfix."**
+  5.  **"We requested the client to send the new API credentials."**
+  6.  **"The database admin warned the team not to run large queries on production."**
+  7.  **"I encouraged the junior dev to write unit tests first."**
+  8.  **"The lead architect invited the backend team to discuss the schema."**
+  9.  **"The client permitted us to use serverless instances."**
+  10. **"The QA lead requested the developers to deploy the fixes to staging."**
 
 ---
 
 ### Pattern C: Verb + V-ing
+
 Use this for recommendations or proposals.
 
-*   **10 Practical Examples:**
-    1.  **"The security team recommended adding two-factor authentication."** (Not: *recommended to add*)
-    2.  **"I suggest upgrading our Node version next sprint."** (Not: *suggest to upgrade*)
-    3.  **"The architect proposed sharding the user table."**
-    4.  **"We should consider rewriting this legacy service in TypeScript."**
-    5.  **"The senior developer recommended using a composite index."**
-    6.  **"The QA lead suggested implementing automated E2E testing."**
-    7.  **"The team discussed migrating our codebase to Vite."**
-    8.  **"The DevOps lead recommended optimizing the Docker build layers."**
-    9.  **"The report suggested avoiding nested loops in the parsing logic."**
-    10. **"I proposed caching the homepage response to save database resources."**
+- **10 Practical Examples:**
+  1.  **"The security team recommended adding two-factor authentication."** (Not: _recommended to add_)
+  2.  **"I suggest upgrading our Node version next sprint."** (Not: _suggest to upgrade_)
+  3.  **"The architect proposed sharding the user table."**
+  4.  **"We should consider rewriting this legacy service in TypeScript."**
+  5.  **"The senior developer recommended using a composite index."**
+  6.  **"The QA lead suggested implementing automated E2E testing."**
+  7.  **"The team discussed migrating our codebase to Vite."**
+  8.  **"The DevOps lead recommended optimizing the Docker build layers."**
+  9.  **"The report suggested avoiding nested loops in the parsing logic."**
+  10. **"I proposed caching the homepage response to save database resources."**
 
 ---
 
@@ -82,9 +85,9 @@ In documentation, you can report decisions or findings neutrally without pointin
 
 Control the tone of your report by choosing verbs with different degrees of strength:
 
-- **Soft (Suggestions / Ideas):** *suggest, propose, recommend*
-- **Neutral (Neutral Reports):** *state, explain, report, confirm*
-- **Strong (Arguments / Demands):** *insist, claim, warn*
+- **Soft (Suggestions / Ideas):** _suggest, propose, recommend_
+- **Neutral (Neutral Reports):** _state, explain, report, confirm_
+- **Strong (Arguments / Demands):** _insist, claim, warn_
 
 ### 💡 10 Tone-Controlled Examples:
 
@@ -103,10 +106,10 @@ Control the tone of your report by choosing verbs with different degrees of stre
 
 ## 4. Summary Quick Reference
 
-| Action | Reporting Pattern | Example |
-| :--- | :--- | :--- |
-| Report client request | `ask someone to-V` | "The client **asked us to rewrite** this." |
-| Report team agreement | `agree that S + V` | "We **agreed that we need** caching." |
-| Report recommendation | `suggest V-ing` | "I **suggest sharding** the DB." |
-| Report incident/bug | `report that S + V` | "The QAs **reported that the page crashes**." |
-| Passive decision | `It was agreed that...` | "It **was agreed that** we would migrate." |
+| Action                | Reporting Pattern       | Example                                       |
+| :-------------------- | :---------------------- | :-------------------------------------------- |
+| Report client request | `ask someone to-V`      | "The client **asked us to rewrite** this."    |
+| Report team agreement | `agree that S + V`      | "We **agreed that we need** caching."         |
+| Report recommendation | `suggest V-ing`         | "I **suggest sharding** the DB."              |
+| Report incident/bug   | `report that S + V`     | "The QAs **reported that the page crashes**." |
+| Passive decision      | `It was agreed that...` | "It **was agreed that** we would migrate."    |

@@ -79,15 +79,18 @@ This is the most critical section. Every task must have a clear owner and a real
 Use these templates to share the minutes with the team via Slack/Teams or Email.
 
 ### Slack/Teams Template:
+
 > Hi team, thanks for the productive sync today. Here is a quick summary of our meeting:
+>
 > - **Key Decision:** We will use Stripe for the payment gateway.
 > - **Open Item:** API credentials still pending from client.
 > - **Action Items:**
 >   - @Duc: Update DB schema (`deadline: Friday`).
 >   - @Sarah: Set up the Stripe sandbox account (`deadline: Monday`).
-> Please let me know if I missed anything!
+>     Please let me know if I missed anything!
 
 ### Email Template:
+
 > Subject: Meeting Minutes: Weekly Sync - Oct 12, 2026
 >
 > Hi everyone,
@@ -95,14 +98,17 @@ Use these templates to share the minutes with the team via Slack/Teams or Email.
 > Thank you for attending today's weekly sync. Below is a summary of the key decisions and action items from our discussion:
 >
 > **Decisions Made:**
+>
 > - The QA phase is extended by 3 days.
 > - The new release date is set to October 22nd.
 >
 > **Open Items:**
+>
 > - Hosting region for EU cluster (pending DevOps benchmarks).
 > - Dark mode support for admin panel (pending client confirmation).
 >
 > **Action Items:**
+>
 > - Duc: Deploy the fix for the login bug to staging (Target date: Oct 14th).
 > - John: Provide the testing account credentials (Target date: Oct 15th).
 >
@@ -117,40 +123,40 @@ Use these templates to share the minutes with the team via Slack/Teams or Email.
 
 Use varied reporting verbs to avoid repetitive phrasing:
 
-| Action Type | Reporting Verbs | Example |
-| :--- | :--- | :--- |
-| **Agreement** | agreed, confirmed, approved, endorsed | "The team **agreed** to use microservices." |
-| **Decision** | decided, resolved, concluded, determined | "It was **decided** to delay the launch." |
-| **Proposal** | proposed, suggested, recommended | "Sarah **proposed** adding a caching layer." |
-| **Concern** | raised, flagged, highlighted, noted | "Duc **raised** a concern about test coverage." |
-| **Request** | requested, asked, urged | "The client **requested** weekly demos." |
-| **Information** | explained, clarified, demonstrated, shared | "Huy **explained** the database schema changes." |
-| **Rejection** | rejected, declined, dismissed | "The team **rejected** the flat-file approach." |
-| **Deferral** | deferred, postponed, tabled | "We **deferred** this discussion to next sprint." |
+| Action Type     | Reporting Verbs                            | Example                                           |
+| :-------------- | :----------------------------------------- | :------------------------------------------------ |
+| **Agreement**   | agreed, confirmed, approved, endorsed      | "The team **agreed** to use microservices."       |
+| **Decision**    | decided, resolved, concluded, determined   | "It was **decided** to delay the launch."         |
+| **Proposal**    | proposed, suggested, recommended           | "Sarah **proposed** adding a caching layer."      |
+| **Concern**     | raised, flagged, highlighted, noted        | "Duc **raised** a concern about test coverage."   |
+| **Request**     | requested, asked, urged                    | "The client **requested** weekly demos."          |
+| **Information** | explained, clarified, demonstrated, shared | "Huy **explained** the database schema changes."  |
+| **Rejection**   | rejected, declined, dismissed              | "The team **rejected** the flat-file approach."   |
+| **Deferral**    | deferred, postponed, tabled                | "We **deferred** this discussion to next sprint." |
 
 ---
 
 ## 7. Meeting Minutes Best Practices
 
-* **Write minutes within 2 hours of the meeting.** Details fade quickly.
-* **Use bullet points, not paragraphs.** Minutes should be scannable, not narrative.
-* **Bold the owner names and deadlines.** Make it easy to find who owes what.
-* **Include the "so what?"** Don't just write *"Discussed the payment flow."* Write *"Agreed to use Stripe for the payment flow due to lower fees."*
-* **Track completion status.** In the next meeting's minutes, reference the previous action items and mark them as Done, In Progress, or Blocked.
-* **Send to absent members.** Always CC or tag people who missed the meeting so they stay informed.
+- **Write minutes within 2 hours of the meeting.** Details fade quickly.
+- **Use bullet points, not paragraphs.** Minutes should be scannable, not narrative.
+- **Bold the owner names and deadlines.** Make it easy to find who owes what.
+- **Include the "so what?"** Don't just write _"Discussed the payment flow."_ Write _"Agreed to use Stripe for the payment flow due to lower fees."_
+- **Track completion status.** In the next meeting's minutes, reference the previous action items and mark them as Done, In Progress, or Blocked.
+- **Send to absent members.** Always CC or tag people who missed the meeting so they stay informed.
 
 ---
 
 ## 8. Common Mistakes to Avoid
 
-* **Writing a transcript instead of a summary:**
-  * Minutes are not a word-for-word recording. Capture decisions, not dialogue.
-* **Leaving action items without owners:**
-  * ❌ *"Someone needs to fix the staging database."*
-  * 🟢 *"**Duc** to fix the staging database migration by **Wednesday**."*
-* **Forgetting to distribute the minutes:**
-  * Minutes that sit in your drafts folder are useless. Send them within 2 hours.
-* **Not following up on previous action items:**
-  * Every meeting should start with a review of the last meeting's action items.
-* **Making minutes too long:**
-  * If your minutes exceed 1 page, they are too detailed. Summarize ruthlessly. Link to detailed documents instead of embedding them.
+- **Writing a transcript instead of a summary:**
+  - Minutes are not a word-for-word recording. Capture decisions, not dialogue.
+- **Leaving action items without owners:**
+  - ❌ _"Someone needs to fix the staging database."_
+  - 🟢 _"**Duc** to fix the staging database migration by **Wednesday**."_
+- **Forgetting to distribute the minutes:**
+  - Minutes that sit in your drafts folder are useless. Send them within 2 hours.
+- **Not following up on previous action items:**
+  - Every meeting should start with a review of the last meeting's action items.
+- **Making minutes too long:**
+  - If your minutes exceed 1 page, they are too detailed. Summarize ruthlessly. Link to detailed documents instead of embedding them.

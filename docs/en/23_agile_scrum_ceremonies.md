@@ -8,12 +8,12 @@ Scrum ceremonies (Sprint Planning, Daily Standup, Backlog Refinement, and Retros
 
 Avoid sounding like an Agile textbook. Keep your comments practical and human.
 
-| ❌ Academic / Too Formal (Avoid) | 🟢 Daily & Conversational (Use instead) |
-| :--- | :--- |
+| ❌ Academic / Too Formal (Avoid)                                                                   | 🟢 Daily & Conversational (Use instead)                               |
+| :------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------- |
 | "We need to perform a collaborative refinement session on our backlog to adjust priority vectors." | "Let's review the backlog and prioritize the most important tickets." |
-| "I recommend we initiate a spike task to research this technical complexity." | "Let's create a spike to research this first." |
-| "Our capacity bounds prevent us from committing to this scope of deliverables." | "We don't have enough capacity to take on this task this sprint." |
-| "We experienced significant scope modifications midway through our iteration." | "We had some scope creep in the middle of the sprint." |
+| "I recommend we initiate a spike task to research this technical complexity."                      | "Let's create a spike to research this first."                        |
+| "Our capacity bounds prevent us from committing to this scope of deliverables."                    | "We don't have enough capacity to take on this task this sprint."     |
+| "We experienced significant scope modifications midway through our iteration."                     | "We had some scope creep in the middle of the sprint."                |
 
 ---
 
@@ -33,18 +33,20 @@ Avoid sounding like an Agile textbook. Keep your comments practical and human.
 In Sprint Retrospectives, instead of pointing fingers or speaking vaguely, use this simple 3-part framework to suggest improvements:
 
 1.  **Start:** What should the team start doing?
-    *   *"We should **start** writing unit tests for our core helpers."*
+    - _"We should **start** writing unit tests for our core helpers."_
 2.  **Stop:** What should the team stop doing?
-    *   *"We should **stop** adding new tasks to the sprint without the PM's approval."*
+    - _"We should **stop** adding new tasks to the sprint without the PM's approval."_
 3.  **Keep:** What should the team keep doing?
-    *   *"We should **keep** doing short code review sessions in the morning."*
+    - _"We should **keep** doing short code review sessions in the morning."_
 
 ---
 
 ## 4. Fill-in-the-blank Templates
 
 ### Template A: Clarifying Acceptance Criteria (Planning/Refinement)
+
 Use this when a Jira ticket doesn't have clear instructions.
+
 > "Hi **[Product Owner Name]**,
 >
 > I'm looking at ticket **[Ticket number, e.g., T-123]** for the **[feature, e.g., user profile page]**.
@@ -54,7 +56,9 @@ Use this when a Jira ticket doesn't have clear instructions.
 > I want to make sure we are on the same page before estimating it."
 
 ### Template B: Proposing a Spike (When a task has too many unknowns)
+
 Use this when you are asked to estimate a very complex or new task.
+
 > "I think **[ticket name/number]** has too many unknowns right now. We don't know if **[technical blocker, e.g., the library supports OAuth2]**.
 >
 > Instead of pointing it now, I suggest we create a **[Time, e.g., 1-day / 2-day]** **spike** to research the integration.

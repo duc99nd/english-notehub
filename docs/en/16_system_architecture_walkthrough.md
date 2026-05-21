@@ -8,12 +8,12 @@ Explaining how your code and servers interact is a vital skill. Whether you are 
 
 Avoid speaking like an academic textbook. Keep it friendly and clear.
 
-| ❌ Academic / Too Formal (Avoid) | 🟢 Daily & Conversational (Use instead) |
-| :--- | :--- |
-| "The architectural topology consists of distributed microservices communicating asynchronously via a message queuing broker." | "We use microservices that talk to each other through a message queue." |
-| "This integration is realized utilizing webhook mechanisms to synchronize transaction states." | "We use webhooks to sync transaction updates from Stripe." |
-| "Our server deployment exhibits auto-scaling properties triggered by CPU utilization thresholds." | "We automatically spin up new servers if the CPU usage gets too high." |
-| "The database repository replicates data synchronously to secondary availability zones to guarantee failover capabilities." | "We copy our database to another zone so if one crashes, the other takes over immediately." |
+| ❌ Academic / Too Formal (Avoid)                                                                                              | 🟢 Daily & Conversational (Use instead)                                                     |
+| :---------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------ |
+| "The architectural topology consists of distributed microservices communicating asynchronously via a message queuing broker." | "We use microservices that talk to each other through a message queue."                     |
+| "This integration is realized utilizing webhook mechanisms to synchronize transaction states."                                | "We use webhooks to sync transaction updates from Stripe."                                  |
+| "Our server deployment exhibits auto-scaling properties triggered by CPU utilization thresholds."                             | "We automatically spin up new servers if the CPU usage gets too high."                      |
+| "The database repository replicates data synchronously to secondary availability zones to guarantee failover capabilities."   | "We copy our database to another zone so if one crashes, the other takes over immediately." |
 
 ---
 
@@ -33,11 +33,12 @@ Avoid speaking like an academic textbook. Keep it friendly and clear.
 
 When explaining a data flow or how a user request travels through your system, guide the listener step-by-step:
 
-1.  **Start:** *"First, the user does [Action] which triggers a request to [Component]..."*
-2.  **Middle:** *"Next, this component talks to [Service] to validate/save data..."*
-3.  **End:** *"Finally, the data is saved in [Database] and the user receives a success response."*
+1.  **Start:** _"First, the user does [Action] which triggers a request to [Component]..."_
+2.  **Middle:** _"Next, this component talks to [Service] to validate/save data..."_
+3.  **End:** _"Finally, the data is saved in [Database] and the user receives a success response."_
 
 ### 💡 Example:
+
 > "First, the user clicks checkout, and the request hits our API Gateway. Next, the gateway validates the user's token and forwards the request to the Order Service. Finally, the Order Service saves the order to PostgreSQL and sends a notification email to the user."
 
 ---
@@ -45,7 +46,9 @@ When explaining a data flow or how a user request travels through your system, g
 ## 4. Fill-in-the-blank Templates
 
 ### Template A: High-level System Summary
+
 Use this when introducing your system to a new colleague.
+
 > "At a high level, our project is built using a **[Architecture type, e.g., monolithic / microservices]** architecture.
 >
 > The frontend is **[Frontend tech, e.g., React / Vue]**, which talks to our backend built with **[Backend tech, e.g., Node.js / Laravel]**.
@@ -53,7 +56,9 @@ Use this when introducing your system to a new colleague.
 > Everything is hosted on **[Cloud provider, e.g., AWS / Google Cloud]**, and we use **[Database, e.g., PostgreSQL / MongoDB]** to store our data."
 
 ### Template B: Explaining a Failover / Backup Plan (Security/Reliability)
+
 Use this to reassure clients or managers.
+
 > "To prevent data loss, we have set up a **[backup system, e.g., database replica / daily automatic backups]**.
 >
 > If the primary **[component, e.g., database server]** goes down, the system will **[action, e.g., automatically fail over to the backup replica]**.

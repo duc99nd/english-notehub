@@ -8,12 +8,12 @@ Các buổi họp Scrum (Sprint Planning, Daily Standup, Backlog Refinement, và
 
 Tránh nói như đọc sách lý thuyết Agile. Hãy dùng các câu nói thực tế và tự nhiên.
 
-| ❌ Học thuật / Quá trang trọng (Nên tránh) | 🟢 Daily & Giao tiếp (Nên dùng) |
-| :--- | :--- |
-| "We need to perform a collaborative refinement session on our backlog to adjust priority vectors." | "Let's review the backlog and prioritize the most important tickets." *(Hãy rà soát lại backlog và ưu tiên các ticket quan trọng nhất.)* |
-| "I recommend we initiate a spike task to research this technical complexity." | "Let's create a spike to research this first." *(Tạo một task spike để nghiên cứu cái này trước nhé.)* |
-| "Our capacity bounds prevent us from committing to this scope of deliverables." | "We don't have enough capacity to take on this task this sprint." *(Sprint này team mình không đủ capacity để nhận thêm task này.)* |
-| "We experienced significant scope modifications midway through our iteration." | "We had some scope creep in the middle of the sprint." *(Chúng ta bị thay đổi yêu cầu phát sinh ở giữa sprint.)* |
+| ❌ Học thuật / Quá trang trọng (Nên tránh)                                                         | 🟢 Daily & Giao tiếp (Nên dùng)                                                                                                          |
+| :------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------- |
+| "We need to perform a collaborative refinement session on our backlog to adjust priority vectors." | "Let's review the backlog and prioritize the most important tickets." _(Hãy rà soát lại backlog và ưu tiên các ticket quan trọng nhất.)_ |
+| "I recommend we initiate a spike task to research this technical complexity."                      | "Let's create a spike to research this first." _(Tạo một task spike để nghiên cứu cái này trước nhé.)_                                   |
+| "Our capacity bounds prevent us from committing to this scope of deliverables."                    | "We don't have enough capacity to take on this task this sprint." _(Sprint này team mình không đủ capacity để nhận thêm task này.)_      |
+| "We experienced significant scope modifications midway through our iteration."                     | "We had some scope creep in the middle of the sprint." _(Chúng ta bị thay đổi yêu cầu phát sinh ở giữa sprint.)_                         |
 
 ---
 
@@ -33,18 +33,20 @@ Tránh nói như đọc sách lý thuyết Agile. Hãy dùng các câu nói th�
 Trong buổi họp Retrospective (rút kinh nghiệm cuối sprint), thay vì đổ lỗi hoặc nói chung chung, hãy dùng công thức 3 phần đơn giản này để đưa ra đề xuất cải tiến:
 
 1.  **Start (Bắt đầu làm gì):** Team nên bắt đầu thực hiện hành động gì mới?
-    *   *"We should **start** writing unit tests for our core helpers."* (Chúng ta nên bắt đầu viết unit test cho các hàm helper cốt lõi.)
+    - _"We should **start** writing unit tests for our core helpers."_ (Chúng ta nên bắt đầu viết unit test cho các hàm helper cốt lõi.)
 2.  **Stop (Ngừng làm gì):** Team nên ngừng làm việc gì đang gây ảnh hưởng xấu?
-    *   *"We should **stop** adding new tasks to the sprint without the PM's approval."* (Chúng ta nên ngừng tự ý thêm task vào sprint mà không có sự duyệt của PM.)
+    - _"We should **stop** adding new tasks to the sprint without the PM's approval."_ (Chúng ta nên ngừng tự ý thêm task vào sprint mà không có sự duyệt của PM.)
 3.  **Keep (Duy trì làm gì):** Việc gì tốt đang làm và nên duy trì tiếp tục?
-    *   *"We should **keep** doing short code review sessions in the morning."* (Chúng ta nên duy trì việc review code nhanh vào mỗi buổi sáng.)
+    - _"We should **keep** doing short code review sessions in the morning."_ (Chúng ta nên duy trì việc review code nhanh vào mỗi buổi sáng.)
 
 ---
 
 ## 4. Mẫu câu điền vào chỗ trống (Templates)
 
 ### Mẫu A: Hỏi rõ về Acceptance Criteria (Khi họp Planning/Refinement)
+
 Dùng khi mô tả trên Jira quá sơ sài hoặc khó hiểu.
+
 > "Hi **[Tên Product Owner]**,
 >
 > I'm looking at ticket **[Mã ticket, ví dụ: T-123]** for the **[tên tính năng, ví dụ: user profile page]**.
@@ -54,7 +56,9 @@ Dùng khi mô tả trên Jira quá sơ sài hoặc khó hiểu.
 > I want to make sure we are on the same page before estimating it."
 
 ### Mẫu B: Đề xuất làm task Spike (Nghiên cứu trước, làm sau)
+
 Dùng khi task quá mơ hồ hoặc dùng công nghệ mới tinh mà bạn chưa chắc chắn cách làm.
+
 > "I think **[tên/mã ticket]** has too many unknowns right now. We don't know if **[vấn đề chưa rõ, ví dụ: the library supports OAuth2]**.
 >
 > Instead of pointing it now, I suggest we create a **[số ngày, ví dụ: 1-day / 2-day]** **spike** to research the integration.
@@ -68,19 +72,19 @@ Dùng khi task quá mơ hồ hoặc dùng công nghệ mới tinh mà bạn chư
 Đoạn hội thoại tự nhiên giữa **Đức (Product Owner - PO)**, **Huy (Frontend Dev)**, và **Linh (Backend Dev)** khi đang thảo luận về độ khó của ticket Checkout.
 
 > **Duc (PO):** "Alright, let's look at the checkout integration ticket. It's currently unpointed. Huy, what do you think?"
-> *(Được rồi, chúng ta cùng xem ticket tích hợp thanh toán (checkout). Hiện tại nó chưa được chấm điểm. Huy nghĩ sao?)*
+> _(Được rồi, chúng ta cùng xem ticket tích hợp thanh toán (checkout). Hiện tại nó chưa được chấm điểm. Huy nghĩ sao?)_
 >
 > **Huy (Frontend):** "I looked at the requirements. The UI is simple, but the acceptance criteria say we need to support three different local payment wallets. That makes it much larger."
-> *(Em xem qua yêu cầu rồi. Giao diện thì đơn giản, nhưng tiêu chí nghiệm thu yêu cầu hỗ trợ tới 3 ví điện tử địa phương khác nhau. Như thế thì task lớn hơn nhiều đấy.)*
+> _(Em xem qua yêu cầu rồi. Giao diện thì đơn giản, nhưng tiêu chí nghiệm thu yêu cầu hỗ trợ tới 3 ví điện tử địa phương khác nhau. Như thế thì task lớn hơn nhiều đấy.)_
 >
 > **Linh (Backend):** "From the backend side, we haven't integrated with those wallet APIs before. There are a lot of unknowns regarding their webhook responses."
-> *(Về phía backend thì tụi em chưa từng tích hợp với API của các ví đó bao giờ. Có rất nhiều điểm chưa rõ về phản hồi webhook từ phía họ.)*
+> _(Về phía backend thì tụi em chưa từng tích hợp với API của các ví đó bao giờ. Có rất nhiều điểm chưa rõ về phản hồi webhook từ phía họ.)_
 >
 > **Huy (Frontend):** "Agreed. I don't think we can estimate this accurately yet. Can we create a spike first? Linh can research the wallet APIs, and I can design the payment UI state."
-> *(Đồng ý. Em nghĩ lúc này chưa thể estimate chính xác được. Chúng ta tạo một spike trước được không? Linh sẽ nghiên cứu API của các ví, còn em thiết kế giao diện UI payment.)*
+> _(Đồng ý. Em nghĩ lúc này chưa thể estimate chính xác được. Chúng ta tạo một spike trước được không? Linh sẽ nghiên cứu API của các ví, còn em thiết kế giao diện UI payment.)_
 >
 > **Duc (PO):** "That makes sense. Let's split this user story. I'll create a 3-point spike for this sprint, and we will pull the actual implementation into the next sprint."
-> *(Hợp lý đấy. Vậy mình chia nhỏ user story này ra nhé. Tôi sẽ tạo một task spike 3 điểm cho sprint này, và sẽ đưa phần code thực tế sang sprint sau.)*
+> _(Hợp lý đấy. Vậy mình chia nhỏ user story này ra nhé. Tôi sẽ tạo một task spike 3 điểm cho sprint này, và sẽ đưa phần code thực tế sang sprint sau.)_
 >
 > **Linh (Backend):** "Awesome. That works for me. I'll start the research as soon as the sprint begins."
-> *(Tuyệt vời. Phương án đó ổn với em. Em sẽ bắt đầu nghiên cứu ngay khi sprint bắt đầu.)*
+> _(Tuyệt vời. Phương án đó ổn với em. Em sẽ bắt đầu nghiên cứu ngay khi sprint bắt đầu.)_

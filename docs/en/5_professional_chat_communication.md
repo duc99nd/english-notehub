@@ -8,13 +8,13 @@ Effective communication on Slack, Microsoft Teams, or Discord is critical for re
 
 Do not write long, formal paragraphs in chat. Keep it casual but professional.
 
-| ❌ Academic / Too Formal (Avoid in Chat) | 🟢 Daily & Conversational (Use instead) |
-| :--- | :--- |
-| "Dear John, I am writing to inquire if you possess the availability to inspect this bug." | "Hey John, do you have a quick second to look at this bug?" |
-| "Please accept my apologies for the delayed response." | "Sorry for the late reply!" / "Sorry, just seeing this now." |
-| "I have successfully resolved the issue and request your review." | "Just fixed the bug! Let me know if it looks good." |
-| "I am currently unavailable due to my lunch hour." | "Heading out for lunch, back in 30 mins! 🍔" |
-| "Could you kindly provide the documentations?" | "Can you send me the link to the docs?" |
+| ❌ Academic / Too Formal (Avoid in Chat)                                                  | 🟢 Daily & Conversational (Use instead)                      |
+| :---------------------------------------------------------------------------------------- | :----------------------------------------------------------- |
+| "Dear John, I am writing to inquire if you possess the availability to inspect this bug." | "Hey John, do you have a quick second to look at this bug?"  |
+| "Please accept my apologies for the delayed response."                                    | "Sorry for the late reply!" / "Sorry, just seeing this now." |
+| "I have successfully resolved the issue and request your review."                         | "Just fixed the bug! Let me know if it looks good."          |
+| "I am currently unavailable due to my lunch hour."                                        | "Heading out for lunch, back in 30 mins! 🍔"                 |
+| "Could you kindly provide the documentations?"                                            | "Can you send me the link to the docs?"                      |
 
 ---
 
@@ -22,12 +22,12 @@ Do not write long, formal paragraphs in chat. Keep it casual but professional.
 
 Busy developers hate receiving a single "Hi" or "Hello" message followed by silence. Always state your request in the first message.
 
-*   **❌ Bad (Waste of time):**
-    *   *You:* "Hi Duc." (Waits 10 minutes)
-    *   *Duc:* "Hey! What's up?"
-    *   *You:* "I need the API keys."
-*   **🟢 Good (Saves time):**
-    *   *You:* "Hi Duc, hope you're having a good day. Could you send me the API keys for the staging environment when you have a chance? Thanks!"
+- **❌ Bad (Waste of time):**
+  - _You:_ "Hi Duc." (Waits 10 minutes)
+  - _Duc:_ "Hey! What's up?"
+  - _You:_ "I need the API keys."
+- **🟢 Good (Saves time):**
+  - _You:_ "Hi Duc, hope you're having a good day. Could you send me the API keys for the staging environment when you have a chance? Thanks!"
 
 ---
 
@@ -36,12 +36,15 @@ Busy developers hate receiving a single "Hi" or "Hello" message followed by sile
 Use these simple formulas when you need help with a bug or a task.
 
 ### Simple bug-help formula:
+
 > "Hey **[Name]**, I'm getting a **[error code, e.g., 500 error]** on the **[page/component, e.g., login page]**. Have you run into this before? Here is a screenshot of the error."
 
 ### Simple code-review ping:
+
 > "Hi team, could someone take a look at my PR when you get a chance? It's for the **[feature, e.g., payment integration]**. Thanks! **[link to PR]**"
 
 ### Asking for quick alignment:
+
 > "Hey **[Name]**, are we still on track for the deployment today?"
 
 ---

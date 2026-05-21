@@ -226,6 +226,7 @@ Frame your request around impact and outcomes, not personal need.
 Giving feedback to your manager can feel uncomfortable, especially in Vietnamese work culture where hierarchy is respected. However, most managers genuinely want to improve and appreciate thoughtful feedback.
 
 Rules:
+
 - Be specific, not vague
 - Focus on behavior, not personality
 - Use "I" statements instead of "You" statements

@@ -6,8 +6,8 @@ Transitions and conjunctions are essential for joining ideas together logically.
 
 ## 1. Conjunctions vs. Transition Words
 
-- **Conjunctions (Liên từ):** Words like *but*, *so*, *and*, *or*. They connect two clauses **inside a single sentence**. They are usually preceded by a comma.
-- **Transition Words (Từ nối chuyển tiếp):** Words like *however*, *therefore*, *moreover*, *furthermore*. They connect **two separate sentences** and are always followed by a comma.
+- **Conjunctions (Liên từ):** Words like _but_, _so_, _and_, _or_. They connect two clauses **inside a single sentence**. They are usually preceded by a comma.
+- **Transition Words (Từ nối chuyển tiếp):** Words like _however_, _therefore_, _moreover_, _furthermore_. They connect **two separate sentences** and are always followed by a comma.
 
 ---
 
@@ -17,7 +17,7 @@ Transitions and conjunctions are essential for joining ideas together logically.
   - 🟢 **"The query is fast, but it uses too much memory."**
 - **however:** Starts a new sentence. Put a period before it and a comma after it.
   - 🟢 **"The query is fast. However, it uses too much memory."**
-  - ❌ *Wrong:* "The query is fast, however, it uses too much memory." (This is a run-on sentence error).
+  - ❌ _Wrong:_ "The query is fast, however, it uses too much memory." (This is a run-on sentence error).
 
 ### 💡 10 Practical Examples:
 
@@ -61,11 +61,11 @@ Transitions and conjunctions are essential for joining ideas together logically.
 
 - **because:** Must be followed by a full clause (`Subject + Verb`).
   - 🟢 **"We had a delay because the API credentials expired."**
-  - ❌ *Wrong:* "We had a delay because of the API credentials expired."
+  - ❌ _Wrong:_ "We had a delay because of the API credentials expired."
 - **due to / because of:** Must be followed by a Noun Phrase or V-ing.
   - 🟢 **"We had a delay due to the expired API credentials."**
   - 🟢 **"We had a delay because of the expired API credentials."**
-  - ❌ *Wrong:* "We had a delay due to the API credentials expired."
+  - ❌ _Wrong:_ "We had a delay due to the API credentials expired."
 
 ### 💡 10 Practical Examples:
 
@@ -84,9 +84,9 @@ Transitions and conjunctions are essential for joining ideas together logically.
 
 ## 5. Quick Connector Summary
 
-| Relationship | Conjunction (Use inside one sentence) | Transition (Start a new sentence) | Cause/Effect (Uses Nouns) |
-| :--- | :--- | :--- | :--- |
-| **Contrast (Đối lập)** | `, but` | `. However,` | `Despite / In spite of` |
-| **Result (Kết quả)** | `, so` | `. Therefore,` / `. As a result,` | |
-| **Cause (Nguyên nhân)** | `because` / `since` / `as` | | `due to` / `because of` |
-| **Addition (Thêm ý)** | `, and` | `. Also,` / `. In addition,` | |
+| Relationship            | Conjunction (Use inside one sentence) | Transition (Start a new sentence) | Cause/Effect (Uses Nouns) |
+| :---------------------- | :------------------------------------ | :-------------------------------- | :------------------------ |
+| **Contrast (Đối lập)**  | `, but`                               | `. However,`                      | `Despite / In spite of`   |
+| **Result (Kết quả)**    | `, so`                                | `. Therefore,` / `. As a result,` |                           |
+| **Cause (Nguyên nhân)** | `because` / `since` / `as`            |                                   | `due to` / `because of`   |
+| **Addition (Thêm ý)**   | `, and`                               | `. Also,` / `. In addition,`      |                           |

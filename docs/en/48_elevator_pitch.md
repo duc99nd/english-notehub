@@ -3,6 +3,7 @@
 ## Introduce yourself confidently and memorably in 30-60 seconds
 
 > **Purpose of this document**
+>
 > - Learn what an elevator pitch is and when to use it in professional settings
 > - Master the 3-part structure for a compelling self-introduction
 > - Practice with ready-to-use templates tailored for software engineers
@@ -273,37 +274,44 @@ The extended pitch adds achievements, context, and aspirations to your core intr
 
 Complete this pitch with your own information:
 
-> "Hi, I'm ____________. I'm a ____________ with ____________ years of experience. I currently work at ____________, where I ____________. One thing I'm proud of is ____________. I'm particularly interested in ____________, and I'm always happy to connect with people who share that passion."
+> "Hi, I'm ****\_\_\_\_****. I'm a ****\_\_\_\_**** with ****\_\_\_\_**** years of experience. I currently work at ****\_\_\_\_****, where I ****\_\_\_\_****. One thing I'm proud of is ****\_\_\_\_****. I'm particularly interested in ****\_\_\_\_****, and I'm always happy to connect with people who share that passion."
 
 Practice variations:
-- "In my current role, I focus on ____________."
-- "My biggest professional achievement so far is ____________."
-- "What excites me most about my field is ____________."
-- "I'm looking to ____________ in the next stage of my career."
+
+- "In my current role, I focus on ****\_\_\_\_****."
+- "My biggest professional achievement so far is ****\_\_\_\_****."
+- "What excites me most about my field is ****\_\_\_\_****."
+- "I'm looking to ****\_\_\_\_**** in the next stage of my career."
 
 ## Common Mistakes to Avoid
 
 **Mistake 1: Too vague**
+
 - Wrong: "I work in tech."
 - Better: "I build mobile apps for healthcare companies."
 
 **Mistake 2: Too long**
+
 - Wrong: A five-minute monologue about your entire career history.
 - Better: A focused 30-second summary with one memorable detail.
 
 **Mistake 3: Too humble**
+
 - Wrong: "I'm just a developer. Nothing special."
 - Better: "I'm a developer who builds tools used by 50,000 people daily."
 
 **Mistake 4: Too technical for non-technical listeners**
+
 - Wrong: "I implement SSR with hydration using a custom webpack config."
 - Better: "I make websites load faster so users have a better experience."
 
 **Mistake 5: No conversation hook**
+
 - Wrong: "I'm a developer. Nice to meet you." (ends abruptly)
 - Better: "I'm a developer working on AI-powered chatbots. Have you used any AI tools recently?"
 
 **Mistake 6: Memorized and robotic**
+
 - Wrong: Speaking in a monotone, staring into space.
 - Better: Making eye contact, smiling, and adapting your words to the situation.
 
