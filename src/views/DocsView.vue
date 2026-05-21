@@ -82,6 +82,42 @@ const filteredDocs = computed(() => {
 
 const filteredDocsCount = computed(() => filteredDocs.value.length)
 
+const expandedCategories = ref<Record<string, boolean>>({})
+
+const toggleCategory = (category: string) => {
+  expandedCategories.value[category] = !expandedCategories.value[category]
+}
+
+watch(
+  [activeDoc, currentLocale],
+  ([newDoc]) => {
+    if (newDoc) {
+      const activeCat = currentLocale.value === 'vi'
+        ? (newDoc.categoryVi || 'Khác')
+        : (newDoc.categoryEn || 'Other')
+      expandedCategories.value[activeCat] = true
+    }
+  },
+  { immediate: true }
+)
+
+const groupedDocs = computed(() => {
+  const groups = new Map<string, DocSummary[]>()
+  for (const doc of filteredDocs.value) {
+    const cat = currentLocale.value === 'vi' 
+      ? (doc.categoryVi || 'Khác') 
+      : (doc.categoryEn || 'Other')
+    if (!groups.has(cat)) {
+      groups.set(cat, [])
+    }
+    groups.get(cat)!.push(doc)
+  }
+  return Array.from(groups.entries()).map(([category, items]) => ({
+    category,
+    items
+  }))
+})
+
 const activeSlug = computed(() => {
   const routeSlug = route.params.slug
   if (typeof routeSlug === 'string') {
@@ -531,55 +567,73 @@ function scrollToTop(): void {
             class="docs-scroll min-h-0 flex-1 overflow-y-auto px-3 pb-6 pt-3"
             :aria-label="t('nav.documents')"
           >
-            <RouterLink
-              v-for="doc in filteredDocs"
-              :key="doc.slug"
-              :to="{ name: 'docs', params: { slug: doc.slug } }"
-              class="group block rounded-[1.4rem] border p-4 text-left transition-[transform,border-color,background-color,box-shadow] duration-200"
-              :class="
-                activeSlug === doc.slug
-                  ? 'border-primary/30 bg-primary/10 shadow-[0_18px_36px_rgba(255,107,75,0.08)]'
-                  : 'border-border bg-card hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-[0_8px_24px_rgba(59,130,246,0.10)]'
-              "
-              :aria-current="activeSlug === doc.slug ? 'page' : undefined"
-              @click="closePanels"
-            >
-              <div class="flex items-start gap-3">
-                <span
-                  class="flex size-10 shrink-0 items-center justify-center rounded-full border text-[0.72rem] font-semibold tracking-[0.18em] tabular-nums"
+            <div v-for="group in groupedDocs" :key="group.category" class="space-y-2">
+              <button
+                type="button"
+                @click="toggleCategory(group.category)"
+                class="flex w-full items-center justify-between rounded-xl px-2 py-1.5 text-left text-[0.7rem] font-bold uppercase tracking-wider text-muted-foreground/70 hover:bg-foreground/5 hover:text-foreground transition-all duration-200"
+              >
+                <span class="flex items-center gap-2">
+                  <ListTree class="size-3.5 text-primary/70" />
+                  <span>{{ group.category }}</span>
+                </span>
+                <span class="text-xs transition-transform duration-200" :class="{ 'rotate-180': !expandedCategories[group.category] }">
+                  <ChevronUp class="size-3" />
+                </span>
+              </button>
+
+              <div v-show="searchQuery || expandedCategories[group.category]" class="space-y-3">
+                <RouterLink
+                  v-for="doc in group.items"
+                  :key="doc.slug"
+                  :to="{ name: 'docs', params: { slug: doc.slug } }"
+                  class="group block rounded-[1.4rem] border p-4 text-left transition-[transform,border-color,background-color,box-shadow] duration-200"
                   :class="
                     activeSlug === doc.slug
-                      ? 'border-primary/30 bg-primary/20 text-primary'
-                      : 'border-foreground/10 bg-background/80 text-muted-foreground'
+                      ? 'border-primary/30 bg-primary/10 shadow-[0_18px_36px_rgba(255,107,75,0.08)]'
+                      : 'border-border bg-card hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-[0_8px_24px_rgba(59,130,246,0.10)]'
                   "
+                  :aria-current="activeSlug === doc.slug ? 'page' : undefined"
+                  @click="closePanels"
                 >
-                  {{ docOrderLabel(doc.slug) }}
-                </span>
-
-                <div class="min-w-0 flex-1">
-                  <div class="flex items-start justify-between gap-3">
-                    <p
-                      class="line-clamp-2 text-sm font-semibold tracking-[-0.02em] text-foreground"
+                  <div class="flex items-start gap-3">
+                    <span
+                      class="flex size-10 shrink-0 items-center justify-center rounded-full border text-[0.72rem] font-semibold tracking-[0.18em] tabular-nums"
+                      :class="
+                        activeSlug === doc.slug
+                          ? 'border-primary/30 bg-primary/20 text-primary'
+                          : 'border-foreground/10 bg-background/80 text-muted-foreground'
+                      "
                     >
-                      {{ docTitle(doc) }}
-                    </p>
-                    <Badge variant="outline" class="shrink-0 tabular-nums">
-                      {{ docSectionCount(doc.slug) }}
-                    </Badge>
+                      {{ docOrderLabel(doc.slug) }}
+                    </span>
+
+                    <div class="min-w-0 flex-1">
+                      <div class="flex items-start justify-between gap-3">
+                        <p
+                          class="line-clamp-2 text-sm font-semibold tracking-[-0.02em] text-foreground"
+                        >
+                          {{ docTitle(doc) }}
+                        </p>
+                        <Badge variant="outline" class="shrink-0 tabular-nums">
+                          {{ docSectionCount(doc.slug) }}
+                        </Badge>
+                      </div>
+                      <p class="mt-2 line-clamp-2 text-xs leading-5 text-muted-foreground">
+                        {{ docSubtitle(doc) }}
+                      </p>
+                    </div>
                   </div>
-                  <p class="mt-2 line-clamp-2 text-xs leading-5 text-muted-foreground">
-                    {{ docSubtitle(doc) }}
-                  </p>
-                </div>
+                </RouterLink>
               </div>
-            </RouterLink>
+            </div>
           </nav>
         </div>
       </aside>
 
       <section class="min-w-0 space-y-6">
         <section
-          class="surface-panel-dark relative overflow-hidden rounded-[2rem] px-5 py-5 text-white sm:px-6 sm:py-6"
+          class="surface-panel relative overflow-hidden rounded-[2rem] px-5 py-5 sm:px-6 sm:py-6"
         >
           <div
             class="absolute -right-10 top-[-20px] h-40 w-40 rounded-full bg-primary/20 blur-3xl"
@@ -590,14 +644,25 @@ function scrollToTop(): void {
 
           <div class="relative flex flex-col gap-8 xl:flex-row xl:items-end xl:justify-between">
             <div class="max-w-3xl">
-              <div
-                class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-1.5"
-              >
-                <Sparkles class="size-4 text-primary" aria-hidden="true" />
-                <span class="notehub-label text-white/70">{{ t('labels.bilingualMode') }}</span>
+              <div class="flex flex-wrap items-center gap-2.5">
+                <div
+                  class="inline-flex items-center gap-2 rounded-full border border-foreground/10 bg-foreground/5 px-4 py-1.5"
+                >
+                  <Sparkles class="size-4 text-primary" aria-hidden="true" />
+                  <span class="notehub-label text-muted-foreground">{{ t('labels.bilingualMode') }}</span>
+                </div>
+
+                <div
+                  v-if="activeDoc"
+                  class="inline-flex items-center gap-2 rounded-full border border-primary/30 bg-primary/20 px-4 py-1.5"
+                >
+                  <span class="notehub-label text-primary font-bold uppercase tracking-wider text-[0.65rem]">
+                    {{ currentLocale === 'vi' ? activeDoc.categoryVi : activeDoc.categoryEn }}
+                  </span>
+                </div>
               </div>
 
-              <p class="mt-5 notehub-label text-white/40">
+              <p class="mt-5 notehub-label text-muted-foreground/60">
                 {{
                   activeDoc
                     ? `Doc ${docOrderLabel(activeDoc.slug)} / ${formatCount(totalDocs)}`
@@ -605,33 +670,33 @@ function scrollToTop(): void {
                 }}
               </p>
               <h1
-                class="mt-3 max-w-3xl text-2xl font-semibold tracking-[-0.04em] text-white sm:text-3xl lg:text-4xl"
+                class="mt-3 max-w-3xl text-2xl font-semibold tracking-[-0.04em] text-foreground sm:text-3xl lg:text-4xl"
               >
                 {{ activeDoc ? docTitle(activeDoc) : t('app.name') }}
               </h1>
-              <p class="mt-4 max-w-2xl text-base leading-8 text-white/70 sm:text-lg">
+              <p class="mt-4 max-w-2xl text-base leading-8 text-muted-foreground sm:text-lg">
                 {{ activeDoc ? docSubtitle(activeDoc) : t('app.subtitle') }}
               </p>
             </div>
 
             <div class="grid gap-2 sm:grid-cols-3 xl:min-w-[360px]">
-              <div class="rounded-[1.35rem] border border-white/10 bg-white/5 p-3">
-                <p class="notehub-label text-white/50">{{ t('labels.totalDocs') }}</p>
-                <p class="mt-3 text-3xl font-semibold tracking-[-0.05em] tabular-nums text-white">
+              <div class="rounded-[1.35rem] border border-foreground/10 bg-foreground/5 p-3">
+                <p class="notehub-label text-muted-foreground/80">{{ t('labels.totalDocs') }}</p>
+                <p class="mt-3 text-3xl font-semibold tracking-[-0.05em] tabular-nums text-foreground">
                   {{ formatCount(totalDocs) }}
                 </p>
               </div>
 
-              <div class="rounded-[1.35rem] border border-white/10 bg-white/5 p-3">
-                <p class="notehub-label text-white/50">{{ t('labels.totalSections') }}</p>
-                <p class="mt-3 text-3xl font-semibold tracking-[-0.05em] tabular-nums text-white">
+              <div class="rounded-[1.35rem] border border-foreground/10 bg-foreground/5 p-3">
+                <p class="notehub-label text-muted-foreground/80">{{ t('labels.totalSections') }}</p>
+                <p class="mt-3 text-3xl font-semibold tracking-[-0.05em] tabular-nums text-foreground">
                   {{ formatCount(totalSectionCount) }}
                 </p>
               </div>
 
-              <div class="rounded-[1.35rem] border border-white/10 bg-white/5 p-3">
-                <p class="notehub-label text-white/50">{{ t('labels.filteredDocs') }}</p>
-                <p class="mt-3 text-3xl font-semibold tracking-[-0.05em] tabular-nums text-white">
+              <div class="rounded-[1.35rem] border border-foreground/10 bg-foreground/5 p-3">
+                <p class="notehub-label text-muted-foreground/80">{{ t('labels.filteredDocs') }}</p>
+                <p class="mt-3 text-3xl font-semibold tracking-[-0.05em] tabular-nums text-foreground">
                   {{ formatCount(filteredDocsCount) }}
                 </p>
               </div>
@@ -640,8 +705,8 @@ function scrollToTop(): void {
 
           <div v-if="quickJumpHeadings.length && activeDoc" class="relative mt-5">
             <div class="flex items-center gap-3">
-              <p class="notehub-label text-white/50">{{ t('labels.quickJump') }}</p>
-              <div class="h-px flex-1 bg-white/10" />
+              <p class="notehub-label text-muted-foreground/80">{{ t('labels.quickJump') }}</p>
+              <div class="h-px flex-1 bg-foreground/10" />
             </div>
 
             <div class="mt-4 flex flex-wrap gap-2">
@@ -649,7 +714,7 @@ function scrollToTop(): void {
                 v-for="heading in quickJumpHeadings"
                 :key="heading.id"
                 :to="{ name: 'docs', params: { slug: activeDoc.slug }, hash: `#${heading.id}` }"
-                class="rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-white/80 transition-[transform,background-color,border-color,color] duration-200 hover:-translate-y-0.5 hover:border-white/20 hover:bg-white/10 hover:text-white"
+                class="rounded-full border border-foreground/10 bg-foreground/5 px-4 py-2 text-sm text-muted-foreground transition-[transform,background-color,border-color,color] duration-200 hover:-translate-y-0.5 hover:border-foreground/20 hover:bg-foreground/10 hover:text-foreground"
                 @click="handleHeadingNavigation(heading.id)"
               >
                 {{ getHeadingText(heading) }}
@@ -827,48 +892,66 @@ function scrollToTop(): void {
             class="docs-scroll h-[calc(100vh-10.75rem)] overflow-y-auto px-3 py-3"
             :aria-label="t('nav.documents')"
           >
-            <RouterLink
-              v-for="doc in filteredDocs"
-              :key="`mobile-${doc.slug}`"
-              :to="{ name: 'docs', params: { slug: doc.slug } }"
-              class="group block rounded-[1.35rem] border p-4 text-left transition-[transform,border-color,background-color,box-shadow] duration-200"
-              :class="
-                activeSlug === doc.slug
-                  ? 'border-primary/30 bg-primary/10 shadow-[0_18px_36px_rgba(255,107,75,0.08)]'
-                  : 'border-border/80 bg-white/60 hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-[0_8px_24px_rgba(59,130,246,0.10)]'
-              "
-              :aria-current="activeSlug === doc.slug ? 'page' : undefined"
-              @click="closePanels"
-            >
-              <div class="flex items-start gap-3">
-                <span
-                  class="flex size-10 shrink-0 items-center justify-center rounded-full border text-[0.72rem] font-semibold tracking-[0.18em] tabular-nums"
+            <div v-for="group in groupedDocs" :key="group.category" class="space-y-2 pb-3">
+              <button
+                type="button"
+                @click="toggleCategory(group.category)"
+                class="flex w-full items-center justify-between rounded-xl px-2 py-1.5 text-left text-[0.7rem] font-bold uppercase tracking-wider text-muted-foreground/70 hover:bg-foreground/5 hover:text-foreground transition-all duration-200"
+              >
+                <span class="flex items-center gap-2">
+                  <ListTree class="size-3.5 text-primary/70" />
+                  <span>{{ group.category }}</span>
+                </span>
+                <span class="text-xs transition-transform duration-200" :class="{ 'rotate-180': !expandedCategories[group.category] }">
+                  <ChevronUp class="size-3" />
+                </span>
+              </button>
+
+              <div v-show="searchQuery || expandedCategories[group.category]" class="space-y-3">
+                <RouterLink
+                  v-for="doc in group.items"
+                  :key="`mobile-${doc.slug}`"
+                  :to="{ name: 'docs', params: { slug: doc.slug } }"
+                  class="group block rounded-[1.35rem] border p-4 text-left transition-[transform,border-color,background-color,box-shadow] duration-200"
                   :class="
                     activeSlug === doc.slug
-                      ? 'border-primary/30 bg-primary/20 text-primary'
-                      : 'border-foreground/10 bg-background/80 text-muted-foreground'
+                      ? 'border-primary/30 bg-primary/10 shadow-[0_18px_36px_rgba(255,107,75,0.08)]'
+                      : 'border-border bg-card hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-[0_8px_24px_rgba(59,130,246,0.10)]'
                   "
+                  :aria-current="activeSlug === doc.slug ? 'page' : undefined"
+                  @click="closePanels"
                 >
-                  {{ docOrderLabel(doc.slug) }}
-                </span>
-
-                <div class="min-w-0 flex-1">
-                  <div class="flex items-start justify-between gap-3">
-                    <p
-                      class="line-clamp-2 text-sm font-semibold tracking-[-0.02em] text-foreground"
+                  <div class="flex items-start gap-3">
+                    <span
+                      class="flex size-10 shrink-0 items-center justify-center rounded-full border text-[0.72rem] font-semibold tracking-[0.18em] tabular-nums"
+                      :class="
+                        activeSlug === doc.slug
+                          ? 'border-primary/30 bg-primary/20 text-primary'
+                          : 'border-foreground/10 bg-background/80 text-muted-foreground'
+                      "
                     >
-                      {{ docTitle(doc) }}
-                    </p>
-                    <Badge variant="outline" class="shrink-0 tabular-nums">
-                      {{ docSectionCount(doc.slug) }}
-                    </Badge>
+                      {{ docOrderLabel(doc.slug) }}
+                    </span>
+
+                    <div class="min-w-0 flex-1">
+                      <div class="flex items-start justify-between gap-3">
+                        <p
+                          class="line-clamp-2 text-sm font-semibold tracking-[-0.02em] text-foreground"
+                        >
+                          {{ docTitle(doc) }}
+                        </p>
+                        <Badge variant="outline" class="shrink-0 tabular-nums">
+                          {{ docSectionCount(doc.slug) }}
+                        </Badge>
+                      </div>
+                      <p class="mt-2 line-clamp-2 text-xs leading-5 text-muted-foreground">
+                        {{ docSubtitle(doc) }}
+                      </p>
+                    </div>
                   </div>
-                  <p class="mt-2 line-clamp-2 text-xs leading-5 text-muted-foreground">
-                    {{ docSubtitle(doc) }}
-                  </p>
-                </div>
+                </RouterLink>
               </div>
-            </RouterLink>
+            </div>
           </nav>
         </div>
       </SheetContent>
