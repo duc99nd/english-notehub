@@ -1,6 +1,25 @@
+import matter from 'gray-matter'
 import type { AppLocale } from '@/i18n'
 
 export type TocLevel = 1 | 2 | 3
+
+export type CefrLevel = 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2'
+
+export type SkillKind =
+  | 'vocab'
+  | 'grammar'
+  | 'reading'
+  | 'writing'
+  | 'speaking'
+  | 'listening'
+  | 'review'
+
+export interface QuizItem {
+  type: 'choice' | 'fill' | 'match'
+  prompt: string
+  answer: string
+  options?: string[]
+}
 
 export interface DocHeading {
   id: string
@@ -9,6 +28,7 @@ export interface DocHeading {
 }
 
 export interface DocSummary {
+  id: string
   slug: string
   fileName: string
   titleEn: string
@@ -18,6 +38,18 @@ export interface DocSummary {
   order: number
   categoryEn?: string
   categoryVi?: string
+  tags?: string[]
+  cefr?: CefrLevel
+  level?: CefrLevel
+  unit?: 1 | 2 | 3
+  skill?: SkillKind
+  prerequisites?: string[]
+  estimatedMinutes?: number
+  isArchived?: boolean
+  audioScript?: string
+  listeningEnabled?: boolean
+  flashcardCount?: number
+  quiz?: QuizItem[]
 }
 
 export interface DocItem extends DocSummary {
@@ -27,7 +59,7 @@ export interface DocItem extends DocSummary {
   sectionCount: number
 }
 
-interface FileMeta {
+interface LegacyFileMeta {
   slug: string
   titleEn: string
   subtitleEn: string
@@ -36,9 +68,13 @@ interface FileMeta {
   order: number
   categoryEn?: string
   categoryVi?: string
+  tags?: string[]
+  cefr?: CefrLevel
+  estimatedMinutes?: number
+  isArchived?: boolean
 }
 
-const FILE_META: Record<string, FileMeta> = {
+const FILE_META: Record<string, LegacyFileMeta> = {
   '1_vocabulary_reference': {
     slug: 'vocabulary-reference',
     titleEn: 'English Vocabulary Reference',
@@ -48,6 +84,8 @@ const FILE_META: Record<string, FileMeta> = {
     order: 1,
     categoryEn: 'Foundation & Daily Communication',
     categoryVi: 'Nền tảng Kỹ năng',
+    cefr: 'A2',
+    estimatedMinutes: 8,
   },
   '2_speaking_grammar': {
     slug: 'speaking-grammar',
@@ -58,6 +96,8 @@ const FILE_META: Record<string, FileMeta> = {
     order: 2,
     categoryEn: 'Foundation & Daily Communication',
     categoryVi: 'Nền tảng Kỹ năng',
+    cefr: 'A2',
+    estimatedMinutes: 5,
   },
   '3_writing_reference': {
     slug: 'writing-reference',
@@ -68,6 +108,8 @@ const FILE_META: Record<string, FileMeta> = {
     order: 3,
     categoryEn: 'Foundation & Daily Communication',
     categoryVi: 'Nền tảng Kỹ năng',
+    cefr: 'A2',
+    estimatedMinutes: 6,
   },
   '4_quick_tips_short_answers': {
     slug: 'quick-tips-short-answers',
@@ -78,6 +120,8 @@ const FILE_META: Record<string, FileMeta> = {
     order: 4,
     categoryEn: 'Foundation & Daily Communication',
     categoryVi: 'Nền tảng Kỹ năng',
+    cefr: 'A2',
+    estimatedMinutes: 3,
   },
   '5_professional_chat_communication': {
     slug: 'professional-chat-communication',
@@ -88,6 +132,8 @@ const FILE_META: Record<string, FileMeta> = {
     order: 5,
     categoryEn: 'Foundation & Daily Communication',
     categoryVi: 'Nền tảng Kỹ năng',
+    cefr: 'A2',
+    estimatedMinutes: 3,
   },
   '6_requesting_time_off': {
     slug: 'requesting-time-off',
@@ -98,6 +144,8 @@ const FILE_META: Record<string, FileMeta> = {
     order: 6,
     categoryEn: 'Foundation & Daily Communication',
     categoryVi: 'Nền tảng Kỹ năng',
+    cefr: 'A2',
+    estimatedMinutes: 6,
   },
   '7_asking_for_help_support': {
     slug: 'asking-for-help-support',
@@ -108,6 +156,8 @@ const FILE_META: Record<string, FileMeta> = {
     order: 7,
     categoryEn: 'Foundation & Daily Communication',
     categoryVi: 'Nền tảng Kỹ năng',
+    cefr: 'A2',
+    estimatedMinutes: 5,
   },
   '8_apology_correction_emails': {
     slug: 'apology-correction-emails',
@@ -118,6 +168,8 @@ const FILE_META: Record<string, FileMeta> = {
     order: 8,
     categoryEn: 'Foundation & Daily Communication',
     categoryVi: 'Nền tảng Kỹ năng',
+    cefr: 'B1',
+    estimatedMinutes: 6,
   },
   '9_explaining_tech_to_non_tech': {
     slug: 'explaining-tech-to-non-tech',
@@ -128,6 +180,8 @@ const FILE_META: Record<string, FileMeta> = {
     order: 9,
     categoryEn: 'Foundation & Daily Communication',
     categoryVi: 'Nền tảng Kỹ năng',
+    cefr: 'B1',
+    estimatedMinutes: 6,
   },
   '10_reading_tech_docs_efficiently': {
     slug: 'reading-tech-docs-efficiently',
@@ -248,6 +302,8 @@ const FILE_META: Record<string, FileMeta> = {
     order: 21,
     categoryEn: 'Agile & Meetings',
     categoryVi: 'Hội họp & Quy trình',
+    cefr: 'B1',
+    estimatedMinutes: 12,
   },
   '22_conversation_scenarios': {
     slug: 'conversation-scenarios',
@@ -258,6 +314,8 @@ const FILE_META: Record<string, FileMeta> = {
     order: 22,
     categoryEn: 'Agile & Meetings',
     categoryVi: 'Hội họp & Quy trình',
+    cefr: 'B1',
+    estimatedMinutes: 6,
   },
   '23_agile_scrum_ceremonies': {
     slug: 'agile-scrum-ceremonies',
@@ -288,6 +346,8 @@ const FILE_META: Record<string, FileMeta> = {
     order: 25,
     categoryEn: 'Agile & Meetings',
     categoryVi: 'Hội họp & Quy trình',
+    cefr: 'A2',
+    estimatedMinutes: 4,
   },
   '26_advanced_daily_standup': {
     slug: 'advanced-daily-standup',
@@ -298,6 +358,8 @@ const FILE_META: Record<string, FileMeta> = {
     order: 26,
     categoryEn: 'Agile & Meetings',
     categoryVi: 'Hội họp & Quy trình',
+    cefr: 'B1',
+    estimatedMinutes: 5,
   },
   '27_facilitating_retrospectives': {
     slug: 'facilitating-retrospectives',
@@ -328,6 +390,8 @@ const FILE_META: Record<string, FileMeta> = {
     order: 29,
     categoryEn: 'Agile & Meetings',
     categoryVi: 'Hội họp & Quy trình',
+    cefr: 'B2',
+    estimatedMinutes: 4,
   },
   '30_summarizing_meeting_minutes': {
     slug: 'summarizing-meeting-minutes',
@@ -338,6 +402,8 @@ const FILE_META: Record<string, FileMeta> = {
     order: 30,
     categoryEn: 'Agile & Meetings',
     categoryVi: 'Hội họp & Quy trình',
+    cefr: 'B1',
+    estimatedMinutes: 5,
   },
   '31_client_situations': {
     slug: 'client-situations',
@@ -348,6 +414,8 @@ const FILE_META: Record<string, FileMeta> = {
     order: 31,
     categoryEn: 'Difficult Situations',
     categoryVi: 'Tình huống Khó',
+    cefr: 'B2',
+    estimatedMinutes: 7,
   },
   '32_negotiating_deadlines': {
     slug: 'negotiating-deadlines',
@@ -378,6 +446,8 @@ const FILE_META: Record<string, FileMeta> = {
     order: 34,
     categoryEn: 'Difficult Situations',
     categoryVi: 'Tình huống Khó',
+    cefr: 'B2',
+    estimatedMinutes: 6,
   },
   '35_handling_scope_creep': {
     slug: 'handling-scope-creep',
@@ -398,6 +468,8 @@ const FILE_META: Record<string, FileMeta> = {
     order: 36,
     categoryEn: 'Difficult Situations',
     categoryVi: 'Tình huống Khó',
+    cefr: 'B2',
+    estimatedMinutes: 5,
   },
   '37_production_incident_communication': {
     slug: 'production-incident-communication',
@@ -448,6 +520,8 @@ const FILE_META: Record<string, FileMeta> = {
     order: 41,
     categoryEn: 'Career Growth & Interviews',
     categoryVi: 'Sự nghiệp & Phỏng vấn',
+    cefr: 'B1',
+    estimatedMinutes: 5,
   },
   '42_technical_system_design_interviews': {
     slug: 'technical-system-design-interviews',
@@ -644,7 +718,7 @@ const FILE_META: Record<string, FileMeta> = {
     titleEn: 'Reporting Verbs for Updates & Documentation',
     subtitleEn: 'Varried verbs for documenting team decisions and client requests',
     titleVi: 'Động Từ Tường Thuật Chuyên Nghiệp',
-    subtitleVi: 'Cách dẫn dắt, tường thuật ý kiến họp hành và quyết định thiết kế',
+    titleVi: 'Cách dẫn dắt, tường thuật ý kiến họp hành và quyết định thiết kế',
     order: 61,
     categoryEn: 'Speaking Grammar Hacks',
     categoryVi: 'Mẹo Ngữ pháp Speaking',
@@ -688,6 +762,9 @@ const FILE_META: Record<string, FileMeta> = {
     order: 65,
     categoryEn: 'Pronunciation & Fluency',
     categoryVi: 'Phát Âm & Trôi Chảy',
+    tags: ['pronunciation', 'vocabulary', 'speaking'],
+    cefr: 'A2',
+    estimatedMinutes: 5,
   },
   '66_phrasal_verbs_in_it': {
     slug: 'phrasal-verbs-in-it',
@@ -698,6 +775,7 @@ const FILE_META: Record<string, FileMeta> = {
     order: 66,
     categoryEn: 'Vocabulary Deep Dives',
     categoryVi: 'Từ vựng Chuyên sâu',
+    tags: ['verbs', 'vocabulary', 'idioms'],
   },
   '67_articles_a_an_the': {
     slug: 'articles-a-an-the',
@@ -708,16 +786,18 @@ const FILE_META: Record<string, FileMeta> = {
     order: 67,
     categoryEn: 'Speaking Grammar Hacks',
     categoryVi: 'Mẹo Ngữ pháp Speaking',
+    tags: ['grammar', 'writing', 'articles'],
   },
   '68_prepositions_in_it': {
     slug: 'prepositions-in-it',
     titleEn: 'Prepositions in IT Context',
     subtitleEn: 'Correct preposition usage for deploy, work, depend, connect, and scheduling',
     titleVi: 'Giới Từ Trong Ngữ Cảnh IT',
-    subtitleVi: 'Cách dùng giới từ đúng khi deploy, work, depend, connect và lên lịch',
+    titleVi: 'Cách dùng giới từ đúng khi deploy, work, depend, connect và lên lịch',
     order: 68,
     categoryEn: 'Speaking Grammar Hacks',
     categoryVi: 'Mẹo Ngữ pháp Speaking',
+    tags: ['grammar', 'writing', 'prepositions'],
   },
   '69_confusing_words_in_it': {
     slug: 'confusing-words-in-it',
@@ -725,10 +805,11 @@ const FILE_META: Record<string, FileMeta> = {
     subtitleEn:
       'Clarifying say/tell/speak/talk, error/bug/exception, and other confusing technical words',
     titleVi: 'Từ Vựng Dễ Nhầm Lẫn Trong IT',
-    subtitleVi: 'Phân biệt say/tell/speak/talk, error/bug/exception và các từ chuyên ngành dễ nhầm',
+    titleVi: 'Phân biệt say/tell/speak/talk, error/bug/exception và các từ chuyên ngành dễ nhầm',
     order: 69,
     categoryEn: 'Vocabulary Deep Dives',
     categoryVi: 'Từ vựng Chuyên sâu',
+    tags: ['vocabulary', 'confusing-words', 'speaking'],
   },
   '70_polite_request_templates': {
     slug: 'polite-request-templates',
@@ -740,6 +821,7 @@ const FILE_META: Record<string, FileMeta> = {
     order: 70,
     categoryEn: 'Foundation & Daily Communication',
     categoryVi: 'Nền tảng Kỹ năng',
+    tags: ['email', 'writing', 'templates'],
   },
   '71_common_daily_phrases': {
     slug: 'common-daily-phrases',
@@ -751,6 +833,7 @@ const FILE_META: Record<string, FileMeta> = {
     order: 71,
     categoryEn: 'Foundation & Daily Communication',
     categoryVi: 'Nền tảng Kỹ năng',
+    tags: ['phrases', 'speaking', 'slack', 'daily'],
   },
   '72_business_english_developers': {
     slug: 'business-english-for-developers',
@@ -761,6 +844,7 @@ const FILE_META: Record<string, FileMeta> = {
     order: 72,
     categoryEn: 'Foundation & Daily Communication',
     categoryVi: 'Nền tảng Kỹ năng',
+    tags: ['business', 'developer', 'speaking', 'meetings'],
   },
 }
 
@@ -838,13 +922,160 @@ const viModuleLoaderByFileName = new Map<string, () => Promise<string>>(
   ]),
 )
 
+function isFrontmatterPresent(raw: string): boolean {
+  return raw.trimStart().startsWith('---')
+}
+
+function deriveIdFromSlug(slug: string): string {
+  return slug
+}
+
+function buildSummaryFromFrontmatter(
+  fileName: string,
+  data: Record<string, unknown>,
+  fallback: LegacyFileMeta | undefined,
+): DocSummary {
+  const fallbackSlug = fallback?.slug ?? slugify(fileName)
+  const fallbackTitle = fallback
+    ? { titleEn: fallback.titleEn, titleVi: fallback.titleVi, subtitleEn: fallback.subtitleEn, subtitleVi: fallback.subtitleVi }
+    : { titleEn: createFallbackTitle(fileName), titleVi: createFallbackTitle(fileName), subtitleEn: '', subtitleVi: '' }
+
+  const slug = typeof data.slug === 'string' && data.slug.trim() ? data.slug.trim() : fallbackSlug
+  const id = typeof data.id === 'string' && data.id.trim() ? data.id.trim() : deriveIdFromSlug(slug)
+  const titleEn = typeof data.titleEn === 'string' ? data.titleEn : fallbackTitle.titleEn
+  const titleVi = typeof data.titleVi === 'string' ? data.titleVi : fallbackTitle.titleVi
+  const subtitleEn = typeof data.subtitleEn === 'string' ? data.subtitleEn : fallbackTitle.subtitleEn
+  const subtitleVi = typeof data.subtitleVi === 'string' ? data.subtitleVi : fallbackTitle.subtitleVi
+  const order = typeof data.order === 'number' ? data.order : (fallback?.order ?? 999)
+
+  const cefr = ((): CefrLevel | undefined => {
+    if (typeof data.cefr === 'string') return data.cefr as CefrLevel
+    if (typeof data.level === 'string') return data.level as CefrLevel
+    return fallback?.cefr
+  })()
+
+  const level = typeof data.level === 'string' ? (data.level as CefrLevel) : cefr
+
+  const unit = typeof data.unit === 'number' && [1, 2, 3].includes(data.unit)
+    ? (data.unit as 1 | 2 | 3)
+    : undefined
+
+  const skill = typeof data.skill === 'string' ? (data.skill as SkillKind) : undefined
+
+  const prerequisites = Array.isArray(data.prerequisites)
+    ? data.prerequisites.filter((value): value is string => typeof value === 'string')
+    : []
+
+  const tags = Array.isArray(data.tags)
+    ? data.tags.filter((value): value is string => typeof value === 'string')
+    : (fallback?.tags ?? [])
+
+  const estimatedMinutes = typeof data.minutes === 'number'
+    ? data.minutes
+    : (typeof data.estimatedMinutes === 'number' ? data.estimatedMinutes : fallback?.estimatedMinutes)
+
+  const audioScript = typeof data.audioScript === 'string' ? data.audioScript : undefined
+  const listeningEnabled = typeof data.listeningEnabled === 'boolean' ? data.listeningEnabled : Boolean(audioScript)
+  const flashcardCount = typeof data.flashcardCount === 'number' ? data.flashcardCount : undefined
+
+  const quiz = Array.isArray(data.quiz)
+    ? (data.quiz as QuizItem[])
+    : undefined
+
+  return {
+    id,
+    slug,
+    fileName,
+    titleEn,
+    titleVi,
+    subtitleEn,
+    subtitleVi,
+    order,
+    categoryEn: typeof data.categoryEn === 'string' ? data.categoryEn : fallback?.categoryEn,
+    categoryVi: typeof data.categoryVi === 'string' ? data.categoryVi : fallback?.categoryVi,
+    tags,
+    cefr,
+    level,
+    unit,
+    skill,
+    prerequisites,
+    estimatedMinutes,
+    isArchived: fallback?.isArchived,
+    audioScript,
+    listeningEnabled,
+    flashcardCount,
+    quiz,
+  }
+}
+
+// Cache parsed frontmatter per file so we only parse once at startup
+const frontmatterByFileName = new Map<string, Record<string, unknown>>()
+
+function parseFrontmatterSync(raw: string): Record<string, unknown> {
+  try {
+    const parsed = matter(raw)
+    return parsed.data as Record<string, unknown>
+  } catch {
+    return {}
+  }
+}
+
+function ensureFrontmatter(fileName: string): Record<string, unknown> {
+  const cached = frontmatterByFileName.get(fileName)
+  if (cached) return cached
+  const loader = moduleLoaderByFileName.get(fileName)
+  if (!loader) return {}
+  // Load synchronously at module init — Vite glob with ?raw returns string already inlined at build time
+  // For dev mode this is an async loader; we use a fallback that resolves to '' if not loaded yet
+  // To keep sync contract: we only use data for files where raw is inlined (production builds).
+  // For dev, fall back to empty frontmatter; rendering still works because markdown body is unchanged.
+  let raw = ''
+  try {
+    const maybeSync = (loader as unknown as { sync?: () => string }).sync
+    if (typeof maybeSync === 'function') {
+      raw = maybeSync()
+    }
+  } catch {
+    raw = ''
+  }
+  if (!raw) {
+    frontmatterByFileName.set(fileName, {})
+    return {}
+  }
+  const data = isFrontmatterPresent(raw) ? parseFrontmatterSync(raw) : {}
+  frontmatterByFileName.set(fileName, data)
+  return data
+}
+
+async function loadFrontmatterAsync(fileName: string): Promise<Record<string, unknown>> {
+  const cached = frontmatterByFileName.get(fileName)
+  if (cached) return cached
+  const loader = moduleLoaderByFileName.get(fileName)
+  if (!loader) return {}
+  try {
+    const raw = await loader()
+    const data = isFrontmatterPresent(raw) ? parseFrontmatterSync(raw) : {}
+    frontmatterByFileName.set(fileName, data)
+    return data
+  } catch {
+    frontmatterByFileName.set(fileName, {})
+    return {}
+  }
+}
+
 const docs: DocSummary[] = Object.keys(markdownModules)
   .map((filePath) => {
     const fileName = filePath.split('/').pop()?.replace('.md', '') ?? ''
     const meta = FILE_META[fileName]
     const fallbackTitle = createFallbackTitle(fileName)
+    const data = ensureFrontmatter(fileName)
+
+    if (Object.keys(data).length > 0) {
+      return buildSummaryFromFrontmatter(fileName, data, meta)
+    }
 
     return {
+      id: meta?.slug ?? slugify(fileName),
       slug: meta?.slug ?? slugify(fileName),
       fileName,
       titleEn: meta?.titleEn ?? fallbackTitle,
@@ -854,11 +1085,16 @@ const docs: DocSummary[] = Object.keys(markdownModules)
       order: meta?.order ?? 999,
       categoryEn: meta?.categoryEn,
       categoryVi: meta?.categoryVi,
+      tags: meta?.tags || [],
+      cefr: meta?.cefr,
+      estimatedMinutes: meta?.estimatedMinutes,
+      isArchived: meta?.isArchived,
     }
   })
   .sort((a, b) => a.order - b.order)
 
 const docBySlug = new Map(docs.map((doc) => [doc.slug, doc]))
+const docById = new Map(docs.map((doc) => [doc.id, doc]))
 const cacheByKey = new Map<string, DocItem>()
 const pendingByKey = new Map<string, Promise<DocItem | undefined>>()
 
@@ -919,15 +1155,11 @@ async function renderMarkdown(
   let html = parser.render(raw)
 
   // Strip inline TOC section (MỤC LỤC / Contents / Table of Contents) from rendered HTML.
-  // This heading + its following list is redundant because the sidebar TOC already shows it.
   html = html.replace(
     /<h1[^>]*>(?:MỤC LỤC|MỤC LỤC|Contents|Table of Contents)<\/h1>\s*(?:<(?:ul|ol)[^>]*>[\s\S]*?<\/(?:ul|ol)>\s*)*/gi,
     '',
   )
 
-  // Convert inline code references to .md files into clickable links
-  // e.g. <code>english_speaking_grammar_reference.md</code>  →  <a href="/docs/speaking-grammar">…</a>
-  // Supports both new numbered filenames and legacy english_* filenames
   const LEGACY_SLUG_MAP: Record<string, string> = {
     english_meeting_templates_for_team_lead_notion: 'meeting-templates',
     english_speaking_grammar_reference: 'speaking-grammar',
@@ -957,7 +1189,6 @@ async function loadDoc(
   summary: DocSummary,
   locale: AppLocale = 'en',
 ): Promise<DocItem | undefined> {
-  // Try Vietnamese loader first if locale is 'vi'
   const loader =
     locale === 'vi'
       ? (viModuleLoaderByFileName.get(summary.fileName) ??
@@ -972,6 +1203,9 @@ async function loadDoc(
   const content = stripLeadingDocHeadings(raw)
   const rendered = await renderMarkdown(content)
 
+  // Make sure we have frontmatter loaded too (best-effort; cache only)
+  await loadFrontmatterAsync(summary.fileName)
+
   return {
     ...summary,
     raw: content,
@@ -985,23 +1219,27 @@ export function getDocs(): DocSummary[] {
   return docs
 }
 
-export async function getDocBySlug(
+export function getDocsByLevel(level: CefrLevel): DocSummary[] {
+  return docs.filter((doc) => (doc.level ?? doc.cefr) === level)
+}
+
+export function getDocBySlug(
   slug: string,
   locale: AppLocale = 'en',
 ): Promise<DocItem | undefined> {
   const cacheKey = `${slug}:${locale}`
 
   if (cacheByKey.has(cacheKey)) {
-    return cacheByKey.get(cacheKey)
+    return Promise.resolve(cacheByKey.get(cacheKey))
   }
 
   if (pendingByKey.has(cacheKey)) {
-    return pendingByKey.get(cacheKey)
+    return pendingByKey.get(cacheKey)!
   }
 
   const summary = docBySlug.get(slug)
   if (!summary) {
-    return undefined
+    return Promise.resolve(undefined)
   }
 
   const pending = loadDoc(summary, locale)
@@ -1017,6 +1255,17 @@ export async function getDocBySlug(
 
   pendingByKey.set(cacheKey, pending)
   return pending
+}
+
+export function getDocById(
+  id: string,
+  locale: AppLocale = 'en',
+): Promise<DocItem | undefined> {
+  const summary = docById.get(id)
+  if (!summary) {
+    return Promise.resolve(undefined)
+  }
+  return getDocBySlug(summary.slug, locale)
 }
 
 export function getDocTitle(
