@@ -24,7 +24,8 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      redirect: '/docs',
+      name: 'home',
+      component: () => import('@/views/HomeView.vue'),
     },
     {
       path: '/docs/:slug?',

@@ -66,19 +66,56 @@ const currentLocale = computed<AppLocale>({
   },
 })
 
+const selectedTag = ref('')
+
+const allTags = computed(() => {
+  const tags = new Set<string>()
+  for (const doc of docs) {
+    if (doc.tags) {
+      for (const tag of doc.tags) {
+        tags.add(tag)
+      }
+    }
+  }
+  return Array.from(tags).sort()
+})
+
+function toggleTag(tag: string): void {
+  if (selectedTag.value === tag) {
+    selectedTag.value = ''
+  } else {
+    selectedTag.value = tag
+    if (window.innerWidth < 1024) {
+      docsSheetOpen.value = true
+    }
+  }
+}
+
 const filteredDocs = computed(() => {
   const normalizedQuery = searchQuery.value.trim().toLowerCase()
-  if (!normalizedQuery) {
-    return docs
+  let result = docs
+
+  if (selectedTag.value) {
+    result = result.filter((doc) => doc.tags?.includes(selectedTag.value))
   }
 
-  return docs.filter((doc) => {
-    const haystack = [doc.titleEn, doc.titleVi, doc.subtitleEn, doc.subtitleVi]
-      .join(' ')
-      .toLowerCase()
+  if (normalizedQuery) {
+    result = result.filter((doc) => {
+      const haystack = [
+        doc.titleEn,
+        doc.titleVi,
+        doc.subtitleEn,
+        doc.subtitleVi,
+        ...(doc.tags || []),
+      ]
+        .join(' ')
+        .toLowerCase()
 
-    return haystack.includes(normalizedQuery)
-  })
+      return haystack.includes(normalizedQuery)
+    })
+  }
+
+  return result
 })
 
 const filteredDocsCount = computed(() => filteredDocs.value.length)
@@ -621,6 +658,22 @@ function scrollToTop(): void {
                 :placeholder="t('placeholders.search')"
                 class="pl-11"
               />
+            </div>
+            <div v-if="allTags.length" class="mt-3.5 flex flex-wrap gap-1.5 max-h-24 overflow-y-auto pr-1">
+              <button
+                v-for="tag in allTags"
+                :key="tag"
+                type="button"
+                @click="toggleTag(tag)"
+                class="inline-flex items-center rounded-full px-2 py-0.5 text-[0.65rem] font-semibold border transition-all duration-200"
+                :class="
+                  selectedTag === tag
+                    ? 'bg-primary border-primary text-primary-foreground shadow-sm scale-95'
+                    : 'bg-background hover:bg-muted border-foreground/10 text-muted-foreground hover:text-foreground'
+                "
+              >
+                #{{ tag }}
+              </button>
             </div>
           </div>
 
