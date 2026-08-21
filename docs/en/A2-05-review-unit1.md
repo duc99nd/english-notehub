@@ -1,53 +1,69 @@
 ---
-id: a2-05-review-unit1
-slug: a2-05-review-unit1
-titleEn: Review Unit 1
-titleVi: Ôn tập Unit 1
-subtitleEn: Review asking help, daily routine, comparatives, and past events
-subtitleVi: Ôn tập hỏi giúp đỡ, thói quen hàng ngày, so sánh hơn và sự kiện quá khứ
-level: A2
-unit: 1
-skill: review
-order: 5
-cefr: A2
-minutes: 10
-tags: [review, unit1, grammar, vocabulary]
-audioScript: |
-  Let's review what we learned in Unit 1.
-  You can ask for help politely.
-  You can talk about your daily routine.
-  You can compare things.
-  You can talk about past events.
-listeningEnabled: true
-flashcardCount: 12
-quiz:
-  - type: choice
-    prompt: How do you politely ask for help?
-    options:
-      - 'Give me help.'
-      - 'Could you help me, please?'
-      - 'Help me now!'
-    answer: 'Could you help me, please?'
-  - type: fill
-    prompt: 'I wake ___ at six every morning.'
-    answer: 'up'
-  - type: choice
-    prompt: Which is the correct comparative form?
-    options:
-      - 'more beautiful'
-      - 'beautifuller'
-      - 'beautfuller'
-    answer: 'more beautiful'
-  - type: fill
-    prompt: 'Yesterday, she ___ to the market. (go)'
-    answer: 'went'
-  - type: choice
-    prompt: Which sentence is in past simple?
-    options:
-      - 'I work at home.'
-      - 'I am working.'
-      - 'I worked late.'
-    answer: 'I worked late.'
+{
+  "id": "a2-05-review-unit1",
+  "slug": "a2-05-review-unit1",
+  "titleEn": "Review Unit 1",
+  "titleVi": "Ôn tập Unit 1",
+  "subtitleEn": "Review asking help, daily routine, comparatives, and past events",
+  "subtitleVi": "Ôn tập hỏi giúp đỡ, thói quen hàng ngày, so sánh hơn và sự kiện quá khứ",
+  "level": "A2",
+  "unit": 1,
+  "skill": "review",
+  "order": 5,
+  "cefr": "A2",
+  "minutes": 10,
+  "tags": [
+    "review",
+    "unit1",
+    "grammar",
+    "vocabulary"
+  ],
+  "audioScript": "Let's review what we learned in Unit 1.\nYou can ask for help politely.\nYou can talk about your daily routine.\nYou can compare things.\nYou can talk about past events.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 12,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "How do you politely ask for help?",
+      "options": [
+        "Give me help.",
+        "Could you help me, please?",
+        "Help me now!"
+      ],
+      "answer": "Could you help me, please?"
+    },
+    {
+      "type": "fill",
+      "prompt": "I wake ___ at six every morning.",
+      "answer": "up"
+    },
+    {
+      "type": "choice",
+      "prompt": "Which is the correct comparative form?",
+      "options": [
+        "more beautiful",
+        "beautifuller",
+        "beautfuller"
+      ],
+      "answer": "more beautiful"
+    },
+    {
+      "type": "fill",
+      "prompt": "Yesterday, she ___ to the market. (go)",
+      "answer": "went"
+    },
+    {
+      "type": "choice",
+      "prompt": "Which sentence is in past simple?",
+      "options": [
+        "I work at home.",
+        "I am working.",
+        "I worked late."
+      ],
+      "answer": "I worked late."
+    }
+  ]
+}
 ---
 
 # Review Unit 1

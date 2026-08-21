@@ -1,41 +1,55 @@
 ---
-id: a1-13-can-cant
-slug: a1-13-can-cant
-titleEn: "Can and Can't"
-titleVi: "Can và Can't"
-subtitleEn: Talk about abilities using can and can't
-subtitleVi: Nói về năng lực sử dụng can và can't
-level: A1
-unit: 3
-skill: grammar
-order: 13
-cefr: A1
-minutes: 5
-tags: [can, cant, ability, grammar, modal]
-audioScript: |
-  I can swim very well.
-  She can't speak English.
-  Can you ride a bicycle?
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: Which sentence is correct?
-    options:
-      - 'I can to swim.'
-      - 'I can swim.'
-      - 'I can swimming.'
-    answer: 'I can swim.'
-  - type: fill
-    prompt: 'She ___ speak French. (không thể)'
-    answer: "can't"
-  - type: choice
-    prompt: What does "can" express?
-    options:
-      - 'Possibility'
-      - 'Ability'
-      - 'Future'
-    answer: 'Ability'
+{
+  "id": "a1-13-can-cant",
+  "slug": "a1-13-can-cant",
+  "titleEn": "Can and Can't",
+  "titleVi": "Can và Can't",
+  "subtitleEn": "Talk about abilities using can and can't",
+  "subtitleVi": "Nói về năng lực sử dụng can và can't",
+  "level": "A1",
+  "unit": 3,
+  "skill": "grammar",
+  "order": 13,
+  "cefr": "A1",
+  "minutes": 5,
+  "tags": [
+    "can",
+    "cant",
+    "ability",
+    "grammar",
+    "modal"
+  ],
+  "audioScript": "I can swim very well.\nShe can't speak English.\nCan you ride a bicycle?\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "I can to swim.",
+        "I can swim.",
+        "I can swimming."
+      ],
+      "answer": "I can swim."
+    },
+    {
+      "type": "fill",
+      "prompt": "She ___ speak French. (không thể)",
+      "answer": "can't"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does \"can\" express?",
+      "options": [
+        "Possibility",
+        "Ability",
+        "Future"
+      ],
+      "answer": "Ability"
+    }
+  ]
+}
 ---
 
 # Can and Can't

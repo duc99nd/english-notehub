@@ -1,17 +1,26 @@
 ---
-id: c2-13-write-publish
-slug: c2-13-write-publish
-titleEn: Writing for Publication
-titleVi: Viết để Xuất bản
-subtitleEn: Navigate the scholarly publishing process and peer review discourse
-subtitleVi: Điều hướng quy trình xuất bản học thuật và diễn ngôn phản biện đồng nghiệp
-level: C2
-unit: 3
-skill: reading
-order: 13
-cefr: C2
-minutes: 5
-tags: [publishing, peer review, academic, journal, writing, scholarly]
+{
+  "id": "c2-13-write-publish",
+  "slug": "c2-13-write-publish",
+  "titleEn": "Writing for Publication",
+  "titleVi": "Viết để Xuất bản",
+  "subtitleEn": "Navigate the scholarly publishing process and peer review discourse",
+  "subtitleVi": "Điều hướng quy trình xuất bản học thuật và diễn ngôn phản biện đồng nghiệp",
+  "level": "C2",
+  "unit": 3,
+  "skill": "reading",
+  "order": 13,
+  "cefr": "C2",
+  "minutes": 5,
+  "tags": [
+    "publishing",
+    "peer review",
+    "academic",
+    "journal",
+    "writing",
+    "scholarly"
+  ]
+}
 ---
 
 # Viết để Xuất bản

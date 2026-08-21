@@ -1,41 +1,55 @@
 ---
-id: c1-12-nuanced-grammar
-slug: c1-12-nuanced-grammar
-titleEn: "Nuanced C1 Grammar"
-titleVi: "Ngữ pháp C1 tinh tế"
-subtitleEn: "Master mixed conditionals, cleft sentences, and advanced modality"
-subtitleVi: "Làm chủ câu điều kiện hỗn hợp, câu chẻ và modal nâng cao"
-level: C1
-unit: 3
-skill: grammar
-order: 12
-cefr: C1
-minutes: 5
-tags: [grammar, mixed-conditionals, modality, advanced, C1]
-audioScript: |
-  Nếu hội đồng đã phê duyệt đề xuất sớm hơn, chúng tôi sẽ đang hoạt động quốc tế ngày nay.
-  Nếu chúng tôi ra mắt trong Q1, chúng tôi sẽ thu hút những người dùng sớm.
-  Nếu hoàn cảnh thay đổi, chúng tôi đã sẵn sàng chuyển hướng.
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: Đâu là câu điều kiện hỗn hợp?
-    options:
-      - "Nếu trời mưa, tôi sẽ ở lại."
-      - "Nếu tôi đã học, giờ tôi sẽ là bác sĩ."
-      - "Nếu trời mưa, tôi đã ở lại."
-    answer: "Nếu tôi đã học, giờ tôi sẽ là bác sĩ."
-  - type: fill
-    prompt: "___ hoàn cảnh thay đổi, chúng tôi đã sẵn sàng chuyển hướng."
-    answer: "Nếu"
-  - type: choice
-    prompt: "Modal perfect" diễn đạt gì?
-    options:
-      - "Khả năng tương lai"
-      - "Suy đoán / hối tiếc trong quá khứ"
-      - "Thói quen hiện tại"
-    answer: "Suy đoán / hối tiếc trong quá khứ"
+{
+  "id": "c1-12-nuanced-grammar",
+  "slug": "c1-12-nuanced-grammar",
+  "titleEn": "Nuanced C1 Grammar",
+  "titleVi": "Ngữ pháp C1 tinh tế",
+  "subtitleEn": "Master mixed conditionals, cleft sentences, and advanced modality",
+  "subtitleVi": "Làm chủ câu điều kiện hỗn hợp, câu chẻ và modal nâng cao",
+  "level": "C1",
+  "unit": 3,
+  "skill": "grammar",
+  "order": 12,
+  "cefr": "C1",
+  "minutes": 5,
+  "tags": [
+    "grammar",
+    "mixed-conditionals",
+    "modality",
+    "advanced",
+    "C1"
+  ],
+  "audioScript": "Nếu hội đồng đã phê duyệt đề xuất sớm hơn, chúng tôi sẽ đang hoạt động quốc tế ngày nay.\nNếu chúng tôi ra mắt trong Q1, chúng tôi sẽ thu hút những người dùng sớm.\nNếu hoàn cảnh thay đổi, chúng tôi đã sẵn sàng chuyển hướng.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Đâu là câu điều kiện hỗn hợp?",
+      "options": [
+        "Nếu trời mưa, tôi sẽ ở lại.",
+        "Nếu tôi đã học, giờ tôi sẽ là bác sĩ.",
+        "Nếu trời mưa, tôi đã ở lại."
+      ],
+      "answer": "Nếu tôi đã học, giờ tôi sẽ là bác sĩ."
+    },
+    {
+      "type": "fill",
+      "prompt": "___ hoàn cảnh thay đổi, chúng tôi đã sẵn sàng chuyển hướng.",
+      "answer": "Nếu"
+    },
+    {
+      "type": "choice",
+      "prompt": "Modal perfect diễn đạt gì?",
+      "options": [
+        "Khả năng tương lai",
+        "Suy đoán / hối tiếc trong quá khứ",
+        "Thói quen hiện tại"
+      ],
+      "answer": "Suy đoán / hối tiếc trong quá khứ"
+    }
+  ]
+}
 ---
 
 # Ngữ pháp C1 tinh tế

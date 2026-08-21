@@ -1,41 +1,54 @@
 ---
-id: b2-05-persuasive-grammar
-slug: b2-05-persuasive-grammar
-titleEn: "Persuasive Grammar"
-titleVi: "Ngữ pháp thuyết phục"
-subtitleEn: "Use grammar structures to build compelling arguments"
-subtitleVi: "Sử dụng cấu trúc ngữ pháp để xây dựng luận điểm thuyết phục"
-level: B2
-unit: 2
-skill: grammar
-order: 5
-cefr: B2
-minutes: 5
-tags: [grammar, persuasion, rhetoric, B2]
-audioScript: |
-  Not only does this solution reduce costs, but it also improves scalability.
-  The more data we collect, the better our predictions become.
-  It is essential that we act now to remain competitive.
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: Which structure emphasizes importance?
-    options:
-      - "It might be helpful to..."
-      - "It is essential that we..."
-      - "We could possibly..."
-    answer: "It is essential that we..."
-  - type: fill
-    prompt: "Not only ___ it reduce costs, but it also improves scalability."
-    answer: "does"
-  - type: choice
-    prompt: "The more we test, the better the result becomes." is an example of:
-    options:
-      - "Comparative structure"
-      - "Double comparative"
-      - "Conditional structure"
-    answer: "Double comparative"
+{
+  "id": "b2-05-persuasive-grammar",
+  "slug": "b2-05-persuasive-grammar",
+  "titleEn": "Persuasive Grammar",
+  "titleVi": "Ngữ pháp thuyết phục",
+  "subtitleEn": "Use grammar structures to build compelling arguments",
+  "subtitleVi": "Sử dụng cấu trúc ngữ pháp để xây dựng luận điểm thuyết phục",
+  "level": "B2",
+  "unit": 2,
+  "skill": "grammar",
+  "order": 5,
+  "cefr": "B2",
+  "minutes": 5,
+  "tags": [
+    "grammar",
+    "persuasion",
+    "rhetoric",
+    "B2"
+  ],
+  "audioScript": "Not only does this solution reduce costs, but it also improves scalability.\nThe more data we collect, the better our predictions become.\nIt is essential that we act now to remain competitive.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Which structure emphasizes importance?",
+      "options": [
+        "It might be helpful to...",
+        "It is essential that we...",
+        "We could possibly..."
+      ],
+      "answer": "It is essential that we..."
+    },
+    {
+      "type": "fill",
+      "prompt": "Not only ___ it reduce costs, but it also improves scalability.",
+      "answer": "does"
+    },
+    {
+      "type": "choice",
+      "prompt": "The more we test, the better the result becomes. is an example of:",
+      "options": [
+        "Comparative structure",
+        "Double comparative",
+        "Conditional structure"
+      ],
+      "answer": "Double comparative"
+    }
+  ]
+}
 ---
 
 # Persuasive Grammar

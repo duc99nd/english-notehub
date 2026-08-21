@@ -1,43 +1,58 @@
 ---
-id: c2-08-diplomatic-language
-slug: c2-08-diplomatic-language
-titleEn: Diplomatic Language
-titleVi: Ngôn ngữ Ngoại giao
-subtitleEn: Decipher the nuanced register of diplomatic correspondence and treaties
-subtitleVi: Giải mã giọng điệu tinh vi của các văn bản ngoại giao và hiệp ước
-level: C2
-unit: 2
-skill: reading
-order: 8
-cefr: C2
-minutes: 5
-tags: [diplomacy, treaties, formal, international, correspondence, register]
-audioScript: |
-  Diplomatic language prioritizes face-saving and ambiguity management.
-  Treaties use deliberate vagueness to accommodate multiple interpretations.
-  Understanding diplomatic register requires attention to what is NOT said.
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: What is the primary function of diplomatic language?
-    options:
-      - 'To be completely transparent'
-      - 'To preserve face and manage ambiguity'
-      - 'To confuse the opposition'
-      - 'To simplify complex issues'
-    answer: 'To preserve face and manage ambiguity'
-  - type: choice
-    prompt: What does 'taking note of' typically imply in diplomatic language?
-    options:
-      - 'Strong agreement'
-      - 'Full endorsement'
-      - 'Polite acknowledgment without commitment'
-      - 'Rejection'
-    answer: 'Polite acknowledgment without commitment'
-  - type: fill
-    prompt: "The ambassador expressed 'grave concern' over the incident, signalling ___ displeasure."
-    answer: 'diplomatic'
+{
+  "id": "c2-08-diplomatic-language",
+  "slug": "c2-08-diplomatic-language",
+  "titleEn": "Diplomatic Language",
+  "titleVi": "Ngôn ngữ Ngoại giao",
+  "subtitleEn": "Decipher the nuanced register of diplomatic correspondence and treaties",
+  "subtitleVi": "Giải mã giọng điệu tinh vi của các văn bản ngoại giao và hiệp ước",
+  "level": "C2",
+  "unit": 2,
+  "skill": "reading",
+  "order": 8,
+  "cefr": "C2",
+  "minutes": 5,
+  "tags": [
+    "diplomacy",
+    "treaties",
+    "formal",
+    "international",
+    "correspondence",
+    "register"
+  ],
+  "audioScript": "Diplomatic language prioritizes face-saving and ambiguity management.\nTreaties use deliberate vagueness to accommodate multiple interpretations.\nUnderstanding diplomatic register requires attention to what is NOT said.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What is the primary function of diplomatic language?",
+      "options": [
+        "To be completely transparent",
+        "To preserve face and manage ambiguity",
+        "To confuse the opposition",
+        "To simplify complex issues"
+      ],
+      "answer": "To preserve face and manage ambiguity"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does 'taking note of' typically imply in diplomatic language?",
+      "options": [
+        "Strong agreement",
+        "Full endorsement",
+        "Polite acknowledgment without commitment",
+        "Rejection"
+      ],
+      "answer": "Polite acknowledgment without commitment"
+    },
+    {
+      "type": "fill",
+      "prompt": "The ambassador expressed 'grave concern' over the incident, signalling ___ displeasure.",
+      "answer": "diplomatic"
+    }
+  ]
+}
 ---
 
 # Diplomatic Language

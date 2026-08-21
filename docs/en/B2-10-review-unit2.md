@@ -1,51 +1,70 @@
 ---
-id: b2-10-review-unit2
-slug: b2-10-review-unit2
-titleEn: "Review Unit 2"
-titleVi: "Ôn tập Unit 2"
-subtitleEn: "Review meeting facilitation, persuasion, and conditionals"
-subtitleVi: "Ôn tập điều phối họp, thuyết phục và câu điều kiện"
-level: B2
-unit: 2
-skill: review
-order: 10
-cefr: B2
-minutes: 10
-tags: [review, unit2, B2, meetings, grammar]
-audioScript: |
-  Let's review Unit 2 of B2.
-  You've learned how to facilitate meetings.
-  You can now use advanced conditionals and persuasive grammar.
-listeningEnabled: true
-flashcardCount: 16
-quiz:
-  - type: choice
-    prompt: What does "kick off" mean?
-    options:
-      - "To end a meeting"
-      - "To start a meeting"
-      - "To cancel a meeting"
-    answer: "To start a meeting"
-  - type: fill
-    prompt: "If I ___ (know), I would have helped."
-    answer: "had known"
-  - type: choice
-    prompt: Which phrase means "to strengthen"?
-    options:
-      - "Weaken"
-      - "Bolster"
-      - "Delay"
-    answer: "Bolster"
-  - type: fill
-    prompt: "Not only ___ it reduce costs, but it also improves performance."
-    answer: "does"
-  - type: choice
-    prompt: "ROI" stands for:
-    options:
-      - "Return on Investment"
-      - "Rate of Income"
-      - "Risk of Implementation"
-    answer: "Return on Investment"
+{
+  "id": "b2-10-review-unit2",
+  "slug": "b2-10-review-unit2",
+  "titleEn": "Review Unit 2",
+  "titleVi": "Ôn tập Unit 2",
+  "subtitleEn": "Review meeting facilitation, persuasion, and conditionals",
+  "subtitleVi": "Ôn tập điều phối họp, thuyết phục và câu điều kiện",
+  "level": "B2",
+  "unit": 2,
+  "skill": "review",
+  "order": 10,
+  "cefr": "B2",
+  "minutes": 10,
+  "tags": [
+    "review",
+    "unit2",
+    "B2",
+    "meetings",
+    "grammar"
+  ],
+  "audioScript": "Let's review Unit 2 of B2.\nYou've learned how to facilitate meetings.\nYou can now use advanced conditionals and persuasive grammar.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 16,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does \"kick off\" mean?",
+      "options": [
+        "To end a meeting",
+        "To start a meeting",
+        "To cancel a meeting"
+      ],
+      "answer": "To start a meeting"
+    },
+    {
+      "type": "fill",
+      "prompt": "If I ___ (know), I would have helped.",
+      "answer": "had known"
+    },
+    {
+      "type": "choice",
+      "prompt": "Which phrase means \"to strengthen\"?",
+      "options": [
+        "Weaken",
+        "Bolster",
+        "Delay"
+      ],
+      "answer": "Bolster"
+    },
+    {
+      "type": "fill",
+      "prompt": "Not only ___ it reduce costs, but it also improves performance.",
+      "answer": "does"
+    },
+    {
+      "type": "choice",
+      "prompt": "ROI stands for:",
+      "options": [
+        "Return on Investment",
+        "Rate of Income",
+        "Risk of Implementation"
+      ],
+      "answer": "Return on Investment"
+    }
+  ]
+}
 ---
 
 # Review Unit 2

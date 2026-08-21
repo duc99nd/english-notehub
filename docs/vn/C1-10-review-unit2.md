@@ -1,53 +1,71 @@
 ---
-id: c1-10-review-unit2
-slug: c1-10-review-unit2
-titleEn: "Review Unit 2"
-titleVi: "Ôn tập Unit 2"
-subtitleEn: "Consolidate investor relations, advanced grammar, policy reading, and executive summary writing"
-subtitleVi: "Củng cố quan hệ nhà đầu tư, ngữ pháp nâng cao, đọc chính sách và viết tóm tắt điều hành"
-level: C1
-unit: 2
-skill: review
-order: 10
-cefr: C1
-minutes: 10
-tags: [review, unit2, investor, grammar, policy, C1]
-audioScript: |
-  Hãy ôn tập Unit 2.
-  Bây giờ bạn có thể giao tiếp hiệu quả với nhà đầu tư.
-  Bạn có thể sử dụng các cấu trúc ngữ pháp C1 nâng cao.
-  Bạn có thể đọc tài liệu chính sách.
-  Bạn có thể viết tóm tắt điều hành.
-listeningEnabled: true
-flashcardCount: 20
-quiz:
-  - type: choice
-    prompt: "EPS" là viết tắt của gì?
-    options:
-      - "Thu nhập trên mỗi cổ phiếu"
-      - "Tóm tắt lợi nhuận điều hành"
-      - "Tiêu chuẩn giá vốn"
-    answer: "Thu nhập trên mỗi cổ phiếu"
-  - type: fill
-    prompt: "___ chúng tôi chưa thấy tăng trưởng nhanh như vậy trong phân khúc này."
-    answer: "Chưa bao giờ"
-  - type: choice
-    prompt: Câu nào là cấu trúc giả định?
-    options:
-      - "Chúng tôi sẽ phê duyệt ngân sách."
-      - "Điều cần thiết là ngân sách phải được phê duyệt."
-      - "Ngân sách đã được phê duyệt hôm qua."
-    answer: "Điều cần thiết là ngân sách phải được phê duyệt."
-  - type: fill
-    prompt: "Tất cả nhân viên ___ hoàn thành khóa đào tạo trước ngày 31 tháng 3."
-    answer: "phải"
-  - type: choice
-    prompt: Theo BLUF, điều gì đến đầu tiên?
-    options:
-      - "Bối cảnh"
-      - "Khuyến nghị"
-      - "Rủi ro"
-    answer: "Khuyến nghị"
+{
+  "id": "c1-10-review-unit2",
+  "slug": "c1-10-review-unit2",
+  "titleEn": "Review Unit 2",
+  "titleVi": "Ôn tập Unit 2",
+  "subtitleEn": "Consolidate investor relations, advanced grammar, policy reading, and executive summary writing",
+  "subtitleVi": "Củng cố quan hệ nhà đầu tư, ngữ pháp nâng cao, đọc chính sách và viết tóm tắt điều hành",
+  "level": "C1",
+  "unit": 2,
+  "skill": "review",
+  "order": 10,
+  "cefr": "C1",
+  "minutes": 10,
+  "tags": [
+    "review",
+    "unit2",
+    "investor",
+    "grammar",
+    "policy",
+    "C1"
+  ],
+  "audioScript": "Hãy ôn tập Unit 2.\nBây giờ bạn có thể giao tiếp hiệu quả với nhà đầu tư.\nBạn có thể sử dụng các cấu trúc ngữ pháp C1 nâng cao.\nBạn có thể đọc tài liệu chính sách.\nBạn có thể viết tóm tắt điều hành.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 20,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "EPS là viết tắt của gì?",
+      "options": [
+        "Thu nhập trên mỗi cổ phiếu",
+        "Tóm tắt lợi nhuận điều hành",
+        "Tiêu chuẩn giá vốn"
+      ],
+      "answer": "Thu nhập trên mỗi cổ phiếu"
+    },
+    {
+      "type": "fill",
+      "prompt": "___ chúng tôi chưa thấy tăng trưởng nhanh như vậy trong phân khúc này.",
+      "answer": "Chưa bao giờ"
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào là cấu trúc giả định?",
+      "options": [
+        "Chúng tôi sẽ phê duyệt ngân sách.",
+        "Điều cần thiết là ngân sách phải được phê duyệt.",
+        "Ngân sách đã được phê duyệt hôm qua."
+      ],
+      "answer": "Điều cần thiết là ngân sách phải được phê duyệt."
+    },
+    {
+      "type": "fill",
+      "prompt": "Tất cả nhân viên ___ hoàn thành khóa đào tạo trước ngày 31 tháng 3.",
+      "answer": "phải"
+    },
+    {
+      "type": "choice",
+      "prompt": "Theo BLUF, điều gì đến đầu tiên?",
+      "options": [
+        "Bối cảnh",
+        "Khuyến nghị",
+        "Rủi ro"
+      ],
+      "answer": "Khuyến nghị"
+    }
+  ]
+}
 ---
 
 # Ôn tập Unit 2

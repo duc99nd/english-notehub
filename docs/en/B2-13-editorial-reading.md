@@ -1,41 +1,54 @@
 ---
-id: b2-13-editorial-reading
-slug: b2-13-editorial-reading
-titleEn: "Editorial & Opinion Reading"
-titleVi: "Đọc bài xã luận và bài bình luận"
-subtitleEn: "Analyze opinion pieces and editorials"
-subtitleVi: "Phân tích bài bình luận và xã luận"
-level: B2
-unit: 3
-skill: reading
-order: 13
-cefr: B2
-minutes: 5
-tags: [reading, editorial, opinion, B2]
-audioScript: |
-  The author argues that remote work is here to stay.
-  Critics contend that the policy fails to address core issues.
-  Editorials often reflect the publication's political stance.
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: What does "contend" mean in opinion writing?
-    options:
-      - "To agree"
-      - "To argue or claim"
-      - "To summarize"
-    answer: "To argue or claim"
-  - type: fill
-    prompt: "Editorials often ___ the publication's political stance."
-    answer: "reflect"
-  - type: choice
-    prompt: A "stance" is:
-    options:
-      - "A position or viewpoint"
-      - "A summary"
-      - "A question"
-    answer: "A position or viewpoint"
+{
+  "id": "b2-13-editorial-reading",
+  "slug": "b2-13-editorial-reading",
+  "titleEn": "Editorial & Opinion Reading",
+  "titleVi": "Đọc bài xã luận và bài bình luận",
+  "subtitleEn": "Analyze opinion pieces and editorials",
+  "subtitleVi": "Phân tích bài bình luận và xã luận",
+  "level": "B2",
+  "unit": 3,
+  "skill": "reading",
+  "order": 13,
+  "cefr": "B2",
+  "minutes": 5,
+  "tags": [
+    "reading",
+    "editorial",
+    "opinion",
+    "B2"
+  ],
+  "audioScript": "The author argues that remote work is here to stay.\nCritics contend that the policy fails to address core issues.\nEditorials often reflect the publication's political stance.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does \"contend\" mean in opinion writing?",
+      "options": [
+        "To agree",
+        "To argue or claim",
+        "To summarize"
+      ],
+      "answer": "To argue or claim"
+    },
+    {
+      "type": "fill",
+      "prompt": "Editorials often ___ the publication's political stance.",
+      "answer": "reflect"
+    },
+    {
+      "type": "choice",
+      "prompt": "A \\ stance\\\" is:\"",
+      "options": [
+        "A position or viewpoint",
+        "A summary",
+        "A question"
+      ],
+      "answer": "A position or viewpoint"
+    }
+  ]
+}
 ---
 
 # Editorial & Opinion Reading

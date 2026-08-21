@@ -1,41 +1,55 @@
 ---
-id: c1-14-research-writing
-slug: c1-14-research-writing
-titleEn: "Research Writing"
-titleVi: "Viết nghiên cứu"
-subtitleEn: "Write a research-style paper with proper structure"
-subtitleVi: "Viết bài nghiên cứu với cấu trúc đúng đắn"
-level: C1
-unit: 3
-skill: writing
-order: 14
-cefr: C1
-minutes: 5
-tags: [writing, research, academic, structure, C1]
-audioScript: |
-  This paper examines the impact of remote work on productivity.
-  The methodology employs a mixed-methods approach.
-  The findings indicate a statistically significant improvement in output.
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: What is the standard research paper structure?
-    options:
-      - "Thesis → Body → Conclusion"
-      - "Abstract → Introduction → Methodology → Results → Discussion"
-      - "Introduction → Argument → End"
-    answer: "Abstract → Introduction → Methodology → Results → Discussion"
-  - type: fill
-    prompt: "The ___ employs a mixed-methods approach over twelve months."
-    answer: "methodology"
-  - type: choice
-    prompt: Where do you state your main finding?
-    options:
-      - "Methodology"
-      - "Abstract and Results"
-      - "Introduction"
-    answer: "Abstract and Results"
+{
+  "id": "c1-14-research-writing",
+  "slug": "c1-14-research-writing",
+  "titleEn": "Research Writing",
+  "titleVi": "Viết nghiên cứu",
+  "subtitleEn": "Write a research-style paper with proper structure",
+  "subtitleVi": "Viết bài nghiên cứu với cấu trúc đúng đắn",
+  "level": "C1",
+  "unit": 3,
+  "skill": "writing",
+  "order": 14,
+  "cefr": "C1",
+  "minutes": 5,
+  "tags": [
+    "writing",
+    "research",
+    "academic",
+    "structure",
+    "C1"
+  ],
+  "audioScript": "This paper examines the impact of remote work on productivity.\nThe methodology employs a mixed-methods approach.\nThe findings indicate a statistically significant improvement in output.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What is the standard research paper structure?",
+      "options": [
+        "Thesis → Body → Conclusion",
+        "Abstract → Introduction → Methodology → Results → Discussion",
+        "Introduction → Argument → End"
+      ],
+      "answer": "Abstract → Introduction → Methodology → Results → Discussion"
+    },
+    {
+      "type": "fill",
+      "prompt": "The ___ employs a mixed-methods approach over twelve months.",
+      "answer": "methodology"
+    },
+    {
+      "type": "choice",
+      "prompt": "Where do you state your main finding?",
+      "options": [
+        "Methodology",
+        "Abstract and Results",
+        "Introduction"
+      ],
+      "answer": "Abstract and Results"
+    }
+  ]
+}
 ---
 
 # Research Writing

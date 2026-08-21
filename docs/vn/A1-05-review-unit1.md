@@ -1,52 +1,68 @@
 ---
-id: a1-05-review-unit1
-slug: a1-05-review-unit1
-titleEn: Review Unit 1
-titleVi: Ôn tập Unit 1
-subtitleEn: Ôn tập chào hỏi, số đếm, động từ hàng ngày và gia đình
-subtitleVi: Ôn tập chào hỏi, số đếm, động từ hàng ngày và gia đình
-level: A1
-unit: 1
-skill: review
-order: 5
-cefr: A1
-minutes: 10
-tags: [review, unit1, all-skills]
-audioScript: |
-  Xin chào! Tôi tên là Mai. Tôi là sinh viên.
-  Tôi có một chị gái và một anh trai.
-  Tôi thức dậy lúc sáu. Tôi ăn sáng lúc bảy.
-  Số điện thoại của tôi là không chín một, hai ba bốn, năm sáu bảy tám.
-listeningEnabled: true
-flashcardCount: 10
-quiz:
-  - type: choice
-    prompt: Bạn giới thiệu bản thân bằng tiếng Anh như thế nào?
-    options:
-      - "My name is..."
-      - "Me name is..."
-      - "I name is..."
-    answer: "My name is..."
-  - type: fill
-    prompt: "My phone number is 091 567 890. Write the number:"
-    answer: "091567890"
-  - type: choice
-    prompt: Động từ nào có nghĩa là "ăn"?
-    options:
-      - eat
-      - drink
-      - sleep
-    answer: eat
-  - type: fill
-    prompt: "This is my ___. She is my mom. (mẹ)"
-    answer: "mother"
-  - type: choice
-    prompt: "Thức dậy" bằng tiếng Anh là gì?
-    options:
-      - sleep
-      - wake up
-      - eat
-    answer: wake up
+{
+  "id": "a1-05-review-unit1",
+  "slug": "a1-05-review-unit1",
+  "titleEn": "Review Unit 1",
+  "titleVi": "Ôn tập Unit 1",
+  "subtitleEn": "Ôn tập chào hỏi, số đếm, động từ hàng ngày và gia đình",
+  "subtitleVi": "Ôn tập chào hỏi, số đếm, động từ hàng ngày và gia đình",
+  "level": "A1",
+  "unit": 1,
+  "skill": "review",
+  "order": 5,
+  "cefr": "A1",
+  "minutes": 10,
+  "tags": [
+    "review",
+    "unit1",
+    "all-skills"
+  ],
+  "audioScript": "Xin chào! Tôi tên là Mai. Tôi là sinh viên.\nTôi có một chị gái và một anh trai.\nTôi thức dậy lúc sáu. Tôi ăn sáng lúc bảy.\nSố điện thoại của tôi là không chín một, hai ba bốn, năm sáu bảy tám.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 10,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Bạn giới thiệu bản thân bằng tiếng Anh như thế nào?",
+      "options": [
+        "My name is...",
+        "Me name is...",
+        "I name is..."
+      ],
+      "answer": "My name is..."
+    },
+    {
+      "type": "fill",
+      "prompt": "My phone number is 091 567 890. Write the number:",
+      "answer": "091567890"
+    },
+    {
+      "type": "choice",
+      "prompt": "Động từ nào có nghĩa là \"ăn\"?",
+      "options": [
+        "eat",
+        "drink",
+        "sleep"
+      ],
+      "answer": "eat"
+    },
+    {
+      "type": "fill",
+      "prompt": "This is my ___. She is my mom. (mẹ)",
+      "answer": "mother"
+    },
+    {
+      "type": "choice",
+      "prompt": "Thức dậy bằng tiếng Anh là gì?",
+      "options": [
+        "sleep",
+        "wake up",
+        "eat"
+      ],
+      "answer": "wake up"
+    }
+  ]
+}
 ---
 
 # Ôn tập Unit 1

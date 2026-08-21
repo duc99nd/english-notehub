@@ -1,42 +1,54 @@
 ---
-id: a1-06-time-place
-slug: a1-06-time-place
-titleEn: Time & Places
-titleVi: Thời gian & Địa điểm
-subtitleEn: Learn words for times of day and common places
-subtitleVi: Học từ vựng về thời gian trong ngày và các địa điểm phổ biến
-level: A1
-unit: 2
-skill: vocab
-order: 6
-cefr: A1
-minutes: 5
-tags: [time, places, daily, vocab]
-audioScript: |
-  In the morning, I go to school.
-  In the afternoon, I study English.
-  In the evening, I watch TV at home.
-  On Sunday, I visit my grandmother.
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: What time is "morning"?
-    options:
-      - 6am-12pm
-      - 12pm-6pm
-      - 6pm-12am
-    answer: 6am-12pm
-  - type: fill
-    prompt: "I eat lunch at noon. Noon means ___ o'clock."
-    answer: 'twelve'
-  - type: choice
-    prompt: Where do you sleep?
-    options:
-      - school
-      - home
-      - office
-    answer: home
+{
+  "id": "a1-06-time-place",
+  "slug": "a1-06-time-place",
+  "titleEn": "Time & Places",
+  "titleVi": "Thời gian & Địa điểm",
+  "subtitleEn": "Learn words for times of day and common places",
+  "subtitleVi": "Học từ vựng về thời gian trong ngày và các địa điểm phổ biến",
+  "level": "A1",
+  "unit": 2,
+  "skill": "vocab",
+  "order": 6,
+  "cefr": "A1",
+  "minutes": 5,
+  "tags": [
+    "time",
+    "places",
+    "daily",
+    "vocab"
+  ],
+  "audioScript": "In the morning, I go to school.\nIn the afternoon, I study English.\nIn the evening, I watch TV at home.\nOn Sunday, I visit my grandmother.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What time is \"morning\"?",
+      "options": [
+        "6am-12pm",
+        "12pm-6pm",
+        "6pm-12am"
+      ],
+      "answer": "6am-12pm"
+    },
+    {
+      "type": "fill",
+      "prompt": "I eat lunch at noon. Noon means ___ o'clock.",
+      "answer": "twelve"
+    },
+    {
+      "type": "choice",
+      "prompt": "Where do you sleep?",
+      "options": [
+        "school",
+        "home",
+        "office"
+      ],
+      "answer": "home"
+    }
+  ]
+}
 ---
 
 # Time & Places

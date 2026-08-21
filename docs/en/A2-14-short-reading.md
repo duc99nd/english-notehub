@@ -1,41 +1,54 @@
 ---
-id: a2-14-short-reading
-slug: a2-14-short-reading
-titleEn: Short Reading
-titleVi: Đọc Hiểu Ngắn
-subtitleEn: Read short personal stories about travel and work
-subtitleVi: Đọc các câu chuyện ngắn về du lịch và công việc
-level: A2
-unit: 3
-skill: reading
-order: 14
-cefr: A2
-minutes: 5
-tags: [reading, short-text, experiences, A2]
-audioScript: |
-  Maria has traveled to twelve countries.
-  Tom has worked at the same company since 2018.
-  They have both learned English for many years.
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: How many countries has Maria visited?
-    options:
-      - "Two"
-      - "Twelve"
-      - "Twenty"
-    answer: "Twelve"
-  - type: fill
-    prompt: "Tom has worked at the same company ___ 2018."
-    answer: "since"
-  - type: choice
-    prompt: "They have learned English for many years." What tense is "have learned"?
-    options:
-      - "Past simple"
-      - "Present perfect"
-      - "Future"
-    answer: "Present perfect"
+{
+  "id": "a2-14-short-reading",
+  "slug": "a2-14-short-reading",
+  "titleEn": "Short Reading",
+  "titleVi": "Đọc Hiểu Ngắn",
+  "subtitleEn": "Read short personal stories about travel and work",
+  "subtitleVi": "Đọc các câu chuyện ngắn về du lịch và công việc",
+  "level": "A2",
+  "unit": 3,
+  "skill": "reading",
+  "order": 14,
+  "cefr": "A2",
+  "minutes": 5,
+  "tags": [
+    "reading",
+    "short-text",
+    "experiences",
+    "A2"
+  ],
+  "audioScript": "Maria has traveled to twelve countries.\nTom has worked at the same company since 2018.\nThey have both learned English for many years.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "How many countries has Maria visited?",
+      "options": [
+        "Two",
+        "Twelve",
+        "Twenty"
+      ],
+      "answer": "Twelve"
+    },
+    {
+      "type": "fill",
+      "prompt": "Tom has worked at the same company ___ 2018.",
+      "answer": "since"
+    },
+    {
+      "type": "choice",
+      "prompt": "They have learned English for many years. What tense is \"have learned\"?",
+      "options": [
+        "Past simple",
+        "Present perfect",
+        "Future"
+      ],
+      "answer": "Present perfect"
+    }
+  ]
+}
 ---
 
 # Short Reading

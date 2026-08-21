@@ -1,42 +1,54 @@
 ---
-id: a1-06-time-place
-slug: a1-06-time-place
-titleEn: Time & Places
-titleVi: Thời gian & Địa điểm
-subtitleEn: Học từ vựng về thời gian trong ngày và các địa điểm phổ biến
-subtitleVi: Học từ vựng về thời gian trong ngày và các địa điểm phổ biến
-level: A1
-unit: 2
-skill: vocab
-order: 6
-cefr: A1
-minutes: 5
-tags: [time, places, daily, vocab]
-audioScript: |
-  Buổi sáng, tôi đi học.
-  Buổi chiều, tôi học tiếng Anh.
-  Buổi tối, tôi xem TV ở nhà.
-  Chủ Nhật, tôi đến thăm bà.
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: "Buổi sáng" (morning) là thời gian nào?
-    options:
-      - 6 giờ sáng - 12 giờ trưa
-      - 12 giờ trưa - 6 giờ chiều
-      - 6 giờ chiều - 12 giờ đêm
-    answer: 6 giờ sáng - 12 giờ trưa
-  - type: fill
-    prompt: "I eat lunch at noon. Noon means ___ o'clock."
-    answer: "twelve"
-  - type: choice
-    prompt: Bạn ngủ ở đâu?
-    options:
-      - school
-      - home
-      - office
-    answer: home
+{
+  "id": "a1-06-time-place",
+  "slug": "a1-06-time-place",
+  "titleEn": "Time & Places",
+  "titleVi": "Thời gian & Địa điểm",
+  "subtitleEn": "Học từ vựng về thời gian trong ngày và các địa điểm phổ biến",
+  "subtitleVi": "Học từ vựng về thời gian trong ngày và các địa điểm phổ biến",
+  "level": "A1",
+  "unit": 2,
+  "skill": "vocab",
+  "order": 6,
+  "cefr": "A1",
+  "minutes": 5,
+  "tags": [
+    "time",
+    "places",
+    "daily",
+    "vocab"
+  ],
+  "audioScript": "Buổi sáng, tôi đi học.\nBuổi chiều, tôi học tiếng Anh.\nBuổi tối, tôi xem TV ở nhà.\nChủ Nhật, tôi đến thăm bà.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Buổi sáng (morning) là thời gian nào?",
+      "options": [
+        "6 giờ sáng - 12 giờ trưa",
+        "12 giờ trưa - 6 giờ chiều",
+        "6 giờ chiều - 12 giờ đêm"
+      ],
+      "answer": "6 giờ sáng - 12 giờ trưa"
+    },
+    {
+      "type": "fill",
+      "prompt": "I eat lunch at noon. Noon means ___ o'clock.",
+      "answer": "twelve"
+    },
+    {
+      "type": "choice",
+      "prompt": "Bạn ngủ ở đâu?",
+      "options": [
+        "school",
+        "home",
+        "office"
+      ],
+      "answer": "home"
+    }
+  ]
+}
 ---
 
 # Thời gian & Địa điểm

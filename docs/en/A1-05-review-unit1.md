@@ -1,52 +1,68 @@
 ---
-id: a1-05-review-unit1
-slug: a1-05-review-unit1
-titleEn: Review Unit 1
-titleVi: Ôn tập Unit 1
-subtitleEn: Review greetings, numbers, daily verbs, and family
-subtitleVi: Ôn tập chào hỏi, số đếm, động từ hàng ngày và gia đình
-level: A1
-unit: 1
-skill: review
-order: 5
-cefr: A1
-minutes: 10
-tags: [review, unit1, all-skills]
-audioScript: |
-  Hello! My name is Mai. I am a student.
-  I have one sister and one brother.
-  I wake up at six. I eat breakfast at seven.
-  My phone number is zero nine one, two three four, five six seven eight.
-listeningEnabled: true
-flashcardCount: 10
-quiz:
-  - type: choice
-    prompt: How do you introduce yourself in English?
-    options:
-      - 'My name is...'
-      - 'Me name is...'
-      - 'I name is...'
-    answer: 'My name is...'
-  - type: fill
-    prompt: 'My phone number is zero nine one, five six seven, eight nine zero. Write the number:'
-    answer: '091567890'
-  - type: choice
-    prompt: Which verb is correct for "ăn"?
-    options:
-      - eat
-      - drink
-      - sleep
-    answer: eat
-  - type: fill
-    prompt: 'This is my ___. She is my mom. (mẹ)'
-    answer: 'mother'
-  - type: choice
-    prompt: What time do you wake up? (thức dậy)
-    options:
-      - I sleep.
-      - I eat.
-      - I wake up.
-    answer: I wake up.
+{
+  "id": "a1-05-review-unit1",
+  "slug": "a1-05-review-unit1",
+  "titleEn": "Review Unit 1",
+  "titleVi": "Ôn tập Unit 1",
+  "subtitleEn": "Review greetings, numbers, daily verbs, and family",
+  "subtitleVi": "Ôn tập chào hỏi, số đếm, động từ hàng ngày và gia đình",
+  "level": "A1",
+  "unit": 1,
+  "skill": "review",
+  "order": 5,
+  "cefr": "A1",
+  "minutes": 10,
+  "tags": [
+    "review",
+    "unit1",
+    "all-skills"
+  ],
+  "audioScript": "Hello! My name is Mai. I am a student.\nI have one sister and one brother.\nI wake up at six. I eat breakfast at seven.\nMy phone number is zero nine one, two three four, five six seven eight.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 10,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "How do you introduce yourself in English?",
+      "options": [
+        "My name is...",
+        "Me name is...",
+        "I name is..."
+      ],
+      "answer": "My name is..."
+    },
+    {
+      "type": "fill",
+      "prompt": "My phone number is zero nine one, five six seven, eight nine zero. Write the number:",
+      "answer": "091567890"
+    },
+    {
+      "type": "choice",
+      "prompt": "Which verb is correct for \"ăn\"?",
+      "options": [
+        "eat",
+        "drink",
+        "sleep"
+      ],
+      "answer": "eat"
+    },
+    {
+      "type": "fill",
+      "prompt": "This is my ___. She is my mom. (mẹ)",
+      "answer": "mother"
+    },
+    {
+      "type": "choice",
+      "prompt": "What time do you wake up? (thức dậy)",
+      "options": [
+        "I sleep.",
+        "I eat.",
+        "I wake up."
+      ],
+      "answer": "I wake up."
+    }
+  ]
+}
 ---
 
 # Review Unit 1

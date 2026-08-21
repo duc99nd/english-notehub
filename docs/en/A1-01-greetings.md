@@ -1,41 +1,53 @@
 ---
-id: a1-01-greetings
-slug: a1-01-greetings
-titleEn: Greetings & Self-introduction
-titleVi: Chào hỏi & Giới thiệu bản thân
-subtitleEn: Learn to say hello and introduce yourself in English
-subtitleVi: Học cách chào hỏi và giới thiệu bản thân bằng tiếng Anh
-level: A1
-unit: 1
-skill: vocab
-order: 1
-cefr: A1
-minutes: 5
-tags: [greetings, daily, foundation]
-audioScript: |
-  Hello. My name is Anna. I am a software developer.
-  I work at a small company in Ho Chi Minh City.
-  Nice to meet you.
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: How do you say "Tôi tên là..." in English?
-    options:
-      - "My name is..."
-      - "I am name..."
-      - "Me name is..."
-    answer: "My name is..."
-  - type: fill
-    prompt: "___ name is Duc."
-    answer: "My"
-  - type: choice
-    prompt: Which phrase is correct for a formal meeting?
-    options:
-      - "Hey, what's up?"
-      - "Nice to meet you."
-      - "Yo bro!"
-    answer: "Nice to meet you."
+{
+  "id": "a1-01-greetings",
+  "slug": "a1-01-greetings",
+  "titleEn": "Greetings & Self-introduction",
+  "titleVi": "Chào hỏi & Giới thiệu bản thân",
+  "subtitleEn": "Learn to say hello and introduce yourself in English",
+  "subtitleVi": "Học cách chào hỏi và giới thiệu bản thân bằng tiếng Anh",
+  "level": "A1",
+  "unit": 1,
+  "skill": "vocab",
+  "order": 1,
+  "cefr": "A1",
+  "minutes": 5,
+  "tags": [
+    "greetings",
+    "daily",
+    "foundation"
+  ],
+  "audioScript": "Hello. My name is Anna. I am a software developer.\nI work at a small company in Ho Chi Minh City.\nNice to meet you.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "How do you say \"Tôi tên là...\" in English?",
+      "options": [
+        "My name is...",
+        "I am name...",
+        "Me name is..."
+      ],
+      "answer": "My name is..."
+    },
+    {
+      "type": "fill",
+      "prompt": "___ name is Duc.",
+      "answer": "My"
+    },
+    {
+      "type": "choice",
+      "prompt": "Which phrase is correct for a formal meeting?",
+      "options": [
+        "Hey, what's up?",
+        "Nice to meet you.",
+        "Yo bro!"
+      ],
+      "answer": "Nice to meet you."
+    }
+  ]
+}
 ---
 
 # Greetings & Self-introduction

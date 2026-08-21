@@ -1,41 +1,54 @@
 ---
-id: a2-08-future-plans
-slug: a2-08-future-plans
-titleEn: Future Plans
-titleVi: Kế hoạch tương lai
-subtitleEn: Talk about intentions and plans using going to and will
-subtitleVi: Nói về ý định và kế hoạch sử dụng going to và will
-level: A2
-unit: 2
-skill: reading
-order: 8
-cefr: A2
-minutes: 5
-tags: [future, grammar, plans, reading]
-audioScript: |
-  I am going to visit my grandmother this weekend.
-  I will call you later.
-  We are going to start a new project.
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: Which is correct for a planned decision?
-    options:
-      - 'I will go to the cinema.'
-      - 'I am going to go to the cinema.'
-      - 'I going to go to the cinema.'
-    answer: 'I am going to go to the cinema.'
-  - type: fill
-    prompt: 'She ___ (call) you tomorrow. Choose: will / is going to'
-    answer: 'will'
-  - type: choice
-    prompt: When do we use "will"?
-    options:
-      - 'For planned decisions'
-      - 'For spontaneous decisions or predictions'
-      - 'For past events'
-    answer: 'For spontaneous decisions or predictions'
+{
+  "id": "a2-08-future-plans",
+  "slug": "a2-08-future-plans",
+  "titleEn": "Future Plans",
+  "titleVi": "Kế hoạch tương lai",
+  "subtitleEn": "Talk about intentions and plans using going to and will",
+  "subtitleVi": "Nói về ý định và kế hoạch sử dụng going to và will",
+  "level": "A2",
+  "unit": 2,
+  "skill": "reading",
+  "order": 8,
+  "cefr": "A2",
+  "minutes": 5,
+  "tags": [
+    "future",
+    "grammar",
+    "plans",
+    "reading"
+  ],
+  "audioScript": "I am going to visit my grandmother this weekend.\nI will call you later.\nWe are going to start a new project.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Which is correct for a planned decision?",
+      "options": [
+        "I will go to the cinema.",
+        "I am going to go to the cinema.",
+        "I going to go to the cinema."
+      ],
+      "answer": "I am going to go to the cinema."
+    },
+    {
+      "type": "fill",
+      "prompt": "She ___ (call) you tomorrow. Choose: will / is going to",
+      "answer": "will"
+    },
+    {
+      "type": "choice",
+      "prompt": "When do we use \"will\"?",
+      "options": [
+        "For planned decisions",
+        "For spontaneous decisions or predictions",
+        "For past events"
+      ],
+      "answer": "For spontaneous decisions or predictions"
+    }
+  ]
+}
 ---
 
 # Future Plans

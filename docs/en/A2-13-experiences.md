@@ -1,41 +1,54 @@
 ---
-id: a2-13-experiences
-slug: a2-13-experiences
-titleEn: Experiences
-titleVi: Kinh nghiệm
-subtitleEn: Talk about experiences using the present perfect
-subtitleVi: Nói về kinh nghiệm sử dụng thì hiện tại hoàn thành
-level: A2
-unit: 3
-skill: grammar
-order: 13
-cefr: A2
-minutes: 5
-tags: [grammar, present-perfect, experiences, A2]
-audioScript: |
-  I have visited Japan twice.
-  She has lived here for three years.
-  Have you ever tried sushi?
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: Which is the correct present perfect?
-    options:
-      - "I have visited Tokyo."
-      - "I have visit Tokyo."
-      - "I visited have Tokyo."
-    answer: "I have visited Tokyo."
-  - type: fill
-    prompt: "She ___ lived here for three years."
-    answer: "has"
-  - type: choice
-    prompt: "Have you ever ___ sushi?" — Choose the right form
-    options:
-      - "tried"
-      - "try"
-      - "trying"
-    answer: "tried"
+{
+  "id": "a2-13-experiences",
+  "slug": "a2-13-experiences",
+  "titleEn": "Experiences",
+  "titleVi": "Kinh nghiệm",
+  "subtitleEn": "Talk about experiences using the present perfect",
+  "subtitleVi": "Nói về kinh nghiệm sử dụng thì hiện tại hoàn thành",
+  "level": "A2",
+  "unit": 3,
+  "skill": "grammar",
+  "order": 13,
+  "cefr": "A2",
+  "minutes": 5,
+  "tags": [
+    "grammar",
+    "present-perfect",
+    "experiences",
+    "A2"
+  ],
+  "audioScript": "I have visited Japan twice.\nShe has lived here for three years.\nHave you ever tried sushi?\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Which is the correct present perfect?",
+      "options": [
+        "I have visited Tokyo.",
+        "I have visit Tokyo.",
+        "I visited have Tokyo."
+      ],
+      "answer": "I have visited Tokyo."
+    },
+    {
+      "type": "fill",
+      "prompt": "She ___ lived here for three years.",
+      "answer": "has"
+    },
+    {
+      "type": "choice",
+      "prompt": "Have you ever ___ sushi? — Choose the right form",
+      "options": [
+        "tried",
+        "try",
+        "trying"
+      ],
+      "answer": "tried"
+    }
+  ]
+}
 ---
 
 # Experiences

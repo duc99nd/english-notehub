@@ -1,42 +1,54 @@
 ---
-id: a1-07-food
-slug: a1-07-food
-titleEn: Food & Drinks
-titleVi: Thức ăn & Đồ uống
-subtitleEn: Học từ vựng về thức ăn và cách gọi món ở nhà hàng
-subtitleVi: Học từ vựng về thức ăn và cách gọi món ở nhà hàng
-level: A1
-unit: 2
-skill: grammar
-order: 7
-cefr: A1
-minutes: 5
-tags: [food, drinks, restaurant, grammar]
-audioScript: |
-  Tôi muốn gọi cơm và thịt gà ạ.
-  Tôi uống nước mỗi ngày. Đôi khi tôi uống cà phê.
-  Bữa sáng, tôi ăn bánh mì và trứng.
-  Bạn có thích trái cây không?
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: '"Tôi muốn gọi một ít ___, được không ạ." (thịt gà)'
-    options:
-      - fish
-      - chicken
-      - beef
-    answer: chicken
-  - type: fill
-    prompt: "I drink ___ every day. It's good for health. (nước)"
-    answer: 'water'
-  - type: choice
-    prompt: Từ nào có nghĩa là "trái cây"?
-    options:
-      - vegetable
-      - fruit
-      - bread
-    answer: fruit
+{
+  "id": "a1-07-food",
+  "slug": "a1-07-food",
+  "titleEn": "Food & Drinks",
+  "titleVi": "Thức ăn & Đồ uống",
+  "subtitleEn": "Học từ vựng về thức ăn và cách gọi món ở nhà hàng",
+  "subtitleVi": "Học từ vựng về thức ăn và cách gọi món ở nhà hàng",
+  "level": "A1",
+  "unit": 2,
+  "skill": "grammar",
+  "order": 7,
+  "cefr": "A1",
+  "minutes": 5,
+  "tags": [
+    "food",
+    "drinks",
+    "restaurant",
+    "grammar"
+  ],
+  "audioScript": "Tôi muốn gọi cơm và thịt gà ạ.\nTôi uống nước mỗi ngày. Đôi khi tôi uống cà phê.\nBữa sáng, tôi ăn bánh mì và trứng.\nBạn có thích trái cây không?\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "\"Tôi muốn gọi một ít ___, được không ạ.\" (thịt gà)",
+      "options": [
+        "fish",
+        "chicken",
+        "beef"
+      ],
+      "answer": "chicken"
+    },
+    {
+      "type": "fill",
+      "prompt": "I drink ___ every day. It's good for health. (nước)",
+      "answer": "water"
+    },
+    {
+      "type": "choice",
+      "prompt": "Từ nào có nghĩa là \"trái cây\"?",
+      "options": [
+        "vegetable",
+        "fruit",
+        "bread"
+      ],
+      "answer": "fruit"
+    }
+  ]
+}
 ---
 
 # Thức ăn & Đồ uống

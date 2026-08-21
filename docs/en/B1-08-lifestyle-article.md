@@ -1,41 +1,55 @@
 ---
-id: b1-08-lifestyle-article
-slug: b1-08-lifestyle-article
-titleEn: Magazine Article: Healthy Lifestyle
-titleVi: Bài báo Tạp chí: Lối sống lành mạnh
-subtitleEn: Read an article about maintaining a healthy work-life balance
-subtitleVi: Đọc bài viết về việc duy trì sự cân bằng công việc và cuộc sống
-level: B1
-unit: 2
-skill: reading
-order: 8
-cefr: B1
-minutes: 5
-tags: [reading, lifestyle, health, work-life-balance, article]
-audioScript: |
-  More and more people are working remotely these days.
-  Experts recommend taking regular breaks throughout the day.
-  A healthy lifestyle includes both physical and mental well-being.
-listeningEnabled: true
-flashcardCount: 8
-quiz:
-  - type: choice
-    prompt: What does 'work-life balance' mean?
-    options:
-      - "Only working, no personal life"
-      - "A healthy separation between job and personal time"
-      - "Working more hours"
-    answer: "A healthy separation between job and personal time"
-  - type: fill
-    prompt: "You should take regular ___ to stay productive."
-    answer: "breaks"
-  - type: choice
-    prompt: What is a 'sedentary lifestyle'?
-    options:
-      - "An active lifestyle with lots of exercise"
-      - "A lifestyle with little physical activity"
-      - "A very busy schedule"
-    answer: "A lifestyle with little physical activity"
+{
+  "id": "b1-08-lifestyle-article",
+  "slug": "b1-08-lifestyle-article",
+  "titleEn": "Magazine Article: Healthy Lifestyle",
+  "titleVi": "Bài báo Tạp chí: Lối sống lành mạnh",
+  "subtitleEn": "Read an article about maintaining a healthy work-life balance",
+  "subtitleVi": "Đọc bài viết về việc duy trì sự cân bằng công việc và cuộc sống",
+  "level": "B1",
+  "unit": 2,
+  "skill": "reading",
+  "order": 8,
+  "cefr": "B1",
+  "minutes": 5,
+  "tags": [
+    "reading",
+    "lifestyle",
+    "health",
+    "work-life-balance",
+    "article"
+  ],
+  "audioScript": "More and more people are working remotely these days.\nExperts recommend taking regular breaks throughout the day.\nA healthy lifestyle includes both physical and mental well-being.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 8,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does 'work-life balance' mean?",
+      "options": [
+        "Only working, no personal life",
+        "A healthy separation between job and personal time",
+        "Working more hours"
+      ],
+      "answer": "A healthy separation between job and personal time"
+    },
+    {
+      "type": "fill",
+      "prompt": "You should take regular ___ to stay productive.",
+      "answer": "breaks"
+    },
+    {
+      "type": "choice",
+      "prompt": "What is a 'sedentary lifestyle'?",
+      "options": [
+        "An active lifestyle with lots of exercise",
+        "A lifestyle with little physical activity",
+        "A very busy schedule"
+      ],
+      "answer": "A lifestyle with little physical activity"
+    }
+  ]
+}
 ---
 
 # Magazine Article: Healthy Lifestyle

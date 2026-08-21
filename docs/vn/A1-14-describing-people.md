@@ -1,41 +1,55 @@
 ---
-id: a1-14-describing-people
-slug: a1-14-describing-people
-titleEn: 'Describing People'
-titleVi: 'Miêu tả con người'
-subtitleEn: Learn vocabulary to describe people's appearance and personality
-subtitleVi: Học từ vựng để miêu tả ngoại hình và tính cách con người
-level: A1
-unit: 3
-skill: vocab
-order: 14
-cefr: A1
-minutes: 5
-tags: [describing, people, appearance, personality, vocab]
-audioScript: |
-  Cô ấy cao với tóc đen dài.
-  Anh ấy thân thiện và hài hước.
-  Em trai tôi có mắt nâu.
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: Từ nào mô tả màu tóc?
-    options:
-      - 'Cao'
-      - 'Đen'
-      - 'Thân thiện'
-    answer: 'Đen'
-  - type: fill
-    prompt: 'Cô ấy ___ và thân thiện. (cao)'
-    answer: 'cao'
-  - type: choice
-    prompt: Đặc điểm tính cách là gì?
-    options:
-      - 'Màu tóc'
-      - 'Thân thiện'
-      - 'Chiều cao'
-    answer: 'Thân thiện'
+{
+  "id": "a1-14-describing-people",
+  "slug": "a1-14-describing-people",
+  "titleEn": "Describing People",
+  "titleVi": "Miêu tả con người",
+  "subtitleEn": "Learn vocabulary to describe people's appearance and personality",
+  "subtitleVi": "Học từ vựng để miêu tả ngoại hình và tính cách con người",
+  "level": "A1",
+  "unit": 3,
+  "skill": "vocab",
+  "order": 14,
+  "cefr": "A1",
+  "minutes": 5,
+  "tags": [
+    "describing",
+    "people",
+    "appearance",
+    "personality",
+    "vocab"
+  ],
+  "audioScript": "Cô ấy cao với tóc đen dài.\nAnh ấy thân thiện và hài hước.\nEm trai tôi có mắt nâu.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Từ nào mô tả màu tóc?",
+      "options": [
+        "Cao",
+        "Đen",
+        "Thân thiện"
+      ],
+      "answer": "Đen"
+    },
+    {
+      "type": "fill",
+      "prompt": "Cô ấy ___ và thân thiện. (cao)",
+      "answer": "cao"
+    },
+    {
+      "type": "choice",
+      "prompt": "Đặc điểm tính cách là gì?",
+      "options": [
+        "Màu tóc",
+        "Thân thiện",
+        "Chiều cao"
+      ],
+      "answer": "Thân thiện"
+    }
+  ]
+}
 ---
 
 # Miêu tả con người

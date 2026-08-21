@@ -1,41 +1,55 @@
 ---
-id: c1-11-academic-discourse
-slug: c1-11-academic-discourse
-titleEn: "Academic Discourse"
-titleVi: "Diễn ngôn Học thuật"
-subtitleEn: "Master academic vocabulary and hedging"
-subtitleVi: "Làm chủ từ vựng học thuật và ngôn ngữ thận trọng"
-level: C1
-unit: 3
-skill: vocab
-order: 11
-cefr: C1
-minutes: 5
-tags: [vocab, academic, discourse, hedging, C1]
-audioScript: |
-  The findings suggest a correlation between the variables.
-  The methodology warrants further investigation.
-  The literature indicates a gap in current research.
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: What is "hedging" in academic writing?
-    options:
-      - "Strong claims"
-      - "Cautious, qualified language"
-      - "Technical jargon"
-    answer: "Cautious, qualified language"
-  - type: fill
-    prompt: "The findings ___ a correlation between the variables."
-    answer: "suggest"
-  - type: choice
-    prompt: Which is a hedging word?
-    options:
-      - "Proves"
-      - "Suggests"
-      - "Guarantees"
-    answer: "Suggests"
+{
+  "id": "c1-11-academic-discourse",
+  "slug": "c1-11-academic-discourse",
+  "titleEn": "Academic Discourse",
+  "titleVi": "Diễn ngôn Học thuật",
+  "subtitleEn": "Master academic vocabulary and hedging",
+  "subtitleVi": "Làm chủ từ vựng học thuật và ngôn ngữ thận trọng",
+  "level": "C1",
+  "unit": 3,
+  "skill": "vocab",
+  "order": 11,
+  "cefr": "C1",
+  "minutes": 5,
+  "tags": [
+    "vocab",
+    "academic",
+    "discourse",
+    "hedging",
+    "C1"
+  ],
+  "audioScript": "The findings suggest a correlation between the variables.\nThe methodology warrants further investigation.\nThe literature indicates a gap in current research.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What is \"hedging\" in academic writing?",
+      "options": [
+        "Strong claims",
+        "Cautious, qualified language",
+        "Technical jargon"
+      ],
+      "answer": "Cautious, qualified language"
+    },
+    {
+      "type": "fill",
+      "prompt": "The findings ___ a correlation between the variables.",
+      "answer": "suggest"
+    },
+    {
+      "type": "choice",
+      "prompt": "Which is a hedging word?",
+      "options": [
+        "Proves",
+        "Suggests",
+        "Guarantees"
+      ],
+      "answer": "Suggests"
+    }
+  ]
+}
 ---
 
 # Academic Discourse

@@ -1,42 +1,54 @@
 ---
-id: a1-11-shopping-money
-slug: a1-11-shopping-money
-titleEn: Shopping & Money
-titleVi: Mua sắm & Tiền bạc
-subtitleEn: Learn vocabulary for shopping and talking about prices
-subtitleVi: Học từ vựng về mua sắm và cách nói về giá cả
-level: A1
-unit: 3
-skill: vocab
-order: 11
-cefr: A1
-minutes: 5
-tags: [shopping, money, vocab, daily]
-audioScript: |
-  How much does this shirt cost?
-  It costs fifty thousand dong.
-  I would like to buy this book, please.
-  Do you accept credit cards?
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: fill
-    prompt: "___ much does this cost? (bao nhiêu)"
-    answer: "How"
-  - type: choice
-    prompt: "How much" dùng để hỏi gì?
-    options:
-      - Số lượng
-      - Giá cả
-      - Chất lượng
-    answer: Giá cả
-  - type: choice
-    prompt: "Cheap" có nghĩa là gì?
-    options:
-      - Đắt
-      - Rẻ
-      - Lớn
-    answer: Rẻ
+{
+  "id": "a1-11-shopping-money",
+  "slug": "a1-11-shopping-money",
+  "titleEn": "Shopping & Money",
+  "titleVi": "Mua sắm & Tiền bạc",
+  "subtitleEn": "Learn vocabulary for shopping and talking about prices",
+  "subtitleVi": "Học từ vựng về mua sắm và cách nói về giá cả",
+  "level": "A1",
+  "unit": 3,
+  "skill": "vocab",
+  "order": 11,
+  "cefr": "A1",
+  "minutes": 5,
+  "tags": [
+    "shopping",
+    "money",
+    "vocab",
+    "daily"
+  ],
+  "audioScript": "How much does this shirt cost?\nIt costs fifty thousand dong.\nI would like to buy this book, please.\nDo you accept credit cards?\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "fill",
+      "prompt": "___ much does this cost? (bao nhiêu)",
+      "answer": "How"
+    },
+    {
+      "type": "choice",
+      "prompt": "How much dùng để hỏi gì?",
+      "options": [
+        "Số lượng",
+        "Giá cả",
+        "Chất lượng"
+      ],
+      "answer": "Giá cả"
+    },
+    {
+      "type": "choice",
+      "prompt": "Cheap có nghĩa là gì?",
+      "options": [
+        "Đắt",
+        "Rẻ",
+        "Lớn"
+      ],
+      "answer": "Rẻ"
+    }
+  ]
+}
 ---
 
 # Shopping & Money

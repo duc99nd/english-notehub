@@ -1,41 +1,57 @@
 ---
-id: b1-02-past-tenses
-slug: b1-02-past-tenses
-titleEn: Past Tenses & Narratives
-titleVi: Các Thì Quá khứ & Kể chuyện
-subtitleEn: Master past simple, past continuous, and past perfect
-subtitleVi: Thành thạo thì quá khứ đơn, quá khứ tiếp diễn và quá khứ hoàn thành
-level: B1
-unit: 1
-skill: grammar
-order: 2
-cefr: B1
-minutes: 5
-tags: [past-tenses, grammar, narrative, story, past-simple, past-continuous, past-perfect]
-audioScript: |
-  I was walking down the street when it started raining.
-  She had already left by the time I arrived.
-  We spent three hours at the museum yesterday.
-listeningEnabled: true
-flashcardCount: 8
-quiz:
-  - type: choice
-    prompt: Which tense describes an action in progress in the past?
-    options:
-      - 'Past Simple'
-      - 'Past Continuous'
-      - 'Future Simple'
-    answer: 'Past Continuous'
-  - type: fill
-    prompt: 'I ___ (study) when the phone rang.'
-    answer: 'was studying'
-  - type: choice
-    prompt: When do we use Past Perfect?
-    options:
-      - 'For actions that happened before another past action'
-      - 'For current actions'
-      - 'For future plans'
-    answer: 'For actions that happened before another past action'
+{
+  "id": "b1-02-past-tenses",
+  "slug": "b1-02-past-tenses",
+  "titleEn": "Past Tenses & Narratives",
+  "titleVi": "Các Thì Quá khứ & Kể chuyện",
+  "subtitleEn": "Master past simple, past continuous, and past perfect",
+  "subtitleVi": "Thành thạo thì quá khứ đơn, quá khứ tiếp diễn và quá khứ hoàn thành",
+  "level": "B1",
+  "unit": 1,
+  "skill": "grammar",
+  "order": 2,
+  "cefr": "B1",
+  "minutes": 5,
+  "tags": [
+    "past-tenses",
+    "grammar",
+    "narrative",
+    "story",
+    "past-simple",
+    "past-continuous",
+    "past-perfect"
+  ],
+  "audioScript": "I was walking down the street when it started raining.\nShe had already left by the time I arrived.\nWe spent three hours at the museum yesterday.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 8,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Which tense describes an action in progress in the past?",
+      "options": [
+        "Past Simple",
+        "Past Continuous",
+        "Future Simple"
+      ],
+      "answer": "Past Continuous"
+    },
+    {
+      "type": "fill",
+      "prompt": "I ___ (study) when the phone rang.",
+      "answer": "was studying"
+    },
+    {
+      "type": "choice",
+      "prompt": "When do we use Past Perfect?",
+      "options": [
+        "For actions that happened before another past action",
+        "For current actions",
+        "For future plans"
+      ],
+      "answer": "For actions that happened before another past action"
+    }
+  ]
+}
 ---
 
 # Past Tenses & Narratives

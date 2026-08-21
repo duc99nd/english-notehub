@@ -1,43 +1,58 @@
 ---
-id: c2-14-professional-poetry
-slug: c2-14-professional-poetry
-titleEn: Professional Poetry
-titleVi: Thơ Chuyên nghiệp
-subtitleEn: Write poetry for professional contexts — speeches, commemorations, and corporate communications
-subtitleVi: Viết thơ cho các bối cảnh chuyên nghiệp — diễn văn, kỷ niệm và giao tiếp doanh nghiệp
-level: C2
-unit: 3
-skill: writing
-order: 14
-cefr: C2
-minutes: 5
-tags: [poetry, professional, speech writing, commemorative, corporate, literary]
-audioScript: |
-  Professional poetry serves purposes beyond artistic expression.
-  Meter and rhyme create memorability; metaphor creates meaning.
-  The professional poet serves the occasion, not personal expression.
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: What is the primary consideration when writing professional poetry?
-    options:
-      - 'Personal artistic expression'
-      - 'Serving the occasion and audience'
-      - 'Using complex imagery'
-      - 'Challenging conventional forms'
-    answer: 'Serving the occasion and audience'
-  - type: choice
-    prompt: Which meter is most commonly used in commemorative poetry?
-    options:
-      - 'Iambic trimeter'
-      - 'Trochaic dimeter'
-      - 'Iambic pentameter'
-      - 'Anapestic tetrameter'
-    answer: 'Iambic pentameter'
-  - type: fill
-    prompt: 'A commemorative poem should balance ___ with dignity and appropriate emotion.'
-    answer: 'brevity'
+{
+  "id": "c2-14-professional-poetry",
+  "slug": "c2-14-professional-poetry",
+  "titleEn": "Professional Poetry",
+  "titleVi": "Thơ Chuyên nghiệp",
+  "subtitleEn": "Write poetry for professional contexts — speeches, commemorations, and corporate communications",
+  "subtitleVi": "Viết thơ cho các bối cảnh chuyên nghiệp — diễn văn, kỷ niệm và giao tiếp doanh nghiệp",
+  "level": "C2",
+  "unit": 3,
+  "skill": "writing",
+  "order": 14,
+  "cefr": "C2",
+  "minutes": 5,
+  "tags": [
+    "poetry",
+    "professional",
+    "speech writing",
+    "commemorative",
+    "corporate",
+    "literary"
+  ],
+  "audioScript": "Professional poetry serves purposes beyond artistic expression.\nMeter and rhyme create memorability; metaphor creates meaning.\nThe professional poet serves the occasion, not personal expression.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What is the primary consideration when writing professional poetry?",
+      "options": [
+        "Personal artistic expression",
+        "Serving the occasion and audience",
+        "Using complex imagery",
+        "Challenging conventional forms"
+      ],
+      "answer": "Serving the occasion and audience"
+    },
+    {
+      "type": "choice",
+      "prompt": "Which meter is most commonly used in commemorative poetry?",
+      "options": [
+        "Iambic trimeter",
+        "Trochaic dimeter",
+        "Iambic pentameter",
+        "Anapestic tetrameter"
+      ],
+      "answer": "Iambic pentameter"
+    },
+    {
+      "type": "fill",
+      "prompt": "A commemorative poem should balance ___ with dignity and appropriate emotion.",
+      "answer": "brevity"
+    }
+  ]
+}
 ---
 
 # Professional Poetry

@@ -1,41 +1,55 @@
 ---
-id: b1-01-travel-transport
-slug: b1-01-travel-transport
-titleEn: Travel & Transport
-titleVi: Du lịch & Phương tiện đi lại
-subtitleEn: Learn essential travel vocabulary for getting around
-subtitleVi: Học từ vựng du lịch thiết yếu để di chuyển
-level: B1
-unit: 1
-skill: vocab
-order: 1
-cefr: B1
-minutes: 5
-tags: [travel, transport, vocabulary, vacation, journey]
-audioScript: |
-  I'm planning a trip to Barcelona next month.
-  I usually take a flight because it's faster.
-  Can you tell me how to get to the train station?
-listeningEnabled: true
-flashcardCount: 8
-quiz:
-  - type: choice
-    prompt: What do you need to do before boarding a plane?
-    options:
-      - 'Check in online'
-      - 'Go swimming'
-      - 'Cook dinner'
-    answer: 'Check in online'
-  - type: fill
-    prompt: 'I need to ___ my passport before traveling abroad.'
-    answer: 'renew'
-  - type: choice
-    prompt: Which transport is usually the fastest for long distances?
-    options:
-      - 'Bicycle'
-      - 'Airplane'
-      - 'Walking'
-    answer: 'Airplane'
+{
+  "id": "b1-01-travel-transport",
+  "slug": "b1-01-travel-transport",
+  "titleEn": "Travel & Transport",
+  "titleVi": "Du lịch & Phương tiện đi lại",
+  "subtitleEn": "Learn essential travel vocabulary for getting around",
+  "subtitleVi": "Học từ vựng du lịch thiết yếu để di chuyển",
+  "level": "B1",
+  "unit": 1,
+  "skill": "vocab",
+  "order": 1,
+  "cefr": "B1",
+  "minutes": 5,
+  "tags": [
+    "travel",
+    "transport",
+    "vocabulary",
+    "vacation",
+    "journey"
+  ],
+  "audioScript": "I'm planning a trip to Barcelona next month.\nI usually take a flight because it's faster.\nCan you tell me how to get to the train station?\n",
+  "listeningEnabled": true,
+  "flashcardCount": 8,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What do you need to do before boarding a plane?",
+      "options": [
+        "Check in online",
+        "Go swimming",
+        "Cook dinner"
+      ],
+      "answer": "Check in online"
+    },
+    {
+      "type": "fill",
+      "prompt": "I need to ___ my passport before traveling abroad.",
+      "answer": "renew"
+    },
+    {
+      "type": "choice",
+      "prompt": "Which transport is usually the fastest for long distances?",
+      "options": [
+        "Bicycle",
+        "Airplane",
+        "Walking"
+      ],
+      "answer": "Airplane"
+    }
+  ]
+}
 ---
 
 # Travel & Transport

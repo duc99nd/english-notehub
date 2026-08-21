@@ -1,41 +1,55 @@
 ---
-id: c1-13-critical-reading
-slug: c1-13-critical-reading
-titleEn: "Critical Reading"
-titleVi: "Đọc phản biện"
-subtitleEn: "Analyze arguments, evaluate evidence, identify bias"
-subtitleVi: "Phân tích lập luận, đánh giá bằng chứng, nhận diện thiên kiến"
-level: C1
-unit: 3
-skill: reading
-order: 13
-cefr: C1
-minutes: 5
-tags: [reading, critical, analysis, bias, C1]
-audioScript: |
-  Tác giả tuyên bố mối liên hệ nhân quả, nhưng bằng chứng là tương quan.
-  Phương pháp luận có vẻ vững chắc, dù cỡ mẫu còn hạn chế.
-  Lập luận bỏ qua các giải thích thay thế.
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: "Tương quan" vs "nhân quả" khác nhau thế nào?
-    options:
-      - "Giống nhau"
-      - "Tương quan là liên hệ; nhân quả là quan hệ nguyên nhân-kết quả"
-      - "Tương quan chứng minh nhân quả"
-    answer: "Tương quan là liên hệ; nhân quả là quan hệ nguyên nhân-kết quả"
-  - type: fill
-    prompt: "Lập luận ___ các giải thích thay thế."
-    answer: "bỏ qua"
-  - type: choice
-    prompt: Đâu là dấu hiệu của thiên kiến trong nghiên cứu?
-    options:
-      - "Cỡ mẫu lớn"
-      - "Sử dụng chọn lọc bằng chứng"
-      - "Đánh giá ngang hàng"
-    answer: "Sử dụng chọn lọc bằng chứng"
+{
+  "id": "c1-13-critical-reading",
+  "slug": "c1-13-critical-reading",
+  "titleEn": "Critical Reading",
+  "titleVi": "Đọc phản biện",
+  "subtitleEn": "Analyze arguments, evaluate evidence, identify bias",
+  "subtitleVi": "Phân tích lập luận, đánh giá bằng chứng, nhận diện thiên kiến",
+  "level": "C1",
+  "unit": 3,
+  "skill": "reading",
+  "order": 13,
+  "cefr": "C1",
+  "minutes": 5,
+  "tags": [
+    "reading",
+    "critical",
+    "analysis",
+    "bias",
+    "C1"
+  ],
+  "audioScript": "Tác giả tuyên bố mối liên hệ nhân quả, nhưng bằng chứng là tương quan.\nPhương pháp luận có vẻ vững chắc, dù cỡ mẫu còn hạn chế.\nLập luận bỏ qua các giải thích thay thế.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Tương quan vs \"nhân quả\" khác nhau thế nào?",
+      "options": [
+        "Giống nhau",
+        "Tương quan là liên hệ; nhân quả là quan hệ nguyên nhân-kết quả",
+        "Tương quan chứng minh nhân quả"
+      ],
+      "answer": "Tương quan là liên hệ; nhân quả là quan hệ nguyên nhân-kết quả"
+    },
+    {
+      "type": "fill",
+      "prompt": "Lập luận ___ các giải thích thay thế.",
+      "answer": "bỏ qua"
+    },
+    {
+      "type": "choice",
+      "prompt": "Đâu là dấu hiệu của thiên kiến trong nghiên cứu?",
+      "options": [
+        "Cỡ mẫu lớn",
+        "Sử dụng chọn lọc bằng chứng",
+        "Đánh giá ngang hàng"
+      ],
+      "answer": "Sử dụng chọn lọc bằng chứng"
+    }
+  ]
+}
 ---
 
 # Đọc phản biện

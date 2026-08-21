@@ -1,62 +1,86 @@
 ---
-id: c2-15-review-unit3
-slug: c2-15-review-unit3
-titleEn: Review Unit 3
-titleVi: Ôn tập Unit 3
-subtitleEn: Consolidate your mastery of research presentation, formal debate, publishing, and professional poetry
-subtitleVi: Củng cố khả năng làm chủ thuyết trình nghiên cứu, tranh luận trang trọng, xuất bản và thơ chuyên nghiệp
-level: C2
-unit: 3
-skill: review
-order: 15
-cefr: C2
-minutes: 10
-tags: [review, research, debate, publishing, poetry, consolidation, C2 mastery]
-audioScript: |
-  Unit 3 completes your C2 journey, integrating research, debate, publishing, and creative professional skills.
-  You now possess the full range of C2 communication competencies.
-  This review consolidates your mastery across all three units.
-listeningEnabled: true
-flashcardCount: 10
-quiz:
-  - type: choice
-    prompt: Which structure creates maximum emphasis in formal debate?
-    options:
-      - 'Simple sentence'
-      - 'Cleft sentence'
-      - 'Compound sentence'
-      - 'Question'
-    answer: 'Cleft sentence'
-  - type: choice
-    prompt: What does a 'revise and resubmit' decision mean?
-    options:
-      - 'Rejected outright'
-      - 'Conditional acceptance pending revisions'
-      - 'Immediate acceptance'
-      - 'Transfer to another journal'
-    answer: 'Conditional acceptance pending revisions'
-  - type: choice
-    prompt: What is the primary purpose of professional poetry?
-    options:
-      - 'Personal artistic expression'
-      - 'Serving the occasion and audience'
-      - 'Challenging conventional forms'
-      - 'Demonstrating linguistic virtuosity'
-    answer: 'Serving the occasion and audience'
-  - type: choice
-    prompt: In research presentations, what balance must be maintained?
-    options:
-      - 'Speed and clarity'
-      - 'Confidence and epistemic humility'
-      - 'Length and depth'
-      - 'Theory and practice'
-    answer: 'Confidence and epistemic humility'
-  - type: fill
-    prompt: "In formal debate, 'It is not [X] but [Y] that matters' is an example of a ___ sentence."
-    answer: 'cleft'
-  - type: fill
-    prompt: 'When responding to peer reviewers, one should address each comment ___.'
-    answer: 'in turn'
+{
+  "id": "c2-15-review-unit3",
+  "slug": "c2-15-review-unit3",
+  "titleEn": "Review Unit 3",
+  "titleVi": "Ôn tập Unit 3",
+  "subtitleEn": "Consolidate your mastery of research presentation, formal debate, publishing, and professional poetry",
+  "subtitleVi": "Củng cố khả năng làm chủ thuyết trình nghiên cứu, tranh luận trang trọng, xuất bản và thơ chuyên nghiệp",
+  "level": "C2",
+  "unit": 3,
+  "skill": "review",
+  "order": 15,
+  "cefr": "C2",
+  "minutes": 10,
+  "tags": [
+    "review",
+    "research",
+    "debate",
+    "publishing",
+    "poetry",
+    "consolidation",
+    "C2 mastery"
+  ],
+  "audioScript": "Unit 3 completes your C2 journey, integrating research, debate, publishing, and creative professional skills.\nYou now possess the full range of C2 communication competencies.\nThis review consolidates your mastery across all three units.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 10,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Which structure creates maximum emphasis in formal debate?",
+      "options": [
+        "Simple sentence",
+        "Cleft sentence",
+        "Compound sentence",
+        "Question"
+      ],
+      "answer": "Cleft sentence"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does a 'revise and resubmit' decision mean?",
+      "options": [
+        "Rejected outright",
+        "Conditional acceptance pending revisions",
+        "Immediate acceptance",
+        "Transfer to another journal"
+      ],
+      "answer": "Conditional acceptance pending revisions"
+    },
+    {
+      "type": "choice",
+      "prompt": "What is the primary purpose of professional poetry?",
+      "options": [
+        "Personal artistic expression",
+        "Serving the occasion and audience",
+        "Challenging conventional forms",
+        "Demonstrating linguistic virtuosity"
+      ],
+      "answer": "Serving the occasion and audience"
+    },
+    {
+      "type": "choice",
+      "prompt": "In research presentations, what balance must be maintained?",
+      "options": [
+        "Speed and clarity",
+        "Confidence and epistemic humility",
+        "Length and depth",
+        "Theory and practice"
+      ],
+      "answer": "Confidence and epistemic humility"
+    },
+    {
+      "type": "fill",
+      "prompt": "In formal debate, 'It is not [X] but [Y] that matters' is an example of a ___ sentence.",
+      "answer": "cleft"
+    },
+    {
+      "type": "fill",
+      "prompt": "When responding to peer reviewers, one should address each comment ___.",
+      "answer": "in turn"
+    }
+  ]
+}
 ---
 
 # Review Unit 3

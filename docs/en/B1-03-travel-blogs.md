@@ -1,41 +1,56 @@
 ---
-id: b1-03-travel-blogs
-slug: b1-03-travel-blogs
-titleEn: Travel Blogs & Postcards
-titleVi: Blog Du lịch & Bưu thiếp
-subtitleEn: Read real travel writing and learn new vocabulary
-subtitleVi: Đọc các bài viết du lịch thực tế và học từ vựng mới
-level: B1
-unit: 1
-skill: reading
-order: 3
-cefr: B1
-minutes: 5
-tags: [reading, travel, blog, postcard, vacation, experience]
-audioScript: |
-  Hi everyone! I'm writing this from a small café in Rome.
-  The weather has been amazing and I've been exploring every day.
-  I can't wait to share more photos!
-listeningEnabled: true
-flashcardCount: 8
-quiz:
-  - type: choice
-    prompt: What is a 'souvenir'?
-    options:
-      - 'A gift you buy to remember a place'
-      - 'A type of food'
-      - 'A transportation ticket'
-    answer: 'A gift you buy to remember a place'
-  - type: fill
-    prompt: "The food was absolutely ___ — I've never tasted anything like it!"
-    answer: 'delicious'
-  - type: choice
-    prompt: What does 'bustling' mean in 'bustling city'?
-    options:
-      - 'Quiet and peaceful'
-      - 'Busy and full of activity'
-      - 'Very small'
-    answer: 'Busy and full of activity'
+{
+  "id": "b1-03-travel-blogs",
+  "slug": "b1-03-travel-blogs",
+  "titleEn": "Travel Blogs & Postcards",
+  "titleVi": "Blog Du lịch & Bưu thiếp",
+  "subtitleEn": "Read real travel writing and learn new vocabulary",
+  "subtitleVi": "Đọc các bài viết du lịch thực tế và học từ vựng mới",
+  "level": "B1",
+  "unit": 1,
+  "skill": "reading",
+  "order": 3,
+  "cefr": "B1",
+  "minutes": 5,
+  "tags": [
+    "reading",
+    "travel",
+    "blog",
+    "postcard",
+    "vacation",
+    "experience"
+  ],
+  "audioScript": "Hi everyone! I'm writing this from a small café in Rome.\nThe weather has been amazing and I've been exploring every day.\nI can't wait to share more photos!\n",
+  "listeningEnabled": true,
+  "flashcardCount": 8,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What is a 'souvenir'?",
+      "options": [
+        "A gift you buy to remember a place",
+        "A type of food",
+        "A transportation ticket"
+      ],
+      "answer": "A gift you buy to remember a place"
+    },
+    {
+      "type": "fill",
+      "prompt": "The food was absolutely ___ — I've never tasted anything like it!",
+      "answer": "delicious"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does 'bustling' mean in 'bustling city'?",
+      "options": [
+        "Quiet and peaceful",
+        "Busy and full of activity",
+        "Very small"
+      ],
+      "answer": "Busy and full of activity"
+    }
+  ]
+}
 ---
 
 # Travel Blogs & Postcards

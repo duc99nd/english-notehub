@@ -1,17 +1,26 @@
 ---
-id: c2-07-panel-discussion
-slug: c2-07-panel-discussion
-titleEn: Panel Discussion Grammar
-titleVi: Ngữ pháp Thảo luận Bàn tròn
-subtitleEn: Navigate complex grammatical structures in formal panel and debate settings
-subtitleVi: Điều hướng các cấu trúc ngữ pháp phức tạp trong các buổi thảo luận bàn tròn và tranh luận trang trọng
-level: C2
-unit: 2
-skill: grammar
-order: 7
-cefr: C2
-minutes: 5
-tags: [panel, debate, grammar, formal, discourse, discussion]
+{
+  "id": "c2-07-panel-discussion",
+  "slug": "c2-07-panel-discussion",
+  "titleEn": "Panel Discussion Grammar",
+  "titleVi": "Ngữ pháp Thảo luận Bàn tròn",
+  "subtitleEn": "Navigate complex grammatical structures in formal panel and debate settings",
+  "subtitleVi": "Điều hướng các cấu trúc ngữ pháp phức tạp trong các buổi thảo luận bàn tròn và tranh luận trang trọng",
+  "level": "C2",
+  "unit": 2,
+  "skill": "grammar",
+  "order": 7,
+  "cefr": "C2",
+  "minutes": 5,
+  "tags": [
+    "panel",
+    "debate",
+    "grammar",
+    "formal",
+    "discourse",
+    "discussion"
+  ]
+}
 ---
 
 # Ngữ pháp Thảo luận Bàn tròn

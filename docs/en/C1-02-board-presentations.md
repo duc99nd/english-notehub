@@ -1,41 +1,55 @@
 ---
-id: c1-02-board-presentations
-slug: c1-02-board-presentations
-titleEn: "Board Presentation Grammar"
-titleVi: "Ngữ pháp Thuyết trình Hội đồng Quản trị"
-subtitleEn: "Master conditional structures for hypothetical business scenarios"
-subtitleVi: "Làm chủ cấu trúc điều kiện cho các kịch bản kinh doanh giả định"
-level: C1
-unit: 1
-skill: grammar
-order: 2
-cefr: C1
-minutes: 5
-tags: [grammar, conditionals, presentations, board, C1]
-audioScript: |
-  Should we exceed our targets, we would consider expanding into adjacent markets.
-  Had we not invested in R&D earlier, we wouldn't be positioned competitively today.
-  Were the merger to proceed, stakeholders would receive significant upside.
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: "Which conditional is used for past unreal conditions?"
-    options:
-      - "Third conditional (if + past perfect, would have)"
-      - "First conditional (if + present, will)"
-      - "Zero conditional (if + present, present)"
-    answer: "Third conditional (if + past perfect, would have)"
-  - type: fill
-    prompt: "___ we secure additional funding, we could accelerate our timeline."
-    answer: "Should"
-  - type: choice
-    prompt: "\"Were the board to approve...\" is an example of:"
-    options:
-      - "Inverted conditional (formal)"
-      - "First conditional"
-      - "Second conditional"
-    answer: "Inverted conditional (formal)"
+{
+  "id": "c1-02-board-presentations",
+  "slug": "c1-02-board-presentations",
+  "titleEn": "Board Presentation Grammar",
+  "titleVi": "Ngữ pháp Thuyết trình Hội đồng Quản trị",
+  "subtitleEn": "Master conditional structures for hypothetical business scenarios",
+  "subtitleVi": "Làm chủ cấu trúc điều kiện cho các kịch bản kinh doanh giả định",
+  "level": "C1",
+  "unit": 1,
+  "skill": "grammar",
+  "order": 2,
+  "cefr": "C1",
+  "minutes": 5,
+  "tags": [
+    "grammar",
+    "conditionals",
+    "presentations",
+    "board",
+    "C1"
+  ],
+  "audioScript": "Should we exceed our targets, we would consider expanding into adjacent markets.\nHad we not invested in R&D earlier, we wouldn't be positioned competitively today.\nWere the merger to proceed, stakeholders would receive significant upside.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Which conditional is used for past unreal conditions?",
+      "options": [
+        "Third conditional (if + past perfect, would have)",
+        "First conditional (if + present, will)",
+        "Zero conditional (if + present, present)"
+      ],
+      "answer": "Third conditional (if + past perfect, would have)"
+    },
+    {
+      "type": "fill",
+      "prompt": "___ we secure additional funding, we could accelerate our timeline.",
+      "answer": "Should"
+    },
+    {
+      "type": "choice",
+      "prompt": "\"Were the board to approve...\" is an example of:",
+      "options": [
+        "Inverted conditional (formal)",
+        "First conditional",
+        "Second conditional"
+      ],
+      "answer": "Inverted conditional (formal)"
+    }
+  ]
+}
 ---
 
 # Board Presentation Grammar

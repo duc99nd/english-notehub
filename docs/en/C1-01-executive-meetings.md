@@ -1,41 +1,55 @@
 ---
-id: c1-01-executive-meetings
-slug: c1-01-executive-meetings
-titleEn: "Executive Meetings Vocabulary"
-titleVi: "Từ vựng về Cuộc họp Cấp cao"
-subtitleEn: "Master sophisticated vocabulary for high-level business meetings"
-subtitleVi: "Làm chủ từ vựng tinh vi cho các cuộc họp kinh doanh cấp cao"
-level: C1
-unit: 1
-skill: vocab
-order: 1
-cefr: C1
-minutes: 5
-tags: [executive, meetings, business, vocabulary, C1]
-audioScript: |
-  Good morning, everyone. Let's align on the quarterly projections before we proceed.
-  I'd like to table this discussion for now and revisit it in the next cycle.
-  Shall we table this and revisit next quarter?
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: "Which phrase is most appropriate when postponing a discussion?"
-    options:
-      - "Let's table this for now."
-      - "Let's cancel this forever."
-      - "Let's start this immediately."
-    answer: "Let's table this for now."
-  - type: fill
-    prompt: "We need to ___ on our strategic priorities before the board meeting."
-    answer: "align"
-  - type: choice
-    prompt: "What does 'actionable insights' mean?"
-    options:
-      - "Ideas that can be put into practice"
-      - "Random thoughts"
-      - "Historical data only"
-    answer: "Ideas that can be put into practice"
+{
+  "id": "c1-01-executive-meetings",
+  "slug": "c1-01-executive-meetings",
+  "titleEn": "Executive Meetings Vocabulary",
+  "titleVi": "Từ vựng về Cuộc họp Cấp cao",
+  "subtitleEn": "Master sophisticated vocabulary for high-level business meetings",
+  "subtitleVi": "Làm chủ từ vựng tinh vi cho các cuộc họp kinh doanh cấp cao",
+  "level": "C1",
+  "unit": 1,
+  "skill": "vocab",
+  "order": 1,
+  "cefr": "C1",
+  "minutes": 5,
+  "tags": [
+    "executive",
+    "meetings",
+    "business",
+    "vocabulary",
+    "C1"
+  ],
+  "audioScript": "Good morning, everyone. Let's align on the quarterly projections before we proceed.\nI'd like to table this discussion for now and revisit it in the next cycle.\nShall we table this and revisit next quarter?\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Which phrase is most appropriate when postponing a discussion?",
+      "options": [
+        "Let's table this for now.",
+        "Let's cancel this forever.",
+        "Let's start this immediately."
+      ],
+      "answer": "Let's table this for now."
+    },
+    {
+      "type": "fill",
+      "prompt": "We need to ___ on our strategic priorities before the board meeting.",
+      "answer": "align"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does 'actionable insights' mean?",
+      "options": [
+        "Ideas that can be put into practice",
+        "Random thoughts",
+        "Historical data only"
+      ],
+      "answer": "Ideas that can be put into practice"
+    }
+  ]
+}
 ---
 
 # Executive Meetings Vocabulary

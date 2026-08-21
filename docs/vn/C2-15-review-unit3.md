@@ -1,17 +1,27 @@
 ---
-id: c2-15-review-unit3
-slug: c2-15-review-unit3
-titleEn: Review Unit 3
-titleVi: Ôn tập Unit 3
-subtitleEn: Consolidate your mastery of research presentation, formal debate, publishing, and professional poetry
-subtitleVi: Củng cố khả năng làm chủ thuyết trình nghiên cứu, tranh luận trang trọng, xuất bản và thơ chuyên nghiệp
-level: C2
-unit: 3
-skill: review
-order: 15
-cefr: C2
-minutes: 10
-tags: [review, research, debate, publishing, poetry, consolidation, C2 mastery]
+{
+  "id": "c2-15-review-unit3",
+  "slug": "c2-15-review-unit3",
+  "titleEn": "Review Unit 3",
+  "titleVi": "Ôn tập Unit 3",
+  "subtitleEn": "Consolidate your mastery of research presentation, formal debate, publishing, and professional poetry",
+  "subtitleVi": "Củng cố khả năng làm chủ thuyết trình nghiên cứu, tranh luận trang trọng, xuất bản và thơ chuyên nghiệp",
+  "level": "C2",
+  "unit": 3,
+  "skill": "review",
+  "order": 15,
+  "cefr": "C2",
+  "minutes": 10,
+  "tags": [
+    "review",
+    "research",
+    "debate",
+    "publishing",
+    "poetry",
+    "consolidation",
+    "C2 mastery"
+  ]
+}
 ---
 
 # Ôn tập Unit 3

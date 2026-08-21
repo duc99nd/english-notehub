@@ -1,41 +1,54 @@
 ---
-id: a2-11-small-talk
-slug: a2-11-small-talk
-titleEn: Small Talk
-titleVi: Tán gẫu
-subtitleEn: Học từ vựng cho các cuộc trò chuyện thông thường
-subtitleVi: Học từ vựng cho các cuộc trò chuyện thông thường
-level: A2
-unit: 3
-skill: vocab
-order: 11
-cefr: A2
-minutes: 5
-tags: [small-talk, speaking, vocabulary, conversation]
-audioScript: |
-  Trời đẹp hôm nay, phải không?
-  Cuối tuần của bạn thế nào?
-  Tôi thực sự thích ly cà phê đó.
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: Chủ đề nào thường dùng để tán gẫu?
-    options:
-      - 'Thời tiết'
-      - 'Chính trị'
-      - 'Tôn giáo'
-    answer: 'Thời tiết'
-  - type: fill
-    prompt: 'How was your ___?'
-    answer: 'weekend'
-  - type: choice
-    prompt: Đâu KHÔNG phải là chủ đề tốt để tán gẫu?
-    options:
-      - 'How about that game?'
-      - 'I love this weather.'
-      - 'How much do you earn?'
-    answer: 'How much do you earn?'
+{
+  "id": "a2-11-small-talk",
+  "slug": "a2-11-small-talk",
+  "titleEn": "Small Talk",
+  "titleVi": "Tán gẫu",
+  "subtitleEn": "Học từ vựng cho các cuộc trò chuyện thông thường",
+  "subtitleVi": "Học từ vựng cho các cuộc trò chuyện thông thường",
+  "level": "A2",
+  "unit": 3,
+  "skill": "vocab",
+  "order": 11,
+  "cefr": "A2",
+  "minutes": 5,
+  "tags": [
+    "small-talk",
+    "speaking",
+    "vocabulary",
+    "conversation"
+  ],
+  "audioScript": "Trời đẹp hôm nay, phải không?\nCuối tuần của bạn thế nào?\nTôi thực sự thích ly cà phê đó.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Chủ đề nào thường dùng để tán gẫu?",
+      "options": [
+        "Thời tiết",
+        "Chính trị",
+        "Tôn giáo"
+      ],
+      "answer": "Thời tiết"
+    },
+    {
+      "type": "fill",
+      "prompt": "How was your ___?",
+      "answer": "weekend"
+    },
+    {
+      "type": "choice",
+      "prompt": "Đâu KHÔNG phải là chủ đề tốt để tán gẫu?",
+      "options": [
+        "How about that game?",
+        "I love this weather.",
+        "How much do you earn?"
+      ],
+      "answer": "How much do you earn?"
+    }
+  ]
+}
 ---
 
 # Tán gẫu

@@ -1,42 +1,54 @@
 ---
-id: a1-07-food
-slug: a1-07-food
-titleEn: Food & Drinks
-titleVi: Thức ăn & Đồ uống
-subtitleEn: Learn vocabulary for food and how to order at a restaurant
-subtitleVi: Học từ vựng về thức ăn và cách gọi món ở nhà hàng
-level: A1
-unit: 2
-skill: grammar
-order: 7
-cefr: A1
-minutes: 5
-tags: [food, drinks, restaurant, grammar]
-audioScript: |
-  I would like some rice and chicken, please.
-  I drink water every day. Sometimes I drink coffee.
-  For breakfast, I eat bread and eggs.
-  Do you like fruits?
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: "I would like some ___, please." (thịt gà)
-    options:
-      - fish
-      - chicken
-      - beef
-    answer: chicken
-  - type: fill
-    prompt: "I drink ___ every day. It's good for health. (nước)"
-    answer: "water"
-  - type: choice
-    prompt: Which word means "trái cây"?
-    options:
-      - vegetable
-      - fruit
-      - bread
-    answer: fruit
+{
+  "id": "a1-07-food",
+  "slug": "a1-07-food",
+  "titleEn": "Food & Drinks",
+  "titleVi": "Thức ăn & Đồ uống",
+  "subtitleEn": "Learn vocabulary for food and how to order at a restaurant",
+  "subtitleVi": "Học từ vựng về thức ăn và cách gọi món ở nhà hàng",
+  "level": "A1",
+  "unit": 2,
+  "skill": "grammar",
+  "order": 7,
+  "cefr": "A1",
+  "minutes": 5,
+  "tags": [
+    "food",
+    "drinks",
+    "restaurant",
+    "grammar"
+  ],
+  "audioScript": "I would like some rice and chicken, please.\nI drink water every day. Sometimes I drink coffee.\nFor breakfast, I eat bread and eggs.\nDo you like fruits?\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "I would like some ___, please. (thịt gà)",
+      "options": [
+        "fish",
+        "chicken",
+        "beef"
+      ],
+      "answer": "chicken"
+    },
+    {
+      "type": "fill",
+      "prompt": "I drink ___ every day. It's good for health. (nước)",
+      "answer": "water"
+    },
+    {
+      "type": "choice",
+      "prompt": "Which word means \"trái cây\"?",
+      "options": [
+        "vegetable",
+        "fruit",
+        "bread"
+      ],
+      "answer": "fruit"
+    }
+  ]
+}
 ---
 
 # Food & Drinks

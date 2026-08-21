@@ -1,41 +1,56 @@
 ---
-id: b1-13-recipe-menu
-slug: b1-13-recipe-menu
-titleEn: Recipes & Menus
-titleVi: Công thức Nấu ăn & Thực đơn
-subtitleEn: Đọc công thức nấu ăn và thực đơn nhà hàng một cách tự tin
-subtitleVi: Đọc công thức nấu ăn và thực đơn nhà hàng một cách tự tin
-level: B1
-unit: 3
-skill: reading
-order: 13
-cefr: B1
-minutes: 5
-tags: [reading, recipe, menu, food, cooking, restaurant]
-audioScript: |
-  Đầu tiên, làm nóng lò ở 180 độ.
-  Phục vụ kèm salad tươi bên cạnh.
-  Các món chính bao gồm cá hồi nướng và mì Ý.
-listeningEnabled: true
-flashcardCount: 8
-quiz:
-  - type: choice
-    prompt: 'Preheat the oven' (làm nóng lò trước) nghĩa là gì?
-    options:
-      - "Tắt lò"
-      - "Làm nóng lò trước khi sử dụng"
-      - "Lau chùi lò"
-    answer: "Làm nóng lò trước khi sử dụng"
-  - type: fill
-    prompt: "Công thức nói để ___ hỗn hợp trong 5 phút."
-    answer: "stir"
-  - type: choice
-    prompt: 'Appetizer' (món khai vị) là gì?
-    options:
-      - "Món chính"
-      - "Món nhỏ ăn trước món chính"
-      - "Món tráng miệng"
-    answer: "Món nhỏ ăn trước món chính"
+{
+  "id": "b1-13-recipe-menu",
+  "slug": "b1-13-recipe-menu",
+  "titleEn": "Recipes & Menus",
+  "titleVi": "Công thức Nấu ăn & Thực đơn",
+  "subtitleEn": "Đọc công thức nấu ăn và thực đơn nhà hàng một cách tự tin",
+  "subtitleVi": "Đọc công thức nấu ăn và thực đơn nhà hàng một cách tự tin",
+  "level": "B1",
+  "unit": 3,
+  "skill": "reading",
+  "order": 13,
+  "cefr": "B1",
+  "minutes": 5,
+  "tags": [
+    "reading",
+    "recipe",
+    "menu",
+    "food",
+    "cooking",
+    "restaurant"
+  ],
+  "audioScript": "Đầu tiên, làm nóng lò ở 180 độ.\nPhục vụ kèm salad tươi bên cạnh.\nCác món chính bao gồm cá hồi nướng và mì Ý.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 8,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Preheat the oven (làm nóng lò trước) nghĩa là gì?",
+      "options": [
+        "Tắt lò",
+        "Làm nóng lò trước khi sử dụng",
+        "Lau chùi lò"
+      ],
+      "answer": "Làm nóng lò trước khi sử dụng"
+    },
+    {
+      "type": "fill",
+      "prompt": "Công thức nói để ___ hỗn hợp trong 5 phút.",
+      "answer": "stir"
+    },
+    {
+      "type": "choice",
+      "prompt": "Appetizer (món khai vị) là gì?",
+      "options": [
+        "Món chính",
+        "Món nhỏ ăn trước món chính",
+        "Món tráng miệng"
+      ],
+      "answer": "Món nhỏ ăn trước món chính"
+    }
+  ]
+}
 ---
 
 # Công thức Nấu ăn & Thực đơn

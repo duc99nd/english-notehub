@@ -1,41 +1,55 @@
 ---
-id: c1-13-critical-reading
-slug: c1-13-critical-reading
-titleEn: "Critical Reading"
-titleVi: "Đọc phản biện"
-subtitleEn: "Analyze arguments, evaluate evidence, identify bias"
-subtitleVi: "Phân tích lập luận, đánh giá bằng chứng, nhận diện thiên kiến"
-level: C1
-unit: 3
-skill: reading
-order: 13
-cefr: C1
-minutes: 5
-tags: [reading, critical, analysis, bias, C1]
-audioScript: |
-  The author claims a causal link, but the evidence is correlational.
-  The methodology appears sound, though the sample size is limited.
-  The argument overlooks alternative explanations.
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: What is "correlation" vs "causation"?
-    options:
-      - "Same thing"
-      - "Correlation is association; causation is cause-effect"
-      - "Correlation proves causation"
-    answer: "Correlation is association; causation is cause-effect"
-  - type: fill
-    prompt: "The argument ___ alternative explanations."
-    answer: "overlooks"
-  - type: choice
-    prompt: Which is a sign of bias in research?
-    options:
-      - "Large sample size"
-      - "Selective use of evidence"
-      - "Peer review"
-    answer: "Selective use of evidence"
+{
+  "id": "c1-13-critical-reading",
+  "slug": "c1-13-critical-reading",
+  "titleEn": "Critical Reading",
+  "titleVi": "Đọc phản biện",
+  "subtitleEn": "Analyze arguments, evaluate evidence, identify bias",
+  "subtitleVi": "Phân tích lập luận, đánh giá bằng chứng, nhận diện thiên kiến",
+  "level": "C1",
+  "unit": 3,
+  "skill": "reading",
+  "order": 13,
+  "cefr": "C1",
+  "minutes": 5,
+  "tags": [
+    "reading",
+    "critical",
+    "analysis",
+    "bias",
+    "C1"
+  ],
+  "audioScript": "The author claims a causal link, but the evidence is correlational.\nThe methodology appears sound, though the sample size is limited.\nThe argument overlooks alternative explanations.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What is \"correlation\" vs \"causation\"?",
+      "options": [
+        "Same thing",
+        "Correlation is association; causation is cause-effect",
+        "Correlation proves causation"
+      ],
+      "answer": "Correlation is association; causation is cause-effect"
+    },
+    {
+      "type": "fill",
+      "prompt": "The argument ___ alternative explanations.",
+      "answer": "overlooks"
+    },
+    {
+      "type": "choice",
+      "prompt": "Which is a sign of bias in research?",
+      "options": [
+        "Large sample size",
+        "Selective use of evidence",
+        "Peer review"
+      ],
+      "answer": "Selective use of evidence"
+    }
+  ]
+}
 ---
 
 # Critical Reading

@@ -1,53 +1,71 @@
 ---
-id: a2-15-review-unit3
-slug: a2-15-review-unit3
-titleEn: Review Unit 3
-titleVi: Ôn tập Unit 3
-subtitleEn: Consolidate small talk, opinions, experiences, and reading
-subtitleVi: Củng cố small talk, ý kiến, kinh nghiệm và đọc hiểu
-level: A2
-unit: 3
-skill: review
-order: 15
-cefr: A2
-minutes: 10
-tags: [review, unit3, small-talk, opinions, experiences, A2]
-audioScript: |
-  Let's review Unit 3.
-  You can make small talk in English.
-  You can share your opinions politely.
-  You can talk about your life experiences.
-  You can read short personal stories.
-listeningEnabled: true
-flashcardCount: 20
-quiz:
-  - type: choice
-    prompt: Which phrase is a small talk starter?
-    options:
-      - "Please give me the file."
-      - "Lovely weather today, isn't it?"
-      - "Where is the train station?"
-    answer: "Lovely weather today, isn't it?"
-  - type: fill
-    prompt: "In my ___, we should wait. (opinion)"
-    answer: "opinion"
-  - type: choice
-    prompt: "I have visited Tokyo." Which tense?
-    options:
-      - "Past simple"
-      - "Present perfect"
-      - "Future"
-    answer: "Present perfect"
-  - type: fill
-    prompt: "She has worked here ___ 2018."
-    answer: "since"
-  - type: choice
-    prompt: Which is NOT an opinion phrase?
-    options:
-      - "I believe"
-      - "I think"
-      - "I order"
-    answer: "I order"
+{
+  "id": "a2-15-review-unit3",
+  "slug": "a2-15-review-unit3",
+  "titleEn": "Review Unit 3",
+  "titleVi": "Ôn tập Unit 3",
+  "subtitleEn": "Consolidate small talk, opinions, experiences, and reading",
+  "subtitleVi": "Củng cố small talk, ý kiến, kinh nghiệm và đọc hiểu",
+  "level": "A2",
+  "unit": 3,
+  "skill": "review",
+  "order": 15,
+  "cefr": "A2",
+  "minutes": 10,
+  "tags": [
+    "review",
+    "unit3",
+    "small-talk",
+    "opinions",
+    "experiences",
+    "A2"
+  ],
+  "audioScript": "Let's review Unit 3.\nYou can make small talk in English.\nYou can share your opinions politely.\nYou can talk about your life experiences.\nYou can read short personal stories.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 20,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Which phrase is a small talk starter?",
+      "options": [
+        "Please give me the file.",
+        "Lovely weather today, isn't it?",
+        "Where is the train station?"
+      ],
+      "answer": "Lovely weather today, isn't it?"
+    },
+    {
+      "type": "fill",
+      "prompt": "In my ___, we should wait. (opinion)",
+      "answer": "opinion"
+    },
+    {
+      "type": "choice",
+      "prompt": "I have visited Tokyo. Which tense?",
+      "options": [
+        "Past simple",
+        "Present perfect",
+        "Future"
+      ],
+      "answer": "Present perfect"
+    },
+    {
+      "type": "fill",
+      "prompt": "She has worked here ___ 2018.",
+      "answer": "since"
+    },
+    {
+      "type": "choice",
+      "prompt": "Which is NOT an opinion phrase?",
+      "options": [
+        "I believe",
+        "I think",
+        "I order"
+      ],
+      "answer": "I order"
+    }
+  ]
+}
 ---
 
 # Review Unit 3

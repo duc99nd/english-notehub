@@ -1,41 +1,54 @@
 ---
-id: a2-01-asking-help
-slug: a2-01-asking-help
-titleEn: Asking for Help
-titleVi: Hỏi xin giúp đỡ
-subtitleEn: Học cách hỏi xin giúp đỡ một cách lịch sự trong các tình huống hàng ngày
-subtitleVi: Học cách hỏi xin giúp đỡ một cách lịch sự trong các tình huống hàng ngày
-level: A2
-unit: 1
-skill: vocab
-order: 1
-cefr: A2
-minutes: 5
-tags: [asking-help, polite, daily, vocabulary]
-audioScript: |
-  Xin lỗi, bạn có thể giúp tôi với chiếc túi này không?
-  Xin lỗi đã làm phiền, nhưng tôi cần giúp đỡ.
-  Bạn có phiền giúp tôi không?
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: Làm thế nào để lịch sự nhờ ai đó giúp bạn mang một chiếc hộp nặng?
-    options:
-      - 'Đưa cái hộp đó cho tôi.'
-      - 'Bạn có thể giúp tôi với cái hộp này không?'
-      - 'Giúp tôi!'
-    answer: 'Bạn có thể giúp tôi với cái hộp này không?'
-  - type: fill
-    prompt: 'Xin lỗi, bạn ___ giúp tôi tìm nhà ga được không?'
-    answer: 'có thể'
-  - type: choice
-    prompt: Câu nào là lịch sự nhất?
-    options:
-      - 'Làm cái này cho tôi.'
-      - 'Bạn có phiền giúp tôi không?'
-      - 'Đến đây!'
-    answer: 'Bạn có phiền giúp tôi không?'
+{
+  "id": "a2-01-asking-help",
+  "slug": "a2-01-asking-help",
+  "titleEn": "Asking for Help",
+  "titleVi": "Hỏi xin giúp đỡ",
+  "subtitleEn": "Học cách hỏi xin giúp đỡ một cách lịch sự trong các tình huống hàng ngày",
+  "subtitleVi": "Học cách hỏi xin giúp đỡ một cách lịch sự trong các tình huống hàng ngày",
+  "level": "A2",
+  "unit": 1,
+  "skill": "vocab",
+  "order": 1,
+  "cefr": "A2",
+  "minutes": 5,
+  "tags": [
+    "asking-help",
+    "polite",
+    "daily",
+    "vocabulary"
+  ],
+  "audioScript": "Xin lỗi, bạn có thể giúp tôi với chiếc túi này không?\nXin lỗi đã làm phiền, nhưng tôi cần giúp đỡ.\nBạn có phiền giúp tôi không?\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Làm thế nào để lịch sự nhờ ai đó giúp bạn mang một chiếc hộp nặng?",
+      "options": [
+        "Đưa cái hộp đó cho tôi.",
+        "Bạn có thể giúp tôi với cái hộp này không?",
+        "Giúp tôi!"
+      ],
+      "answer": "Bạn có thể giúp tôi với cái hộp này không?"
+    },
+    {
+      "type": "fill",
+      "prompt": "Xin lỗi, bạn ___ giúp tôi tìm nhà ga được không?",
+      "answer": "có thể"
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào là lịch sự nhất?",
+      "options": [
+        "Làm cái này cho tôi.",
+        "Bạn có phiền giúp tôi không?",
+        "Đến đây!"
+      ],
+      "answer": "Bạn có phiền giúp tôi không?"
+    }
+  ]
+}
 ---
 
 # Hỏi xin giúp đỡ

@@ -1,37 +1,48 @@
 ---
-id: a1-04-family
-slug: a1-04-family
-titleEn: Family Members
-titleVi: Các thành viên trong gia đình
-subtitleEn: Học từ vựng về gia đình và cách nói về gia đình bạn
-subtitleVi: Học từ vựng về gia đình và cách nói về gia đình bạn
-level: A1
-unit: 1
-skill: writing
-order: 4
-cefr: A1
-minutes: 5
-tags: [family, writing, daily]
-audioScript: |
-  Đây là gia đình tôi. Tôi có mẹ và bố.
-  Tôi có hai chị gái. Tên của họ là Mai và Lan.
-  Anh trai tôi lớn hơn tôi. Tên anh ấy là Tuấn.
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: fill
-    prompt: "My ___ là một người phụ nữ. She is my mom. (mẹ)"
-    answer: "mother"
-  - type: choice
-    prompt: "Chị gái" bằng tiếng Anh là:
-    options:
-      - Sister
-      - Mother
-      - Aunt
-    answer: Sister
-  - type: fill
-    prompt: "My ___ name is Tuan. He is my mom's son. (anh trai)"
-    answer: "brother"
+{
+  "id": "a1-04-family",
+  "slug": "a1-04-family",
+  "titleEn": "Family Members",
+  "titleVi": "Các thành viên trong gia đình",
+  "subtitleEn": "Học từ vựng về gia đình và cách nói về gia đình bạn",
+  "subtitleVi": "Học từ vựng về gia đình và cách nói về gia đình bạn",
+  "level": "A1",
+  "unit": 1,
+  "skill": "writing",
+  "order": 4,
+  "cefr": "A1",
+  "minutes": 5,
+  "tags": [
+    "family",
+    "writing",
+    "daily"
+  ],
+  "audioScript": "Đây là gia đình tôi. Tôi có mẹ và bố.\nTôi có hai chị gái. Tên của họ là Mai và Lan.\nAnh trai tôi lớn hơn tôi. Tên anh ấy là Tuấn.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "fill",
+      "prompt": "My ___ là một người phụ nữ. She is my mom. (mẹ)",
+      "answer": "mother"
+    },
+    {
+      "type": "choice",
+      "prompt": "Chị gái bằng tiếng Anh là:",
+      "options": [
+        "Sister",
+        "Mother",
+        "Aunt"
+      ],
+      "answer": "Sister"
+    },
+    {
+      "type": "fill",
+      "prompt": "My ___ name is Tuan. He is my mom's son. (anh trai)",
+      "answer": "brother"
+    }
+  ]
+}
 ---
 
 # Các thành viên trong gia đình

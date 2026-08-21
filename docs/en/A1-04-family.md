@@ -1,37 +1,48 @@
 ---
-id: a1-04-family
-slug: a1-04-family
-titleEn: Family Members
-titleVi: Các thành viên trong gia đình
-subtitleEn: Learn words for family members and talk about your family
-subtitleVi: Học từ vựng về gia đình và cách nói về gia đình bạn
-level: A1
-unit: 1
-skill: writing
-order: 4
-cefr: A1
-minutes: 5
-tags: [family, writing, daily]
-audioScript: |
-  This is my family. I have a mother and a father.
-  I have two sisters. Their names are Mai and Lan.
-  My brother is older than me. His name is Tuan.
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: fill
-    prompt: "My ___ is a woman. She is my mom. (mẹ)"
-    answer: "mother"
-  - type: choice
-    prompt: "Anh trai" in English is:
-    options:
-      - Brother
-      - Father
-      - Uncle
-    answer: Brother
-  - type: fill
-    prompt: "My ___ name is Tuan. He is my mom's son. (anh trai)"
-    answer: "brother"
+{
+  "id": "a1-04-family",
+  "slug": "a1-04-family",
+  "titleEn": "Family Members",
+  "titleVi": "Các thành viên trong gia đình",
+  "subtitleEn": "Learn words for family members and talk about your family",
+  "subtitleVi": "Học từ vựng về gia đình và cách nói về gia đình bạn",
+  "level": "A1",
+  "unit": 1,
+  "skill": "writing",
+  "order": 4,
+  "cefr": "A1",
+  "minutes": 5,
+  "tags": [
+    "family",
+    "writing",
+    "daily"
+  ],
+  "audioScript": "This is my family. I have a mother and a father.\nI have two sisters. Their names are Mai and Lan.\nMy brother is older than me. His name is Tuan.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "fill",
+      "prompt": "My ___ is a woman. She is my mom. (mẹ)",
+      "answer": "mother"
+    },
+    {
+      "type": "choice",
+      "prompt": "Anh trai in English is:",
+      "options": [
+        "Brother",
+        "Father",
+        "Uncle"
+      ],
+      "answer": "Brother"
+    },
+    {
+      "type": "fill",
+      "prompt": "My ___ name is Tuan. He is my mom's son. (anh trai)",
+      "answer": "brother"
+    }
+  ]
+}
 ---
 
 # Family Members

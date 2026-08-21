@@ -1,41 +1,56 @@
 ---
-id: b1-14-blog-review
-slug: b1-14-blog-review
-titleEn: Writing a Blog Post or Review
-titleVi: Viết Bài đăng Blog hoặc Đánh giá
-subtitleEn: Share your opinions about products, places, or experiences
-subtitleVi: Chia sẻ ý kiến của bạn về sản phẩm, địa điểm hoặc trải nghiệm
-level: B1
-unit: 3
-skill: writing
-order: 14
-cefr: B1
-minutes: 5
-tags: [writing, blog, review, opinion, experience, online]
-audioScript: |
-  I recently tried this new restaurant and I have to say it was amazing!
-  The atmosphere was cozy and the staff were really friendly.
-  Overall, I would definitely recommend this place to anyone.
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: What is the purpose of a review?
-    options:
-      - 'To tell a fictional story'
-      - 'To share your opinion about something'
-      - 'To write a formal letter'
-    answer: 'To share your opinion about something'
-  - type: fill
-    prompt: "The food was absolutely ___ — I've never tasted anything better!"
-    answer: 'delicious'
-  - type: choice
-    prompt: Which phrase is good for a positive review?
-    options:
-      - 'I would not recommend this.'
-      - 'I would definitely recommend this place.'
-      - 'The worst experience ever.'
-    answer: 'I would definitely recommend this place.'
+{
+  "id": "b1-14-blog-review",
+  "slug": "b1-14-blog-review",
+  "titleEn": "Writing a Blog Post or Review",
+  "titleVi": "Viết Bài đăng Blog hoặc Đánh giá",
+  "subtitleEn": "Share your opinions about products, places, or experiences",
+  "subtitleVi": "Chia sẻ ý kiến của bạn về sản phẩm, địa điểm hoặc trải nghiệm",
+  "level": "B1",
+  "unit": 3,
+  "skill": "writing",
+  "order": 14,
+  "cefr": "B1",
+  "minutes": 5,
+  "tags": [
+    "writing",
+    "blog",
+    "review",
+    "opinion",
+    "experience",
+    "online"
+  ],
+  "audioScript": "I recently tried this new restaurant and I have to say it was amazing!\nThe atmosphere was cozy and the staff were really friendly.\nOverall, I would definitely recommend this place to anyone.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What is the purpose of a review?",
+      "options": [
+        "To tell a fictional story",
+        "To share your opinion about something",
+        "To write a formal letter"
+      ],
+      "answer": "To share your opinion about something"
+    },
+    {
+      "type": "fill",
+      "prompt": "The food was absolutely ___ — I've never tasted anything better!",
+      "answer": "delicious"
+    },
+    {
+      "type": "choice",
+      "prompt": "Which phrase is good for a positive review?",
+      "options": [
+        "I would not recommend this.",
+        "I would definitely recommend this place.",
+        "The worst experience ever."
+      ],
+      "answer": "I would definitely recommend this place."
+    }
+  ]
+}
 ---
 
 # Writing a Blog Post or Review

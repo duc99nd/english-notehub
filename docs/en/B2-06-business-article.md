@@ -1,41 +1,54 @@
 ---
-id: b2-06-business-article
-slug: b2-06-business-article
-titleEn: "Business Article Reading"
-titleVi: "Đọc bài báo kinh doanh"
-subtitleEn: "Analyze business articles and market reports"
-subtitleVi: "Phân tích bài báo kinh doanh và báo cáo thị trường"
-level: B2
-unit: 2
-skill: reading
-order: 6
-cefr: B2
-minutes: 5
-tags: [reading, business, articles, B2]
-audioScript: |
-  The company has reported a 15% year-over-year revenue growth.
-  Market analysts predict continued expansion into emerging economies.
-  The acquisition is expected to bolster the firm's market position.
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: What does "bolster" mean?
-    options:
-      - "Weaken"
-      - "Strengthen or support"
-      - "Replace"
-    answer: "Strengthen or support"
-  - type: fill
-    prompt: "The company reported a 15% ___-over-___ revenue growth."
-    answer: "year"
-  - type: choice
-    prompt: "Emerging economies" refers to:
-    options:
-      - "Developed countries"
-      - "Developing countries with rapid growth"
-      - "Failing economies"
-    answer: "Developing countries with rapid growth"
+{
+  "id": "b2-06-business-article",
+  "slug": "b2-06-business-article",
+  "titleEn": "Business Article Reading",
+  "titleVi": "Đọc bài báo kinh doanh",
+  "subtitleEn": "Analyze business articles and market reports",
+  "subtitleVi": "Phân tích bài báo kinh doanh và báo cáo thị trường",
+  "level": "B2",
+  "unit": 2,
+  "skill": "reading",
+  "order": 6,
+  "cefr": "B2",
+  "minutes": 5,
+  "tags": [
+    "reading",
+    "business",
+    "articles",
+    "B2"
+  ],
+  "audioScript": "The company has reported a 15% year-over-year revenue growth.\nMarket analysts predict continued expansion into emerging economies.\nThe acquisition is expected to bolster the firm's market position.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does \"bolster\" mean?",
+      "options": [
+        "Weaken",
+        "Strengthen or support",
+        "Replace"
+      ],
+      "answer": "Strengthen or support"
+    },
+    {
+      "type": "fill",
+      "prompt": "The company reported a 15% ___-over-___ revenue growth.",
+      "answer": "year"
+    },
+    {
+      "type": "choice",
+      "prompt": "Emerging economies refers to:",
+      "options": [
+        "Developed countries",
+        "Developing countries with rapid growth",
+        "Failing economies"
+      ],
+      "answer": "Developing countries with rapid growth"
+    }
+  ]
+}
 ---
 
 # Business Article Reading

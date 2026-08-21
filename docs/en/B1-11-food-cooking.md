@@ -1,41 +1,56 @@
 ---
-id: b1-11-food-cooking
-slug: b1-11-food-cooking
-titleEn: Food & Cooking
-titleVi: Đồ ăn & Nấu ăn
-subtitleEn: Learn vocabulary for ingredients, cooking methods, and meals
-subtitleVi: Học từ vựng về nguyên liệu, cách nấu và bữa ăn
-level: B1
-unit: 3
-skill: vocab
-order: 11
-cefr: B1
-minutes: 5
-tags: [food, cooking, ingredients, kitchen, meals, recipes]
-audioScript: |
-  I'm going to cook pasta for dinner tonight.
-  First, you need to chop the vegetables.
-  The soup needs to simmer for about 20 minutes.
-listeningEnabled: true
-flashcardCount: 8
-quiz:
-  - type: choice
-    prompt: What does 'to chop' mean in cooking?
-    options:
-      - 'To boil'
-      - 'To cut into small pieces'
-      - 'To stir'
-    answer: 'To cut into small pieces'
-  - type: fill
-    prompt: 'You need to ___ the onions before adding them to the pan.'
-    answer: 'chop'
-  - type: choice
-    prompt: What is an 'ingredient'?
-    options:
-      - 'A cooking tool'
-      - 'Something you use in a recipe'
-      - 'A type of restaurant'
-    answer: 'Something you use in a recipe'
+{
+  "id": "b1-11-food-cooking",
+  "slug": "b1-11-food-cooking",
+  "titleEn": "Food & Cooking",
+  "titleVi": "Đồ ăn & Nấu ăn",
+  "subtitleEn": "Learn vocabulary for ingredients, cooking methods, and meals",
+  "subtitleVi": "Học từ vựng về nguyên liệu, cách nấu và bữa ăn",
+  "level": "B1",
+  "unit": 3,
+  "skill": "vocab",
+  "order": 11,
+  "cefr": "B1",
+  "minutes": 5,
+  "tags": [
+    "food",
+    "cooking",
+    "ingredients",
+    "kitchen",
+    "meals",
+    "recipes"
+  ],
+  "audioScript": "I'm going to cook pasta for dinner tonight.\nFirst, you need to chop the vegetables.\nThe soup needs to simmer for about 20 minutes.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 8,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does 'to chop' mean in cooking?",
+      "options": [
+        "To boil",
+        "To cut into small pieces",
+        "To stir"
+      ],
+      "answer": "To cut into small pieces"
+    },
+    {
+      "type": "fill",
+      "prompt": "You need to ___ the onions before adding them to the pan.",
+      "answer": "chop"
+    },
+    {
+      "type": "choice",
+      "prompt": "What is an 'ingredient'?",
+      "options": [
+        "A cooking tool",
+        "Something you use in a recipe",
+        "A type of restaurant"
+      ],
+      "answer": "Something you use in a recipe"
+    }
+  ]
+}
 ---
 
 # Food & Cooking

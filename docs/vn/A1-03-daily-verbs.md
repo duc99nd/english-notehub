@@ -1,42 +1,48 @@
 ---
-id: a1-03-daily-verbs
-slug: a1-03-daily-verbs
-titleEn: Daily Verbs
-titleVi: Động từ hàng ngày
-subtitleEn: Học 20 động từ thiết yếu cho hoạt động hàng ngày
-subtitleVi: Học 20 động từ thiết yếu cho hoạt động hàng ngày
-level: A1
-unit: 1
-skill: reading
-order: 3
-cefr: A1
-minutes: 5
-tags: [verbs, daily, reading]
-audioScript: |
-  Tôi thức dậy lúc sáu giờ sáng.
-  Tôi ăn sáng lúc bảy. Tôi uống cà phê mỗi ngày.
-  Tôi đi làm lúc tám. Tôi về nhà lúc sáu.
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: "Buổi sáng bạn làm gì?" (wake up = thức dậy)
-    options:
-      - Tôi ngủ
-      - Tôi thức dậy
-      - Tôi lái xe
-    answer: Tôi thức dậy
-  - type: fill
-    prompt: "I ___ breakfast at seven. (ăn = eat)"
-    answer: "eat"
-  - type: match
-    prompt: Nối động từ với hành động
-    options:
-      - "eat - uống"
-      - "drink - ăn"
-      - "sleep - ngủ"
-      - "work - làm việc"
-    answer: eat
+{
+  "id": "a1-03-daily-verbs",
+  "slug": "a1-03-daily-verbs",
+  "titleEn": "Daily Verbs",
+  "titleVi": "Động từ hàng ngày",
+  "subtitleEn": "Học 20 động từ thiết yếu cho hoạt động hàng ngày",
+  "subtitleVi": "Học 20 động từ thiết yếu cho hoạt động hàng ngày",
+  "level": "A1",
+  "unit": 1,
+  "skill": "reading",
+  "order": 3,
+  "cefr": "A1",
+  "minutes": 5,
+  "tags": [
+    "verbs",
+    "daily",
+    "reading"
+  ],
+  "audioScript": "Tôi thức dậy lúc sáu giờ sáng.\nTôi ăn sáng lúc bảy. Tôi uống cà phê mỗi ngày.\nTôi đi làm lúc tám. Tôi về nhà lúc sáu.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Buổi sáng bạn làm gì? (wake up = thức dậy)",
+      "options": [
+        "Tôi ngủ",
+        "Tôi thức dậy",
+        "Tôi lái xe"
+      ],
+      "answer": "Tôi thức dậy"
+    },
+    {
+      "type": "fill",
+      "prompt": "I ___ breakfast at seven. (ăn = eat)",
+      "answer": "eat"
+    },
+    {
+      "type": "match",
+      "prompt": "Nối động từ với hành động",
+      "answer": "eat"
+    }
+  ]
+}
 ---
 
 # Động từ hàng ngày

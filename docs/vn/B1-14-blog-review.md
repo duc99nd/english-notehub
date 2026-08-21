@@ -1,41 +1,56 @@
 ---
-id: b1-14-blog-review
-slug: b1-14-blog-review
-titleEn: Writing a Blog Post or Review
-titleVi: Viết Bài đăng Blog hoặc Đánh giá
-subtitleEn: Chia sẻ ý kiến của bạn về sản phẩm, địa điểm hoặc trải nghiệm
-subtitleVi: Chia sẻ ý kiến của bạn về sản phẩm, địa điểm hoặc trải nghiệm
-level: B1
-unit: 3
-skill: writing
-order: 14
-cefr: B1
-minutes: 5
-tags: [writing, blog, review, opinion, experience, online]
-audioScript: |
-  Tôi mới thử nhà hàng mới này và tôi phải nói là nó tuyệt vời!
-  Không khí ấm cúng và nhân viên rất thân thiện.
-  Nhìn chung, tôi chắc chắn sẽ giới thiệu địa điểm này cho bất kỳ ai.
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: Mục đích của bài đánh giá là gì?
-    options:
-      - 'Kể một câu chuyện hư cấu'
-      - 'Chia sẻ ý kiến của bạn về điều gì đó'
-      - 'Viết một lá thư trang trọng'
-    answer: 'Chia sẻ ý kiến của bạn về điều gì đó'
-  - type: fill
-    prompt: 'Đồ ăn tuyệt đến mức — tôi chưa bao giờ nếm món nào ngon hơn!'
-    answer: 'delicious'
-  - type: choice
-    prompt: Cụm từ nào phù hợp cho bài đánh giá tích cực?
-    options:
-      - 'I would not recommend this.'
-      - 'I would definitely recommend this place.'
-      - 'The worst experience ever.'
-    answer: 'I would definitely recommend this place.'
+{
+  "id": "b1-14-blog-review",
+  "slug": "b1-14-blog-review",
+  "titleEn": "Writing a Blog Post or Review",
+  "titleVi": "Viết Bài đăng Blog hoặc Đánh giá",
+  "subtitleEn": "Chia sẻ ý kiến của bạn về sản phẩm, địa điểm hoặc trải nghiệm",
+  "subtitleVi": "Chia sẻ ý kiến của bạn về sản phẩm, địa điểm hoặc trải nghiệm",
+  "level": "B1",
+  "unit": 3,
+  "skill": "writing",
+  "order": 14,
+  "cefr": "B1",
+  "minutes": 5,
+  "tags": [
+    "writing",
+    "blog",
+    "review",
+    "opinion",
+    "experience",
+    "online"
+  ],
+  "audioScript": "Tôi mới thử nhà hàng mới này và tôi phải nói là nó tuyệt vời!\nKhông khí ấm cúng và nhân viên rất thân thiện.\nNhìn chung, tôi chắc chắn sẽ giới thiệu địa điểm này cho bất kỳ ai.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Mục đích của bài đánh giá là gì?",
+      "options": [
+        "Kể một câu chuyện hư cấu",
+        "Chia sẻ ý kiến của bạn về điều gì đó",
+        "Viết một lá thư trang trọng"
+      ],
+      "answer": "Chia sẻ ý kiến của bạn về điều gì đó"
+    },
+    {
+      "type": "fill",
+      "prompt": "Đồ ăn tuyệt đến mức — tôi chưa bao giờ nếm món nào ngon hơn!",
+      "answer": "delicious"
+    },
+    {
+      "type": "choice",
+      "prompt": "Cụm từ nào phù hợp cho bài đánh giá tích cực?",
+      "options": [
+        "I would not recommend this.",
+        "I would definitely recommend this place.",
+        "The worst experience ever."
+      ],
+      "answer": "I would definitely recommend this place."
+    }
+  ]
+}
 ---
 
 # Viết Bài đăng Blog hoặc Đánh giá

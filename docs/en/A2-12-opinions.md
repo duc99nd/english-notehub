@@ -1,41 +1,54 @@
 ---
-id: a2-12-opinions
-slug: a2-12-opinions
-titleEn: Opinions
-titleVi: Ý kiến
-subtitleEn: Express your opinion using I think and I believe
-subtitleVi: Diễn đạt ý kiến sử dụng I think và I believe
-level: A2
-unit: 3
-skill: grammar
-order: 12
-cefr: A2
-minutes: 5
-tags: [opinions, grammar, speaking, thinking]
-audioScript: |
-  I think this is a great movie.
-  In my opinion, we should leave early.
-  I believe learning English is important.
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: Which phrase is correct for giving an opinion?
-    options:
-      - 'I am thinking this is good.'
-      - 'I think this is good.'
-      - 'I thinked this is good.'
-    answer: 'I think this is good.'
-  - type: fill
-    prompt: 'In my ___, we should try again. (opinion)'
-    answer: 'opinion'
-  - type: choice
-    prompt: Which is NOT a phrase for opinions?
-    options:
-      - 'I believe'
-      - 'I want'
-      - 'I feel'
-    answer: 'I want'
+{
+  "id": "a2-12-opinions",
+  "slug": "a2-12-opinions",
+  "titleEn": "Opinions",
+  "titleVi": "Ý kiến",
+  "subtitleEn": "Express your opinion using I think and I believe",
+  "subtitleVi": "Diễn đạt ý kiến sử dụng I think và I believe",
+  "level": "A2",
+  "unit": 3,
+  "skill": "grammar",
+  "order": 12,
+  "cefr": "A2",
+  "minutes": 5,
+  "tags": [
+    "opinions",
+    "grammar",
+    "speaking",
+    "thinking"
+  ],
+  "audioScript": "I think this is a great movie.\nIn my opinion, we should leave early.\nI believe learning English is important.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Which phrase is correct for giving an opinion?",
+      "options": [
+        "I am thinking this is good.",
+        "I think this is good.",
+        "I thinked this is good."
+      ],
+      "answer": "I think this is good."
+    },
+    {
+      "type": "fill",
+      "prompt": "In my ___, we should try again. (opinion)",
+      "answer": "opinion"
+    },
+    {
+      "type": "choice",
+      "prompt": "Which is NOT a phrase for opinions?",
+      "options": [
+        "I believe",
+        "I want",
+        "I feel"
+      ],
+      "answer": "I want"
+    }
+  ]
+}
 ---
 
 # Opinions

@@ -1,41 +1,56 @@
 ---
-id: b1-03-travel-blogs
-slug: b1-03-travel-blogs
-titleEn: Travel Blogs & Postcards
-titleVi: Blog Du lịch & Bưu thiếp
-subtitleEn: Đọc các bài viết du lịch thực tế và học từ vựng mới
-subtitleVi: Đọc các bài viết du lịch thực tế và học từ vựng mới
-level: B1
-unit: 1
-skill: reading
-order: 3
-cefr: B1
-minutes: 5
-tags: [reading, travel, blog, postcard, vacation, experience]
-audioScript: |
-  Chào mọi người! Tôi đang viết những dòng này từ một quán cà phê nhỏ ở Rome.
-  Thời tiết đã tuyệt vời và tôi đã khám phá mỗi ngày.
-  Tôi không thể chờ để chia sẻ thêm nhiều ảnh!
-listeningEnabled: true
-flashcardCount: 8
-quiz:
-  - type: choice
-    prompt: 'Souvenir' nghĩa là gì?
-    options:
-      - "Món quà bạn mua để nhớ về một nơi"
-      - "Một loại đồ ăn"
-      - "Một vé phương tiện"
-    answer: "Món quà bạn mua để nhớ về một nơi"
-  - type: fill
-    prompt: "Đồ ăn tuyệt đến mức — tôi chưa bao giờ nếm món nào ngon như vậy!"
-    answer: "delicious"
-  - type: choice
-    prompt: 'Bustling' nghĩa là gì trong cụm 'bustling city' (thành phố nhộn nhịp)?
-    options:
-      - "Yên tĩnh và bình yên"
-      - "Đông đúc và nhộn nhịp"
-      - "Rất nhỏ"
-    answer: "Đông đúc và nhộn nhịp"
+{
+  "id": "b1-03-travel-blogs",
+  "slug": "b1-03-travel-blogs",
+  "titleEn": "Travel Blogs & Postcards",
+  "titleVi": "Blog Du lịch & Bưu thiếp",
+  "subtitleEn": "Đọc các bài viết du lịch thực tế và học từ vựng mới",
+  "subtitleVi": "Đọc các bài viết du lịch thực tế và học từ vựng mới",
+  "level": "B1",
+  "unit": 1,
+  "skill": "reading",
+  "order": 3,
+  "cefr": "B1",
+  "minutes": 5,
+  "tags": [
+    "reading",
+    "travel",
+    "blog",
+    "postcard",
+    "vacation",
+    "experience"
+  ],
+  "audioScript": "Chào mọi người! Tôi đang viết những dòng này từ một quán cà phê nhỏ ở Rome.\nThời tiết đã tuyệt vời và tôi đã khám phá mỗi ngày.\nTôi không thể chờ để chia sẻ thêm nhiều ảnh!\n",
+  "listeningEnabled": true,
+  "flashcardCount": 8,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Souvenir nghĩa là gì?",
+      "options": [
+        "Món quà bạn mua để nhớ về một nơi",
+        "Một loại đồ ăn",
+        "Một vé phương tiện"
+      ],
+      "answer": "Món quà bạn mua để nhớ về một nơi"
+    },
+    {
+      "type": "fill",
+      "prompt": "Đồ ăn tuyệt đến mức — tôi chưa bao giờ nếm món nào ngon như vậy!",
+      "answer": "delicious"
+    },
+    {
+      "type": "choice",
+      "prompt": "Bustling nghĩa là gì trong cụm 'bustling city' (thành phố nhộn nhịp)?",
+      "options": [
+        "Yên tĩnh và bình yên",
+        "Đông đúc và nhộn nhịp",
+        "Rất nhỏ"
+      ],
+      "answer": "Đông đúc và nhộn nhịp"
+    }
+  ]
+}
 ---
 
 # Blog Du lịch & Bưu thiếp

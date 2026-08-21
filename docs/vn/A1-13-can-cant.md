@@ -1,41 +1,55 @@
 ---
-id: a1-13-can-cant
-slug: a1-13-can-cant
-titleEn: "Can and Can't"
-titleVi: "Can và Can't"
-subtitleEn: Talk about abilities using can and can't
-subtitleVi: Nói về năng lực sử dụng can và can't
-level: A1
-unit: 3
-skill: grammar
-order: 13
-cefr: A1
-minutes: 5
-tags: [can, cant, ability, grammar, modal]
-audioScript: |
-  Tôi có thể bơi rất giỏi.
-  Cô ấy không thể nói tiếng Anh.
-  Bạn có thể đi xe đạp không?
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: Câu nào đúng?
-    options:
-      - "I can to swim."
-      - "I can swim."
-      - "I can swimming."
-    answer: "I can swim."
-  - type: fill
-    prompt: "Cô ấy ___ nói tiếng Pháp. (không thể)"
-    answer: "can't"
-  - type: choice
-    prompt: "Can" diễn đạt điều gì?
-    options:
-      - "Khả năng"
-      - "Năng lực"
-      - "Tương lai"
-    answer: "Năng lực"
+{
+  "id": "a1-13-can-cant",
+  "slug": "a1-13-can-cant",
+  "titleEn": "Can and Can't",
+  "titleVi": "Can và Can't",
+  "subtitleEn": "Talk about abilities using can and can't",
+  "subtitleVi": "Nói về năng lực sử dụng can và can't",
+  "level": "A1",
+  "unit": 3,
+  "skill": "grammar",
+  "order": 13,
+  "cefr": "A1",
+  "minutes": 5,
+  "tags": [
+    "can",
+    "cant",
+    "ability",
+    "grammar",
+    "modal"
+  ],
+  "audioScript": "Tôi có thể bơi rất giỏi.\nCô ấy không thể nói tiếng Anh.\nBạn có thể đi xe đạp không?\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Câu nào đúng?",
+      "options": [
+        "I can to swim.",
+        "I can swim.",
+        "I can swimming."
+      ],
+      "answer": "I can swim."
+    },
+    {
+      "type": "fill",
+      "prompt": "Cô ấy ___ nói tiếng Pháp. (không thể)",
+      "answer": "can't"
+    },
+    {
+      "type": "choice",
+      "prompt": "Can diễn đạt điều gì?",
+      "options": [
+        "Khả năng",
+        "Năng lực",
+        "Tương lai"
+      ],
+      "answer": "Năng lực"
+    }
+  ]
+}
 ---
 
 # Can và Can't

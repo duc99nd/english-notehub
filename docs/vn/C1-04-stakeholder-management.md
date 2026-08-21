@@ -1,41 +1,55 @@
 ---
-id: c1-04-stakeholder-management
-slug: c1-04-stakeholder-management
-titleEn: "Stakeholder Management"
-titleVi: "Quản lý các Bên liên quan"
-subtitleEn: "Navigate stakeholder dynamics and influence"
-subtitleVi: "Quản lý động lực và ảnh hưởng của các bên liên quan"
-level: C1
-unit: 1
-skill: vocab
-order: 4
-cefr: C1
-minutes: 5
-tags: [stakeholder, management, leadership, influence, C1]
-audioScript: |
-  Chúng ta cần đưa các bên liên quan không đồng thuận vào cuộc.
-  Sự ủng hộ của họ là yếu tố then chốt cho thành công của dự án.
-  Hãy thống nhất kỳ vọng trước khi tiến hành.
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: "Buy-in" nghĩa là gì trong ngữ cảnh kinh doanh?
-    options:
-      - "Mua cổ phiếu"
-      - "Đồng thuận và ủng hộ"
-      - "Lợi tức đầu tư"
-    answer: "Đồng thuận và ủng hộ"
-  - type: fill
-    prompt: "Chúng ta cần ___ kỳ vọng trước khi tiến hành sáng kiến."
-    answer: "thống nhất"
-  - type: choice
-    prompt: Cụm từ nào có nghĩa "có được sự ủng hộ cho quyết định"?
-    options:
-      - "đưa vào cuộc"
-      - "đặt sang một bên"
-      - "bỏ lại phía sau"
-    answer: "đưa vào cuộc"
+{
+  "id": "c1-04-stakeholder-management",
+  "slug": "c1-04-stakeholder-management",
+  "titleEn": "Stakeholder Management",
+  "titleVi": "Quản lý các Bên liên quan",
+  "subtitleEn": "Navigate stakeholder dynamics and influence",
+  "subtitleVi": "Quản lý động lực và ảnh hưởng của các bên liên quan",
+  "level": "C1",
+  "unit": 1,
+  "skill": "vocab",
+  "order": 4,
+  "cefr": "C1",
+  "minutes": 5,
+  "tags": [
+    "stakeholder",
+    "management",
+    "leadership",
+    "influence",
+    "C1"
+  ],
+  "audioScript": "Chúng ta cần đưa các bên liên quan không đồng thuận vào cuộc.\nSự ủng hộ của họ là yếu tố then chốt cho thành công của dự án.\nHãy thống nhất kỳ vọng trước khi tiến hành.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Buy-in nghĩa là gì trong ngữ cảnh kinh doanh?",
+      "options": [
+        "Mua cổ phiếu",
+        "Đồng thuận và ủng hộ",
+        "Lợi tức đầu tư"
+      ],
+      "answer": "Đồng thuận và ủng hộ"
+    },
+    {
+      "type": "fill",
+      "prompt": "Chúng ta cần ___ kỳ vọng trước khi tiến hành sáng kiến.",
+      "answer": "thống nhất"
+    },
+    {
+      "type": "choice",
+      "prompt": "Cụm từ nào có nghĩa \"có được sự ủng hộ cho quyết định\"?",
+      "options": [
+        "đưa vào cuộc",
+        "đặt sang một bên",
+        "bỏ lại phía sau"
+      ],
+      "answer": "đưa vào cuộc"
+    }
+  ]
+}
 ---
 
 # Quản lý các Bên liên quan

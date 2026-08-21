@@ -1,53 +1,71 @@
 ---
-id: c1-05-review-unit1
-slug: c1-05-review-unit1
-titleEn: "Review Unit 1"
-titleVi: "Ôn tập Unit 1"
-subtitleEn: "Consolidate executive communication, board presentations, strategy reading, and stakeholder management"
-subtitleVi: "Củng cố giao tiếp điều hành, thuyết trình hội đồng, đọc chiến lược và quản lý bên liên quan"
-level: C1
-unit: 1
-skill: review
-order: 5
-cefr: C1
-minutes: 10
-tags: [review, unit1, executive, board, strategy, C1]
-audioScript: |
-  Let's review Unit 1.
-  You can now lead executive meetings with confidence.
-  You can present to the board effectively.
-  You can analyze strategic documents.
-  You can manage stakeholders.
-listeningEnabled: true
-flashcardCount: 20
-quiz:
-  - type: choice
-    prompt: "What does 'buy-in' mean in a business context?"
-    options:
-      - "Purchasing shares"
-      - "Agreement and support"
-      - "Investment return"
-    answer: "Agreement and support"
-  - type: fill
-    prompt: "The board has ___ a pivot toward renewable energy."
-    answer: "endorsed"
-  - type: choice
-    prompt: Which phrase signals a strategic shift?
-    options:
-      - "Maintain status quo"
-      - "Pivot toward digital solutions"
-      - "Continue current operations"
-    answer: "Pivot toward digital solutions"
-  - type: fill
-    prompt: "Let's ___ expectations before we move forward."
-    answer: "align"
-  - type: choice
-    prompt: "Headwinds" in business typically means:
-    options:
-      - "Favorable conditions"
-      - "Challenges or obstacles"
-      - "Wind patterns"
-    answer: "Challenges or obstacles"
+{
+  "id": "c1-05-review-unit1",
+  "slug": "c1-05-review-unit1",
+  "titleEn": "Review Unit 1",
+  "titleVi": "Ôn tập Unit 1",
+  "subtitleEn": "Consolidate executive communication, board presentations, strategy reading, and stakeholder management",
+  "subtitleVi": "Củng cố giao tiếp điều hành, thuyết trình hội đồng, đọc chiến lược và quản lý bên liên quan",
+  "level": "C1",
+  "unit": 1,
+  "skill": "review",
+  "order": 5,
+  "cefr": "C1",
+  "minutes": 10,
+  "tags": [
+    "review",
+    "unit1",
+    "executive",
+    "board",
+    "strategy",
+    "C1"
+  ],
+  "audioScript": "Let's review Unit 1.\nYou can now lead executive meetings with confidence.\nYou can present to the board effectively.\nYou can analyze strategic documents.\nYou can manage stakeholders.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 20,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does 'buy-in' mean in a business context?",
+      "options": [
+        "Purchasing shares",
+        "Agreement and support",
+        "Investment return"
+      ],
+      "answer": "Agreement and support"
+    },
+    {
+      "type": "fill",
+      "prompt": "The board has ___ a pivot toward renewable energy.",
+      "answer": "endorsed"
+    },
+    {
+      "type": "choice",
+      "prompt": "Which phrase signals a strategic shift?",
+      "options": [
+        "Maintain status quo",
+        "Pivot toward digital solutions",
+        "Continue current operations"
+      ],
+      "answer": "Pivot toward digital solutions"
+    },
+    {
+      "type": "fill",
+      "prompt": "Let's ___ expectations before we move forward.",
+      "answer": "align"
+    },
+    {
+      "type": "choice",
+      "prompt": "Headwinds in business typically means:",
+      "options": [
+        "Favorable conditions",
+        "Challenges or obstacles",
+        "Wind patterns"
+      ],
+      "answer": "Challenges or obstacles"
+    }
+  ]
+}
 ---
 
 # Review Unit 1

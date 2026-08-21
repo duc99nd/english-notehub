@@ -1,51 +1,70 @@
 ---
-id: b2-10-review-unit2
-slug: b2-10-review-unit2
-titleEn: "Review Unit 2"
-titleVi: "Ôn tập Unit 2"
-subtitleEn: "Review meeting facilitation, persuasion, and conditionals"
-subtitleVi: "Ôn tập điều phối họp, thuyết phục và câu điều kiện"
-level: B2
-unit: 2
-skill: review
-order: 10
-cefr: B2
-minutes: 10
-tags: [review, unit2, B2, meetings, grammar]
-audioScript: |
-  Hãy cùng ôn tập Unit 2 của B2.
-  Bạn đã học cách điều phối cuộc họp.
-  Bây giờ bạn có thể dùng câu điều kiện nâng cao và ngữ pháp thuyết phục.
-listeningEnabled: true
-flashcardCount: 16
-quiz:
-  - type: choice
-    prompt: "Kick off" nghĩa là gì?
-    options:
-      - "Kết thúc cuộc họp"
-      - "Bắt đầu cuộc họp"
-      - "Hủy cuộc họp"
-    answer: "Bắt đầu cuộc họp"
-  - type: fill
-    prompt: "Nếu tôi ___ (biết), tôi đã giúp."
-    answer: "đã biết"
-  - type: choice
-    prompt: Cụm từ nào nghĩa là "tăng cường"?
-    options:
-      - "Làm yếu"
-      - "Bolster"
-      - "Trì hoãn"
-    answer: "Bolster"
-  - type: fill
-    prompt: "Không chỉ ___ giảm chi phí, mà còn cải thiện hiệu suất."
-    answer: "nó"
-  - type: choice
-    prompt: "ROI" là viết tắt của:
-    options:
-      - "Lợi tức đầu tư"
-      - "Tỷ suất thu nhập"
-      - "Rủi ro triển khai"
-    answer: "Lợi tức đầu tư"
+{
+  "id": "b2-10-review-unit2",
+  "slug": "b2-10-review-unit2",
+  "titleEn": "Review Unit 2",
+  "titleVi": "Ôn tập Unit 2",
+  "subtitleEn": "Review meeting facilitation, persuasion, and conditionals",
+  "subtitleVi": "Ôn tập điều phối họp, thuyết phục và câu điều kiện",
+  "level": "B2",
+  "unit": 2,
+  "skill": "review",
+  "order": 10,
+  "cefr": "B2",
+  "minutes": 10,
+  "tags": [
+    "review",
+    "unit2",
+    "B2",
+    "meetings",
+    "grammar"
+  ],
+  "audioScript": "Hãy cùng ôn tập Unit 2 của B2.\nBạn đã học cách điều phối cuộc họp.\nBây giờ bạn có thể dùng câu điều kiện nâng cao và ngữ pháp thuyết phục.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 16,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Kick off nghĩa là gì?",
+      "options": [
+        "Kết thúc cuộc họp",
+        "Bắt đầu cuộc họp",
+        "Hủy cuộc họp"
+      ],
+      "answer": "Bắt đầu cuộc họp"
+    },
+    {
+      "type": "fill",
+      "prompt": "Nếu tôi ___ (biết), tôi đã giúp.",
+      "answer": "đã biết"
+    },
+    {
+      "type": "choice",
+      "prompt": "Cụm từ nào nghĩa là \"tăng cường\"?",
+      "options": [
+        "Làm yếu",
+        "Bolster",
+        "Trì hoãn"
+      ],
+      "answer": "Bolster"
+    },
+    {
+      "type": "fill",
+      "prompt": "Không chỉ ___ giảm chi phí, mà còn cải thiện hiệu suất.",
+      "answer": "nó"
+    },
+    {
+      "type": "choice",
+      "prompt": "ROI là viết tắt của:",
+      "options": [
+        "Lợi tức đầu tư",
+        "Tỷ suất thu nhập",
+        "Rủi ro triển khai"
+      ],
+      "answer": "Lợi tức đầu tư"
+    }
+  ]
+}
 ---
 
 # Ôn tập Unit 2

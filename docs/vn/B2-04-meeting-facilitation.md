@@ -1,41 +1,54 @@
 ---
-id: b2-04-meeting-facilitation
-slug: b2-04-meeting-facilitation
-titleEn: "Meeting Facilitation"
-titleVi: "Điều phối cuộc họp"
-subtitleEn: "Lead and facilitate professional meetings"
-subtitleVi: "Dẫn dắt và điều phối các cuộc họp chuyên nghiệp"
-level: B2
-unit: 2
-skill: vocab
-order: 4
-cefr: B2
-minutes: 5
-tags: [meetings, facilitation, workplace, B2]
-audioScript: |
-  Hãy bắt đầu cuộc họp với một tóm tắt nhanh.
-  Chúng ta có thể tạm gác chủ đề đó cho phiên họp sau không?
-  Chúng ta cần một phiếu quyết định để tiến lên phía trước.
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: "Kick off" nghĩa là gì trong ngữ cảnh cuộc họp?
-    options:
-      - "Kết thúc cuộc họp"
-      - "Bắt đầu"
-      - "Hủy bỏ"
-    answer: "Bắt đầu"
-  - type: fill
-    prompt: "Chúng ta hãy ___ chủ đề đó cho phiên họp sau."
-    answer: "park"
-  - type: choice
-    prompt: "Tiebreaker" là gì?
-    options:
-      - "Một cách để phá vỡ bế tắc"
-      - "Một loại cuộc họp"
-      - "Một báo cáo cuối cùng"
-    answer: "Một cách để phá vỡ bế tắc"
+{
+  "id": "b2-04-meeting-facilitation",
+  "slug": "b2-04-meeting-facilitation",
+  "titleEn": "Meeting Facilitation",
+  "titleVi": "Điều phối cuộc họp",
+  "subtitleEn": "Lead and facilitate professional meetings",
+  "subtitleVi": "Dẫn dắt và điều phối các cuộc họp chuyên nghiệp",
+  "level": "B2",
+  "unit": 2,
+  "skill": "vocab",
+  "order": 4,
+  "cefr": "B2",
+  "minutes": 5,
+  "tags": [
+    "meetings",
+    "facilitation",
+    "workplace",
+    "B2"
+  ],
+  "audioScript": "Hãy bắt đầu cuộc họp với một tóm tắt nhanh.\nChúng ta có thể tạm gác chủ đề đó cho phiên họp sau không?\nChúng ta cần một phiếu quyết định để tiến lên phía trước.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Kick off nghĩa là gì trong ngữ cảnh cuộc họp?",
+      "options": [
+        "Kết thúc cuộc họp",
+        "Bắt đầu",
+        "Hủy bỏ"
+      ],
+      "answer": "Bắt đầu"
+    },
+    {
+      "type": "fill",
+      "prompt": "Chúng ta hãy ___ chủ đề đó cho phiên họp sau.",
+      "answer": "park"
+    },
+    {
+      "type": "choice",
+      "prompt": "Tiebreaker là gì?",
+      "options": [
+        "Một cách để phá vỡ bế tắc",
+        "Một loại cuộc họp",
+        "Một báo cáo cuối cùng"
+      ],
+      "answer": "Một cách để phá vỡ bế tắc"
+    }
+  ]
+}
 ---
 
 # Điều phối cuộc họp

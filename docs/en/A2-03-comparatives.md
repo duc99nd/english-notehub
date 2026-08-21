@@ -1,41 +1,54 @@
 ---
-id: a2-03-comparatives
-slug: a2-03-comparatives
-titleEn: Comparatives
-titleVi: So sánh hơn
-subtitleEn: Compare things and people using -er and more
-subtitleVi: So sánh sự vật và con người sử dụng -er và more
-level: A2
-unit: 1
-skill: reading
-order: 3
-cefr: A2
-minutes: 5
-tags: [comparatives, adjectives, grammar, comparison]
-audioScript: |
-  My house is bigger than yours.
-  English is more difficult than Vietnamese.
-  This book is more interesting than that one.
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: Which is correct for comparing two short adjectives?
-    options:
-      - 'She is more tall than me.'
-      - 'She is taller than me.'
-      - 'She is tall than me.'
-    answer: 'She is taller than me.'
-  - type: fill
-    prompt: 'This task is ___ than the last one. (easy)'
-    answer: 'easier'
-  - type: choice
-    prompt: Which word needs 'more' before it?
-    options:
-      - 'tall'
-      - 'beautiful'
-      - 'big'
-    answer: 'beautiful'
+{
+  "id": "a2-03-comparatives",
+  "slug": "a2-03-comparatives",
+  "titleEn": "Comparatives",
+  "titleVi": "So sánh hơn",
+  "subtitleEn": "Compare things and people using -er and more",
+  "subtitleVi": "So sánh sự vật và con người sử dụng -er và more",
+  "level": "A2",
+  "unit": 1,
+  "skill": "reading",
+  "order": 3,
+  "cefr": "A2",
+  "minutes": 5,
+  "tags": [
+    "comparatives",
+    "adjectives",
+    "grammar",
+    "comparison"
+  ],
+  "audioScript": "My house is bigger than yours.\nEnglish is more difficult than Vietnamese.\nThis book is more interesting than that one.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Which is correct for comparing two short adjectives?",
+      "options": [
+        "She is more tall than me.",
+        "She is taller than me.",
+        "She is tall than me."
+      ],
+      "answer": "She is taller than me."
+    },
+    {
+      "type": "fill",
+      "prompt": "This task is ___ than the last one. (easy)",
+      "answer": "easier"
+    },
+    {
+      "type": "choice",
+      "prompt": "Which word needs 'more' before it?",
+      "options": [
+        "tall",
+        "beautiful",
+        "big"
+      ],
+      "answer": "beautiful"
+    }
+  ]
+}
 ---
 
 # Comparatives

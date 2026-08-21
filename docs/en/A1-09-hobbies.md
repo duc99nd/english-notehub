@@ -1,42 +1,53 @@
 ---
-id: a1-09-hobbies
-slug: a1-09-hobbies
-titleEn: Hobbies & Free Time
-titleVi: Sở thích & Thời gian rảnh
-subtitleEn: Learn vocabulary for hobbies and what you like to do
-subtitleVi: Học từ vựng về sở thích và những gì bạn thích làm
-level: A1
-unit: 2
-skill: writing
-order: 9
-cefr: A1
-minutes: 5
-tags: [hobbies, free-time, writing]
-audioScript: |
-  In my free time, I like to read books.
-  Sometimes I play soccer with my friends.
-  I enjoy listening to music. I also like cooking.
-  On weekends, I often watch movies.
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: fill
-    prompt: "I like to ___ books in my free time. (đọc)"
-    answer: "read"
-  - type: choice
-    prompt: "Cooking" có nghĩa là gì?
-    options:
-      - Nấu ăn
-      - Đọc sách
-      - Chơi bóng đá
-    answer: Nấu ăn
-  - type: choice
-    prompt: What do you do with your eyes when you watch a movie?
-    options:
-      - listen
-      - watch
-      - play
-    answer: watch
+{
+  "id": "a1-09-hobbies",
+  "slug": "a1-09-hobbies",
+  "titleEn": "Hobbies & Free Time",
+  "titleVi": "Sở thích & Thời gian rảnh",
+  "subtitleEn": "Learn vocabulary for hobbies and what you like to do",
+  "subtitleVi": "Học từ vựng về sở thích và những gì bạn thích làm",
+  "level": "A1",
+  "unit": 2,
+  "skill": "writing",
+  "order": 9,
+  "cefr": "A1",
+  "minutes": 5,
+  "tags": [
+    "hobbies",
+    "free-time",
+    "writing"
+  ],
+  "audioScript": "In my free time, I like to read books.\nSometimes I play soccer with my friends.\nI enjoy listening to music. I also like cooking.\nOn weekends, I often watch movies.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "fill",
+      "prompt": "I like to ___ books in my free time. (đọc)",
+      "answer": "read"
+    },
+    {
+      "type": "choice",
+      "prompt": "Cooking có nghĩa là gì?",
+      "options": [
+        "Nấu ăn",
+        "Đọc sách",
+        "Chơi bóng đá"
+      ],
+      "answer": "Nấu ăn"
+    },
+    {
+      "type": "choice",
+      "prompt": "What do you do with your eyes when you watch a movie?",
+      "options": [
+        "listen",
+        "watch",
+        "play"
+      ],
+      "answer": "watch"
+    }
+  ]
+}
 ---
 
 # Hobbies & Free Time

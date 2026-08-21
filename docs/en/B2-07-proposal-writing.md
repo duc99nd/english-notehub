@@ -1,41 +1,54 @@
 ---
-id: b2-07-proposal-writing
-slug: b2-07-proposal-writing
-titleEn: 'Proposal Writing'
-titleVi: 'Viết đề xuất'
-subtitleEn: 'Write compelling business proposals'
-subtitleVi: 'Viết đề xuất kinh doanh thuyết phục'
-level: B2
-unit: 2
-skill: writing
-order: 7
-cefr: B2
-minutes: 5
-tags: [writing, proposal, business, B2]
-audioScript: |
-  This proposal outlines our three-phase approach to digital transformation.
-  Our solution will deliver measurable ROI within twelve months.
-  We are confident this partnership will yield significant long-term value.
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: What does "ROI" stand for?
-    options:
-      - 'Rate of Income'
-      - 'Return on Investment'
-      - 'Risk of Implementation'
-    answer: 'Return on Investment'
-  - type: fill
-    prompt: 'This proposal ___ our three-phase approach.'
-    answer: 'outlines'
-  - type: choice
-    prompt: Which word means "to produce results"?
-    options:
-      - 'yield'
-      - 'delay'
-      - 'consume'
-    answer: 'yield'
+{
+  "id": "b2-07-proposal-writing",
+  "slug": "b2-07-proposal-writing",
+  "titleEn": "Proposal Writing",
+  "titleVi": "Viết đề xuất",
+  "subtitleEn": "Write compelling business proposals",
+  "subtitleVi": "Viết đề xuất kinh doanh thuyết phục",
+  "level": "B2",
+  "unit": 2,
+  "skill": "writing",
+  "order": 7,
+  "cefr": "B2",
+  "minutes": 5,
+  "tags": [
+    "writing",
+    "proposal",
+    "business",
+    "B2"
+  ],
+  "audioScript": "This proposal outlines our three-phase approach to digital transformation.\nOur solution will deliver measurable ROI within twelve months.\nWe are confident this partnership will yield significant long-term value.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does \"ROI\" stand for?",
+      "options": [
+        "Rate of Income",
+        "Return on Investment",
+        "Risk of Implementation"
+      ],
+      "answer": "Return on Investment"
+    },
+    {
+      "type": "fill",
+      "prompt": "This proposal ___ our three-phase approach.",
+      "answer": "outlines"
+    },
+    {
+      "type": "choice",
+      "prompt": "Which word means \"to produce results\"?",
+      "options": [
+        "yield",
+        "delay",
+        "consume"
+      ],
+      "answer": "yield"
+    }
+  ]
+}
 ---
 
 # Proposal Writing

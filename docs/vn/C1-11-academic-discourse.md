@@ -1,41 +1,55 @@
 ---
-id: c1-11-academic-discourse
-slug: c1-11-academic-discourse
-titleEn: "Academic Discourse"
-titleVi: "Diễn ngôn Học thuật"
-subtitleEn: "Master academic vocabulary and hedging"
-subtitleVi: "Làm chủ từ vựng học thuật và ngôn ngữ thận trọng"
-level: C1
-unit: 3
-skill: vocab
-order: 11
-cefr: C1
-minutes: 5
-tags: [vocab, academic, discourse, hedging, C1]
-audioScript: |
-  Các phát hiện cho thấy mối tương quan giữa các biến.
-  Phương pháp luận đòi hỏi điều tra thêm.
-  Tài liệu cho thấy có khoảng trống trong nghiên cứu hiện tại.
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: Hedging trong văn viết học thuật là gì?
-    options:
-      - "Tuyên bố mạnh"
-      - "Ngôn ngữ thận trọng, có điều kiện"
-      - "Thuật ngữ kỹ thuật"
-    answer: "Ngôn ngữ thận trọng, có điều kiện"
-  - type: fill
-    prompt: "Các phát hiện ___ mối tương quan giữa các biến."
-    answer: "cho thấy"
-  - type: choice
-    prompt: Từ nào là từ hedging?
-    options:
-      - "Chứng minh"
-      - "Gợi ý"
-      - "Đảm bảo"
-    answer: "Gợi ý"
+{
+  "id": "c1-11-academic-discourse",
+  "slug": "c1-11-academic-discourse",
+  "titleEn": "Academic Discourse",
+  "titleVi": "Diễn ngôn Học thuật",
+  "subtitleEn": "Master academic vocabulary and hedging",
+  "subtitleVi": "Làm chủ từ vựng học thuật và ngôn ngữ thận trọng",
+  "level": "C1",
+  "unit": 3,
+  "skill": "vocab",
+  "order": 11,
+  "cefr": "C1",
+  "minutes": 5,
+  "tags": [
+    "vocab",
+    "academic",
+    "discourse",
+    "hedging",
+    "C1"
+  ],
+  "audioScript": "Các phát hiện cho thấy mối tương quan giữa các biến.\nPhương pháp luận đòi hỏi điều tra thêm.\nTài liệu cho thấy có khoảng trống trong nghiên cứu hiện tại.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Hedging trong văn viết học thuật là gì?",
+      "options": [
+        "Tuyên bố mạnh",
+        "Ngôn ngữ thận trọng, có điều kiện",
+        "Thuật ngữ kỹ thuật"
+      ],
+      "answer": "Ngôn ngữ thận trọng, có điều kiện"
+    },
+    {
+      "type": "fill",
+      "prompt": "Các phát hiện ___ mối tương quan giữa các biến.",
+      "answer": "cho thấy"
+    },
+    {
+      "type": "choice",
+      "prompt": "Từ nào là từ hedging?",
+      "options": [
+        "Chứng minh",
+        "Gợi ý",
+        "Đảm bảo"
+      ],
+      "answer": "Gợi ý"
+    }
+  ]
+}
 ---
 
 # Diễn ngôn Học thuật

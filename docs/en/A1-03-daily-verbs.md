@@ -1,42 +1,48 @@
 ---
-id: a1-03-daily-verbs
-slug: a1-03-daily-verbs
-titleEn: Daily Verbs
-titleVi: Động từ hàng ngày
-subtitleEn: Learn 20 essential verbs for everyday activities
-subtitleVi: Học 20 động từ thiết yếu cho hoạt động hàng ngày
-level: A1
-unit: 1
-skill: reading
-order: 3
-cefr: A1
-minutes: 5
-tags: [verbs, daily, reading]
-audioScript: |
-  I wake up at six in the morning.
-  I eat breakfast at seven. I drink coffee every day.
-  I go to work at eight. I come home at six.
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: What do you do in the morning? (wake up)
-    options:
-      - I sleep.
-      - I wake up.
-      - I drive.
-    answer: I wake up.
-  - type: fill
-    prompt: "I ___ breakfast at seven o'clock. (eat)"
-    answer: "eat"
-  - type: match
-    prompt: Match the verb with the action
-    options:
-      - "eat" - "ngủ"
-      - "sleep" - "ăn"
-      - "drink" - "uống"
-      - "work" - "làm việc"
-    answer: eat
+{
+  "id": "a1-03-daily-verbs",
+  "slug": "a1-03-daily-verbs",
+  "titleEn": "Daily Verbs",
+  "titleVi": "Động từ hàng ngày",
+  "subtitleEn": "Learn 20 essential verbs for everyday activities",
+  "subtitleVi": "Học 20 động từ thiết yếu cho hoạt động hàng ngày",
+  "level": "A1",
+  "unit": 1,
+  "skill": "reading",
+  "order": 3,
+  "cefr": "A1",
+  "minutes": 5,
+  "tags": [
+    "verbs",
+    "daily",
+    "reading"
+  ],
+  "audioScript": "I wake up at six in the morning.\nI eat breakfast at seven. I drink coffee every day.\nI go to work at eight. I come home at six.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What do you do in the morning? (wake up)",
+      "options": [
+        "I sleep.",
+        "I wake up.",
+        "I drive."
+      ],
+      "answer": "I wake up."
+    },
+    {
+      "type": "fill",
+      "prompt": "I ___ breakfast at seven o'clock. (eat)",
+      "answer": "eat"
+    },
+    {
+      "type": "match",
+      "prompt": "Match the verb with the action",
+      "answer": "eat"
+    }
+  ]
+}
 ---
 
 # Daily Verbs

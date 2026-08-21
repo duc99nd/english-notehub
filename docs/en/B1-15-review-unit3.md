@@ -1,52 +1,72 @@
 ---
-id: b1-15-review-unit3
-slug: b1-15-review-unit3
-titleEn: Review Unit 3
-titleVi: Ôn tập Unit 3
-subtitleEn: Review food vocabulary, conditionals, reading, and writing
-subtitleVi: Ôn tập từ vựng đồ ăn, câu điều kiện, đọc và viết
-level: B1
-unit: 3
-skill: review
-order: 15
-cefr: B1
-minutes: 10
-tags: [review, unit3, food, conditionals, writing, vocabulary, grammar]
-audioScript: |
-  Let's review what we learned in Unit 3.
-  You can now talk about food and cooking.
-  You understand first and second conditionals.
-  You can write reviews and blog posts.
-listeningEnabled: true
-flashcardCount: 16
-quiz:
-  - type: choice
-    prompt: Which cooking method means to cook in hot oil?
-    options:
-      - 'To boil'
-      - 'To bake'
-      - 'To fry'
-    answer: 'To fry'
-  - type: fill
-    prompt: 'If I ___ (have) a lot of money, I would buy a house.'
-    answer: 'had'
-  - type: choice
-    prompt: Which is the correct First Conditional?
-    options:
-      - 'If I studied, I would pass.'
-      - 'If I study, I will pass.'
-      - 'If I studied, I will pass.'
-    answer: 'If I study, I will pass.'
-  - type: fill
-    prompt: 'The food was absolutely ___ — it was delicious!'
-    answer: 'delicious'
-  - type: choice
-    prompt: What does 'overall' mean in a review?
-    options:
-      - 'At the beginning'
-      - 'In general / considering everything'
-      - 'Only the positive points'
-    answer: 'In general / considering everything'
+{
+  "id": "b1-15-review-unit3",
+  "slug": "b1-15-review-unit3",
+  "titleEn": "Review Unit 3",
+  "titleVi": "Ôn tập Unit 3",
+  "subtitleEn": "Review food vocabulary, conditionals, reading, and writing",
+  "subtitleVi": "Ôn tập từ vựng đồ ăn, câu điều kiện, đọc và viết",
+  "level": "B1",
+  "unit": 3,
+  "skill": "review",
+  "order": 15,
+  "cefr": "B1",
+  "minutes": 10,
+  "tags": [
+    "review",
+    "unit3",
+    "food",
+    "conditionals",
+    "writing",
+    "vocabulary",
+    "grammar"
+  ],
+  "audioScript": "Let's review what we learned in Unit 3.\nYou can now talk about food and cooking.\nYou understand first and second conditionals.\nYou can write reviews and blog posts.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 16,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Which cooking method means to cook in hot oil?",
+      "options": [
+        "To boil",
+        "To bake",
+        "To fry"
+      ],
+      "answer": "To fry"
+    },
+    {
+      "type": "fill",
+      "prompt": "If I ___ (have) a lot of money, I would buy a house.",
+      "answer": "had"
+    },
+    {
+      "type": "choice",
+      "prompt": "Which is the correct First Conditional?",
+      "options": [
+        "If I studied, I would pass.",
+        "If I study, I will pass.",
+        "If I studied, I will pass."
+      ],
+      "answer": "If I study, I will pass."
+    },
+    {
+      "type": "fill",
+      "prompt": "The food was absolutely ___ — it was delicious!",
+      "answer": "delicious"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does 'overall' mean in a review?",
+      "options": [
+        "At the beginning",
+        "In general / considering everything",
+        "Only the positive points"
+      ],
+      "answer": "In general / considering everything"
+    }
+  ]
+}
 ---
 
 # Review Unit 3

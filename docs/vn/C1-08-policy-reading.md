@@ -1,41 +1,55 @@
 ---
-id: c1-08-policy-reading
-slug: c1-08-policy-reading
-titleEn: "Policy Document Reading"
-titleVi: "Đọc Tài liệu Chính sách"
-subtitleEn: "Read and interpret internal policies and regulatory documents"
-subtitleVi: "Đọc và diễn giải chính sách nội bộ và tài liệu quy định"
-level: C1
-unit: 2
-skill: reading
-order: 8
-cefr: C1
-minutes: 5
-tags: [reading, policy, regulatory, compliance, C1]
-audioScript: |
-  Tất cả nhân viên phải tuân thủ chính sách bảo vệ dữ liệu cập nhật.
-  Các trường hợp ngoại lệ cần được Giám đốc Tuân thủ phê duyệt bằng văn bản.
-  Chính sách này thay thế mọi hướng dẫn trước đó có ngày trước tháng 1 năm 2025.
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: "Supersedes" nghĩa là gì trong ngữ cảnh chính sách?
-    options:
-      - "Hỗ trợ"
-      - "Thay thế"
-      - "Làm rõ"
-    answer: "Thay thế"
-  - type: fill
-    prompt: "Các ngoại lệ cần sự phê duyệt ___ từ Giám đốc Tuân thủ."
-    answer: "bằng văn bản"
-  - type: choice
-    prompt: Cụm từ nào báo hiệu yêu cầu bắt buộc?
-    options:
-      - "Nhân viên nên"
-      - "Tất cả nhân viên phải"
-      - "Nên xem xét"
-    answer: "Tất cả nhân viên phải"
+{
+  "id": "c1-08-policy-reading",
+  "slug": "c1-08-policy-reading",
+  "titleEn": "Policy Document Reading",
+  "titleVi": "Đọc Tài liệu Chính sách",
+  "subtitleEn": "Read and interpret internal policies and regulatory documents",
+  "subtitleVi": "Đọc và diễn giải chính sách nội bộ và tài liệu quy định",
+  "level": "C1",
+  "unit": 2,
+  "skill": "reading",
+  "order": 8,
+  "cefr": "C1",
+  "minutes": 5,
+  "tags": [
+    "reading",
+    "policy",
+    "regulatory",
+    "compliance",
+    "C1"
+  ],
+  "audioScript": "Tất cả nhân viên phải tuân thủ chính sách bảo vệ dữ liệu cập nhật.\nCác trường hợp ngoại lệ cần được Giám đốc Tuân thủ phê duyệt bằng văn bản.\nChính sách này thay thế mọi hướng dẫn trước đó có ngày trước tháng 1 năm 2025.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Supersedes nghĩa là gì trong ngữ cảnh chính sách?",
+      "options": [
+        "Hỗ trợ",
+        "Thay thế",
+        "Làm rõ"
+      ],
+      "answer": "Thay thế"
+    },
+    {
+      "type": "fill",
+      "prompt": "Các ngoại lệ cần sự phê duyệt ___ từ Giám đốc Tuân thủ.",
+      "answer": "bằng văn bản"
+    },
+    {
+      "type": "choice",
+      "prompt": "Cụm từ nào báo hiệu yêu cầu bắt buộc?",
+      "options": [
+        "Nhân viên nên",
+        "Tất cả nhân viên phải",
+        "Nên xem xét"
+      ],
+      "answer": "Tất cả nhân viên phải"
+    }
+  ]
+}
 ---
 
 # Đọc Tài liệu Chính sách

@@ -1,41 +1,55 @@
 ---
-id: c1-14-research-writing
-slug: c1-14-research-writing
-titleEn: "Research Writing"
-titleVi: "Viết nghiên cứu"
-subtitleEn: "Write a research-style paper with proper structure"
-subtitleVi: "Viết bài nghiên cứu với cấu trúc đúng đắn"
-level: C1
-unit: 3
-skill: writing
-order: 14
-cefr: C1
-minutes: 5
-tags: [writing, research, academic, structure, C1]
-audioScript: |
-  Bài viết này xem xét tác động của làm việc từ xa đến năng suất.
-  Phương pháp luận sử dụng phương pháp hỗn hợp.
-  Các phát hiện cho thấy sự cải thiện có ý nghĩa thống kê trong đầu ra.
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: Cấu trúc chuẩn của bài nghiên cứu là gì?
-    options:
-      - "Luận điểm → Thân bài → Kết luận"
-      - "Tóm tắt → Giới thiệu → Phương pháp → Kết quả → Thảo luận"
-      - "Giới thiệu → Lập luận → Kết thúc"
-    answer: "Tóm tắt → Giới thiệu → Phương pháp → Kết quả → Thảo luận"
-  - type: fill
-    prompt: "Phương pháp ___ sử dụng cách tiếp cận hỗn hợp trong mười hai tháng."
-    answer: "luận"
-  - type: choice
-    prompt: Bạn nêu phát hiện chính ở đâu?
-    options:
-      - "Phương pháp luận"
-      - "Tóm tắt và Kết quả"
-      - "Giới thiệu"
-    answer: "Tóm tắt và Kết quả"
+{
+  "id": "c1-14-research-writing",
+  "slug": "c1-14-research-writing",
+  "titleEn": "Research Writing",
+  "titleVi": "Viết nghiên cứu",
+  "subtitleEn": "Write a research-style paper with proper structure",
+  "subtitleVi": "Viết bài nghiên cứu với cấu trúc đúng đắn",
+  "level": "C1",
+  "unit": 3,
+  "skill": "writing",
+  "order": 14,
+  "cefr": "C1",
+  "minutes": 5,
+  "tags": [
+    "writing",
+    "research",
+    "academic",
+    "structure",
+    "C1"
+  ],
+  "audioScript": "Bài viết này xem xét tác động của làm việc từ xa đến năng suất.\nPhương pháp luận sử dụng phương pháp hỗn hợp.\nCác phát hiện cho thấy sự cải thiện có ý nghĩa thống kê trong đầu ra.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Cấu trúc chuẩn của bài nghiên cứu là gì?",
+      "options": [
+        "Luận điểm → Thân bài → Kết luận",
+        "Tóm tắt → Giới thiệu → Phương pháp → Kết quả → Thảo luận",
+        "Giới thiệu → Lập luận → Kết thúc"
+      ],
+      "answer": "Tóm tắt → Giới thiệu → Phương pháp → Kết quả → Thảo luận"
+    },
+    {
+      "type": "fill",
+      "prompt": "Phương pháp ___ sử dụng cách tiếp cận hỗn hợp trong mười hai tháng.",
+      "answer": "luận"
+    },
+    {
+      "type": "choice",
+      "prompt": "Bạn nêu phát hiện chính ở đâu?",
+      "options": [
+        "Phương pháp luận",
+        "Tóm tắt và Kết quả",
+        "Giới thiệu"
+      ],
+      "answer": "Tóm tắt và Kết quả"
+    }
+  ]
+}
 ---
 
 # Viết nghiên cứu

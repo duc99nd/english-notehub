@@ -1,52 +1,71 @@
 ---
-id: a1-15-review-unit3
-slug: a1-15-review-unit3
-titleEn: "Review Unit 3"
-titleVi: "Ôn tập Unit 3"
-subtitleEn: Review Unit 3: shopping, directions, can/can't, and describing people
-subtitleVi: Ôn tập Unit 3: mua sắm, đường đi, can/can't và miêu tả con người
-level: A1
-unit: 3
-skill: review
-order: 15
-cefr: A1
-minutes: 10
-tags: [review, unit3, shopping, directions, describing, A1]
-audioScript: |
-  Let's review Unit 3.
-  You can now ask for directions.
-  You can talk about abilities using can and can't.
-  You can describe people.
-listeningEnabled: true
-flashcardCount: 12
-quiz:
-  - type: choice
-    prompt: "How much does this cost?" means:
-    options:
-      - "How many?"
-      - "What is the price?"
-      - "Where is it?"
-    answer: "What is the price?"
-  - type: fill
-    prompt: "Turn ___ at the traffic light."
-    answer: "left"
-  - type: choice
-    prompt: Which is correct?
-    options:
-      - "I can to swim."
-      - "I can swim."
-      - "I can swimming."
-    answer: "I can swim."
-  - type: fill
-    prompt: "She ___ black hair. (có)"
-    answer: "has"
-  - type: choice
-    prompt: What does "friendly" describe?
-    options:
-      - "Appearance"
-      - "Personality"
-      - "Height"
-    answer: "Personality"
+{
+  "id": "a1-15-review-unit3",
+  "slug": "a1-15-review-unit3",
+  "titleEn": "Review Unit 3",
+  "titleVi": "Ôn tập Unit 3",
+  "subtitleEn": "Review Unit 3: shopping, directions, can/can't, and describing people",
+  "subtitleVi": "Ôn tập Unit 3: mua sắm, đường đi, can/can't và miêu tả con người",
+  "level": "A1",
+  "unit": 3,
+  "skill": "review",
+  "order": 15,
+  "cefr": "A1",
+  "minutes": 10,
+  "tags": [
+    "review",
+    "unit3",
+    "shopping",
+    "directions",
+    "describing",
+    "A1"
+  ],
+  "audioScript": "Let's review Unit 3.\nYou can now ask for directions.\nYou can talk about abilities using can and can't.\nYou can describe people.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 12,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "How much does this cost? means:",
+      "options": [
+        "How many?",
+        "What is the price?",
+        "Where is it?"
+      ],
+      "answer": "What is the price?"
+    },
+    {
+      "type": "fill",
+      "prompt": "Turn ___ at the traffic light.",
+      "answer": "left"
+    },
+    {
+      "type": "choice",
+      "prompt": "Which is correct?",
+      "options": [
+        "I can to swim.",
+        "I can swim.",
+        "I can swimming."
+      ],
+      "answer": "I can swim."
+    },
+    {
+      "type": "fill",
+      "prompt": "She ___ black hair. (có)",
+      "answer": "has"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does \"friendly\" describe?",
+      "options": [
+        "Appearance",
+        "Personality",
+        "Height"
+      ],
+      "answer": "Personality"
+    }
+  ]
+}
 ---
 
 # Review Unit 3

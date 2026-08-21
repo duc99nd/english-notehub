@@ -1,53 +1,71 @@
 ---
-id: a2-15-review-unit3
-slug: a2-15-review-unit3
-titleEn: Review Unit 3
-titleVi: Ôn tập Unit 3
-subtitleEn: Consolidate small talk, opinions, experiences, and reading
-subtitleVi: Củng cố small talk, ý kiến, kinh nghiệm và đọc hiểu
-level: A2
-unit: 3
-skill: review
-order: 15
-cefr: A2
-minutes: 10
-tags: [review, unit3, small-talk, opinions, experiences, A2]
-audioScript: |
-  Hãy ôn tập Unit 3.
-  Bạn có thể trò chuyện xã giao bằng tiếng Anh.
-  Bạn có thể chia sẻ ý kiến lịch sự.
-  Bạn có thể nói về kinh nghiệm cuộc sống.
-  Bạn có thể đọc hiểu câu chuyện ngắn cá nhân.
-listeningEnabled: true
-flashcardCount: 20
-quiz:
-  - type: choice
-    prompt: Cụm nào mở đầu small talk?
-    options:
-      - "Làm ơn đưa tôi tập tin."
-      - "Thời tiết đẹp nhỉ?"
-      - "Nhà ga ở đâu?"
-    answer: "Thời tiết đẹp nhỉ?"
-  - type: fill
-    prompt: "Theo ___ của tôi, chúng ta nên đợi. (opinion)"
-    answer: "ý kiến"
-  - type: choice
-    prompt: "Tôi đã từng đến Tokyo." Ở thì gì?
-    options:
-      - "Quá khứ đơn"
-      - "Hiện tại hoàn thành"
-      - "Tương lai"
-    answer: "Hiện tại hoàn thành"
-  - type: fill
-    prompt: "Cô ấy đã làm ở đây ___ 2018."
-    answer: "từ"
-  - type: choice
-    prompt: Cụm nào KHÔNG phải cụm ý kiến?
-    options:
-      - "Tôi tin rằng"
-      - "Tôi nghĩ"
-      - "Tôi yêu cầu"
-    answer: "Tôi yêu cầu"
+{
+  "id": "a2-15-review-unit3",
+  "slug": "a2-15-review-unit3",
+  "titleEn": "Review Unit 3",
+  "titleVi": "Ôn tập Unit 3",
+  "subtitleEn": "Consolidate small talk, opinions, experiences, and reading",
+  "subtitleVi": "Củng cố small talk, ý kiến, kinh nghiệm và đọc hiểu",
+  "level": "A2",
+  "unit": 3,
+  "skill": "review",
+  "order": 15,
+  "cefr": "A2",
+  "minutes": 10,
+  "tags": [
+    "review",
+    "unit3",
+    "small-talk",
+    "opinions",
+    "experiences",
+    "A2"
+  ],
+  "audioScript": "Hãy ôn tập Unit 3.\nBạn có thể trò chuyện xã giao bằng tiếng Anh.\nBạn có thể chia sẻ ý kiến lịch sự.\nBạn có thể nói về kinh nghiệm cuộc sống.\nBạn có thể đọc hiểu câu chuyện ngắn cá nhân.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 20,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Cụm nào mở đầu small talk?",
+      "options": [
+        "Làm ơn đưa tôi tập tin.",
+        "Thời tiết đẹp nhỉ?",
+        "Nhà ga ở đâu?"
+      ],
+      "answer": "Thời tiết đẹp nhỉ?"
+    },
+    {
+      "type": "fill",
+      "prompt": "Theo ___ của tôi, chúng ta nên đợi. (opinion)",
+      "answer": "ý kiến"
+    },
+    {
+      "type": "choice",
+      "prompt": "Tôi đã từng đến Tokyo. Ở thì gì?",
+      "options": [
+        "Quá khứ đơn",
+        "Hiện tại hoàn thành",
+        "Tương lai"
+      ],
+      "answer": "Hiện tại hoàn thành"
+    },
+    {
+      "type": "fill",
+      "prompt": "Cô ấy đã làm ở đây ___ 2018.",
+      "answer": "từ"
+    },
+    {
+      "type": "choice",
+      "prompt": "Cụm nào KHÔNG phải cụm ý kiến?",
+      "options": [
+        "Tôi tin rằng",
+        "Tôi nghĩ",
+        "Tôi yêu cầu"
+      ],
+      "answer": "Tôi yêu cầu"
+    }
+  ]
+}
 ---
 
 # Ôn tập Unit 3

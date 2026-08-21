@@ -1,53 +1,70 @@
 ---
-id: c1-15-review-unit3
-slug: c1-15-review-unit3
-titleEn: "Review Unit 3"
-titleVi: "Ôn tập Unit 3"
-subtitleEn: "Consolidate academic discourse, nuanced grammar, critical reading, and research writing"
-subtitleVi: "Củng cố diễn ngôn học thuật, ngữ pháp tinh tế, đọc phản biện và viết nghiên cứu"
-level: C1
-unit: 3
-skill: review
-order: 15
-cefr: C1
-minutes: 10
-tags: [review, unit3, academic, research, C1]
-audioScript: |
-  Hãy ôn tập Unit 3.
-  Bây giờ bạn có thể sử dụng từ vựng học thuật và hedging.
-  Bạn có thể áp dụng các cấu trúc ngữ pháp C1 tinh tế.
-  Bạn có thể phê bình lập luận học thuật.
-  Bạn có thể viết bài nghiên cứu.
-listeningEnabled: true
-flashcardCount: 20
-quiz:
-  - type: choice
-    prompt: Động từ nào là hedge?
-    options:
-      - "Chứng minh"
-      - "Gợi ý"
-      - "Đảm bảo"
-    answer: "Gợi ý"
-  - type: fill
-    prompt: "Were we to launch in Q1, we would capture early adopters." → Xác định loại câu điều kiện: điều kiện ___.
-    answer: "đảo ngữ"
-  - type: choice
-    prompt: IMRaD là viết tắt của gì?
-    options:
-      - "Giới thiệu, Phương pháp, Kết quả, Phân tích, Thảo luận"
-      - "Tóm tắt, Giới thiệu, Phương pháp luận, Kết quả, Thảo luận"
-      - "Mục đích, Phương pháp, Đánh giá, Phân tích, Quyết định"
-    answer: "Tóm tắt, Giới thiệu, Phương pháp luận, Kết quả, Thảo luận"
-  - type: fill
-    prompt: "Có vẻ như dữ liệu đã bị hiểu sai." → Câu này sử dụng ngôn ngữ ___.
-    answer: "hedging"
-  - type: choice
-    prompt: Dấu hiệu của thiên kiến trong nghiên cứu là gì?
-    options:
-      - "Cỡ mẫu lớn"
-      - "Sử dụng chọn lọc bằng chứng"
-      - "Đánh giá ngang hàng"
-    answer: "Sử dụng chọn lọc bằng chứng"
+{
+  "id": "c1-15-review-unit3",
+  "slug": "c1-15-review-unit3",
+  "titleEn": "Review Unit 3",
+  "titleVi": "Ôn tập Unit 3",
+  "subtitleEn": "Consolidate academic discourse, nuanced grammar, critical reading, and research writing",
+  "subtitleVi": "Củng cố diễn ngôn học thuật, ngữ pháp tinh tế, đọc phản biện và viết nghiên cứu",
+  "level": "C1",
+  "unit": 3,
+  "skill": "review",
+  "order": 15,
+  "cefr": "C1",
+  "minutes": 10,
+  "tags": [
+    "review",
+    "unit3",
+    "academic",
+    "research",
+    "C1"
+  ],
+  "audioScript": "Hãy ôn tập Unit 3.\nBây giờ bạn có thể sử dụng từ vựng học thuật và hedging.\nBạn có thể áp dụng các cấu trúc ngữ pháp C1 tinh tế.\nBạn có thể phê bình lập luận học thuật.\nBạn có thể viết bài nghiên cứu.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 20,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Động từ nào là hedge?",
+      "options": [
+        "Chứng minh",
+        "Gợi ý",
+        "Đảm bảo"
+      ],
+      "answer": "Gợi ý"
+    },
+    {
+      "type": "fill",
+      "prompt": "Were we to launch in Q1, we would capture early adopters. → Xác định loại câu điều kiện: điều kiện ___.",
+      "answer": "đảo ngữ"
+    },
+    {
+      "type": "choice",
+      "prompt": "IMRaD là viết tắt của gì?",
+      "options": [
+        "Giới thiệu, Phương pháp, Kết quả, Phân tích, Thảo luận",
+        "Tóm tắt, Giới thiệu, Phương pháp luận, Kết quả, Thảo luận",
+        "Mục đích, Phương pháp, Đánh giá, Phân tích, Quyết định"
+      ],
+      "answer": "Tóm tắt, Giới thiệu, Phương pháp luận, Kết quả, Thảo luận"
+    },
+    {
+      "type": "fill",
+      "prompt": "Có vẻ như dữ liệu đã bị hiểu sai. → Câu này sử dụng ngôn ngữ ___.",
+      "answer": "hedging"
+    },
+    {
+      "type": "choice",
+      "prompt": "Dấu hiệu của thiên kiến trong nghiên cứu là gì?",
+      "options": [
+        "Cỡ mẫu lớn",
+        "Sử dụng chọn lọc bằng chứng",
+        "Đánh giá ngang hàng"
+      ],
+      "answer": "Sử dụng chọn lọc bằng chứng"
+    }
+  ]
+}
 ---
 
 # Ôn tập Unit 3

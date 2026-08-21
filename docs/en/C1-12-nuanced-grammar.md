@@ -1,41 +1,55 @@
 ---
-id: c1-12-nuanced-grammar
-slug: c1-12-nuanced-grammar
-titleEn: "Nuanced C1 Grammar"
-titleVi: "Ngữ pháp C1 tinh tế"
-subtitleEn: "Master mixed conditionals, cleft sentences, and advanced modality"
-subtitleVi: "Làm chủ câu điều kiện hỗn hợp, câu chẻ và modal nâng cao"
-level: C1
-unit: 3
-skill: grammar
-order: 12
-cefr: C1
-minutes: 5
-tags: [grammar, mixed-conditionals, modality, advanced, C1]
-audioScript: |
-  Had the board approved the proposal earlier, we would be operating internationally today.
-  Were we to launch in Q1, we would capture the early adopters.
-  Should circumstances change, we are prepared to pivot.
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: Which is a mixed conditional?
-    options:
-      - "If it rains, I will stay."
-      - "If I had studied, I would be a doctor now."
-      - "If it rains, I stayed."
-    answer: "If I had studied, I would be a doctor now."
-  - type: fill
-    prompt: "___ circumstances change, we are prepared to pivot."
-    answer: "Should"
-  - type: choice
-    prompt: What does "modal perfect" express?
-    options:
-      - "Future possibility"
-      - "Past speculation / regret"
-      - "Present habit"
-    answer: "Past speculation / regret"
+{
+  "id": "c1-12-nuanced-grammar",
+  "slug": "c1-12-nuanced-grammar",
+  "titleEn": "Nuanced C1 Grammar",
+  "titleVi": "Ngữ pháp C1 tinh tế",
+  "subtitleEn": "Master mixed conditionals, cleft sentences, and advanced modality",
+  "subtitleVi": "Làm chủ câu điều kiện hỗn hợp, câu chẻ và modal nâng cao",
+  "level": "C1",
+  "unit": 3,
+  "skill": "grammar",
+  "order": 12,
+  "cefr": "C1",
+  "minutes": 5,
+  "tags": [
+    "grammar",
+    "mixed-conditionals",
+    "modality",
+    "advanced",
+    "C1"
+  ],
+  "audioScript": "Had the board approved the proposal earlier, we would be operating internationally today.\nWere we to launch in Q1, we would capture the early adopters.\nShould circumstances change, we are prepared to pivot.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Which is a mixed conditional?",
+      "options": [
+        "If it rains, I will stay.",
+        "If I had studied, I would be a doctor now.",
+        "If it rains, I stayed."
+      ],
+      "answer": "If I had studied, I would be a doctor now."
+    },
+    {
+      "type": "fill",
+      "prompt": "___ circumstances change, we are prepared to pivot.",
+      "answer": "Should"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does \"modal perfect\" express?",
+      "options": [
+        "Future possibility",
+        "Past speculation / regret",
+        "Present habit"
+      ],
+      "answer": "Past speculation / regret"
+    }
+  ]
+}
 ---
 
 # Nuanced C1 Grammar

@@ -1,43 +1,59 @@
 ---
-id: c2-09-legal-contracts
-slug: c2-09-legal-contracts
-titleEn: Legal Contracts
-titleVi: Hợp đồng Pháp lý
-subtitleEn: Master the precision and structure of formal legal writing
-subtitleVi: Làm chủ sự chính xác và cấu trúc của văn bản pháp lý trang trọng
-level: C2
-unit: 2
-skill: writing
-order: 9
-cefr: C2
-minutes: 5
-tags: [legal, contracts, law, formal, writing, precision, drafting]
-audioScript: |
-  Legal language evolved to eliminate ambiguity and protect all parties.
-  Definitions sections are the foundation of legal precision.
-  Boilerplate clauses are not merely standard—they serve specific protective functions.
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: What is the purpose of the definitions section in a legal contract?
-    options:
-      - 'To impress readers with complexity'
-      - 'To eliminate ambiguity by establishing precise meanings'
-      - 'To satisfy legal requirements'
-      - 'To provide examples'
-    answer: 'To eliminate ambiguity by establishing precise meanings'
-  - type: choice
-    prompt: Which word, when used in a contract, creates the strongest obligation?
-    options:
-      - 'May'
-      - 'Should'
-      - 'Shall'
-      - 'Might'
-    answer: 'Shall'
-  - type: fill
-    prompt: 'The parties hereby ___ that they have read and understood the terms of this agreement.'
-    answer: 'acknowledge'
+{
+  "id": "c2-09-legal-contracts",
+  "slug": "c2-09-legal-contracts",
+  "titleEn": "Legal Contracts",
+  "titleVi": "Hợp đồng Pháp lý",
+  "subtitleEn": "Master the precision and structure of formal legal writing",
+  "subtitleVi": "Làm chủ sự chính xác và cấu trúc của văn bản pháp lý trang trọng",
+  "level": "C2",
+  "unit": 2,
+  "skill": "writing",
+  "order": 9,
+  "cefr": "C2",
+  "minutes": 5,
+  "tags": [
+    "legal",
+    "contracts",
+    "law",
+    "formal",
+    "writing",
+    "precision",
+    "drafting"
+  ],
+  "audioScript": "Legal language evolved to eliminate ambiguity and protect all parties.\nDefinitions sections are the foundation of legal precision.\nBoilerplate clauses are not merely standard—they serve specific protective functions.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What is the purpose of the definitions section in a legal contract?",
+      "options": [
+        "To impress readers with complexity",
+        "To eliminate ambiguity by establishing precise meanings",
+        "To satisfy legal requirements",
+        "To provide examples"
+      ],
+      "answer": "To eliminate ambiguity by establishing precise meanings"
+    },
+    {
+      "type": "choice",
+      "prompt": "Which word, when used in a contract, creates the strongest obligation?",
+      "options": [
+        "May",
+        "Should",
+        "Shall",
+        "Might"
+      ],
+      "answer": "Shall"
+    },
+    {
+      "type": "fill",
+      "prompt": "The parties hereby ___ that they have read and understood the terms of this agreement.",
+      "answer": "acknowledge"
+    }
+  ]
+}
 ---
 
 # Legal Contracts

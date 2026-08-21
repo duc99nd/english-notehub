@@ -1,52 +1,72 @@
 ---
-id: b1-10-review-unit2
-slug: b1-10-review-unit2
-titleEn: Review Unit 2
-titleVi: Ôn tập Unit 2
-subtitleEn: Ôn tập từ vựng công việc, động từ trợ giúp, đọc và viết
-subtitleVi: Ôn tập từ vựng công việc, động từ trợ giúp, đọc và viết
-level: B1
-unit: 2
-skill: review
-order: 10
-cefr: B1
-minutes: 10
-tags: [review, unit2, work, modals, writing, vocabulary, grammar]
-audioScript: |
-  Hãy ôn tập những gì chúng ta đã học trong Unit 2.
-  Bây giờ bạn có thể nói về công việc và nơi làm việc của mình.
-  Bạn hiểu must, have to, should và ought to.
-  Bạn có thể viết thư xin việc.
-listeningEnabled: true
-flashcardCount: 16
-quiz:
-  - type: choice
-    prompt: Động từ trợ giúp nào dùng để đưa ra lời khuyên?
-    options:
-      - "must"
-      - "should"
-      - "had to"
-    answer: "should"
-  - type: fill
-    prompt: "Tôi ___ (have to) làm việc muộn hôm qua."
-    answer: "had to"
-  - type: choice
-    prompt: Lời kết thúc nào là trang trọng cho thư xin việc?
-    options:
-      - "Love,"
-      - "Yours faithfully,"
-      - "Best,"
-    answer: "Yours faithfully,"
-  - type: fill
-    prompt: "Dự án có ___ vào thứ Sáu tuần sau."
-    answer: "deadline"
-  - type: choice
-    prompt: 'Flexibility' (sự linh hoạt) nghĩa là gì trong ngữ cảnh công việc?
-    options:
-      - "Chỉ làm việc vào ban đêm"
-      - "Có sự lựa chọn về thời gian hoặc cách làm việc"
-      - "Rất nghiêm ngặt"
-    answer: "Có sự lựa chọn về thời gian hoặc cách làm việc"
+{
+  "id": "b1-10-review-unit2",
+  "slug": "b1-10-review-unit2",
+  "titleEn": "Review Unit 2",
+  "titleVi": "Ôn tập Unit 2",
+  "subtitleEn": "Ôn tập từ vựng công việc, động từ trợ giúp, đọc và viết",
+  "subtitleVi": "Ôn tập từ vựng công việc, động từ trợ giúp, đọc và viết",
+  "level": "B1",
+  "unit": 2,
+  "skill": "review",
+  "order": 10,
+  "cefr": "B1",
+  "minutes": 10,
+  "tags": [
+    "review",
+    "unit2",
+    "work",
+    "modals",
+    "writing",
+    "vocabulary",
+    "grammar"
+  ],
+  "audioScript": "Hãy ôn tập những gì chúng ta đã học trong Unit 2.\nBây giờ bạn có thể nói về công việc và nơi làm việc của mình.\nBạn hiểu must, have to, should và ought to.\nBạn có thể viết thư xin việc.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 16,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Động từ trợ giúp nào dùng để đưa ra lời khuyên?",
+      "options": [
+        "must",
+        "should",
+        "had to"
+      ],
+      "answer": "should"
+    },
+    {
+      "type": "fill",
+      "prompt": "Tôi ___ (have to) làm việc muộn hôm qua.",
+      "answer": "had to"
+    },
+    {
+      "type": "choice",
+      "prompt": "Lời kết thúc nào là trang trọng cho thư xin việc?",
+      "options": [
+        "Love,",
+        "Yours faithfully,",
+        "Best,"
+      ],
+      "answer": "Yours faithfully,"
+    },
+    {
+      "type": "fill",
+      "prompt": "Dự án có ___ vào thứ Sáu tuần sau.",
+      "answer": "deadline"
+    },
+    {
+      "type": "choice",
+      "prompt": "Flexibility (sự linh hoạt) nghĩa là gì trong ngữ cảnh công việc?",
+      "options": [
+        "Chỉ làm việc vào ban đêm",
+        "Có sự lựa chọn về thời gian hoặc cách làm việc",
+        "Rất nghiêm ngặt"
+      ],
+      "answer": "Có sự lựa chọn về thời gian hoặc cách làm việc"
+    }
+  ]
+}
 ---
 
 # Ôn tập Unit 2

@@ -1,41 +1,54 @@
 ---
-id: a1-12-directions
-slug: a1-12-directions
-titleEn: 'Directions & Places'
-titleVi: 'Đường đi & Địa điểm'
-subtitleEn: Learn how to ask for and give directions
-subtitleVi: Học cách hỏi và chỉ đường
-level: A1
-unit: 3
-skill: vocab
-order: 12
-cefr: A1
-minutes: 5
-tags: [directions, places, vocab, daily]
-audioScript: |
-  Excuse me, where is the bank?
-  Turn left at the traffic light.
-  Go straight for two blocks.
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: How do you ask for directions?
-    options:
-      - 'Where is the bank?'
-      - 'I am the bank.'
-      - 'Bank is where?'
-    answer: 'Where is the bank?'
-  - type: fill
-    prompt: 'Turn ___ at the traffic light. (trái)'
-    answer: 'left'
-  - type: choice
-    prompt: What does "go straight" mean?
-    options:
-      - 'Turn around'
-      - 'Continue forward'
-      - 'Stop'
-    answer: 'Continue forward'
+{
+  "id": "a1-12-directions",
+  "slug": "a1-12-directions",
+  "titleEn": "Directions & Places",
+  "titleVi": "Đường đi & Địa điểm",
+  "subtitleEn": "Learn how to ask for and give directions",
+  "subtitleVi": "Học cách hỏi và chỉ đường",
+  "level": "A1",
+  "unit": 3,
+  "skill": "vocab",
+  "order": 12,
+  "cefr": "A1",
+  "minutes": 5,
+  "tags": [
+    "directions",
+    "places",
+    "vocab",
+    "daily"
+  ],
+  "audioScript": "Excuse me, where is the bank?\nTurn left at the traffic light.\nGo straight for two blocks.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "How do you ask for directions?",
+      "options": [
+        "Where is the bank?",
+        "I am the bank.",
+        "Bank is where?"
+      ],
+      "answer": "Where is the bank?"
+    },
+    {
+      "type": "fill",
+      "prompt": "Turn ___ at the traffic light. (trái)",
+      "answer": "left"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does \"go straight\" mean?",
+      "options": [
+        "Turn around",
+        "Continue forward",
+        "Stop"
+      ],
+      "answer": "Continue forward"
+    }
+  ]
+}
 ---
 
 # Directions & Places

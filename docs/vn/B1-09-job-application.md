@@ -1,41 +1,56 @@
 ---
-id: b1-09-job-application
-slug: b1-09-job-application
-titleEn: Writing a Job Application Letter
-titleVi: Viết Thư Xin Việc
-subtitleEn: Học cách viết đơn xin việc chuyên nghiệp
-subtitleVi: Học cách viết đơn xin việc chuyên nghiệp
-level: B1
-unit: 2
-skill: writing
-order: 9
-cefr: B1
-minutes: 5
-tags: [writing, job, application, letter, professional, career]
-audioScript: |
-  Kính gửi ông Johnson, tôi viết thư này để ứng tuyển vị trí Quản lý Marketing.
-  Tôi có năm năm kinh nghiệm trong tiếp thị kỹ thuật số.
-  Tôi mong sớm nhận được phản hồi từ quý vị.
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: Bạn nên đưa gì vào đoạn đầu tiên của thư xin việc?
-    options:
-      - 'Sở thích của bạn'
-      - 'Vị trí bạn đang ứng tuyển'
-      - 'Mức lương mong muốn'
-    answer: 'Vị trí bạn đang ứng tuyển'
-  - type: fill
-    prompt: 'Tôi viết thư này để ___ cho vị trí Quản lý Marketing.'
-    answer: 'apply'
-  - type: choice
-    prompt: Lời kết thúc nào phù hợp cho thư xin việc chính thức?
-    options:
-      - 'Love,'
-      - 'Yours faithfully,'
-      - 'See ya!'
-    answer: 'Yours faithfully,'
+{
+  "id": "b1-09-job-application",
+  "slug": "b1-09-job-application",
+  "titleEn": "Writing a Job Application Letter",
+  "titleVi": "Viết Thư Xin Việc",
+  "subtitleEn": "Học cách viết đơn xin việc chuyên nghiệp",
+  "subtitleVi": "Học cách viết đơn xin việc chuyên nghiệp",
+  "level": "B1",
+  "unit": 2,
+  "skill": "writing",
+  "order": 9,
+  "cefr": "B1",
+  "minutes": 5,
+  "tags": [
+    "writing",
+    "job",
+    "application",
+    "letter",
+    "professional",
+    "career"
+  ],
+  "audioScript": "Kính gửi ông Johnson, tôi viết thư này để ứng tuyển vị trí Quản lý Marketing.\nTôi có năm năm kinh nghiệm trong tiếp thị kỹ thuật số.\nTôi mong sớm nhận được phản hồi từ quý vị.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Bạn nên đưa gì vào đoạn đầu tiên của thư xin việc?",
+      "options": [
+        "Sở thích của bạn",
+        "Vị trí bạn đang ứng tuyển",
+        "Mức lương mong muốn"
+      ],
+      "answer": "Vị trí bạn đang ứng tuyển"
+    },
+    {
+      "type": "fill",
+      "prompt": "Tôi viết thư này để ___ cho vị trí Quản lý Marketing.",
+      "answer": "apply"
+    },
+    {
+      "type": "choice",
+      "prompt": "Lời kết thúc nào phù hợp cho thư xin việc chính thức?",
+      "options": [
+        "Love,",
+        "Yours faithfully,",
+        "See ya!"
+      ],
+      "answer": "Yours faithfully,"
+    }
+  ]
+}
 ---
 
 # Viết Thư Xin Việc

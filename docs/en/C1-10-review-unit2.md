@@ -1,53 +1,71 @@
 ---
-id: c1-10-review-unit2
-slug: c1-10-review-unit2
-titleEn: "Review Unit 2"
-titleVi: "Ôn tập Unit 2"
-subtitleEn: "Consolidate investor relations, advanced grammar, policy reading, and executive summary writing"
-subtitleVi: "Củng cố quan hệ nhà đầu tư, ngữ pháp nâng cao, đọc chính sách và viết tóm tắt điều hành"
-level: C1
-unit: 2
-skill: review
-order: 10
-cefr: C1
-minutes: 10
-tags: [review, unit2, investor, grammar, policy, C1]
-audioScript: |
-  Let's review Unit 2.
-  You can now communicate effectively with investors.
-  You can use advanced C1 grammar structures.
-  You can read policy documents.
-  You can write executive summaries.
-listeningEnabled: true
-flashcardCount: 20
-quiz:
-  - type: choice
-    prompt: What does "EPS" stand for?
-    options:
-      - "Earnings per share"
-      - "Executive profit summary"
-      - "Equity price standard"
-    answer: "Earnings per share"
-  - type: fill
-    prompt: "___ have we seen such rapid growth in this segment."
-    answer: "Never"
-  - type: choice
-    prompt: Which is a subjunctive construction?
-    options:
-      - "We will approve the budget."
-      - "It is essential that the budget be approved."
-      - "The budget was approved yesterday."
-    answer: "It is essential that the budget be approved."
-  - type: fill
-    prompt: "All employees ___ complete the training by March 31."
-    answer: "must"
-  - type: choice
-    prompt: According to BLUF, what comes first?
-    options:
-      - "Background"
-      - "Recommendation"
-      - "Risks"
-    answer: "Recommendation"
+{
+  "id": "c1-10-review-unit2",
+  "slug": "c1-10-review-unit2",
+  "titleEn": "Review Unit 2",
+  "titleVi": "Ôn tập Unit 2",
+  "subtitleEn": "Consolidate investor relations, advanced grammar, policy reading, and executive summary writing",
+  "subtitleVi": "Củng cố quan hệ nhà đầu tư, ngữ pháp nâng cao, đọc chính sách và viết tóm tắt điều hành",
+  "level": "C1",
+  "unit": 2,
+  "skill": "review",
+  "order": 10,
+  "cefr": "C1",
+  "minutes": 10,
+  "tags": [
+    "review",
+    "unit2",
+    "investor",
+    "grammar",
+    "policy",
+    "C1"
+  ],
+  "audioScript": "Let's review Unit 2.\nYou can now communicate effectively with investors.\nYou can use advanced C1 grammar structures.\nYou can read policy documents.\nYou can write executive summaries.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 20,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does \"EPS\" stand for?",
+      "options": [
+        "Earnings per share",
+        "Executive profit summary",
+        "Equity price standard"
+      ],
+      "answer": "Earnings per share"
+    },
+    {
+      "type": "fill",
+      "prompt": "___ have we seen such rapid growth in this segment.",
+      "answer": "Never"
+    },
+    {
+      "type": "choice",
+      "prompt": "Which is a subjunctive construction?",
+      "options": [
+        "We will approve the budget.",
+        "It is essential that the budget be approved.",
+        "The budget was approved yesterday."
+      ],
+      "answer": "It is essential that the budget be approved."
+    },
+    {
+      "type": "fill",
+      "prompt": "All employees ___ complete the training by March 31.",
+      "answer": "must"
+    },
+    {
+      "type": "choice",
+      "prompt": "According to BLUF, what comes first?",
+      "options": [
+        "Background",
+        "Recommendation",
+        "Risks"
+      ],
+      "answer": "Recommendation"
+    }
+  ]
+}
 ---
 
 # Review Unit 2

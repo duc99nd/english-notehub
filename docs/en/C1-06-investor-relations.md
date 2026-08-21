@@ -1,41 +1,55 @@
 ---
-id: c1-06-investor-relations
-slug: c1-06-investor-relations
-titleEn: "Investor Relations"
-titleVi: "Quan hệ Nhà đầu tư"
-subtitleEn: "Communicate with investors and analysts"
-subtitleVi: "Giao tiếp với nhà đầu tư và nhà phân tích"
-level: C1
-unit: 2
-skill: vocab
-order: 6
-cefr: C1
-minutes: 5
-tags: [investor, relations, finance, communication, C1]
-audioScript: |
-  We project double-digit growth over the next fiscal year.
-  Our earnings per share have outperformed analyst consensus.
-  We are committed to delivering shareholder value through disciplined execution.
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: What does "earnings per share" (EPS) measure?
-    options:
-      - "Total company profit"
-      - "Profit allocated per share"
-      - "Number of shares"
-    answer: "Profit allocated per share"
-  - type: fill
-    prompt: "We ___ double-digit growth over the next fiscal year."
-    answer: "project"
-  - type: choice
-    prompt: "Shareholder value" refers to:
-    options:
-      - "Stock price performance"
-      - "Number of shareholders"
-      - "Dividend policy"
-    answer: "Stock price performance"
+{
+  "id": "c1-06-investor-relations",
+  "slug": "c1-06-investor-relations",
+  "titleEn": "Investor Relations",
+  "titleVi": "Quan hệ Nhà đầu tư",
+  "subtitleEn": "Communicate with investors and analysts",
+  "subtitleVi": "Giao tiếp với nhà đầu tư và nhà phân tích",
+  "level": "C1",
+  "unit": 2,
+  "skill": "vocab",
+  "order": 6,
+  "cefr": "C1",
+  "minutes": 5,
+  "tags": [
+    "investor",
+    "relations",
+    "finance",
+    "communication",
+    "C1"
+  ],
+  "audioScript": "We project double-digit growth over the next fiscal year.\nOur earnings per share have outperformed analyst consensus.\nWe are committed to delivering shareholder value through disciplined execution.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does \"earnings per share\" (EPS) measure?",
+      "options": [
+        "Total company profit",
+        "Profit allocated per share",
+        "Number of shares"
+      ],
+      "answer": "Profit allocated per share"
+    },
+    {
+      "type": "fill",
+      "prompt": "We ___ double-digit growth over the next fiscal year.",
+      "answer": "project"
+    },
+    {
+      "type": "choice",
+      "prompt": "Shareholder value refers to:",
+      "options": [
+        "Stock price performance",
+        "Number of shareholders",
+        "Dividend policy"
+      ],
+      "answer": "Stock price performance"
+    }
+  ]
+}
 ---
 
 # Investor Relations

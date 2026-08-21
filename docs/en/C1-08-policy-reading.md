@@ -1,41 +1,55 @@
 ---
-id: c1-08-policy-reading
-slug: c1-08-policy-reading
-titleEn: "Policy Document Reading"
-titleVi: "Đọc Tài liệu Chính sách"
-subtitleEn: "Read and interpret internal policies and regulatory documents"
-subtitleVi: "Đọc và diễn giải chính sách nội bộ và tài liệu quy định"
-level: C1
-unit: 2
-skill: reading
-order: 8
-cefr: C1
-minutes: 5
-tags: [reading, policy, regulatory, compliance, C1]
-audioScript: |
-  All employees must comply with the updated data protection policy.
-  Exceptions to this policy require written approval from the Chief Compliance Officer.
-  This policy supersedes all previous guidelines dated prior to January 2025.
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: What does "supersedes" mean in a policy context?
-    options:
-      - "Supports"
-      - "Replaces"
-      - "Clarifies"
-    answer: "Replaces"
-  - type: fill
-    prompt: "Exceptions require ___ approval from the Chief Compliance Officer."
-    answer: "written"
-  - type: choice
-    prompt: Which phrase signals a mandatory requirement?
-    options:
-      - "Employees should"
-      - "All employees must"
-      - "It is recommended that"
-    answer: "All employees must"
+{
+  "id": "c1-08-policy-reading",
+  "slug": "c1-08-policy-reading",
+  "titleEn": "Policy Document Reading",
+  "titleVi": "Đọc Tài liệu Chính sách",
+  "subtitleEn": "Read and interpret internal policies and regulatory documents",
+  "subtitleVi": "Đọc và diễn giải chính sách nội bộ và tài liệu quy định",
+  "level": "C1",
+  "unit": 2,
+  "skill": "reading",
+  "order": 8,
+  "cefr": "C1",
+  "minutes": 5,
+  "tags": [
+    "reading",
+    "policy",
+    "regulatory",
+    "compliance",
+    "C1"
+  ],
+  "audioScript": "All employees must comply with the updated data protection policy.\nExceptions to this policy require written approval from the Chief Compliance Officer.\nThis policy supersedes all previous guidelines dated prior to January 2025.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does \"supersedes\" mean in a policy context?",
+      "options": [
+        "Supports",
+        "Replaces",
+        "Clarifies"
+      ],
+      "answer": "Replaces"
+    },
+    {
+      "type": "fill",
+      "prompt": "Exceptions require ___ approval from the Chief Compliance Officer.",
+      "answer": "written"
+    },
+    {
+      "type": "choice",
+      "prompt": "Which phrase signals a mandatory requirement?",
+      "options": [
+        "Employees should",
+        "All employees must",
+        "It is recommended that"
+      ],
+      "answer": "All employees must"
+    }
+  ]
+}
 ---
 
 # Policy Document Reading

@@ -1,41 +1,54 @@
 ---
-id: a1-12-directions
-slug: a1-12-directions
-titleEn: "Directions & Places"
-titleVi: "Đường đi & Địa điểm"
-subtitleEn: Học cách hỏi và chỉ đường
-subtitleVi: Học cách hỏi và chỉ đường
-level: A1
-unit: 3
-skill: vocab
-order: 12
-cefr: A1
-minutes: 5
-tags: [directions, places, vocab, daily]
-audioScript: |
-  Xin lỗi, ngân hàng ở đâu?
-  Rẽ trái ở đèn tín hiệu.
-  Đi thẳng hai dãy nhà.
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: Câu nào dùng để hỏi đường?
-    options:
-      - "Where is the bank?"
-      - "I am the bank."
-      - "Bank is where?"
-    answer: "Where is the bank?"
-  - type: fill
-    prompt: "Turn ___ at the traffic light. (trái)"
-    answer: "left"
-  - type: choice
-    prompt: "Go straight" nghĩa là gì?
-    options:
-      - "Quay đầu xe"
-      - "Đi thẳng"
-      - "Dừng lại"
-    answer: "Đi thẳng"
+{
+  "id": "a1-12-directions",
+  "slug": "a1-12-directions",
+  "titleEn": "Directions & Places",
+  "titleVi": "Đường đi & Địa điểm",
+  "subtitleEn": "Học cách hỏi và chỉ đường",
+  "subtitleVi": "Học cách hỏi và chỉ đường",
+  "level": "A1",
+  "unit": 3,
+  "skill": "vocab",
+  "order": 12,
+  "cefr": "A1",
+  "minutes": 5,
+  "tags": [
+    "directions",
+    "places",
+    "vocab",
+    "daily"
+  ],
+  "audioScript": "Xin lỗi, ngân hàng ở đâu?\nRẽ trái ở đèn tín hiệu.\nĐi thẳng hai dãy nhà.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Câu nào dùng để hỏi đường?",
+      "options": [
+        "Where is the bank?",
+        "I am the bank.",
+        "Bank is where?"
+      ],
+      "answer": "Where is the bank?"
+    },
+    {
+      "type": "fill",
+      "prompt": "Turn ___ at the traffic light. (trái)",
+      "answer": "left"
+    },
+    {
+      "type": "choice",
+      "prompt": "Go straight nghĩa là gì?",
+      "options": [
+        "Quay đầu xe",
+        "Đi thẳng",
+        "Dừng lại"
+      ],
+      "answer": "Đi thẳng"
+    }
+  ]
+}
 ---
 
 # Đường đi & Địa điểm

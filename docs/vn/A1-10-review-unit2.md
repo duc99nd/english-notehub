@@ -1,53 +1,68 @@
 ---
-id: a1-10-review-unit2
-slug: a1-10-review-unit2
-titleEn: Review Unit 2
-titleVi: Ôn tập Unit 2
-subtitleEn: Ôn tập thời gian, địa điểm, thức ăn, thời tiết và sở thích
-subtitleVi: Ôn tập thời gian, địa điểm, thức ăn, thời tiết và sở thích
-level: A1
-unit: 2
-skill: review
-order: 10
-cefr: A1
-minutes: 10
-tags: [review, unit2, all-skills]
-audioScript: |
-  Buổi sáng, tôi đi học.
-  Tôi ăn cơm và thịt gà cho bữa trưa. Tôi uống nước.
-  Hôm nay trời nắng và nóng. Đang là mùa hè.
-  Trong thời gian rảnh, tôi thích đọc sách.
-  Tôi cũng thích nghe nhạc.
-listeningEnabled: true
-flashcardCount: 10
-quiz:
-  - type: choice
-    prompt: "Buổi chiều" (afternoon) là thời gian nào?
-    options:
-      - 6 giờ sáng - 12 giờ trưa
-      - 12 giờ trưa - 6 giờ chiều
-      - 6 giờ chiều - 10 giờ đêm
-    answer: 12 giờ trưa - 6 giờ chiều
-  - type: fill
-    prompt: "I would like some rice and ___, please. (thịt gà)"
-    answer: "chicken"
-  - type: choice
-    prompt: "\"It is rainy today.\" có nghĩa là:
-    options:
-      - Trời nắng
-      - Trời mưa
-      - Trời lạnh
-    answer: Trời mưa
-  - type: fill
-    prompt: "I like to ___ books in my free time. (đọc)"
-    answer: "read"
-  - type: choice
-    prompt: Bạn mua thức ăn ở đâu? (market = chợ)
-    options:
-      - school
-      - market
-      - library
-    answer: market
+{
+  "id": "a1-10-review-unit2",
+  "slug": "a1-10-review-unit2",
+  "titleEn": "Review Unit 2",
+  "titleVi": "Ôn tập Unit 2",
+  "subtitleEn": "Ôn tập thời gian, địa điểm, thức ăn, thời tiết và sở thích",
+  "subtitleVi": "Ôn tập thời gian, địa điểm, thức ăn, thời tiết và sở thích",
+  "level": "A1",
+  "unit": 2,
+  "skill": "review",
+  "order": 10,
+  "cefr": "A1",
+  "minutes": 10,
+  "tags": [
+    "review",
+    "unit2",
+    "all-skills"
+  ],
+  "audioScript": "Buổi sáng, tôi đi học.\nTôi ăn cơm và thịt gà cho bữa trưa. Tôi uống nước.\nHôm nay trời nắng và nóng. Đang là mùa hè.\nTrong thời gian rảnh, tôi thích đọc sách.\nTôi cũng thích nghe nhạc.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 10,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Buổi chiều (afternoon) là thời gian nào?",
+      "options": [
+        "6 giờ sáng - 12 giờ trưa",
+        "12 giờ trưa - 6 giờ chiều",
+        "6 giờ chiều - 10 giờ đêm"
+      ],
+      "answer": "12 giờ trưa - 6 giờ chiều"
+    },
+    {
+      "type": "fill",
+      "prompt": "I would like some rice and ___, please. (thịt gà)",
+      "answer": "chicken"
+    },
+    {
+      "type": "choice",
+      "prompt": " It is rainy today.\" có nghĩa là:",
+      "options": [
+        "Trời nắng",
+        "Trời mưa",
+        "Trời lạnh"
+      ],
+      "answer": "Trời mưa"
+    },
+    {
+      "type": "fill",
+      "prompt": "I like to ___ books in my free time. (đọc)",
+      "answer": "read"
+    },
+    {
+      "type": "choice",
+      "prompt": "Bạn mua thức ăn ở đâu? (market = chợ)",
+      "options": [
+        "school",
+        "market",
+        "library"
+      ],
+      "answer": "market"
+    }
+  ]
+}
 ---
 
 # Ôn tập Unit 2

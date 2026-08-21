@@ -1,17 +1,26 @@
 ---
-id: c2-10-review-unit2
-slug: c2-10-review-unit2
-titleEn: Review Unit 2
-titleVi: Ôn tập Unit 2
-subtitleEn: Consolidate your mastery of conference discourse, panel grammar, diplomacy, and legal writing
-subtitleVi: Củng cố khả năng làm chủ diễn ngôn hội nghị, ngữ pháp bàn tròn, ngoại giao và viết pháp lý
-level: C2
-unit: 2
-skill: review
-order: 10
-cefr: C2
-minutes: 10
-tags: [review, conference, panel, diplomacy, legal, consolidation]
+{
+  "id": "c2-10-review-unit2",
+  "slug": "c2-10-review-unit2",
+  "titleEn": "Review Unit 2",
+  "titleVi": "Ôn tập Unit 2",
+  "subtitleEn": "Consolidate your mastery of conference discourse, panel grammar, diplomacy, and legal writing",
+  "subtitleVi": "Củng cố khả năng làm chủ diễn ngôn hội nghị, ngữ pháp bàn tròn, ngoại giao và viết pháp lý",
+  "level": "C2",
+  "unit": 2,
+  "skill": "review",
+  "order": 10,
+  "cefr": "C2",
+  "minutes": 10,
+  "tags": [
+    "review",
+    "conference",
+    "panel",
+    "diplomacy",
+    "legal",
+    "consolidation"
+  ]
+}
 ---
 
 # Ôn tập Unit 2

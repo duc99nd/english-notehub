@@ -1,41 +1,55 @@
 ---
-id: c1-06-investor-relations
-slug: c1-06-investor-relations
-titleEn: "Investor Relations"
-titleVi: "Quan hệ Nhà đầu tư"
-subtitleEn: "Communicate with investors and analysts"
-subtitleVi: "Giao tiếp với nhà đầu tư và nhà phân tích"
-level: C1
-unit: 2
-skill: vocab
-order: 6
-cefr: C1
-minutes: 5
-tags: [investor, relations, finance, communication, C1]
-audioScript: |
-  Chúng tôi dự kiến tăng trưởng hai con số trong năm tài chính tới.
-  Thu nhập trên mỗi cổ phiếu của chúng tôi đã vượt qua kỳ vọng đồng thuận.
-  Chúng tôi cam kết mang lại giá trị cho cổ đông thông qua thực thi kỷ luật.
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: "Thu nhập trên mỗi cổ phiếu" (EPS) đo lường gì?
-    options:
-      - "Tổng lợi nhuận công ty"
-      - "Lợi nhuận phân bổ trên mỗi cổ phiếu"
-      - "Số lượng cổ phiếu"
-    answer: "Lợi nhuận phân bổ trên mỗi cổ phiếu"
-  - type: fill
-    prompt: "Chúng tôi ___ tăng trưởng hai con số trong năm tài chính tới."
-    answer: "dự kiến"
-  - type: choice
-    prompt: "Giá trị cổ đông" đề cập đến:
-    options:
-      - "Hiệu suất giá cổ phiếu"
-      - "Số lượng cổ đông"
-      - "Chính sách cổ tức"
-    answer: "Hiệu suất giá cổ phiếu"
+{
+  "id": "c1-06-investor-relations",
+  "slug": "c1-06-investor-relations",
+  "titleEn": "Investor Relations",
+  "titleVi": "Quan hệ Nhà đầu tư",
+  "subtitleEn": "Communicate with investors and analysts",
+  "subtitleVi": "Giao tiếp với nhà đầu tư và nhà phân tích",
+  "level": "C1",
+  "unit": 2,
+  "skill": "vocab",
+  "order": 6,
+  "cefr": "C1",
+  "minutes": 5,
+  "tags": [
+    "investor",
+    "relations",
+    "finance",
+    "communication",
+    "C1"
+  ],
+  "audioScript": "Chúng tôi dự kiến tăng trưởng hai con số trong năm tài chính tới.\nThu nhập trên mỗi cổ phiếu của chúng tôi đã vượt qua kỳ vọng đồng thuận.\nChúng tôi cam kết mang lại giá trị cho cổ đông thông qua thực thi kỷ luật.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Thu nhập trên mỗi cổ phiếu (EPS) đo lường gì?",
+      "options": [
+        "Tổng lợi nhuận công ty",
+        "Lợi nhuận phân bổ trên mỗi cổ phiếu",
+        "Số lượng cổ phiếu"
+      ],
+      "answer": "Lợi nhuận phân bổ trên mỗi cổ phiếu"
+    },
+    {
+      "type": "fill",
+      "prompt": "Chúng tôi ___ tăng trưởng hai con số trong năm tài chính tới.",
+      "answer": "dự kiến"
+    },
+    {
+      "type": "choice",
+      "prompt": "Giá trị cổ đông đề cập đến:",
+      "options": [
+        "Hiệu suất giá cổ phiếu",
+        "Số lượng cổ đông",
+        "Chính sách cổ tức"
+      ],
+      "answer": "Hiệu suất giá cổ phiếu"
+    }
+  ]
+}
 ---
 
 # Quan hệ Nhà đầu tư

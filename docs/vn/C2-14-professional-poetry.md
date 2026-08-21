@@ -1,17 +1,26 @@
 ---
-id: c2-14-professional-poetry
-slug: c2-14-professional-poetry
-titleEn: Professional Poetry
-titleVi: Thơ Chuyên nghiệp
-subtitleEn: Write poetry for professional contexts — speeches, commemorations, and corporate communications
-subtitleVi: Viết thơ cho các bối cảnh chuyên nghiệp — diễn văn, kỷ niệm và giao tiếp doanh nghiệp
-level: C2
-unit: 3
-skill: writing
-order: 14
-cefr: C2
-minutes: 5
-tags: [poetry, professional, speech writing, commemorative, corporate, literary]
+{
+  "id": "c2-14-professional-poetry",
+  "slug": "c2-14-professional-poetry",
+  "titleEn": "Professional Poetry",
+  "titleVi": "Thơ Chuyên nghiệp",
+  "subtitleEn": "Write poetry for professional contexts — speeches, commemorations, and corporate communications",
+  "subtitleVi": "Viết thơ cho các bối cảnh chuyên nghiệp — diễn văn, kỷ niệm và giao tiếp doanh nghiệp",
+  "level": "C2",
+  "unit": 3,
+  "skill": "writing",
+  "order": 14,
+  "cefr": "C2",
+  "minutes": 5,
+  "tags": [
+    "poetry",
+    "professional",
+    "speech writing",
+    "commemorative",
+    "corporate",
+    "literary"
+  ]
+}
 ---
 
 # Thơ Chuyên nghiệp

@@ -1,41 +1,54 @@
 ---
-id: a2-13-experiences
-slug: a2-13-experiences
-titleEn: Experiences
-titleVi: Kinh nghiệm
-subtitleEn: Talk about experiences using the present perfect
-subtitleVi: Nói về kinh nghiệm sử dụng thì hiện tại hoàn thành
-level: A2
-unit: 3
-skill: grammar
-order: 13
-cefr: A2
-minutes: 5
-tags: [grammar, present-perfect, experiences, A2]
-audioScript: |
-  Tôi đã từng đến Nhật Bản hai lần.
-  Cô ấy đã sống ở đây ba năm rồi.
-  Bạn đã từng thử sushi chưa?
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: Đâu là câu hiện tại hoàn thành đúng?
-    options:
-      - "Tôi đã từng đến Tokyo."
-      - "Tôi có đến Tokyo."
-      - "Tôi đã từng đến Tokyo rồi."
-    answer: "Tôi đã từng đến Tokyo."
-  - type: fill
-    prompt: "Cô ấy ___ sống ở đây ba năm rồi."
-    answer: "đã"
-  - type: choice
-    prompt: "Bạn đã từng ___ sushi chưa?" — Chọn dạng đúng
-    options:
-      - "thử"
-      - "thử rồi"
-      - "đang thử"
-    answer: "thử"
+{
+  "id": "a2-13-experiences",
+  "slug": "a2-13-experiences",
+  "titleEn": "Experiences",
+  "titleVi": "Kinh nghiệm",
+  "subtitleEn": "Talk about experiences using the present perfect",
+  "subtitleVi": "Nói về kinh nghiệm sử dụng thì hiện tại hoàn thành",
+  "level": "A2",
+  "unit": 3,
+  "skill": "grammar",
+  "order": 13,
+  "cefr": "A2",
+  "minutes": 5,
+  "tags": [
+    "grammar",
+    "present-perfect",
+    "experiences",
+    "A2"
+  ],
+  "audioScript": "Tôi đã từng đến Nhật Bản hai lần.\nCô ấy đã sống ở đây ba năm rồi.\nBạn đã từng thử sushi chưa?\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Đâu là câu hiện tại hoàn thành đúng?",
+      "options": [
+        "Tôi đã từng đến Tokyo.",
+        "Tôi có đến Tokyo.",
+        "Tôi đã từng đến Tokyo rồi."
+      ],
+      "answer": "Tôi đã từng đến Tokyo."
+    },
+    {
+      "type": "fill",
+      "prompt": "Cô ấy ___ sống ở đây ba năm rồi.",
+      "answer": "đã"
+    },
+    {
+      "type": "choice",
+      "prompt": "Bạn đã từng ___ sushi chưa? — Chọn dạng đúng",
+      "options": [
+        "thử",
+        "thử rồi",
+        "đang thử"
+      ],
+      "answer": "thử"
+    }
+  ]
+}
 ---
 
 # Kinh nghiệm

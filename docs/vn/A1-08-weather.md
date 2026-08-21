@@ -1,42 +1,53 @@
 ---
-id: a1-08-weather
-slug: a1-08-weather
-titleEn: Weather
-titleVi: Thời tiết
-subtitleEn: Học cách mô tả thời tiết và các mùa trong năm
-subtitleVi: Học cách mô tả thời tiết và các mùa trong năm
-level: A1
-unit: 2
-skill: reading
-order: 8
-cefr: A1
-minutes: 5
-tags: [weather, seasons, reading]
-audioScript: |
-  Hôm nay trời nắng và nóng. Nhiệt độ là 35 độ.
-  Mùa hè ở Việt Nam rất nóng.
-  Mùa đông, trời lạnh và đôi khi có mưa.
-  Tôi thích mùa xuân vì hoa đẹp.
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: 'Trời nắng (sunny). Thời tiết như thế nào?'
-    options:
-      - Lạnh và mưa
-      - Nóng, không có mây
-      - Có tuyết
-    answer: Nóng, không có mây
-  - type: fill
-    prompt: 'In summer, it is very ___. (nóng)'
-    answer: 'hot'
-  - type: choice
-    prompt: Từ nào có nghĩa là "mưa"?
-    options:
-      - sunny
-      - rainy
-      - cloudy
-    answer: rainy
+{
+  "id": "a1-08-weather",
+  "slug": "a1-08-weather",
+  "titleEn": "Weather",
+  "titleVi": "Thời tiết",
+  "subtitleEn": "Học cách mô tả thời tiết và các mùa trong năm",
+  "subtitleVi": "Học cách mô tả thời tiết và các mùa trong năm",
+  "level": "A1",
+  "unit": 2,
+  "skill": "reading",
+  "order": 8,
+  "cefr": "A1",
+  "minutes": 5,
+  "tags": [
+    "weather",
+    "seasons",
+    "reading"
+  ],
+  "audioScript": "Hôm nay trời nắng và nóng. Nhiệt độ là 35 độ.\nMùa hè ở Việt Nam rất nóng.\nMùa đông, trời lạnh và đôi khi có mưa.\nTôi thích mùa xuân vì hoa đẹp.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Trời nắng (sunny). Thời tiết như thế nào?",
+      "options": [
+        "Lạnh và mưa",
+        "Nóng, không có mây",
+        "Có tuyết"
+      ],
+      "answer": "Nóng, không có mây"
+    },
+    {
+      "type": "fill",
+      "prompt": "In summer, it is very ___. (nóng)",
+      "answer": "hot"
+    },
+    {
+      "type": "choice",
+      "prompt": "Từ nào có nghĩa là \"mưa\"?",
+      "options": [
+        "sunny",
+        "rainy",
+        "cloudy"
+      ],
+      "answer": "rainy"
+    }
+  ]
+}
 ---
 
 # Thời tiết

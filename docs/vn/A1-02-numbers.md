@@ -1,37 +1,48 @@
 ---
-id: a1-02-numbers
-slug: a1-02-numbers
-titleEn: Numbers & Phone Numbers
-titleVi: Số đếm & Số điện thoại
-subtitleEn: Học cách đếm từ 1 đến 100 và nói số điện thoại
-subtitleVi: Học cách đếm từ 1 đến 100 và nói số điện thoại
-level: A1
-unit: 1
-skill: grammar
-order: 2
-cefr: A1
-minutes: 5
-tags: [numbers, phone, foundation]
-audioScript: |
-  Một, hai, ba, bốn, năm.
-  Số điện thoại của tôi là không chín một, năm sáu bảy, tám chín không.
-  Tôi có hai chị gái và một anh trai.
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: fill
-    prompt: "Viết số điện thoại: 091 567 890"
-    answer: "091567890"
-  - type: choice
-    prompt: "Mười" viết bằng tiếng Anh là gì?
-    options:
-      - Ten
-      - Tin
-      - Teen
-    answer: Ten
-  - type: fill
-    prompt: "Five times two equals ___."
-    answer: "Ten"
+{
+  "id": "a1-02-numbers",
+  "slug": "a1-02-numbers",
+  "titleEn": "Numbers & Phone Numbers",
+  "titleVi": "Số đếm & Số điện thoại",
+  "subtitleEn": "Học cách đếm từ 1 đến 100 và nói số điện thoại",
+  "subtitleVi": "Học cách đếm từ 1 đến 100 và nói số điện thoại",
+  "level": "A1",
+  "unit": 1,
+  "skill": "grammar",
+  "order": 2,
+  "cefr": "A1",
+  "minutes": 5,
+  "tags": [
+    "numbers",
+    "phone",
+    "foundation"
+  ],
+  "audioScript": "Một, hai, ba, bốn, năm.\nSố điện thoại của tôi là không chín một, năm sáu bảy, tám chín không.\nTôi có hai chị gái và một anh trai.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "fill",
+      "prompt": "Viết số điện thoại: 091 567 890",
+      "answer": "091567890"
+    },
+    {
+      "type": "choice",
+      "prompt": "Mười viết bằng tiếng Anh là gì?",
+      "options": [
+        "Ten",
+        "Tin",
+        "Teen"
+      ],
+      "answer": "Ten"
+    },
+    {
+      "type": "fill",
+      "prompt": "Five times two equals ___.",
+      "answer": "Ten"
+    }
+  ]
+}
 ---
 
 # Số đếm & Số điện thoại

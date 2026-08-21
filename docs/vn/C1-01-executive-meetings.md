@@ -1,41 +1,55 @@
 ---
-id: c1-01-executive-meetings
-slug: c1-01-executive-meetings
-titleEn: "Executive Meetings Vocabulary"
-titleVi: "Từ vựng về Cuộc họp Cấp cao"
-subtitleEn: "Làm chủ từ vựng tinh vi cho các cuộc họp kinh doanh cấp cao"
-subtitleVi: "Làm chủ từ vựng tinh vi cho các cuộc họp kinh doanh cấp cao"
-level: C1
-unit: 1
-skill: vocab
-order: 1
-cefr: C1
-minutes: 5
-tags: [executive, meetings, business, vocabulary, C1]
-audioScript: |
-  Xin chào mọi người. Hãy đồng thuận về dự kiến quý trước khi chúng ta tiếp tục.
-  Tôi muốn hoãn cuộc thảo luận này lại và quay lại trong chu kỳ tiếp theo.
-  Chúng ta có nên hoãn lại và quay lại vào quý sau không?
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: "Câu nào phù hợp nhất khi hoãn một cuộc thảo luận?"
-    options:
-      - "Let's table this for now."
-      - "Let's cancel this forever."
-      - "Let's start this immediately."
-    answer: "Let's table this for now."
-  - type: fill
-    prompt: "Chúng ta cần ___ về các ưu tiên chiến lược trước cuộc họp hội đồng."
-    answer: "align"
-  - type: choice
-    prompt: "\"Actionable insights\" nghĩa là gì?"
-    options:
-      - "Những ý tưởng có thể áp dụng được"
-      - "Những suy nghĩ ngẫu nhiên"
-      - "Chỉ dữ liệu lịch sử"
-    answer: "Những ý tưởng có thể áp dụng được"
+{
+  "id": "c1-01-executive-meetings",
+  "slug": "c1-01-executive-meetings",
+  "titleEn": "Executive Meetings Vocabulary",
+  "titleVi": "Từ vựng về Cuộc họp Cấp cao",
+  "subtitleEn": "Làm chủ từ vựng tinh vi cho các cuộc họp kinh doanh cấp cao",
+  "subtitleVi": "Làm chủ từ vựng tinh vi cho các cuộc họp kinh doanh cấp cao",
+  "level": "C1",
+  "unit": 1,
+  "skill": "vocab",
+  "order": 1,
+  "cefr": "C1",
+  "minutes": 5,
+  "tags": [
+    "executive",
+    "meetings",
+    "business",
+    "vocabulary",
+    "C1"
+  ],
+  "audioScript": "Xin chào mọi người. Hãy đồng thuận về dự kiến quý trước khi chúng ta tiếp tục.\nTôi muốn hoãn cuộc thảo luận này lại và quay lại trong chu kỳ tiếp theo.\nChúng ta có nên hoãn lại và quay lại vào quý sau không?\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Câu nào phù hợp nhất khi hoãn một cuộc thảo luận?",
+      "options": [
+        "Let's table this for now.",
+        "Let's cancel this forever.",
+        "Let's start this immediately."
+      ],
+      "answer": "Let's table this for now."
+    },
+    {
+      "type": "fill",
+      "prompt": "Chúng ta cần ___ về các ưu tiên chiến lược trước cuộc họp hội đồng.",
+      "answer": "align"
+    },
+    {
+      "type": "choice",
+      "prompt": "\"Actionable insights\" nghĩa là gì?",
+      "options": [
+        "Những ý tưởng có thể áp dụng được",
+        "Những suy nghĩ ngẫu nhiên",
+        "Chỉ dữ liệu lịch sử"
+      ],
+      "answer": "Những ý tưởng có thể áp dụng được"
+    }
+  ]
+}
 ---
 
 # Từ vựng về Cuộc họp Cấp cao

@@ -1,41 +1,55 @@
 ---
-id: c1-02-board-presentations
-slug: c1-02-board-presentations
-titleEn: "Board Presentation Grammar"
-titleVi: "Ngữ pháp Thuyết trình Hội đồng Quản trị"
-subtitleEn: "Làm chủ cấu trúc điều kiện cho các kịch bản kinh doanh giả định"
-subtitleVi: "Làm chủ cấu trúc điều kiện cho các kịch bản kinh doanh giả định"
-level: C1
-unit: 1
-skill: grammar
-order: 2
-cefr: C1
-minutes: 5
-tags: [grammar, conditionals, presentations, board, C1]
-audioScript: |
-  Nếu chúng ta vượt mục tiêu, chúng tôi sẽ cân nhắc mở rộng sang các thị trường liền kề.
-  Nếu chúng tôi không đầu tư vào R&D sớm hơn, chúng tôi sẽ không ở vị thế cạnh tranh như hiện tại.
-  Nếu việc sáp nhập tiến hành, các bên liên quan sẽ nhận được lợi ích đáng kể.
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: "Cấu trúc điều kiện nào dùng cho điều kiện không có thật ở quá khứ?"
-    options:
-      - "Third conditional (if + quá khứ hoàn thành, would have)"
-      - "First conditional (if + hiện tại, will)"
-      - "Zero conditional (if + hiện tại, hiện tại)"
-    answer: "Third conditional (if + quá khứ hoàn thành, would have)"
-  - type: fill
-    prompt: "___ chúng tôi có thêm vốn, chúng tôi có thể đẩy nhanh tiến độ."
-    answer: "Should"
-  - type: choice
-    prompt: "\"Were the board to approve...\" là ví dụ của:"
-    options:
-      - "Điều kiện đảo ngược (trang trọng)"
-      - "First conditional"
-      - "Second conditional"
-    answer: "Điều kiện đảo ngược (trang trọng)"
+{
+  "id": "c1-02-board-presentations",
+  "slug": "c1-02-board-presentations",
+  "titleEn": "Board Presentation Grammar",
+  "titleVi": "Ngữ pháp Thuyết trình Hội đồng Quản trị",
+  "subtitleEn": "Làm chủ cấu trúc điều kiện cho các kịch bản kinh doanh giả định",
+  "subtitleVi": "Làm chủ cấu trúc điều kiện cho các kịch bản kinh doanh giả định",
+  "level": "C1",
+  "unit": 1,
+  "skill": "grammar",
+  "order": 2,
+  "cefr": "C1",
+  "minutes": 5,
+  "tags": [
+    "grammar",
+    "conditionals",
+    "presentations",
+    "board",
+    "C1"
+  ],
+  "audioScript": "Nếu chúng ta vượt mục tiêu, chúng tôi sẽ cân nhắc mở rộng sang các thị trường liền kề.\nNếu chúng tôi không đầu tư vào R&D sớm hơn, chúng tôi sẽ không ở vị thế cạnh tranh như hiện tại.\nNếu việc sáp nhập tiến hành, các bên liên quan sẽ nhận được lợi ích đáng kể.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Cấu trúc điều kiện nào dùng cho điều kiện không có thật ở quá khứ?",
+      "options": [
+        "Third conditional (if + quá khứ hoàn thành, would have)",
+        "First conditional (if + hiện tại, will)",
+        "Zero conditional (if + hiện tại, hiện tại)"
+      ],
+      "answer": "Third conditional (if + quá khứ hoàn thành, would have)"
+    },
+    {
+      "type": "fill",
+      "prompt": "___ chúng tôi có thêm vốn, chúng tôi có thể đẩy nhanh tiến độ.",
+      "answer": "Should"
+    },
+    {
+      "type": "choice",
+      "prompt": "\"Were the board to approve...\" là ví dụ của:",
+      "options": [
+        "Điều kiện đảo ngược (trang trọng)",
+        "First conditional",
+        "Second conditional"
+      ],
+      "answer": "Điều kiện đảo ngược (trang trọng)"
+    }
+  ]
+}
 ---
 
 # Ngữ pháp Thuyết trình Hội đồng Quản trị

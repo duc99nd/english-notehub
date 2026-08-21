@@ -1,43 +1,58 @@
 ---
-id: c2-12-debate-formal
-slug: c2-12-debate-formal
-titleEn: Formal Debate Grammar
-titleVi: Ngữ pháp Tranh luận Trang trọng
-subtitleEn: Master the grammatical structures of parliamentary and competitive debate
-subtitleVi: Làm chủ các cấu trúc ngữ pháp của tranh luận nghị viện và thi đấu
-level: C2
-unit: 3
-skill: grammar
-order: 12
-cefr: C2
-minutes: 5
-tags: [debate, parliament, grammar, formal, argument, rhetoric]
-audioScript: |
-  Formal debate employs specific grammatical structures for maximum rhetorical impact.
-  Passive constructions allow impersonal attribution of sources and claims.
-  cleft sentences create emphasis crucial for persuasive argumentation.
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: Which sentence structure creates maximum emphasis for a key point in debate?
-    options:
-      - 'Simple sentence'
-      - 'Cleft sentence'
-      - 'Compound sentence'
-      - 'Fragment'
-    answer: 'Cleft sentence'
-  - type: choice
-    prompt: In parliamentary debate, what is a 'point of information'?
-    options:
-      - 'A question about rules'
-      - "A brief interjection during opponent's speech"
-      - 'A closing statement'
-      - 'A request for clarification'
-    answer: "A brief interjection during opponent's speech"
-  - type: fill
-    prompt: 'It is not the policy that is flawed, but rather its ___.'
-    answer: 'implementation'
+{
+  "id": "c2-12-debate-formal",
+  "slug": "c2-12-debate-formal",
+  "titleEn": "Formal Debate Grammar",
+  "titleVi": "Ngữ pháp Tranh luận Trang trọng",
+  "subtitleEn": "Master the grammatical structures of parliamentary and competitive debate",
+  "subtitleVi": "Làm chủ các cấu trúc ngữ pháp của tranh luận nghị viện và thi đấu",
+  "level": "C2",
+  "unit": 3,
+  "skill": "grammar",
+  "order": 12,
+  "cefr": "C2",
+  "minutes": 5,
+  "tags": [
+    "debate",
+    "parliament",
+    "grammar",
+    "formal",
+    "argument",
+    "rhetoric"
+  ],
+  "audioScript": "Formal debate employs specific grammatical structures for maximum rhetorical impact.\nPassive constructions allow impersonal attribution of sources and claims.\ncleft sentences create emphasis crucial for persuasive argumentation.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Which sentence structure creates maximum emphasis for a key point in debate?",
+      "options": [
+        "Simple sentence",
+        "Cleft sentence",
+        "Compound sentence",
+        "Fragment"
+      ],
+      "answer": "Cleft sentence"
+    },
+    {
+      "type": "choice",
+      "prompt": "In parliamentary debate, what is a 'point of information'?",
+      "options": [
+        "A question about rules",
+        "A brief interjection during opponent's speech",
+        "A closing statement",
+        "A request for clarification"
+      ],
+      "answer": "A brief interjection during opponent's speech"
+    },
+    {
+      "type": "fill",
+      "prompt": "It is not the policy that is flawed, but rather its ___.",
+      "answer": "implementation"
+    }
+  ]
+}
 ---
 
 # Formal Debate Grammar

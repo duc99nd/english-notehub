@@ -1,41 +1,56 @@
 ---
-id: b1-07-modals-obligation
-slug: b1-07-modals-obligation
-titleEn: Modals of Obligation & Advice
-titleVi: Động từ Trợ giúp Chỉ Nghĩa vụ & Lời khuyên
-subtitleEn: Learn must, have to, should, and ought to
-subtitleVi: Học must, have to, should và ought to
-level: B1
-unit: 2
-skill: grammar
-order: 7
-cefr: B1
-minutes: 5
-tags: [modals, obligation, advice, must, should, grammar]
-audioScript: |
-  You must submit the report by Friday.
-  You should take a break — you've been working all day.
-  I had to reschedule the meeting because of the holiday.
-listeningEnabled: true
-flashcardCount: 8
-quiz:
-  - type: choice
-    prompt: Which modal is used for strong obligation from an external rule?
-    options:
-      - 'should'
-      - 'must'
-      - 'might'
-    answer: 'must'
-  - type: fill
-    prompt: 'You ___ see a doctor — you look really tired.'
-    answer: 'should'
-  - type: choice
-    prompt: What is the past form of "have to"?
-    options:
-      - 'must'
-      - 'had to'
-      - 'should have'
-    answer: 'had to'
+{
+  "id": "b1-07-modals-obligation",
+  "slug": "b1-07-modals-obligation",
+  "titleEn": "Modals of Obligation & Advice",
+  "titleVi": "Động từ Trợ giúp Chỉ Nghĩa vụ & Lời khuyên",
+  "subtitleEn": "Learn must, have to, should, and ought to",
+  "subtitleVi": "Học must, have to, should và ought to",
+  "level": "B1",
+  "unit": 2,
+  "skill": "grammar",
+  "order": 7,
+  "cefr": "B1",
+  "minutes": 5,
+  "tags": [
+    "modals",
+    "obligation",
+    "advice",
+    "must",
+    "should",
+    "grammar"
+  ],
+  "audioScript": "You must submit the report by Friday.\nYou should take a break — you've been working all day.\nI had to reschedule the meeting because of the holiday.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 8,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Which modal is used for strong obligation from an external rule?",
+      "options": [
+        "should",
+        "must",
+        "might"
+      ],
+      "answer": "must"
+    },
+    {
+      "type": "fill",
+      "prompt": "You ___ see a doctor — you look really tired.",
+      "answer": "should"
+    },
+    {
+      "type": "choice",
+      "prompt": "What is the past form of \"have to\"?",
+      "options": [
+        "must",
+        "had to",
+        "should have"
+      ],
+      "answer": "had to"
+    }
+  ]
+}
 ---
 
 # Modals of Obligation & Advice

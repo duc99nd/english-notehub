@@ -1,41 +1,54 @@
 ---
-id: c1-09-executive-summary
-slug: c1-09-executive-summary
-titleEn: "Executive Summary Writing"
-titleVi: "Viết Tóm tắt Điều hành"
-subtitleEn: "Write clear, decision-oriented executive summaries"
-subtitleVi: "Viết tóm tắt điều hành rõ ràng, hướng quyết định"
-level: C1
-unit: 2
-skill: writing
-order: 9
-cefr: C1
-minutes: 5
-tags: [writing, executive-summary, business, C1]
-audioScript: |
-  Đề xuất yêu cầu hội đồng phê duyệt khoản đầu tư năm triệu đô vào hiệu quả vận hành.
-  Dự kiến sẽ tạo ra mười lăm phần trăm giảm chi phí trong mười tám tháng.
-  Ban quản lý đề xuất phê duyệt.
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: Mục đích chính của tóm tắt điều hành là gì?
-    options:
-      - "Cung cấp chi tiết nền"
-      - "Cho phép quyết định nhanh"
-      - "Thể hiện chiều sâu nghiên cứu"
-    answer: "Cho phép quyết định nhanh"
-  - type: fill
-    prompt: "Ban quản lý ___ phê duyệt đề xuất."
-    answer: "đề xuất"
-  - type: choice
-    prompt: Phần nào đến đầu tiên trong tóm tắt điều hành?
-    options:
-      - "Rủi ro"
-      - "Khuyến nghị"
-      - "Bối cảnh"
-    answer: "Khuyến nghị"
+{
+  "id": "c1-09-executive-summary",
+  "slug": "c1-09-executive-summary",
+  "titleEn": "Executive Summary Writing",
+  "titleVi": "Viết Tóm tắt Điều hành",
+  "subtitleEn": "Write clear, decision-oriented executive summaries",
+  "subtitleVi": "Viết tóm tắt điều hành rõ ràng, hướng quyết định",
+  "level": "C1",
+  "unit": 2,
+  "skill": "writing",
+  "order": 9,
+  "cefr": "C1",
+  "minutes": 5,
+  "tags": [
+    "writing",
+    "executive-summary",
+    "business",
+    "C1"
+  ],
+  "audioScript": "Đề xuất yêu cầu hội đồng phê duyệt khoản đầu tư năm triệu đô vào hiệu quả vận hành.\nDự kiến sẽ tạo ra mười lăm phần trăm giảm chi phí trong mười tám tháng.\nBan quản lý đề xuất phê duyệt.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Mục đích chính của tóm tắt điều hành là gì?",
+      "options": [
+        "Cung cấp chi tiết nền",
+        "Cho phép quyết định nhanh",
+        "Thể hiện chiều sâu nghiên cứu"
+      ],
+      "answer": "Cho phép quyết định nhanh"
+    },
+    {
+      "type": "fill",
+      "prompt": "Ban quản lý ___ phê duyệt đề xuất.",
+      "answer": "đề xuất"
+    },
+    {
+      "type": "choice",
+      "prompt": "Phần nào đến đầu tiên trong tóm tắt điều hành?",
+      "options": [
+        "Rủi ro",
+        "Khuyến nghị",
+        "Bối cảnh"
+      ],
+      "answer": "Khuyến nghị"
+    }
+  ]
+}
 ---
 
 # Viết Tóm tắt Điều hành

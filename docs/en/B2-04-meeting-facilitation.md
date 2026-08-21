@@ -1,41 +1,54 @@
 ---
-id: b2-04-meeting-facilitation
-slug: b2-04-meeting-facilitation
-titleEn: 'Meeting Facilitation'
-titleVi: 'Điều phối cuộc họp'
-subtitleEn: 'Lead and facilitate professional meetings'
-subtitleVi: 'Dẫn dắt và điều phối các cuộc họp chuyên nghiệp'
-level: B2
-unit: 2
-skill: vocab
-order: 4
-cefr: B2
-minutes: 5
-tags: [meetings, facilitation, workplace, B2]
-audioScript: |
-  Let's kick off the meeting with a quick round-up.
-  Could we park that topic for the next session?
-  We need a tiebreaker to move this forward.
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: What does "kick off" mean in a meeting context?
-    options:
-      - 'To end a meeting'
-      - 'To start or begin'
-      - 'To cancel'
-    answer: 'To start or begin'
-  - type: fill
-    prompt: "Let's ___ that topic for the next session."
-    answer: 'park'
-  - type: choice
-    prompt: What is a "tiebreaker"?
-    options:
-      - 'A way to break a deadlock'
-      - 'A type of meeting'
-      - 'A final report'
-    answer: 'A way to break a deadlock'
+{
+  "id": "b2-04-meeting-facilitation",
+  "slug": "b2-04-meeting-facilitation",
+  "titleEn": "Meeting Facilitation",
+  "titleVi": "Điều phối cuộc họp",
+  "subtitleEn": "Lead and facilitate professional meetings",
+  "subtitleVi": "Dẫn dắt và điều phối các cuộc họp chuyên nghiệp",
+  "level": "B2",
+  "unit": 2,
+  "skill": "vocab",
+  "order": 4,
+  "cefr": "B2",
+  "minutes": 5,
+  "tags": [
+    "meetings",
+    "facilitation",
+    "workplace",
+    "B2"
+  ],
+  "audioScript": "Let's kick off the meeting with a quick round-up.\nCould we park that topic for the next session?\nWe need a tiebreaker to move this forward.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does \"kick off\" mean in a meeting context?",
+      "options": [
+        "To end a meeting",
+        "To start or begin",
+        "To cancel"
+      ],
+      "answer": "To start or begin"
+    },
+    {
+      "type": "fill",
+      "prompt": "Let's ___ that topic for the next session.",
+      "answer": "park"
+    },
+    {
+      "type": "choice",
+      "prompt": "What is a \"tiebreaker\"?",
+      "options": [
+        "A way to break a deadlock",
+        "A type of meeting",
+        "A final report"
+      ],
+      "answer": "A way to break a deadlock"
+    }
+  ]
+}
 ---
 
 # Meeting Facilitation

@@ -1,52 +1,71 @@
 ---
-id: a1-15-review-unit3
-slug: a1-15-review-unit3
-titleEn: "Review Unit 3"
-titleVi: "Ôn tập Unit 3"
-subtitleEn: Review Unit 3: shopping, directions, can/can't, and describing people
-subtitleVi: Ôn tập Unit 3: mua sắm, đường đi, can/can't và miêu tả con người
-level: A1
-unit: 3
-skill: review
-order: 15
-cefr: A1
-minutes: 10
-tags: [review, unit3, shopping, directions, describing, A1]
-audioScript: |
-  Hãy ôn tập Unit 3.
-  Bây giờ bạn có thể hỏi đường.
-  Bạn có thể nói về năng lực dùng can và can't.
-  Bạn có thể miêu tả con người.
-listeningEnabled: true
-flashcardCount: 12
-quiz:
-  - type: choice
-    prompt: "How much does this cost?" nghĩa là:
-    options:
-      - "Bao nhiêu cái?"
-      - "Giá bao nhiêu?"
-      - "Nó ở đâu?"
-    answer: "Giá bao nhiêu?"
-  - type: fill
-    prompt: "Rẽ ___ ở đèn tín hiệu."
-    answer: "trái"
-  - type: choice
-    prompt: Câu nào đúng?
-    options:
-      - "I can to swim."
-      - "I can swim."
-      - "I can swimming."
-    answer: "I can swim."
-  - type: fill
-    prompt: "Cô ấy ___ tóc đen. (có)"
-    answer: "có"
-  - type: choice
-    prompt: "Friendly" miêu tả điều gì?
-    options:
-      - "Ngoại hình"
-      - "Tính cách"
-      - "Chiều cao"
-    answer: "Tính cách"
+{
+  "id": "a1-15-review-unit3",
+  "slug": "a1-15-review-unit3",
+  "titleEn": "Review Unit 3",
+  "titleVi": "Ôn tập Unit 3",
+  "subtitleEn": "Review Unit 3: shopping, directions, can/can't, and describing people",
+  "subtitleVi": "Ôn tập Unit 3: mua sắm, đường đi, can/can't và miêu tả con người",
+  "level": "A1",
+  "unit": 3,
+  "skill": "review",
+  "order": 15,
+  "cefr": "A1",
+  "minutes": 10,
+  "tags": [
+    "review",
+    "unit3",
+    "shopping",
+    "directions",
+    "describing",
+    "A1"
+  ],
+  "audioScript": "Hãy ôn tập Unit 3.\nBây giờ bạn có thể hỏi đường.\nBạn có thể nói về năng lực dùng can và can't.\nBạn có thể miêu tả con người.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 12,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "How much does this cost? nghĩa là:",
+      "options": [
+        "Bao nhiêu cái?",
+        "Giá bao nhiêu?",
+        "Nó ở đâu?"
+      ],
+      "answer": "Giá bao nhiêu?"
+    },
+    {
+      "type": "fill",
+      "prompt": "Rẽ ___ ở đèn tín hiệu.",
+      "answer": "trái"
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào đúng?",
+      "options": [
+        "I can to swim.",
+        "I can swim.",
+        "I can swimming."
+      ],
+      "answer": "I can swim."
+    },
+    {
+      "type": "fill",
+      "prompt": "Cô ấy ___ tóc đen. (có)",
+      "answer": "có"
+    },
+    {
+      "type": "choice",
+      "prompt": "Friendly miêu tả điều gì?",
+      "options": [
+        "Ngoại hình",
+        "Tính cách",
+        "Chiều cao"
+      ],
+      "answer": "Tính cách"
+    }
+  ]
+}
 ---
 
 # Ôn tập Unit 3

@@ -1,17 +1,25 @@
 ---
-id: c2-01-humor-english
-slug: c2-01-humor-english
-titleEn: Humor in English
-titleVi: Humor trong tiếng Anh
-subtitleEn: Master the art of wit, wordplay, and cultural humor in English
-subtitleVi: Làm chủ nghệ thuật hài hước, chơi chữ và kỹ thuật hài trong tiếng Anh
-level: C2
-unit: 1
-skill: vocab
-order: 1
-cefr: C2
-minutes: 5
-tags: [humor, wordplay, idiom, culture, wit]
+{
+  "id": "c2-01-humor-english",
+  "slug": "c2-01-humor-english",
+  "titleEn": "Humor in English",
+  "titleVi": "Humor trong tiếng Anh",
+  "subtitleEn": "Master the art of wit, wordplay, and cultural humor in English",
+  "subtitleVi": "Làm chủ nghệ thuật hài hước, chơi chữ và kỹ thuật hài trong tiếng Anh",
+  "level": "C2",
+  "unit": 1,
+  "skill": "vocab",
+  "order": 1,
+  "cefr": "C2",
+  "minutes": 5,
+  "tags": [
+    "humor",
+    "wordplay",
+    "idiom",
+    "culture",
+    "wit"
+  ]
+}
 ---
 
 # Humor trong tiếng Anh

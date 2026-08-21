@@ -1,43 +1,58 @@
 ---
-id: c2-07-panel-discussion
-slug: c2-07-panel-discussion
-titleEn: Panel Discussion Grammar
-titleVi: Ngữ pháp Thảo luận Bàn tròn
-subtitleEn: Navigate complex grammatical structures in formal panel and debate settings
-subtitleVi: Điều hướng các cấu trúc ngữ pháp phức tạp trong các buổi thảo luận bàn tròn và tranh luận trang trọng
-level: C2
-unit: 2
-skill: grammar
-order: 7
-cefr: C2
-minutes: 5
-tags: [panel, debate, grammar, formal, discourse, discussion]
-audioScript: |
-  Panel discussions employ conditional structures to soften disagreement.
-  Subjunctive forms appear in formal proposals and resolutions.
-  Participial constructions allow for concise, elegant expression.
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: Which grammatical structure is most appropriate for softening disagreement in a panel?
-    options:
-      - 'Present simple'
-      - 'Second conditional'
-      - 'Past perfect'
-      - 'Future continuous'
-    answer: 'Second conditional'
-  - type: choice
-    prompt: What is the subjunctive form of 'suggest' in 'She suggested that he ___ present at the meeting'?
-    options:
-      - 'is'
-      - 'be'
-      - 'was'
-      - 'would be'
-    answer: 'be'
-  - type: fill
-    prompt: 'Were the committee to ___ the proposal, significant implications would follow.'
-    answer: 'reject'
+{
+  "id": "c2-07-panel-discussion",
+  "slug": "c2-07-panel-discussion",
+  "titleEn": "Panel Discussion Grammar",
+  "titleVi": "Ngữ pháp Thảo luận Bàn tròn",
+  "subtitleEn": "Navigate complex grammatical structures in formal panel and debate settings",
+  "subtitleVi": "Điều hướng các cấu trúc ngữ pháp phức tạp trong các buổi thảo luận bàn tròn và tranh luận trang trọng",
+  "level": "C2",
+  "unit": 2,
+  "skill": "grammar",
+  "order": 7,
+  "cefr": "C2",
+  "minutes": 5,
+  "tags": [
+    "panel",
+    "debate",
+    "grammar",
+    "formal",
+    "discourse",
+    "discussion"
+  ],
+  "audioScript": "Panel discussions employ conditional structures to soften disagreement.\nSubjunctive forms appear in formal proposals and resolutions.\nParticipial constructions allow for concise, elegant expression.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Which grammatical structure is most appropriate for softening disagreement in a panel?",
+      "options": [
+        "Present simple",
+        "Second conditional",
+        "Past perfect",
+        "Future continuous"
+      ],
+      "answer": "Second conditional"
+    },
+    {
+      "type": "choice",
+      "prompt": "What is the subjunctive form of 'suggest' in 'She suggested that he ___ present at the meeting'?",
+      "options": [
+        "is",
+        "be",
+        "was",
+        "would be"
+      ],
+      "answer": "be"
+    },
+    {
+      "type": "fill",
+      "prompt": "Were the committee to ___ the proposal, significant implications would follow.",
+      "answer": "reject"
+    }
+  ]
+}
 ---
 
 # Panel Discussion Grammar

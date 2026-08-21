@@ -1,41 +1,55 @@
 ---
-id: c1-07-advanced-grammar
-slug: c1-07-advanced-grammar
-titleEn: "Advanced C1 Grammar"
-titleVi: "Ngữ pháp C1 nâng cao"
-subtitleEn: "Master inversion, subjunctives, and complex clauses"
-subtitleVi: "Làm chủ đảo ngữ, thức giả định và mệnh đề phức tạp"
-level: C1
-unit: 2
-skill: grammar
-order: 7
-cefr: C1
-minutes: 5
-tags: [grammar, inversion, subjunctive, advanced, C1]
-audioScript: |
-  Had we anticipated the disruption, we would have diversified earlier.
-  Not only did the merger create synergies, but it also expanded our reach.
-  It is imperative that every stakeholder be informed of the changes.
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: Which is correct inversion?
-    options:
-      - "Never we have seen such growth."
-      - "Never have we seen such growth."
-      - "Never we seen have such growth."
-    answer: "Never have we seen such growth."
-  - type: fill
-    prompt: "It is essential that every team member ___ (be) informed."
-    answer: "be"
-  - type: choice
-    prompt: What is the subjunctive mood used for?
-    options:
-      - "Past habits"
-      - "Hypothetical/wished situations"
-      - "Future plans"
-    answer: "Hypothetical/wished situations"
+{
+  "id": "c1-07-advanced-grammar",
+  "slug": "c1-07-advanced-grammar",
+  "titleEn": "Advanced C1 Grammar",
+  "titleVi": "Ngữ pháp C1 nâng cao",
+  "subtitleEn": "Master inversion, subjunctives, and complex clauses",
+  "subtitleVi": "Làm chủ đảo ngữ, thức giả định và mệnh đề phức tạp",
+  "level": "C1",
+  "unit": 2,
+  "skill": "grammar",
+  "order": 7,
+  "cefr": "C1",
+  "minutes": 5,
+  "tags": [
+    "grammar",
+    "inversion",
+    "subjunctive",
+    "advanced",
+    "C1"
+  ],
+  "audioScript": "Had we anticipated the disruption, we would have diversified earlier.\nNot only did the merger create synergies, but it also expanded our reach.\nIt is imperative that every stakeholder be informed of the changes.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Which is correct inversion?",
+      "options": [
+        "Never we have seen such growth.",
+        "Never have we seen such growth.",
+        "Never we seen have such growth."
+      ],
+      "answer": "Never have we seen such growth."
+    },
+    {
+      "type": "fill",
+      "prompt": "It is essential that every team member ___ (be) informed.",
+      "answer": "be"
+    },
+    {
+      "type": "choice",
+      "prompt": "What is the subjunctive mood used for?",
+      "options": [
+        "Past habits",
+        "Hypothetical/wished situations",
+        "Future plans"
+      ],
+      "answer": "Hypothetical/wished situations"
+    }
+  ]
+}
 ---
 
 # Advanced C1 Grammar

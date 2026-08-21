@@ -1,37 +1,48 @@
 ---
-id: a1-02-numbers
-slug: a1-02-numbers
-titleEn: Numbers & Phone Numbers
-titleVi: Số đếm & Số điện thoại
-subtitleEn: Learn to count from 1 to 100 and say phone numbers
-subtitleVi: Học cách đếm từ 1 đến 100 và nói số điện thoại
-level: A1
-unit: 1
-skill: grammar
-order: 2
-cefr: A1
-minutes: 5
-tags: [numbers, phone, foundation]
-audioScript: |
-  One, two, three, four, five.
-  My phone number is zero nine one, five six seven, eight nine zero.
-  I have two sisters and one brother.
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: fill
-    prompt: 'My phone number is zero nine one, five six seven, eight nine zero. Write the full number:'
-    answer: '091567890'
-  - type: choice
-    prompt: How do you say "1" in English?
-    options:
-      - One
-      - Won
-      - Onet
-    answer: One
-  - type: fill
-    prompt: 'Five plus three equals ___.'
-    answer: 'Eight'
+{
+  "id": "a1-02-numbers",
+  "slug": "a1-02-numbers",
+  "titleEn": "Numbers & Phone Numbers",
+  "titleVi": "Số đếm & Số điện thoại",
+  "subtitleEn": "Learn to count from 1 to 100 and say phone numbers",
+  "subtitleVi": "Học cách đếm từ 1 đến 100 và nói số điện thoại",
+  "level": "A1",
+  "unit": 1,
+  "skill": "grammar",
+  "order": 2,
+  "cefr": "A1",
+  "minutes": 5,
+  "tags": [
+    "numbers",
+    "phone",
+    "foundation"
+  ],
+  "audioScript": "One, two, three, four, five.\nMy phone number is zero nine one, five six seven, eight nine zero.\nI have two sisters and one brother.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "fill",
+      "prompt": "My phone number is zero nine one, five six seven, eight nine zero. Write the full number:",
+      "answer": "091567890"
+    },
+    {
+      "type": "choice",
+      "prompt": "How do you say \"1\" in English?",
+      "options": [
+        "One",
+        "Won",
+        "Onet"
+      ],
+      "answer": "One"
+    },
+    {
+      "type": "fill",
+      "prompt": "Five plus three equals ___.",
+      "answer": "Eight"
+    }
+  ]
+}
 ---
 
 # Numbers & Phone Numbers

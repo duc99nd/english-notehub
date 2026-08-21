@@ -1,42 +1,53 @@
 ---
-id: a1-09-hobbies
-slug: a1-09-hobbies
-titleEn: Hobbies & Free Time
-titleVi: Sở thích & Thời gian rảnh
-subtitleEn: Học từ vựng về sở thích và những gì bạn thích làm
-subtitleVi: Học từ vựng về sở thích và những gì bạn thích làm
-level: A1
-unit: 2
-skill: writing
-order: 9
-cefr: A1
-minutes: 5
-tags: [hobbies, free-time, writing]
-audioScript: |
-  Trong thời gian rảnh, tôi thích đọc sách.
-  Đôi khi tôi chơi bóng đá với bạn bè.
-  Tôi thích nghe nhạc. Tôi cũng thích nấu ăn.
-  Cuối tuần, tôi thường xem phim.
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: fill
-    prompt: "I like to ___ books in my free time. (đọc)"
-    answer: "read"
-  - type: choice
-    prompt: "Cooking" có nghĩa là gì?
-    options:
-      - Nấu ăn
-      - Đọc sách
-      - Chơi bóng đá
-    answer: Nấu ăn
-  - type: choice
-    prompt: Bạn làm gì khi xem phim?
-    options:
-      - listen
-      - watch
-      - play
-    answer: watch
+{
+  "id": "a1-09-hobbies",
+  "slug": "a1-09-hobbies",
+  "titleEn": "Hobbies & Free Time",
+  "titleVi": "Sở thích & Thời gian rảnh",
+  "subtitleEn": "Học từ vựng về sở thích và những gì bạn thích làm",
+  "subtitleVi": "Học từ vựng về sở thích và những gì bạn thích làm",
+  "level": "A1",
+  "unit": 2,
+  "skill": "writing",
+  "order": 9,
+  "cefr": "A1",
+  "minutes": 5,
+  "tags": [
+    "hobbies",
+    "free-time",
+    "writing"
+  ],
+  "audioScript": "Trong thời gian rảnh, tôi thích đọc sách.\nĐôi khi tôi chơi bóng đá với bạn bè.\nTôi thích nghe nhạc. Tôi cũng thích nấu ăn.\nCuối tuần, tôi thường xem phim.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "fill",
+      "prompt": "I like to ___ books in my free time. (đọc)",
+      "answer": "read"
+    },
+    {
+      "type": "choice",
+      "prompt": "Cooking có nghĩa là gì?",
+      "options": [
+        "Nấu ăn",
+        "Đọc sách",
+        "Chơi bóng đá"
+      ],
+      "answer": "Nấu ăn"
+    },
+    {
+      "type": "choice",
+      "prompt": "Bạn làm gì khi xem phim?",
+      "options": [
+        "listen",
+        "watch",
+        "play"
+      ],
+      "answer": "watch"
+    }
+  ]
+}
 ---
 
 # Sở thích & Thời gian rảnh

@@ -1,41 +1,57 @@
 ---
-id: b1-02-past-tenses
-slug: b1-02-past-tenses
-titleEn: Past Tenses & Narratives
-titleVi: Các Thì Quá khứ & Kể chuyện
-subtitleEn: Thành thạo thì quá khứ đơn, quá khứ tiếp diễn và quá khứ hoàn thành
-subtitleVi: Thành thạo thì quá khứ đơn, quá khứ tiếp diễn và quá khứ hoàn thành
-level: B1
-unit: 1
-skill: grammar
-order: 2
-cefr: B1
-minutes: 5
-tags: [past-tenses, grammar, narrative, story, past-simple, past-continuous, past-perfect]
-audioScript: |
-  Tôi đang đi bộ xuống phố thì trời bắt đầu mưa.
-  Cô ấy đã đi rồi vào lúc tôi đến.
-  Chúng tôi đã ở bảo tàng ba tiếng hôm qua.
-listeningEnabled: true
-flashcardCount: 8
-quiz:
-  - type: choice
-    prompt: Thì nào diễn tả một hành động đang diễn ra trong quá khứ?
-    options:
-      - 'Quá khứ đơn'
-      - 'Quá khứ tiếp diễn'
-      - 'Tương lai đơn'
-    answer: 'Quá khứ tiếp diễn'
-  - type: fill
-    prompt: 'Tôi ___ (study) khi điện thoại reo.'
-    answer: 'was studying'
-  - type: choice
-    prompt: Khi nào chúng ta dùng Quá khứ hoàn thành?
-    options:
-      - 'Cho các hành động xảy ra trước một hành động quá khứ khác'
-      - 'Cho các hành động hiện tại'
-      - 'Cho các kế hoạch tương lai'
-    answer: 'Cho các hành động xảy ra trước một hành động quá khứ khác'
+{
+  "id": "b1-02-past-tenses",
+  "slug": "b1-02-past-tenses",
+  "titleEn": "Past Tenses & Narratives",
+  "titleVi": "Các Thì Quá khứ & Kể chuyện",
+  "subtitleEn": "Thành thạo thì quá khứ đơn, quá khứ tiếp diễn và quá khứ hoàn thành",
+  "subtitleVi": "Thành thạo thì quá khứ đơn, quá khứ tiếp diễn và quá khứ hoàn thành",
+  "level": "B1",
+  "unit": 1,
+  "skill": "grammar",
+  "order": 2,
+  "cefr": "B1",
+  "minutes": 5,
+  "tags": [
+    "past-tenses",
+    "grammar",
+    "narrative",
+    "story",
+    "past-simple",
+    "past-continuous",
+    "past-perfect"
+  ],
+  "audioScript": "Tôi đang đi bộ xuống phố thì trời bắt đầu mưa.\nCô ấy đã đi rồi vào lúc tôi đến.\nChúng tôi đã ở bảo tàng ba tiếng hôm qua.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 8,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Thì nào diễn tả một hành động đang diễn ra trong quá khứ?",
+      "options": [
+        "Quá khứ đơn",
+        "Quá khứ tiếp diễn",
+        "Tương lai đơn"
+      ],
+      "answer": "Quá khứ tiếp diễn"
+    },
+    {
+      "type": "fill",
+      "prompt": "Tôi ___ (study) khi điện thoại reo.",
+      "answer": "was studying"
+    },
+    {
+      "type": "choice",
+      "prompt": "Khi nào chúng ta dùng Quá khứ hoàn thành?",
+      "options": [
+        "Cho các hành động xảy ra trước một hành động quá khứ khác",
+        "Cho các hành động hiện tại",
+        "Cho các kế hoạch tương lai"
+      ],
+      "answer": "Cho các hành động xảy ra trước một hành động quá khứ khác"
+    }
+  ]
+}
 ---
 
 # Các Thì Quá khứ & Kể chuyện

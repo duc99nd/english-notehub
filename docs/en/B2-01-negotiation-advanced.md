@@ -1,41 +1,54 @@
 ---
-id: b2-01-negotiation-advanced
-slug: b2-01-negotiation-advanced
-titleEn: 'Advanced Negotiation Strategies'
-titleVi: 'Chiến lược đàm phán nâng cao'
-subtitleEn: 'Master workplace negotiation phrases and idioms'
-subtitleVi: 'Làm chủ các cụm từ và thành ngữ đàm phán'
-level: B2
-unit: 1
-skill: vocab
-order: 1
-cefr: B2
-minutes: 5
-tags: [negotiation, workplace, advanced, professional]
-audioScript: |
-  Let me run this proposal by you before the meeting.
-  We need to find some middle ground on the timeline.
-  If we circle back next week, we can finalize the terms.
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: What does "run something by someone" mean?
-    options:
-      - To reject an idea
-      - To share for feedback
-      - To delay a decision
-    answer: 'To share for feedback'
-  - type: fill
-    prompt: 'We need to find some ___ ___ before we proceed.'
-    answer: 'middle ground'
-  - type: choice
-    prompt: Which phrase means "to return to a topic later"?
-    options:
-      - 'buy in'
-      - 'circle back'
-      - 'deep dive'
-    answer: 'circle back'
+{
+  "id": "b2-01-negotiation-advanced",
+  "slug": "b2-01-negotiation-advanced",
+  "titleEn": "Advanced Negotiation Strategies",
+  "titleVi": "Chiến lược đàm phán nâng cao",
+  "subtitleEn": "Master workplace negotiation phrases and idioms",
+  "subtitleVi": "Làm chủ các cụm từ và thành ngữ đàm phán",
+  "level": "B2",
+  "unit": 1,
+  "skill": "vocab",
+  "order": 1,
+  "cefr": "B2",
+  "minutes": 5,
+  "tags": [
+    "negotiation",
+    "workplace",
+    "advanced",
+    "professional"
+  ],
+  "audioScript": "Let me run this proposal by you before the meeting.\nWe need to find some middle ground on the timeline.\nIf we circle back next week, we can finalize the terms.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does \"run something by someone\" mean?",
+      "options": [
+        "To reject an idea",
+        "To share for feedback",
+        "To delay a decision"
+      ],
+      "answer": "To share for feedback"
+    },
+    {
+      "type": "fill",
+      "prompt": "We need to find some ___ ___ before we proceed.",
+      "answer": "middle ground"
+    },
+    {
+      "type": "choice",
+      "prompt": "Which phrase means \"to return to a topic later\"?",
+      "options": [
+        "buy in",
+        "circle back",
+        "deep dive"
+      ],
+      "answer": "circle back"
+    }
+  ]
+}
 ---
 
 # Advanced Negotiation Strategies

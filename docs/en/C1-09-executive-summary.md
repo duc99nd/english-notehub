@@ -1,41 +1,54 @@
 ---
-id: c1-09-executive-summary
-slug: c1-09-executive-summary
-titleEn: "Executive Summary Writing"
-titleVi: "Viết Tóm tắt Điều hành"
-subtitleEn: "Write clear, decision-oriented executive summaries"
-subtitleVi: "Viết tóm tắt điều hành rõ ràng, hướng quyết định"
-level: C1
-unit: 2
-skill: writing
-order: 9
-cefr: C1
-minutes: 5
-tags: [writing, executive-summary, business, C1]
-audioScript: |
-  The proposal requests board approval for a five million dollar investment in operational efficiency.
-  It is projected to generate a fifteen percent reduction in costs over eighteen months.
-  Management recommends approval.
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: What is the primary purpose of an executive summary?
-    options:
-      - "Provide background details"
-      - "Enable a quick decision"
-      - "Show research depth"
-    answer: "Enable a quick decision"
-  - type: fill
-    prompt: "Management ___ approval of the proposal."
-    answer: "recommends"
-  - type: choice
-    prompt: Which section comes first in an executive summary?
-    options:
-      - "Risks"
-      - "Recommendation"
-      - "Background"
-    answer: "Recommendation"
+{
+  "id": "c1-09-executive-summary",
+  "slug": "c1-09-executive-summary",
+  "titleEn": "Executive Summary Writing",
+  "titleVi": "Viết Tóm tắt Điều hành",
+  "subtitleEn": "Write clear, decision-oriented executive summaries",
+  "subtitleVi": "Viết tóm tắt điều hành rõ ràng, hướng quyết định",
+  "level": "C1",
+  "unit": 2,
+  "skill": "writing",
+  "order": 9,
+  "cefr": "C1",
+  "minutes": 5,
+  "tags": [
+    "writing",
+    "executive-summary",
+    "business",
+    "C1"
+  ],
+  "audioScript": "The proposal requests board approval for a five million dollar investment in operational efficiency.\nIt is projected to generate a fifteen percent reduction in costs over eighteen months.\nManagement recommends approval.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What is the primary purpose of an executive summary?",
+      "options": [
+        "Provide background details",
+        "Enable a quick decision",
+        "Show research depth"
+      ],
+      "answer": "Enable a quick decision"
+    },
+    {
+      "type": "fill",
+      "prompt": "Management ___ approval of the proposal.",
+      "answer": "recommends"
+    },
+    {
+      "type": "choice",
+      "prompt": "Which section comes first in an executive summary?",
+      "options": [
+        "Risks",
+        "Recommendation",
+        "Background"
+      ],
+      "answer": "Recommendation"
+    }
+  ]
+}
 ---
 
 # Executive Summary Writing

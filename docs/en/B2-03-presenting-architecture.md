@@ -1,41 +1,54 @@
 ---
-id: b2-03-presenting-architecture
-slug: b2-03-presenting-architecture
-titleEn: 'Presenting Architecture Decisions'
-titleVi: 'Trình bày quyết định kiến trúc'
-subtitleEn: 'Read and discuss system architecture presentations'
-subtitleVi: 'Đọc và thảo luận về bài thuyết trình kiến trúc hệ thống'
-level: B2
-unit: 1
-skill: reading
-order: 3
-cefr: B2
-minutes: 5
-tags: [architecture, system-design, reading, technical]
-audioScript: |
-  The architecture we chose prioritizes scalability over simplicity.
-  Each service handles its own data persistence layer.
-  We decided against a microservices approach for now.
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: What does "prioritizes X over Y" mean?
-    options:
-      - X and Y are equally important
-      - X is more important than Y
-      - X is less important than Y
-    answer: 'X is more important than Y'
-  - type: fill
-    prompt: 'We decided ___ a microservices approach for now.'
-    answer: 'against'
-  - type: choice
-    prompt: What does "for now" imply?
-    options:
-      - This is permanent
-      - This may change in the future
-      - This is urgent
-    answer: 'This may change in the future'
+{
+  "id": "b2-03-presenting-architecture",
+  "slug": "b2-03-presenting-architecture",
+  "titleEn": "Presenting Architecture Decisions",
+  "titleVi": "Trình bày quyết định kiến trúc",
+  "subtitleEn": "Read and discuss system architecture presentations",
+  "subtitleVi": "Đọc và thảo luận về bài thuyết trình kiến trúc hệ thống",
+  "level": "B2",
+  "unit": 1,
+  "skill": "reading",
+  "order": 3,
+  "cefr": "B2",
+  "minutes": 5,
+  "tags": [
+    "architecture",
+    "system-design",
+    "reading",
+    "technical"
+  ],
+  "audioScript": "The architecture we chose prioritizes scalability over simplicity.\nEach service handles its own data persistence layer.\nWe decided against a microservices approach for now.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does \"prioritizes X over Y\" mean?",
+      "options": [
+        "X and Y are equally important",
+        "X is more important than Y",
+        "X is less important than Y"
+      ],
+      "answer": "X is more important than Y"
+    },
+    {
+      "type": "fill",
+      "prompt": "We decided ___ a microservices approach for now.",
+      "answer": "against"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does \"for now\" imply?",
+      "options": [
+        "This is permanent",
+        "This may change in the future",
+        "This is urgent"
+      ],
+      "answer": "This may change in the future"
+    }
+  ]
+}
 ---
 
 # Presenting Architecture Decisions

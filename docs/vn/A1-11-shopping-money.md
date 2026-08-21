@@ -1,42 +1,54 @@
 ---
-id: a1-11-shopping-money
-slug: a1-11-shopping-money
-titleEn: Shopping & Money
-titleVi: Mua sắm & Tiền bạc
-subtitleEn: Học từ vựng về mua sắm và cách nói về giá cả
-subtitleVi: Học từ vựng về mua sắm và cách nói về giá cả
-level: A1
-unit: 3
-skill: vocab
-order: 11
-cefr: A1
-minutes: 5
-tags: [shopping, money, vocab, daily]
-audioScript: |
-  Cái áo này bao nhiêu tiền?
-  Nó có giá năm mươi nghìn đồng.
-  Tôi muốn mua cuốn sách này ạ.
-  Bạn có chấp nhận thẻ tín dụng không?
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: fill
-    prompt: "___ much does this cost? (bao nhiêu)"
-    answer: "How"
-  - type: choice
-    prompt: "\"How much\" dùng để hỏi gì?"
-    options:
-      - Số lượng
-      - Giá cả
-      - Chất lượng
-    answer: Giá cả
-  - type: choice
-    prompt: "Cheap" có nghĩa là gì?
-    options:
-      - Đắt
-      - Rẻ
-      - Lớn
-    answer: Rẻ
+{
+  "id": "a1-11-shopping-money",
+  "slug": "a1-11-shopping-money",
+  "titleEn": "Shopping & Money",
+  "titleVi": "Mua sắm & Tiền bạc",
+  "subtitleEn": "Học từ vựng về mua sắm và cách nói về giá cả",
+  "subtitleVi": "Học từ vựng về mua sắm và cách nói về giá cả",
+  "level": "A1",
+  "unit": 3,
+  "skill": "vocab",
+  "order": 11,
+  "cefr": "A1",
+  "minutes": 5,
+  "tags": [
+    "shopping",
+    "money",
+    "vocab",
+    "daily"
+  ],
+  "audioScript": "Cái áo này bao nhiêu tiền?\nNó có giá năm mươi nghìn đồng.\nTôi muốn mua cuốn sách này ạ.\nBạn có chấp nhận thẻ tín dụng không?\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "fill",
+      "prompt": "___ much does this cost? (bao nhiêu)",
+      "answer": "How"
+    },
+    {
+      "type": "choice",
+      "prompt": "\\ How much\\\" dùng để hỏi gì?\"",
+      "options": [
+        "Số lượng",
+        "Giá cả",
+        "Chất lượng"
+      ],
+      "answer": "Giá cả"
+    },
+    {
+      "type": "choice",
+      "prompt": "Cheap có nghĩa là gì?",
+      "options": [
+        "Đắt",
+        "Rẻ",
+        "Lớn"
+      ],
+      "answer": "Rẻ"
+    }
+  ]
+}
 ---
 
 # Mua sắm & Tiền bạc

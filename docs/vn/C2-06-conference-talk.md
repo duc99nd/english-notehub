@@ -1,17 +1,26 @@
 ---
-id: c2-06-conference-talk
-slug: c2-06-conference-talk
-titleEn: Conference Talk Vocabulary
-titleVi: Từ vựng buổi thuyết trình hội nghị
-subtitleEn: Command the specialized discourse of academic and professional conferences
-subtitleVi: Làm chủ diễn ngôn chuyên biệt của các hội nghị học thuật và chuyên nghiệp
-level: C2
-unit: 2
-skill: vocab
-order: 6
-cefr: C2
-minutes: 5
-tags: [conference, presentation, academic, professional, discourse, speaking]
+{
+  "id": "c2-06-conference-talk",
+  "slug": "c2-06-conference-talk",
+  "titleEn": "Conference Talk Vocabulary",
+  "titleVi": "Từ vựng buổi thuyết trình hội nghị",
+  "subtitleEn": "Command the specialized discourse of academic and professional conferences",
+  "subtitleVi": "Làm chủ diễn ngôn chuyên biệt của các hội nghị học thuật và chuyên nghiệp",
+  "level": "C2",
+  "unit": 2,
+  "skill": "vocab",
+  "order": 6,
+  "cefr": "C2",
+  "minutes": 5,
+  "tags": [
+    "conference",
+    "presentation",
+    "academic",
+    "professional",
+    "discourse",
+    "speaking"
+  ]
+}
 ---
 
 # Từ vựng buổi thuyết trình hội nghị

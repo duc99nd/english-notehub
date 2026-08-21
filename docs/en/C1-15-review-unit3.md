@@ -1,53 +1,70 @@
 ---
-id: c1-15-review-unit3
-slug: c1-15-review-unit3
-titleEn: "Review Unit 3"
-titleVi: "Ôn tập Unit 3"
-subtitleEn: "Consolidate academic discourse, nuanced grammar, critical reading, and research writing"
-subtitleVi: "Củng cố diễn ngôn học thuật, ngữ pháp tinh tế, đọc phản biện và viết nghiên cứu"
-level: C1
-unit: 3
-skill: review
-order: 15
-cefr: C1
-minutes: 10
-tags: [review, unit3, academic, research, C1]
-audioScript: |
-  Let's review Unit 3.
-  You can now use academic vocabulary and hedging.
-  You can apply nuanced C1 grammar structures.
-  You can critique academic arguments.
-  You can write research-style papers.
-listeningEnabled: true
-flashcardCount: 20
-quiz:
-  - type: choice
-    prompt: Which is a hedge verb?
-    options:
-      - "Prove"
-      - "Suggest"
-      - "Guarantee"
-    answer: "Suggest"
-  - type: fill
-    prompt: "Were we to launch in Q1, we would capture early adopters." → Identify the conditional type: ___ conditional.
-    answer: "Inverted"
-  - type: choice
-    prompt: What does IMRaD stand for?
-    options:
-      - "Intro, Method, Results, Analysis, Discussion"
-      - "Abstract, Introduction, Methodology, Results, Discussion"
-      - "Aim, Method, Review, Analysis, Decision"
-    answer: "Abstract, Introduction, Methodology, Results, Discussion"
-  - type: fill
-    prompt: "It appears that the data was misinterpreted." → This sentence uses ___ language.
-    answer: "hedging"
-  - type: choice
-    prompt: What is a sign of bias in research?
-    options:
-      - "Large sample size"
-      - "Selective use of evidence"
-      - "Peer review"
-    answer: "Selective use of evidence"
+{
+  "id": "c1-15-review-unit3",
+  "slug": "c1-15-review-unit3",
+  "titleEn": "Review Unit 3",
+  "titleVi": "Ôn tập Unit 3",
+  "subtitleEn": "Consolidate academic discourse, nuanced grammar, critical reading, and research writing",
+  "subtitleVi": "Củng cố diễn ngôn học thuật, ngữ pháp tinh tế, đọc phản biện và viết nghiên cứu",
+  "level": "C1",
+  "unit": 3,
+  "skill": "review",
+  "order": 15,
+  "cefr": "C1",
+  "minutes": 10,
+  "tags": [
+    "review",
+    "unit3",
+    "academic",
+    "research",
+    "C1"
+  ],
+  "audioScript": "Let's review Unit 3.\nYou can now use academic vocabulary and hedging.\nYou can apply nuanced C1 grammar structures.\nYou can critique academic arguments.\nYou can write research-style papers.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 20,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Which is a hedge verb?",
+      "options": [
+        "Prove",
+        "Suggest",
+        "Guarantee"
+      ],
+      "answer": "Suggest"
+    },
+    {
+      "type": "fill",
+      "prompt": "Were we to launch in Q1, we would capture early adopters. → Identify the conditional type: ___ conditional.",
+      "answer": "Inverted"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does IMRaD stand for?",
+      "options": [
+        "Intro, Method, Results, Analysis, Discussion",
+        "Abstract, Introduction, Methodology, Results, Discussion",
+        "Aim, Method, Review, Analysis, Decision"
+      ],
+      "answer": "Abstract, Introduction, Methodology, Results, Discussion"
+    },
+    {
+      "type": "fill",
+      "prompt": "It appears that the data was misinterpreted. → This sentence uses ___ language.",
+      "answer": "hedging"
+    },
+    {
+      "type": "choice",
+      "prompt": "What is a sign of bias in research?",
+      "options": [
+        "Large sample size",
+        "Selective use of evidence",
+        "Peer review"
+      ],
+      "answer": "Selective use of evidence"
+    }
+  ]
+}
 ---
 
 # Review Unit 3

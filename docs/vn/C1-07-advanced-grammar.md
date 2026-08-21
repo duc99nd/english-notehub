@@ -1,41 +1,55 @@
 ---
-id: c1-07-advanced-grammar
-slug: c1-07-advanced-grammar
-titleEn: "Advanced C1 Grammar"
-titleVi: "Ngữ pháp C1 nâng cao"
-subtitleEn: "Master inversion, subjunctives, and complex clauses"
-subtitleVi: "Làm chủ đảo ngữ, thức giả định và mệnh đề phức tạp"
-level: C1
-unit: 2
-skill: grammar
-order: 7
-cefr: C1
-minutes: 5
-tags: [grammar, inversion, subjunctive, advanced, C1]
-audioScript: |
-  Giá mà chúng tôi dự đoán được sự gián đoạn, chúng tôi đã đa dạng hóa sớm hơn.
-  Thương vụ không chỉ tạo ra sức mạnh tổng hợp mà còn mở rộng tầm ảnh hưởng.
-  Điều cấp bách là mọi bên liên quan phải được thông báo về những thay đổi.
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: Đảo ngữ nào đúng?
-    options:
-      - "Chúng tôi chưa bao giờ đã thấy tăng trưởng như vậy."
-      - "Chưa bao giờ chúng tôi lại thấy tăng trưởng như vậy."
-      - "Chưa bao giờ chúng tôi thấy tăng trưởng như vậy."
-    answer: "Chưa bao giờ chúng tôi lại thấy tăng trưởng như vậy."
-  - type: fill
-    prompt: "Điều cần thiết là mọi thành viên ___ (được) thông báo."
-    answer: "được"
-  - type: choice
-    prompt: Thức giả định được dùng để làm gì?
-    options:
-      - "Thói quen quá khứ"
-      - "Tình huống giả định/ước muốn"
-      - "Kế hoạch tương lai"
-    answer: "Tình huống giả định/ước muốn"
+{
+  "id": "c1-07-advanced-grammar",
+  "slug": "c1-07-advanced-grammar",
+  "titleEn": "Advanced C1 Grammar",
+  "titleVi": "Ngữ pháp C1 nâng cao",
+  "subtitleEn": "Master inversion, subjunctives, and complex clauses",
+  "subtitleVi": "Làm chủ đảo ngữ, thức giả định và mệnh đề phức tạp",
+  "level": "C1",
+  "unit": 2,
+  "skill": "grammar",
+  "order": 7,
+  "cefr": "C1",
+  "minutes": 5,
+  "tags": [
+    "grammar",
+    "inversion",
+    "subjunctive",
+    "advanced",
+    "C1"
+  ],
+  "audioScript": "Giá mà chúng tôi dự đoán được sự gián đoạn, chúng tôi đã đa dạng hóa sớm hơn.\nThương vụ không chỉ tạo ra sức mạnh tổng hợp mà còn mở rộng tầm ảnh hưởng.\nĐiều cấp bách là mọi bên liên quan phải được thông báo về những thay đổi.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Đảo ngữ nào đúng?",
+      "options": [
+        "Chúng tôi chưa bao giờ đã thấy tăng trưởng như vậy.",
+        "Chưa bao giờ chúng tôi lại thấy tăng trưởng như vậy.",
+        "Chưa bao giờ chúng tôi thấy tăng trưởng như vậy."
+      ],
+      "answer": "Chưa bao giờ chúng tôi lại thấy tăng trưởng như vậy."
+    },
+    {
+      "type": "fill",
+      "prompt": "Điều cần thiết là mọi thành viên ___ (được) thông báo.",
+      "answer": "được"
+    },
+    {
+      "type": "choice",
+      "prompt": "Thức giả định được dùng để làm gì?",
+      "options": [
+        "Thói quen quá khứ",
+        "Tình huống giả định/ước muốn",
+        "Kế hoạch tương lai"
+      ],
+      "answer": "Tình huống giả định/ước muốn"
+    }
+  ]
+}
 ---
 
 # Ngữ pháp C1 nâng cao

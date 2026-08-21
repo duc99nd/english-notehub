@@ -1,41 +1,55 @@
 ---
-id: b1-12-conditionals
-slug: b1-12-conditionals
-titleEn: First & Second Conditionals
-titleVi: Câu Điều kiện Loại 1 & Loại 2
-subtitleEn: Talk about real and imaginary situations
-subtitleVi: Nói về các tình huống thực và tưởng tượng
-level: B1
-unit: 3
-skill: grammar
-order: 12
-cefr: B1
-minutes: 5
-tags: [conditionals, grammar, if-clause, first-conditional, second-conditional]
-audioScript: |
-  If it rains tomorrow, I'll stay at home.
-  If I won the lottery, I would travel the world.
-  If I had more time, I would learn to cook.
-listeningEnabled: true
-flashcardCount: 8
-quiz:
-  - type: choice
-    prompt: When do we use the First Conditional?
-    options:
-      - 'For imaginary situations'
-      - 'For real and likely situations'
-      - 'For past events'
-    answer: 'For real and likely situations'
-  - type: fill
-    prompt: 'If I ___ (have) more money, I would buy a car.'
-    answer: 'had'
-  - type: choice
-    prompt: What is the correct Second Conditional form?
-    options:
-      - 'If she studies, she passes.'
-      - 'If she studied, she would pass.'
-      - 'If she studied, she passes.'
-    answer: 'If she studied, she would pass.'
+{
+  "id": "b1-12-conditionals",
+  "slug": "b1-12-conditionals",
+  "titleEn": "First & Second Conditionals",
+  "titleVi": "Câu Điều kiện Loại 1 & Loại 2",
+  "subtitleEn": "Talk about real and imaginary situations",
+  "subtitleVi": "Nói về các tình huống thực và tưởng tượng",
+  "level": "B1",
+  "unit": 3,
+  "skill": "grammar",
+  "order": 12,
+  "cefr": "B1",
+  "minutes": 5,
+  "tags": [
+    "conditionals",
+    "grammar",
+    "if-clause",
+    "first-conditional",
+    "second-conditional"
+  ],
+  "audioScript": "If it rains tomorrow, I'll stay at home.\nIf I won the lottery, I would travel the world.\nIf I had more time, I would learn to cook.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 8,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "When do we use the First Conditional?",
+      "options": [
+        "For imaginary situations",
+        "For real and likely situations",
+        "For past events"
+      ],
+      "answer": "For real and likely situations"
+    },
+    {
+      "type": "fill",
+      "prompt": "If I ___ (have) more money, I would buy a car.",
+      "answer": "had"
+    },
+    {
+      "type": "choice",
+      "prompt": "What is the correct Second Conditional form?",
+      "options": [
+        "If she studies, she passes.",
+        "If she studied, she would pass.",
+        "If she studied, she passes."
+      ],
+      "answer": "If she studied, she would pass."
+    }
+  ]
+}
 ---
 
 # First & Second Conditionals

@@ -1,53 +1,68 @@
 ---
-id: a1-10-review-unit2
-slug: a1-10-review-unit2
-titleEn: Review Unit 2
-titleVi: Ôn tập Unit 2
-subtitleEn: Review time, places, food, weather, and hobbies
-subtitleVi: Ôn tập thời gian, địa điểm, thức ăn, thời tiết và sở thích
-level: A1
-unit: 2
-skill: review
-order: 10
-cefr: A1
-minutes: 10
-tags: [review, unit2, all-skills]
-audioScript: |
-  In the morning, I go to school.
-  I eat rice and chicken for lunch. I drink water.
-  Today is sunny and hot. It is summer.
-  In my free time, I like to read books.
-  I also enjoy listening to music.
-listeningEnabled: true
-flashcardCount: 10
-quiz:
-  - type: choice
-    prompt: What time is "afternoon"?
-    options:
-      - 6am-12pm
-      - 12pm-6pm
-      - 6pm-10pm
-    answer: 12pm-6pm
-  - type: fill
-    prompt: "I would like some rice and ___, please. (thịt gà)"
-    answer: "chicken"
-  - type: choice
-    prompt: "It is rainy today." means:
-    options:
-      - Trời nắng
-      - Trời mưa
-      - Trời lạnh
-    answer: Trời mưa
-  - type: fill
-    prompt: "I like to ___ books in my free time. (đọc)"
-    answer: "read"
-  - type: choice
-    prompt: Where do you buy food? (market)
-    options:
-      - school
-      - market
-      - library
-    answer: market
+{
+  "id": "a1-10-review-unit2",
+  "slug": "a1-10-review-unit2",
+  "titleEn": "Review Unit 2",
+  "titleVi": "Ôn tập Unit 2",
+  "subtitleEn": "Review time, places, food, weather, and hobbies",
+  "subtitleVi": "Ôn tập thời gian, địa điểm, thức ăn, thời tiết và sở thích",
+  "level": "A1",
+  "unit": 2,
+  "skill": "review",
+  "order": 10,
+  "cefr": "A1",
+  "minutes": 10,
+  "tags": [
+    "review",
+    "unit2",
+    "all-skills"
+  ],
+  "audioScript": "In the morning, I go to school.\nI eat rice and chicken for lunch. I drink water.\nToday is sunny and hot. It is summer.\nIn my free time, I like to read books.\nI also enjoy listening to music.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 10,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What time is \"afternoon\"?",
+      "options": [
+        "6am-12pm",
+        "12pm-6pm",
+        "6pm-10pm"
+      ],
+      "answer": "12pm-6pm"
+    },
+    {
+      "type": "fill",
+      "prompt": "I would like some rice and ___, please. (thịt gà)",
+      "answer": "chicken"
+    },
+    {
+      "type": "choice",
+      "prompt": "It is rainy today. means:",
+      "options": [
+        "Trời nắng",
+        "Trời mưa",
+        "Trời lạnh"
+      ],
+      "answer": "Trời mưa"
+    },
+    {
+      "type": "fill",
+      "prompt": "I like to ___ books in my free time. (đọc)",
+      "answer": "read"
+    },
+    {
+      "type": "choice",
+      "prompt": "Where do you buy food? (market)",
+      "options": [
+        "school",
+        "market",
+        "library"
+      ],
+      "answer": "market"
+    }
+  ]
+}
 ---
 
 # Review Unit 2

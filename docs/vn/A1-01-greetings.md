@@ -1,23 +1,26 @@
 ---
-id: a1-01-greetings
-slug: a1-01-greetings
-titleEn: Greetings & Self-introduction
-titleVi: Chào hỏi & Giới thiệu bản thân
-subtitleEn: Học cách chào hỏi và giới thiệu bản thân bằng tiếng Anh
-subtitleVi: Học cách chào hỏi và giới thiệu bản thân bằng tiếng Anh
-level: A1
-unit: 1
-skill: vocab
-order: 1
-cefr: A1
-minutes: 5
-tags: [greetings, daily, foundation]
-audioScript: |
-  Xin chào. Tôi tên là Anna. Tôi là lập trình viên.
-  Tôi làm việc tại một công ty nhỏ ở Thành phố Hồ Chí Minh.
-  Rất vui được gặp bạn.
-listeningEnabled: true
-flashcardCount: 6
+{
+  "id": "a1-01-greetings",
+  "slug": "a1-01-greetings",
+  "titleEn": "Greetings & Self-introduction",
+  "titleVi": "Chào hỏi & Giới thiệu bản thân",
+  "subtitleEn": "Học cách chào hỏi và giới thiệu bản thân bằng tiếng Anh",
+  "subtitleVi": "Học cách chào hỏi và giới thiệu bản thân bằng tiếng Anh",
+  "level": "A1",
+  "unit": 1,
+  "skill": "vocab",
+  "order": 1,
+  "cefr": "A1",
+  "minutes": 5,
+  "tags": [
+    "greetings",
+    "daily",
+    "foundation"
+  ],
+  "audioScript": "Xin chào. Tôi tên là Anna. Tôi là lập trình viên.\nTôi làm việc tại một công ty nhỏ ở Thành phố Hồ Chí Minh.\nRất vui được gặp bạn.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6
+}
 ---
 
 # Chào hỏi & Giới thiệu bản thân

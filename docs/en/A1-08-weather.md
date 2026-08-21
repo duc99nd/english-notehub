@@ -1,42 +1,53 @@
 ---
-id: a1-08-weather
-slug: a1-08-weather
-titleEn: Weather
-titleVi: Thời tiết
-subtitleEn: Learn to describe weather conditions and seasons
-subtitleVi: Học cách mô tả thời tiết và các mùa trong năm
-level: A1
-unit: 2
-skill: reading
-order: 8
-cefr: A1
-minutes: 5
-tags: [weather, seasons, reading]
-audioScript: |
-  Today is sunny and hot. The temperature is 35 degrees.
-  In summer, it is very hot in Vietnam.
-  In winter, it is cold and sometimes rainy.
-  I like spring because flowers are beautiful.
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: 'It is sunny today. What is the weather like?'
-    options:
-      - Cold and rainy
-      - Hot with no clouds
-      - Snowy
-    answer: Hot with no clouds
-  - type: fill
-    prompt: 'In summer, it is very ___. (nóng)'
-    answer: 'hot'
-  - type: choice
-    prompt: Which word means "mưa"?
-    options:
-      - sunny
-      - rainy
-      - cloudy
-    answer: rainy
+{
+  "id": "a1-08-weather",
+  "slug": "a1-08-weather",
+  "titleEn": "Weather",
+  "titleVi": "Thời tiết",
+  "subtitleEn": "Learn to describe weather conditions and seasons",
+  "subtitleVi": "Học cách mô tả thời tiết và các mùa trong năm",
+  "level": "A1",
+  "unit": 2,
+  "skill": "reading",
+  "order": 8,
+  "cefr": "A1",
+  "minutes": 5,
+  "tags": [
+    "weather",
+    "seasons",
+    "reading"
+  ],
+  "audioScript": "Today is sunny and hot. The temperature is 35 degrees.\nIn summer, it is very hot in Vietnam.\nIn winter, it is cold and sometimes rainy.\nI like spring because flowers are beautiful.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "It is sunny today. What is the weather like?",
+      "options": [
+        "Cold and rainy",
+        "Hot with no clouds",
+        "Snowy"
+      ],
+      "answer": "Hot with no clouds"
+    },
+    {
+      "type": "fill",
+      "prompt": "In summer, it is very ___. (nóng)",
+      "answer": "hot"
+    },
+    {
+      "type": "choice",
+      "prompt": "Which word means \"mưa\"?",
+      "options": [
+        "sunny",
+        "rainy",
+        "cloudy"
+      ],
+      "answer": "rainy"
+    }
+  ]
+}
 ---
 
 # Weather

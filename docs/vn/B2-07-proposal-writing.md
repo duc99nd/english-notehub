@@ -1,41 +1,54 @@
 ---
-id: b2-07-proposal-writing
-slug: b2-07-proposal-writing
-titleEn: "Proposal Writing"
-titleVi: "Viết đề xuất"
-subtitleEn: "Write compelling business proposals"
-subtitleVi: "Viết đề xuất kinh doanh thuyết phục"
-level: B2
-unit: 2
-skill: writing
-order: 7
-cefr: B2
-minutes: 5
-tags: [writing, proposal, business, B2]
-audioScript: |
-  Đề xuất này phác thảo cách tiếp cận ba giai đoạn cho chuyển đổi số.
-  Giải pháp của chúng tôi sẽ mang lại ROI rõ ràng trong vòng mười hai tháng.
-  Chúng tôi tin rằng quan hệ đối tác này sẽ tạo ra giá trị dài hạn đáng kể.
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: "ROI" là viết tắt của?
-    options:
-      - "Tỷ suất thu nhập"
-      - "Lợi tức đầu tư"
-      - "Rủi ro triển khai"
-    answer: "Lợi tức đầu tư"
-  - type: fill
-    prompt: "Đề xuất này ___ cách tiếp cận ba giai đoạn của chúng tôi."
-    answer: "phác thảo"
-  - type: choice
-    prompt: Từ nào có nghĩa "tạo ra kết quả"?
-    options:
-      - "trì hoãn"
-      - "mang lại"
-      - "tiêu thụ"
-    answer: "mang lại"
+{
+  "id": "b2-07-proposal-writing",
+  "slug": "b2-07-proposal-writing",
+  "titleEn": "Proposal Writing",
+  "titleVi": "Viết đề xuất",
+  "subtitleEn": "Write compelling business proposals",
+  "subtitleVi": "Viết đề xuất kinh doanh thuyết phục",
+  "level": "B2",
+  "unit": 2,
+  "skill": "writing",
+  "order": 7,
+  "cefr": "B2",
+  "minutes": 5,
+  "tags": [
+    "writing",
+    "proposal",
+    "business",
+    "B2"
+  ],
+  "audioScript": "Đề xuất này phác thảo cách tiếp cận ba giai đoạn cho chuyển đổi số.\nGiải pháp của chúng tôi sẽ mang lại ROI rõ ràng trong vòng mười hai tháng.\nChúng tôi tin rằng quan hệ đối tác này sẽ tạo ra giá trị dài hạn đáng kể.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "ROI là viết tắt của?",
+      "options": [
+        "Tỷ suất thu nhập",
+        "Lợi tức đầu tư",
+        "Rủi ro triển khai"
+      ],
+      "answer": "Lợi tức đầu tư"
+    },
+    {
+      "type": "fill",
+      "prompt": "Đề xuất này ___ cách tiếp cận ba giai đoạn của chúng tôi.",
+      "answer": "phác thảo"
+    },
+    {
+      "type": "choice",
+      "prompt": "Từ nào có nghĩa \"tạo ra kết quả\"?",
+      "options": [
+        "trì hoãn",
+        "mang lại",
+        "tiêu thụ"
+      ],
+      "answer": "mang lại"
+    }
+  ]
+}
 ---
 
 # Viết đề xuất

@@ -1,41 +1,55 @@
 ---
-id: c1-04-stakeholder-management
-slug: c1-04-stakeholder-management
-titleEn: "Stakeholder Management"
-titleVi: "Quản lý các Bên liên quan"
-subtitleEn: "Navigate stakeholder dynamics and influence"
-subtitleVi: "Quản lý động lực và ảnh hưởng của các bên liên quan"
-level: C1
-unit: 1
-skill: vocab
-order: 4
-cefr: C1
-minutes: 5
-tags: [stakeholder, management, leadership, influence, C1]
-audioScript: |
-  We need to bring the dissenting stakeholders on board.
-  Their buy-in is critical for the project's success.
-  Let's align expectations before we move forward.
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: "What does 'buy-in' mean in a business context?"
-    options:
-      - "Purchasing shares"
-      - "Agreement and support"
-      - "Investment return"
-    answer: "Agreement and support"
-  - type: fill
-    prompt: "We need to ___ expectations before we move forward with the initiative."
-    answer: "align"
-  - type: choice
-    prompt: "Which phrase means 'to get someone's support for a decision'?"
-    options:
-      - "bring on board"
-      - "put aside"
-      - "leave behind"
-    answer: "bring on board"
+{
+  "id": "c1-04-stakeholder-management",
+  "slug": "c1-04-stakeholder-management",
+  "titleEn": "Stakeholder Management",
+  "titleVi": "Quản lý các Bên liên quan",
+  "subtitleEn": "Navigate stakeholder dynamics and influence",
+  "subtitleVi": "Quản lý động lực và ảnh hưởng của các bên liên quan",
+  "level": "C1",
+  "unit": 1,
+  "skill": "vocab",
+  "order": 4,
+  "cefr": "C1",
+  "minutes": 5,
+  "tags": [
+    "stakeholder",
+    "management",
+    "leadership",
+    "influence",
+    "C1"
+  ],
+  "audioScript": "We need to bring the dissenting stakeholders on board.\nTheir buy-in is critical for the project's success.\nLet's align expectations before we move forward.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does 'buy-in' mean in a business context?",
+      "options": [
+        "Purchasing shares",
+        "Agreement and support",
+        "Investment return"
+      ],
+      "answer": "Agreement and support"
+    },
+    {
+      "type": "fill",
+      "prompt": "We need to ___ expectations before we move forward with the initiative.",
+      "answer": "align"
+    },
+    {
+      "type": "choice",
+      "prompt": "Which phrase means 'to get someone's support for a decision'?",
+      "options": [
+        "bring on board",
+        "put aside",
+        "leave behind"
+      ],
+      "answer": "bring on board"
+    }
+  ]
+}
 ---
 
 # Stakeholder Management

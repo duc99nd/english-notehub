@@ -1,17 +1,27 @@
 ---
-id: c2-09-legal-contracts
-slug: c2-09-legal-contracts
-titleEn: Legal Contracts
-titleVi: Hợp đồng Pháp lý
-subtitleEn: Master the precision and structure of formal legal writing
-subtitleVi: Làm chủ sự chính xác và cấu trúc của văn bản pháp lý trang trọng
-level: C2
-unit: 2
-skill: writing
-order: 9
-cefr: C2
-minutes: 5
-tags: [legal, contracts, law, formal, writing, precision, drafting]
+{
+  "id": "c2-09-legal-contracts",
+  "slug": "c2-09-legal-contracts",
+  "titleEn": "Legal Contracts",
+  "titleVi": "Hợp đồng Pháp lý",
+  "subtitleEn": "Master the precision and structure of formal legal writing",
+  "subtitleVi": "Làm chủ sự chính xác và cấu trúc của văn bản pháp lý trang trọng",
+  "level": "C2",
+  "unit": 2,
+  "skill": "writing",
+  "order": 9,
+  "cefr": "C2",
+  "minutes": 5,
+  "tags": [
+    "legal",
+    "contracts",
+    "law",
+    "formal",
+    "writing",
+    "precision",
+    "drafting"
+  ]
+}
 ---
 
 # Hợp đồng Pháp lý

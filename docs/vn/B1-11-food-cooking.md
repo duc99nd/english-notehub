@@ -1,41 +1,56 @@
 ---
-id: b1-11-food-cooking
-slug: b1-11-food-cooking
-titleEn: Food & Cooking
-titleVi: Đồ ăn & Nấu ăn
-subtitleEn: Học từ vựng về nguyên liệu, cách nấu và bữa ăn
-subtitleVi: Học từ vựng về nguyên liệu, cách nấu và bữa ăn
-level: B1
-unit: 3
-skill: vocab
-order: 11
-cefr: B1
-minutes: 5
-tags: [food, cooking, ingredients, kitchen, meals, recipes]
-audioScript: |
-  Tối nay tôi sẽ nấu mì Ý cho bữa tối.
-  Đầu tiên, bạn cần thái rau củ.
-  Canh cần đun nhỏ lửa khoảng 20 phút.
-listeningEnabled: true
-flashcardCount: 8
-quiz:
-  - type: choice
-    prompt: 'To chop' (thái) nghĩa là gì trong nấu ăn?
-    options:
-      - "Đun sôi"
-      - "Cắt thành từng miếng nhỏ"
-      - "Khuấy"
-    answer: "Cắt thành từng miếng nhỏ"
-  - type: fill
-    prompt: "Bạn cần ___ hành tây trước khi cho vào chảo."
-    answer: "chop"
-  - type: choice
-    prompt: 'Ingredient' (nguyên liệu) là gì?
-    options:
-      - "Một dụng cụ nấu ăn"
-      - "Thứ gì đó bạn dùng trong công thức nấu ăn"
-      - "Một loại nhà hàng"
-    answer: "Thứ gì đó bạn dùng trong công thức nấu ăn"
+{
+  "id": "b1-11-food-cooking",
+  "slug": "b1-11-food-cooking",
+  "titleEn": "Food & Cooking",
+  "titleVi": "Đồ ăn & Nấu ăn",
+  "subtitleEn": "Học từ vựng về nguyên liệu, cách nấu và bữa ăn",
+  "subtitleVi": "Học từ vựng về nguyên liệu, cách nấu và bữa ăn",
+  "level": "B1",
+  "unit": 3,
+  "skill": "vocab",
+  "order": 11,
+  "cefr": "B1",
+  "minutes": 5,
+  "tags": [
+    "food",
+    "cooking",
+    "ingredients",
+    "kitchen",
+    "meals",
+    "recipes"
+  ],
+  "audioScript": "Tối nay tôi sẽ nấu mì Ý cho bữa tối.\nĐầu tiên, bạn cần thái rau củ.\nCanh cần đun nhỏ lửa khoảng 20 phút.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 8,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "To chop (thái) nghĩa là gì trong nấu ăn?",
+      "options": [
+        "Đun sôi",
+        "Cắt thành từng miếng nhỏ",
+        "Khuấy"
+      ],
+      "answer": "Cắt thành từng miếng nhỏ"
+    },
+    {
+      "type": "fill",
+      "prompt": "Bạn cần ___ hành tây trước khi cho vào chảo.",
+      "answer": "chop"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ingredient (nguyên liệu) là gì?",
+      "options": [
+        "Một dụng cụ nấu ăn",
+        "Thứ gì đó bạn dùng trong công thức nấu ăn",
+        "Một loại nhà hàng"
+      ],
+      "answer": "Thứ gì đó bạn dùng trong công thức nấu ăn"
+    }
+  ]
+}
 ---
 
 # Đồ ăn & Nấu ăn

@@ -1,41 +1,55 @@
 ---
-id: c1-03-writing-strategy
-slug: c1-03-writing-strategy
-titleEn: "Strategic Document Reading"
-titleVi: "Đọc Hiểu Tài liệu Chiến lược"
-subtitleEn: "Analyze executive strategy documents and annual reports"
-subtitleVi: "Phân tích tài liệu chiến lược và báo cáo thường niên của cấp cao"
-level: C1
-unit: 1
-skill: reading
-order: 3
-cefr: C1
-minutes: 5
-tags: [reading, strategy, reports, documents, C1]
-audioScript: |
-  Lộ trình năm năm của chúng tôi ưu tiên tăng trưởng bền vững hơn mở rộng nhanh.
-  Hội đồng đã phê duyệt chuyển hướng sang các giải pháp công nghệ.
-  Chúng tôi dự đoán có trở ngại trong Q4 nhưng vẫn tự tin vào vị thế dài hạn.
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: "Headwinds" trong ngữ cảnh kinh doanh thường nghĩa là gì?
-    options:
-      - "Thách thức hoặc trở ngại"
-      - "Gió thuận hoặc lợi thế"
-      - "Tốc độ gió"
-    answer: "Thách thức hoặc trở ngại"
-  - type: fill
-    prompt: "Công ty đã công bố một ___ sang các nguồn năng lượng tái tạo."
-    answer: "chuyển hướng"
-  - type: choice
-    prompt: "Đề xuất giá trị của chúng tôi vẫn hấp dẫn" gợi ý điều gì?
-    options:
-      - "Công ty có lợi thế cạnh tranh mạnh"
-      - "Công ty đang gặp khó khăn"
-      - "Sản phẩm đắt đỏ"
-    answer: "Công ty có lợi thế cạnh tranh mạnh"
+{
+  "id": "c1-03-writing-strategy",
+  "slug": "c1-03-writing-strategy",
+  "titleEn": "Strategic Document Reading",
+  "titleVi": "Đọc Hiểu Tài liệu Chiến lược",
+  "subtitleEn": "Analyze executive strategy documents and annual reports",
+  "subtitleVi": "Phân tích tài liệu chiến lược và báo cáo thường niên của cấp cao",
+  "level": "C1",
+  "unit": 1,
+  "skill": "reading",
+  "order": 3,
+  "cefr": "C1",
+  "minutes": 5,
+  "tags": [
+    "reading",
+    "strategy",
+    "reports",
+    "documents",
+    "C1"
+  ],
+  "audioScript": "Lộ trình năm năm của chúng tôi ưu tiên tăng trưởng bền vững hơn mở rộng nhanh.\nHội đồng đã phê duyệt chuyển hướng sang các giải pháp công nghệ.\nChúng tôi dự đoán có trở ngại trong Q4 nhưng vẫn tự tin vào vị thế dài hạn.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Headwinds trong ngữ cảnh kinh doanh thường nghĩa là gì?",
+      "options": [
+        "Thách thức hoặc trở ngại",
+        "Gió thuận hoặc lợi thế",
+        "Tốc độ gió"
+      ],
+      "answer": "Thách thức hoặc trở ngại"
+    },
+    {
+      "type": "fill",
+      "prompt": "Công ty đã công bố một ___ sang các nguồn năng lượng tái tạo.",
+      "answer": "chuyển hướng"
+    },
+    {
+      "type": "choice",
+      "prompt": "Đề xuất giá trị của chúng tôi vẫn hấp dẫn gợi ý điều gì?",
+      "options": [
+        "Công ty có lợi thế cạnh tranh mạnh",
+        "Công ty đang gặp khó khăn",
+        "Sản phẩm đắt đỏ"
+      ],
+      "answer": "Công ty có lợi thế cạnh tranh mạnh"
+    }
+  ]
+}
 ---
 
 # Đọc Hiểu Tài liệu Chiến lược

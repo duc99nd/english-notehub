@@ -1,41 +1,55 @@
 ---
-id: c1-03-writing-strategy
-slug: c1-03-writing-strategy
-titleEn: "Strategic Document Reading"
-titleVi: "Đọc Hiểu Tài liệu Chiến lược"
-subtitleEn: "Analyze executive strategy documents and annual reports"
-subtitleVi: "Phân tích tài liệu chiến lược và báo cáo thường niên của cấp cao"
-level: C1
-unit: 1
-skill: reading
-order: 3
-cefr: C1
-minutes: 5
-tags: [reading, strategy, reports, documents, C1]
-audioScript: |
-  Our five-year roadmap prioritizes sustainable growth over rapid expansion.
-  The board has endorsed a pivot toward technology-enabled solutions.
-  We anticipate headwinds in Q4 but remain confident in our long-term positioning.
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: "What does \"headwinds\" typically mean in business context?"
-    options:
-      - "Challenges or obstacles"
-      - "Tailwinds or advantages"
-      - "Wind speeds"
-    answer: "Challenges or obstacles"
-  - type: fill
-    prompt: "The company announced a ___ toward renewable energy sources."
-    answer: "pivot"
-  - type: choice
-    prompt: "\"Our value proposition remains compelling\" suggests:"
-    options:
-      - "The company has strong competitive advantages"
-      - "The company is struggling"
-      - "The product is expensive"
-    answer: "The company has strong competitive advantages"
+{
+  "id": "c1-03-writing-strategy",
+  "slug": "c1-03-writing-strategy",
+  "titleEn": "Strategic Document Reading",
+  "titleVi": "Đọc Hiểu Tài liệu Chiến lược",
+  "subtitleEn": "Analyze executive strategy documents and annual reports",
+  "subtitleVi": "Phân tích tài liệu chiến lược và báo cáo thường niên của cấp cao",
+  "level": "C1",
+  "unit": 1,
+  "skill": "reading",
+  "order": 3,
+  "cefr": "C1",
+  "minutes": 5,
+  "tags": [
+    "reading",
+    "strategy",
+    "reports",
+    "documents",
+    "C1"
+  ],
+  "audioScript": "Our five-year roadmap prioritizes sustainable growth over rapid expansion.\nThe board has endorsed a pivot toward technology-enabled solutions.\nWe anticipate headwinds in Q4 but remain confident in our long-term positioning.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does \"headwinds\" typically mean in business context?",
+      "options": [
+        "Challenges or obstacles",
+        "Tailwinds or advantages",
+        "Wind speeds"
+      ],
+      "answer": "Challenges or obstacles"
+    },
+    {
+      "type": "fill",
+      "prompt": "The company announced a ___ toward renewable energy sources.",
+      "answer": "pivot"
+    },
+    {
+      "type": "choice",
+      "prompt": "\"Our value proposition remains compelling\" suggests:",
+      "options": [
+        "The company has strong competitive advantages",
+        "The company is struggling",
+        "The product is expensive"
+      ],
+      "answer": "The company has strong competitive advantages"
+    }
+  ]
+}
 ---
 
 # Strategic Document Reading

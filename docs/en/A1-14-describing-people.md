@@ -1,41 +1,55 @@
 ---
-id: a1-14-describing-people
-slug: a1-14-describing-people
-titleEn: 'Describing People'
-titleVi: 'Miêu tả con người'
-subtitleEn: Learn vocabulary to describe people's appearance and personality
-subtitleVi: Học từ vựng để miêu tả ngoại hình và tính cách con người
-level: A1
-unit: 3
-skill: vocab
-order: 14
-cefr: A1
-minutes: 5
-tags: [describing, people, appearance, personality, vocab]
-audioScript: |
-  She is tall with long black hair.
-  He is friendly and funny.
-  My brother has brown eyes.
-listeningEnabled: true
-flashcardCount: 6
-quiz:
-  - type: choice
-    prompt: Which word describes hair color?
-    options:
-      - 'Tall'
-      - 'Black'
-      - 'Friendly'
-    answer: 'Black'
-  - type: fill
-    prompt: 'She is ___ and friendly. (cao)'
-    answer: 'tall'
-  - type: choice
-    prompt: What is a personality trait?
-    options:
-      - 'Hair color'
-      - 'Friendly'
-      - 'Height'
-    answer: 'Friendly'
+{
+  "id": "a1-14-describing-people",
+  "slug": "a1-14-describing-people",
+  "titleEn": "Describing People",
+  "titleVi": "Miêu tả con người",
+  "subtitleEn": "Learn vocabulary to describe people's appearance and personality",
+  "subtitleVi": "Học từ vựng để miêu tả ngoại hình và tính cách con người",
+  "level": "A1",
+  "unit": 3,
+  "skill": "vocab",
+  "order": 14,
+  "cefr": "A1",
+  "minutes": 5,
+  "tags": [
+    "describing",
+    "people",
+    "appearance",
+    "personality",
+    "vocab"
+  ],
+  "audioScript": "She is tall with long black hair.\nHe is friendly and funny.\nMy brother has brown eyes.\n",
+  "listeningEnabled": true,
+  "flashcardCount": 6,
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Which word describes hair color?",
+      "options": [
+        "Tall",
+        "Black",
+        "Friendly"
+      ],
+      "answer": "Black"
+    },
+    {
+      "type": "fill",
+      "prompt": "She is ___ and friendly. (cao)",
+      "answer": "tall"
+    },
+    {
+      "type": "choice",
+      "prompt": "What is a personality trait?",
+      "options": [
+        "Hair color",
+        "Friendly",
+        "Height"
+      ],
+      "answer": "Friendly"
+    }
+  ]
+}
 ---
 
 # Describing People
