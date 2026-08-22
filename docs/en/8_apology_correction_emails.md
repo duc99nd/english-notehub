@@ -1,3 +1,23 @@
+---
+{
+  "id": "apology-correction-emails",
+  "slug": "apology-correction-emails",
+  "titleEn": "Apology & Correction Emails",
+  "titleVi": "Viết email xin lỗi và đính chính thông tin",
+  "subtitleEn": "Saying sorry and correcting mistakes",
+  "subtitleVi": "Xử lý sự cố giao tiếp bằng văn bản",
+  "level": "B1",
+  "cefr": "B1",
+  "skill": "speaking",
+  "order": 8,
+  "minutes": 6,
+  "categoryEn": "Foundation & Daily Communication",
+  "categoryVi": "Nền tảng Kỹ năng",
+  "tags": [],
+  "isArchived": false
+}
+---
+
 # Apology & Correction Emails (Daily English Edition)
 
 Mistakes are inevitable in software development. You might send incorrect server details, miss a meeting, or accidentally deploy a bug to production. When this happens, professional communication is key. Acknowledge the error quickly, apologize simply, and focus heavily on the correction and next steps.

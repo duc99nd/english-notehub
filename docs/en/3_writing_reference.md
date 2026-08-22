@@ -1,3 +1,23 @@
+---
+{
+  "id": "writing-reference",
+  "slug": "writing-reference",
+  "titleEn": "English Writing Reference",
+  "titleVi": "Mẫu câu writing trong công việc",
+  "subtitleEn": "Practical templates for work and client communication",
+  "subtitleVi": "Chat, email, follow-up để dùng ngay",
+  "level": "A2",
+  "cefr": "A2",
+  "skill": "speaking",
+  "order": 3,
+  "minutes": 6,
+  "categoryEn": "Foundation & Daily Communication",
+  "categoryVi": "Nền tảng Kỹ năng",
+  "tags": [],
+  "isArchived": false
+}
+---
+
 # ENGLISH WRITING REFERENCE
 
 ## Practical writing templates for work, client communication, and daily collaboration

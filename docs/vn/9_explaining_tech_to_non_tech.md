@@ -1,3 +1,23 @@
+---
+{
+  "id": "explaining-tech-to-non-tech",
+  "slug": "explaining-tech-to-non-tech",
+  "titleEn": "Explaining Tech to Non-tech",
+  "titleVi": "Giải thích vấn đề kỹ thuật cho Non-tech",
+  "subtitleEn": "Simplifying technical concepts",
+  "subtitleVi": "Giao tiếp với PO, QA, và Marketing",
+  "level": "B1",
+  "cefr": "B1",
+  "skill": "speaking",
+  "order": 9,
+  "minutes": 6,
+  "categoryEn": "Foundation & Daily Communication",
+  "categoryVi": "Nền tảng Kỹ năng",
+  "tags": [],
+  "isArchived": false
+}
+---
+
 # Giải thích vấn đề kỹ thuật cho Non-tech (Daily English)
 
 Là một kỹ sư phần mềm, bạn sẽ thường xuyên phải giao tiếp với Product Manager (PM), khách hàng, designer, hoặc team marketing - những người không có chuyên môn về code. Nếu bạn lạm dụng quá nhiều thuật ngữ kỹ thuật phức tạp (jargon), họ sẽ dễ bị bối rối và làm chậm các quyết định quan trọng của dự án. Chìa khóa để giao tiếp hiệu quả là nói tiếng Anh đơn giản hàng ngày, tập trung vào kết quả kinh doanh và sử dụng các phép so sánh thực tế.

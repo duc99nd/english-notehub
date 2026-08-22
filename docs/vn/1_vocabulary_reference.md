@@ -1,3 +1,23 @@
+---
+{
+  "id": "vocabulary-reference",
+  "slug": "vocabulary-reference",
+  "titleEn": "English Vocabulary Reference",
+  "titleVi": "Từ vựng công việc cần dùng nhiều",
+  "subtitleEn": "Core words and collocations for daily work",
+  "subtitleVi": "Từ và cụm từ cho speaking và writing",
+  "level": "A2",
+  "cefr": "A2",
+  "skill": "speaking",
+  "order": 1,
+  "minutes": 8,
+  "categoryEn": "Foundation & Daily Communication",
+  "categoryVi": "Nền tảng Kỹ năng",
+  "tags": [],
+  "isArchived": false
+}
+---
+
 # TÀI LIỆU TỪ VỰNG CÔNG VIỆC
 
 ## Từ và cụm từ cho meeting, speaking, writing, và công việc hàng ngày

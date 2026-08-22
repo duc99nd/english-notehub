@@ -1,3 +1,23 @@
+---
+{
+  "id": "interrupting-holding-floor",
+  "slug": "interrupting-holding-floor",
+  "titleEn": "Interrupting & Holding the Floor",
+  "titleVi": "Kỹ năng ngắt lời và giành lại quyền nói",
+  "subtitleEn": "Polite interruption strategies",
+  "subtitleVi": "Cách chen ngang lịch sự trong cuộc họp",
+  "level": "B2",
+  "cefr": "B2",
+  "skill": "speaking",
+  "order": 29,
+  "minutes": 4,
+  "categoryEn": "Agile & Meetings",
+  "categoryVi": "Hội họp & Quy trình",
+  "tags": [],
+  "isArchived": false
+}
+---
+
 # Kỹ năng ngắt lời và giành lại quyền nói (Daily English)
 
 Trong các cuộc họp IT diễn ra nhanh (đặc biệt là khi làm việc với người bản xứ), việc chen chân vào để nói hoặc ngăn người khác cắt ngang lời bạn là một thử thách lớn. Bạn cần các mẫu câu tiếng Anh lịch sự nhưng dứt khoát để ngắt lời khi cần thiết, và giữ vững vị thế (hold your ground) khi có người cố tình cướp lời của bạn.

@@ -1,3 +1,23 @@
+---
+{
+  "id": "explaining-tech-to-non-tech",
+  "slug": "explaining-tech-to-non-tech",
+  "titleEn": "Explaining Tech to Non-tech",
+  "titleVi": "Giải thích vấn đề kỹ thuật cho Non-tech",
+  "subtitleEn": "Simplifying technical concepts",
+  "subtitleVi": "Giao tiếp với PO, QA, và Marketing",
+  "level": "B1",
+  "cefr": "B1",
+  "skill": "speaking",
+  "order": 9,
+  "minutes": 6,
+  "categoryEn": "Foundation & Daily Communication",
+  "categoryVi": "Nền tảng Kỹ năng",
+  "tags": [],
+  "isArchived": false
+}
+---
+
 # Explaining Tech to Non-Tech (Daily English Edition)
 
 As a software engineer, you will frequently communicate with Product Managers (PMs), clients, designers, or marketing teams who do not understand code. Using heavy technical jargon will confuse them and slow down decisions. The key to effective communication is to speak in simple, everyday English, focus on business outcomes, and use real-world analogies.

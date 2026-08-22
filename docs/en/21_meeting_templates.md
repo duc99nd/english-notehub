@@ -1,3 +1,23 @@
+---
+{
+  "id": "meeting-templates",
+  "slug": "meeting-templates",
+  "titleEn": "English Meeting Templates For Team Lead",
+  "titleVi": "Mẫu câu họp hàng tuần với khách hàng",
+  "subtitleEn": "Safe speaking formulas for weekly client meetings",
+  "subtitleVi": "Công thức nói an toàn cho team lead",
+  "level": "B1",
+  "cefr": "B1",
+  "skill": "speaking",
+  "order": 21,
+  "minutes": 12,
+  "categoryEn": "Agile & Meetings",
+  "categoryVi": "Hội họp & Quy trình",
+  "tags": [],
+  "isArchived": false
+}
+---
+
 # ENGLISH MEETING TEMPLATES FOR TEAM LEAD
 
 ## Safe speaking formulas for weekly client meetings

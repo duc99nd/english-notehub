@@ -1,3 +1,23 @@
+---
+{
+  "id": "client-situations",
+  "slug": "client-situations",
+  "titleEn": "English Client Situations Reference",
+  "titleVi": "Tình huống khó với khách hàng",
+  "subtitleEn": "Practical English for difficult client situations",
+  "subtitleVi": "Mẫu câu để phản hồi lịch sự và chắc chắn",
+  "level": "B2",
+  "cefr": "B2",
+  "skill": "speaking",
+  "order": 31,
+  "minutes": 7,
+  "categoryEn": "Difficult Situations",
+  "categoryVi": "Tình huống Khó",
+  "tags": [],
+  "isArchived": false
+}
+---
+
 # TÀI LIỆU TÌNH HUỐNG KHÓ VỚI KHÁCH HÀNG
 
 ## Mẫu câu tiếng Anh thực tế cho các tình huống khó, đàm phán, escalation, và giao tiếp với stakeholder

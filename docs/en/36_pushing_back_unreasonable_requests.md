@@ -1,3 +1,23 @@
+---
+{
+  "id": "pushing-back-unreasonable-requests",
+  "slug": "pushing-back-unreasonable-requests",
+  "titleEn": "Pushing Back on Unreasonable Requests",
+  "titleVi": "Từ chối yêu cầu vô lý từ Sếp hoặc PO",
+  "subtitleEn": "Saying no to managers or POs",
+  "subtitleVi": "Cách nói \"Không\" một cách khéo léo",
+  "level": "B2",
+  "cefr": "B2",
+  "skill": "speaking",
+  "order": 36,
+  "minutes": 5,
+  "categoryEn": "Difficult Situations",
+  "categoryVi": "Tình huống Khó",
+  "tags": [],
+  "isArchived": false
+}
+---
+
 # Pushing Back on Unreasonable Requests
 
 In your career, you will occasionally receive unreasonable requests—whether it's an impossible deadline, working through weekends without planning, or implementing a feature that goes against security best practices. Learning how to say "no" professionally, backed by technical evidence and logical explanations, is a key skill for senior developers.

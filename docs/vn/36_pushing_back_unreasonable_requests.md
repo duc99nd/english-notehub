@@ -1,3 +1,23 @@
+---
+{
+  "id": "pushing-back-unreasonable-requests",
+  "slug": "pushing-back-unreasonable-requests",
+  "titleEn": "Pushing Back on Unreasonable Requests",
+  "titleVi": "Từ chối yêu cầu vô lý từ Sếp hoặc PO",
+  "subtitleEn": "Saying no to managers or POs",
+  "subtitleVi": "Cách nói \"Không\" một cách khéo léo",
+  "level": "B2",
+  "cefr": "B2",
+  "skill": "speaking",
+  "order": 36,
+  "minutes": 5,
+  "categoryEn": "Difficult Situations",
+  "categoryVi": "Tình huống Khó",
+  "tags": [],
+  "isArchived": false
+}
+---
+
 # Từ chối yêu cầu vô lý từ Sếp hoặc PO
 
 Trong sự nghiệp, chắc chắn sẽ có lúc bạn nhận phải những yêu cầu vô lý—chẳng hạn như một deadline bất khả thi, yêu cầu OT cuối tuần đột xuất mà không có kế hoạch, hoặc bắt triển khai một tính năng đi ngược lại các quy tắc bảo mật. Học cách nói "Không" một cách chuyên nghiệp, dựa trên các bằng chứng kỹ thuật và lý lẽ logic, là kỹ năng sống còn của một lập trình viên.

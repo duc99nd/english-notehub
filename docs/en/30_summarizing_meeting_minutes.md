@@ -1,3 +1,23 @@
+---
+{
+  "id": "summarizing-meeting-minutes",
+  "slug": "summarizing-meeting-minutes",
+  "titleEn": "Summarizing Meeting Minutes",
+  "titleVi": "Cách chốt biên bản cuộc họp (MOM)",
+  "subtitleEn": "Writing and confirming meeting takeaways",
+  "subtitleVi": "Tóm tắt Action Items và gửi email xác nhận",
+  "level": "B1",
+  "cefr": "B1",
+  "skill": "speaking",
+  "order": 30,
+  "minutes": 5,
+  "categoryEn": "Agile & Meetings",
+  "categoryVi": "Hội họp & Quy trình",
+  "tags": [],
+  "isArchived": false
+}
+---
+
 # Summarizing Meeting Minutes
 
 At the end of a meeting, or shortly after it finishes, someone needs to write the "Meeting Minutes" (MoM). This document summarizes the decisions made, unresolved questions, and action items. Writing clear, actionable minutes ensures everyone is aligned and prevents tasks from falling through the cracks.

@@ -1,3 +1,23 @@
+---
+{
+  "id": "interview-preparation",
+  "slug": "interview-preparation",
+  "titleEn": "Job Interview Preparation",
+  "titleVi": "Chuẩn bị phỏng vấn tiếng Anh",
+  "subtitleEn": "Standard QA and strategies for professional English interviews",
+  "subtitleVi": "Câu hỏi thường gặp và chiến thuật trả lời phỏng vấn",
+  "level": "B1",
+  "cefr": "B1",
+  "skill": "speaking",
+  "order": 41,
+  "minutes": 5,
+  "categoryEn": "Career Growth & Interviews",
+  "categoryVi": "Sự nghiệp & Phỏng vấn",
+  "tags": [],
+  "isArchived": false
+}
+---
+
 # Job Interview Preparation (Daily English Edition)
 
 For many developers, speaking English in an interview is scary. But you do **not** need complex, academic vocabulary. You just need clear, natural, and simple daily English. This guide is written for both beginners and experienced developers to help you speak with confidence using everyday phrases.

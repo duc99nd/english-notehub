@@ -1,3 +1,23 @@
+---
+{
+  "id": "asking-for-help-support",
+  "slug": "asking-for-help-support",
+  "titleEn": "Asking for Help & Support",
+  "titleVi": "Nhờ vả và yêu cầu hỗ trợ từ đồng nghiệp",
+  "subtitleEn": "Requesting assistance from colleagues",
+  "subtitleVi": "Cách nhờ hỗ trợ lịch sự, hiệu quả",
+  "level": "A2",
+  "cefr": "A2",
+  "skill": "speaking",
+  "order": 7,
+  "minutes": 5,
+  "categoryEn": "Foundation & Daily Communication",
+  "categoryVi": "Nền tảng Kỹ năng",
+  "tags": [],
+  "isArchived": false
+}
+---
+
 # Asking for Help & Support (Daily English Edition)
 
 No developer knows everything. Asking for help is a sign of a healthy, productive team culture. However, asking _effectively_ in English requires structure. Show what you have tried so others can help you quickly, and use polite, indirect phrasing to respect your team's time.

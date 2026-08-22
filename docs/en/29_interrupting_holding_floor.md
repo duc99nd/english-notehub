@@ -1,3 +1,23 @@
+---
+{
+  "id": "interrupting-holding-floor",
+  "slug": "interrupting-holding-floor",
+  "titleEn": "Interrupting & Holding the Floor",
+  "titleVi": "Kỹ năng ngắt lời và giành lại quyền nói",
+  "subtitleEn": "Polite interruption strategies",
+  "subtitleVi": "Cách chen ngang lịch sự trong cuộc họp",
+  "level": "B2",
+  "cefr": "B2",
+  "skill": "speaking",
+  "order": 29,
+  "minutes": 4,
+  "categoryEn": "Agile & Meetings",
+  "categoryVi": "Hội họp & Quy trình",
+  "tags": [],
+  "isArchived": false
+}
+---
+
 # Interrupting & Holding the Floor
 
 In fast-paced IT meetings, especially with native speakers, it can be difficult to get your voice heard or to prevent others from cutting you off. You need polite but firm English phrases to interrupt when necessary and to hold your ground when someone tries to take the floor from you.

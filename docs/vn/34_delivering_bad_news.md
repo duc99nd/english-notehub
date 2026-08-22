@@ -1,3 +1,23 @@
+---
+{
+  "id": "delivering-bad-news",
+  "slug": "delivering-bad-news",
+  "titleEn": "Delivering Bad News",
+  "titleVi": "Báo tin xấu (Sập Server / Mất Data)",
+  "subtitleEn": "Reporting critical failures and data loss",
+  "subtitleVi": "Giao tiếp khi có sự cố nghiêm trọng",
+  "level": "B2",
+  "cefr": "B2",
+  "skill": "speaking",
+  "order": 34,
+  "minutes": 6,
+  "categoryEn": "Difficult Situations",
+  "categoryVi": "Tình huống Khó",
+  "tags": [],
+  "isArchived": false
+}
+---
+
 # Báo tin xấu (Sập Server, Mất Data, Trễ Deadline)
 
 Trong ngành IT, sự cố nghiêm trọng là điều không thể tránh khỏi. Server bị sập, database bị lỗi (corrupted), lỗ hổng bảo mật bị lộ, hoặc deadline bị trễ. Khi truyền đạt tin xấu cho khách hàng, ban quản lý hoặc các bên liên quan, phong cách giao tiếp của bạn cần đảm bảo:

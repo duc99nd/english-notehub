@@ -1,3 +1,23 @@
+---
+{
+  "id": "apology-correction-emails",
+  "slug": "apology-correction-emails",
+  "titleEn": "Apology & Correction Emails",
+  "titleVi": "Viết email xin lỗi và đính chính thông tin",
+  "subtitleEn": "Saying sorry and correcting mistakes",
+  "subtitleVi": "Xử lý sự cố giao tiếp bằng văn bản",
+  "level": "B1",
+  "cefr": "B1",
+  "skill": "speaking",
+  "order": 8,
+  "minutes": 6,
+  "categoryEn": "Foundation & Daily Communication",
+  "categoryVi": "Nền tảng Kỹ năng",
+  "tags": [],
+  "isArchived": false
+}
+---
+
 # Viết email xin lỗi và đính chính thông tin (Daily English)
 
 Sai sót là điều không thể tránh khỏi trong quá trình phát triển phần mềm. Bạn có thể gửi nhầm thông tin cấu hình server, trễ một buổi họp, hoặc vô tình deploy code lỗi lên production. Khi điều này xảy ra, kỹ năng giao tiếp chuyên nghiệp là chìa khóa để giải quyết vấn đề. Hãy thừa nhận lỗi sai nhanh chóng, xin lỗi đơn giản, và tập trung tối đa vào thông tin đính chính cùng hướng xử lý tiếp theo.

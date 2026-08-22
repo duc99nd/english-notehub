@@ -1,3 +1,23 @@
+---
+{
+  "id": "professional-chat-communication",
+  "slug": "professional-chat-communication",
+  "titleEn": "Professional Chat Communication",
+  "titleVi": "Tiếng Anh chat Slack/Teams chuyên nghiệp",
+  "subtitleEn": "English for Slack and Teams",
+  "subtitleVi": "Giao tiếp nhanh gọn qua tin nhắn",
+  "level": "A2",
+  "cefr": "A2",
+  "skill": "speaking",
+  "order": 5,
+  "minutes": 3,
+  "categoryEn": "Foundation & Daily Communication",
+  "categoryVi": "Nền tảng Kỹ năng",
+  "tags": [],
+  "isArchived": false
+}
+---
+
 # Giao tiếp nhắn tin Chuyên nghiệp (Slack & Teams)
 
 Giao tiếp hiệu quả trên các nền tảng chat như Slack, Microsoft Teams hoặc Discord là kỹ năng sống còn của các thành viên trong các team IT làm việc từ xa hoặc hybrid. Khi nhắn tin, bạn nên tránh dùng văn phong tiếng Anh học thuật, cứng nhắc. Hãy giữ câu từ rõ ràng, ngắn gọn và tự nhiên.

@@ -1,3 +1,23 @@
+---
+{
+  "id": "advanced-daily-standup",
+  "slug": "advanced-daily-standup",
+  "titleEn": "Advanced Daily Standup",
+  "titleVi": "Báo cáo tiến độ (Daily Standup Nâng cao)",
+  "subtitleEn": "Providing clear and concise status updates",
+  "subtitleVi": "Mẫu câu standup chuyên nghiệp và ngắn gọn",
+  "level": "B1",
+  "cefr": "B1",
+  "skill": "speaking",
+  "order": 26,
+  "minutes": 5,
+  "categoryEn": "Agile & Meetings",
+  "categoryVi": "Hội họp & Quy trình",
+  "tags": [],
+  "isArchived": false
+}
+---
+
 # Advanced Daily Standup
 
 A daily standup should be quick, focused, and value-driven. Many developers make the mistake of listing every single minor task (such as renaming variables or fixing typos) or going into deep technical explanations that derail the meeting. An advanced standup update focuses on business value, blocker clarity, and efficient collaboration.

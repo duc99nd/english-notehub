@@ -1,3 +1,23 @@
+---
+{
+  "id": "requesting-time-off",
+  "slug": "requesting-time-off",
+  "titleEn": "Requesting Time Off",
+  "titleVi": "Cách xin nghỉ phép và báo ốm",
+  "subtitleEn": "Asking for leave and reporting sick",
+  "subtitleVi": "Xin nghỉ phép hợp lý và lịch sự",
+  "level": "A2",
+  "cefr": "A2",
+  "skill": "speaking",
+  "order": 6,
+  "minutes": 6,
+  "categoryEn": "Foundation & Daily Communication",
+  "categoryVi": "Nền tảng Kỹ năng",
+  "tags": [],
+  "isArchived": false
+}
+---
+
 # Xin nghỉ phép và Báo ốm (Daily English)
 
 Trong môi trường làm việc chuyên nghiệp, việc xin nghỉ phép (PTO), báo ốm (Sick leave), hoặc tạm rời máy để xử lý việc riêng đòi hỏi sự giao tiếp rõ ràng, lịch sự và kịp thời. Bạn không cần phải chia sẻ quá chi tiết về lý do cá nhân của mình. Hãy giữ tin nhắn ngắn gọn, chuyên nghiệp và tập trung vào việc bàn giao/bảo đảm công việc.

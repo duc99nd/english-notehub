@@ -1,3 +1,23 @@
+---
+{
+  "id": "summarizing-meeting-minutes",
+  "slug": "summarizing-meeting-minutes",
+  "titleEn": "Summarizing Meeting Minutes",
+  "titleVi": "Cách chốt biên bản cuộc họp (MOM)",
+  "subtitleEn": "Writing and confirming meeting takeaways",
+  "subtitleVi": "Tóm tắt Action Items và gửi email xác nhận",
+  "level": "B1",
+  "cefr": "B1",
+  "skill": "speaking",
+  "order": 30,
+  "minutes": 5,
+  "categoryEn": "Agile & Meetings",
+  "categoryVi": "Hội họp & Quy trình",
+  "tags": [],
+  "isArchived": false
+}
+---
+
 # Cách chốt biên bản cuộc họp (Meeting Minutes)
 
 Khi cuộc họp kết thúc hoặc ngay sau đó, ai đó cần viết "Biên bản cuộc họp" (MoM - Minutes of Meeting). Tài liệu này tóm tắt các quyết định đã thống nhất, các câu hỏi chưa được giải quyết và các đầu việc cần làm (action items). Việc viết MoM rõ ràng, dễ theo dõi sẽ giúp mọi người đồng thuận và tránh việc trôi mất task.

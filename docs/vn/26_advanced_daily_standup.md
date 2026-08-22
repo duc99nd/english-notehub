@@ -1,3 +1,23 @@
+---
+{
+  "id": "advanced-daily-standup",
+  "slug": "advanced-daily-standup",
+  "titleEn": "Advanced Daily Standup",
+  "titleVi": "Báo cáo tiến độ (Daily Standup Nâng cao)",
+  "subtitleEn": "Providing clear and concise status updates",
+  "subtitleVi": "Mẫu câu standup chuyên nghiệp và ngắn gọn",
+  "level": "B1",
+  "cefr": "B1",
+  "skill": "speaking",
+  "order": 26,
+  "minutes": 5,
+  "categoryEn": "Agile & Meetings",
+  "categoryVi": "Hội họp & Quy trình",
+  "tags": [],
+  "isArchived": false
+}
+---
+
 # Báo cáo tiến độ (Daily Standup Nâng cao)
 
 Họp Daily Standup cần diễn ra nhanh gọn, tập trung và hướng tới giá trị thực tế. Nhiều developer mắc sai lầm là liệt kê mọi việc lặt vặt (như sửa tên biến, chỉnh lỗi chính tả) hoặc đi quá sâu vào chi tiết kỹ thuật làm kéo dài cuộc họp không cần thiết. Một báo cáo standup nâng cao sẽ tập trung vào kết quả công việc (outcomes), sự rõ ràng của điểm nghẽn (blockers) và tính phối hợp hiệu quả.

@@ -1,3 +1,23 @@
+---
+{
+  "id": "professional-chat-communication",
+  "slug": "professional-chat-communication",
+  "titleEn": "Professional Chat Communication",
+  "titleVi": "Tiếng Anh chat Slack/Teams chuyên nghiệp",
+  "subtitleEn": "English for Slack and Teams",
+  "subtitleVi": "Giao tiếp nhanh gọn qua tin nhắn",
+  "level": "A2",
+  "cefr": "A2",
+  "skill": "speaking",
+  "order": 5,
+  "minutes": 3,
+  "categoryEn": "Foundation & Daily Communication",
+  "categoryVi": "Nền tảng Kỹ năng",
+  "tags": [],
+  "isArchived": false
+}
+---
+
 # Professional Chat Communication (Slack & Teams)
 
 Effective communication on Slack, Microsoft Teams, or Discord is critical for remote and hybrid IT teams. In chat, you should avoid formal, textbook English. Keep your messages clear, short, and natural.

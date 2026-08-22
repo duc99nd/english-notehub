@@ -1,3 +1,23 @@
+---
+{
+  "id": "asking-for-help-support",
+  "slug": "asking-for-help-support",
+  "titleEn": "Asking for Help & Support",
+  "titleVi": "Nhờ vả và yêu cầu hỗ trợ từ đồng nghiệp",
+  "subtitleEn": "Requesting assistance from colleagues",
+  "subtitleVi": "Cách nhờ hỗ trợ lịch sự, hiệu quả",
+  "level": "A2",
+  "cefr": "A2",
+  "skill": "speaking",
+  "order": 7,
+  "minutes": 5,
+  "categoryEn": "Foundation & Daily Communication",
+  "categoryVi": "Nền tảng Kỹ năng",
+  "tags": [],
+  "isArchived": false
+}
+---
+
 # Nhờ vả và yêu cầu hỗ trợ từ đồng nghiệp (Daily English)
 
 Không lập trình viên nào có thể biết hết mọi thứ. Việc chủ động nhờ giúp đỡ là dấu hiệu của một văn hóa làm việc nhóm lành mạnh và hiệu quả. Tuy nhiên, việc đặt câu hỏi _hiệu quả_ bằng tiếng Anh cần có cấu trúc rõ ràng. Hãy chỉ rõ những gì bạn đã thử làm để đồng nghiệp có thể hỗ trợ bạn nhanh nhất, đồng thời sử dụng các mẫu câu gián tiếp lịch sự để thể hiện sự tôn trọng thời gian của họ.

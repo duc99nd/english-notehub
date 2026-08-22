@@ -1,3 +1,23 @@
+---
+{
+  "id": "interview-preparation",
+  "slug": "interview-preparation",
+  "titleEn": "Job Interview Preparation",
+  "titleVi": "Chuẩn bị phỏng vấn tiếng Anh",
+  "subtitleEn": "Standard QA and strategies for professional English interviews",
+  "subtitleVi": "Câu hỏi thường gặp và chiến thuật trả lời phỏng vấn",
+  "level": "B1",
+  "cefr": "B1",
+  "skill": "speaking",
+  "order": 41,
+  "minutes": 5,
+  "categoryEn": "Career Growth & Interviews",
+  "categoryVi": "Sự nghiệp & Phỏng vấn",
+  "tags": [],
+  "isArchived": false
+}
+---
+
 # Chuẩn bị Phỏng vấn (Phiên bản Tiếng Anh Daily)
 
 Đối với nhiều lập trình viên, việc nói tiếng Anh trong buổi phỏng vấn là một nỗi sợ lớn. Nhưng bạn **không cần** phải dùng những từ vựng đao to búa lớn hay ngữ pháp học thuật phức tạp. Bạn chỉ cần nói tiếng Anh giao tiếp hàng ngày (daily English) một cách rõ ràng, tự nhiên và đơn giản. Tài liệu này được viết riêng cho cả newbie lẫn người đã đi làm, giúp bạn tự tin phỏng vấn bằng các mẫu câu dễ nhớ, thực tế.
