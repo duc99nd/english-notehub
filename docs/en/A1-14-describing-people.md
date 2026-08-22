@@ -4,14 +4,14 @@
   "slug": "a1-14-describing-people",
   "titleEn": "Describing People",
   "titleVi": "Miêu tả con người",
-  "subtitleEn": "Learn vocabulary to describe people's appearance and personality",
-  "subtitleVi": "Học từ vựng để miêu tả ngoại hình và tính cách con người",
+  "subtitleEn": "Describe appearance and personality using the right adjectives",
+  "subtitleVi": "Miêu tả ngoại hình và tính cách bằng đúng tính từ",
   "level": "A1",
   "unit": 3,
   "skill": "vocab",
   "order": 14,
   "cefr": "A1",
-  "minutes": 5,
+  "minutes": 8,
   "tags": [
     "describing",
     "people",
@@ -19,34 +19,41 @@
     "personality",
     "vocab"
   ],
-  "audioScript": "She is tall with long black hair.\nHe is friendly and funny.\nMy brother has brown eyes.\n",
+  "audioScript": "She is tall with long black hair.\nHe is friendly and funny.\nMy brother has brown eyes and short hair.\nMy best friend is kind and patient.\n",
   "listeningEnabled": true,
-  "flashcardCount": 6,
+  "flashcardCount": 14,
   "quiz": [
     {
       "type": "choice",
-      "prompt": "Which word describes hair color?",
+      "prompt": "Which word describes hair length?",
       "options": [
-        "Tall",
-        "Black",
-        "Friendly"
+        "tall",
+        "long",
+        "friendly",
+        "short"
       ],
-      "answer": "Black"
+      "answer": "long"
     },
     {
       "type": "fill",
-      "prompt": "She is ___ and friendly. (cao)",
+      "prompt": "She is ___ and friendly. (cao = tall)",
       "answer": "tall"
     },
     {
       "type": "choice",
-      "prompt": "What is a personality trait?",
+      "prompt": "Which is a personality trait?",
       "options": [
         "Hair color",
+        "Tall",
         "Friendly",
-        "Height"
+        "Young"
       ],
       "answer": "Friendly"
+    },
+    {
+      "type": "fill",
+      "prompt": "He ___ black hair. (động từ sở hữu)",
+      "answer": "has"
     }
   ]
 }
@@ -54,89 +61,169 @@
 
 # Describing People
 
-## Physical appearance
+## Why description matters
 
-Use these words to describe how people look.
+"Tell me about your best friend" — this question appears in every English class, every job interview, every first meeting. Twenty adjectives and three sentence patterns let you describe anyone in 4-5 sentences.
 
-### Hair
+## Appearance vs personality
 
-| English       | Vietnamese |
-| ------------- | ---------- |
-| short hair    | tóc ngắn   |
-| long hair     | tóc dài    |
-| black hair    | tóc đen    |
-| blonde hair   | tóc vàng   |
-| brown hair    | tóc nâu    |
-| curly hair    | tóc xoăn   |
-| straight hair | tóc thẳng  |
-| bald          | hói        |
+> **Pattern A — Appearance**: `Subject + has + [feature]`
+> "She **has** long black hair."
+>
+> **Pattern B — Personality**: `Subject + is + [adjective]`
+> "She **is** kind."
+>
+> **Pattern C — Height/build**: `Subject + is + [adjective]`
+> "He **is** tall."
 
-### Height and build
+| Type | Verb pattern | Example |
+| --- | --- | --- |
+| Body features (hair, eyes, glasses) | has / have | She **has** brown eyes. |
+| Height, build | is + adjective | He **is** tall. |
+| Age | is + adjective | She **is** young. |
+| Personality | is + adjective | He **is** friendly. |
 
-| English | Vietnamese |
-| ------- | ---------- |
-| tall    | cao        |
-| short   | thấp       |
-| thin    | gầy        |
-| fat     | mập        |
-| slim    | mảnh khảnh |
+> **Common mistake**: ❌ "She **has** tall." ✅ "She **is** tall." Use **is** for whole-person descriptions; use **has** for things attached to the person (hair, eyes, glasses, beard).
 
-### Eyes
+## Hair
 
-| English    | Vietnamese |
-| ---------- | ---------- |
-| blue eyes  | mắt xanh   |
-| brown eyes | mắt nâu    |
-| black eyes | mắt đen    |
-| big eyes   | mắt to     |
-| small eyes | mắt nhỏ    |
+| English | Vietnamese | Example |
+| --- | --- | --- |
+| short hair | tóc ngắn | She has short hair. |
+| long hair | tóc dài | He has long hair. |
+| black hair | tóc đen | My brother has black hair. |
+| blonde / blond hair | tóc vàng | Anna has blonde hair. |
+| brown hair | tóc nâu | Duc has brown hair. |
+| grey / gray hair | tóc bạc | My grandfather has grey hair. |
+| curly hair | tóc xoăn | She has curly hair. |
+| straight hair | tóc thẳng | He has straight hair. |
+| wavy hair | tóc gợn sóng | She has wavy hair. |
+| bald | hói | He is bald. |
 
-### Age
+> **Tip**: "blond" is for males, "blonde" for females (in British English). In American English, both are fine. "Grey" (British) = "Gray" (American). Both mean the same.
 
-| English     | Vietnamese |
-| ----------- | ---------- |
-| young       | trẻ        |
-| old         | già        |
-| middle-aged | trung niên |
+## Eyes
+
+| English | Vietnamese | Example |
+| --- | --- | --- |
+| brown eyes | mắt nâu | She has brown eyes. |
+| black eyes | mắt đen | He has black eyes. |
+| blue eyes | mắt xanh | Anna has blue eyes. |
+| green eyes | mắt xanh lá | John has green eyes. |
+| big eyes | mắt to | The child has big eyes. |
+| small eyes | mắt nhỏ | He has small eyes. |
+
+## Height and build
+
+| English | Vietnamese | Note |
+| --- | --- | --- |
+| tall | cao | She is tall. |
+| short | thấp | He is short. |
+| medium height | cao trung bình | She is medium height. |
+| thin / skinny | gầy / mảnh | He is thin. |
+| slim | mảnh khảnh | She is slim. |
+| fat | mập | He is fat. (sensitive word) |
+| overweight | thừa cân | He is overweight. (polite) |
+
+> **Tip**: "Fat" can sound rude. In careful conversation, use **"overweight"** or **"a bit heavy"** instead. "Slim" or "thin" is more neutral than "skinny".
+
+## Age
+
+| English | Vietnamese | Example |
+| --- | --- | --- |
+| young | trẻ | She is young. |
+| old | già | He is old. (sensitive) |
+| middle-aged | trung niên | She is middle-aged. |
+| elderly | lớn tuổi | He is elderly. (polite) |
+| in his / her 20s, 30s, 40s | ở độ tuổi 20, 30, 40 | She is in her 30s. |
+
+> **Tip**: When asking someone's age in English, never ask a woman directly. Instead, say "How old do you think she is?" or wait for them to mention it. For men, asking is more common.
 
 ## Personality
 
-Use these words to describe how people behave.
+| Positive | Vietnamese | Negative | Vietnamese |
+| --- | --- | --- | --- |
+| friendly | thân thiện | unfriendly | không thân thiện |
+| kind | tốt bụng | unkind | không tốt bụng |
+| funny | vui tính | boring | nhàm chán |
+| smart / clever / intelligent | thông minh | stupid / dumb (rude) | ngu ngốc |
+| quiet | yên tĩnh | loud | ồn ào |
+| shy | nhút nhát | arrogant / bossy | kiêu ngạo / hách dịch |
+| serious | nghiêm túc | careless | cẩu thả |
+| hardworking | chăm chỉ | lazy | lười biếng |
+| honest | trung thực | dishonest | không trung thực |
+| patient | kiên nhẫn | impatient | thiếu kiên nhẫn |
+| polite | lịch sự | rude | bất lịch sự |
+| kind | tốt bụng | mean / cruel | độc ác |
 
-| English        | Vietnamese |
-| -------------- | ---------- |
-| friendly       | thân thiện |
-| kind           | tốt bụng   |
-| funny          | hài hước   |
-| smart / clever | thông minh |
-| quiet          | yên tĩnh   |
-| shy            | nhút nhát  |
-| serious        | nghiêm túc |
-| hardworking    | chăm chỉ   |
-| lazy           | lười biếng |
-| honest         | trung thực |
+> **Pattern**: To make opposites, add **"un-"** (unfriendly, unfashionable) — most common. For others, use a different word (lazy ↔ hardworking).
 
-## Patterns for describing
+## Listen to a real description conversation
 
-> **Appearance**: `Subject + has/has got + [feature]`
+> **Anna**: Tell me about your best friend, Duc.
 >
-> **Personality**: `Subject + is + [adjective]`
+> **Duc**: My best friend is Tuan. He is tall, around 1.80m.
+>
+> **Anna**: Does he have any special features?
+>
+> **Duc**: Yes, he has short black hair and brown eyes. He wears glasses.
+>
+> **Anna**: What's he like as a person?
+>
+> **Duc**: He's very kind and patient. He's also funny — he always makes me laugh.
+>
+> **Anna**: That sounds great. Is he hardworking?
+>
+> **Duc**: Extremely. He works at a software company and studies English on the side. He's the most hardworking person I know.
+>
+> **Anna**: Wow. My best friend is Anna — same name as me! She has long blonde hair and green eyes. She's very outgoing.
+>
+> **Duc**: Are you two similar?
+>
+> **Anna**: Quite. We're both quiet and serious. But she's more patient than me. I'm a bit impatient sometimes.
 
-| English            | Vietnamese         |
-| ------------------ | ------------------ |
-| She is tall.       | Cô ấy cao.         |
-| He has black hair. | Anh ấy có tóc đen. |
-| She is friendly.   | Cô ấy thân thiện.  |
-| He is funny.       | Anh ấy hài hước.   |
+## Common mistakes
 
-## Examples
+- ❌ "She **has** tall." — wrong verb. ✅ "She **is** tall."
+- ❌ "He has brown hair and **is** 25 years old." — actually OK, but the second "is" is correct here. ❌ "He has 25 years old." ✅ "He **is** 25 years old."
+- ❌ "She **is** long black hair." — long describes the hair. ✅ "She **has** long black hair."
+- ❌ "He is **stupid**." — rude. ✅ "He's not very smart."
+- ❌ "My friend is **fat**." — sensitive. ✅ "My friend is **a bit heavy**."
 
-| English                                  | Vietnamese                              |
-| ---------------------------------------- | --------------------------------------- |
-| My mother is kind and patient.           | Mẹ tôi tốt bụng và kiên nhẫn.           |
-| My brother is tall with short hair.      | Em trai tôi cao và tóc ngắn.            |
-| She has brown eyes and a friendly smile. | Cô ấy có mắt nâu và nụ cười thân thiện. |
+## Your turn: describe a friend
+
+Write 5-6 sentences describing someone you know (a friend, a colleague, a family member).
+
+> My friend ___ is ___ (height). He/She has ___ hair and ___ eyes.
+> He/She is ___ (3 personality adjectives). He/She is ___ years old.
+> He/She ___ (a hobby or job).
+
+**Self-check**:
+
+- [ ] I used "is + adjective" for height/personality
+- [ ] I used "has + noun" for hair, eyes, glasses
+- [ ] I used at least 3 different adjectives
+- [ ] I gave a mix of appearance + personality
+
+## Culture note: physical description and politeness
+
+**Be careful with sensitive words**: "fat", "short", "old", "skinny" can sound rude, especially to strangers. Use neutral alternatives: "a bit heavy", "not very tall", "elderly".
+
+**Personal space**: In English-speaking countries, **don't comment on people's bodies**, especially women's weight. Topics like hair color, glasses, height are usually OK in casual conversation with friends.
+
+**Vietnamese directness**: Vietnamese culture often comments on appearance openly ("Bạn béo lên rồi!" — "You've gained weight!"). This is considered friendly in Vietnam but **rude** in English-speaking cultures. In English, comment on what people **do**, not what they **look like**: "You look great today!" instead of "You're getting fat."
+
+**Asking about appearance**: "What does she look like?" is the standard question. Don't say "How does she look?" — that means "Does she look healthy/happy?".
+
+## Listen & repeat
+
+Press play, then repeat each line aloud.
+
+1. She is tall with long black hair.
+2. He is friendly and funny.
+3. My brother has brown eyes and short hair.
+4. My best friend is kind and patient.
 
 ## What to learn next
 
-In **A1-15-review-unit3**, you will review everything from Unit 3.
+In **A1-15-review-unit3**, you will review everything from Unit 3: shopping, money, directions, and describing people. A final check before moving to A2.

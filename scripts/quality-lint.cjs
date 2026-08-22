@@ -100,7 +100,7 @@ for (const file of files) {
   // as blockquotes, lists, or plain lines.
   const hasDialogue = /\*\*?[A-Z][a-zA-Z]+(?:\*\*?)?:\s/.test(body)
   const hasActivity = /\b(try it|your turn|write a|writing prompt|practice:|exercise:|now you try|đến lượt|thử viết|luyện tập|tự kiểm)\b/i.test(body)
-  const hasPatternBox = /\*\*Pattern\*\*|\*\*Mẫu câu\*\*|\*\*Mẫu\*\*/i.test(body)
+  const hasPatternBox = /\*\*Pattern\b|\*\*Mẫu[^\*]*?\*\*|\*\*Pattern\s+[A-Z]/i.test(body)
   const emptyRows = (body.match(/^\|[ \t]*\|[ \t]*\|?[ \t]*$/gm) || []).length
   const h2Count = (body.match(/^## /gm) || []).length
   const h3Count = (body.match(/^### /gm) || []).length

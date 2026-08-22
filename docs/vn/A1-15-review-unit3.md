@@ -4,8 +4,8 @@
   "slug": "a1-15-review-unit3",
   "titleEn": "Review Unit 3",
   "titleVi": "Ôn tập Unit 3",
-  "subtitleEn": "Review Unit 3: shopping, directions, can/can't, and describing people",
-  "subtitleVi": "Ôn tập Unit 3: mua sắm, đường đi, can/can't và miêu tả con người",
+  "subtitleEn": "Review shopping, directions, can/can't, and describing people",
+  "subtitleVi": "Ôn tập mua sắm, đường đi, can/can't và miêu tả con người",
   "level": "A1",
   "unit": 3,
   "skill": "review",
@@ -20,24 +20,24 @@
     "describing",
     "A1"
   ],
-  "audioScript": "Hãy ôn tập Unit 3.\nBây giờ bạn có thể hỏi đường.\nBạn có thể nói về năng lực dùng can và can't.\nBạn có thể miêu tả con người.\n",
+  "audioScript": "Let's review Unit 3.\nYou can now ask for directions.\nYou can talk about abilities using can and can't.\nYou can describe people.\n",
   "listeningEnabled": true,
   "flashcardCount": 12,
   "quiz": [
     {
       "type": "choice",
-      "prompt": "How much does this cost? nghĩa là:",
+      "prompt": "'How much does this cost?' có nghĩa là gì?",
       "options": [
         "Bao nhiêu cái?",
         "Giá bao nhiêu?",
-        "Nó ở đâu?"
+        "Ở đâu?"
       ],
       "answer": "Giá bao nhiêu?"
     },
     {
       "type": "fill",
-      "prompt": "Rẽ ___ ở đèn tín hiệu.",
-      "answer": "trái"
+      "prompt": "Turn ___ at the traffic light.",
+      "answer": "left"
     },
     {
       "type": "choice",
@@ -51,12 +51,12 @@
     },
     {
       "type": "fill",
-      "prompt": "Cô ấy ___ tóc đen. (có)",
-      "answer": "có"
+      "prompt": "She ___ black hair. (có)",
+      "answer": "has"
     },
     {
       "type": "choice",
-      "prompt": "Friendly miêu tả điều gì?",
+      "prompt": "'Friendly' mô tả điều gì?",
       "options": [
         "Ngoại hình",
         "Tính cách",
@@ -70,70 +70,231 @@
 
 # Ôn tập Unit 3
 
-## Những gì chúng ta đã học
+## Cách dùng bài ôn tập này
 
-Trong Unit 3, bạn đã học bốn kỹ năng quan trọng cho cuộc sống hàng ngày:
+Bạn vừa học xong Unit 3 — bốn bài về mua sắm, tiền bạc, chỉ đường, và miêu tả con người. Bài ôn này có bốn phần:
 
-1. **Mua sắm & Tiền bạc** — Từ vựng về cửa hàng, giá cả và cụm từ mua sắm
-2. **Đường đi & Địa điểm** — Hỏi và chỉ đường
-3. **Can / Can't** — Nói về năng lực
-4. **Miêu tả con người** — Ngoại hình và tính cách
+1. **Ôn từ vựng** — bảng nhanh để làm mới trí nhớ.
+2. **Các mẫu câu quan trọng** — hình dáng câu hữu ích nhất.
+3. **Bài tập tổng hợp** — bài tập kéo từ cả bốn bài trước.
+4. **Tự kiểm tra** — chấm điểm trung thực để biết cần ôn lại gì.
 
-## Ôn tập nhanh
+Nếu bạn làm bài tập mà không cần nhìn lại bài cũ, xin chúc mừng — bạn đã hoàn thành **toàn bộ A1**!
 
-### Mua sắm & Tiền bạc
+## Bạn đã học được gì
 
-| English            | Vietnamese                     |
-| ------------------ | ------------------------------ |
-| supermarket        | siêu thị                       |
-| cheap / expensive  | rẻ / đắt                       |
-| discount           | giảm giá                       |
-| How much is this?  | Cái này bao nhiêu tiền?        |
-| Can I pay by card? | Tôi có thể trả bằng thẻ không? |
+| Bài | Kỹ năng | Kết quả chính |
+| --- | --- | --- |
+| A1-11 Mua sắm & Tiền bạc | từ vựng | cách hỏi giá + mua sắm lịch sự |
+| A1-12 Đường đi | từ vựng | hỏi và chỉ đường |
+| A1-13 Can / Can't | ngữ pháp | nói về khả năng |
+| A1-14 Miêu tả con người | từ vựng | ngoại hình + tính cách |
 
-### Đường đi & Địa điểm
+## Bài 11 — Tóm tắt mua sắm
 
-| English                 | Vietnamese          |
-| ----------------------- | ------------------- |
-| Turn left / right       | Rẽ trái / phải      |
-| Go straight             | Đi thẳng            |
-| next to / behind        | bên cạnh / phía sau |
+| Tiếng Anh | Tiếng Việt |
+| --- | --- |
+| How much is this? | Cái này bao nhiêu? |
+| It costs 50,000 dong. | Nó giá 50.000 đồng. |
+| cheap / expensive | rẻ / đắt |
+| Can I pay by card? | Trả bằng thẻ được không? |
+| The bill, please. | Tính tiền ạ. |
+
+## Bài 12 — Tóm tắt đường đi
+
+| Tiếng Anh | Tiếng Việt |
+| --- | --- |
+| Turn left / right | Rẽ trái / phải |
+| Go straight | Đi thẳng |
+| next to / behind | bên cạnh / phía sau |
 | Excuse me, where is...? | Xin lỗi, ... ở đâu? |
+| Is it far from here? | Nó có xa từ đây không? |
 
-### Can / Can't
+## Bài 13 — Tóm tắt Can / Can't
 
-| Mẫu câu                   | Ví dụ            |
-| ------------------------- | ---------------- |
-| Chủ ngữ + can + động từ   | I can swim.      |
-| Chủ ngữ + can't + động từ | She can't drive. |
-| Can + chủ ngữ + động từ?  | Can you help me? |
+| Mẫu | Ví dụ |
+| --- | --- |
+| `Subject + can + verb` | I can swim. |
+| `Subject + can't + verb` | She can't drive. |
+| `Can + subject + verb?` | Can you help me? |
 
-### Miêu tả con người
+> **Quy tắc quan trọng**: Sau **can / can't**, dùng **động từ gốc**, KHÔNG BAO GIỜ "to + verb" hay "-ing". "I **can** swim" ✅ / "I **can to** swim" ❌ / "I **can swimming**" ❌.
 
-| Loại      | Ví dụ                            |
-| --------- | -------------------------------- |
-| Tóc       | long, short, black, brown, curly |
-| Vóc dáng  | tall, short, thin, slim          |
-| Tính cách | friendly, kind, funny, serious   |
+## Bài 14 — Tóm tắt miêu tả con người
 
-## Hoạt động thực hành
+| Loại | Động từ | Ví dụ |
+| --- | --- | --- |
+| Chiều cao/dáng | **is** + tính từ | She **is** tall. |
+| Tính cách | **is** + tính từ | He **is** friendly. |
+| Tóc / mắt / kính | **has / have** + danh từ | She **has** long black hair. |
 
-### Bài tập 1: Chọn dạng đúng
+## Các mẫu câu chính qua bốn bài
 
-1. She \_\_\_ (can / cans) speak three languages.
-2. They \_\_\_ (has / have) two children.
-3. He \_\_\_ (is / are) very tall.
+> **Mẫu A — Hỏi giá**: `How much is this / does this cost?`
+>
+> **Mẫu B — Mặc cả**: `It's a bit expensive. Can you give me a discount?`
+>
+> **Mẫu C — Hỏi đường**: `Excuse me, where is the [nơi]?`
+>
+> **Mẫu D — Chỉ đường**: `Go straight, then turn [trái / phải] at the [địa danh].`
+>
+> **Mẫu E — Khả năng**: `I can [động từ gốc].` / `I can't [động từ gốc].`
+>
+> **Mẫu F — Ngoại hình**: `She is [tính từ].` / `She has [đặc điểm].`
 
-### Bài tập 2: Ghép từ
+## Bài tập tổng hợp
 
-1. friendly —
-2. tall —
-3. cheap —
+### Bài tập 1: Dịch sang tiếng Anh
 
-a) ngoại hình
-b) giá cả
-c) tính cách
+Viết câu tiếng Anh trước, sau đó kiểm tra.
 
-## Chúc mừng!
+| Tiếng Việt | Câu của bạn |
+| --- | --- |
+| Cái áo này bao nhiêu tiền? | ________________________________ |
+| Xin lỗi, ngân hàng ở đâu? | ________________________________ |
+| Tôi không biết bơi. | ________________________________ |
+| Bạn tôi cao và tóc nâu. | ________________________________ |
 
-Bạn đã hoàn thành cả 3 unit của tiếng Anh A1! Chuyển sang **A2-01-asking-help** để tiếp tục xây dựng kỹ năng.
+### Bài tập 2: Điền vào chỗ trống
+
+1. ___ much is this shirt? (How / What)
+2. Turn ___ at the traffic light. (left / to left)
+3. I ___ speak English. (can / cans)
+4. She ___ long black hair. (has / is)
+5. He is very ___ and patient. (kind / tall)
+
+### Bài tập 3: Tìm lỗi sai
+
+Mỗi câu có một lỗi. Tìm và sửa.
+
+1. "I can **to swim**." → ?
+2. "How **many** is this shirt?" → ?
+3. "She **is** long hair." → ?
+4. "Turn **to** left at the corner." → ?
+5. "He **is** a black hair." → ?
+
+### Bài tập 4: Hội thoại — mua quà
+
+Điền vào chỗ trống để hoàn thành hội thoại.
+
+> **Anna**: Excuse me, ___ (hỏi về một cái khăn)
+>
+> **Shop assistant**: It's 200,000 dong.
+>
+> **Anna**: Hmm, ___ (mặc cả lịch sự)
+>
+> **Shop assistant**: 150,000. That's the best I can do.
+>
+> **Anna**: OK, ___ (quyết định mua)
+>
+> **Shop assistant**: ___ (hỏi trả tiền thế nào)
+>
+> **Anna**: ___ (phương thức bạn thích)
+
+### Bài tập 5: Đóng vai — hỏi đường
+
+Tưởng tượng bạn bị lạc ở TP.HCM và cần tìm bưu điện. Hỏi một người lạ để được giúp.
+
+> **You**: "Excuse me, ___ (bắt đầu lịch sự)"
+>
+> **Local**: "Sure, where?"
+>
+> **You**: "___ (nêu đích đến)"
+>
+> **Local**: "Go straight for two blocks..."
+>
+> **You**: ___ (theo chỉ dẫn và lặp lại)
+>
+> **Local**: "Yes, you'll see it on your right."
+
+### Bài tập 6: Viết về một người bạn
+
+Miêu tả một người bạn trong 4-5 câu bao gồm ngoại hình VÀ tính cách.
+
+> ________________________________
+> ________________________________
+> ________________________________
+> ________________________________
+> ________________________________
+
+## Đến lượt bạn: hội thoại tích hợp
+
+Tưởng tượng bạn gặp một người bạn lâu không gặp. Viết đoạn hội thoại 6-8 câu sử dụng:
+- Chào hỏi + tên (Unit 1)
+- Hỏi thăm sức khỏe (Unit 1)
+- Nói về một hoạt động gần đây (Unit 2)
+- Hỏi về giá cả hoặc mua sắm (Unit 3)
+- Nói về những gì bạn có thể làm (Unit 3)
+- Miêu tả một người mới mà cả hai đều biết (Unit 3)
+
+> ________________________________
+> ________________________________
+> ________________________________
+> ________________________________
+> ________________________________
+> ________________________________
+> ________________________________
+> ________________________________
+
+**Tự kiểm tra**: bạn đã dùng từ vựng từ cả ba unit chưa?
+
+| Unit | Đã dùng? |
+| --- | --- |
+| Unit 1 (chào hỏi, gia đình, số) | |
+| Unit 2 (thời gian, thức ăn, sở thích, thời tiết) | |
+| Unit 3 (mua sắm, đường đi, miêu tả) | |
+
+## Tự kiểm tra
+
+Trung thực nhé. Tự chấm điểm.
+
+| Kỹ năng | Câu hỏi | Có / Không |
+| --- | --- | --- |
+| Mua sắm | Mình hỏi được giá và trả tiền lịch sự? | |
+| Đường đi | Mình hỏi và chỉ được đường? | |
+| Can / Can't | Mình nói được về khả năng? | |
+| Miêu tả | Mình miêu tả được ngoại hình + tính cách bạn bè? | |
+
+| Điểm | Ý nghĩa |
+| --- | --- |
+| 4/4 "Có" | Sang A2. Bạn đã hoàn thành A1! |
+| 2-3 "Có" | Đọc lại 1-2 bài, rồi tiếp tục. |
+| 0-1 "Có" | Học lại Unit 3 từ đầu. |
+
+## Nếu bạn cần luyện thêm
+
+| Nếu bạn yếu về... | Làm thế này |
+| --- | --- |
+| Mua sắm & tiền bạc | Đọc lại A1-11. Đóng vai mua một cái áo. |
+| Đường đi | Đọc lại A1-12. Viết chỉ đường từ nhà bạn đến nơi yêu thích. |
+| Can / Can't | Đọc lại A1-13. Liệt kê 5 việc bạn làm được và 5 việc bạn không làm được. |
+| Miêu tả con người | Đọc lại A1-14. Miêu tả 3 người bạn với ngoại hình + tính cách. |
+
+## Chúc mừng bạn đã hoàn thành A1!
+
+Bạn đã hoàn thành **cả ba unit của tiếng Anh A1**:
+
+- ✅ Unit 1: chào hỏi, số, gia đình, động từ hàng ngày
+- ✅ Unit 2: thời gian, địa điểm, thức ăn, thời tiết, sở thích
+- ✅ Unit 3: mua sắm, đường đi, can/can't, miêu tả con người
+
+### Bạn có thể làm gì bây giờ
+
+| Kỹ năng | Bạn có thể... |
+| --- | --- |
+| Nói | Chào hỏi, giới thiệu bản thân, đặt câu hỏi |
+| Nghe | Hiểu tiếng Anh chậm, rõ về chủ đề quen thuộc |
+| Đọc | Đọc đoạn ngắn về đời sống hàng ngày |
+| Viết | Viết đoạn ngắn về bản thân, gia đình, bạn bè |
+| Từ vựng | khoảng 250-300 từ tiếng Anh phổ biến nhất |
+
+### Tiếp theo là gì
+
+Ở **A2**, bạn sẽ học:
+- **A2-01-asking-help**: câu hỏi phức tạp hơn
+- **A2-02-past-simple**: thì quá khứ kể chuyện
+- **A2-03-future-plans**: nói về ngày mai và tuần sau
+- **A2-04-comparisons**: so sánh (lớn hơn, nhanh hơn)
+- ... và nhiều hơn nữa
+
+Tiếp tục nhé! Mỗi bài A2 xây dựng trên từ vựng A1, nên tất cả những gì bạn học ở đây là nền tảng.

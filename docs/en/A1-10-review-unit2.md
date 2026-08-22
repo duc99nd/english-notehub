@@ -4,8 +4,8 @@
   "slug": "a1-10-review-unit2",
   "titleEn": "Review Unit 2",
   "titleVi": "Ôn tập Unit 2",
-  "subtitleEn": "Review time, places, food, weather, and hobbies",
-  "subtitleVi": "Ôn tập thời gian, địa điểm, thức ăn, thời tiết và sở thích",
+  "subtitleEn": "Check what you remember from time, places, food, weather, and hobbies",
+  "subtitleVi": "Kiểm tra bạn nhớ gì về thời gian, địa điểm, thức ăn, thời tiết và sở thích",
   "level": "A1",
   "unit": 2,
   "skill": "review",
@@ -15,30 +15,32 @@
   "tags": [
     "review",
     "unit2",
-    "all-skills"
+    "all-skills",
+    "consolidation"
   ],
   "audioScript": "In the morning, I go to school.\nI eat rice and chicken for lunch. I drink water.\nToday is sunny and hot. It is summer.\nIn my free time, I like to read books.\nI also enjoy listening to music.\n",
   "listeningEnabled": true,
-  "flashcardCount": 10,
+  "flashcardCount": 12,
   "quiz": [
     {
       "type": "choice",
-      "prompt": "What time is \"afternoon\"?",
+      "prompt": "Which preposition is correct? 'I wake up ___ six in the morning.'",
       "options": [
-        "6am-12pm",
-        "12pm-6pm",
-        "6pm-10pm"
+        "in",
+        "on",
+        "at",
+        "by"
       ],
-      "answer": "12pm-6pm"
+      "answer": "at"
     },
     {
       "type": "fill",
-      "prompt": "I would like some rice and ___, please. (thịt gà)",
-      "answer": "chicken"
+      "prompt": "I would like a ___ of water, please. (đơn vị đo)",
+      "answer": "glass"
     },
     {
       "type": "choice",
-      "prompt": "It is rainy today. means:",
+      "prompt": "'It is rainy today' có nghĩa là gì?",
       "options": [
         "Trời nắng",
         "Trời mưa",
@@ -48,16 +50,17 @@
     },
     {
       "type": "fill",
-      "prompt": "I like to ___ books in my free time. (đọc)",
-      "answer": "read"
+      "prompt": "I ___ listening to music in my free time. (thích - dùng enjoy)",
+      "answer": "enjoy"
     },
     {
       "type": "choice",
-      "prompt": "Where do you buy food? (market)",
+      "prompt": "Where do you usually buy fresh vegetables?",
       "options": [
         "school",
         "market",
-        "library"
+        "library",
+        "bank"
       ],
       "answer": "market"
     }
@@ -67,79 +70,185 @@
 
 # Review Unit 2
 
-## What did you learn?
+## How to use this review
 
-In Unit 2, you learned five important lessons:
+You just finished Unit 2 — five lessons covering time, places, food, weather, and hobbies. This review has four parts:
 
-1. **Time & Places** — Times of day, days of week, common places
-2. **Food & Drinks** — Vocabulary for food and how to order
-3. **Weather** — Describing weather conditions and seasons
-4. **Hobbies** — Talking about what you like to do
+1. **Vocabulary snapshots** — quick tables to refresh your memory.
+2. **Key patterns** — the most useful sentence shapes.
+3. **Mixed practice** — exercises pulling from all five lessons.
+4. **Self-check** — honest scoring so you know what to revisit.
 
-## Quick review
+## What you learned
 
-### Time & Places
+| Lesson | Skill | Key outcome |
+| --- | --- | --- |
+| A1-06 Time & Places | vocab | at/in/on + time & place words |
+| A1-07 Food & Drinks | grammar | count vs. uncountable; "I'd like" |
+| A1-08 Weather | reading | "It is + adjective" + small talk |
+| A1-09 Hobbies | writing | like/love/enjoy + frequency words |
 
-| English   | Vietnamese |
-| --------- | ---------- |
-| morning   | buổi sáng  |
-| afternoon | buổi chiều |
-| evening   | buổi tối   |
-| home      | nhà        |
-| school    | trường học |
+## Lesson 6 — Time & places snapshot
 
-### Food
+| English | Vietnamese | Preposition |
+| --- | --- | --- |
+| morning / afternoon / evening / night | buổi sáng / chiều / tối / đêm | **in the** morning |
+| Monday / Tuesday / ... / Sunday | thứ Hai ... Chủ Nhật | **on** Monday |
+| 6 AM / noon / midnight | giờ cụ thể | **at** six |
+| home / work / school | nhà / nơi làm việc / trường | **at** home |
+| office / library / park / bank | văn phòng / thư viện / công viên / ngân hàng | **at the** bank |
 
-| English | Vietnamese |
-| ------- | ---------- |
-| rice    | cơm        |
-| chicken | thịt gà    |
-| water   | nước       |
-| coffee  | cà phê     |
+## Lesson 7 — Food snapshot
 
-### Weather
+| Category | Words |
+| --- | --- |
+| Countable | apple, egg, sandwich, pizza |
+| Uncountable | rice, bread, water, coffee, milk |
+| Containers | a cup of, a glass of, a bottle of, a can of |
+| Polite order | "I'd like ___ , please." |
+| Pay | "The bill, please." |
 
-| English | Vietnamese |
-| ------- | ---------- |
-| sunny   | nắng       |
-| rainy   | mưa        |
-| hot     | nóng       |
-| cold    | lạnh       |
+## Lesson 8 — Weather snapshot
 
-### Hobbies
+| Pattern | Example |
+| --- | --- |
+| It is + adjective | It is sunny today. |
+| The + noun + is + adjective | The rain is heavy. |
+| In + season, it is + adjective | In summer, it is hot. |
+| Small talk | Lovely day, isn't it? |
 
-| English         | Vietnamese    |
-| --------------- | ------------- |
-| read books      | đọc sách      |
-| watch movies    | xem phim      |
-| listen to music | nghe nhạc     |
-| play sports     | chơi thể thao |
+## Lesson 9 — Hobbies snapshot
 
-## Key patterns
+| Verb | Pattern | Example |
+| --- | --- | --- |
+| like | `I like to [verb]` / `I like [verb-ing]` | I like to read. |
+| love | `I love to [verb]` / `I love [verb-ing]` | I love cooking. |
+| enjoy | `I enjoy [verb-ing]` (no "to") | I enjoy reading. |
+| listen to music | always with "to" | I listen to music. |
+| play + ball sport | team sports | I play soccer. |
+| play + instrument | instruments | I play the piano. |
 
-> **Prepositions**: `at home`, `in the morning`, `on Monday`
+## Key patterns across all five lessons
+
+> **Pattern A — Time + place**: `I [verb] [time phrase] [place phrase].`
+> "I eat breakfast **at 7 in the morning at home**."
 >
-> **Ordering**: `I would like some rice, please.`
+> **Pattern B — Order politely**: `I'd like [some] [food], please.`
+> "I'd like **some chicken and a glass of water**, please."
 >
-> **Weather**: `It is sunny today.`
+> **Pattern C — Talk about weather**: `It is + adjective + today.`
+> "It is **sunny** today."
 >
-> **Hobbies**: `I like to read books.`
+> **Pattern D — Talk about hobbies**: `I [like/love/enjoy] [verb-ing].`
+> "I **enjoy listening to** music."
+>
+> **Pattern E — Frequency**: `[frequency] + subject + verb.`
+> "I **often** read books."
 
-## Practice exercises
+## Mixed practice
 
-### Exercise 1: Fill in the blank
+### Exercise 1: Translate to English
 
-1. `I eat breakfast in the ___. (morning)`
-2. `I would like some ___, please. (nước)`
-3. `It is ___ today. It is raining. (rainy)`
+Write the English sentence first, then check.
 
-### Exercise 2: Match the pairs
+| Vietnamese | Your English |
+| --- | --- |
+| Tôi thức dậy lúc sáu rưỡi sáng. | ________________________________ |
+| Tôi muốn gọi một ly cà phê. | ________________________________ |
+| Hôm nay trời nóng và nắng. | ________________________________ |
+| Tôi thích đọc sách vào thời gian rảnh. | ________________________________ |
+| Tôi đi chợ vào sáng thứ Bảy. | ________________________________ |
 
-- morning - buổi sáng
-- chicken - thịt gà
-- hot - nóng
-- read - đọc
+### Exercise 2: Fill in the blank
+
+1. I wake up ___ 6:30 ___ the morning. (at / in)
+2. I would like ___ rice and chicken, please. (some / a)
+3. It is ___ today. The temperature is 35°C. (sunny / sun)
+4. I ___ playing soccer on weekends. (enjoy / enjoys)
+5. I usually go to the market ___ Saturday. (on / at)
+
+### Exercise 3: Spot the mistake
+
+Each sentence has one error. Find and fix.
+
+1. "I would like **a water**, please." → ?
+2. "It is **sun** today." → ?
+3. "I **listen music** every day." → ?
+4. "I **enjoy to read** books." → ?
+5. "I play **soccers** with my friends." → ?
+
+### Exercise 4: Write about your day with hobbies
+
+Write 6-8 sentences covering: morning routine, food, weather, and what you like to do. Use at least one phrase from each Unit 2 lesson.
+
+> ________________________________
+> ________________________________
+> ________________________________
+> ________________________________
+> ________________________________
+> ________________________________
+> ________________________________
+> ________________________________
+
+## Your turn: write about your day with hobbies
+
+Write 6-8 sentences covering: morning routine, food, weather, and what you like to do. Use at least one phrase from each Unit 2 lesson.
+
+> ________________________________
+> ________________________________
+> ________________________________
+> ________________________________
+> ________________________________
+> ________________________________
+> ________________________________
+> ________________________________
+
+### Exercise 5: Conversation — meet a new friend
+
+Fill in the gaps to complete a conversation.
+
+> **Anna**: Lovely day, isn't it? ___ (answer)
+>
+> **Duc**: Yes, it's beautiful. ___ (where are you from?)
+>
+> **Anna**: I'm from California. What do you like to do in your free time?
+>
+> **Duc**: ___ (your hobby)
+>
+> **Anna**: Cool! Do you cook?
+>
+> **Duc**: ___ (yes/no + details)
+>
+> **Anna**: I'm hungry. Let's get something to eat. I'd like ___ (a dish)
+>
+> **Duc**: Me too. I ___ (your order) please.
+
+## Self-check
+
+Be honest. Score yourself.
+
+| Skill | Question | Yes / No |
+| --- | --- | --- |
+| Time & places | Can I use at/in/on correctly for time and place? | |
+| Food | Can I order politely using "I'd like"? | |
+| Weather | Can I describe today's weather in 2-3 sentences? | |
+| Hobbies | Can I talk about 3 hobbies with like/love/enjoy? | |
+
+| Score | Meaning |
+| --- | --- |
+| 4/4 "Yes" | Move on to Unit 3. |
+| 2-3 "Yes" | Re-read 1-2 lessons, then continue. |
+| 0-1 "Yes" | Re-do the unit from scratch. |
+
+## If you need more practice
+
+| If you feel weak on... | Do this |
+| --- | --- |
+| Time & places | Re-read A1-06. Make 10 sentences with at/in/on. |
+| Food | Re-read A1-07. Order a full meal in English out loud. |
+| Weather | Re-read A1-08. Describe the weather for each of the 4 seasons. |
+| Hobbies | Re-read A1-09. Write 5 sentences about your free time. |
 
 ## What to learn next
 
-In **A1-11-shopping-money**, you will learn vocabulary for shopping and money.
+In **A1-11-shopping-money**, you will learn the vocabulary for shopping — prices, currency, common items — and how to ask "How much is it?" in different situations.
