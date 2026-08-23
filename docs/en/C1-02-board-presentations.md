@@ -11,7 +11,7 @@
   'skill': 'grammar',
   'order': 2,
   'cefr': 'C1',
-  'minutes': 12,
+  'minutes': 13,
   'tags': ['grammar', 'conditionals', 'presentations', 'board', 'C1'],
   'audioScript': "Should we exceed our targets, we would consider expanding into adjacent markets.\nHad we not invested in R&D earlier, we wouldn't be positioned competitively today.\nWere the merger to proceed, stakeholders would receive significant upside.\n",
   'listeningEnabled': true,
@@ -28,22 +28,39 @@
             'Zero conditional (if + present, present)',
           ],
         'answer': 'Third conditional (if + past perfect, would have)',
+        'explanation': 'In this context, “Third conditional (if + past perfect, would have)” supplies the meaning or form targeted in Board Presentation Grammar. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'First conditional (if + present, will)': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Zero conditional (if + present, present)': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
       {
         'type': 'fill',
         'prompt': '___ we secure additional funding, we could accelerate our timeline.',
         'answer': 'Should',
+        'acceptedAnswers': ['Should'],
+        'explanation': 'In this context, “Should” supplies the meaning or form targeted in Board Presentation Grammar. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
       },
       {
         'type': 'choice',
         'prompt': '"Were the board to approve..." is an example of:',
         'options': ['Inverted conditional (formal)', 'First conditional', 'Second conditional'],
         'answer': 'Inverted conditional (formal)',
+        'explanation': 'In this context, “Inverted conditional (formal)” supplies the meaning or form targeted in Board Presentation Grammar. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'First conditional': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Second conditional': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
     ],
   'categoryEn': 'Strategic Professional Communication',
   'categoryVi': 'Giao tiếp Chuyên nghiệp Chiến lược',
   'prerequisites': ['c1-01-executive-meetings'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 65, 'maxWords': 200 },
 }
 ---
 
@@ -106,42 +123,44 @@ In the next lesson **C1-03-writing-strategy**, you will practice reading compreh
 
 ## Learning outcome
 
-By the end of this lesson, you will be able to choose an appropriate structure and apply it accurately when discussing board presentation grammar.
+By the end of this lesson, you can produce a connected response about board presentation grammar, use the target structure accurately, and explain one effect of that choice.
 
-## Practice lab
+## Scenario practice
 
-### Notice the language
+### Situation
 
-Read the situation, then listen to the model once for meaning and once for phrasing.
+Present three fictional growth scenarios to a board. Use inversion to qualify upside, dependency, and downside without implying certainty.
 
-> **Colleague:** How would you handle **board presentation grammar** in this situation?
->
-> **You:** Should we exceed our targets, we would consider expanding into adjacent markets.
+> **Training note:** This situation and its details are fictional. They are designed for language practice, not presented as a real event, policy, study, or legal interpretation.
 
-Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+### Controlled practice
 
-> **Pattern**: clear point + concrete detail or reason + appropriate next step
+Take two example sentences from the lesson. Transform the first with the target structure, then revise the second to change emphasis or level of certainty without changing the core facts.
 
-### Your turn
+### Guided task
 
-Write four connected sentences for a colleague, client, and senior stakeholder. Use the target structure twice, then revise one sentence to change its tone or emphasis.
+Write 65–200 words for the situation. Use the target structure at least twice, underline those choices, and add one sentence explaining how one structure changes emphasis, time, condition, or certainty.
 
 ### Model response
 
-> Should we exceed our targets, we would consider expanding into adjacent markets. Had we not invested in R&D earlier, we wouldn't be positioned competitively today. Were the merger to proceed, stakeholders would receive significant upside.
+> **Draft:** Should we exceed our targets, we would consider expanding into adjacent markets. Had we not invested in R&D earlier, we wouldn't be positioned competitively today. Were the merger to proceed, stakeholders would receive significant upside.
+>
+> **Language choice:** I select only the evidence that changes the decision, qualify any projection that depends on an assumption, and make ownership visible. A different stakeholder could reasonably prefer another option, so the response identifies the condition that would justify revisiting the recommendation. Other well-supported responses are possible.
 
-The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+### Why the model works
 
-### Register switch
+The model shows one defensible route through the task; it is not a script to memorize. Compare its task completion, language accuracy, audience fit, and clarity with your response, then revise once.
 
-Rewrite your response twice: first for a trusted teammate, then for a client or senior stakeholder. Keep the underlying message the same while changing directness, context, and the amount of explanation. Identify one phrase you softened, one detail you made explicit, and one assumption you removed.
+### Transfer task
+
+Adapt one scenario after a board member challenges the assumption. Keep the target language, but change the details and register needed for the new context.
 
 ### Self-check
 
-- [ ] I completed the task without translating a full Vietnamese sentence word for word.
-- [ ] I used at least two useful expressions from the lesson.
-- [ ] My main point is easy to identify.
-- [ ] I included a concrete detail, reason, or next step.
-- [ ] I qualified claims where certainty was limited and adjusted the register for my audience.
+- [ ] I completed every part of this lesson's scenario, not only the language form.
+- [ ] My target language is accurate and fits the intended meaning.
+- [ ] My level of directness and detail fits the named audience.
+- [ ] The reader or listener can identify my main point and next step.
+- [ ] I separated evidence, assumptions, and recommendations instead of presenting them as equally certain.
 
 <!-- learning-loop:end -->

@@ -11,7 +11,7 @@
   'skill': 'vocab',
   'order': 1,
   'cefr': 'C1',
-  'minutes': 11,
+  'minutes': 13,
   'tags': ['executive', 'meetings', 'business', 'vocabulary', 'C1'],
   'audioScript': "Good morning, everyone. Let's align on the quarterly projections before we proceed.\nI'd like to table this discussion for now and revisit it in the next cycle.\nShall we table this and revisit next quarter?\n",
   'listeningEnabled': true,
@@ -28,11 +28,19 @@
             "Let's start this immediately.",
           ],
         'answer': "Let's table this for now.",
+        'explanation': "Trong ngữ cảnh câu hỏi, “Let's table this for now.” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Từ vựng về Cuộc họp Cấp cao. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        'distractorFeedback':
+          {
+            "Let's cancel this forever.": 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            "Let's start this immediately.": 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
       {
         'type': 'fill',
         'prompt': 'We need to ___ on our strategic priorities before the board meeting.',
         'answer': 'align',
+        'acceptedAnswers': ['align'],
+        'explanation': 'Trong ngữ cảnh câu hỏi, “align” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Từ vựng về Cuộc họp Cấp cao. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
       },
       {
         'type': 'choice',
@@ -40,11 +48,20 @@
         'options':
           ['Ideas that can be put into practice', 'Random thoughts', 'Historical data only'],
         'answer': 'Ideas that can be put into practice',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “Ideas that can be put into practice” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Từ vựng về Cuộc họp Cấp cao. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'Random thoughts': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'Historical data only': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
     ],
   'categoryEn': 'Strategic Professional Communication',
   'categoryVi': 'Giao tiếp Chuyên nghiệp Chiến lược',
   'prerequisites': ['b2-15-review-unit3'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'dialogue', 'minTurns': 4, 'maxTurns': 6 },
 }
 ---
 
@@ -106,42 +123,48 @@ Khi bạn cần đưa cuộc thảo luận đến kết luận:
 
 ## Kết quả học tập
 
-Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Từ vựng về Cuộc họp Cấp cao** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+Sau bài này, bạn có thể hoàn thành đoạn hội thoại bốn lượt về **Từ vựng về Cuộc họp Cấp cao**, chọn cách diễn đạt phù hợp quan hệ và mục tiêu trước mắt.
 
-## Phòng luyện tập
+## Luyện tập theo tình huống
 
-### Nhận diện cách diễn đạt
+### Tình huống
 
-Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+Chủ trì cuộc họp danh mục hư cấu với các ưu tiên quý cạnh tranh nhau. Hãy căn chỉnh nhóm, chủ động hoãn một vấn đề và ghi người chịu trách nhiệm quyết định.
 
-> **Colleague:** How would you handle this situation?
->
-> **You:** Good morning, everyone. Let's align on the quarterly projections before we proceed.
+> **Lưu ý:** Tình huống và các chi tiết đều là hư cấu để luyện ngôn ngữ; đây không phải sự kiện, chính sách, nghiên cứu hoặc diễn giải pháp lý có thật.
 
-Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+### Luyện tập có kiểm soát
 
-> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+Chọn ba cách diễn đạt trong bài **Từ vựng về Cuộc họp Cấp cao**. Gắn nhãn chức năng cho từng cách: mở lời, nêu chi tiết, làm rõ hoặc đưa bước tiếp theo. Loại cách diễn đạt không phù hợp quan hệ trong tình huống.
 
-### Đến lượt bạn
+### Nhiệm vụ có hướng dẫn
 
-Tạo một câu trả lời mới cho chủ đề **Từ vựng về Cuộc họp Cấp cao**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+Viết đoạn hội thoại bốn đến sáu lượt cho tình huống này. Dùng ít nhất ba cách diễn đạt trọng tâm, phản hồi thông tin của người kia và kết thúc bằng câu hỏi, xác nhận hoặc hành động đã thống nhất.
 
 ### Bài mẫu
 
-> Good morning, everyone. Let's align on the quarterly projections before we proceed. I'd like to table this discussion for now and revisit it in the next cycle. Shall we table this and revisit next quarter?
+> **Partner:** We need to respond to the situation above. What would you say first?
+>
+> **You:** Good morning, everyone. Let's align on the quarterly projections before we proceed.
+>
+> **Partner:** What detail should we confirm before we act?
+>
+> **You:** I'd like to table this discussion for now and revisit it in the next cycle. Shall we table this and revisit next quarter?
 
-Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+### Vì sao bài mẫu phù hợp
 
-### Chuyển đổi register
+Bài mẫu thể hiện một cách xử lý hợp lý, không phải kịch bản bắt buộc học thuộc. Hãy so sánh mức hoàn thành nhiệm vụ, độ chính xác, độ phù hợp với người nghe và độ rõ với bài của bạn rồi sửa một lần.
 
-Viết lại câu trả lời hai lần: một bản cho đồng đội thân quen và một bản cho khách hàng hoặc stakeholder cấp cao. Giữ nguyên thông điệp nhưng thay đổi độ trực tiếp, lượng bối cảnh và mức giải thích. Chỉ ra một cụm từ bạn đã làm mềm, một chi tiết bạn nói rõ hơn và một giả định bạn đã loại bỏ.
+### Bài tập chuyển đổi
+
+Diễn đạt lại phần tổng kết cho người không tham dự. Giữ ngôn ngữ trọng tâm nhưng thay đổi chi tiết và văn phong cho bối cảnh mới.
 
 ### Tự kiểm tra
 
-- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
-- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
-- [ ] Người nghe có thể nhận ra ý chính ngay.
-- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
-- [ ] Mình đã giới hạn mức độ chắc chắn của nhận định và điều chỉnh register theo người nghe.
+- [ ] Mình hoàn thành đủ yêu cầu của tình huống, không chỉ dùng đúng cấu trúc.
+- [ ] Ngôn ngữ trọng tâm chính xác và đúng ý định.
+- [ ] Độ trực tiếp và lượng chi tiết phù hợp người nghe hoặc người đọc.
+- [ ] Người nhận có thể nhận ra ý chính và bước tiếp theo.
+- [ ] Mình tách bằng chứng, giả định và khuyến nghị thay vì trình bày tất cả với cùng mức chắc chắn.
 
 <!-- learning-loop:end -->

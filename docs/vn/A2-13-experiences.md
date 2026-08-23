@@ -11,7 +11,7 @@
   'skill': 'grammar',
   'order': 13,
   'cefr': 'A2',
-  'minutes': 10,
+  'minutes': 12,
   'tags': ['grammar', 'present-perfect', 'experiences', 'A2'],
   'audioScript': "I have visited Japan twice.\nShe has lived here for three years.\nHave you ever tried sushi?\n",
   'listeningEnabled': true,
@@ -23,18 +23,39 @@
         'prompt': 'Which is the correct present perfect?',
         'options': ['I have visited Tokyo.', 'I have visit Tokyo.', 'I visited have Tokyo.'],
         'answer': 'I have visited Tokyo.',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “I have visited Tokyo.” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Kinh nghiệm. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'I have visit Tokyo.': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'I visited have Tokyo.': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
-      { 'type': 'fill', 'prompt': 'She ___ lived here for three years.', 'answer': 'has' },
+      {
+        'type': 'fill',
+        'prompt': 'She ___ lived here for three years.',
+        'answer': 'has',
+        'acceptedAnswers': ['has'],
+        'explanation': 'Trong ngữ cảnh câu hỏi, “has” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Kinh nghiệm. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+      },
       {
         'type': 'choice',
         'prompt': 'Have you ever ___ sushi? — Choose the right form',
         'options': ['tried', 'try', 'trying'],
         'answer': 'tried',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “tried” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Kinh nghiệm. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'try': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'trying': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
     ],
   'categoryEn': 'Everyday Workplace English',
   'categoryVi': 'Tiếng Anh Công việc Hằng ngày',
   'prerequisites': ['a2-12-opinions'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 28, 'maxWords': 90 },
 }
 ---
 
@@ -110,37 +131,43 @@ Trả lời ba câu hỏi trong phần quiz để hoàn thành bài học.
 
 ## Kết quả học tập
 
-Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Kinh nghiệm** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+Sau bài này, bạn có thể tạo câu trả lời liền mạch về **Kinh nghiệm**, dùng đúng cấu trúc trọng tâm và giải thích tác dụng của một lựa chọn.
 
-## Phòng luyện tập
+## Luyện tập theo tình huống
 
-### Nhận diện cách diễn đạt
+### Tình huống
 
-Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+Trong buổi onboarding, đồng nghiệp hỏi về trải nghiệm du lịch, phần mềm hoặc làm việc nhóm. Hãy chia sẻ hai trải nghiệm và hỏi lại một câu.
 
-> **Colleague:** How would you handle this situation?
->
-> **You:** I have visited Japan twice.
+> **Lưu ý:** Tình huống và các chi tiết đều là hư cấu để luyện ngôn ngữ; đây không phải sự kiện, chính sách, nghiên cứu hoặc diễn giải pháp lý có thật.
 
-Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+### Luyện tập có kiểm soát
 
-> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+Lấy hai câu ví dụ trong bài. Biến đổi câu đầu bằng cấu trúc trọng tâm, sau đó sửa câu thứ hai để thay đổi mức nhấn mạnh hoặc độ chắc chắn nhưng giữ nguyên dữ kiện.
 
-### Đến lượt bạn
+### Nhiệm vụ có hướng dẫn
 
-Tạo một câu trả lời mới cho chủ đề **Kinh nghiệm**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+Viết 28–90 từ bằng tiếng Anh cho tình huống. Dùng cấu trúc trọng tâm ít nhất hai lần, gạch chân các chỗ đó và thêm một câu giải thích cấu trúc đã thay đổi mức nhấn mạnh, thời gian, điều kiện hoặc độ chắc chắn như thế nào.
 
 ### Bài mẫu
 
-> I have visited Japan twice. She has lived here for three years. Have you ever tried sushi?
+> **Draft:** I have visited Japan twice. She has lived here for three years. Have you ever tried sushi?
+>
+> **Language choice:** I connect the main point to one concrete detail. I check the time, person, or action so the listener knows what happens next. Other well-supported responses are possible.
 
-Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+### Vì sao bài mẫu phù hợp
+
+Bài mẫu thể hiện một cách xử lý hợp lý, không phải kịch bản bắt buộc học thuộc. Hãy so sánh mức hoàn thành nhiệm vụ, độ chính xác, độ phù hợp với người nghe và độ rõ với bài của bạn rồi sửa một lần.
+
+### Bài tập chuyển đổi
+
+Bổ sung một trải nghiệm bạn chưa từng có. Giữ ngôn ngữ trọng tâm nhưng thay đổi chi tiết và văn phong cho bối cảnh mới.
 
 ### Tự kiểm tra
 
-- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
-- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
-- [ ] Người nghe có thể nhận ra ý chính ngay.
-- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+- [ ] Mình hoàn thành đủ yêu cầu của tình huống, không chỉ dùng đúng cấu trúc.
+- [ ] Ngôn ngữ trọng tâm chính xác và đúng ý định.
+- [ ] Độ trực tiếp và lượng chi tiết phù hợp người nghe hoặc người đọc.
+- [ ] Người nhận có thể nhận ra ý chính và bước tiếp theo.
 
 <!-- learning-loop:end -->

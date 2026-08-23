@@ -11,7 +11,7 @@
   'skill': 'vocab',
   'order': 11,
   'cefr': 'B1',
-  'minutes': 11,
+  'minutes': 12,
   'tags': ['food', 'cooking', 'ingredients', 'kitchen', 'meals', 'recipes'],
   'audioScript': "I'm going to cook pasta for dinner tonight.\nFirst, you need to chop the vegetables.\nThe soup needs to simmer for about 20 minutes.\n",
   'listeningEnabled': true,
@@ -23,22 +23,39 @@
         'prompt': "What does 'to chop' mean in cooking?",
         'options': ['To boil', 'To cut into small pieces', 'To stir'],
         'answer': 'To cut into small pieces',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “To cut into small pieces” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Đồ ăn & Nấu ăn. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'To boil': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'To stir': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
       {
         'type': 'fill',
         'prompt': 'You need to ___ the onions before adding them to the pan.',
         'answer': 'chop',
+        'acceptedAnswers': ['chop'],
+        'explanation': 'Trong ngữ cảnh câu hỏi, “chop” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Đồ ăn & Nấu ăn. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
       },
       {
         'type': 'choice',
         'prompt': "What is an 'ingredient'?",
         'options': ['A cooking tool', 'Something you use in a recipe', 'A type of restaurant'],
         'answer': 'Something you use in a recipe',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “Something you use in a recipe” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Đồ ăn & Nấu ăn. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'A cooking tool': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'A type of restaurant': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
     ],
   'categoryEn': 'Independent Workplace Communication',
   'categoryVi': 'Giao tiếp Công việc Độc lập',
   'prerequisites': ['b1-10-review-unit2'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'dialogue', 'minTurns': 4, 'maxTurns': 6 },
 }
 ---
 
@@ -125,37 +142,47 @@ Trả lời ba câu hỏi trong phần quiz để hoàn thành bài học này.
 
 ## Kết quả học tập
 
-Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Đồ ăn & Nấu ăn** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+Sau bài này, bạn có thể hoàn thành đoạn hội thoại bốn lượt về **Đồ ăn & Nấu ăn**, chọn cách diễn đạt phù hợp quan hệ và mục tiêu trước mắt.
 
-## Phòng luyện tập
+## Luyện tập theo tình huống
 
-### Nhận diện cách diễn đạt
+### Tình huống
 
-Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+Nhóm đang lên kế hoạch ăn trưa chung. Hãy giới thiệu một món, sắp xếp ba bước chuẩn bị và nêu thời gian nấu.
 
-> **Colleague:** How would you handle this situation?
->
-> **You:** I'm going to cook pasta for dinner tonight.
+> **Lưu ý:** Tình huống và các chi tiết đều là hư cấu để luyện ngôn ngữ; đây không phải sự kiện, chính sách, nghiên cứu hoặc diễn giải pháp lý có thật.
 
-Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+### Luyện tập có kiểm soát
 
-> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+Chọn ba cách diễn đạt trong bài **Đồ ăn & Nấu ăn**. Gắn nhãn chức năng cho từng cách: mở lời, nêu chi tiết, làm rõ hoặc đưa bước tiếp theo. Loại cách diễn đạt không phù hợp quan hệ trong tình huống.
 
-### Đến lượt bạn
+### Nhiệm vụ có hướng dẫn
 
-Tạo một câu trả lời mới cho chủ đề **Đồ ăn & Nấu ăn**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+Viết đoạn hội thoại bốn đến sáu lượt cho tình huống này. Dùng ít nhất ba cách diễn đạt trọng tâm, phản hồi thông tin của người kia và kết thúc bằng câu hỏi, xác nhận hoặc hành động đã thống nhất.
 
 ### Bài mẫu
 
-> I'm going to cook pasta for dinner tonight. First, you need to chop the vegetables. The soup needs to simmer for about 20 minutes.
+> **Partner:** We need to respond to the situation above. What would you say first?
+>
+> **You:** I'm going to cook pasta for dinner tonight.
+>
+> **Partner:** What detail should we confirm before we act?
+>
+> **You:** First, you need to chop the vegetables. The soup needs to simmer for about 20 minutes.
 
-Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+### Vì sao bài mẫu phù hợp
+
+Bài mẫu thể hiện một cách xử lý hợp lý, không phải kịch bản bắt buộc học thuộc. Hãy so sánh mức hoàn thành nhiệm vụ, độ chính xác, độ phù hợp với người nghe và độ rõ với bài của bạn rồi sửa một lần.
+
+### Bài tập chuyển đổi
+
+Điều chỉnh món ăn cho một đồng đội ăn chay. Giữ ngôn ngữ trọng tâm nhưng thay đổi chi tiết và văn phong cho bối cảnh mới.
 
 ### Tự kiểm tra
 
-- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
-- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
-- [ ] Người nghe có thể nhận ra ý chính ngay.
-- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+- [ ] Mình hoàn thành đủ yêu cầu của tình huống, không chỉ dùng đúng cấu trúc.
+- [ ] Ngôn ngữ trọng tâm chính xác và đúng ý định.
+- [ ] Độ trực tiếp và lượng chi tiết phù hợp người nghe hoặc người đọc.
+- [ ] Người nhận có thể nhận ra ý chính và bước tiếp theo.
 
 <!-- learning-loop:end -->

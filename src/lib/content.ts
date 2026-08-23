@@ -1,5 +1,5 @@
 import type { AppLocale } from '@/i18n'
-import { CONTENT_MANIFEST } from '@/generated/content-manifest'
+import { CONTENT_MANIFEST, VI_PRACTICE_OVERRIDES } from '@/generated/content-manifest'
 
 export type TocLevel = 1 | 2 | 3
 
@@ -19,6 +19,9 @@ export interface QuizItem {
   prompt: string
   answer: string
   options?: string[]
+  acceptedAnswers?: string[]
+  explanation?: string
+  distractorFeedback?: Record<string, string>
 }
 
 export interface DocHeading {
@@ -1224,12 +1227,17 @@ async function loadDoc(
   const raw = await loader()
   const content = stripLeadingDocHeadings(raw)
   const rendered = await renderMarkdown(content)
+  const localizedData = locale === 'vi' ? VI_PRACTICE_OVERRIDES[summary.fileName] : undefined
+  const localizedQuiz = Array.isArray(localizedData?.quiz)
+    ? (localizedData.quiz as QuizItem[])
+    : summary.quiz
 
   // Make sure we have frontmatter loaded too (best-effort; cache only)
   await loadFrontmatterAsync(summary.fileName)
 
   return {
     ...summary,
+    quiz: localizedQuiz,
     raw: content,
     html: rendered.html,
     headings: rendered.headings,

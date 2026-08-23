@@ -11,7 +11,7 @@
   'skill': 'reading',
   'order': 8,
   'cefr': 'A1',
-  'minutes': 21,
+  'minutes': 22,
   'tags': ['weather', 'seasons', 'small-talk', 'reading'],
   'audioScript': "Today is sunny and hot. The temperature is 35 degrees.\nIn summer, it is very hot in Vietnam.\nIn winter, it is cold and sometimes rainy.\nI like spring because flowers are beautiful.\n",
   'listeningEnabled': true,
@@ -23,24 +23,54 @@
         'prompt': 'Which is the correct sentence?',
         'options': ['Today is sun.', 'Today is sunny.', 'Today is a sun.', 'Today is the sun.'],
         'answer': 'Today is sunny.',
+        'explanation': 'In this context, “Today is sunny.” supplies the meaning or form targeted in Weather. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'Today is sun.': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Today is a sun.': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Today is the sun.': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
       {
         'type': 'choice',
         'prompt': "How do you say 'mưa'?",
         'options': ['cloudy', 'sunny', 'rainy', 'windy'],
         'answer': 'rainy',
+        'explanation': 'In this context, “rainy” supplies the meaning or form targeted in Weather. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'cloudy': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'sunny': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'windy': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
-      { 'type': 'fill', 'prompt': 'In summer, it is very ___. (nóng)', 'answer': 'hot' },
+      {
+        'type': 'fill',
+        'prompt': 'In summer, it is very ___. (nóng)',
+        'answer': 'hot',
+        'acceptedAnswers': ['hot'],
+        'explanation': 'In this context, “hot” supplies the meaning or form targeted in Weather. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+      },
       {
         'type': 'choice',
         'prompt': 'Which season is hot in Vietnam?',
         'options': ['spring', 'summer', 'autumn', 'winter'],
         'answer': 'summer',
+        'explanation': 'In this context, “summer” supplies the meaning or form targeted in Weather. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'spring': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'autumn': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'winter': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
     ],
   'categoryEn': 'Foundation English',
   'categoryVi': 'Tiếng Anh Nền tảng',
   'prerequisites': ['a1-07-food'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 20, 'maxWords': 70 },
 }
 ---
 
@@ -231,37 +261,43 @@ In **A1-09-hobbies**, you will learn vocabulary for free-time activities — spo
 
 ## Learning outcome
 
-By the end of this lesson, you will be able to identify the main point, supporting detail, and register choices in a text about weather.
+By the end of this lesson, you can extract the main point and supporting detail from a text about weather, then make one evidence-based interpretation.
 
-## Practice lab
+## Scenario practice
 
-### Notice the language
+### Situation
 
-Read the situation, then listen to the model once for meaning and once for phrasing.
+Read a short weather message before going out. Identify the condition, temperature, and suitable plan.
 
-> **Colleague:** How would you handle **weather** in this situation?
->
-> **You:** Today is sunny and hot. The temperature is 35 degrees.
+> **Training note:** This situation and its details are fictional. They are designed for language practice, not presented as a real event, policy, study, or legal interpretation.
 
-Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+### Controlled practice
 
-> **Pattern**: clear point + concrete detail or reason + appropriate next step
+Before reading the explanation again, write one line for the text's main point, one line for its strongest supporting detail, and one phrase that signals tone or stance.
 
-### Your turn
+### Guided task
 
-Summarize the text in two sentences for a colleague or classmate. Identify one claim, one supporting detail, and one phrase that signals the writer's attitude.
+Write 20–70 words as structured reading notes. State the main point, cite or paraphrase one supporting detail, identify a register choice, and separate evidence from your inference.
 
 ### Model response
 
-> Today is sunny and hot. The temperature is 35 degrees. In summer, it is very hot in Vietnam. In winter, it is cold and sometimes rainy. I like spring because flowers are beautiful.
+> **Main point and evidence:** Today is sunny and hot. The temperature is 35 degrees. In summer, it is very hot in Vietnam. In winter, it is cold and sometimes rainy.
+>
+> **Interpretation:** I keep the message short, use familiar words, and finish with one clear next step. Other well-supported responses are possible.
 
-The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+### Why the model works
+
+The model shows one defensible route through the task; it is not a script to memorize. Compare its task completion, language accuracy, audience fit, and clarity with your response, then revise once.
+
+### Transfer task
+
+Change a hot-day plan to a rainy-day plan. Keep the target language, but change the details and register needed for the new context.
 
 ### Self-check
 
-- [ ] I completed the task without translating a full Vietnamese sentence word for word.
-- [ ] I used at least two useful expressions from the lesson.
-- [ ] My main point is easy to identify.
-- [ ] I included a concrete detail, reason, or next step.
+- [ ] I completed every part of this lesson's scenario, not only the language form.
+- [ ] My target language is accurate and fits the intended meaning.
+- [ ] My level of directness and detail fits the named audience.
+- [ ] The reader or listener can identify my main point and next step.
 
 <!-- learning-loop:end -->

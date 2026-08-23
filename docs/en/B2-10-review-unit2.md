@@ -11,7 +11,7 @@
   'skill': 'review',
   'order': 10,
   'cefr': 'B2',
-  'minutes': 10,
+  'minutes': 12,
   'tags': ['review', 'unit2', 'B2', 'meetings', 'grammar'],
   'audioScript': "Let's review Unit 2 of B2.\nYou've learned how to facilitate meetings.\nYou can now use advanced conditionals and persuasive grammar.\n",
   'listeningEnabled': true,
@@ -23,29 +23,58 @@
         'prompt': 'What does "kick off" mean?',
         'options': ['To end a meeting', 'To start a meeting', 'To cancel a meeting'],
         'answer': 'To start a meeting',
+        'explanation': 'In this context, “To start a meeting” supplies the meaning or form targeted in Review Unit 2. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'To end a meeting': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'To cancel a meeting': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
-      { 'type': 'fill', 'prompt': 'If I ___ (know), I would have helped.', 'answer': 'had known' },
+      {
+        'type': 'fill',
+        'prompt': 'If I ___ (know), I would have helped.',
+        'answer': 'had known',
+        'acceptedAnswers': ['had known'],
+        'explanation': 'In this context, “had known” supplies the meaning or form targeted in Review Unit 2. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+      },
       {
         'type': 'choice',
         'prompt': 'Which phrase means "to strengthen"?',
         'options': ['Weaken', 'Bolster', 'Delay'],
         'answer': 'Bolster',
+        'explanation': 'In this context, “Bolster” supplies the meaning or form targeted in Review Unit 2. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'Weaken': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Delay': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
       {
         'type': 'fill',
         'prompt': 'Not only ___ it reduce costs, but it also improves performance.',
         'answer': 'does',
+        'acceptedAnswers': ['does'],
+        'explanation': 'In this context, “does” supplies the meaning or form targeted in Review Unit 2. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
       },
       {
         'type': 'choice',
         'prompt': 'ROI stands for:',
         'options': ['Return on Investment', 'Rate of Income', 'Risk of Implementation'],
         'answer': 'Return on Investment',
+        'explanation': 'In this context, “Return on Investment” supplies the meaning or form targeted in Review Unit 2. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'Rate of Income': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Risk of Implementation': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
     ],
   'categoryEn': 'Technical Leadership Communication',
   'categoryVi': 'Giao tiếp Dẫn dắt Kỹ thuật',
   'prerequisites': ['b2-09-conditionals-advanced'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 55, 'maxWords': 170 },
 }
 ---
 
@@ -99,41 +128,44 @@ Continue to **Unit 3** with **B2-11-cultural-nuances**.
 
 ## Learning outcome
 
-By the end of this lesson, you will be able to combine the unit language to complete a realistic task about review unit 2.
+By the end of this lesson, you can combine language from the unit to resolve a realistic task involving review unit 2 and justify one revision.
 
-## Practice lab
+## Scenario practice
 
-### Notice the language
+### Situation
 
-Read the situation, then listen to the model once for meaning and once for phrasing.
+Lead a fictional launch decision: facilitate competing views, use a conditional to surface risk, and make a persuasive recommendation from data.
 
-> **Colleague:** How would you handle **review unit 2** in this situation?
->
-> **You:** Let's review Unit 2 of B2.
+> **Training note:** This situation and its details are fictional. They are designed for language practice, not presented as a real event, policy, study, or legal interpretation.
 
-Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+### Controlled practice
 
-> **Pattern**: clear point + concrete detail or reason + appropriate next step
+Select language from at least three lessons in this unit. For each choice, note the job it performs: describe, connect, qualify, request, or conclude.
 
-### Your turn
+### Guided task
 
-Complete one integrated response for a colleague or classmate using language from at least three lessons in this unit.
+Write 55–170 words to complete the integrated task. Use material from at least three lessons, then annotate one revision that improved accuracy, tone, or clarity.
 
 ### Model response
 
-> Let's review Unit 2 of B2. You've learned how to facilitate meetings. You can now use advanced conditionals and persuasive grammar.
+> **Integrated response:** Let's review Unit 2 of B2. You've learned how to facilitate meetings. You can now use advanced conditionals and persuasive grammar.
+>
+> **Revision note:** I make the relationship between evidence, constraint, and recommendation explicit. The response avoids a binary claim when the situation calls for a trade-off, and it gives the audience a practical checkpoint for challenging or confirming the recommendation. Other well-supported responses are possible.
 
-The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+### Why the model works
 
-### Register switch
+The model shows one defensible route through the task; it is not a script to memorize. Compare its task completion, language accuracy, audience fit, and clarity with your response, then revise once.
 
-Rewrite your response twice: first for a trusted teammate, then for a client or senior stakeholder. Keep the underlying message the same while changing directness, context, and the amount of explanation. Identify one phrase you softened, one detail you made explicit, and one assumption you removed.
+### Transfer task
+
+Change the decision from launch timing to feature scope. Keep the target language, but change the details and register needed for the new context.
 
 ### Self-check
 
-- [ ] I completed the task without translating a full Vietnamese sentence word for word.
-- [ ] I used at least two useful expressions from the lesson.
-- [ ] My main point is easy to identify.
-- [ ] I included a concrete detail, reason, or next step.
+- [ ] I completed every part of this lesson's scenario, not only the language form.
+- [ ] My target language is accurate and fits the intended meaning.
+- [ ] My level of directness and detail fits the named audience.
+- [ ] The reader or listener can identify my main point and next step.
+- [ ] I separated evidence, assumptions, and recommendations instead of presenting them as equally certain.
 
 <!-- learning-loop:end -->

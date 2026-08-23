@@ -11,7 +11,7 @@
   'skill': 'reading',
   'order': 3,
   'cefr': 'B1',
-  'minutes': 12,
+  'minutes': 14,
   'tags': ['reading', 'travel', 'blog', 'postcard', 'vacation', 'experience'],
   'audioScript': "Hi everyone! I'm writing this from a small café in Rome.\nThe weather has been amazing and I've been exploring every day.\nI can't wait to share more photos!\n",
   'listeningEnabled': true,
@@ -24,22 +24,39 @@
         'options':
           ['A gift you buy to remember a place', 'A type of food', 'A transportation ticket'],
         'answer': 'A gift you buy to remember a place',
+        'explanation': 'In this context, “A gift you buy to remember a place” supplies the meaning or form targeted in Travel Blogs & Postcards. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'A type of food': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'A transportation ticket': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
       {
         'type': 'fill',
         'prompt': "The food was absolutely ___ — I've never tasted anything like it!",
         'answer': 'delicious',
+        'acceptedAnswers': ['delicious'],
+        'explanation': 'In this context, “delicious” supplies the meaning or form targeted in Travel Blogs & Postcards. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
       },
       {
         'type': 'choice',
         'prompt': "What does 'bustling' mean in 'bustling city'?",
         'options': ['Quiet and peaceful', 'Busy and full of activity', 'Very small'],
         'answer': 'Busy and full of activity',
+        'explanation': 'In this context, “Busy and full of activity” supplies the meaning or form targeted in Travel Blogs & Postcards. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'Quiet and peaceful': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Very small': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
     ],
   'categoryEn': 'Independent Workplace Communication',
   'categoryVi': 'Giao tiếp Công việc Độc lập',
   'prerequisites': ['b1-02-past-tenses'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 45, 'maxWords': 135 },
 }
 ---
 
@@ -116,37 +133,43 @@ In the next lesson **B1-04-email-friend**, you will learn how to write an email 
 
 ## Learning outcome
 
-By the end of this lesson, you will be able to identify the main point, supporting detail, and register choices in a text about travel blogs & postcards.
+By the end of this lesson, you can extract the main point and supporting detail from a text about travel blogs & postcards, then make one evidence-based interpretation.
 
-## Practice lab
+## Scenario practice
 
-### Notice the language
+### Situation
 
-Read the situation, then listen to the model once for meaning and once for phrasing.
+Read a travel post written during a work trip. Identify the writer’s location, main impression, and one detail that supports it.
 
-> **Colleague:** How would you handle **travel blogs & postcards** in this situation?
->
-> **You:** Hi everyone! I'm writing this from a small café in Rome.
+> **Training note:** This situation and its details are fictional. They are designed for language practice, not presented as a real event, policy, study, or legal interpretation.
 
-Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+### Controlled practice
 
-> **Pattern**: clear point + concrete detail or reason + appropriate next step
+Before reading the explanation again, write one line for the text's main point, one line for its strongest supporting detail, and one phrase that signals tone or stance.
 
-### Your turn
+### Guided task
 
-Summarize the text in two sentences for a colleague or classmate. Identify one claim, one supporting detail, and one phrase that signals the writer's attitude.
+Write 45–135 words as structured reading notes. State the main point, cite or paraphrase one supporting detail, identify a register choice, and separate evidence from your inference.
 
 ### Model response
 
-> Hi everyone! I'm writing this from a small café in Rome. The weather has been amazing and I've been exploring every day. I can't wait to share more photos!
+> **Main point and evidence:** Hi everyone! I'm writing this from a small café in Rome. The weather has been amazing and I've been exploring every day. I can't wait to share more photos!
+>
+> **Interpretation:** I organize the response so the situation comes first, the relevant detail follows, and the final sentence makes the requested action clear. I would revise any sentence that is correct but difficult for the audience to process. Other well-supported responses are possible.
 
-The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+### Why the model works
+
+The model shows one defensible route through the task; it is not a script to memorize. Compare its task completion, language accuracy, audience fit, and clarity with your response, then revise once.
+
+### Transfer task
+
+Change the post into a practical recommendation for a colleague. Keep the target language, but change the details and register needed for the new context.
 
 ### Self-check
 
-- [ ] I completed the task without translating a full Vietnamese sentence word for word.
-- [ ] I used at least two useful expressions from the lesson.
-- [ ] My main point is easy to identify.
-- [ ] I included a concrete detail, reason, or next step.
+- [ ] I completed every part of this lesson's scenario, not only the language form.
+- [ ] My target language is accurate and fits the intended meaning.
+- [ ] My level of directness and detail fits the named audience.
+- [ ] The reader or listener can identify my main point and next step.
 
 <!-- learning-loop:end -->

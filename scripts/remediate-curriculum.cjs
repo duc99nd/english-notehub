@@ -220,6 +220,10 @@ let previousSlug = null
 for (const file of files) {
   const en = readLesson('en', file)
   const vi = readLesson('vn', file)
+  if (en.data.editorialStatus) {
+    previousSlug = en.data.slug
+    continue
+  }
   const [categoryEn, categoryVi] = CATEGORY_BY_LEVEL[en.data.level]
 
   const canonical = {

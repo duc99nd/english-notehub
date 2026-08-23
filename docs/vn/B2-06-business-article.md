@@ -11,7 +11,7 @@
   'skill': 'reading',
   'order': 6,
   'cefr': 'B2',
-  'minutes': 11,
+  'minutes': 12,
   'tags': ['reading', 'business', 'articles', 'B2'],
   'audioScript': "The company has reported a 15% year-over-year revenue growth.\nMarket analysts predict continued expansion into emerging economies.\nThe acquisition is expected to bolster the firm's market position.\n",
   'listeningEnabled': true,
@@ -23,11 +23,19 @@
         'prompt': 'What does "bolster" mean?',
         'options': ['Weaken', 'Strengthen or support', 'Replace'],
         'answer': 'Strengthen or support',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “Strengthen or support” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Đọc bài báo kinh doanh. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'Weaken': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'Replace': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
       {
         'type': 'fill',
         'prompt': 'The company reported a 15% ___-over-___ revenue growth.',
         'answer': 'year',
+        'acceptedAnswers': ['year'],
+        'explanation': 'Trong ngữ cảnh câu hỏi, “year” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Đọc bài báo kinh doanh. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
       },
       {
         'type': 'choice',
@@ -35,11 +43,20 @@
         'options':
           ['Developed countries', 'Developing countries with rapid growth', 'Failing economies'],
         'answer': 'Developing countries with rapid growth',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “Developing countries with rapid growth” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Đọc bài báo kinh doanh. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'Developed countries': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'Failing economies': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
     ],
   'categoryEn': 'Technical Leadership Communication',
   'categoryVi': 'Giao tiếp Dẫn dắt Kỹ thuật',
   'prerequisites': ['b2-05-persuasive-grammar'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 55, 'maxWords': 170 },
 }
 ---
 
@@ -82,11 +99,11 @@ Các bài báo kinh doanh tiếng Anh sử dụng từ vựng và mẫu câu c�
 2. **Mở rộng vào nền kinh tế mới nổi** — hướng đi chiến lược
 3. **Mua lại** — bước đi cạnh tranh để củng cố vị thế
 
-## Quick quiz
+## Trắc nghiệm nhanh
 
 Kiểm tra khả năng đọc bài báo kinh doanh trong phần quiz.
 
-## What to learn next
+## Bài học tiếp theo
 
 Trong bài tiếp theo **B2-07-proposal-writing**, bạn sẽ học cách viết đề xuất kinh doanh thuyết phục.
 
@@ -94,41 +111,44 @@ Trong bài tiếp theo **B2-07-proposal-writing**, bạn sẽ học cách viết
 
 ## Kết quả học tập
 
-Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Đọc bài báo kinh doanh** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+Sau bài này, bạn có thể rút ra ý chính và chi tiết hỗ trợ từ văn bản về **Đọc bài báo kinh doanh**, sau đó đưa ra một cách hiểu dựa trên bằng chứng.
 
-## Phòng luyện tập
+## Luyện tập theo tình huống
 
-### Nhận diện cách diễn đạt
+### Tình huống
 
-Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+Đọc bài báo hư cấu về mở rộng kinh doanh. Phân biệt kết quả được báo cáo, dự đoán của chuyên gia và kỳ vọng doanh nghiệp trước khi tóm tắt cho quản lý.
 
-> **Colleague:** How would you handle this situation?
->
-> **You:** The company has reported a 15% year-over-year revenue growth.
+> **Lưu ý:** Tình huống và các chi tiết đều là hư cấu để luyện ngôn ngữ; đây không phải sự kiện, chính sách, nghiên cứu hoặc diễn giải pháp lý có thật.
 
-Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+### Luyện tập có kiểm soát
 
-> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+Trước khi đọc lại phần giải thích, hãy viết một dòng cho ý chính, một dòng cho chi tiết hỗ trợ mạnh nhất và một cụm từ thể hiện tông giọng hoặc lập trường.
 
-### Đến lượt bạn
+### Nhiệm vụ có hướng dẫn
 
-Tạo một câu trả lời mới cho chủ đề **Đọc bài báo kinh doanh**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+Viết 55–170 từ bằng tiếng Anh dưới dạng ghi chú đọc hiểu có cấu trúc. Nêu ý chính, trích hoặc diễn đạt lại một chi tiết hỗ trợ, xác định một lựa chọn văn phong và tách bằng chứng khỏi suy luận.
 
 ### Bài mẫu
 
-> The company has reported a 15% year-over-year revenue growth. Market analysts predict continued expansion into emerging economies. The acquisition is expected to bolster the firm's market position.
+> **Main point and evidence:** The company has reported a 15% year-over-year revenue growth. Market analysts predict continued expansion into emerging economies. The acquisition is expected to bolster the firm's market position.
+>
+> **Interpretation:** I make the relationship between evidence, constraint, and recommendation explicit. The response avoids a binary claim when the situation calls for a trade-off, and it gives the audience a practical checkpoint for challenging or confirming the recommendation. Other well-supported responses are possible.
 
-Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+### Vì sao bài mẫu phù hợp
 
-### Chuyển đổi register
+Bài mẫu thể hiện một cách xử lý hợp lý, không phải kịch bản bắt buộc học thuộc. Hãy so sánh mức hoàn thành nhiệm vụ, độ chính xác, độ phù hợp với người nghe và độ rõ với bài của bạn rồi sửa một lần.
 
-Viết lại câu trả lời hai lần: một bản cho đồng đội thân quen và một bản cho khách hàng hoặc stakeholder cấp cao. Giữ nguyên thông điệp nhưng thay đổi độ trực tiếp, lượng bối cảnh và mức giải thích. Chỉ ra một cụm từ bạn đã làm mềm, một chi tiết bạn nói rõ hơn và một giả định bạn đã loại bỏ.
+### Bài tập chuyển đổi
+
+Bổ sung một câu hỏi để kiểm tra bằng chứng của bài viết. Giữ ngôn ngữ trọng tâm nhưng thay đổi chi tiết và văn phong cho bối cảnh mới.
 
 ### Tự kiểm tra
 
-- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
-- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
-- [ ] Người nghe có thể nhận ra ý chính ngay.
-- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+- [ ] Mình hoàn thành đủ yêu cầu của tình huống, không chỉ dùng đúng cấu trúc.
+- [ ] Ngôn ngữ trọng tâm chính xác và đúng ý định.
+- [ ] Độ trực tiếp và lượng chi tiết phù hợp người nghe hoặc người đọc.
+- [ ] Người nhận có thể nhận ra ý chính và bước tiếp theo.
+- [ ] Mình tách bằng chứng, giả định và khuyến nghị thay vì trình bày tất cả với cùng mức chắc chắn.
 
 <!-- learning-loop:end -->

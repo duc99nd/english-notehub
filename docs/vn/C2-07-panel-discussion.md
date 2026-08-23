@@ -11,7 +11,7 @@
   'skill': 'grammar',
   'order': 7,
   'cefr': 'C2',
-  'minutes': 13,
+  'minutes': 15,
   'tags': ['panel', 'debate', 'grammar', 'formal', 'discourse', 'discussion'],
   'categoryEn': 'Expert Register and Influence',
   'categoryVi': 'Sắc thái và Ảnh hưởng Chuyên sâu',
@@ -26,19 +26,38 @@
         'prompt': 'Which grammatical structure is most appropriate for softening disagreement in a panel?',
         'options': ['Present simple', 'Second conditional', 'Past perfect', 'Future continuous'],
         'answer': 'Second conditional',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “Second conditional” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ngữ pháp Thảo luận Bàn tròn. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'Present simple': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'Past perfect': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'Future continuous': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
       {
         'type': 'choice',
         'prompt': "What is the subjunctive form of 'suggest' in 'She suggested that he ___ present at the meeting'?",
         'options': ['is', 'be', 'was', 'would be'],
         'answer': 'be',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “be” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ngữ pháp Thảo luận Bàn tròn. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'is': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'was': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'would be': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
       {
         'type': 'fill',
         'prompt': 'Were the committee to ___ the proposal, significant implications would follow.',
         'answer': 'reject',
+        'acceptedAnswers': ['reject'],
+        'explanation': 'Trong ngữ cảnh câu hỏi, “reject” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ngữ pháp Thảo luận Bàn tròn. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
       },
     ],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 75, 'maxWords': 230 },
 }
 ---
 
@@ -133,42 +152,44 @@ Trong **C2-08-diplomatic-language**, bạn sẽ khám phá các kỹ năng đọ
 
 ## Kết quả học tập
 
-Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Ngữ pháp Thảo luận Bàn tròn** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+Sau bài này, bạn có thể tạo câu trả lời liền mạch về **Ngữ pháp Thảo luận Bàn tròn**, dùng đúng cấu trúc trọng tâm và giải thích tác dụng của một lựa chọn.
 
-## Phòng luyện tập
+## Luyện tập theo tình huống
 
-### Nhận diện cách diễn đạt
+### Tình huống
 
-Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+Trong panel chuyên gia hư cấu, hãy phản biện một nhận định mạnh nhưng vẫn giữ tinh thần đồng nghiệp. Chủ động dùng câu điều kiện, giả định và cấu trúc phân từ.
 
-> **Colleague:** How would you handle this situation?
->
-> **You:** Panel discussions employ conditional structures to soften disagreement.
+> **Lưu ý:** Tình huống và các chi tiết đều là hư cấu để luyện ngôn ngữ; đây không phải sự kiện, chính sách, nghiên cứu hoặc diễn giải pháp lý có thật.
 
-Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+### Luyện tập có kiểm soát
 
-> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+Lấy hai câu ví dụ trong bài. Biến đổi câu đầu bằng cấu trúc trọng tâm, sau đó sửa câu thứ hai để thay đổi mức nhấn mạnh hoặc độ chắc chắn nhưng giữ nguyên dữ kiện.
 
-### Đến lượt bạn
+### Nhiệm vụ có hướng dẫn
 
-Tạo một câu trả lời mới cho chủ đề **Ngữ pháp Thảo luận Bàn tròn**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+Viết 75–230 từ bằng tiếng Anh cho tình huống. Dùng cấu trúc trọng tâm ít nhất hai lần, gạch chân các chỗ đó và thêm một câu giải thích cấu trúc đã thay đổi mức nhấn mạnh, thời gian, điều kiện hoặc độ chắc chắn như thế nào.
 
 ### Bài mẫu
 
-> Panel discussions employ conditional structures to soften disagreement. Subjunctive forms appear in formal proposals and resolutions. Participial constructions allow for concise, elegant expression.
+> **Draft:** Panel discussions employ conditional structures to soften disagreement. Subjunctive forms appear in formal proposals and resolutions. Participial constructions allow for concise, elegant expression.
+>
+> **Language choice:** I distinguish what the language states from what a reader may plausibly infer. The response preserves useful ambiguity only where the genre requires it, names the evidence supporting the preferred interpretation, and explicitly acknowledges what cannot be concluded without additional context or specialist review. Other well-supported responses are possible.
 
-Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+### Vì sao bài mẫu phù hợp
 
-### Chuyển đổi register
+Bài mẫu thể hiện một cách xử lý hợp lý, không phải kịch bản bắt buộc học thuộc. Hãy so sánh mức hoàn thành nhiệm vụ, độ chính xác, độ phù hợp với người nghe và độ rõ với bài của bạn rồi sửa một lần.
 
-Viết lại câu trả lời hai lần: một bản cho đồng đội thân quen và một bản cho khách hàng hoặc stakeholder cấp cao. Giữ nguyên thông điệp nhưng thay đổi độ trực tiếp, lượng bối cảnh và mức giải thích. Chỉ ra một cụm từ bạn đã làm mềm, một chi tiết bạn nói rõ hơn và một giả định bạn đã loại bỏ. Sau đó, viết thêm một cách diễn giải hợp lý khác của bài mẫu và nêu bằng chứng ngữ cảnh cần có để chọn giữa hai cách hiểu.
+### Bài tập chuyển đổi
+
+Phản hồi lại sau khi diễn giả kia thu hẹp nhận định. Giữ ngôn ngữ trọng tâm nhưng thay đổi chi tiết và văn phong cho bối cảnh mới.
 
 ### Tự kiểm tra
 
-- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
-- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
-- [ ] Người nghe có thể nhận ra ý chính ngay.
-- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
-- [ ] Mình đã giới hạn mức độ chắc chắn của nhận định và điều chỉnh register theo người nghe.
+- [ ] Mình hoàn thành đủ yêu cầu của tình huống, không chỉ dùng đúng cấu trúc.
+- [ ] Ngôn ngữ trọng tâm chính xác và đúng ý định.
+- [ ] Độ trực tiếp và lượng chi tiết phù hợp người nghe hoặc người đọc.
+- [ ] Người nhận có thể nhận ra ý chính và bước tiếp theo.
+- [ ] Mình tách bằng chứng, giả định và khuyến nghị thay vì trình bày tất cả với cùng mức chắc chắn.
 
 <!-- learning-loop:end -->

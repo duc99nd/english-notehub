@@ -11,7 +11,7 @@
   'skill': 'reading',
   'order': 3,
   'cefr': 'C2',
-  'minutes': 12,
+  'minutes': 13,
   'tags': ['academic', 'formal', 'register', 'writing', 'style'],
   'audioScript': "Academic prose prioritizes precision over elegance.\nHedging allows scholars to express uncertainty appropriately.\nPassive constructions remain common in scientific writing.\n",
   'listeningEnabled': true,
@@ -29,6 +29,13 @@
             'One might argue...',
           ],
         'answer': 'It is evident that...',
+        'explanation': 'In this context, “It is evident that...” supplies the meaning or form targeted in Academic Tone & Style. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'It appears that...': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'The data suggest...': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'One might argue...': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
       {
         'type': 'choice',
@@ -41,16 +48,28 @@
             'To avoid using statistics',
           ],
         'answer': 'To express appropriate levels of certainty',
+        'explanation': 'In this context, “To express appropriate levels of certainty” supplies the meaning or form targeted in Academic Tone & Style. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'To confuse readers': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'To lengthen the text': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'To avoid using statistics': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
       {
         'type': 'fill',
         'prompt': 'The findings are ___ with the existing literature on this topic.',
         'answer': 'consistent',
+        'acceptedAnswers': ['consistent'],
+        'explanation': 'In this context, “consistent” supplies the meaning or form targeted in Academic Tone & Style. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
       },
     ],
   'categoryEn': 'Expert Register and Influence',
   'categoryVi': 'Sắc thái và Ảnh hưởng Chuyên sâu',
   'prerequisites': ['c2-02-satire-irony'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 75, 'maxWords': 230 },
 }
 ---
 
@@ -136,42 +155,44 @@ In **C2-04-whitepaper-writing**, you will apply academic skills to write profess
 
 ## Learning outcome
 
-By the end of this lesson, you will be able to identify the main point, supporting detail, and register choices in a text about academic tone & style.
+By the end of this lesson, you can extract the main point and supporting detail from a text about academic tone & style, then make one evidence-based interpretation.
 
-## Practice lab
+## Scenario practice
 
-### Notice the language
+### Situation
 
-Read the situation, then listen to the model once for meaning and once for phrasing.
+Compare two fictional peer-review passages: one overconfident and one excessively hedged. Diagnose how syntax, agency, and qualification affect credibility.
 
-> **Colleague:** How would you handle **academic tone & style** in this situation?
->
-> **You:** Academic prose prioritizes precision over elegance.
+> **Training note:** This situation and its details are fictional. They are designed for language practice, not presented as a real event, policy, study, or legal interpretation.
 
-Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+### Controlled practice
 
-> **Pattern**: clear point + concrete detail or reason + appropriate next step
+Before reading the explanation again, write one line for the text's main point, one line for its strongest supporting detail, and one phrase that signals tone or stance.
 
-### Your turn
+### Guided task
 
-Summarize the text in two sentences for a colleague, client, and senior stakeholder. Identify one claim, one supporting detail, and one phrase that signals the writer's attitude.
+Write 75–230 words as structured reading notes. State the main point, cite or paraphrase one supporting detail, identify a register choice, and separate evidence from your inference.
 
 ### Model response
 
-> Academic prose prioritizes precision over elegance. Hedging allows scholars to express uncertainty appropriately. Passive constructions remain common in scientific writing.
+> **Main point and evidence:** Academic prose prioritizes precision over elegance. Hedging allows scholars to express uncertainty appropriately. Passive constructions remain common in scientific writing.
+>
+> **Interpretation:** I distinguish what the language states from what a reader may plausibly infer. The response preserves useful ambiguity only where the genre requires it, names the evidence supporting the preferred interpretation, and explicitly acknowledges what cannot be concluded without additional context or specialist review. Other well-supported responses are possible.
 
-The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+### Why the model works
 
-### Register switch
+The model shows one defensible route through the task; it is not a script to memorize. Compare its task completion, language accuracy, audience fit, and clarity with your response, then revise once.
 
-Rewrite your response twice: first for a trusted teammate, then for a client or senior stakeholder. Keep the underlying message the same while changing directness, context, and the amount of explanation. Identify one phrase you softened, one detail you made explicit, and one assumption you removed. Then write a plausible alternative interpretation of the model and explain which contextual evidence would help a reader choose between the two readings.
+### Transfer task
+
+Edit both passages toward a defensible middle position. Keep the target language, but change the details and register needed for the new context.
 
 ### Self-check
 
-- [ ] I completed the task without translating a full Vietnamese sentence word for word.
-- [ ] I used at least two useful expressions from the lesson.
-- [ ] My main point is easy to identify.
-- [ ] I included a concrete detail, reason, or next step.
-- [ ] I qualified claims where certainty was limited and adjusted the register for my audience.
+- [ ] I completed every part of this lesson's scenario, not only the language form.
+- [ ] My target language is accurate and fits the intended meaning.
+- [ ] My level of directness and detail fits the named audience.
+- [ ] The reader or listener can identify my main point and next step.
+- [ ] I separated evidence, assumptions, and recommendations instead of presenting them as equally certain.
 
 <!-- learning-loop:end -->

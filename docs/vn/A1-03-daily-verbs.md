@@ -11,7 +11,7 @@
   'skill': 'reading',
   'order': 3,
   'cefr': 'A1',
-  'minutes': 20,
+  'minutes': 22,
   'tags': ['verbs', 'daily-routine', 'reading', 'speaking', 'foundation'],
   'audioScript': "I wake up at six in the morning.\nI eat breakfast at seven. I drink coffee every day.\nI go to work at eight. I come home at six.\nI read a book before I sleep at ten.\n",
   'listeningEnabled': true,
@@ -23,19 +23,48 @@
         'prompt': "Which verb completes the sentence? 'I ___ up at six in the morning.'",
         'options': ['wake', 'wakes', 'waking', 'woke'],
         'answer': 'wake',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “wake” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Động từ hàng ngày. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'wakes': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'waking': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'woke': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
-      { 'type': 'fill', 'prompt': 'I ___ coffee every morning. (uống)', 'answer': 'drink' },
+      {
+        'type': 'fill',
+        'prompt': 'I ___ coffee every morning. (uống)',
+        'answer': 'drink',
+        'acceptedAnswers': ['drink'],
+        'explanation': 'Trong ngữ cảnh câu hỏi, “drink” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Động từ hàng ngày. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+      },
       {
         'type': 'choice',
         'prompt': "What is the opposite of 'come'?",
         'options': ['go', 'stay', 'leave', 'arrive'],
         'answer': 'go',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “go” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Động từ hàng ngày. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'stay': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'leave': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'arrive': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
-      { 'type': 'fill', 'prompt': 'She ___ home at six in the evening. (đến)', 'answer': 'comes' },
+      {
+        'type': 'fill',
+        'prompt': 'She ___ home at six in the evening. (đến)',
+        'answer': 'comes',
+        'acceptedAnswers': ['comes'],
+        'explanation': 'Trong ngữ cảnh câu hỏi, “comes” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Động từ hàng ngày. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+      },
     ],
   'categoryEn': 'Foundation English',
   'categoryVi': 'Tiếng Anh Nền tảng',
   'prerequisites': ['a1-02-numbers'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 20, 'maxWords': 70 },
 }
 ---
 
@@ -207,37 +236,43 @@ Nhấn play, sau đó lặp lại từng dòng. Tạm dừng sau mỗi câu.
 
 ## Kết quả học tập
 
-Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Động từ hàng ngày** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+Sau bài này, bạn có thể rút ra ý chính và chi tiết hỗ trợ từ văn bản về **Động từ hàng ngày**, sau đó đưa ra một cách hiểu dựa trên bằng chứng.
 
-## Phòng luyện tập
+## Luyện tập theo tình huống
 
-### Nhận diện cách diễn đạt
+### Tình huống
 
-Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+Một bạn cùng lớp muốn so sánh lịch ngày thường. Hãy đọc lịch ngắn và xác định việc diễn ra trước và sau giờ làm.
 
-> **Colleague:** How would you handle this situation?
->
-> **You:** I wake up at six in the morning.
+> **Lưu ý:** Tình huống và các chi tiết đều là hư cấu để luyện ngôn ngữ; đây không phải sự kiện, chính sách, nghiên cứu hoặc diễn giải pháp lý có thật.
 
-Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+### Luyện tập có kiểm soát
 
-> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+Trước khi đọc lại phần giải thích, hãy viết một dòng cho ý chính, một dòng cho chi tiết hỗ trợ mạnh nhất và một cụm từ thể hiện tông giọng hoặc lập trường.
 
-### Đến lượt bạn
+### Nhiệm vụ có hướng dẫn
 
-Tạo một câu trả lời mới cho chủ đề **Động từ hàng ngày**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+Viết 20–70 từ bằng tiếng Anh dưới dạng ghi chú đọc hiểu có cấu trúc. Nêu ý chính, trích hoặc diễn đạt lại một chi tiết hỗ trợ, xác định một lựa chọn văn phong và tách bằng chứng khỏi suy luận.
 
 ### Bài mẫu
 
-> I wake up at six in the morning. I eat breakfast at seven. I drink coffee every day. I go to work at eight. I come home at six. I read a book before I sleep at ten.
+> **Main point and evidence:** I wake up at six in the morning. I eat breakfast at seven. I drink coffee every day. I go to work at eight. I come home at six.
+>
+> **Interpretation:** I keep the message short, use familiar words, and finish with one clear next step. Other well-supported responses are possible.
 
-Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+### Vì sao bài mẫu phù hợp
+
+Bài mẫu thể hiện một cách xử lý hợp lý, không phải kịch bản bắt buộc học thuộc. Hãy so sánh mức hoàn thành nhiệm vụ, độ chính xác, độ phù hợp với người nghe và độ rõ với bài của bạn rồi sửa một lần.
+
+### Bài tập chuyển đổi
+
+Đổi lịch ngày thường thành lịch Chủ nhật. Giữ ngôn ngữ trọng tâm nhưng thay đổi chi tiết và văn phong cho bối cảnh mới.
 
 ### Tự kiểm tra
 
-- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
-- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
-- [ ] Người nghe có thể nhận ra ý chính ngay.
-- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+- [ ] Mình hoàn thành đủ yêu cầu của tình huống, không chỉ dùng đúng cấu trúc.
+- [ ] Ngôn ngữ trọng tâm chính xác và đúng ý định.
+- [ ] Độ trực tiếp và lượng chi tiết phù hợp người nghe hoặc người đọc.
+- [ ] Người nhận có thể nhận ra ý chính và bước tiếp theo.
 
 <!-- learning-loop:end -->

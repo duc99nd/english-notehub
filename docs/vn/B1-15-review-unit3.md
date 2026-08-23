@@ -11,7 +11,7 @@
   'skill': 'review',
   'order': 15,
   'cefr': 'B1',
-  'minutes': 11,
+  'minutes': 13,
   'tags': ['review', 'unit3', 'food', 'conditionals', 'writing', 'vocabulary', 'grammar'],
   'audioScript': "Let's review what we learned in Unit 3.\nYou can now talk about food and cooking.\nYou understand first and second conditionals.\nYou can write reviews and blog posts.\n",
   'listeningEnabled': true,
@@ -23,11 +23,19 @@
         'prompt': 'Which cooking method means to cook in hot oil?',
         'options': ['To boil', 'To bake', 'To fry'],
         'answer': 'To fry',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “To fry” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 3. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'To boil': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'To bake': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
       {
         'type': 'fill',
         'prompt': 'If I ___ (have) a lot of money, I would buy a house.',
         'answer': 'had',
+        'acceptedAnswers': ['had'],
+        'explanation': 'Trong ngữ cảnh câu hỏi, “had” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 3. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
       },
       {
         'type': 'choice',
@@ -35,11 +43,19 @@
         'options':
           ['If I studied, I would pass.', 'If I study, I will pass.', 'If I studied, I will pass.'],
         'answer': 'If I study, I will pass.',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “If I study, I will pass.” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 3. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'If I studied, I would pass.': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'If I studied, I will pass.': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
       {
         'type': 'fill',
         'prompt': 'The food was absolutely ___ — it was delicious!',
         'answer': 'delicious',
+        'acceptedAnswers': ['delicious'],
+        'explanation': 'Trong ngữ cảnh câu hỏi, “delicious” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 3. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
       },
       {
         'type': 'choice',
@@ -47,11 +63,20 @@
         'options':
           ['At the beginning', 'In general / considering everything', 'Only the positive points'],
         'answer': 'In general / considering everything',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “In general / considering everything” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 3. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'At the beginning': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'Only the positive points': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
     ],
   'categoryEn': 'Independent Workplace Communication',
   'categoryVi': 'Giao tiếp Công việc Độc lập',
   'prerequisites': ['b1-14-blog-review'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 45, 'maxWords': 135 },
 }
 ---
 
@@ -124,37 +149,43 @@ Chúc mừng bạn đã hoàn thành mức B1! Tiếp tục với các bài họ
 
 ## Kết quả học tập
 
-Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Ôn tập Unit 3** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+Sau bài này, bạn có thể kết hợp ngôn ngữ trong unit để xử lý nhiệm vụ thực tế về **Ôn tập Unit 3** và giải thích một lần chỉnh sửa.
 
-## Phòng luyện tập
+## Luyện tập theo tình huống
 
-### Nhận diện cách diễn đạt
+### Tình huống
 
-Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+Lập kế hoạch bữa ăn hư cấu cho nhóm: giới thiệu món, dùng câu điều kiện cho một rủi ro, đọc thực đơn và viết khuyến nghị ngắn.
 
-> **Colleague:** How would you handle this situation?
->
-> **You:** Let's review what we learned in Unit 3.
+> **Lưu ý:** Tình huống và các chi tiết đều là hư cấu để luyện ngôn ngữ; đây không phải sự kiện, chính sách, nghiên cứu hoặc diễn giải pháp lý có thật.
 
-Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+### Luyện tập có kiểm soát
 
-> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+Chọn ngôn ngữ từ ít nhất ba bài trong unit. Với mỗi lựa chọn, ghi rõ chức năng: miêu tả, kết nối, giới hạn, yêu cầu hoặc kết luận.
 
-### Đến lượt bạn
+### Nhiệm vụ có hướng dẫn
 
-Tạo một câu trả lời mới cho chủ đề **Ôn tập Unit 3**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+Viết 45–135 từ bằng tiếng Anh để hoàn thành nhiệm vụ tích hợp. Dùng nội dung từ ít nhất ba bài, sau đó chú thích một lần sửa giúp tăng độ chính xác, phù hợp tông giọng hoặc rõ ràng.
 
 ### Bài mẫu
 
-> Let's review what we learned in Unit 3. You can now talk about food and cooking. You understand first and second conditionals. You can write reviews and blog posts.
+> **Integrated response:** Let's review what we learned in Unit 3. You can now talk about food and cooking. You understand first and second conditionals.
+>
+> **Revision note:** I organize the response so the situation comes first, the relevant detail follows, and the final sentence makes the requested action clear. I would revise any sentence that is correct but difficult for the audience to process. Other well-supported responses are possible.
 
-Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+### Vì sao bài mẫu phù hợp
+
+Bài mẫu thể hiện một cách xử lý hợp lý, không phải kịch bản bắt buộc học thuộc. Hãy so sánh mức hoàn thành nhiệm vụ, độ chính xác, độ phù hợp với người nghe và độ rõ với bài của bạn rồi sửa một lần.
+
+### Bài tập chuyển đổi
+
+Đổi sự kiện từ bữa tối thành workshop buổi sáng. Giữ ngôn ngữ trọng tâm nhưng thay đổi chi tiết và văn phong cho bối cảnh mới.
 
 ### Tự kiểm tra
 
-- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
-- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
-- [ ] Người nghe có thể nhận ra ý chính ngay.
-- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+- [ ] Mình hoàn thành đủ yêu cầu của tình huống, không chỉ dùng đúng cấu trúc.
+- [ ] Ngôn ngữ trọng tâm chính xác và đúng ý định.
+- [ ] Độ trực tiếp và lượng chi tiết phù hợp người nghe hoặc người đọc.
+- [ ] Người nhận có thể nhận ra ý chính và bước tiếp theo.
 
 <!-- learning-loop:end -->

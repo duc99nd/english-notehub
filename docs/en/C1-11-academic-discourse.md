@@ -11,7 +11,7 @@
   'skill': 'vocab',
   'order': 11,
   'cefr': 'C1',
-  'minutes': 11,
+  'minutes': 12,
   'tags': ['vocab', 'academic', 'discourse', 'hedging', 'C1'],
   'audioScript': "The findings suggest a correlation between the variables.\nThe methodology warrants further investigation.\nThe literature indicates a gap in current research.\n",
   'listeningEnabled': true,
@@ -23,22 +23,39 @@
         'prompt': 'What is "hedging" in academic writing?',
         'options': ['Strong claims', 'Cautious, qualified language', 'Technical jargon'],
         'answer': 'Cautious, qualified language',
+        'explanation': 'In this context, “Cautious, qualified language” supplies the meaning or form targeted in Academic Discourse. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'Strong claims': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Technical jargon': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
       {
         'type': 'fill',
         'prompt': 'The findings ___ a correlation between the variables.',
         'answer': 'suggest',
+        'acceptedAnswers': ['suggest'],
+        'explanation': 'In this context, “suggest” supplies the meaning or form targeted in Academic Discourse. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
       },
       {
         'type': 'choice',
         'prompt': 'Which is a hedging word?',
         'options': ['Proves', 'Suggests', 'Guarantees'],
         'answer': 'Suggests',
+        'explanation': 'In this context, “Suggests” supplies the meaning or form targeted in Academic Discourse. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'Proves': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Guarantees': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
     ],
   'categoryEn': 'Strategic Professional Communication',
   'categoryVi': 'Giao tiếp Chuyên nghiệp Chiến lược',
   'prerequisites': ['c1-10-review-unit2'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'dialogue', 'minTurns': 4, 'maxTurns': 6 },
 }
 ---
 
@@ -104,42 +121,48 @@ In the next lesson **C1-12-nuanced-grammar**, you will master nuanced C1 grammar
 
 ## Learning outcome
 
-By the end of this lesson, you will be able to select and use useful language for academic discourse in a short, realistic exchange.
+By the end of this lesson, you can complete a four-turn exchange about academic discourse, choosing expressions that fit the relationship and immediate goal.
 
-## Practice lab
+## Scenario practice
 
-### Notice the language
+### Situation
 
-Read the situation, then listen to the model once for meaning and once for phrasing.
+Discuss a fictional workplace study whose findings show correlation but not causation. Use cautious research language and identify a gap.
 
-> **Colleague:** How would you handle **academic discourse** in this situation?
->
-> **You:** The findings suggest a correlation between the variables.
+> **Training note:** This situation and its details are fictional. They are designed for language practice, not presented as a real event, policy, study, or legal interpretation.
 
-Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+### Controlled practice
 
-> **Pattern**: clear point + concrete detail or reason + appropriate next step
+Choose three expressions from **Academic Discourse**. Label each one as an opener, key detail, clarification, or next step. Remove any expression that does not fit the relationship in the situation.
 
-### Your turn
+### Guided task
 
-Create a four-line exchange with a colleague, client, and senior stakeholder. Use at least three target expressions from **Academic Discourse** and add one follow-up question.
+Write a four-to-six-turn exchange for this situation. Use at least three target expressions, respond to the other speaker's information, and end with a question, confirmation, or agreed action.
 
 ### Model response
 
-> The findings suggest a correlation between the variables. The methodology warrants further investigation. The literature indicates a gap in current research.
+> **Partner:** We need to respond to the situation above. What would you say first?
+>
+> **You:** The findings suggest a correlation between the variables.
+>
+> **Partner:** What detail should we confirm before we act?
+>
+> **You:** The methodology warrants further investigation. The literature indicates a gap in current research.
 
-The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+### Why the model works
 
-### Register switch
+The model shows one defensible route through the task; it is not a script to memorize. Compare its task completion, language accuracy, audience fit, and clarity with your response, then revise once.
 
-Rewrite your response twice: first for a trusted teammate, then for a client or senior stakeholder. Keep the underlying message the same while changing directness, context, and the amount of explanation. Identify one phrase you softened, one detail you made explicit, and one assumption you removed.
+### Transfer task
+
+Explain the finding to a non-academic operations leader. Keep the target language, but change the details and register needed for the new context.
 
 ### Self-check
 
-- [ ] I completed the task without translating a full Vietnamese sentence word for word.
-- [ ] I used at least two useful expressions from the lesson.
-- [ ] My main point is easy to identify.
-- [ ] I included a concrete detail, reason, or next step.
-- [ ] I qualified claims where certainty was limited and adjusted the register for my audience.
+- [ ] I completed every part of this lesson's scenario, not only the language form.
+- [ ] My target language is accurate and fits the intended meaning.
+- [ ] My level of directness and detail fits the named audience.
+- [ ] The reader or listener can identify my main point and next step.
+- [ ] I separated evidence, assumptions, and recommendations instead of presenting them as equally certain.
 
 <!-- learning-loop:end -->

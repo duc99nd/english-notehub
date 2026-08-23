@@ -11,7 +11,7 @@
   'skill': 'review',
   'order': 5,
   'cefr': 'A2',
-  'minutes': 10,
+  'minutes': 11,
   'tags': ['review', 'unit1', 'grammar', 'vocabulary'],
   'audioScript': "Let's review what we learned in Unit 1.\nYou can ask for help politely.\nYou can talk about your daily routine.\nYou can compare things.\nYou can talk about past events.\n",
   'listeningEnabled': true,
@@ -23,25 +23,58 @@
         'prompt': 'How do you politely ask for help?',
         'options': ['Give me help.', 'Could you help me, please?', 'Help me now!'],
         'answer': 'Could you help me, please?',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “Could you help me, please?” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 1. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'Give me help.': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'Help me now!': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
-      { 'type': 'fill', 'prompt': 'I wake ___ at six every morning.', 'answer': 'up' },
+      {
+        'type': 'fill',
+        'prompt': 'I wake ___ at six every morning.',
+        'answer': 'up',
+        'acceptedAnswers': ['up'],
+        'explanation': 'Trong ngữ cảnh câu hỏi, “up” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 1. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+      },
       {
         'type': 'choice',
         'prompt': 'Which is the correct comparative form?',
         'options': ['more beautiful', 'beautifuller', 'beautfuller'],
         'answer': 'more beautiful',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “more beautiful” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 1. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'beautifuller': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'beautfuller': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
-      { 'type': 'fill', 'prompt': 'Yesterday, she ___ to the market. (go)', 'answer': 'went' },
+      {
+        'type': 'fill',
+        'prompt': 'Yesterday, she ___ to the market. (go)',
+        'answer': 'went',
+        'acceptedAnswers': ['went'],
+        'explanation': 'Trong ngữ cảnh câu hỏi, “went” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 1. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+      },
       {
         'type': 'choice',
         'prompt': 'Which sentence is in past simple?',
         'options': ['I work at home.', 'I am working.', 'I worked late.'],
         'answer': 'I worked late.',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “I worked late.” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 1. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'I work at home.': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'I am working.': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
     ],
   'categoryEn': 'Everyday Workplace English',
   'categoryVi': 'Tiếng Anh Công việc Hằng ngày',
   'prerequisites': ['a2-04-past-events'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 28, 'maxWords': 90 },
 }
 ---
 
@@ -96,37 +129,43 @@ Tiếp tục với **A2-06-email-basics** để học cách viết email cơ b�
 
 ## Kết quả học tập
 
-Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Ôn tập Unit 1** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+Sau bài này, bạn có thể kết hợp ngôn ngữ trong unit để xử lý nhiệm vụ thực tế về **Ôn tập Unit 1** và giải thích một lần chỉnh sửa.
 
-## Phòng luyện tập
+## Luyện tập theo tình huống
 
-### Nhận diện cách diễn đạt
+### Tình huống
 
-Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+Trong buổi làm quen văn phòng, hãy nhờ hỗ trợ, mô tả thói quen, so sánh hai bàn làm việc và kể một vấn đề hôm qua.
 
-> **Colleague:** How would you handle this situation?
->
-> **You:** Let's review what we learned in Unit 1.
+> **Lưu ý:** Tình huống và các chi tiết đều là hư cấu để luyện ngôn ngữ; đây không phải sự kiện, chính sách, nghiên cứu hoặc diễn giải pháp lý có thật.
 
-Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+### Luyện tập có kiểm soát
 
-> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+Chọn ngôn ngữ từ ít nhất ba bài trong unit. Với mỗi lựa chọn, ghi rõ chức năng: miêu tả, kết nối, giới hạn, yêu cầu hoặc kết luận.
 
-### Đến lượt bạn
+### Nhiệm vụ có hướng dẫn
 
-Tạo một câu trả lời mới cho chủ đề **Ôn tập Unit 1**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+Viết 28–90 từ bằng tiếng Anh để hoàn thành nhiệm vụ tích hợp. Dùng nội dung từ ít nhất ba bài, sau đó chú thích một lần sửa giúp tăng độ chính xác, phù hợp tông giọng hoặc rõ ràng.
 
 ### Bài mẫu
 
-> Let's review what we learned in Unit 1. You can ask for help politely. You can talk about your daily routine. You can compare things. You can talk about past events.
+> **Integrated response:** Let's review what we learned in Unit 1. You can ask for help politely. You can talk about your daily routine.
+>
+> **Revision note:** I connect the main point to one concrete detail. I check the time, person, or action so the listener knows what happens next. Other well-supported responses are possible.
 
-Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+### Vì sao bài mẫu phù hợp
+
+Bài mẫu thể hiện một cách xử lý hợp lý, không phải kịch bản bắt buộc học thuộc. Hãy so sánh mức hoàn thành nhiệm vụ, độ chính xác, độ phù hợp với người nghe và độ rõ với bài của bạn rồi sửa một lần.
+
+### Bài tập chuyển đổi
+
+Làm lại nhiệm vụ trong bối cảnh làm quen lớp học thay vì văn phòng. Giữ ngôn ngữ trọng tâm nhưng thay đổi chi tiết và văn phong cho bối cảnh mới.
 
 ### Tự kiểm tra
 
-- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
-- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
-- [ ] Người nghe có thể nhận ra ý chính ngay.
-- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+- [ ] Mình hoàn thành đủ yêu cầu của tình huống, không chỉ dùng đúng cấu trúc.
+- [ ] Ngôn ngữ trọng tâm chính xác và đúng ý định.
+- [ ] Độ trực tiếp và lượng chi tiết phù hợp người nghe hoặc người đọc.
+- [ ] Người nhận có thể nhận ra ý chính và bước tiếp theo.
 
 <!-- learning-loop:end -->

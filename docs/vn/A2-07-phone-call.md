@@ -11,7 +11,7 @@
   'skill': 'grammar',
   'order': 7,
   'cefr': 'A2',
-  'minutes': 10,
+  'minutes': 12,
   'tags': ['phone-call', 'speaking', 'grammar', 'communication'],
   'audioScript': "Hello, this is Anna speaking.\nCan I speak to Mr. Smith, please?\nI'm calling about our meeting tomorrow.\n",
   'listeningEnabled': true,
@@ -23,18 +23,39 @@
         'prompt': 'How do you answer a phone call formally?',
         'options': ['Yeah, who are you?', 'Hello, this is [name] speaking.', "What's up?"],
         'answer': 'Hello, this is [name] speaking.',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “Hello, this is [name] speaking.” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Cuộc gọi điện thoại. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'Yeah, who are you?': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            "What's up?": 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
-      { 'type': 'fill', 'prompt': 'Can I speak ___ Mr. Smith, please?', 'answer': 'to' },
+      {
+        'type': 'fill',
+        'prompt': 'Can I speak ___ Mr. Smith, please?',
+        'answer': 'to',
+        'acceptedAnswers': ['to'],
+        'explanation': 'Trong ngữ cảnh câu hỏi, “to” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Cuộc gọi điện thoại. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+      },
       {
         'type': 'choice',
         'prompt': 'What should you say if the person is not available?',
         'options': ['Put him on!', 'Could you take a message, please?', 'Call back later.'],
         'answer': 'Could you take a message, please?',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “Could you take a message, please?” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Cuộc gọi điện thoại. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'Put him on!': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'Call back later.': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
     ],
   'categoryEn': 'Everyday Workplace English',
   'categoryVi': 'Tiếng Anh Công việc Hằng ngày',
   'prerequisites': ['a2-06-email-basics'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 28, 'maxWords': 90 },
 }
 ---
 
@@ -95,37 +116,43 @@ Nhấn nút play để nghe audio. Sau đó lặp lại từng câu thành tiế
 
 ## Kết quả học tập
 
-Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Cuộc gọi điện thoại** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+Sau bài này, bạn có thể tạo câu trả lời liền mạch về **Cuộc gọi điện thoại**, dùng đúng cấu trúc trọng tâm và giải thích tác dụng của một lựa chọn.
 
-## Phòng luyện tập
+## Luyện tập theo tình huống
 
-### Nhận diện cách diễn đạt
+### Tình huống
 
-Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+Gọi cho đồng nghiệp để đổi lịch họp ngày mai. Hãy giới thiệu, nói lý do gọi và đề xuất giờ mới.
 
-> **Colleague:** How would you handle this situation?
->
-> **You:** Hello, this is Anna speaking.
+> **Lưu ý:** Tình huống và các chi tiết đều là hư cấu để luyện ngôn ngữ; đây không phải sự kiện, chính sách, nghiên cứu hoặc diễn giải pháp lý có thật.
 
-Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+### Luyện tập có kiểm soát
 
-> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+Lấy hai câu ví dụ trong bài. Biến đổi câu đầu bằng cấu trúc trọng tâm, sau đó sửa câu thứ hai để thay đổi mức nhấn mạnh hoặc độ chắc chắn nhưng giữ nguyên dữ kiện.
 
-### Đến lượt bạn
+### Nhiệm vụ có hướng dẫn
 
-Tạo một câu trả lời mới cho chủ đề **Cuộc gọi điện thoại**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+Viết 28–90 từ bằng tiếng Anh cho tình huống. Dùng cấu trúc trọng tâm ít nhất hai lần, gạch chân các chỗ đó và thêm một câu giải thích cấu trúc đã thay đổi mức nhấn mạnh, thời gian, điều kiện hoặc độ chắc chắn như thế nào.
 
 ### Bài mẫu
 
-> Hello, this is Anna speaking. Can I speak to Mr. Smith, please? I'm calling about our meeting tomorrow.
+> **Draft:** Hello, this is Anna speaking. Can I speak to Mr. Smith, please? I'm calling about our meeting tomorrow.
+>
+> **Language choice:** I connect the main point to one concrete detail. I check the time, person, or action so the listener knows what happens next. Other well-supported responses are possible.
 
-Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+### Vì sao bài mẫu phù hợp
+
+Bài mẫu thể hiện một cách xử lý hợp lý, không phải kịch bản bắt buộc học thuộc. Hãy so sánh mức hoàn thành nhiệm vụ, độ chính xác, độ phù hợp với người nghe và độ rõ với bài của bạn rồi sửa một lần.
+
+### Bài tập chuyển đổi
+
+Chuyển cùng nội dung thành tin nhắn thoại. Giữ ngôn ngữ trọng tâm nhưng thay đổi chi tiết và văn phong cho bối cảnh mới.
 
 ### Tự kiểm tra
 
-- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
-- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
-- [ ] Người nghe có thể nhận ra ý chính ngay.
-- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+- [ ] Mình hoàn thành đủ yêu cầu của tình huống, không chỉ dùng đúng cấu trúc.
+- [ ] Ngôn ngữ trọng tâm chính xác và đúng ý định.
+- [ ] Độ trực tiếp và lượng chi tiết phù hợp người nghe hoặc người đọc.
+- [ ] Người nhận có thể nhận ra ý chính và bước tiếp theo.
 
 <!-- learning-loop:end -->

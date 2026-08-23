@@ -11,7 +11,7 @@
   'skill': 'writing',
   'order': 9,
   'cefr': 'A1',
-  'minutes': 19,
+  'minutes': 20,
   'tags': ['hobbies', 'free-time', 'preferences', 'writing', 'speaking'],
   'audioScript': "In my free time, I like to read books.\nSometimes I play soccer with my friends.\nI enjoy listening to music. I also like cooking.\nOn weekends, I often watch movies.\n",
   'listeningEnabled': true,
@@ -29,28 +29,54 @@
             'I enjoying read books.',
           ],
         'answer': 'I enjoy reading books.',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “I enjoy reading books.” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Sở thích & Thời gian rảnh. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'I enjoy to read books.': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'I enjoy read books.': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'I enjoying read books.': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
       {
         'type': 'choice',
         'prompt': "Which verb goes with 'music'?",
         'options': ['play music', 'listen to music', 'watch music', 'do music'],
         'answer': 'listen to music',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “listen to music” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Sở thích & Thời gian rảnh. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'play music': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'watch music': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'do music': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
       {
         'type': 'fill',
         'prompt': 'I ___ playing soccer on weekends. (rất thích = love)',
         'answer': 'love',
+        'acceptedAnswers': ['love'],
+        'explanation': 'Trong ngữ cảnh câu hỏi, “love” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Sở thích & Thời gian rảnh. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
       },
       {
         'type': 'choice',
         'prompt': "What does 'cooking' mean?",
         'options': ['nấu ăn', 'đọc sách', 'chơi bóng đá', 'nghe nhạc'],
         'answer': 'nấu ăn',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “nấu ăn” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Sở thích & Thời gian rảnh. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'đọc sách': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'chơi bóng đá': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'nghe nhạc': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
     ],
   'categoryEn': 'Foundation English',
   'categoryVi': 'Tiếng Anh Nền tảng',
   'prerequisites': ['a1-08-weather'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 20, 'maxWords': 70 },
 }
 ---
 
@@ -212,37 +238,43 @@ Nhấn play, sau đó lặp lại từng dòng.
 
 ## Kết quả học tập
 
-Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Sở thích & Thời gian rảnh** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+Sau bài này, bạn có thể viết và chỉnh sửa câu trả lời về **Sở thích & Thời gian rảnh** cho người đọc xác định, có mục đích, thông tin hỗ trợ và bước tiếp theo rõ ràng.
 
-## Phòng luyện tập
+## Luyện tập theo tình huống
 
-### Nhận diện cách diễn đạt
+### Tình huống
 
-Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+Một người bạn mới hỏi bạn làm gì sau giờ học hoặc giờ làm. Hãy viết bốn câu ngắn về hai sở thích và thời gian thực hiện.
 
-> **Colleague:** How would you handle this situation?
->
-> **You:** In my free time, I like to read books.
+> **Lưu ý:** Tình huống và các chi tiết đều là hư cấu để luyện ngôn ngữ; đây không phải sự kiện, chính sách, nghiên cứu hoặc diễn giải pháp lý có thật.
 
-Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+### Luyện tập có kiểm soát
 
-> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+Lập dàn ý bốn phần: người đọc, mục đích, một chi tiết hỗ trợ cụ thể và bước tiếp theo được yêu cầu. Kiểm tra để mỗi câu dự kiến đều phục vụ một trong bốn phần.
 
-### Đến lượt bạn
+### Nhiệm vụ có hướng dẫn
 
-Tạo một câu trả lời mới cho chủ đề **Sở thích & Thời gian rảnh**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+Viết 20–70 từ bằng tiếng Anh cho đúng người đọc. Nêu mục đích ngay phần mở đầu, hỗ trợ bằng một chi tiết cụ thể và kết thúc bằng bước tiếp theo phù hợp.
 
 ### Bài mẫu
 
-> In my free time, I like to read books. Sometimes I play soccer with my friends. I enjoy listening to music. I also like cooking. On weekends, I often watch movies.
+> **Draft:** In my free time, I like to read books. Sometimes I play soccer with my friends. I enjoy listening to music. I also like cooking.
+>
+> **Revision note:** I keep the message short, use familiar words, and finish with one clear next step. Other well-supported responses are possible.
 
-Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+### Vì sao bài mẫu phù hợp
+
+Bài mẫu thể hiện một cách xử lý hợp lý, không phải kịch bản bắt buộc học thuộc. Hãy so sánh mức hoàn thành nhiệm vụ, độ chính xác, độ phù hợp với người nghe và độ rõ với bài của bạn rồi sửa một lần.
+
+### Bài tập chuyển đổi
+
+Mời người bạn tham gia một hoạt động vào cuối tuần này. Giữ ngôn ngữ trọng tâm nhưng thay đổi chi tiết và văn phong cho bối cảnh mới.
 
 ### Tự kiểm tra
 
-- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
-- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
-- [ ] Người nghe có thể nhận ra ý chính ngay.
-- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+- [ ] Mình hoàn thành đủ yêu cầu của tình huống, không chỉ dùng đúng cấu trúc.
+- [ ] Ngôn ngữ trọng tâm chính xác và đúng ý định.
+- [ ] Độ trực tiếp và lượng chi tiết phù hợp người nghe hoặc người đọc.
+- [ ] Người nhận có thể nhận ra ý chính và bước tiếp theo.
 
 <!-- learning-loop:end -->

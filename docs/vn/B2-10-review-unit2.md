@@ -11,7 +11,7 @@
   'skill': 'review',
   'order': 10,
   'cefr': 'B2',
-  'minutes': 10,
+  'minutes': 12,
   'tags': ['review', 'unit2', 'B2', 'meetings', 'grammar'],
   'audioScript': "Let's review Unit 2 of B2.\nYou've learned how to facilitate meetings.\nYou can now use advanced conditionals and persuasive grammar.\n",
   'listeningEnabled': true,
@@ -23,29 +23,58 @@
         'prompt': 'What does "kick off" mean?',
         'options': ['To end a meeting', 'To start a meeting', 'To cancel a meeting'],
         'answer': 'To start a meeting',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “To start a meeting” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 2. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'To end a meeting': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'To cancel a meeting': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
-      { 'type': 'fill', 'prompt': 'If I ___ (know), I would have helped.', 'answer': 'had known' },
+      {
+        'type': 'fill',
+        'prompt': 'If I ___ (know), I would have helped.',
+        'answer': 'had known',
+        'acceptedAnswers': ['had known'],
+        'explanation': 'Trong ngữ cảnh câu hỏi, “had known” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 2. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+      },
       {
         'type': 'choice',
         'prompt': 'Which phrase means "to strengthen"?',
         'options': ['Weaken', 'Bolster', 'Delay'],
         'answer': 'Bolster',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “Bolster” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 2. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'Weaken': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'Delay': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
       {
         'type': 'fill',
         'prompt': 'Not only ___ it reduce costs, but it also improves performance.',
         'answer': 'does',
+        'acceptedAnswers': ['does'],
+        'explanation': 'Trong ngữ cảnh câu hỏi, “does” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 2. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
       },
       {
         'type': 'choice',
         'prompt': 'ROI stands for:',
         'options': ['Return on Investment', 'Rate of Income', 'Risk of Implementation'],
         'answer': 'Return on Investment',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “Return on Investment” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 2. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'Rate of Income': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'Risk of Implementation': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
     ],
   'categoryEn': 'Technical Leadership Communication',
   'categoryVi': 'Giao tiếp Dẫn dắt Kỹ thuật',
   'prerequisites': ['b2-09-conditionals-advanced'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 55, 'maxWords': 170 },
 }
 ---
 
@@ -91,7 +120,7 @@ Cộng thêm: **Câu điều kiện hỗn hợp nâng cao** cho các tình huố
 
 Trả lời 5 câu quiz để kiểm tra sự thành thạo Unit 2 của bạn.
 
-## What to learn next
+## Bài học tiếp theo
 
 Tiếp tục **Unit 3** với **B2-11-cultural-nuances**.
 
@@ -99,41 +128,44 @@ Tiếp tục **Unit 3** với **B2-11-cultural-nuances**.
 
 ## Kết quả học tập
 
-Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Ôn tập Unit 2** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+Sau bài này, bạn có thể kết hợp ngôn ngữ trong unit để xử lý nhiệm vụ thực tế về **Ôn tập Unit 2** và giải thích một lần chỉnh sửa.
 
-## Phòng luyện tập
+## Luyện tập theo tình huống
 
-### Nhận diện cách diễn đạt
+### Tình huống
 
-Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+Điều phối quyết định phát hành hư cấu: xử lý ý kiến khác nhau, dùng câu điều kiện để nêu rủi ro và đưa khuyến nghị thuyết phục từ dữ liệu.
 
-> **Colleague:** How would you handle this situation?
->
-> **You:** Let's review Unit 2 of B2.
+> **Lưu ý:** Tình huống và các chi tiết đều là hư cấu để luyện ngôn ngữ; đây không phải sự kiện, chính sách, nghiên cứu hoặc diễn giải pháp lý có thật.
 
-Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+### Luyện tập có kiểm soát
 
-> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+Chọn ngôn ngữ từ ít nhất ba bài trong unit. Với mỗi lựa chọn, ghi rõ chức năng: miêu tả, kết nối, giới hạn, yêu cầu hoặc kết luận.
 
-### Đến lượt bạn
+### Nhiệm vụ có hướng dẫn
 
-Tạo một câu trả lời mới cho chủ đề **Ôn tập Unit 2**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+Viết 55–170 từ bằng tiếng Anh để hoàn thành nhiệm vụ tích hợp. Dùng nội dung từ ít nhất ba bài, sau đó chú thích một lần sửa giúp tăng độ chính xác, phù hợp tông giọng hoặc rõ ràng.
 
 ### Bài mẫu
 
-> Let's review Unit 2 of B2. You've learned how to facilitate meetings. You can now use advanced conditionals and persuasive grammar.
+> **Integrated response:** Let's review Unit 2 of B2. You've learned how to facilitate meetings. You can now use advanced conditionals and persuasive grammar.
+>
+> **Revision note:** I make the relationship between evidence, constraint, and recommendation explicit. The response avoids a binary claim when the situation calls for a trade-off, and it gives the audience a practical checkpoint for challenging or confirming the recommendation. Other well-supported responses are possible.
 
-Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+### Vì sao bài mẫu phù hợp
 
-### Chuyển đổi register
+Bài mẫu thể hiện một cách xử lý hợp lý, không phải kịch bản bắt buộc học thuộc. Hãy so sánh mức hoàn thành nhiệm vụ, độ chính xác, độ phù hợp với người nghe và độ rõ với bài của bạn rồi sửa một lần.
 
-Viết lại câu trả lời hai lần: một bản cho đồng đội thân quen và một bản cho khách hàng hoặc stakeholder cấp cao. Giữ nguyên thông điệp nhưng thay đổi độ trực tiếp, lượng bối cảnh và mức giải thích. Chỉ ra một cụm từ bạn đã làm mềm, một chi tiết bạn nói rõ hơn và một giả định bạn đã loại bỏ.
+### Bài tập chuyển đổi
+
+Đổi quyết định từ thời điểm phát hành sang phạm vi tính năng. Giữ ngôn ngữ trọng tâm nhưng thay đổi chi tiết và văn phong cho bối cảnh mới.
 
 ### Tự kiểm tra
 
-- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
-- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
-- [ ] Người nghe có thể nhận ra ý chính ngay.
-- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+- [ ] Mình hoàn thành đủ yêu cầu của tình huống, không chỉ dùng đúng cấu trúc.
+- [ ] Ngôn ngữ trọng tâm chính xác và đúng ý định.
+- [ ] Độ trực tiếp và lượng chi tiết phù hợp người nghe hoặc người đọc.
+- [ ] Người nhận có thể nhận ra ý chính và bước tiếp theo.
+- [ ] Mình tách bằng chứng, giả định và khuyến nghị thay vì trình bày tất cả với cùng mức chắc chắn.
 
 <!-- learning-loop:end -->

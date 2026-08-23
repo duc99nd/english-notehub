@@ -11,7 +11,7 @@
   'skill': 'vocab',
   'order': 4,
   'cefr': 'B2',
-  'minutes': 12,
+  'minutes': 13,
   'tags': ['meetings', 'facilitation', 'workplace', 'B2'],
   'audioScript': "Let's kick off the meeting with a quick round-up.\nCould we park that topic for the next session?\nWe need a tiebreaker to move this forward.\n",
   'listeningEnabled': true,
@@ -23,18 +23,39 @@
         'prompt': 'What does "kick off" mean in a meeting context?',
         'options': ['To end a meeting', 'To start or begin', 'To cancel'],
         'answer': 'To start or begin',
+        'explanation': 'In this context, “To start or begin” supplies the meaning or form targeted in Meeting Facilitation. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'To end a meeting': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'To cancel': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
-      { 'type': 'fill', 'prompt': "Let's ___ that topic for the next session.", 'answer': 'park' },
+      {
+        'type': 'fill',
+        'prompt': "Let's ___ that topic for the next session.",
+        'answer': 'park',
+        'acceptedAnswers': ['park'],
+        'explanation': 'In this context, “park” supplies the meaning or form targeted in Meeting Facilitation. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+      },
       {
         'type': 'choice',
         'prompt': 'What is a "tiebreaker"?',
         'options': ['A way to break a deadlock', 'A type of meeting', 'A final report'],
         'answer': 'A way to break a deadlock',
+        'explanation': 'In this context, “A way to break a deadlock” supplies the meaning or form targeted in Meeting Facilitation. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'A type of meeting': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'A final report': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
     ],
   'categoryEn': 'Technical Leadership Communication',
   'categoryVi': 'Giao tiếp Dẫn dắt Kỹ thuật',
   'prerequisites': ['b2-03-presenting-architecture'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'dialogue', 'minTurns': 4, 'maxTurns': 6 },
 }
 ---
 
@@ -48,21 +69,21 @@ A good facilitator keeps meetings on track, manages time, and ensures everyone i
 
 ### Opening and closing meetings
 
-|| Phrase | Function |
-|| --- | --- |
-|| kick off | start the meeting |
-|| round up | summarize key points |
-|| park that topic | defer to later |
-|| draw to a close | end the meeting |
+| Phrase          | Function             |
+| --------------- | -------------------- |
+| kick off        | start the meeting    |
+| round up        | summarize key points |
+| park that topic | defer to later       |
+| draw to a close | end the meeting      |
 
 ### Managing discussion flow
 
-|| Phrase | Function |
-|| --- | --- |
-|| tiebreaker | decisive vote or opinion to resolve deadlock |
-|| table that for now | postpone a discussion |
-|| open the floor | invite comments or questions |
-|| play devil's advocate | challenge the prevailing view |
+| Phrase                | Function                                     |
+| --------------------- | -------------------------------------------- |
+| tiebreaker            | decisive vote or opinion to resolve deadlock |
+| table that for now    | postpone a discussion                        |
+| open the floor        | invite comments or questions                 |
+| play devil's advocate | challenge the prevailing view                |
 
 ## Practical examples
 
@@ -102,41 +123,48 @@ In the next lesson **B2-05-persuasive-grammar**, you will learn grammar patterns
 
 ## Learning outcome
 
-By the end of this lesson, you will be able to select and use useful language for meeting facilitation in a short, realistic exchange.
+By the end of this lesson, you can complete a four-turn exchange about meeting facilitation, choosing expressions that fit the relationship and immediate goal.
 
-## Practice lab
+## Scenario practice
 
-### Notice the language
+### Situation
 
-Read the situation, then listen to the model once for meaning and once for phrasing.
+A planning meeting is running over time with one unresolved decision. Open the discussion, park a side topic, and define a tiebreaker.
 
-> **Colleague:** How would you handle **meeting facilitation** in this situation?
->
-> **You:** Let's kick off the meeting with a quick round-up.
+> **Training note:** This situation and its details are fictional. They are designed for language practice, not presented as a real event, policy, study, or legal interpretation.
 
-Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+### Controlled practice
 
-> **Pattern**: clear point + concrete detail or reason + appropriate next step
+Choose three expressions from **Meeting Facilitation**. Label each one as an opener, key detail, clarification, or next step. Remove any expression that does not fit the relationship in the situation.
 
-### Your turn
+### Guided task
 
-Create a four-line exchange with a colleague or classmate. Use at least three target expressions from **Meeting Facilitation** and add one follow-up question.
+Write a four-to-six-turn exchange for this situation. Use at least three target expressions, respond to the other speaker's information, and end with a question, confirmation, or agreed action.
 
 ### Model response
 
-> Let's kick off the meeting with a quick round-up. Could we park that topic for the next session? We need a tiebreaker to move this forward.
+> **Partner:** We need to respond to the situation above. What would you say first?
+>
+> **You:** Let's kick off the meeting with a quick round-up.
+>
+> **Partner:** What detail should we confirm before we act?
+>
+> **You:** Could we park that topic for the next session? We need a tiebreaker to move this forward.
 
-The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+### Why the model works
 
-### Register switch
+The model shows one defensible route through the task; it is not a script to memorize. Compare its task completion, language accuracy, audience fit, and clarity with your response, then revise once.
 
-Rewrite your response twice: first for a trusted teammate, then for a client or senior stakeholder. Keep the underlying message the same while changing directness, context, and the amount of explanation. Identify one phrase you softened, one detail you made explicit, and one assumption you removed.
+### Transfer task
+
+Adapt the facilitation language for a client workshop. Keep the target language, but change the details and register needed for the new context.
 
 ### Self-check
 
-- [ ] I completed the task without translating a full Vietnamese sentence word for word.
-- [ ] I used at least two useful expressions from the lesson.
-- [ ] My main point is easy to identify.
-- [ ] I included a concrete detail, reason, or next step.
+- [ ] I completed every part of this lesson's scenario, not only the language form.
+- [ ] My target language is accurate and fits the intended meaning.
+- [ ] My level of directness and detail fits the named audience.
+- [ ] The reader or listener can identify my main point and next step.
+- [ ] I separated evidence, assumptions, and recommendations instead of presenting them as equally certain.
 
 <!-- learning-loop:end -->

@@ -11,7 +11,7 @@
   'skill': 'review',
   'order': 5,
   'cefr': 'A1',
-  'minutes': 20,
+  'minutes': 22,
   'tags': ['review', 'unit1', 'all-skills', 'consolidation'],
   'audioScript': "Hello! My name is Mai. I am a student.\nI have one sister and one brother.\nI wake up at six. I eat breakfast at seven.\nMy phone number is zero nine one, two three four, five six seven eight.\n",
   'listeningEnabled': true,
@@ -23,29 +23,58 @@
         'prompt': 'How do you introduce yourself in English?',
         'options': ['Me name is...', 'My name is...', 'I name is...'],
         'answer': 'My name is...',
+        'explanation': 'In this context, “My name is...” supplies the meaning or form targeted in Review Unit 1. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'Me name is...': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'I name is...': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
       {
         'type': 'fill',
         'prompt': 'My phone number is zero nine one, five six seven, eight nine zero. Write the digits:',
         'answer': '091567890',
+        'acceptedAnswers': ['091567890'],
+        'explanation': 'In this context, “091567890” supplies the meaning or form targeted in Review Unit 1. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
       },
       {
         'type': 'choice',
         'prompt': "Which verb means 'ăn'?",
         'options': ['drink', 'eat', 'sleep'],
         'answer': 'eat',
+        'explanation': 'In this context, “eat” supplies the meaning or form targeted in Review Unit 1. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'drink': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'sleep': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
-      { 'type': 'fill', 'prompt': 'This is my ___. She is my mom. (mẹ)', 'answer': 'mother' },
+      {
+        'type': 'fill',
+        'prompt': 'This is my ___. She is my mom. (mẹ)',
+        'answer': 'mother',
+        'acceptedAnswers': ['mother'],
+        'explanation': 'In this context, “mother” supplies the meaning or form targeted in Review Unit 1. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+      },
       {
         'type': 'choice',
         'prompt': 'What time do you wake up? (thức dậy) Choose the right answer:',
         'options': ['I sleep.', 'I wake up at six.', 'I eat.'],
         'answer': 'I wake up at six.',
+        'explanation': 'In this context, “I wake up at six.” supplies the meaning or form targeted in Review Unit 1. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'I sleep.': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'I eat.': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
     ],
   'categoryEn': 'Foundation English',
   'categoryVi': 'Tiếng Anh Nền tảng',
   'prerequisites': ['a1-04-family'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 20, 'maxWords': 70 },
 }
 ---
 
@@ -250,37 +279,43 @@ In **A1-06-time-place**, you will learn the words for time of day (morning, afte
 
 ## Learning outcome
 
-By the end of this lesson, you will be able to combine the unit language to complete a realistic task about review unit 1.
+By the end of this lesson, you can combine language from the unit to resolve a realistic task involving review unit 1 and justify one revision.
 
-## Practice lab
+## Scenario practice
 
-### Notice the language
+### Situation
 
-Read the situation, then listen to the model once for meaning and once for phrasing.
+A new classmate asks for your name, one family detail, your morning routine, and a contact number.
 
-> **Colleague:** How would you handle **review unit 1** in this situation?
->
-> **You:** Hello! My name is Mai. I am a student.
+> **Training note:** This situation and its details are fictional. They are designed for language practice, not presented as a real event, policy, study, or legal interpretation.
 
-Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+### Controlled practice
 
-> **Pattern**: clear point + concrete detail or reason + appropriate next step
+Select language from at least three lessons in this unit. For each choice, note the job it performs: describe, connect, qualify, request, or conclude.
 
-### Your turn
+### Guided task
 
-Complete one integrated response for a colleague or classmate using language from at least three lessons in this unit.
+Write 20–70 words to complete the integrated task. Use material from at least three lessons, then annotate one revision that improved accuracy, tone, or clarity.
 
 ### Model response
 
-> Hello! My name is Mai. I am a student. I have one sister and one brother. I wake up at six. I eat breakfast at seven. My phone number is zero nine one, two three four, five six seven eight.
+> **Integrated response:** Hello! My name is Mai. I am a student. I have one sister and one brother. I wake up at six. I eat breakfast at seven.
+>
+> **Revision note:** I keep the message short, use familiar words, and finish with one clear next step. Other well-supported responses are possible.
 
-The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+### Why the model works
+
+The model shows one defensible route through the task; it is not a script to memorize. Compare its task completion, language accuracy, audience fit, and clarity with your response, then revise once.
+
+### Transfer task
+
+Turn the profile into four questions for another learner. Keep the target language, but change the details and register needed for the new context.
 
 ### Self-check
 
-- [ ] I completed the task without translating a full Vietnamese sentence word for word.
-- [ ] I used at least two useful expressions from the lesson.
-- [ ] My main point is easy to identify.
-- [ ] I included a concrete detail, reason, or next step.
+- [ ] I completed every part of this lesson's scenario, not only the language form.
+- [ ] My target language is accurate and fits the intended meaning.
+- [ ] My level of directness and detail fits the named audience.
+- [ ] The reader or listener can identify my main point and next step.
 
 <!-- learning-loop:end -->

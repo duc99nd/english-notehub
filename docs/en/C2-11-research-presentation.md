@@ -11,7 +11,7 @@
   'skill': 'vocab',
   'order': 11,
   'cefr': 'C2',
-  'minutes': 13,
+  'minutes': 14,
   'tags': ['research', 'academic', 'defense', 'PhD', 'methodology', 'vocabulary'],
   'audioScript': "Research presentations require precise methodological vocabulary.\nDefense rhetoric balances confidence with epistemic humility.\nScholarly hedging maintains credibility while asserting findings.\n",
   'listeningEnabled': true,
@@ -29,6 +29,13 @@
             'We ignored the limitations',
           ],
         'answer': 'Notwithstanding the limitations...',
+        'explanation': 'In this context, “Notwithstanding the limitations...” supplies the meaning or form targeted in Research Presentation Vocabulary. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'The study has no limitations': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'The limitations are irrelevant': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'We ignored the limitations': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
       {
         'type': 'choice',
@@ -41,16 +48,28 @@
             'A citation style',
           ],
         'answer': 'Using multiple research methods to verify findings',
+        'explanation': 'In this context, “Using multiple research methods to verify findings” supplies the meaning or form targeted in Research Presentation Vocabulary. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'A type of statistical analysis': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'A research ethics framework': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'A citation style': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
       {
         'type': 'fill',
         'prompt': 'The findings are ___ with the theoretical framework proposed in the literature.',
         'answer': 'consistent',
+        'acceptedAnswers': ['consistent'],
+        'explanation': 'In this context, “consistent” supplies the meaning or form targeted in Research Presentation Vocabulary. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
       },
     ],
   'categoryEn': 'Expert Register and Influence',
   'categoryVi': 'Sắc thái và Ảnh hưởng Chuyên sâu',
   'prerequisites': ['c2-10-review-unit2'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'dialogue', 'minTurns': 4, 'maxTurns': 6 },
 }
 ---
 
@@ -136,42 +155,48 @@ In **C2-12-debate-formal**, you will explore the grammar of formal parliamentary
 
 ## Learning outcome
 
-By the end of this lesson, you will be able to select and use useful language for research presentation vocabulary in a short, realistic exchange.
+By the end of this lesson, you can complete a four-turn exchange about research presentation vocabulary, choosing expressions that fit the relationship and immediate goal.
 
-## Practice lab
+## Scenario practice
 
-### Notice the language
+### Situation
 
-Read the situation, then listen to the model once for meaning and once for phrasing.
+Defend a fictional study whose method is sound but sample is narrow. Balance methodological precision, confidence, and epistemic humility.
 
-> **Colleague:** How would you handle **research presentation vocabulary** in this situation?
->
-> **You:** Research presentations require precise methodological vocabulary.
+> **Training note:** This situation and its details are fictional. They are designed for language practice, not presented as a real event, policy, study, or legal interpretation.
 
-Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+### Controlled practice
 
-> **Pattern**: clear point + concrete detail or reason + appropriate next step
+Choose three expressions from **Research Presentation Vocabulary**. Label each one as an opener, key detail, clarification, or next step. Remove any expression that does not fit the relationship in the situation.
 
-### Your turn
+### Guided task
 
-Create a four-line exchange with a colleague, client, and senior stakeholder. Use at least three target expressions from **Research Presentation Vocabulary** and add one follow-up question.
+Write a four-to-six-turn exchange for this situation. Use at least three target expressions, respond to the other speaker's information, and end with a question, confirmation, or agreed action.
 
 ### Model response
 
-> Research presentations require precise methodological vocabulary. Defense rhetoric balances confidence with epistemic humility. Scholarly hedging maintains credibility while asserting findings.
+> **Partner:** We need to respond to the situation above. What would you say first?
+>
+> **You:** Research presentations require precise methodological vocabulary.
+>
+> **Partner:** What detail should we confirm before we act?
+>
+> **You:** Defense rhetoric balances confidence with epistemic humility. Scholarly hedging maintains credibility while asserting findings.
 
-The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+### Why the model works
 
-### Register switch
+The model shows one defensible route through the task; it is not a script to memorize. Compare its task completion, language accuracy, audience fit, and clarity with your response, then revise once.
 
-Rewrite your response twice: first for a trusted teammate, then for a client or senior stakeholder. Keep the underlying message the same while changing directness, context, and the amount of explanation. Identify one phrase you softened, one detail you made explicit, and one assumption you removed. Then write a plausible alternative interpretation of the model and explain which contextual evidence would help a reader choose between the two readings.
+### Transfer task
+
+Answer a question that proposes a plausible rival explanation. Keep the target language, but change the details and register needed for the new context.
 
 ### Self-check
 
-- [ ] I completed the task without translating a full Vietnamese sentence word for word.
-- [ ] I used at least two useful expressions from the lesson.
-- [ ] My main point is easy to identify.
-- [ ] I included a concrete detail, reason, or next step.
-- [ ] I qualified claims where certainty was limited and adjusted the register for my audience.
+- [ ] I completed every part of this lesson's scenario, not only the language form.
+- [ ] My target language is accurate and fits the intended meaning.
+- [ ] My level of directness and detail fits the named audience.
+- [ ] The reader or listener can identify my main point and next step.
+- [ ] I separated evidence, assumptions, and recommendations instead of presenting them as equally certain.
 
 <!-- learning-loop:end -->

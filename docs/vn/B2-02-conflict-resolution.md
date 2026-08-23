@@ -11,7 +11,7 @@
   'skill': 'grammar',
   'order': 2,
   'cefr': 'B2',
-  'minutes': 11,
+  'minutes': 13,
   'tags': ['conflict', 'workplace', 'grammar', 'passive', 'conditionals'],
   'audioScript': "If the issue had been raised earlier, we could have avoided this.\nThe decision was made without consulting the team.\nHad we discussed this beforehand, things would have been different.\n",
   'listeningEnabled': true,
@@ -28,11 +28,19 @@
             'The mistake made by them.',
           ],
         'answer': 'The mistake was made by them.',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “The mistake was made by them.” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ngữ pháp giải quyết xung đột. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'The mistake were made by them.': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'The mistake made by them.': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
       {
         'type': 'fill',
         'prompt': 'If the issue ___ raised earlier, we could have avoided this.',
         'answer': 'had been',
+        'acceptedAnswers': ['had been'],
+        'explanation': 'Trong ngữ cảnh câu hỏi, “had been” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ngữ pháp giải quyết xung đột. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
       },
       {
         'type': 'choice',
@@ -40,11 +48,20 @@
         'options':
           ['If we will discuss this', 'If we had discussed this', 'We should discuss this'],
         'answer': 'If we had discussed this',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “If we had discussed this” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ngữ pháp giải quyết xung đột. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'If we will discuss this': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'We should discuss this': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
     ],
   'categoryEn': 'Technical Leadership Communication',
   'categoryVi': 'Giao tiếp Dẫn dắt Kỹ thuật',
   'prerequisites': ['b2-01-negotiation-advanced'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 55, 'maxWords': 170 },
 }
 ---
 
@@ -104,41 +121,44 @@ Dùng để mô tả các hành động xảy ra trước xung đột.
 
 ## Kết quả học tập
 
-Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Ngữ pháp giải quyết xung đột** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+Sau bài này, bạn có thể tạo câu trả lời liền mạch về **Ngữ pháp giải quyết xung đột**, dùng đúng cấu trúc trọng tâm và giải thích tác dụng của một lựa chọn.
 
-## Phòng luyện tập
+## Luyện tập theo tình huống
 
-### Nhận diện cách diễn đạt
+### Tình huống
 
-Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+Hai nhóm bất đồng sau sự cố phát hành. Hãy diễn đạt lại để tránh đổ lỗi, thừa nhận việc có thể làm sớm hơn và đề xuất bước chung tiếp theo.
 
-> **Colleague:** How would you handle this situation?
->
-> **You:** If the issue had been raised earlier, we could have avoided this.
+> **Lưu ý:** Tình huống và các chi tiết đều là hư cấu để luyện ngôn ngữ; đây không phải sự kiện, chính sách, nghiên cứu hoặc diễn giải pháp lý có thật.
 
-Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+### Luyện tập có kiểm soát
 
-> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+Lấy hai câu ví dụ trong bài. Biến đổi câu đầu bằng cấu trúc trọng tâm, sau đó sửa câu thứ hai để thay đổi mức nhấn mạnh hoặc độ chắc chắn nhưng giữ nguyên dữ kiện.
 
-### Đến lượt bạn
+### Nhiệm vụ có hướng dẫn
 
-Tạo một câu trả lời mới cho chủ đề **Ngữ pháp giải quyết xung đột**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+Viết 55–170 từ bằng tiếng Anh cho tình huống. Dùng cấu trúc trọng tâm ít nhất hai lần, gạch chân các chỗ đó và thêm một câu giải thích cấu trúc đã thay đổi mức nhấn mạnh, thời gian, điều kiện hoặc độ chắc chắn như thế nào.
 
 ### Bài mẫu
 
-> If the issue had been raised earlier, we could have avoided this. The decision was made without consulting the team. Had we discussed this beforehand, things would have been different.
+> **Draft:** If the issue had been raised earlier, we could have avoided this. The decision was made without consulting the team. Had we discussed this beforehand, things would have been different.
+>
+> **Language choice:** I make the relationship between evidence, constraint, and recommendation explicit. The response avoids a binary claim when the situation calls for a trade-off, and it gives the audience a practical checkpoint for challenging or confirming the recommendation. Other well-supported responses are possible.
 
-Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+### Vì sao bài mẫu phù hợp
 
-### Chuyển đổi register
+Bài mẫu thể hiện một cách xử lý hợp lý, không phải kịch bản bắt buộc học thuộc. Hãy so sánh mức hoàn thành nhiệm vụ, độ chính xác, độ phù hợp với người nghe và độ rõ với bài của bạn rồi sửa một lần.
 
-Viết lại câu trả lời hai lần: một bản cho đồng đội thân quen và một bản cho khách hàng hoặc stakeholder cấp cao. Giữ nguyên thông điệp nhưng thay đổi độ trực tiếp, lượng bối cảnh và mức giải thích. Chỉ ra một cụm từ bạn đã làm mềm, một chi tiết bạn nói rõ hơn và một giả định bạn đã loại bỏ.
+### Bài tập chuyển đổi
+
+Chuyển cùng thông điệp sang biên bản sự cố bằng văn bản. Giữ ngôn ngữ trọng tâm nhưng thay đổi chi tiết và văn phong cho bối cảnh mới.
 
 ### Tự kiểm tra
 
-- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
-- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
-- [ ] Người nghe có thể nhận ra ý chính ngay.
-- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+- [ ] Mình hoàn thành đủ yêu cầu của tình huống, không chỉ dùng đúng cấu trúc.
+- [ ] Ngôn ngữ trọng tâm chính xác và đúng ý định.
+- [ ] Độ trực tiếp và lượng chi tiết phù hợp người nghe hoặc người đọc.
+- [ ] Người nhận có thể nhận ra ý chính và bước tiếp theo.
+- [ ] Mình tách bằng chứng, giả định và khuyến nghị thay vì trình bày tất cả với cùng mức chắc chắn.
 
 <!-- learning-loop:end -->

@@ -11,7 +11,7 @@
   'skill': 'reading',
   'order': 8,
   'cefr': 'A1',
-  'minutes': 21,
+  'minutes': 22,
   'tags': ['weather', 'seasons', 'small-talk', 'reading'],
   'audioScript': "Today is sunny and hot. The temperature is 35 degrees.\nIn summer, it is very hot in Vietnam.\nIn winter, it is cold and sometimes rainy.\nI like spring because flowers are beautiful.\n",
   'listeningEnabled': true,
@@ -23,24 +23,54 @@
         'prompt': 'Which is the correct sentence?',
         'options': ['Today is sun.', 'Today is sunny.', 'Today is a sun.', 'Today is the sun.'],
         'answer': 'Today is sunny.',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “Today is sunny.” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Thời tiết. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'Today is sun.': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'Today is a sun.': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'Today is the sun.': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
       {
         'type': 'choice',
         'prompt': "How do you say 'mưa'?",
         'options': ['cloudy', 'sunny', 'rainy', 'windy'],
         'answer': 'rainy',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “rainy” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Thời tiết. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'cloudy': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'sunny': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'windy': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
-      { 'type': 'fill', 'prompt': 'In summer, it is very ___. (nóng)', 'answer': 'hot' },
+      {
+        'type': 'fill',
+        'prompt': 'In summer, it is very ___. (nóng)',
+        'answer': 'hot',
+        'acceptedAnswers': ['hot'],
+        'explanation': 'Trong ngữ cảnh câu hỏi, “hot” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Thời tiết. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+      },
       {
         'type': 'choice',
         'prompt': 'Which season is hot in Vietnam?',
         'options': ['spring', 'summer', 'autumn', 'winter'],
         'answer': 'summer',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “summer” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Thời tiết. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'spring': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'autumn': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'winter': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
     ],
   'categoryEn': 'Foundation English',
   'categoryVi': 'Tiếng Anh Nền tảng',
   'prerequisites': ['a1-07-food'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 20, 'maxWords': 70 },
 }
 ---
 
@@ -243,37 +273,43 @@ Nhấn play, sau đó lặp lại từng dòng.
 
 ## Kết quả học tập
 
-Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Thời tiết** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+Sau bài này, bạn có thể rút ra ý chính và chi tiết hỗ trợ từ văn bản về **Thời tiết**, sau đó đưa ra một cách hiểu dựa trên bằng chứng.
 
-## Phòng luyện tập
+## Luyện tập theo tình huống
 
-### Nhận diện cách diễn đạt
+### Tình huống
 
-Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+Đọc một tin nhắn thời tiết ngắn trước khi ra ngoài. Xác định tình trạng, nhiệt độ và kế hoạch phù hợp.
 
-> **Colleague:** How would you handle this situation?
->
-> **You:** Today is sunny and hot. The temperature is 35 degrees.
+> **Lưu ý:** Tình huống và các chi tiết đều là hư cấu để luyện ngôn ngữ; đây không phải sự kiện, chính sách, nghiên cứu hoặc diễn giải pháp lý có thật.
 
-Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+### Luyện tập có kiểm soát
 
-> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+Trước khi đọc lại phần giải thích, hãy viết một dòng cho ý chính, một dòng cho chi tiết hỗ trợ mạnh nhất và một cụm từ thể hiện tông giọng hoặc lập trường.
 
-### Đến lượt bạn
+### Nhiệm vụ có hướng dẫn
 
-Tạo một câu trả lời mới cho chủ đề **Thời tiết**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+Viết 20–70 từ bằng tiếng Anh dưới dạng ghi chú đọc hiểu có cấu trúc. Nêu ý chính, trích hoặc diễn đạt lại một chi tiết hỗ trợ, xác định một lựa chọn văn phong và tách bằng chứng khỏi suy luận.
 
 ### Bài mẫu
 
-> Today is sunny and hot. The temperature is 35 degrees. In summer, it is very hot in Vietnam. In winter, it is cold and sometimes rainy. I like spring because flowers are beautiful.
+> **Main point and evidence:** Today is sunny and hot. The temperature is 35 degrees. In summer, it is very hot in Vietnam. In winter, it is cold and sometimes rainy.
+>
+> **Interpretation:** I keep the message short, use familiar words, and finish with one clear next step. Other well-supported responses are possible.
 
-Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+### Vì sao bài mẫu phù hợp
+
+Bài mẫu thể hiện một cách xử lý hợp lý, không phải kịch bản bắt buộc học thuộc. Hãy so sánh mức hoàn thành nhiệm vụ, độ chính xác, độ phù hợp với người nghe và độ rõ với bài của bạn rồi sửa một lần.
+
+### Bài tập chuyển đổi
+
+Đổi kế hoạch ngày nóng thành kế hoạch ngày mưa. Giữ ngôn ngữ trọng tâm nhưng thay đổi chi tiết và văn phong cho bối cảnh mới.
 
 ### Tự kiểm tra
 
-- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
-- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
-- [ ] Người nghe có thể nhận ra ý chính ngay.
-- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+- [ ] Mình hoàn thành đủ yêu cầu của tình huống, không chỉ dùng đúng cấu trúc.
+- [ ] Ngôn ngữ trọng tâm chính xác và đúng ý định.
+- [ ] Độ trực tiếp và lượng chi tiết phù hợp người nghe hoặc người đọc.
+- [ ] Người nhận có thể nhận ra ý chính và bước tiếp theo.
 
 <!-- learning-loop:end -->

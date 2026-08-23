@@ -11,7 +11,7 @@
   'skill': 'grammar',
   'order': 13,
   'cefr': 'A1',
-  'minutes': 18,
+  'minutes': 20,
   'tags': ['can', 'cant', 'ability', 'permission', 'modal', 'grammar'],
   'audioScript': "I can swim very well. Can you swim?\nShe can't speak French, but she can speak English.\nExcuse me, can I sit here?\nCan you help me, please?\n",
   'listeningEnabled': true,
@@ -23,24 +23,54 @@
         'prompt': 'Which sentence is correct?',
         'options': ['I can to swim.', 'I can swimming.', 'I can swim.', 'I can swim to.'],
         'answer': 'I can swim.',
+        'explanation': "In this context, “I can swim.” supplies the meaning or form targeted in Can and Can't. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        'distractorFeedback':
+          {
+            'I can to swim.': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'I can swimming.': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'I can swim to.': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
       {
         'type': 'choice',
         'prompt': "What is the negative of 'I can swim'?",
         'options': ['I can not to swim.', "I don't can swim.", "I can't swim.", 'I no can swim.'],
         'answer': "I can't swim.",
+        'explanation': "In this context, “I can't swim.” supplies the meaning or form targeted in Can and Can't. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        'distractorFeedback':
+          {
+            'I can not to swim.': 'This option does not complete the communicative intent or target form tested by the question context.',
+            "I don't can swim.": 'This option does not complete the communicative intent or target form tested by the question context.',
+            'I no can swim.': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
       {
         'type': 'choice',
         'prompt': "A friend asks: 'Can you play the guitar?' You don't play. What do you say?",
         'options': ['Yes, I can.', "No, I can't.", "Yes, I can't.", 'I can.'],
         'answer': "No, I can't.",
+        'explanation': "In this context, “No, I can't.” supplies the meaning or form targeted in Can and Can't. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        'distractorFeedback':
+          {
+            'Yes, I can.': 'This option does not complete the communicative intent or target form tested by the question context.',
+            "Yes, I can't.": 'This option does not complete the communicative intent or target form tested by the question context.',
+            'I can.': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
-      { 'type': 'fill', 'prompt': 'Excuse me, ___ I open the window? (xin phép)', 'answer': 'can' },
+      {
+        'type': 'fill',
+        'prompt': 'Excuse me, ___ I open the window? (xin phép)',
+        'answer': 'can',
+        'acceptedAnswers': ['can'],
+        'explanation': "In this context, “can” supplies the meaning or form targeted in Can and Can't. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+      },
     ],
   'categoryEn': 'Foundation English',
   'categoryVi': 'Tiếng Anh Nền tảng',
   'prerequisites': ['a1-12-directions'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 20, 'maxWords': 70 },
 }
 ---
 
@@ -208,37 +238,43 @@ In **A1-14-describing-people**, you will learn the vocabulary to describe people
 
 ## Learning outcome
 
-By the end of this lesson, you will be able to choose an appropriate structure and apply it accurately when discussing can and can't.
+By the end of this lesson, you can produce a connected response about can and can't, use the target structure accurately, and explain one effect of that choice.
 
-## Practice lab
+## Scenario practice
 
-### Notice the language
+### Situation
 
-Read the situation, then listen to the model once for meaning and once for phrasing.
+A small group is dividing tasks for an event. Say two things you can do, one thing you cannot do, and ask for help.
 
-> **Colleague:** How would you handle **can and can't** in this situation?
->
-> **You:** I can swim very well. Can you swim?
+> **Training note:** This situation and its details are fictional. They are designed for language practice, not presented as a real event, policy, study, or legal interpretation.
 
-Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+### Controlled practice
 
-> **Pattern**: clear point + concrete detail or reason + appropriate next step
+Take two example sentences from the lesson. Transform the first with the target structure, then revise the second to change emphasis or level of certainty without changing the core facts.
 
-### Your turn
+### Guided task
 
-Write four connected sentences for a colleague or classmate. Use the target structure twice, then revise one sentence to change its tone or emphasis.
+Write 20–70 words for the situation. Use the target structure at least twice, underline those choices, and add one sentence explaining how one structure changes emphasis, time, condition, or certainty.
 
 ### Model response
 
-> I can swim very well. Can you swim? She can't speak French, but she can speak English. Excuse me, can I sit here? Can you help me, please?
+> **Draft:** I can swim very well. Can you swim? She can't speak French, but she can speak English. Excuse me, can I sit here?
+>
+> **Language choice:** I keep the message short, use familiar words, and finish with one clear next step. Other well-supported responses are possible.
 
-The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+### Why the model works
+
+The model shows one defensible route through the task; it is not a script to memorize. Compare its task completion, language accuracy, audience fit, and clarity with your response, then revise once.
+
+### Transfer task
+
+Ask a new teammate about their abilities. Keep the target language, but change the details and register needed for the new context.
 
 ### Self-check
 
-- [ ] I completed the task without translating a full Vietnamese sentence word for word.
-- [ ] I used at least two useful expressions from the lesson.
-- [ ] My main point is easy to identify.
-- [ ] I included a concrete detail, reason, or next step.
+- [ ] I completed every part of this lesson's scenario, not only the language form.
+- [ ] My target language is accurate and fits the intended meaning.
+- [ ] My level of directness and detail fits the named audience.
+- [ ] The reader or listener can identify my main point and next step.
 
 <!-- learning-loop:end -->

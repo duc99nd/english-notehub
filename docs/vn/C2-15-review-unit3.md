@@ -11,7 +11,7 @@
   'skill': 'review',
   'order': 15,
   'cefr': 'C2',
-  'minutes': 13,
+  'minutes': 14,
   'tags': ['review', 'research', 'debate', 'publishing', 'poetry', 'consolidation', 'C2 mastery'],
   'categoryEn': 'Expert Register and Influence',
   'categoryVi': 'Sắc thái và Ảnh hưởng Chuyên sâu',
@@ -26,6 +26,13 @@
         'prompt': 'Which structure creates maximum emphasis in formal debate?',
         'options': ['Simple sentence', 'Cleft sentence', 'Compound sentence', 'Question'],
         'answer': 'Cleft sentence',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “Cleft sentence” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 3. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'Simple sentence': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'Compound sentence': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'Question': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
       {
         'type': 'choice',
@@ -38,6 +45,13 @@
             'Transfer to another journal',
           ],
         'answer': 'Conditional acceptance pending revisions',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “Conditional acceptance pending revisions” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 3. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'Rejected outright': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'Immediate acceptance': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'Transfer to another journal': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
       {
         'type': 'choice',
@@ -50,6 +64,13 @@
             'Demonstrating linguistic virtuosity',
           ],
         'answer': 'Serving the occasion and audience',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “Serving the occasion and audience” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 3. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'Personal artistic expression': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'Challenging conventional forms': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'Demonstrating linguistic virtuosity': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
       {
         'type': 'choice',
@@ -62,18 +83,32 @@
             'Theory and practice',
           ],
         'answer': 'Confidence and epistemic humility',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “Confidence and epistemic humility” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 3. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'Speed and clarity': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'Length and depth': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'Theory and practice': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
       {
         'type': 'fill',
         'prompt': "In formal debate, 'It is not [X] but [Y] that matters' is an example of a ___ sentence.",
         'answer': 'cleft',
+        'acceptedAnswers': ['cleft'],
+        'explanation': 'Trong ngữ cảnh câu hỏi, “cleft” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 3. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
       },
       {
         'type': 'fill',
         'prompt': 'When responding to peer reviewers, one should address each comment ___.',
         'answer': 'in turn',
+        'acceptedAnswers': ['in turn'],
+        'explanation': 'Trong ngữ cảnh câu hỏi, “in turn” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 3. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
       },
     ],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 75, 'maxWords': 230 },
 }
 ---
 
@@ -198,42 +233,44 @@ _Đây là kết thúc chương trình C2. Tiếp tục thực hành các kỹ n
 
 ## Kết quả học tập
 
-Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Ôn tập Unit 3** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+Sau bài này, bạn có thể kết hợp ngôn ngữ trong unit để xử lý nhiệm vụ thực tế về **Ôn tập Unit 3** và giải thích một lần chỉnh sửa.
 
-## Phòng luyện tập
+## Luyện tập theo tình huống
 
-### Nhận diện cách diễn đạt
+### Tình huống
 
-Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+Hoàn thành capstone giao tiếp chuyên gia hư cấu: bảo vệ nghiên cứu, tranh luận kiến nghị, phản hồi peer review và viết kết thúc đáng nhớ cho sự kiện công khai.
 
-> **Colleague:** How would you handle this situation?
->
-> **You:** Unit 3 completes your C2 journey, integrating research, debate, publishing, and creative professional skills.
+> **Lưu ý:** Tình huống và các chi tiết đều là hư cấu để luyện ngôn ngữ; đây không phải sự kiện, chính sách, nghiên cứu hoặc diễn giải pháp lý có thật.
 
-Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+### Luyện tập có kiểm soát
 
-> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+Chọn ngôn ngữ từ ít nhất ba bài trong unit. Với mỗi lựa chọn, ghi rõ chức năng: miêu tả, kết nối, giới hạn, yêu cầu hoặc kết luận.
 
-### Đến lượt bạn
+### Nhiệm vụ có hướng dẫn
 
-Tạo một câu trả lời mới cho chủ đề **Ôn tập Unit 3**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+Viết 75–230 từ bằng tiếng Anh để hoàn thành nhiệm vụ tích hợp. Dùng nội dung từ ít nhất ba bài, sau đó chú thích một lần sửa giúp tăng độ chính xác, phù hợp tông giọng hoặc rõ ràng.
 
 ### Bài mẫu
 
-> Unit 3 completes your C2 journey, integrating research, debate, publishing, and creative professional skills. You now possess the full range of C2 communication competencies. This review consolidates your mastery across all three units.
+> **Integrated response:** Unit 3 completes your C2 journey, integrating research, debate, publishing, and creative professional skills. You now possess the full range of C2 communication competencies. This review consolidates your mastery across all three units.
+>
+> **Revision note:** I distinguish what the language states from what a reader may plausibly infer. The response preserves useful ambiguity only where the genre requires it, names the evidence supporting the preferred interpretation, and explicitly acknowledges what cannot be concluded without additional context or specialist review. Other well-supported responses are possible.
 
-Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+### Vì sao bài mẫu phù hợp
 
-### Chuyển đổi register
+Bài mẫu thể hiện một cách xử lý hợp lý, không phải kịch bản bắt buộc học thuộc. Hãy so sánh mức hoàn thành nhiệm vụ, độ chính xác, độ phù hợp với người nghe và độ rõ với bài của bạn rồi sửa một lần.
 
-Viết lại câu trả lời hai lần: một bản cho đồng đội thân quen và một bản cho khách hàng hoặc stakeholder cấp cao. Giữ nguyên thông điệp nhưng thay đổi độ trực tiếp, lượng bối cảnh và mức giải thích. Chỉ ra một cụm từ bạn đã làm mềm, một chi tiết bạn nói rõ hơn và một giả định bạn đã loại bỏ. Sau đó, viết thêm một cách diễn giải hợp lý khác của bài mẫu và nêu bằng chứng ngữ cảnh cần có để chọn giữa hai cách hiểu.
+### Bài tập chuyển đổi
+
+Tạo phiên bản khác cho người đọc tổ chức nhạy cảm với rủi ro. Giữ ngôn ngữ trọng tâm nhưng thay đổi chi tiết và văn phong cho bối cảnh mới.
 
 ### Tự kiểm tra
 
-- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
-- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
-- [ ] Người nghe có thể nhận ra ý chính ngay.
-- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
-- [ ] Mình đã giới hạn mức độ chắc chắn của nhận định và điều chỉnh register theo người nghe.
+- [ ] Mình hoàn thành đủ yêu cầu của tình huống, không chỉ dùng đúng cấu trúc.
+- [ ] Ngôn ngữ trọng tâm chính xác và đúng ý định.
+- [ ] Độ trực tiếp và lượng chi tiết phù hợp người nghe hoặc người đọc.
+- [ ] Người nhận có thể nhận ra ý chính và bước tiếp theo.
+- [ ] Mình tách bằng chứng, giả định và khuyến nghị thay vì trình bày tất cả với cùng mức chắc chắn.
 
 <!-- learning-loop:end -->

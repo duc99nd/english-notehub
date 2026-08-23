@@ -11,7 +11,7 @@
   'skill': 'vocab',
   'order': 12,
   'cefr': 'A1',
-  'minutes': 20,
+  'minutes': 22,
   'tags': ['directions', 'places', 'prepositions', 'vocab', 'travel'],
   'audioScript': "Excuse me, where is the bank?\nTurn left at the traffic light.\nGo straight for two blocks.\nThe hotel is on your right.\n",
   'listeningEnabled': true,
@@ -23,28 +23,54 @@
         'prompt': 'How do you ask for directions?',
         'options': ['Where is the bank?', 'I am the bank.', 'Bank is where?', 'Bank what?'],
         'answer': 'Where is the bank?',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “Where is the bank?” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Đường đi & Địa điểm. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'I am the bank.': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'Bank is where?': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'Bank what?': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
       {
         'type': 'choice',
         'prompt': "What does 'turn left' mean?",
         'options': ['rẽ trái', 'rẽ phải', 'đi thẳng', 'quay lại'],
         'answer': 'rẽ trái',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “rẽ trái” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Đường đi & Địa điểm. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'rẽ phải': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'đi thẳng': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'quay lại': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
       {
         'type': 'fill',
         'prompt': 'Go ___ for two blocks. (đi thẳng = straight)',
         'answer': 'straight',
+        'acceptedAnswers': ['straight'],
+        'explanation': 'Trong ngữ cảnh câu hỏi, “straight” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Đường đi & Địa điểm. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
       },
       {
         'type': 'choice',
         'prompt': "What is the opposite of 'far'?",
         'options': ['near', 'right', 'left', 'straight'],
         'answer': 'near',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “near” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Đường đi & Địa điểm. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'right': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'left': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'straight': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
     ],
   'categoryEn': 'Foundation English',
   'categoryVi': 'Tiếng Anh Nền tảng',
   'prerequisites': ['a1-11-shopping-money'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'dialogue', 'minTurns': 4, 'maxTurns': 6 },
 }
 ---
 
@@ -244,37 +270,47 @@ Nhấn play, sau đó lặp lại từng dòng.
 
 ## Kết quả học tập
 
-Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Đường đi & Địa điểm** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+Sau bài này, bạn có thể hoàn thành đoạn hội thoại bốn lượt về **Đường đi & Địa điểm**, chọn cách diễn đạt phù hợp quan hệ và mục tiêu trước mắt.
 
-## Phòng luyện tập
+## Luyện tập theo tình huống
 
-### Nhận diện cách diễn đạt
+### Tình huống
 
-Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+Một vị khách ở nhà ga cần tìm khách sạn gần đó. Hãy đưa ra ba bước chỉ đường ngắn và xác nhận khách sạn ở bên nào.
 
-> **Colleague:** How would you handle this situation?
->
-> **You:** Excuse me, where is the bank?
+> **Lưu ý:** Tình huống và các chi tiết đều là hư cấu để luyện ngôn ngữ; đây không phải sự kiện, chính sách, nghiên cứu hoặc diễn giải pháp lý có thật.
 
-Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+### Luyện tập có kiểm soát
 
-> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+Chọn ba cách diễn đạt trong bài **Đường đi & Địa điểm**. Gắn nhãn chức năng cho từng cách: mở lời, nêu chi tiết, làm rõ hoặc đưa bước tiếp theo. Loại cách diễn đạt không phù hợp quan hệ trong tình huống.
 
-### Đến lượt bạn
+### Nhiệm vụ có hướng dẫn
 
-Tạo một câu trả lời mới cho chủ đề **Đường đi & Địa điểm**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+Viết đoạn hội thoại bốn đến sáu lượt cho tình huống này. Dùng ít nhất ba cách diễn đạt trọng tâm, phản hồi thông tin của người kia và kết thúc bằng câu hỏi, xác nhận hoặc hành động đã thống nhất.
 
 ### Bài mẫu
 
-> Excuse me, where is the bank? Turn left at the traffic light. Go straight for two blocks. The hotel is on your right.
+> **Partner:** We need to respond to the situation above. What would you say first?
+>
+> **You:** Excuse me, where is the bank?
+>
+> **Partner:** What detail should we confirm before we act?
+>
+> **You:** Turn left at the traffic light. Go straight for two blocks.
 
-Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+### Vì sao bài mẫu phù hợp
+
+Bài mẫu thể hiện một cách xử lý hợp lý, không phải kịch bản bắt buộc học thuộc. Hãy so sánh mức hoàn thành nhiệm vụ, độ chính xác, độ phù hợp với người nghe và độ rõ với bài của bạn rồi sửa một lần.
+
+### Bài tập chuyển đổi
+
+Đổi sang chỉ đường từ khách sạn đến ngân hàng. Giữ ngôn ngữ trọng tâm nhưng thay đổi chi tiết và văn phong cho bối cảnh mới.
 
 ### Tự kiểm tra
 
-- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
-- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
-- [ ] Người nghe có thể nhận ra ý chính ngay.
-- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+- [ ] Mình hoàn thành đủ yêu cầu của tình huống, không chỉ dùng đúng cấu trúc.
+- [ ] Ngôn ngữ trọng tâm chính xác và đúng ý định.
+- [ ] Độ trực tiếp và lượng chi tiết phù hợp người nghe hoặc người đọc.
+- [ ] Người nhận có thể nhận ra ý chính và bước tiếp theo.
 
 <!-- learning-loop:end -->

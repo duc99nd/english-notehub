@@ -11,7 +11,7 @@
   'skill': 'review',
   'order': 15,
   'cefr': 'C2',
-  'minutes': 13,
+  'minutes': 14,
   'tags': ['review', 'research', 'debate', 'publishing', 'poetry', 'consolidation', 'C2 mastery'],
   'audioScript': "Unit 3 completes your C2 journey, integrating research, debate, publishing, and creative professional skills.\nYou now possess the full range of C2 communication competencies.\nThis review consolidates your mastery across all three units.\n",
   'listeningEnabled': true,
@@ -23,6 +23,13 @@
         'prompt': 'Which structure creates maximum emphasis in formal debate?',
         'options': ['Simple sentence', 'Cleft sentence', 'Compound sentence', 'Question'],
         'answer': 'Cleft sentence',
+        'explanation': 'In this context, “Cleft sentence” supplies the meaning or form targeted in Review Unit 3. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'Simple sentence': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Compound sentence': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Question': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
       {
         'type': 'choice',
@@ -35,6 +42,13 @@
             'Transfer to another journal',
           ],
         'answer': 'Conditional acceptance pending revisions',
+        'explanation': 'In this context, “Conditional acceptance pending revisions” supplies the meaning or form targeted in Review Unit 3. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'Rejected outright': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Immediate acceptance': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Transfer to another journal': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
       {
         'type': 'choice',
@@ -47,6 +61,13 @@
             'Demonstrating linguistic virtuosity',
           ],
         'answer': 'Serving the occasion and audience',
+        'explanation': 'In this context, “Serving the occasion and audience” supplies the meaning or form targeted in Review Unit 3. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'Personal artistic expression': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Challenging conventional forms': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Demonstrating linguistic virtuosity': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
       {
         'type': 'choice',
@@ -59,21 +80,35 @@
             'Theory and practice',
           ],
         'answer': 'Confidence and epistemic humility',
+        'explanation': 'In this context, “Confidence and epistemic humility” supplies the meaning or form targeted in Review Unit 3. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'Speed and clarity': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Length and depth': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Theory and practice': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
       {
         'type': 'fill',
         'prompt': "In formal debate, 'It is not [X] but [Y] that matters' is an example of a ___ sentence.",
         'answer': 'cleft',
+        'acceptedAnswers': ['cleft'],
+        'explanation': 'In this context, “cleft” supplies the meaning or form targeted in Review Unit 3. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
       },
       {
         'type': 'fill',
         'prompt': 'When responding to peer reviewers, one should address each comment ___.',
         'answer': 'in turn',
+        'acceptedAnswers': ['in turn'],
+        'explanation': 'In this context, “in turn” supplies the meaning or form targeted in Review Unit 3. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
       },
     ],
   'categoryEn': 'Expert Register and Influence',
   'categoryVi': 'Sắc thái và Ảnh hưởng Chuyên sâu',
   'prerequisites': ['c2-14-professional-poetry'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 75, 'maxWords': 230 },
 }
 ---
 
@@ -198,42 +233,44 @@ _This concludes the C2 level curriculum. Continue practicing these skills in aut
 
 ## Learning outcome
 
-By the end of this lesson, you will be able to combine the unit language to complete a realistic task about review unit 3.
+By the end of this lesson, you can combine language from the unit to resolve a realistic task involving review unit 3 and justify one revision.
 
-## Practice lab
+## Scenario practice
 
-### Notice the language
+### Situation
 
-Read the situation, then listen to the model once for meaning and once for phrasing.
+Complete a fictional expert-communication capstone: defend research, debate a motion, answer peer review, and craft a memorable closing for a public event.
 
-> **Colleague:** How would you handle **review unit 3** in this situation?
->
-> **You:** Unit 3 completes your C2 journey, integrating research, debate, publishing, and creative professional skills.
+> **Training note:** This situation and its details are fictional. They are designed for language practice, not presented as a real event, policy, study, or legal interpretation.
 
-Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+### Controlled practice
 
-> **Pattern**: clear point + concrete detail or reason + appropriate next step
+Select language from at least three lessons in this unit. For each choice, note the job it performs: describe, connect, qualify, request, or conclude.
 
-### Your turn
+### Guided task
 
-Complete one integrated response for a colleague, client, and senior stakeholder using language from at least three lessons in this unit.
+Write 75–230 words to complete the integrated task. Use material from at least three lessons, then annotate one revision that improved accuracy, tone, or clarity.
 
 ### Model response
 
-> Unit 3 completes your C2 journey, integrating research, debate, publishing, and creative professional skills. You now possess the full range of C2 communication competencies. This review consolidates your mastery across all three units.
+> **Integrated response:** Unit 3 completes your C2 journey, integrating research, debate, publishing, and creative professional skills. You now possess the full range of C2 communication competencies. This review consolidates your mastery across all three units.
+>
+> **Revision note:** I distinguish what the language states from what a reader may plausibly infer. The response preserves useful ambiguity only where the genre requires it, names the evidence supporting the preferred interpretation, and explicitly acknowledges what cannot be concluded without additional context or specialist review. Other well-supported responses are possible.
 
-The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+### Why the model works
 
-### Register switch
+The model shows one defensible route through the task; it is not a script to memorize. Compare its task completion, language accuracy, audience fit, and clarity with your response, then revise once.
 
-Rewrite your response twice: first for a trusted teammate, then for a client or senior stakeholder. Keep the underlying message the same while changing directness, context, and the amount of explanation. Identify one phrase you softened, one detail you made explicit, and one assumption you removed. Then write a plausible alternative interpretation of the model and explain which contextual evidence would help a reader choose between the two readings.
+### Transfer task
+
+Produce an alternative version for a risk-sensitive institutional audience. Keep the target language, but change the details and register needed for the new context.
 
 ### Self-check
 
-- [ ] I completed the task without translating a full Vietnamese sentence word for word.
-- [ ] I used at least two useful expressions from the lesson.
-- [ ] My main point is easy to identify.
-- [ ] I included a concrete detail, reason, or next step.
-- [ ] I qualified claims where certainty was limited and adjusted the register for my audience.
+- [ ] I completed every part of this lesson's scenario, not only the language form.
+- [ ] My target language is accurate and fits the intended meaning.
+- [ ] My level of directness and detail fits the named audience.
+- [ ] The reader or listener can identify my main point and next step.
+- [ ] I separated evidence, assumptions, and recommendations instead of presenting them as equally certain.
 
 <!-- learning-loop:end -->

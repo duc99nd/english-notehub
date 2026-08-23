@@ -11,6 +11,7 @@
     "content:manifest": "node scripts/generate-content-manifest.cjs",
     "content:check": "node scripts/generate-content-manifest.cjs --check && node scripts/content-audit.cjs",
     "content:audit": "node scripts/quality-lint.cjs",
+    "content:rewrite": "node scripts/rewrite-curriculum.cjs",
     "content:sync": "node scripts/remediate-curriculum.cjs",
     "test:content": "node --test scripts/content-audit.test.cjs",
     "type-check": "vue-tsc --noEmit",

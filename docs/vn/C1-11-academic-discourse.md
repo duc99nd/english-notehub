@@ -11,7 +11,7 @@
   'skill': 'vocab',
   'order': 11,
   'cefr': 'C1',
-  'minutes': 11,
+  'minutes': 12,
   'tags': ['vocab', 'academic', 'discourse', 'hedging', 'C1'],
   'audioScript': "The findings suggest a correlation between the variables.\nThe methodology warrants further investigation.\nThe literature indicates a gap in current research.\n",
   'listeningEnabled': true,
@@ -23,22 +23,39 @@
         'prompt': 'What is "hedging" in academic writing?',
         'options': ['Strong claims', 'Cautious, qualified language', 'Technical jargon'],
         'answer': 'Cautious, qualified language',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “Cautious, qualified language” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Diễn ngôn Học thuật. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'Strong claims': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'Technical jargon': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
       {
         'type': 'fill',
         'prompt': 'The findings ___ a correlation between the variables.',
         'answer': 'suggest',
+        'acceptedAnswers': ['suggest'],
+        'explanation': 'Trong ngữ cảnh câu hỏi, “suggest” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Diễn ngôn Học thuật. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
       },
       {
         'type': 'choice',
         'prompt': 'Which is a hedging word?',
         'options': ['Proves', 'Suggests', 'Guarantees'],
         'answer': 'Suggests',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “Suggests” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Diễn ngôn Học thuật. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'Proves': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'Guarantees': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
     ],
   'categoryEn': 'Strategic Professional Communication',
   'categoryVi': 'Giao tiếp Chuyên nghiệp Chiến lược',
   'prerequisites': ['c1-10-review-unit2'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'dialogue', 'minTurns': 4, 'maxTurns': 6 },
 }
 ---
 
@@ -96,7 +113,7 @@ Người viết học thuật sử dụng **hedge** để hạn chế tuyên b�
 2. "Điều này chứng minh X." → "Điều này \_\_\_ X." (yếu hơn)
 3. "Nhiều nhà nghiên cứu nghĩ..." → "Tài liệu \_\_\_..."
 
-## What to learn next
+## Bài học tiếp theo
 
 Trong bài tiếp theo **C1-12-nuanced-grammar**, bạn sẽ làm chủ ngữ pháp tinh tế C1 cho ngữ cảnh học thuật.
 
@@ -104,42 +121,48 @@ Trong bài tiếp theo **C1-12-nuanced-grammar**, bạn sẽ làm chủ ngữ ph
 
 ## Kết quả học tập
 
-Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Diễn ngôn Học thuật** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+Sau bài này, bạn có thể hoàn thành đoạn hội thoại bốn lượt về **Diễn ngôn Học thuật**, chọn cách diễn đạt phù hợp quan hệ và mục tiêu trước mắt.
 
-## Phòng luyện tập
+## Luyện tập theo tình huống
 
-### Nhận diện cách diễn đạt
+### Tình huống
 
-Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+Thảo luận nghiên cứu nơi làm việc hư cấu cho thấy tương quan chứ chưa chứng minh nhân quả. Dùng ngôn ngữ nghiên cứu thận trọng và xác định khoảng trống.
 
-> **Colleague:** How would you handle this situation?
->
-> **You:** The findings suggest a correlation between the variables.
+> **Lưu ý:** Tình huống và các chi tiết đều là hư cấu để luyện ngôn ngữ; đây không phải sự kiện, chính sách, nghiên cứu hoặc diễn giải pháp lý có thật.
 
-Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+### Luyện tập có kiểm soát
 
-> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+Chọn ba cách diễn đạt trong bài **Diễn ngôn Học thuật**. Gắn nhãn chức năng cho từng cách: mở lời, nêu chi tiết, làm rõ hoặc đưa bước tiếp theo. Loại cách diễn đạt không phù hợp quan hệ trong tình huống.
 
-### Đến lượt bạn
+### Nhiệm vụ có hướng dẫn
 
-Tạo một câu trả lời mới cho chủ đề **Diễn ngôn Học thuật**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+Viết đoạn hội thoại bốn đến sáu lượt cho tình huống này. Dùng ít nhất ba cách diễn đạt trọng tâm, phản hồi thông tin của người kia và kết thúc bằng câu hỏi, xác nhận hoặc hành động đã thống nhất.
 
 ### Bài mẫu
 
-> The findings suggest a correlation between the variables. The methodology warrants further investigation. The literature indicates a gap in current research.
+> **Partner:** We need to respond to the situation above. What would you say first?
+>
+> **You:** The findings suggest a correlation between the variables.
+>
+> **Partner:** What detail should we confirm before we act?
+>
+> **You:** The methodology warrants further investigation. The literature indicates a gap in current research.
 
-Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+### Vì sao bài mẫu phù hợp
 
-### Chuyển đổi register
+Bài mẫu thể hiện một cách xử lý hợp lý, không phải kịch bản bắt buộc học thuộc. Hãy so sánh mức hoàn thành nhiệm vụ, độ chính xác, độ phù hợp với người nghe và độ rõ với bài của bạn rồi sửa một lần.
 
-Viết lại câu trả lời hai lần: một bản cho đồng đội thân quen và một bản cho khách hàng hoặc stakeholder cấp cao. Giữ nguyên thông điệp nhưng thay đổi độ trực tiếp, lượng bối cảnh và mức giải thích. Chỉ ra một cụm từ bạn đã làm mềm, một chi tiết bạn nói rõ hơn và một giả định bạn đã loại bỏ.
+### Bài tập chuyển đổi
+
+Giải thích kết quả cho lãnh đạo vận hành không chuyên học thuật. Giữ ngôn ngữ trọng tâm nhưng thay đổi chi tiết và văn phong cho bối cảnh mới.
 
 ### Tự kiểm tra
 
-- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
-- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
-- [ ] Người nghe có thể nhận ra ý chính ngay.
-- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
-- [ ] Mình đã giới hạn mức độ chắc chắn của nhận định và điều chỉnh register theo người nghe.
+- [ ] Mình hoàn thành đủ yêu cầu của tình huống, không chỉ dùng đúng cấu trúc.
+- [ ] Ngôn ngữ trọng tâm chính xác và đúng ý định.
+- [ ] Độ trực tiếp và lượng chi tiết phù hợp người nghe hoặc người đọc.
+- [ ] Người nhận có thể nhận ra ý chính và bước tiếp theo.
+- [ ] Mình tách bằng chứng, giả định và khuyến nghị thay vì trình bày tất cả với cùng mức chắc chắn.
 
 <!-- learning-loop:end -->

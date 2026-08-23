@@ -101,11 +101,11 @@ for (const file of files) {
     /\*\*[A-Z][a-zA-Z]+:\*\*\s/.test(body) || /\*\*?[A-Z][a-zA-Z]+(?:\*\*?)?:\s/.test(body)
   const hasContext =
     hasDialogue ||
-    /(^|\n)#{2,3}\s+(scenario|the situation|reading|example|worked example|kịch bản|tình huống|bài đọc|ví dụ)/im.test(
+    /(^|\n)#{2,3}\s+(scenario|the situation|reading|editorial|passage|example|worked example|kịch bản|tình huống|bài đọc|bài xã luận|ví dụ)/im.test(
       body,
     )
   const hasActivity =
-    /\b(try it|your turn|write a|writing prompt|practice:|exercise:|now you try|đến lượt|thử viết|luyện tập|tự kiểm)\b/i.test(
+    /\b(try it|your turn|write a|writing prompt|guided task|guided speaking task|guided writing task|guided analytical task|practice:|exercise:|now you try|đến lượt|thử viết|luyện tập|tự kiểm)\b/i.test(
       body,
     )
   const hasPatternBox = /\*\*Pattern\b|\*\*Mẫu[^\*]*?\*\*|\*\*Pattern\s+[A-Z]/i.test(body)
@@ -127,7 +127,8 @@ for (const file of files) {
   if (wordCount < minWords) issues.push(`LOW_WORDS(${wordCount}/${minWords})`)
   if (isCurriculum && !hasContext) issues.push('NO_CONTEXT')
   if (isCurriculum && !hasActivity) issues.push('NO_ACTIVITY')
-  if (isCurriculum && !hasPatternBox && ['A1', 'A2'].includes(lvl)) issues.push('NO_PATTERN')
+  const requiresPattern = ['A1', 'A2'].includes(lvl) && ['vocab', 'grammar'].includes(data.skill)
+  if (isCurriculum && !hasPatternBox && requiresPattern) issues.push('NO_PATTERN')
   if (isCurriculum && quizDiversity < 2) issues.push(`QUIZ_MONOTONE(${quizDiversity})`)
   if (isCurriculum && audioSentences < 2) issues.push(`AUDIO_THIN(${audioSentences})`)
   if (emptyRows > 0) issues.push(`EMPTY_ROWS(${emptyRows})`)
@@ -139,7 +140,7 @@ for (const file of files) {
   if (wordCount < minWords) score -= 25
   if (isCurriculum && !hasContext) score -= 15
   if (isCurriculum && !hasActivity) score -= 15
-  if (isCurriculum && !hasPatternBox && ['A1', 'A2'].includes(lvl)) score -= 10
+  if (isCurriculum && !hasPatternBox && requiresPattern) score -= 10
   if (isCurriculum && quizDiversity < 2) score -= 15
   if (isCurriculum && audioSentences < 2) score -= 5
   if (emptyRows > 0) score -= 15
@@ -175,7 +176,8 @@ if (jsonOutput) {
   process.exit(0)
 }
 
-const tier = (score) => {
+const tier = (score, hasIssues = false) => {
+  if (hasIssues && score >= 80) return 'REVIEW '
   if (score >= 80) return 'GOOD   '
   if (score >= 60) return 'OK     '
   if (score >= 40) return 'THIN   '
@@ -187,17 +189,17 @@ console.log('-'.repeat(96))
 for (const r of reports) {
   const issues = r.issues.length ? r.issues.join(' ').padEnd(36).slice(0, 36) : '-'.padEnd(36)
   console.log(
-    `${tier(r.score)} ${String(r.score).padStart(3)}    ${String(r.wordCount).padStart(5)}    ${issues}  ${r.file}`,
+    `${tier(r.score, r.issues.length > 0)} ${String(r.score).padStart(3)}    ${String(r.wordCount).padStart(5)}    ${issues}  ${r.file}`,
   )
 }
 
 // Aggregate stats by tier for a quick health check.
-const counts = { GOOD: 0, OK: 0, THIN: 0, CRITICAL: 0 }
+const counts = { GOOD: 0, REVIEW: 0, OK: 0, THIN: 0, CRITICAL: 0 }
 for (const r of reports) {
-  const t = tier(r.score).trim()
+  const t = tier(r.score, r.issues.length > 0).trim()
   counts[t]++
 }
 console.log()
 console.log(
-  `GOOD: ${counts.GOOD}   OK: ${counts.OK}   THIN: ${counts.THIN}   CRITICAL: ${counts.CRITICAL}   TOTAL: ${reports.length}`,
+  `GOOD: ${counts.GOOD}   REVIEW: ${counts.REVIEW}   OK: ${counts.OK}   THIN: ${counts.THIN}   CRITICAL: ${counts.CRITICAL}   TOTAL: ${reports.length}`,
 )

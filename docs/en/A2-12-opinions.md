@@ -11,7 +11,7 @@
   'skill': 'grammar',
   'order': 12,
   'cefr': 'A2',
-  'minutes': 10,
+  'minutes': 12,
   'tags': ['opinions', 'grammar', 'speaking', 'thinking'],
   'audioScript': "I think this is a great movie.\nIn my opinion, we should leave early.\nI believe learning English is important.\n",
   'listeningEnabled': true,
@@ -24,22 +24,39 @@
         'options':
           ['I am thinking this is good.', 'I think this is good.', 'I thinked this is good.'],
         'answer': 'I think this is good.',
+        'explanation': 'In this context, “I think this is good.” supplies the meaning or form targeted in Opinions. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'I am thinking this is good.': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'I thinked this is good.': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
       {
         'type': 'fill',
         'prompt': 'In my ___, we should try again. (opinion)',
         'answer': 'opinion',
+        'acceptedAnswers': ['opinion'],
+        'explanation': 'In this context, “opinion” supplies the meaning or form targeted in Opinions. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
       },
       {
         'type': 'choice',
         'prompt': 'Which is NOT a phrase for opinions?',
         'options': ['I believe', 'I want', 'I feel'],
         'answer': 'I want',
+        'explanation': 'In this context, “I want” supplies the meaning or form targeted in Opinions. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'I believe': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'I feel': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
     ],
   'categoryEn': 'Everyday Workplace English',
   'categoryVi': 'Tiếng Anh Công việc Hằng ngày',
   'prerequisites': ['a2-11-small-talk'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 28, 'maxWords': 90 },
 }
 ---
 
@@ -101,37 +118,43 @@ In the next lesson **A2-13-experiences**, you will learn how to talk about exper
 
 ## Learning outcome
 
-By the end of this lesson, you will be able to choose an appropriate structure and apply it accurately when discussing opinions.
+By the end of this lesson, you can produce a connected response about opinions, use the target structure accurately, and explain one effect of that choice.
 
-## Practice lab
+## Scenario practice
 
-### Notice the language
+### Situation
 
-Read the situation, then listen to the model once for meaning and once for phrasing.
+A small team must choose between an early and a late event time. State your preference, give one reason, and ask another person’s view.
 
-> **Colleague:** How would you handle **opinions** in this situation?
->
-> **You:** I think this is a great movie.
+> **Training note:** This situation and its details are fictional. They are designed for language practice, not presented as a real event, policy, study, or legal interpretation.
 
-Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+### Controlled practice
 
-> **Pattern**: clear point + concrete detail or reason + appropriate next step
+Take two example sentences from the lesson. Transform the first with the target structure, then revise the second to change emphasis or level of certainty without changing the core facts.
 
-### Your turn
+### Guided task
 
-Write four connected sentences for a colleague or classmate. Use the target structure twice, then revise one sentence to change its tone or emphasis.
+Write 28–90 words for the situation. Use the target structure at least twice, underline those choices, and add one sentence explaining how one structure changes emphasis, time, condition, or certainty.
 
 ### Model response
 
-> I think this is a great movie. In my opinion, we should leave early. I believe learning English is important.
+> **Draft:** I think this is a great movie. In my opinion, we should leave early. I believe learning English is important.
+>
+> **Language choice:** I connect the main point to one concrete detail. I check the time, person, or action so the listener knows what happens next. Other well-supported responses are possible.
 
-The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+### Why the model works
+
+The model shows one defensible route through the task; it is not a script to memorize. Compare its task completion, language accuracy, audience fit, and clarity with your response, then revise once.
+
+### Transfer task
+
+Discuss two lunch locations instead of event times. Keep the target language, but change the details and register needed for the new context.
 
 ### Self-check
 
-- [ ] I completed the task without translating a full Vietnamese sentence word for word.
-- [ ] I used at least two useful expressions from the lesson.
-- [ ] My main point is easy to identify.
-- [ ] I included a concrete detail, reason, or next step.
+- [ ] I completed every part of this lesson's scenario, not only the language form.
+- [ ] My target language is accurate and fits the intended meaning.
+- [ ] My level of directness and detail fits the named audience.
+- [ ] The reader or listener can identify my main point and next step.
 
 <!-- learning-loop:end -->

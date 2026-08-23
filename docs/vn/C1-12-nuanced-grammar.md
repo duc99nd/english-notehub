@@ -11,7 +11,7 @@
   'skill': 'grammar',
   'order': 12,
   'cefr': 'C1',
-  'minutes': 12,
+  'minutes': 14,
   'tags': ['grammar', 'mixed-conditionals', 'modality', 'advanced', 'C1'],
   'audioScript': "Had the board approved the proposal earlier, we would be operating internationally today.\nWere we to launch in Q1, we would capture the early adopters.\nShould circumstances change, we are prepared to pivot.\n",
   'listeningEnabled': true,
@@ -28,22 +28,39 @@
             'If it rains, I stayed.',
           ],
         'answer': 'If I had studied, I would be a doctor now.',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “If I had studied, I would be a doctor now.” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ngữ pháp C1 tinh tế. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'If it rains, I will stay.': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'If it rains, I stayed.': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
       {
         'type': 'fill',
         'prompt': '___ circumstances change, we are prepared to pivot.',
         'answer': 'Should',
+        'acceptedAnswers': ['Should'],
+        'explanation': 'Trong ngữ cảnh câu hỏi, “Should” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ngữ pháp C1 tinh tế. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
       },
       {
         'type': 'choice',
         'prompt': 'What does "modal perfect" express?',
         'options': ['Future possibility', 'Past speculation / regret', 'Present habit'],
         'answer': 'Past speculation / regret',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “Past speculation / regret” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ngữ pháp C1 tinh tế. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'Future possibility': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'Present habit': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
     ],
   'categoryEn': 'Strategic Professional Communication',
   'categoryVi': 'Giao tiếp Chuyên nghiệp Chiến lược',
   'prerequisites': ['c1-11-academic-discourse'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 65, 'maxWords': 200 },
 }
 ---
 
@@ -113,7 +130,7 @@ Hedge học thuật sử dụng **tạo khoảng cách** để thể hiện sự
 2. "Nếu bạn cần giúp, hãy gọi tôi." → Đảo ngữ điều kiện
 3. "Có thể họ đã bỏ lỡ cuộc họp." → Modal perfect
 
-## What to learn next
+## Bài học tiếp theo
 
 Trong bài tiếp theo **C1-13-critical-reading**, bạn sẽ đọc và phê bình lập luận học thuật.
 
@@ -121,42 +138,44 @@ Trong bài tiếp theo **C1-13-critical-reading**, bạn sẽ đọc và phê b�
 
 ## Kết quả học tập
 
-Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Ngữ pháp C1 tinh tế** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+Sau bài này, bạn có thể tạo câu trả lời liền mạch về **Ngữ pháp C1 tinh tế**, dùng đúng cấu trúc trọng tâm và giải thích tác dụng của một lựa chọn.
 
-## Phòng luyện tập
+## Luyện tập theo tình huống
 
-### Nhận diện cách diễn đạt
+### Tình huống
 
-Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+So sánh các kịch bản thâm nhập thị trường hư cấu có thời điểm và bằng chứng khác nhau. Dùng đảo ngữ và phân biệt điều kiện, xác suất, phương án dự phòng.
 
-> **Colleague:** How would you handle this situation?
->
-> **You:** Had the board approved the proposal earlier, we would be operating internationally today.
+> **Lưu ý:** Tình huống và các chi tiết đều là hư cấu để luyện ngôn ngữ; đây không phải sự kiện, chính sách, nghiên cứu hoặc diễn giải pháp lý có thật.
 
-Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+### Luyện tập có kiểm soát
 
-> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+Lấy hai câu ví dụ trong bài. Biến đổi câu đầu bằng cấu trúc trọng tâm, sau đó sửa câu thứ hai để thay đổi mức nhấn mạnh hoặc độ chắc chắn nhưng giữ nguyên dữ kiện.
 
-### Đến lượt bạn
+### Nhiệm vụ có hướng dẫn
 
-Tạo một câu trả lời mới cho chủ đề **Ngữ pháp C1 tinh tế**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+Viết 65–200 từ bằng tiếng Anh cho tình huống. Dùng cấu trúc trọng tâm ít nhất hai lần, gạch chân các chỗ đó và thêm một câu giải thích cấu trúc đã thay đổi mức nhấn mạnh, thời gian, điều kiện hoặc độ chắc chắn như thế nào.
 
 ### Bài mẫu
 
-> Had the board approved the proposal earlier, we would be operating internationally today. Were we to launch in Q1, we would capture the early adopters. Should circumstances change, we are prepared to pivot.
+> **Draft:** Had the board approved the proposal earlier, we would be operating internationally today. Were we to launch in Q1, we would capture the early adopters. Should circumstances change, we are prepared to pivot.
+>
+> **Language choice:** I select only the evidence that changes the decision, qualify any projection that depends on an assumption, and make ownership visible. A different stakeholder could reasonably prefer another option, so the response identifies the condition that would justify revisiting the recommendation. Other well-supported responses are possible.
 
-Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+### Vì sao bài mẫu phù hợp
 
-### Chuyển đổi register
+Bài mẫu thể hiện một cách xử lý hợp lý, không phải kịch bản bắt buộc học thuộc. Hãy so sánh mức hoàn thành nhiệm vụ, độ chính xác, độ phù hợp với người nghe và độ rõ với bài của bạn rồi sửa một lần.
 
-Viết lại câu trả lời hai lần: một bản cho đồng đội thân quen và một bản cho khách hàng hoặc stakeholder cấp cao. Giữ nguyên thông điệp nhưng thay đổi độ trực tiếp, lượng bối cảnh và mức giải thích. Chỉ ra một cụm từ bạn đã làm mềm, một chi tiết bạn nói rõ hơn và một giả định bạn đã loại bỏ.
+### Bài tập chuyển đổi
+
+Sửa khuyến nghị khi một điều kiện trở nên khó xảy ra. Giữ ngôn ngữ trọng tâm nhưng thay đổi chi tiết và văn phong cho bối cảnh mới.
 
 ### Tự kiểm tra
 
-- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
-- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
-- [ ] Người nghe có thể nhận ra ý chính ngay.
-- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
-- [ ] Mình đã giới hạn mức độ chắc chắn của nhận định và điều chỉnh register theo người nghe.
+- [ ] Mình hoàn thành đủ yêu cầu của tình huống, không chỉ dùng đúng cấu trúc.
+- [ ] Ngôn ngữ trọng tâm chính xác và đúng ý định.
+- [ ] Độ trực tiếp và lượng chi tiết phù hợp người nghe hoặc người đọc.
+- [ ] Người nhận có thể nhận ra ý chính và bước tiếp theo.
+- [ ] Mình tách bằng chứng, giả định và khuyến nghị thay vì trình bày tất cả với cùng mức chắc chắn.
 
 <!-- learning-loop:end -->

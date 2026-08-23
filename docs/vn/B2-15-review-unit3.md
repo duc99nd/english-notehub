@@ -11,7 +11,7 @@
   'skill': 'review',
   'order': 15,
   'cefr': 'B2',
-  'minutes': 10,
+  'minutes': 12,
   'tags': ['review', 'culture', 'grammar', 'reading', 'writing', 'consolidation', 'B2'],
   'audioScript': "Welcome to the final review of B2.\nYou have mastered cultural communication.\nYou can now write formal correspondence and analyze complex texts.\n",
   'listeningEnabled': true,
@@ -23,29 +23,58 @@
         'prompt': 'What does "read between the lines" mean?',
         'options': ['Understand implied meaning', 'Read slowly', 'Summarize'],
         'answer': 'Understand implied meaning',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “Understand implied meaning” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 3. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'Read slowly': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'Summarize': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
-      { 'type': 'fill', 'prompt': 'I am writing to ___ about the position.', 'answer': 'inquire' },
+      {
+        'type': 'fill',
+        'prompt': 'I am writing to ___ about the position.',
+        'answer': 'inquire',
+        'acceptedAnswers': ['inquire'],
+        'explanation': 'Trong ngữ cảnh câu hỏi, “inquire” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 3. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+      },
       {
         'type': 'choice',
         'prompt': 'Which word introduces a contrast?',
         'options': ['Because', 'Although', 'And'],
         'answer': 'Although',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “Although” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 3. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'Because': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'And': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
       {
         'type': 'fill',
         'prompt': 'Critics ___ that the policy fails to address core issues.',
         'answer': 'contend',
+        'acceptedAnswers': ['contend'],
+        'explanation': 'Trong ngữ cảnh câu hỏi, “contend” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 3. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
       },
       {
         'type': 'choice',
         'prompt': 'Formal email opening?',
         'options': ['Hey!', 'Dear Sir or Madam,', 'Yo'],
         'answer': 'Dear Sir or Madam,',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “Dear Sir or Madam,” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 3. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'Hey!': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'Yo': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
     ],
   'categoryEn': 'Technical Leadership Communication',
   'categoryVi': 'Giao tiếp Dẫn dắt Kỹ thuật',
   'prerequisites': ['b2-14-formal-correspondence'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 55, 'maxWords': 170 },
 }
 ---
 
@@ -61,12 +90,12 @@ Unit 3 hoàn thành hành trình B2 của bạn, tích hợp nhận thức văn 
 
 Giao tiếp liên văn hóa đòi hỏi sự nhạy cảm và thích ứng. Hiểu sự khác biệt giữa văn hóa ngữ cảnh cao và thấp giúp bạn điều hướng các mối quan hệ kinh doanh quốc tế.
 
-|| Khái niệm | Ứng dụng |
-|| --- | --- |
-|| High-context | Giao tiếp gián tiếp, tập trung vào quan hệ |
-|| Low-context | Giao tiếp trực tiếp, tập trung vào công việc |
-|| Building rapport | Xây dựng mối quan hệ trước khi kinh doanh |
-|| Being mindful of | Nhận thức và tôn trọng sự khác biệt |
+| Khái niệm        | Ứng dụng                                     |
+| ---------------- | -------------------------------------------- |
+| High-context     | Giao tiếp gián tiếp, tập trung vào quan hệ   |
+| Low-context      | Giao tiếp trực tiếp, tập trung vào công việc |
+| Building rapport | Xây dựng mối quan hệ trước khi kinh doanh    |
+| Being mindful of | Nhận thức và tôn trọng sự khác biệt          |
 
 ### 2. Cấu trúc câu phức (B2-12)
 
@@ -119,18 +148,18 @@ Register trang trọng trong email kinh doanh:
 
 ## Đánh giá Mức độ Làm chủ
 
-|| Kỹ năng | Bạn có thể... | Tự đánh giá (1-5) |
-|| --- | --- | --- |
-|| Đàm phán | Sử dụng thành ngữ đàm phán nâng cao? | |
-|| Xung đột | Dùng câu bị động và điều kiện đảo ngữ? | |
-|| Kiến trúc | Đọc và thảo luận bài thuyết trình kỹ thuật? | |
-|| Điều phối | Dẫn dắt cuộc họp chuyên nghiệp? | |
-|| Thuyết phục | Cân bằng hedging và nhấn mạnh? | |
-|| Đọc kinh doanh | Phân tích bài báo kinh doanh? | |
-|| Đề xuất | Viết đề xuất trang trọng? | |
-|| Dữ liệu | Kể chuyện qua dữ liệu? | |
-|| Điều kiện | Dùng câu điều kiện hỗn hợp? | |
-|| Văn hóa | Điều hướng khác biệt văn hóa? | |
+| Kỹ năng        | Bạn có thể...                               | Tự đánh giá (1-5) |
+| -------------- | ------------------------------------------- | ----------------- |
+| Đàm phán       | Sử dụng thành ngữ đàm phán nâng cao?        |                   |
+| Xung đột       | Dùng câu bị động và điều kiện đảo ngữ?      |                   |
+| Kiến trúc      | Đọc và thảo luận bài thuyết trình kỹ thuật? |                   |
+| Điều phối      | Dẫn dắt cuộc họp chuyên nghiệp?             |                   |
+| Thuyết phục    | Cân bằng hedging và nhấn mạnh?              |                   |
+| Đọc kinh doanh | Phân tích bài báo kinh doanh?               |                   |
+| Đề xuất        | Viết đề xuất trang trọng?                   |                   |
+| Dữ liệu        | Kể chuyện qua dữ liệu?                      |                   |
+| Điều kiện      | Dùng câu điều kiện hỗn hợp?                 |                   |
+| Văn hóa        | Điều hướng khác biệt văn hóa?               |                   |
 
 ## Hoàn thành B2
 
@@ -152,41 +181,44 @@ Trước khi xem đáp án, hãy giải thích người nghe, mối quan hệ v�
 
 ## Kết quả học tập
 
-Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Ôn tập Unit 3** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+Sau bài này, bạn có thể kết hợp ngôn ngữ trong unit để xử lý nhiệm vụ thực tế về **Ôn tập Unit 3** và giải thích một lần chỉnh sửa.
 
-## Phòng luyện tập
+## Luyện tập theo tình huống
 
-### Nhận diện cách diễn đạt
+### Tình huống
 
-Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+Phản hồi đối tác quốc tế hư cấu: làm rõ thông điệp mơ hồ, cấu trúc cập nhật phức tạp, đánh giá nhận định ngắn và gửi thư trang trọng.
 
-> **Colleague:** How would you handle this situation?
->
-> **You:** Welcome to the final review of B2.
+> **Lưu ý:** Tình huống và các chi tiết đều là hư cấu để luyện ngôn ngữ; đây không phải sự kiện, chính sách, nghiên cứu hoặc diễn giải pháp lý có thật.
 
-Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+### Luyện tập có kiểm soát
 
-> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+Chọn ngôn ngữ từ ít nhất ba bài trong unit. Với mỗi lựa chọn, ghi rõ chức năng: miêu tả, kết nối, giới hạn, yêu cầu hoặc kết luận.
 
-### Đến lượt bạn
+### Nhiệm vụ có hướng dẫn
 
-Tạo một câu trả lời mới cho chủ đề **Ôn tập Unit 3**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+Viết 55–170 từ bằng tiếng Anh để hoàn thành nhiệm vụ tích hợp. Dùng nội dung từ ít nhất ba bài, sau đó chú thích một lần sửa giúp tăng độ chính xác, phù hợp tông giọng hoặc rõ ràng.
 
 ### Bài mẫu
 
-> Welcome to the final review of B2. You have mastered cultural communication. You can now write formal correspondence and analyze complex texts.
+> **Integrated response:** Welcome to the final review of B2. You have mastered cultural communication. You can now write formal correspondence and analyze complex texts.
+>
+> **Revision note:** I make the relationship between evidence, constraint, and recommendation explicit. The response avoids a binary claim when the situation calls for a trade-off, and it gives the audience a practical checkpoint for challenging or confirming the recommendation. Other well-supported responses are possible.
 
-Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+### Vì sao bài mẫu phù hợp
 
-### Chuyển đổi register
+Bài mẫu thể hiện một cách xử lý hợp lý, không phải kịch bản bắt buộc học thuộc. Hãy so sánh mức hoàn thành nhiệm vụ, độ chính xác, độ phù hợp với người nghe và độ rõ với bài của bạn rồi sửa một lần.
 
-Viết lại câu trả lời hai lần: một bản cho đồng đội thân quen và một bản cho khách hàng hoặc stakeholder cấp cao. Giữ nguyên thông điệp nhưng thay đổi độ trực tiếp, lượng bối cảnh và mức giải thích. Chỉ ra một cụm từ bạn đã làm mềm, một chi tiết bạn nói rõ hơn và một giả định bạn đã loại bỏ.
+### Bài tập chuyển đổi
+
+Điều chỉnh thư cuối cho đồng đội nội bộ. Giữ ngôn ngữ trọng tâm nhưng thay đổi chi tiết và văn phong cho bối cảnh mới.
 
 ### Tự kiểm tra
 
-- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
-- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
-- [ ] Người nghe có thể nhận ra ý chính ngay.
-- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+- [ ] Mình hoàn thành đủ yêu cầu của tình huống, không chỉ dùng đúng cấu trúc.
+- [ ] Ngôn ngữ trọng tâm chính xác và đúng ý định.
+- [ ] Độ trực tiếp và lượng chi tiết phù hợp người nghe hoặc người đọc.
+- [ ] Người nhận có thể nhận ra ý chính và bước tiếp theo.
+- [ ] Mình tách bằng chứng, giả định và khuyến nghị thay vì trình bày tất cả với cùng mức chắc chắn.
 
 <!-- learning-loop:end -->

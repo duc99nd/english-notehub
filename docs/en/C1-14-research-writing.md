@@ -11,7 +11,7 @@
   'skill': 'writing',
   'order': 14,
   'cefr': 'C1',
-  'minutes': 11,
+  'minutes': 13,
   'tags': ['writing', 'research', 'academic', 'structure', 'C1'],
   'audioScript': "This paper examines the impact of remote work on productivity.\nThe methodology employs a mixed-methods approach.\nThe findings indicate a statistically significant improvement in output.\n",
   'listeningEnabled': true,
@@ -28,22 +28,39 @@
             'Introduction → Argument → End',
           ],
         'answer': 'Abstract → Introduction → Methodology → Results → Discussion',
+        'explanation': 'In this context, “Abstract → Introduction → Methodology → Results → Discussion” supplies the meaning or form targeted in Research Writing. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'Thesis → Body → Conclusion': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Introduction → Argument → End': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
       {
         'type': 'fill',
         'prompt': 'The ___ employs a mixed-methods approach over twelve months.',
         'answer': 'methodology',
+        'acceptedAnswers': ['methodology'],
+        'explanation': 'In this context, “methodology” supplies the meaning or form targeted in Research Writing. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
       },
       {
         'type': 'choice',
         'prompt': 'Where do you state your main finding?',
         'options': ['Methodology', 'Abstract and Results', 'Introduction'],
         'answer': 'Abstract and Results',
+        'explanation': 'In this context, “Abstract and Results” supplies the meaning or form targeted in Research Writing. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'Methodology': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Introduction': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
     ],
   'categoryEn': 'Strategic Professional Communication',
   'categoryVi': 'Giao tiếp Chuyên nghiệp Chiến lược',
   'prerequisites': ['c1-13-critical-reading'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 65, 'maxWords': 200 },
 }
 ---
 
@@ -126,42 +143,44 @@ In the next lesson **C1-15-review-unit3**, you will consolidate Unit 3 and compl
 
 ## Learning outcome
 
-By the end of this lesson, you will be able to produce and revise a clear piece of writing about research writing for a defined audience.
+By the end of this lesson, you can write and revise a response about research writing for a named audience, with a clear purpose, relevant support, and next step.
 
-## Practice lab
+## Scenario practice
 
-### Notice the language
+### Situation
 
-Read the situation, then listen to the model once for meaning and once for phrasing.
+Draft a short research-style abstract for a fictional remote-work study. Align question, method, result, limitation, and implication.
 
-> **Colleague:** How would you handle **research writing** in this situation?
->
-> **You:** This paper examines the impact of remote work on productivity.
+> **Training note:** This situation and its details are fictional. They are designed for language practice, not presented as a real event, policy, study, or legal interpretation.
 
-Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+### Controlled practice
 
-> **Pattern**: clear point + concrete detail or reason + appropriate next step
+Build a four-part outline: audience, purpose, one concrete supporting detail, and requested next step. Check that every planned sentence serves one of those four parts.
 
-### Your turn
+### Guided task
 
-Write 80–120 words for a colleague, client, and senior stakeholder. State the purpose early, support it with a concrete detail, and finish with a clear next step.
+Write 65–200 words for the stated audience. Make the purpose visible in the opening, support it with a concrete detail, and close with a proportionate next step.
 
 ### Model response
 
-> This paper examines the impact of remote work on productivity. The methodology employs a mixed-methods approach. The findings indicate a statistically significant improvement in output.
+> **Draft:** This paper examines the impact of remote work on productivity. The methodology employs a mixed-methods approach. The findings indicate a statistically significant improvement in output.
+>
+> **Revision note:** I select only the evidence that changes the decision, qualify any projection that depends on an assumption, and make ownership visible. A different stakeholder could reasonably prefer another option, so the response identifies the condition that would justify revisiting the recommendation. Other well-supported responses are possible.
 
-The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+### Why the model works
 
-### Register switch
+The model shows one defensible route through the task; it is not a script to memorize. Compare its task completion, language accuracy, audience fit, and clarity with your response, then revise once.
 
-Rewrite your response twice: first for a trusted teammate, then for a client or senior stakeholder. Keep the underlying message the same while changing directness, context, and the amount of explanation. Identify one phrase you softened, one detail you made explicit, and one assumption you removed.
+### Transfer task
+
+Rewrite the implication for a company policy audience. Keep the target language, but change the details and register needed for the new context.
 
 ### Self-check
 
-- [ ] I completed the task without translating a full Vietnamese sentence word for word.
-- [ ] I used at least two useful expressions from the lesson.
-- [ ] My main point is easy to identify.
-- [ ] I included a concrete detail, reason, or next step.
-- [ ] I qualified claims where certainty was limited and adjusted the register for my audience.
+- [ ] I completed every part of this lesson's scenario, not only the language form.
+- [ ] My target language is accurate and fits the intended meaning.
+- [ ] My level of directness and detail fits the named audience.
+- [ ] The reader or listener can identify my main point and next step.
+- [ ] I separated evidence, assumptions, and recommendations instead of presenting them as equally certain.
 
 <!-- learning-loop:end -->

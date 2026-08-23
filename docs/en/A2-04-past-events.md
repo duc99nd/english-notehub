@@ -11,7 +11,7 @@
   'skill': 'writing',
   'order': 4,
   'cefr': 'A2',
-  'minutes': 10,
+  'minutes': 12,
   'tags': ['past-simple', 'verbs', 'writing', 'events'],
   'audioScript': "I went to the market yesterday.\nShe called me last night.\nThey played football this morning.\n",
   'listeningEnabled': true,
@@ -23,18 +23,39 @@
         'prompt': 'Which sentence uses past simple correctly?',
         'options': ['I goed to school.', 'I went to school.', 'I goed at school.'],
         'answer': 'I went to school.',
+        'explanation': 'In this context, “I went to school.” supplies the meaning or form targeted in Past Events. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'I goed to school.': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'I goed at school.': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
-      { 'type': 'fill', 'prompt': 'Yesterday, she ___ a new dress. (buy)', 'answer': 'bought' },
+      {
+        'type': 'fill',
+        'prompt': 'Yesterday, she ___ a new dress. (buy)',
+        'answer': 'bought',
+        'acceptedAnswers': ['bought'],
+        'explanation': 'In this context, “bought” supplies the meaning or form targeted in Past Events. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+      },
       {
         'type': 'choice',
         'prompt': "When do we use 'was'?",
         'options': ['With I, he, she, it', 'With you, we, they', 'With all subjects'],
         'answer': 'With I, he, she, it',
+        'explanation': 'In this context, “With I, he, she, it” supplies the meaning or form targeted in Past Events. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'With you, we, they': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'With all subjects': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
     ],
   'categoryEn': 'Everyday Workplace English',
   'categoryVi': 'Tiếng Anh Công việc Hằng ngày',
   'prerequisites': ['a2-03-comparatives'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 28, 'maxWords': 90 },
 }
 ---
 
@@ -98,37 +119,43 @@ In the next lesson **A2-05-review-unit1**, you will review everything from Unit 
 
 ## Learning outcome
 
-By the end of this lesson, you will be able to produce and revise a clear piece of writing about past events for a defined audience.
+By the end of this lesson, you can write and revise a response about past events for a named audience, with a clear purpose, relevant support, and next step.
 
-## Practice lab
+## Scenario practice
 
-### Notice the language
+### Situation
 
-Read the situation, then listen to the model once for meaning and once for phrasing.
+You arrived late because of a transport problem. Write a short message saying what happened, when it happened, and what you did next.
 
-> **Colleague:** How would you handle **past events** in this situation?
->
-> **You:** I went to the market yesterday.
+> **Training note:** This situation and its details are fictional. They are designed for language practice, not presented as a real event, policy, study, or legal interpretation.
 
-Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+### Controlled practice
 
-> **Pattern**: clear point + concrete detail or reason + appropriate next step
+Build a four-part outline: audience, purpose, one concrete supporting detail, and requested next step. Check that every planned sentence serves one of those four parts.
 
-### Your turn
+### Guided task
 
-Write 80–120 words for a colleague or classmate. State the purpose early, support it with a concrete detail, and finish with a clear next step.
+Write 28–90 words for the stated audience. Make the purpose visible in the opening, support it with a concrete detail, and close with a proportionate next step.
 
 ### Model response
 
-> I went to the market yesterday. She called me last night. They played football this morning.
+> **Draft:** I went to the market yesterday. She called me last night. They played football this morning.
+>
+> **Revision note:** I connect the main point to one concrete detail. I check the time, person, or action so the listener knows what happens next. Other well-supported responses are possible.
 
-The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+### Why the model works
+
+The model shows one defensible route through the task; it is not a script to memorize. Compare its task completion, language accuracy, audience fit, and clarity with your response, then revise once.
+
+### Transfer task
+
+Change the event from a late arrival to a missed phone call. Keep the target language, but change the details and register needed for the new context.
 
 ### Self-check
 
-- [ ] I completed the task without translating a full Vietnamese sentence word for word.
-- [ ] I used at least two useful expressions from the lesson.
-- [ ] My main point is easy to identify.
-- [ ] I included a concrete detail, reason, or next step.
+- [ ] I completed every part of this lesson's scenario, not only the language form.
+- [ ] My target language is accurate and fits the intended meaning.
+- [ ] My level of directness and detail fits the named audience.
+- [ ] The reader or listener can identify my main point and next step.
 
 <!-- learning-loop:end -->

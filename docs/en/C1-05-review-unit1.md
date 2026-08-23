@@ -11,7 +11,7 @@
   'skill': 'review',
   'order': 5,
   'cefr': 'C1',
-  'minutes': 10,
+  'minutes': 12,
   'tags': ['review', 'unit1', 'executive', 'board', 'strategy', 'C1'],
   'audioScript': "Let's review Unit 1.\nYou can now lead executive meetings with confidence.\nYou can present to the board effectively.\nYou can analyze strategic documents.\nYou can manage stakeholders.\n",
   'listeningEnabled': true,
@@ -23,11 +23,19 @@
         'prompt': "What does 'buy-in' mean in a business context?",
         'options': ['Purchasing shares', 'Agreement and support', 'Investment return'],
         'answer': 'Agreement and support',
+        'explanation': 'In this context, “Agreement and support” supplies the meaning or form targeted in Review Unit 1. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'Purchasing shares': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Investment return': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
       {
         'type': 'fill',
         'prompt': 'The board has ___ a pivot toward renewable energy.',
         'answer': 'endorsed',
+        'acceptedAnswers': ['endorsed'],
+        'explanation': 'In this context, “endorsed” supplies the meaning or form targeted in Review Unit 1. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
       },
       {
         'type': 'choice',
@@ -35,22 +43,39 @@
         'options':
           ['Maintain status quo', 'Pivot toward digital solutions', 'Continue current operations'],
         'answer': 'Pivot toward digital solutions',
+        'explanation': 'In this context, “Pivot toward digital solutions” supplies the meaning or form targeted in Review Unit 1. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'Maintain status quo': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Continue current operations': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
       {
         'type': 'fill',
         'prompt': "Let's ___ expectations before we move forward.",
         'answer': 'align',
+        'acceptedAnswers': ['align'],
+        'explanation': 'In this context, “align” supplies the meaning or form targeted in Review Unit 1. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
       },
       {
         'type': 'choice',
         'prompt': 'Headwinds in business typically means:',
         'options': ['Favorable conditions', 'Challenges or obstacles', 'Wind patterns'],
         'answer': 'Challenges or obstacles',
+        'explanation': 'In this context, “Challenges or obstacles” supplies the meaning or form targeted in Review Unit 1. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'Favorable conditions': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Wind patterns': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
     ],
   'categoryEn': 'Strategic Professional Communication',
   'categoryVi': 'Giao tiếp Chuyên nghiệp Chiến lược',
   'prerequisites': ['c1-04-stakeholder-management'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 65, 'maxWords': 200 },
 }
 ---
 
@@ -118,42 +143,44 @@ Continue to **Unit 2** with **C1-06-investor-relations**.
 
 ## Learning outcome
 
-By the end of this lesson, you will be able to combine the unit language to complete a realistic task about review unit 1.
+By the end of this lesson, you can combine language from the unit to resolve a realistic task involving review unit 1 and justify one revision.
 
-## Practice lab
+## Scenario practice
 
-### Notice the language
+### Situation
 
-Read the situation, then listen to the model once for meaning and once for phrasing.
+Prepare a fictional investment decision: chair the meeting, qualify a board scenario, interpret strategy, and align a dissenting stakeholder.
 
-> **Colleague:** How would you handle **review unit 1** in this situation?
->
-> **You:** Let's review Unit 1.
+> **Training note:** This situation and its details are fictional. They are designed for language practice, not presented as a real event, policy, study, or legal interpretation.
 
-Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+### Controlled practice
 
-> **Pattern**: clear point + concrete detail or reason + appropriate next step
+Select language from at least three lessons in this unit. For each choice, note the job it performs: describe, connect, qualify, request, or conclude.
 
-### Your turn
+### Guided task
 
-Complete one integrated response for a colleague, client, and senior stakeholder using language from at least three lessons in this unit.
+Write 65–200 words to complete the integrated task. Use material from at least three lessons, then annotate one revision that improved accuracy, tone, or clarity.
 
 ### Model response
 
-> Let's review Unit 1. You can now lead executive meetings with confidence. You can present to the board effectively. You can analyze strategic documents. You can manage stakeholders.
+> **Integrated response:** Let's review Unit 1. You can now lead executive meetings with confidence. You can present to the board effectively.
+>
+> **Revision note:** I select only the evidence that changes the decision, qualify any projection that depends on an assumption, and make ownership visible. A different stakeholder could reasonably prefer another option, so the response identifies the condition that would justify revisiting the recommendation. Other well-supported responses are possible.
 
-The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+### Why the model works
 
-### Register switch
+The model shows one defensible route through the task; it is not a script to memorize. Compare its task completion, language accuracy, audience fit, and clarity with your response, then revise once.
 
-Rewrite your response twice: first for a trusted teammate, then for a client or senior stakeholder. Keep the underlying message the same while changing directness, context, and the amount of explanation. Identify one phrase you softened, one detail you made explicit, and one assumption you removed.
+### Transfer task
+
+Change one assumption after new risk data arrives. Keep the target language, but change the details and register needed for the new context.
 
 ### Self-check
 
-- [ ] I completed the task without translating a full Vietnamese sentence word for word.
-- [ ] I used at least two useful expressions from the lesson.
-- [ ] My main point is easy to identify.
-- [ ] I included a concrete detail, reason, or next step.
-- [ ] I qualified claims where certainty was limited and adjusted the register for my audience.
+- [ ] I completed every part of this lesson's scenario, not only the language form.
+- [ ] My target language is accurate and fits the intended meaning.
+- [ ] My level of directness and detail fits the named audience.
+- [ ] The reader or listener can identify my main point and next step.
+- [ ] I separated evidence, assumptions, and recommendations instead of presenting them as equally certain.
 
 <!-- learning-loop:end -->

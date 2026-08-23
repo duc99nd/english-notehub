@@ -11,7 +11,7 @@
   'skill': 'reading',
   'order': 13,
   'cefr': 'B1',
-  'minutes': 12,
+  'minutes': 14,
   'tags': ['reading', 'recipe', 'menu', 'food', 'cooking', 'restaurant'],
   'audioScript': "First, preheat the oven to 180 degrees.\nServe with a fresh salad on the side.\nMain courses include grilled salmon and pasta.\n",
   'listeningEnabled': true,
@@ -23,22 +23,39 @@
         'prompt': "What does 'preheat the oven' mean?",
         'options': ['Turn off the oven', 'Heat the oven before using it', 'Clean the oven'],
         'answer': 'Heat the oven before using it',
+        'explanation': 'In this context, “Heat the oven before using it” supplies the meaning or form targeted in Recipes & Menus. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'Turn off the oven': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Clean the oven': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
       {
         'type': 'fill',
         'prompt': 'The recipe says to ___ the mixture for 5 minutes.',
         'answer': 'stir',
+        'acceptedAnswers': ['stir'],
+        'explanation': 'In this context, “stir” supplies the meaning or form targeted in Recipes & Menus. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
       },
       {
         'type': 'choice',
         'prompt': "What is an 'appetizer'?",
         'options': ['The main dish', 'A small dish before the main course', 'A dessert'],
         'answer': 'A small dish before the main course',
+        'explanation': 'In this context, “A small dish before the main course” supplies the meaning or form targeted in Recipes & Menus. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'The main dish': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'A dessert': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
     ],
   'categoryEn': 'Independent Workplace Communication',
   'categoryVi': 'Giao tiếp Công việc Độc lập',
   'prerequisites': ['b1-12-conditionals'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 45, 'maxWords': 135 },
 }
 ---
 
@@ -145,37 +162,43 @@ In the next lesson **B1-14-blog-review**, you will learn how to write a blog pos
 
 ## Learning outcome
 
-By the end of this lesson, you will be able to identify the main point, supporting detail, and register choices in a text about recipes & menus.
+By the end of this lesson, you can extract the main point and supporting detail from a text about recipes & menus, then make one evidence-based interpretation.
 
-## Practice lab
+## Scenario practice
 
-### Notice the language
+### Situation
 
-Read the situation, then listen to the model once for meaning and once for phrasing.
+Read a fictional café menu and recipe. Select a meal for a guest, justify the choice, and identify one preparation instruction.
 
-> **Colleague:** How would you handle **recipes & menus** in this situation?
->
-> **You:** First, preheat the oven to 180 degrees.
+> **Training note:** This situation and its details are fictional. They are designed for language practice, not presented as a real event, policy, study, or legal interpretation.
 
-Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+### Controlled practice
 
-> **Pattern**: clear point + concrete detail or reason + appropriate next step
+Before reading the explanation again, write one line for the text's main point, one line for its strongest supporting detail, and one phrase that signals tone or stance.
 
-### Your turn
+### Guided task
 
-Summarize the text in two sentences for a colleague or classmate. Identify one claim, one supporting detail, and one phrase that signals the writer's attitude.
+Write 45–135 words as structured reading notes. State the main point, cite or paraphrase one supporting detail, identify a register choice, and separate evidence from your inference.
 
 ### Model response
 
-> First, preheat the oven to 180 degrees. Serve with a fresh salad on the side. Main courses include grilled salmon and pasta.
+> **Main point and evidence:** First, preheat the oven to 180 degrees. Serve with a fresh salad on the side. Main courses include grilled salmon and pasta.
+>
+> **Interpretation:** I organize the response so the situation comes first, the relevant detail follows, and the final sentence makes the requested action clear. I would revise any sentence that is correct but difficult for the audience to process. Other well-supported responses are possible.
 
-The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+### Why the model works
+
+The model shows one defensible route through the task; it is not a script to memorize. Compare its task completion, language accuracy, audience fit, and clarity with your response, then revise once.
+
+### Transfer task
+
+Choose again for a guest with a dietary restriction. Keep the target language, but change the details and register needed for the new context.
 
 ### Self-check
 
-- [ ] I completed the task without translating a full Vietnamese sentence word for word.
-- [ ] I used at least two useful expressions from the lesson.
-- [ ] My main point is easy to identify.
-- [ ] I included a concrete detail, reason, or next step.
+- [ ] I completed every part of this lesson's scenario, not only the language form.
+- [ ] My target language is accurate and fits the intended meaning.
+- [ ] My level of directness and detail fits the named audience.
+- [ ] The reader or listener can identify my main point and next step.
 
 <!-- learning-loop:end -->

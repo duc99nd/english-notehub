@@ -35,7 +35,7 @@ const answeredCount = computed(() => answers.value.filter((answer) => answer.tri
 const canCheck = computed(() => props.quiz.length > 0 && answeredCount.value === props.quiz.length)
 const score = computed(() =>
   props.quiz.reduce((total, item, index) => {
-    return total + (normalize(answers.value[index]) === normalize(item.answer) ? 1 : 0)
+    return total + (isCorrect(item, answers.value[index]) ? 1 : 0)
   }, 0),
 )
 
@@ -44,6 +44,17 @@ function normalize(value: string | undefined): string {
     .trim()
     .toLocaleLowerCase()
     .replace(/\s+/g, ' ')
+}
+
+function isCorrect(item: QuizItem, value: string | undefined): boolean {
+  const accepted = [item.answer, ...(item.acceptedAnswers ?? [])]
+  return accepted.some((answer) => normalize(answer) === normalize(value))
+}
+
+function selectedDistractorFeedback(item: QuizItem, index: number): string {
+  const selected = answers.value[index]
+  if (!selected || isCorrect(item, selected)) return ''
+  return item.distractorFeedback?.[selected] ?? ''
 }
 
 function readCompleted(): Set<string> {
@@ -83,7 +94,7 @@ function resetQuiz(): void {
 
 function answerClass(item: QuizItem, index: number): string {
   if (!checked.value) return 'border-foreground/10 bg-background/70'
-  return normalize(answers.value[index]) === normalize(item.answer)
+  return isCorrect(item, answers.value[index])
     ? 'border-emerald-500/40 bg-emerald-500/10'
     : 'border-rose-500/40 bg-rose-500/10'
 }
@@ -185,6 +196,7 @@ onMounted(loadLessonState)
               type="radio"
               :name="`${slug}-${index}`"
               :value="option"
+              :disabled="checked"
               class="mt-1"
             />
             <span>{{ option }}</span>
@@ -197,6 +209,7 @@ onMounted(loadLessonState)
             v-model="answers[index]"
             type="text"
             autocomplete="off"
+            :disabled="checked"
             class="h-11 w-full rounded-xl border border-foreground/10 bg-card px-4 text-sm text-foreground outline-none transition-colors focus:border-primary/50"
             :placeholder="t('lessonPractice.answerPlaceholder')"
           />
@@ -204,7 +217,7 @@ onMounted(loadLessonState)
 
         <p v-if="checked" class="mt-3 text-sm" aria-live="polite">
           <span
-            v-if="normalize(answers[index]) === normalize(item.answer)"
+            v-if="isCorrect(item, answers[index])"
             class="font-medium text-emerald-600 dark:text-emerald-400"
           >
             {{ t('lessonPractice.correct') }}
@@ -213,6 +226,20 @@ onMounted(loadLessonState)
             {{ t('lessonPractice.correctAnswer', { answer: item.answer }) }}
           </span>
         </p>
+
+        <div
+          v-if="checked && (item.explanation || selectedDistractorFeedback(item, index))"
+          class="mt-3 space-y-2 rounded-xl border border-foreground/10 bg-card/80 px-4 py-3 text-sm leading-6 text-muted-foreground"
+        >
+          <p v-if="selectedDistractorFeedback(item, index)">
+            <span class="font-semibold text-foreground">{{ t('lessonPractice.yourChoice') }}</span>
+            {{ selectedDistractorFeedback(item, index) }}
+          </p>
+          <p v-if="item.explanation">
+            <span class="font-semibold text-foreground">{{ t('lessonPractice.explanation') }}</span>
+            {{ item.explanation }}
+          </p>
+        </div>
       </fieldset>
 
       <div class="flex flex-wrap gap-3">

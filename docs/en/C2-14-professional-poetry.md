@@ -11,7 +11,7 @@
   'skill': 'writing',
   'order': 14,
   'cefr': 'C2',
-  'minutes': 14,
+  'minutes': 15,
   'tags': ['poetry', 'professional', 'speech writing', 'commemorative', 'corporate', 'literary'],
   'audioScript': "Professional poetry serves purposes beyond artistic expression.\nMeter and rhyme create memorability; metaphor creates meaning.\nThe professional poet serves the occasion, not personal expression.\n",
   'listeningEnabled': true,
@@ -29,6 +29,13 @@
             'Challenging conventional forms',
           ],
         'answer': 'Serving the occasion and audience',
+        'explanation': 'In this context, “Serving the occasion and audience” supplies the meaning or form targeted in Professional Poetry. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'Personal artistic expression': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Using complex imagery': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Challenging conventional forms': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
       {
         'type': 'choice',
@@ -36,16 +43,28 @@
         'options':
           ['Iambic trimeter', 'Trochaic dimeter', 'Iambic pentameter', 'Anapestic tetrameter'],
         'answer': 'Iambic pentameter',
+        'explanation': 'In this context, “Iambic pentameter” supplies the meaning or form targeted in Professional Poetry. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'Iambic trimeter': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Trochaic dimeter': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Anapestic tetrameter': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
       {
         'type': 'fill',
         'prompt': 'A commemorative poem should balance ___ with dignity and appropriate emotion.',
         'answer': 'brevity',
+        'acceptedAnswers': ['brevity'],
+        'explanation': 'In this context, “brevity” supplies the meaning or form targeted in Professional Poetry. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
       },
     ],
   'categoryEn': 'Expert Register and Influence',
   'categoryVi': 'Sắc thái và Ảnh hưởng Chuyên sâu',
   'prerequisites': ['c2-13-write-publish'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 75, 'maxWords': 230 },
 }
 ---
 
@@ -163,42 +182,44 @@ In **C2-15-review-unit3**, you will consolidate all skills from Unit 3 and the e
 
 ## Learning outcome
 
-By the end of this lesson, you will be able to produce and revise a clear piece of writing about professional poetry for a defined audience.
+By the end of this lesson, you can write and revise a response about professional poetry for a named audience, with a clear purpose, relevant support, and next step.
 
-## Practice lab
+## Scenario practice
 
-### Notice the language
+### Situation
 
-Read the situation, then listen to the model once for meaning and once for phrasing.
+Write a short commissioned text for a fictional retirement event. Use sound and metaphor purposefully while respecting audience, occasion, and accessibility.
 
-> **Colleague:** How would you handle **professional poetry** in this situation?
->
-> **You:** Professional poetry serves purposes beyond artistic expression.
+> **Training note:** This situation and its details are fictional. They are designed for language practice, not presented as a real event, policy, study, or legal interpretation.
 
-Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+### Controlled practice
 
-> **Pattern**: clear point + concrete detail or reason + appropriate next step
+Build a four-part outline: audience, purpose, one concrete supporting detail, and requested next step. Check that every planned sentence serves one of those four parts.
 
-### Your turn
+### Guided task
 
-Write 80–120 words for a colleague, client, and senior stakeholder. State the purpose early, support it with a concrete detail, and finish with a clear next step.
+Write 75–230 words for the stated audience. Make the purpose visible in the opening, support it with a concrete detail, and close with a proportionate next step.
 
 ### Model response
 
-> Professional poetry serves purposes beyond artistic expression. Meter and rhyme create memorability; metaphor creates meaning. The professional poet serves the occasion, not personal expression.
+> **Draft:** Professional poetry serves purposes beyond artistic expression. Meter and rhyme create memorability; metaphor creates meaning. The professional poet serves the occasion, not personal expression.
+>
+> **Revision note:** I distinguish what the language states from what a reader may plausibly infer. The response preserves useful ambiguity only where the genre requires it, names the evidence supporting the preferred interpretation, and explicitly acknowledges what cannot be concluded without additional context or specialist review. Other well-supported responses are possible.
 
-The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+### Why the model works
 
-### Register switch
+The model shows one defensible route through the task; it is not a script to memorize. Compare its task completion, language accuracy, audience fit, and clarity with your response, then revise once.
 
-Rewrite your response twice: first for a trusted teammate, then for a client or senior stakeholder. Keep the underlying message the same while changing directness, context, and the amount of explanation. Identify one phrase you softened, one detail you made explicit, and one assumption you removed. Then write a plausible alternative interpretation of the model and explain which contextual evidence would help a reader choose between the two readings.
+### Transfer task
+
+Rewrite it as prose for an audience that prefers direct language. Keep the target language, but change the details and register needed for the new context.
 
 ### Self-check
 
-- [ ] I completed the task without translating a full Vietnamese sentence word for word.
-- [ ] I used at least two useful expressions from the lesson.
-- [ ] My main point is easy to identify.
-- [ ] I included a concrete detail, reason, or next step.
-- [ ] I qualified claims where certainty was limited and adjusted the register for my audience.
+- [ ] I completed every part of this lesson's scenario, not only the language form.
+- [ ] My target language is accurate and fits the intended meaning.
+- [ ] My level of directness and detail fits the named audience.
+- [ ] The reader or listener can identify my main point and next step.
+- [ ] I separated evidence, assumptions, and recommendations instead of presenting them as equally certain.
 
 <!-- learning-loop:end -->

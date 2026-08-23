@@ -11,25 +11,45 @@
   'skill': 'vocab',
   'order': 1,
   'cefr': 'A1',
-  'minutes': 15,
+  'minutes': 17,
   'tags': ['greetings', 'introduction', 'daily', 'foundation', 'speaking'],
   'audioScript': "Hello. My name is Anna. Nice to meet you.\nHi, I'm Duc. I'm from Vietnam.\nGood morning. How are you today?\nI'm fine, thank you. And you?\n",
   'listeningEnabled': true,
   'flashcardCount': 8,
   'quiz':
     [
-      { 'type': 'fill', 'prompt': 'Hello, my ___ is Anna.', 'answer': 'name' },
+      {
+        'type': 'fill',
+        'prompt': 'Hello, my ___ is Anna.',
+        'answer': 'name',
+        'acceptedAnswers': ['name'],
+        'explanation': 'In this context, “name” supplies the meaning or form targeted in Greetings & Self-introduction. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+      },
       {
         'type': 'choice',
         'prompt': 'Which greeting is most appropriate when you meet your new boss for the first time?',
         'options': ["Hey, what's up?", 'Yo bro!', 'Good morning. Nice to meet you.', 'Sup?'],
         'answer': 'Good morning. Nice to meet you.',
+        'explanation': 'In this context, “Good morning. Nice to meet you.” supplies the meaning or form targeted in Greetings & Self-introduction. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            "Hey, what's up?": 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Yo bro!': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Sup?': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
       {
         'type': 'choice',
         'prompt': "Your colleague says 'How are you?' What is a polite reply?",
         'options': ["I'm twenty.", "I'm fine, thank you. And you?", 'My name is Anna.', 'Goodbye.'],
         'answer': "I'm fine, thank you. And you?",
+        'explanation': "In this context, “I'm fine, thank you. And you?” supplies the meaning or form targeted in Greetings & Self-introduction. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        'distractorFeedback':
+          {
+            "I'm twenty.": 'This option does not complete the communicative intent or target form tested by the question context.',
+            'My name is Anna.': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Goodbye.': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
       {
         'type': 'choice',
@@ -42,11 +62,21 @@
             'Please call me later.',
           ],
         'answer': "I'm happy to know you (first meeting).",
+        'explanation': "In this context, “I'm happy to know you (first meeting).” supplies the meaning or form targeted in Greetings & Self-introduction. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        'distractorFeedback':
+          {
+            'I want to leave now.': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'I have known you for a long time.': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Please call me later.': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
     ],
   'categoryEn': 'Foundation English',
   'categoryVi': 'Tiếng Anh Nền tảng',
   'prerequisites': [],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'dialogue', 'minTurns': 4, 'maxTurns': 6 },
 }
 ---
 
@@ -160,37 +190,47 @@ In the next lesson **A1-02-numbers**, you will learn how to count from 1 to 100 
 
 ## Learning outcome
 
-By the end of this lesson, you will be able to select and use useful language for greetings & self-introduction in a short, realistic exchange.
+By the end of this lesson, you can complete a four-turn exchange about greetings & self-introduction, choosing expressions that fit the relationship and immediate goal.
 
-## Practice lab
+## Scenario practice
 
-### Notice the language
+### Situation
 
-Read the situation, then listen to the model once for meaning and once for phrasing.
+It is your first morning in a new class. Introduce yourself to one classmate and keep the conversation going.
 
-> **Colleague:** How would you handle **greetings & self-introduction** in this situation?
->
-> **You:** Hello. My name is Anna. Nice to meet you.
+> **Training note:** This situation and its details are fictional. They are designed for language practice, not presented as a real event, policy, study, or legal interpretation.
 
-Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+### Controlled practice
 
-> **Pattern**: clear point + concrete detail or reason + appropriate next step
+Choose three expressions from **Greetings & Self-introduction**. Label each one as an opener, key detail, clarification, or next step. Remove any expression that does not fit the relationship in the situation.
 
-### Your turn
+### Guided task
 
-Create a four-line exchange with a colleague or classmate. Use at least three target expressions from **Greetings & Self-introduction** and add one follow-up question.
+Write a four-to-six-turn exchange for this situation. Use at least three target expressions, respond to the other speaker's information, and end with a question, confirmation, or agreed action.
 
 ### Model response
 
-> Hello. My name is Anna. Nice to meet you. Hi, I'm Duc. I'm from Vietnam. Good morning. How are you today? I'm fine, thank you. And you?
+> **Partner:** We need to respond to the situation above. What would you say first?
+>
+> **You:** Hello. My name is Anna. Nice to meet you.
+>
+> **Partner:** What detail should we confirm before we act?
+>
+> **You:** Hi, I'm Duc. I'm from Vietnam. Good morning. How are you today?
 
-The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+### Why the model works
+
+The model shows one defensible route through the task; it is not a script to memorize. Compare its task completion, language accuracy, audience fit, and clarity with your response, then revise once.
+
+### Transfer task
+
+Greet a visitor at a small office instead of a classmate. Keep the target language, but change the details and register needed for the new context.
 
 ### Self-check
 
-- [ ] I completed the task without translating a full Vietnamese sentence word for word.
-- [ ] I used at least two useful expressions from the lesson.
-- [ ] My main point is easy to identify.
-- [ ] I included a concrete detail, reason, or next step.
+- [ ] I completed every part of this lesson's scenario, not only the language form.
+- [ ] My target language is accurate and fits the intended meaning.
+- [ ] My level of directness and detail fits the named audience.
+- [ ] The reader or listener can identify my main point and next step.
 
 <!-- learning-loop:end -->

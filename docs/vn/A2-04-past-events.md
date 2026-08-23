@@ -11,7 +11,7 @@
   'skill': 'writing',
   'order': 4,
   'cefr': 'A2',
-  'minutes': 10,
+  'minutes': 12,
   'tags': ['past-simple', 'verbs', 'writing', 'events'],
   'audioScript': "I went to the market yesterday.\nShe called me last night.\nThey played football this morning.\n",
   'listeningEnabled': true,
@@ -23,18 +23,39 @@
         'prompt': 'Which sentence uses past simple correctly?',
         'options': ['I goed to school.', 'I went to school.', 'I goed at school.'],
         'answer': 'I went to school.',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “I went to school.” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Sự kiện trong quá khứ. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'I goed to school.': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'I goed at school.': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
-      { 'type': 'fill', 'prompt': 'Yesterday, she ___ a new dress. (buy)', 'answer': 'bought' },
+      {
+        'type': 'fill',
+        'prompt': 'Yesterday, she ___ a new dress. (buy)',
+        'answer': 'bought',
+        'acceptedAnswers': ['bought'],
+        'explanation': 'Trong ngữ cảnh câu hỏi, “bought” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Sự kiện trong quá khứ. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+      },
       {
         'type': 'choice',
         'prompt': "When do we use 'was'?",
         'options': ['With I, he, she, it', 'With you, we, they', 'With all subjects'],
         'answer': 'With I, he, she, it',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “With I, he, she, it” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Sự kiện trong quá khứ. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'With you, we, they': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'With all subjects': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
     ],
   'categoryEn': 'Everyday Workplace English',
   'categoryVi': 'Tiếng Anh Công việc Hằng ngày',
   'prerequisites': ['a2-03-comparatives'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 28, 'maxWords': 90 },
 }
 ---
 
@@ -94,37 +115,43 @@ Nhấn nút play để nghe audio. Sau đó lặp lại từng câu thành tiế
 
 ## Kết quả học tập
 
-Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Sự kiện trong quá khứ** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+Sau bài này, bạn có thể viết và chỉnh sửa câu trả lời về **Sự kiện trong quá khứ** cho người đọc xác định, có mục đích, thông tin hỗ trợ và bước tiếp theo rõ ràng.
 
-## Phòng luyện tập
+## Luyện tập theo tình huống
 
-### Nhận diện cách diễn đạt
+### Tình huống
 
-Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+Bạn đến muộn vì vấn đề đi lại. Hãy viết tin nhắn ngắn nêu chuyện gì xảy ra, xảy ra khi nào và bạn đã làm gì tiếp theo.
 
-> **Colleague:** How would you handle this situation?
->
-> **You:** I went to the market yesterday.
+> **Lưu ý:** Tình huống và các chi tiết đều là hư cấu để luyện ngôn ngữ; đây không phải sự kiện, chính sách, nghiên cứu hoặc diễn giải pháp lý có thật.
 
-Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+### Luyện tập có kiểm soát
 
-> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+Lập dàn ý bốn phần: người đọc, mục đích, một chi tiết hỗ trợ cụ thể và bước tiếp theo được yêu cầu. Kiểm tra để mỗi câu dự kiến đều phục vụ một trong bốn phần.
 
-### Đến lượt bạn
+### Nhiệm vụ có hướng dẫn
 
-Tạo một câu trả lời mới cho chủ đề **Sự kiện trong quá khứ**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+Viết 28–90 từ bằng tiếng Anh cho đúng người đọc. Nêu mục đích ngay phần mở đầu, hỗ trợ bằng một chi tiết cụ thể và kết thúc bằng bước tiếp theo phù hợp.
 
 ### Bài mẫu
 
-> I went to the market yesterday. She called me last night. They played football this morning.
+> **Draft:** I went to the market yesterday. She called me last night. They played football this morning.
+>
+> **Revision note:** I connect the main point to one concrete detail. I check the time, person, or action so the listener knows what happens next. Other well-supported responses are possible.
 
-Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+### Vì sao bài mẫu phù hợp
+
+Bài mẫu thể hiện một cách xử lý hợp lý, không phải kịch bản bắt buộc học thuộc. Hãy so sánh mức hoàn thành nhiệm vụ, độ chính xác, độ phù hợp với người nghe và độ rõ với bài của bạn rồi sửa một lần.
+
+### Bài tập chuyển đổi
+
+Đổi sự kiện từ đến muộn thành bỏ lỡ một cuộc gọi. Giữ ngôn ngữ trọng tâm nhưng thay đổi chi tiết và văn phong cho bối cảnh mới.
 
 ### Tự kiểm tra
 
-- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
-- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
-- [ ] Người nghe có thể nhận ra ý chính ngay.
-- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+- [ ] Mình hoàn thành đủ yêu cầu của tình huống, không chỉ dùng đúng cấu trúc.
+- [ ] Ngôn ngữ trọng tâm chính xác và đúng ý định.
+- [ ] Độ trực tiếp và lượng chi tiết phù hợp người nghe hoặc người đọc.
+- [ ] Người nhận có thể nhận ra ý chính và bước tiếp theo.
 
 <!-- learning-loop:end -->

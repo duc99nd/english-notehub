@@ -11,7 +11,7 @@
   'skill': 'vocab',
   'order': 11,
   'cefr': 'A2',
-  'minutes': 10,
+  'minutes': 12,
   'tags': ['small-talk', 'speaking', 'vocabulary', 'conversation'],
   'audioScript': "Nice weather today, isn't it?\nHow was your weekend?\nI really enjoyed that coffee.\n",
   'listeningEnabled': true,
@@ -23,18 +23,39 @@
         'prompt': 'What is a common small talk topic?',
         'options': ['The weather', 'Politics', 'Religion'],
         'answer': 'The weather',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “The weather” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Tán gẫu. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'Politics': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'Religion': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
-      { 'type': 'fill', 'prompt': 'How was your ___?', 'answer': 'weekend' },
+      {
+        'type': 'fill',
+        'prompt': 'How was your ___?',
+        'answer': 'weekend',
+        'acceptedAnswers': ['weekend'],
+        'explanation': 'Trong ngữ cảnh câu hỏi, “weekend” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Tán gẫu. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+      },
       {
         'type': 'choice',
         'prompt': 'Which is NOT good for small talk?',
         'options': ['How about that game?', 'I love this weather.', 'How much do you earn?'],
         'answer': 'How much do you earn?',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “How much do you earn?” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Tán gẫu. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'How about that game?': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'I love this weather.': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
     ],
   'categoryEn': 'Everyday Workplace English',
   'categoryVi': 'Tiếng Anh Công việc Hằng ngày',
   'prerequisites': ['a2-10-review-unit2'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'dialogue', 'minTurns': 4, 'maxTurns': 6 },
 }
 ---
 
@@ -94,37 +115,47 @@ Nhấn nút play để nghe audio. Sau đó lặp lại từng câu thành tiế
 
 ## Kết quả học tập
 
-Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Tán gẫu** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+Sau bài này, bạn có thể hoàn thành đoạn hội thoại bốn lượt về **Tán gẫu**, chọn cách diễn đạt phù hợp quan hệ và mục tiêu trước mắt.
 
-## Phòng luyện tập
+## Luyện tập theo tình huống
 
-### Nhận diện cách diễn đạt
+### Tình huống
 
-Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+Bạn đến sớm trong cuộc họp với người mới. Hãy mở đầu bằng thời tiết, hỏi về cuối tuần và phản hồi một chi tiết.
 
-> **Colleague:** How would you handle this situation?
->
-> **You:** Nice weather today, isn't it?
+> **Lưu ý:** Tình huống và các chi tiết đều là hư cấu để luyện ngôn ngữ; đây không phải sự kiện, chính sách, nghiên cứu hoặc diễn giải pháp lý có thật.
 
-Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+### Luyện tập có kiểm soát
 
-> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+Chọn ba cách diễn đạt trong bài **Tán gẫu**. Gắn nhãn chức năng cho từng cách: mở lời, nêu chi tiết, làm rõ hoặc đưa bước tiếp theo. Loại cách diễn đạt không phù hợp quan hệ trong tình huống.
 
-### Đến lượt bạn
+### Nhiệm vụ có hướng dẫn
 
-Tạo một câu trả lời mới cho chủ đề **Tán gẫu**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+Viết đoạn hội thoại bốn đến sáu lượt cho tình huống này. Dùng ít nhất ba cách diễn đạt trọng tâm, phản hồi thông tin của người kia và kết thúc bằng câu hỏi, xác nhận hoặc hành động đã thống nhất.
 
 ### Bài mẫu
 
-> Nice weather today, isn't it? How was your weekend? I really enjoyed that coffee.
+> **Partner:** We need to respond to the situation above. What would you say first?
+>
+> **You:** Nice weather today, isn't it?
+>
+> **Partner:** What detail should we confirm before we act?
+>
+> **You:** How was your weekend? I really enjoyed that coffee.
 
-Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+### Vì sao bài mẫu phù hợp
+
+Bài mẫu thể hiện một cách xử lý hợp lý, không phải kịch bản bắt buộc học thuộc. Hãy so sánh mức hoàn thành nhiệm vụ, độ chính xác, độ phù hợp với người nghe và độ rõ với bài của bạn rồi sửa một lần.
+
+### Bài tập chuyển đổi
+
+Đổi sang mở đầu khi đang chờ cuộc gọi trực tuyến. Giữ ngôn ngữ trọng tâm nhưng thay đổi chi tiết và văn phong cho bối cảnh mới.
 
 ### Tự kiểm tra
 
-- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
-- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
-- [ ] Người nghe có thể nhận ra ý chính ngay.
-- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+- [ ] Mình hoàn thành đủ yêu cầu của tình huống, không chỉ dùng đúng cấu trúc.
+- [ ] Ngôn ngữ trọng tâm chính xác và đúng ý định.
+- [ ] Độ trực tiếp và lượng chi tiết phù hợp người nghe hoặc người đọc.
+- [ ] Người nhận có thể nhận ra ý chính và bước tiếp theo.
 
 <!-- learning-loop:end -->

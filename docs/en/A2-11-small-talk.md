@@ -11,7 +11,7 @@
   'skill': 'vocab',
   'order': 11,
   'cefr': 'A2',
-  'minutes': 10,
+  'minutes': 12,
   'tags': ['small-talk', 'speaking', 'vocabulary', 'conversation'],
   'audioScript': "Nice weather today, isn't it?\nHow was your weekend?\nI really enjoyed that coffee.\n",
   'listeningEnabled': true,
@@ -23,18 +23,39 @@
         'prompt': 'What is a common small talk topic?',
         'options': ['The weather', 'Politics', 'Religion'],
         'answer': 'The weather',
+        'explanation': 'In this context, “The weather” supplies the meaning or form targeted in Small Talk. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'Politics': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Religion': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
-      { 'type': 'fill', 'prompt': 'How was your ___?', 'answer': 'weekend' },
+      {
+        'type': 'fill',
+        'prompt': 'How was your ___?',
+        'answer': 'weekend',
+        'acceptedAnswers': ['weekend'],
+        'explanation': 'In this context, “weekend” supplies the meaning or form targeted in Small Talk. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+      },
       {
         'type': 'choice',
         'prompt': 'Which is NOT good for small talk?',
         'options': ['How about that game?', 'I love this weather.', 'How much do you earn?'],
         'answer': 'How much do you earn?',
+        'explanation': 'In this context, “How much do you earn?” supplies the meaning or form targeted in Small Talk. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'How about that game?': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'I love this weather.': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
     ],
   'categoryEn': 'Everyday Workplace English',
   'categoryVi': 'Tiếng Anh Công việc Hằng ngày',
   'prerequisites': ['a2-10-review-unit2'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'dialogue', 'minTurns': 4, 'maxTurns': 6 },
 }
 ---
 
@@ -98,37 +119,47 @@ In the next lesson **A2-12-opinions**, you will learn how to express your opinio
 
 ## Learning outcome
 
-By the end of this lesson, you will be able to select and use useful language for small talk in a short, realistic exchange.
+By the end of this lesson, you can complete a four-turn exchange about small talk, choosing expressions that fit the relationship and immediate goal.
 
-## Practice lab
+## Scenario practice
 
-### Notice the language
+### Situation
 
-Read the situation, then listen to the model once for meaning and once for phrasing.
+You arrive early for a meeting with someone new. Open with the weather, ask about their weekend, and respond to one detail.
 
-> **Colleague:** How would you handle **small talk** in this situation?
->
-> **You:** Nice weather today, isn't it?
+> **Training note:** This situation and its details are fictional. They are designed for language practice, not presented as a real event, policy, study, or legal interpretation.
 
-Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+### Controlled practice
 
-> **Pattern**: clear point + concrete detail or reason + appropriate next step
+Choose three expressions from **Small Talk**. Label each one as an opener, key detail, clarification, or next step. Remove any expression that does not fit the relationship in the situation.
 
-### Your turn
+### Guided task
 
-Create a four-line exchange with a colleague or classmate. Use at least three target expressions from **Small Talk** and add one follow-up question.
+Write a four-to-six-turn exchange for this situation. Use at least three target expressions, respond to the other speaker's information, and end with a question, confirmation, or agreed action.
 
 ### Model response
 
-> Nice weather today, isn't it? How was your weekend? I really enjoyed that coffee.
+> **Partner:** We need to respond to the situation above. What would you say first?
+>
+> **You:** Nice weather today, isn't it?
+>
+> **Partner:** What detail should we confirm before we act?
+>
+> **You:** How was your weekend? I really enjoyed that coffee.
 
-The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+### Why the model works
+
+The model shows one defensible route through the task; it is not a script to memorize. Compare its task completion, language accuracy, audience fit, and clarity with your response, then revise once.
+
+### Transfer task
+
+Start the conversation while waiting for an online call. Keep the target language, but change the details and register needed for the new context.
 
 ### Self-check
 
-- [ ] I completed the task without translating a full Vietnamese sentence word for word.
-- [ ] I used at least two useful expressions from the lesson.
-- [ ] My main point is easy to identify.
-- [ ] I included a concrete detail, reason, or next step.
+- [ ] I completed every part of this lesson's scenario, not only the language form.
+- [ ] My target language is accurate and fits the intended meaning.
+- [ ] My level of directness and detail fits the named audience.
+- [ ] The reader or listener can identify my main point and next step.
 
 <!-- learning-loop:end -->

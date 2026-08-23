@@ -11,7 +11,7 @@
   'skill': 'reading',
   'order': 8,
   'cefr': 'A2',
-  'minutes': 11,
+  'minutes': 12,
   'tags': ['future', 'grammar', 'plans', 'reading'],
   'audioScript': "I am going to visit my grandmother this weekend.\nI will call you later.\nWe are going to start a new project.\n",
   'listeningEnabled': true,
@@ -28,11 +28,19 @@
             'I going to go to the cinema.',
           ],
         'answer': 'I am going to go to the cinema.',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “I am going to go to the cinema.” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Kế hoạch tương lai. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'I will go to the cinema.': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'I going to go to the cinema.': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
       {
         'type': 'fill',
         'prompt': 'She ___ (call) you tomorrow. Choose: will / is going to',
         'answer': 'will',
+        'acceptedAnswers': ['will'],
+        'explanation': 'Trong ngữ cảnh câu hỏi, “will” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Kế hoạch tương lai. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
       },
       {
         'type': 'choice',
@@ -40,11 +48,20 @@
         'options':
           ['For planned decisions', 'For spontaneous decisions or predictions', 'For past events'],
         'answer': 'For spontaneous decisions or predictions',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “For spontaneous decisions or predictions” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Kế hoạch tương lai. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'For planned decisions': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'For past events': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
     ],
   'categoryEn': 'Everyday Workplace English',
   'categoryVi': 'Tiếng Anh Công việc Hằng ngày',
   'prerequisites': ['a2-07-phone-call'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 28, 'maxWords': 90 },
 }
 ---
 
@@ -104,37 +121,43 @@ Nhấn nút play để nghe audio. Sau đó lặp lại từng câu thành tiế
 
 ## Kết quả học tập
 
-Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Kế hoạch tương lai** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+Sau bài này, bạn có thể rút ra ý chính và chi tiết hỗ trợ từ văn bản về **Kế hoạch tương lai**, sau đó đưa ra một cách hiểu dựa trên bằng chứng.
 
-## Phòng luyện tập
+## Luyện tập theo tình huống
 
-### Nhận diện cách diễn đạt
+### Tình huống
 
-Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+Đọc tin nhắn dự án ngắn và xác định nhóm sắp bắt đầu việc gì, ai sẽ làm gì sau đó và ngày dự kiến.
 
-> **Colleague:** How would you handle this situation?
->
-> **You:** I am going to visit my grandmother this weekend.
+> **Lưu ý:** Tình huống và các chi tiết đều là hư cấu để luyện ngôn ngữ; đây không phải sự kiện, chính sách, nghiên cứu hoặc diễn giải pháp lý có thật.
 
-Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+### Luyện tập có kiểm soát
 
-> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+Trước khi đọc lại phần giải thích, hãy viết một dòng cho ý chính, một dòng cho chi tiết hỗ trợ mạnh nhất và một cụm từ thể hiện tông giọng hoặc lập trường.
 
-### Đến lượt bạn
+### Nhiệm vụ có hướng dẫn
 
-Tạo một câu trả lời mới cho chủ đề **Kế hoạch tương lai**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+Viết 28–90 từ bằng tiếng Anh dưới dạng ghi chú đọc hiểu có cấu trúc. Nêu ý chính, trích hoặc diễn đạt lại một chi tiết hỗ trợ, xác định một lựa chọn văn phong và tách bằng chứng khỏi suy luận.
 
 ### Bài mẫu
 
-> I am going to visit my grandmother this weekend. I will call you later. We are going to start a new project.
+> **Main point and evidence:** I am going to visit my grandmother this weekend. I will call you later. We are going to start a new project.
+>
+> **Interpretation:** I connect the main point to one concrete detail. I check the time, person, or action so the listener knows what happens next. Other well-supported responses are possible.
 
-Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+### Vì sao bài mẫu phù hợp
+
+Bài mẫu thể hiện một cách xử lý hợp lý, không phải kịch bản bắt buộc học thuộc. Hãy so sánh mức hoàn thành nhiệm vụ, độ chính xác, độ phù hợp với người nghe và độ rõ với bài của bạn rồi sửa một lần.
+
+### Bài tập chuyển đổi
+
+Đổi một kế hoạch đã định thành quyết định đưa ra ngay lúc nói. Giữ ngôn ngữ trọng tâm nhưng thay đổi chi tiết và văn phong cho bối cảnh mới.
 
 ### Tự kiểm tra
 
-- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
-- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
-- [ ] Người nghe có thể nhận ra ý chính ngay.
-- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+- [ ] Mình hoàn thành đủ yêu cầu của tình huống, không chỉ dùng đúng cấu trúc.
+- [ ] Ngôn ngữ trọng tâm chính xác và đúng ý định.
+- [ ] Độ trực tiếp và lượng chi tiết phù hợp người nghe hoặc người đọc.
+- [ ] Người nhận có thể nhận ra ý chính và bước tiếp theo.
 
 <!-- learning-loop:end -->

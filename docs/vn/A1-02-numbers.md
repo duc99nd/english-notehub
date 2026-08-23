@@ -11,35 +11,60 @@
   'skill': 'grammar',
   'order': 2,
   'cefr': 'A1',
-  'minutes': 18,
+  'minutes': 20,
   'tags': ['numbers', 'phone', 'counting', 'math', 'foundation'],
   'audioScript': "One, two, three, four, five.\nMy number is zero nine one, five six seven, eight nine zero.\nI have two sisters and one brother.\nFour plus five equals nine.\n",
   'listeningEnabled': true,
   'flashcardCount': 8,
   'quiz':
     [
-      { 'type': 'fill', 'prompt': 'How do you spell the number 14? ___', 'answer': 'fourteen' },
+      {
+        'type': 'fill',
+        'prompt': 'How do you spell the number 14? ___',
+        'answer': 'fourteen',
+        'acceptedAnswers': ['fourteen'],
+        'explanation': 'Trong ngữ cảnh câu hỏi, “fourteen” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Số đếm & Số điện thoại. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+      },
       {
         'type': 'choice',
         'prompt': "Someone says: 'My number is zero nine one, two three four, five six seven.' What is the number?",
         'options': ['091234567', '91234567', '0912345678', '9234567'],
         'answer': '091234567',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “091234567” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Số đếm & Số điện thoại. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            '9234567': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            '91234567': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            '0912345678': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
       {
         'type': 'choice',
         'prompt': 'Which is the correct spelling for 40?',
         'options': ['fourty', 'forty', 'fourti', 'fourteen'],
         'answer': 'forty',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “forty” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Số đếm & Số điện thoại. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'fourty': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'fourti': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'fourteen': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
       {
         'type': 'fill',
         'prompt': 'Six ___ two equals eight. (plus / minus / times)',
         'answer': 'plus',
+        'acceptedAnswers': ['plus'],
+        'explanation': 'Trong ngữ cảnh câu hỏi, “plus” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Số đếm & Số điện thoại. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
       },
     ],
   'categoryEn': 'Foundation English',
   'categoryVi': 'Tiếng Anh Nền tảng',
   'prerequisites': ['a1-01-greetings'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 20, 'maxWords': 70 },
 }
 ---
 
@@ -213,37 +238,43 @@ Nhấn play và lặp lại từng dòng. Tạm dừng sau mỗi câu để bắ
 
 ## Kết quả học tập
 
-Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Số đếm & Số điện thoại** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+Sau bài này, bạn có thể tạo câu trả lời liền mạch về **Số đếm & Số điện thoại**, dùng đúng cấu trúc trọng tâm và giải thích tác dụng của một lựa chọn.
 
-## Phòng luyện tập
+## Luyện tập theo tình huống
 
-### Nhận diện cách diễn đạt
+### Tình huống
 
-Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+Phiếu giao hàng ghi sai số điện thoại. Hãy đọc chậm số đúng và xác nhận hai số cuối.
 
-> **Colleague:** How would you handle this situation?
->
-> **You:** One, two, three, four, five.
+> **Lưu ý:** Tình huống và các chi tiết đều là hư cấu để luyện ngôn ngữ; đây không phải sự kiện, chính sách, nghiên cứu hoặc diễn giải pháp lý có thật.
 
-Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+### Luyện tập có kiểm soát
 
-> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+Lấy hai câu ví dụ trong bài. Biến đổi câu đầu bằng cấu trúc trọng tâm, sau đó sửa câu thứ hai để thay đổi mức nhấn mạnh hoặc độ chắc chắn nhưng giữ nguyên dữ kiện.
 
-### Đến lượt bạn
+### Nhiệm vụ có hướng dẫn
 
-Tạo một câu trả lời mới cho chủ đề **Số đếm & Số điện thoại**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+Viết 20–70 từ bằng tiếng Anh cho tình huống. Dùng cấu trúc trọng tâm ít nhất hai lần, gạch chân các chỗ đó và thêm một câu giải thích cấu trúc đã thay đổi mức nhấn mạnh, thời gian, điều kiện hoặc độ chắc chắn như thế nào.
 
 ### Bài mẫu
 
-> One, two, three, four, five. My number is zero nine one, five six seven, eight nine zero. I have two sisters and one brother. Four plus five equals nine.
+> **Draft:** One, two, three, four, five. My number is zero nine one, five six seven, eight nine zero. I have two sisters and one brother.
+>
+> **Language choice:** I keep the message short, use familiar words, and finish with one clear next step. Other well-supported responses are possible.
 
-Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+### Vì sao bài mẫu phù hợp
+
+Bài mẫu thể hiện một cách xử lý hợp lý, không phải kịch bản bắt buộc học thuộc. Hãy so sánh mức hoàn thành nhiệm vụ, độ chính xác, độ phù hợp với người nghe và độ rõ với bài của bạn rồi sửa một lần.
+
+### Bài tập chuyển đổi
+
+Đổi sang đọc số phòng và số lượng thay vì số điện thoại. Giữ ngôn ngữ trọng tâm nhưng thay đổi chi tiết và văn phong cho bối cảnh mới.
 
 ### Tự kiểm tra
 
-- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
-- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
-- [ ] Người nghe có thể nhận ra ý chính ngay.
-- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+- [ ] Mình hoàn thành đủ yêu cầu của tình huống, không chỉ dùng đúng cấu trúc.
+- [ ] Ngôn ngữ trọng tâm chính xác và đúng ý định.
+- [ ] Độ trực tiếp và lượng chi tiết phù hợp người nghe hoặc người đọc.
+- [ ] Người nhận có thể nhận ra ý chính và bước tiếp theo.
 
 <!-- learning-loop:end -->

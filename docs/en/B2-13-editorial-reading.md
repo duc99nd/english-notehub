@@ -2,133 +2,167 @@
 {
   'id': 'b2-13-editorial-reading',
   'slug': 'b2-13-editorial-reading',
-  'titleEn': 'Editorial & Opinion Reading',
-  'titleVi': 'Đọc bài xã luận và bài bình luận',
-  'subtitleEn': 'Analyze opinion pieces and editorials',
-  'subtitleVi': 'Phân tích bài bình luận và xã luận',
+  'titleEn': 'Editorial and Critical Reading',
+  'titleVi': 'Đọc xã luận và phân tích phản biện',
+  'subtitleEn': 'Analyze engineering leadership op-eds, detect rhetorical strategies, and evaluate technical arguments',
+  'subtitleVi': 'Đọc hiểu và phân tích phản biện các bài xã luận công nghệ, nhận diện luận điểm và cấu trúc lập luận',
   'level': 'B2',
   'unit': 3,
   'skill': 'reading',
   'order': 13,
   'cefr': 'B2',
-  'minutes': 10,
-  'tags': ['reading', 'editorial', 'opinion', 'B2'],
-  'audioScript': "The author argues that remote work is here to stay.\nCritics contend that the policy fails to address core issues.\nEditorials often reflect the publication's political stance.\n",
+  'minutes': 16,
+  'tags': ['reading', 'editorial', 'critical-thinking', 'analysis', 'B2'],
+  'audioScript': "The fictional author contends that pursuing short-term feature velocity at the expense of architecture creates a compounding deficit.\nThe passage uses an uncited forty-percent estimate, so a critical reader should ask for the underlying study and method.\nThe author presents a protected refactoring budget as one policy to test rather than a universal rule.\n",
   'listeningEnabled': true,
   'flashcardCount': 6,
   'quiz':
     [
       {
         'type': 'choice',
-        'prompt': 'What does "contend" mean in opinion writing?',
-        'options': ['To agree', 'To argue or claim', 'To summarize'],
-        'answer': 'To argue or claim',
+        'prompt': 'What is the primary rhetorical function of the phrase "While proponents argue that..." in an editorial?',
+        'options':
+          [
+            'It introduces a concession or counter-argument before refuting it with stronger evidence.',
+            'It attributes a competing view, but the phrase alone does not show whether the author will accept or challenge it.',
+            'It signals that the next sentence will provide neutral background rather than evaluate the competing view.',
+          ],
+        'answer': 'It introduces a concession or counter-argument before refuting it with stronger evidence.',
+        'explanation': 'In this passage, the author acknowledges the proponents’ position and then pivots to a rebuttal. The surrounding sentences—not the marker alone—establish that function.',
+        'distractorFeedback':
+          {
+            'It attributes a competing view, but the phrase alone does not show whether the author will accept or challenge it.': 'This is true of the marker in isolation, but the question asks about its function in the full passage, where a rebuttal follows.',
+            'It signals that the next sentence will provide neutral background rather than evaluate the competing view.': 'The following sentence evaluates and challenges the competing view rather than remaining neutral.',
+          },
       },
       {
         'type': 'fill',
-        'prompt': "Editorials often ___ the publication's political stance.",
-        'answer': 'reflect',
+        'prompt': 'Critics ___ that cutting corners on test automation creates an illusion of speed.',
+        'answer': 'contend',
+        'acceptedAnswers': ['contend', 'argue'],
+        'explanation': 'Both "contend" and "argue" can report a disputed claim. The canonical answer highlights the lesson’s target verb.',
       },
       {
         'type': 'choice',
-        'prompt': "A \\ stance\\\" is:\"",
-        'options': ['A position or viewpoint', 'A summary', 'A question'],
-        'answer': 'A position or viewpoint',
+        'prompt': 'Which evidence problem should a critical reader flag in the fictional editorial?',
+        'options':
+          [
+            'The 40% figure is not connected to a named study, dataset, or method.',
+            'The author uses a metaphor to compare technical debt with financial interest.',
+            'The author recommends reserving capacity for refactoring instead of waiting for a crisis.',
+          ],
+        'answer': 'The 40% figure is not connected to a named study, dataset, or method.',
+        'explanation': 'A precise percentage can sound authoritative, but readers cannot evaluate it without a traceable source and method. The other options describe rhetorical or policy choices, not missing evidence.',
+        'distractorFeedback':
+          {
+            'The author uses a metaphor to compare technical debt with financial interest.': 'A metaphor can be evaluated for framing, but its presence is not the missing empirical support attached to the percentage.',
+            'The author recommends reserving capacity for refactoring instead of waiting for a crisis.': 'This is a policy recommendation to assess, not the specific sourcing problem in the supporting evidence.',
+          },
       },
     ],
   'categoryEn': 'Technical Leadership Communication',
   'categoryVi': 'Giao tiếp Dẫn dắt Kỹ thuật',
   'prerequisites': ['b2-12-complex-sentence-structures'],
+  'editorialStatus': 'pilot-reviewed',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 45, 'maxWords': 90 },
 }
 ---
 
-# Editorial & Opinion Reading
+# Editorial and Critical Reading
 
-## Reading opinion writing
+## The Analytical Reading Challenge
 
-Editorials and opinion pieces use specific rhetorical patterns. Recognizing these helps you identify the author's stance and arguments.
+At the B2 level, reading technical literature means moving beyond simple comprehension. Senior engineers must evaluate **engineering editorials**, **analyst op-eds**, and **whitepaper arguments** to discern between evidence-backed strategies and marketing hype.
 
-> **Pattern**: `The author argues/contends/maintains that [claim]`
+Critical reading requires you to identify the **core thesis**, spot **counterarguments**, and evaluate whether the author's conclusions logically follow from their premises.
 
-### Common opinion verbs
+> **Pattern**: `While proponents contend that [claim A], closer inspection reveals that [rebuttal B with evidence].`
 
-| Verb     | Strength    |
-| -------- | ----------- |
-| suggest  | Weak        |
-| argue    | Medium      |
-| contend  | Strong      |
-| maintain | Strong      |
-| assert   | Very strong |
+---
 
-### Stance and perspective vocabulary
+## Fictional Editorial Passage: The Velocity Illusion
 
-| English           | Vietnamese     |
-| ----------------- | -------------- |
-| stance / position | lập trường     |
-| viewpoint         | quan điểm      |
-| critic            | người phê bình |
-| advocate          | người ủng hộ   |
-| reflect           | phản ánh       |
-| perspective       | góc nhìn       |
+**Training note:** _Modern Engineering Perspectives_ is a fictional publication created for this lesson. The percentages and operational claims below are illustrative, not research findings.
 
-## Analyzing arguments
+**Fictional publication:** _Modern Engineering Perspectives_
 
-1. **Claim**: what the author is arguing
-2. **Evidence**: data, examples, expert quotes
-3. **Reasoning**: how evidence supports the claim
-4. **Counter-argument**: opposing views acknowledged
+**Title:** _The Velocity Illusion: Why Fast Shipping Without Architecture Kills Scale_
 
-## Sample editorial
+The software industry is obsessed with shipping speed. In recent years, startup doctrine has mandated that teams must "move fast and break things" to capture market share. However, this philosophy harbors a dangerous fallacy: confusing raw deployment frequency with sustainable engineering velocity.
 
-> "The author argues that remote work is here to stay. Critics contend that the policy fails to address core issues. Editorials often reflect the publication's political stance."
+**While proponents argue that** immediate feature delivery maximizes market feedback, the author claims that internal post-mortems show unmanaged technical debt acting as a compounding financial drag. When teams bypass modular design and automated regression suites, codebases can degrade into brittle systems. **In light of the fictional outages described here**, the author estimates that quick-fix implementations consume over 40% of engineering bandwidth on triage and firefighting—but provides no study or method for that figure.
+
+Critics of continuous refactoring often emphasize its opportunity cost. The author counters that neglecting architecture defers costs at a high interest rate. **In response to** demands for unchecked feature expansion, the article recommends that engineering leaders protect time for architectural remediation. It presents a 20% capacity budget as one possible policy, not a universal benchmark.
+
+---
+
+## Rhetorical Markers & Critical Vocabulary
+
+| Academic/Opinion Term          | Rhetorical Function                                           | Context in Argumentation                                                  |
+| :----------------------------- | :------------------------------------------------------------ | :------------------------------------------------------------------------ |
+| **Contend / Argue that**       | Report an assertion without presenting it as universal truth. | "Critics contend that the deadline is unrealistic."                       |
+| **In light of [evidence]**     | Ground an assertion in recent events, data, or findings.      | "In light of recent benchmark metrics, we must upgrade the cache."        |
+| **Compounding drag / deficit** | Metaphorical language describing growing negative impacts.    | "Technical debt creates a compounding drag on developer velocity."        |
+| **Overlook [factor]**          | Highlight a blind spot or weakness in the opposing argument.  | "The proposal overlooks the ongoing infrastructure maintenance cost."     |
+| **In response to [challenge]** | Pivot smoothly to present a proactive alternative.            | "In response to customer latency reports, we initiated a database audit." |
+
+---
+
+## Identifying Argument Structure
+
+```mermaid
+graph TD
+    A["Main Thesis: Raw speed without architecture creates a compounding deficit"] --> B["Concession: Acknowledges that shipping fast offers early market feedback"]
+    B --> C["Evidence gap: Uses an uncited 40% estimate"]
+    C --> D["Proposed policy: Test a protected refactoring budget"]
+```
+
+---
 
 ## Quick quiz
 
-Test your editorial reading skills in the quiz section.
+Test your critical reading and rhetorical analysis in the quiz above.
+
+---
 
 ## What to learn next
 
-In the next lesson **B2-14-formal-correspondence**, you will write professional formal correspondence.
+In the next lesson **B2-14-formal-correspondence**, you will apply clear, structured writing techniques to professional client emails and formal memoranda.
 
 <!-- learning-loop:start -->
 
 ## Learning outcome
 
-By the end of this lesson, you will be able to identify the main point, supporting detail, and register choices in a text about editorial & opinion reading.
+By the end of this lesson, you can analyze an opinion-driven technical editorial, identify the author's primary thesis and supporting concessions, and articulate a reasoned critical response in 3–4 sentences.
 
 ## Practice lab
 
-### Notice the language
+### Notice the rhetorical moves
 
-Read the situation, then listen to the model once for meaning and once for phrasing.
+Read the passage once for the overarching message, and a second time to locate the author's pivot words (`However`, `While proponents argue`, `In light of`, `Rather than`).
 
-> **Colleague:** How would you handle **editorial & opinion reading** in this situation?
->
-> **You:** The author argues that remote work is here to stay.
+### Controlled comprehension check
 
-Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+1. **What is the author's main counter-argument to "moving fast"?**
+   _Answer:_ The author argues that short-term speed can create compounding technical debt and later consume substantial engineering time.
+2. **What concrete mechanism does the author propose instead of crisis cleanup?**
+   _Answer:_ Testing a protected sprint-capacity budget for continuous architectural remediation.
 
-> **Pattern**: clear point + concrete detail or reason + appropriate next step
+### Guided analytical task
 
-### Your turn
+**Scenario:** A tech blog argues that "Microservices are always superior to monoliths for all engineering teams."
 
-Summarize the text in two sentences for a colleague or classmate. Identify one claim, one supporting detail, and one phrase that signals the writer's attitude.
+**Your task:** Write a 45–90-word, 3-sentence critical evaluation using the opinion markers from this lesson (`While proponents contend...`, `In light of...`, `It is essential to recognize...`).
 
 ### Model response
 
-> The author argues that remote work is here to stay. Critics contend that the policy fails to address core issues. Editorials often reflect the publication's political stance.
+> "While proponents contend that microservices inherently offer superior scalability, this perspective overlooks the operational overhead of distributed tracing and cross-network latency. In light of real-world team constraints, microservices often introduce unnecessary complexity for small engineering squads. Therefore, it is essential to evaluate architectural fit based on domain boundaries rather than adopting industry trends blindly."
 
-The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+### Self-check rubric
 
-### Register switch
-
-Rewrite your response twice: first for a trusted teammate, then for a client or senior stakeholder. Keep the underlying message the same while changing directness, context, and the amount of explanation. Identify one phrase you softened, one detail you made explicit, and one assumption you removed.
-
-### Self-check
-
-- [ ] I completed the task without translating a full Vietnamese sentence word for word.
-- [ ] I used at least two useful expressions from the lesson.
-- [ ] My main point is easy to identify.
-- [ ] I included a concrete detail, reason, or next step.
+- [ ] I identified both the opposing claim and the counter-evidence.
+- [ ] I used formal analytical reporting verbs (`contend`, `overlook`, `in light of`).
+- [ ] My analysis focused on objective engineering trade-offs rather than emotional reaction.
 
 <!-- learning-loop:end -->

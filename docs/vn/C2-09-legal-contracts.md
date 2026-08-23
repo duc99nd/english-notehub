@@ -11,7 +11,7 @@
   'skill': 'writing',
   'order': 9,
   'cefr': 'C2',
-  'minutes': 13,
+  'minutes': 15,
   'tags': ['legal', 'contracts', 'law', 'formal', 'writing', 'precision', 'drafting'],
   'categoryEn': 'Expert Register and Influence',
   'categoryVi': 'Sắc thái và Ảnh hưởng Chuyên sâu',
@@ -32,19 +32,38 @@
             'To provide examples',
           ],
         'answer': 'To eliminate ambiguity by establishing precise meanings',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “To eliminate ambiguity by establishing precise meanings” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Hợp đồng Pháp lý. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'To impress readers with complexity': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'To satisfy legal requirements': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'To provide examples': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
       {
         'type': 'choice',
         'prompt': 'Which word, when used in a contract, creates the strongest obligation?',
         'options': ['May', 'Should', 'Shall', 'Might'],
         'answer': 'Shall',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “Shall” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Hợp đồng Pháp lý. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'May': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'Should': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'Might': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
       {
         'type': 'fill',
         'prompt': 'The parties hereby ___ that they have read and understood the terms of this agreement.',
         'answer': 'acknowledge',
+        'acceptedAnswers': ['acknowledge'],
+        'explanation': 'Trong ngữ cảnh câu hỏi, “acknowledge” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Hợp đồng Pháp lý. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
       },
     ],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 75, 'maxWords': 230 },
 }
 ---
 
@@ -148,42 +167,44 @@ Trong **C2-10-review-unit2**, bạn sẽ củng cố các kỹ năng nói, đọ
 
 ## Kết quả học tập
 
-Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Hợp đồng Pháp lý** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+Sau bài này, bạn có thể viết và chỉnh sửa câu trả lời về **Hợp đồng Pháp lý** cho người đọc xác định, có mục đích, thông tin hỗ trợ và bước tiếp theo rõ ràng.
 
-## Phòng luyện tập
+## Luyện tập theo tình huống
 
-### Nhận diện cách diễn đạt
+### Tình huống
 
-Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+Sửa điều khoản dịch vụ hư cấu có nghĩa vụ thời gian phản hồi mơ hồ. Định nghĩa thuật ngữ, nêu hai cách hiểu và yêu cầu người có chuyên môn pháp lý duyệt.
 
-> **Colleague:** How would you handle this situation?
->
-> **You:** Legal language evolved to eliminate ambiguity and protect all parties.
+> **Lưu ý:** Tình huống và các chi tiết đều là hư cấu để luyện ngôn ngữ; đây không phải sự kiện, chính sách, nghiên cứu hoặc diễn giải pháp lý có thật.
 
-Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+### Luyện tập có kiểm soát
 
-> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+Lập dàn ý bốn phần: người đọc, mục đích, một chi tiết hỗ trợ cụ thể và bước tiếp theo được yêu cầu. Kiểm tra để mỗi câu dự kiến đều phục vụ một trong bốn phần.
 
-### Đến lượt bạn
+### Nhiệm vụ có hướng dẫn
 
-Tạo một câu trả lời mới cho chủ đề **Hợp đồng Pháp lý**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+Viết 75–230 từ bằng tiếng Anh cho đúng người đọc. Nêu mục đích ngay phần mở đầu, hỗ trợ bằng một chi tiết cụ thể và kết thúc bằng bước tiếp theo phù hợp.
 
 ### Bài mẫu
 
-> Legal language evolved to eliminate ambiguity and protect all parties. Definitions sections are the foundation of legal precision. Boilerplate clauses are not merely standard—they serve specific protective functions.
+> **Draft:** Legal language evolved to eliminate ambiguity and protect all parties. Definitions sections are the foundation of legal precision. Boilerplate clauses are not merely standard—they serve specific protective functions.
+>
+> **Revision note:** I distinguish what the language states from what a reader may plausibly infer. The response preserves useful ambiguity only where the genre requires it, names the evidence supporting the preferred interpretation, and explicitly acknowledges what cannot be concluded without additional context or specialist review. Other well-supported responses are possible.
 
-Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+### Vì sao bài mẫu phù hợp
 
-### Chuyển đổi register
+Bài mẫu thể hiện một cách xử lý hợp lý, không phải kịch bản bắt buộc học thuộc. Hãy so sánh mức hoàn thành nhiệm vụ, độ chính xác, độ phù hợp với người nghe và độ rõ với bài của bạn rồi sửa một lần.
 
-Viết lại câu trả lời hai lần: một bản cho đồng đội thân quen và một bản cho khách hàng hoặc stakeholder cấp cao. Giữ nguyên thông điệp nhưng thay đổi độ trực tiếp, lượng bối cảnh và mức giải thích. Chỉ ra một cụm từ bạn đã làm mềm, một chi tiết bạn nói rõ hơn và một giả định bạn đã loại bỏ. Sau đó, viết thêm một cách diễn giải hợp lý khác của bài mẫu và nêu bằng chứng ngữ cảnh cần có để chọn giữa hai cách hiểu.
+### Bài tập chuyển đổi
+
+Kiểm tra điều khoản với sự cố xảy ra ngoài giờ làm việc. Giữ ngôn ngữ trọng tâm nhưng thay đổi chi tiết và văn phong cho bối cảnh mới.
 
 ### Tự kiểm tra
 
-- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
-- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
-- [ ] Người nghe có thể nhận ra ý chính ngay.
-- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
-- [ ] Mình đã giới hạn mức độ chắc chắn của nhận định và điều chỉnh register theo người nghe.
+- [ ] Mình hoàn thành đủ yêu cầu của tình huống, không chỉ dùng đúng cấu trúc.
+- [ ] Ngôn ngữ trọng tâm chính xác và đúng ý định.
+- [ ] Độ trực tiếp và lượng chi tiết phù hợp người nghe hoặc người đọc.
+- [ ] Người nhận có thể nhận ra ý chính và bước tiếp theo.
+- [ ] Mình tách bằng chứng, giả định và khuyến nghị thay vì trình bày tất cả với cùng mức chắc chắn.
 
 <!-- learning-loop:end -->

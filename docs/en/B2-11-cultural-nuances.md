@@ -11,7 +11,7 @@
   'skill': 'vocab',
   'order': 11,
   'cefr': 'B2',
-  'minutes': 10,
+  'minutes': 12,
   'tags': ['culture', 'communication', 'nuance', 'B2'],
   'audioScript': "In some cultures, direct feedback is considered rude.\nIt's important to read between the lines during international negotiations.\nBuilding rapport takes time across different cultural contexts.\n",
   'listeningEnabled': true,
@@ -23,22 +23,39 @@
         'prompt': 'What does "read between the lines" mean?',
         'options': ['To read carefully', 'To understand implied meaning', 'To summarize text'],
         'answer': 'To understand implied meaning',
+        'explanation': 'In this context, “To understand implied meaning” supplies the meaning or form targeted in Cultural Nuances. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'To read carefully': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'To summarize text': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
       {
         'type': 'fill',
         'prompt': 'Building ___ takes time across different cultures.',
         'answer': 'rapport',
+        'acceptedAnswers': ['rapport'],
+        'explanation': 'In this context, “rapport” supplies the meaning or form targeted in Cultural Nuances. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
       },
       {
         'type': 'choice',
         'prompt': 'Direct feedback in some cultures is considered:',
         'options': ['Appreciated', 'Rude', 'Funny'],
         'answer': 'Rude',
+        'explanation': 'In this context, “Rude” supplies the meaning or form targeted in Cultural Nuances. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'Appreciated': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Funny': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
     ],
   'categoryEn': 'Technical Leadership Communication',
   'categoryVi': 'Giao tiếp Dẫn dắt Kỹ thuật',
   'prerequisites': ['b2-10-review-unit2'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'dialogue', 'minTurns': 4, 'maxTurns': 6 },
 }
 ---
 
@@ -87,41 +104,48 @@ In the next lesson **B2-12-complex-sentence-structures**, you will master comple
 
 ## Learning outcome
 
-By the end of this lesson, you will be able to select and use useful language for cultural nuances in a short, realistic exchange.
+By the end of this lesson, you can complete a four-turn exchange about cultural nuances, choosing expressions that fit the relationship and immediate goal.
 
-## Practice lab
+## Scenario practice
 
-### Notice the language
+### Situation
 
-Read the situation, then listen to the model once for meaning and once for phrasing.
+A remote team interprets brief feedback differently. Compare two plausible readings, ask a clarifying question, and avoid assigning behavior to a whole culture.
 
-> **Colleague:** How would you handle **cultural nuances** in this situation?
->
-> **You:** In some cultures, direct feedback is considered rude.
+> **Training note:** This situation and its details are fictional. They are designed for language practice, not presented as a real event, policy, study, or legal interpretation.
 
-Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+### Controlled practice
 
-> **Pattern**: clear point + concrete detail or reason + appropriate next step
+Choose three expressions from **Cultural Nuances**. Label each one as an opener, key detail, clarification, or next step. Remove any expression that does not fit the relationship in the situation.
 
-### Your turn
+### Guided task
 
-Create a four-line exchange with a colleague or classmate. Use at least three target expressions from **Cultural Nuances** and add one follow-up question.
+Write a four-to-six-turn exchange for this situation. Use at least three target expressions, respond to the other speaker's information, and end with a question, confirmation, or agreed action.
 
 ### Model response
 
-> In some cultures, direct feedback is considered rude. It's important to read between the lines during international negotiations. Building rapport takes time across different cultural contexts.
+> **Partner:** We need to respond to the situation above. What would you say first?
+>
+> **You:** In some cultures, direct feedback is considered rude.
+>
+> **Partner:** What detail should we confirm before we act?
+>
+> **You:** It's important to read between the lines during international negotiations. Building rapport takes time across different cultural contexts.
 
-The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+### Why the model works
 
-### Register switch
+The model shows one defensible route through the task; it is not a script to memorize. Compare its task completion, language accuracy, audience fit, and clarity with your response, then revise once.
 
-Rewrite your response twice: first for a trusted teammate, then for a client or senior stakeholder. Keep the underlying message the same while changing directness, context, and the amount of explanation. Identify one phrase you softened, one detail you made explicit, and one assumption you removed.
+### Transfer task
+
+Adapt the clarification for an asynchronous written channel. Keep the target language, but change the details and register needed for the new context.
 
 ### Self-check
 
-- [ ] I completed the task without translating a full Vietnamese sentence word for word.
-- [ ] I used at least two useful expressions from the lesson.
-- [ ] My main point is easy to identify.
-- [ ] I included a concrete detail, reason, or next step.
+- [ ] I completed every part of this lesson's scenario, not only the language form.
+- [ ] My target language is accurate and fits the intended meaning.
+- [ ] My level of directness and detail fits the named audience.
+- [ ] The reader or listener can identify my main point and next step.
+- [ ] I separated evidence, assumptions, and recommendations instead of presenting them as equally certain.
 
 <!-- learning-loop:end -->

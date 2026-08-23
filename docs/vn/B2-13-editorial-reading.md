@@ -2,135 +2,169 @@
 {
   'id': 'b2-13-editorial-reading',
   'slug': 'b2-13-editorial-reading',
-  'titleEn': 'Editorial and Opinion Reading',
-  'titleVi': 'Đọc bài xã luận và quan điểm',
-  'subtitleEn': 'Read and analyze opinion pieces, editorials, and analytical commentary',
-  'subtitleVi': 'Đọc và phân tích các bài luận, xã luận và bình luận phân tích',
+  'titleEn': 'Editorial and Critical Reading',
+  'titleVi': 'Đọc xã luận và phân tích phản biện',
+  'subtitleEn': 'Analyze engineering leadership op-eds, detect rhetorical strategies, and evaluate technical arguments',
+  'subtitleVi': 'Đọc hiểu và phân tích phản biện các bài xã luận công nghệ, nhận diện luận điểm và cấu trúc lập luận',
   'level': 'B2',
   'unit': 3,
   'skill': 'reading',
   'order': 13,
   'cefr': 'B2',
-  'minutes': 10,
-  'tags': ['reading', 'editorial', 'opinion', 'analysis', 'B2'],
-  'audioScript': "The author argues that remote work is here to stay.\nCritics contend that the policy fails to address core issues.\nEditorials often reflect the publication's political stance.\n",
+  'minutes': 16,
+  'tags': ['reading', 'editorial', 'critical-thinking', 'analysis', 'B2'],
+  'audioScript': "The fictional author contends that pursuing short-term feature velocity at the expense of architecture creates a compounding deficit.\nThe passage uses an uncited forty-percent estimate, so a critical reader should ask for the underlying study and method.\nThe author presents a protected refactoring budget as one policy to test rather than a universal rule.\n",
   'listeningEnabled': true,
   'flashcardCount': 6,
   'quiz':
     [
       {
         'type': 'choice',
-        'prompt': 'What does "contend" mean in opinion writing?',
-        'options': ['To agree', 'To argue or claim', 'To summarize'],
-        'answer': 'To argue or claim',
+        'prompt': 'What is the primary rhetorical function of the phrase "While proponents argue that..." in an editorial?',
+        'options':
+          [
+            'It introduces a concession or counter-argument before refuting it with stronger evidence.',
+            'It attributes a competing view, but the phrase alone does not show whether the author will accept or challenge it.',
+            'It signals that the next sentence will provide neutral background rather than evaluate the competing view.',
+          ],
+        'answer': 'It introduces a concession or counter-argument before refuting it with stronger evidence.',
+        'explanation': 'Trong đoạn này, tác giả ghi nhận quan điểm ủng hộ rồi chuyển sang phản bác. Chính các câu xung quanh, không chỉ riêng cụm nối, xác định chức năng đó.',
+        'distractorFeedback':
+          {
+            'It attributes a competing view, but the phrase alone does not show whether the author will accept or challenge it.': 'Nhận xét này đúng nếu chỉ xét riêng cụm nối, nhưng câu hỏi hỏi chức năng trong toàn đoạn, nơi phần phản bác xuất hiện ngay sau đó.',
+            'It signals that the next sentence will provide neutral background rather than evaluate the competing view.': 'Câu tiếp theo đánh giá và phản bác quan điểm cạnh tranh chứ không chỉ cung cấp bối cảnh trung lập.',
+          },
       },
       {
         'type': 'fill',
-        'prompt': "Editorials often ___ the publication's political stance.",
-        'answer': 'reflect',
+        'prompt': 'Critics ___ that cutting corners on test automation creates an illusion of speed.',
+        'answer': 'contend',
+        'acceptedAnswers': ['contend', 'argue'],
+        'explanation': 'Cả "contend" và "argue" đều có thể dùng để thuật lại một nhận định còn tranh luận. Đáp án chuẩn nhấn mạnh động từ trọng tâm của bài.',
       },
       {
         'type': 'choice',
-        'prompt': "A \\ stance\\\" is:\"",
-        'options': ['A position or viewpoint', 'A summary', 'A question'],
-        'answer': 'A position or viewpoint',
+        'prompt': 'Which evidence problem should a critical reader flag in the fictional editorial?',
+        'options':
+          [
+            'The 40% figure is not connected to a named study, dataset, or method.',
+            'The author uses a metaphor to compare technical debt with financial interest.',
+            'The author recommends reserving capacity for refactoring instead of waiting for a crisis.',
+          ],
+        'answer': 'The 40% figure is not connected to a named study, dataset, or method.',
+        'explanation': 'Một tỷ lệ chính xác có thể tạo cảm giác đáng tin, nhưng người đọc không thể đánh giá nếu thiếu nguồn và phương pháp. Hai lựa chọn còn lại mô tả thủ pháp hoặc đề xuất, không phải lỗ hổng bằng chứng.',
+        'distractorFeedback':
+          {
+            'The author uses a metaphor to compare technical debt with financial interest.': 'Có thể đánh giá cách ẩn dụ định khung vấn đề, nhưng bản thân ẩn dụ không phải bằng chứng thực nghiệm bị thiếu cho tỷ lệ phần trăm.',
+            'The author recommends reserving capacity for refactoring instead of waiting for a crisis.': 'Đây là khuyến nghị chính sách cần đánh giá, không phải vấn đề truy nguồn cụ thể của bằng chứng hỗ trợ.',
+          },
       },
     ],
   'categoryEn': 'Technical Leadership Communication',
   'categoryVi': 'Giao tiếp Dẫn dắt Kỹ thuật',
   'prerequisites': ['b2-12-complex-sentence-structures'],
+  'editorialStatus': 'pilot-reviewed',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 45, 'maxWords': 90 },
 }
 ---
 
-# Editorial and Opinion Reading
+# Đọc Xã Luận và Phân Tích Phản Biện trong Công Nghệ
 
-## The scenario
+## Thách thức khi Đọc Văn bản Phân tích & Đánh giá Quan điểm
 
-Read this editorial about a proposed workplace regulation, and practice identifying argument structure, rhetorical strategies, and opinion language.
+Ở cấp độ B2, việc đọc tài liệu kỹ thuật không chỉ dừng lại ở mức hiểu nghĩa từ vựng bề mặt. Người làm công nghệ cần có khả năng đánh giá **các bài xã luận công nghệ (editorials)**, **bài phân tích ý kiến chuyên gia (op-eds)** và **báo cáo chiến lược (whitepapers)** để phân biệt đâu là lập luận có cơ sở dữ liệu và đâu là sự phóng đại tiếp thị (hype).
+
+Kỹ năng đọc phản biện (Critical Reading) giúp bạn bóc tách **luận điểm cốt lõi (core thesis)**, nhận diện **luận điểm nhượng bộ / phản biện (counterarguments)**, và đánh giá xem kết luận của tác giả có logic với bằng chứng đưa ra hay không.
+
+> **Mẫu câu**: `While proponents contend that [claim A], closer inspection reveals that [rebuttal B with evidence].`
+>
+> _(Dù những người ủng hộ lập luận rằng [luận điểm A], nhưng khi xem xét kỹ hơn sẽ thấy [phản biện B kèm bằng chứng].)_
 
 ---
 
-**Title: The Proposed Flexibility Mandate: A Missed Opportunity**
+## Bài xã luận hư cấu: Ảo tưởng về Tốc độ (The Velocity Illusion)
 
-## The proposal
+**Lưu ý:** _Modern Engineering Perspectives_ là ấn phẩm hư cấu được tạo cho bài học. Các tỷ lệ và nhận định vận hành dưới đây chỉ để minh họa, không phải kết quả nghiên cứu.
 
-The government has proposed a new regulation requiring all companies with more than 50 employees to offer flexible working arrangements. The stated aim is to improve work-life balance and boost productivity.
+**Ấn phẩm hư cấu:** _Modern Engineering Perspectives_
 
-## The case against
+**Tiêu đề bài viết:** _The Velocity Illusion: Why Fast Shipping Without Architecture Kills Scale_
 
-However, the proposed regulation fails to address the root cause of workplace inflexibility. **In light of recent events**, particularly the rapid adoption of remote work during 2020-2021, it is clear that many companies had already begun adapting their policies voluntarily.
+The software industry is obsessed with shipping speed. In recent years, startup doctrine has mandated that teams must "move fast and break things" to capture market share. However, this philosophy harbors a dangerous fallacy: confusing raw deployment frequency with sustainable engineering velocity.
 
-Critics argue that the policy overlooks key **stakeholder** concerns. Small businesses, already struggling with rising costs, would bear a disproportionate administrative burden. The regulation takes a one-size-fits-all approach to a problem that requires nuanced, company-specific solutions.
+**While proponents argue that** immediate feature delivery maximizes market feedback, the author claims that internal post-mortems show unmanaged technical debt acting as a compounding financial drag. When teams bypass modular design and automated regression suites, codebases can degrade into brittle systems. **In light of the fictional outages described here**, the author estimates that quick-fix implementations consume over 40% of engineering bandwidth on triage and firefighting—but provides no study or method for that figure.
 
-> **Key phrase**: "Critics argue that the policy overlooks key stakeholder concerns."
+Critics of continuous refactoring often emphasize its opportunity cost. The author counters that neglecting architecture defers costs at a high interest rate. **In response to** demands for unchecked feature expansion, the article recommends that engineering leaders protect time for architectural remediation. It presents a 20% capacity budget as one possible policy, not a universal benchmark.
 
-## What we should do instead
+---
 
-Rather than mandating flexibility from above, policymakers should incentivize voluntary adoption. Tax benefits for companies that implement flexible policies would achieve the same goals without the compliance costs.
+## Từ vựng Học thuật & Dấu hiệu Nhận diện Lập luận
 
-**In response to** calls for stronger action, I would argue that the market itself is already moving in the right direction. Companies that fail to offer flexibility will struggle to attract talent — this is a natural market correction.
+| Thuật ngữ Phản biện            | Chức năng Lập luận                                                            | Ngữ cảnh Sử dụng                                                   |
+| :----------------------------- | :---------------------------------------------------------------------------- | :----------------------------------------------------------------- |
+| **Contend / Argue that**       | Thuật lại quan điểm của một phía mà không khẳng định đó là chân lý tuyệt đối. | "Critics contend that the deadline is unrealistic."                |
+| **In light of [evidence]**     | Dẫn chứng dựa trên sự kiện, dữ liệu hoặc kết quả vừa xảy ra.                  | "In light of recent benchmark metrics, we must upgrade the cache." |
+| **Compounding drag / deficit** | Ẩn dụ tài chính: gánh nặng lãi kép ngày càng phình to.                        | "Technical debt creates a compounding drag on developer velocity." |
+| **Overlook [factor]**          | Chỉ ra điểm mù hoặc lỗ hổng trong lập luận của đối phương.                    | "The proposal overlooks ongoing maintenance costs."                |
+| **In response to [challenge]** | Chuyển hướng mạch lạc để đưa ra giải pháp thay thế chủ động.                  | "In response to customer reports, we initiated an audit."          |
 
-## Key vocabulary
+---
 
-|| Word | Meaning |
-|| --- | --- |
-|| root cause | the fundamental reason behind a problem |
-|| stakeholder | person or group with an interest in an issue |
-|| overlooks | fails to notice or consider |
-|| in light of | considering, taking into account |
-|| in response to | as a reply or reaction to |
-|| disproportionate | too large or too small relative to something |
-|| incentivize | encourage through rewards |
+## Sơ đồ Cấu trúc Lập luận của Bài viết
 
-## Comprehension questions
+```mermaid
+graph TD
+    A["Luận điểm chính: Tốc độ đơn thuần thiếu kiến trúc sẽ tạo ra gánh nặng lãi kép"] --> B["Nhượng bộ: Thừa nhận ra mắt nhanh giúp nhận phản hồi sớm từ thị trường"]
+    B --> C["Lỗ hổng bằng chứng: Dùng ước tính 40% nhưng không dẫn nguồn"]
+    C --> D["Đề xuất cần kiểm chứng: Thử nghiệm quỹ thời gian riêng cho refactoring"]
+```
 
-1. What is the main criticism of the proposed regulation?
-2. Why does the author argue the market is already moving in the right direction?
-3. What alternative does the author suggest?
+---
 
-## What to learn next
+## Trắc nghiệm nhanh
 
-In the next lesson **B2-14-formal-correspondence**, you will practice writing formal business correspondence.
+Kiểm tra khả năng phân tích lập luận và nắm bắt từ vựng phản biện ở phần câu hỏi phía trên.
+
+---
+
+## Bài học tiếp theo
+
+Ở bài tiếp theo **B2-14-formal-correspondence**, bạn sẽ áp dụng kỹ năng hành văn chuẩn mực vào việc soạn thảo email cho đối tác quốc tế và biên bản ghi nhớ trang trọng.
 
 <!-- learning-loop:start -->
 
 ## Kết quả học tập
 
-Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Đọc bài xã luận và quan điểm** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+Sau bài này, bạn có thể phân tích cấu trúc lập luận của một bài xã luận công nghệ, chỉ ra luận điểm nhượng bộ và viết phản hồi đánh giá phản biện dài 3-4 câu một cách gãy gọn.
 
 ## Phòng luyện tập
 
-### Nhận diện cách diễn đạt
+### Nhận diện cách thức lập luận
 
-Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+Đọc lại bài viết một lần nữa để chú ý các từ chuyển hướng lập luận của tác giả (`However`, `While proponents argue`, `In light of`, `Rather than`).
 
-> **Colleague:** How would you handle this situation?
->
-> **You:** The author argues that remote work is here to stay.
+### Câu hỏi kiểm tra đọc hiểu
 
-Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+1. **Lập luận phản bác chính của tác giả đối với tư duy "move fast" là gì?**
+   _(Tác giả cho rằng tốc độ ngắn hạn có thể tích tụ nợ kỹ thuật và về sau tiêu tốn đáng kể thời gian của đội ngũ)._
+2. **Tác giả đề xuất giải pháp cụ thể nào thay vì dọn rác theo từng đợt khủng hoảng?**
+   _(Thử nghiệm một phần dung lượng sprint được bảo vệ cho công tác cải thiện kiến trúc liên tục)._
 
-> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+### Luyện tập phân tích phản biện có hướng dẫn
 
-### Đến lượt bạn
+**Tình huống:** Một bài blog công nghệ tuyên bố: _"Microservices luôn luôn vượt trội hơn Monolith cho mọi quy mô đội ngũ kỹ thuật."_
 
-Tạo một câu trả lời mới cho chủ đề **Đọc bài xã luận và quan điểm**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+**Yêu cầu của bạn:** Viết đoạn phản biện 45–90 từ gồm 3 câu, sử dụng các mẫu câu trong bài (`While proponents contend...`, `This perspective overlooks...`, `In light of...`).
 
 ### Bài mẫu
 
-> The author argues that remote work is here to stay. Critics contend that the policy fails to address core issues. Editorials often reflect the publication's political stance.
-
-Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
-
-### Chuyển đổi register
-
-Viết lại câu trả lời hai lần: một bản cho đồng đội thân quen và một bản cho khách hàng hoặc stakeholder cấp cao. Giữ nguyên thông điệp nhưng thay đổi độ trực tiếp, lượng bối cảnh và mức giải thích. Chỉ ra một cụm từ bạn đã làm mềm, một chi tiết bạn nói rõ hơn và một giả định bạn đã loại bỏ.
+> "While proponents contend that microservices inherently offer superior scalability, this perspective overlooks the operational overhead of distributed tracing and cross-network latency. In light of real-world team constraints, microservices often introduce unnecessary complexity for small engineering squads. Therefore, it is essential to evaluate architectural fit based on domain boundaries rather than adopting industry trends blindly."
 
 ### Tự kiểm tra
 
-- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
-- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
-- [ ] Người nghe có thể nhận ra ý chính ngay.
-- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+- [ ] Mình đã chỉ ra được cả quan điểm đối lập lẫn dẫn chứng phản biện.
+- [ ] Dùng đúng các động từ báo cáo học thuật (`contend`, `overlook`, `in light of`).
+- [ ] Nhận xét dựa trên trade-off kỹ thuật khách quan thay vì phán xét cảm tính.
 
 <!-- learning-loop:end -->

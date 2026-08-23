@@ -11,7 +11,7 @@
   'skill': 'vocab',
   'order': 6,
   'cefr': 'A1',
-  'minutes': 20,
+  'minutes': 22,
   'tags': ['time', 'places', 'prepositions', 'vocab', 'daily'],
   'audioScript': "In the morning, I go to school.\nIn the afternoon, I study English at the library.\nIn the evening, I watch TV at home.\nOn Sunday, I visit my grandmother at her house.\n",
   'listeningEnabled': true,
@@ -23,28 +23,52 @@
         'prompt': "Which preposition is correct? 'I wake up ___ six in the morning.'",
         'options': ['in', 'on', 'at', 'by'],
         'answer': 'at',
+        'explanation': 'In this context, “at” supplies the meaning or form targeted in Time & Places. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'in': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'on': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'by': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
       {
         'type': 'choice',
         'prompt': "Complete: 'She works ___ a hospital.'",
         'options': ['in', 'at', 'on'],
         'answer': 'at',
+        'explanation': 'In this context, “at” supplies the meaning or form targeted in Time & Places. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'in': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'on': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
       {
         'type': 'choice',
         'prompt': "When is 'afternoon'?",
         'options': ['6am - 12pm', '12pm - 6pm', '6pm - 12am'],
         'answer': '12pm - 6pm',
+        'explanation': 'In this context, “12pm - 6pm” supplies the meaning or form targeted in Time & Places. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            '6am - 12pm': 'This option does not complete the communicative intent or target form tested by the question context.',
+            '6pm - 12am': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
       {
         'type': 'fill',
         'prompt': 'I have a meeting ___ Monday morning. (giới từ)',
         'answer': 'on',
+        'acceptedAnswers': ['on'],
+        'explanation': 'In this context, “on” supplies the meaning or form targeted in Time & Places. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
       },
     ],
   'categoryEn': 'Foundation English',
   'categoryVi': 'Tiếng Anh Nền tảng',
   'prerequisites': ['a1-05-review-unit1'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'dialogue', 'minTurns': 4, 'maxTurns': 6 },
 }
 ---
 
@@ -210,37 +234,47 @@ In **A1-07-food**, you will learn the vocabulary for food and drinks — fruits,
 
 ## Learning outcome
 
-By the end of this lesson, you will be able to select and use useful language for time & places in a short, realistic exchange.
+By the end of this lesson, you can complete a four-turn exchange about time & places, choosing expressions that fit the relationship and immediate goal.
 
-## Practice lab
+## Scenario practice
 
-### Notice the language
+### Situation
 
-Read the situation, then listen to the model once for meaning and once for phrasing.
+You want to meet a study partner at the library. Agree on a day, a time, and the exact place.
 
-> **Colleague:** How would you handle **time & places** in this situation?
->
-> **You:** In the morning, I go to school.
+> **Training note:** This situation and its details are fictional. They are designed for language practice, not presented as a real event, policy, study, or legal interpretation.
 
-Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+### Controlled practice
 
-> **Pattern**: clear point + concrete detail or reason + appropriate next step
+Choose three expressions from **Time & Places**. Label each one as an opener, key detail, clarification, or next step. Remove any expression that does not fit the relationship in the situation.
 
-### Your turn
+### Guided task
 
-Create a four-line exchange with a colleague or classmate. Use at least three target expressions from **Time & Places** and add one follow-up question.
+Write a four-to-six-turn exchange for this situation. Use at least three target expressions, respond to the other speaker's information, and end with a question, confirmation, or agreed action.
 
 ### Model response
 
-> In the morning, I go to school. In the afternoon, I study English at the library. In the evening, I watch TV at home. On Sunday, I visit my grandmother at her house.
+> **Partner:** We need to respond to the situation above. What would you say first?
+>
+> **You:** In the morning, I go to school.
+>
+> **Partner:** What detail should we confirm before we act?
+>
+> **You:** In the afternoon, I study English at the library. In the evening, I watch TV at home.
 
-The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+### Why the model works
+
+The model shows one defensible route through the task; it is not a script to memorize. Compare its task completion, language accuracy, audience fit, and clarity with your response, then revise once.
+
+### Transfer task
+
+Move the meeting from the library to a café in the evening. Keep the target language, but change the details and register needed for the new context.
 
 ### Self-check
 
-- [ ] I completed the task without translating a full Vietnamese sentence word for word.
-- [ ] I used at least two useful expressions from the lesson.
-- [ ] My main point is easy to identify.
-- [ ] I included a concrete detail, reason, or next step.
+- [ ] I completed every part of this lesson's scenario, not only the language form.
+- [ ] My target language is accurate and fits the intended meaning.
+- [ ] My level of directness and detail fits the named audience.
+- [ ] The reader or listener can identify my main point and next step.
 
 <!-- learning-loop:end -->

@@ -11,7 +11,7 @@
   'skill': 'reading',
   'order': 3,
   'cefr': 'A2',
-  'minutes': 10,
+  'minutes': 12,
   'tags': ['comparatives', 'adjectives', 'grammar', 'comparison'],
   'audioScript': "My house is bigger than yours.\nEnglish is more difficult than Vietnamese.\nThis book is more interesting than that one.\n",
   'listeningEnabled': true,
@@ -23,22 +23,39 @@
         'prompt': 'Which is correct for comparing two short adjectives?',
         'options': ['She is more tall than me.', 'She is taller than me.', 'She is tall than me.'],
         'answer': 'She is taller than me.',
+        'explanation': 'In this context, “She is taller than me.” supplies the meaning or form targeted in Comparatives. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'She is more tall than me.': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'She is tall than me.': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
       {
         'type': 'fill',
         'prompt': 'This task is ___ than the last one. (easy)',
         'answer': 'easier',
+        'acceptedAnswers': ['easier'],
+        'explanation': 'In this context, “easier” supplies the meaning or form targeted in Comparatives. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
       },
       {
         'type': 'choice',
         'prompt': "Which word needs 'more' before it?",
         'options': ['tall', 'beautiful', 'big'],
         'answer': 'beautiful',
+        'explanation': 'In this context, “beautiful” supplies the meaning or form targeted in Comparatives. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'tall': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'big': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
     ],
   'categoryEn': 'Everyday Workplace English',
   'categoryVi': 'Tiếng Anh Công việc Hằng ngày',
   'prerequisites': ['a2-02-daily-routine'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 28, 'maxWords': 90 },
 }
 ---
 
@@ -97,37 +114,43 @@ In the next lesson **A2-04-past-events**, you will learn how to talk about past 
 
 ## Learning outcome
 
-By the end of this lesson, you will be able to identify the main point, supporting detail, and register choices in a text about comparatives.
+By the end of this lesson, you can extract the main point and supporting detail from a text about comparatives, then make one evidence-based interpretation.
 
-## Practice lab
+## Scenario practice
 
-### Notice the language
+### Situation
 
-Read the situation, then listen to the model once for meaning and once for phrasing.
+Your team is comparing two ways to commute. Read the descriptions and decide which is faster, cheaper, and more comfortable.
 
-> **Colleague:** How would you handle **comparatives** in this situation?
->
-> **You:** My house is bigger than yours.
+> **Training note:** This situation and its details are fictional. They are designed for language practice, not presented as a real event, policy, study, or legal interpretation.
 
-Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+### Controlled practice
 
-> **Pattern**: clear point + concrete detail or reason + appropriate next step
+Before reading the explanation again, write one line for the text's main point, one line for its strongest supporting detail, and one phrase that signals tone or stance.
 
-### Your turn
+### Guided task
 
-Summarize the text in two sentences for a colleague or classmate. Identify one claim, one supporting detail, and one phrase that signals the writer's attitude.
+Write 28–90 words as structured reading notes. State the main point, cite or paraphrase one supporting detail, identify a register choice, and separate evidence from your inference.
 
 ### Model response
 
-> My house is bigger than yours. English is more difficult than Vietnamese. This book is more interesting than that one.
+> **Main point and evidence:** My house is bigger than yours. English is more difficult than Vietnamese. This book is more interesting than that one.
+>
+> **Interpretation:** I connect the main point to one concrete detail. I check the time, person, or action so the listener knows what happens next. Other well-supported responses are possible.
 
-The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+### Why the model works
+
+The model shows one defensible route through the task; it is not a script to memorize. Compare its task completion, language accuracy, audience fit, and clarity with your response, then revise once.
+
+### Transfer task
+
+Compare two meeting rooms instead of transport options. Keep the target language, but change the details and register needed for the new context.
 
 ### Self-check
 
-- [ ] I completed the task without translating a full Vietnamese sentence word for word.
-- [ ] I used at least two useful expressions from the lesson.
-- [ ] My main point is easy to identify.
-- [ ] I included a concrete detail, reason, or next step.
+- [ ] I completed every part of this lesson's scenario, not only the language form.
+- [ ] My target language is accurate and fits the intended meaning.
+- [ ] My level of directness and detail fits the named audience.
+- [ ] The reader or listener can identify my main point and next step.
 
 <!-- learning-loop:end -->

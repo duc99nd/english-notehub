@@ -11,7 +11,7 @@
   'skill': 'grammar',
   'order': 9,
   'cefr': 'B2',
-  'minutes': 11,
+  'minutes': 13,
   'tags': ['grammar', 'conditionals', 'mixed', 'B2'],
   'audioScript': "If I had studied harder, I would have passed the exam.\nIf she were more experienced, she would have handled it better.\nHad I known about the meeting, I would have attended.\n",
   'listeningEnabled': true,
@@ -28,8 +28,20 @@
             'For real future possibilities',
           ],
         'answer': 'For past hypothetical situations',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “For past hypothetical situations” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Câu điều kiện hỗn hợp nâng cao. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'For imaginary present situations': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'For real future possibilities': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
-      { 'type': 'fill', 'prompt': 'If I had known, I ___ have come earlier.', 'answer': 'would' },
+      {
+        'type': 'fill',
+        'prompt': 'If I had known, I ___ have come earlier.',
+        'answer': 'would',
+        'acceptedAnswers': ['would'],
+        'explanation': 'Trong ngữ cảnh câu hỏi, “would” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Câu điều kiện hỗn hợp nâng cao. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+      },
       {
         'type': 'choice',
         'prompt': 'What is a mixed conditional?',
@@ -40,11 +52,20 @@
             'Only present tense',
           ],
         'answer': 'Combining past and present hypotheticals',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “Combining past and present hypotheticals” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Câu điều kiện hỗn hợp nâng cao. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            "Using 'if' with 'when'": 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'Only present tense': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
     ],
   'categoryEn': 'Technical Leadership Communication',
   'categoryVi': 'Giao tiếp Dẫn dắt Kỹ thuật',
   'prerequisites': ['b2-08-data-storytelling'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 55, 'maxWords': 170 },
 }
 ---
 
@@ -80,11 +101,11 @@ Câu điều kiện hỗn hợp kết nối nguyên nhân quá khứ với kết
 - Now / today / currently → kết quả hiện tại
 - Always / every time → sự thật tổng quát
 
-## Quick quiz
+## Trắc nghiệm nhanh
 
 Kiểm tra khả năng điều kiện của bạn trong phần quiz.
 
-## What to learn next
+## Bài học tiếp theo
 
 Trong bài tiếp theo **B2-10-review-unit2**, bạn sẽ ôn tập nội dung Unit 2.
 
@@ -92,41 +113,44 @@ Trong bài tiếp theo **B2-10-review-unit2**, bạn sẽ ôn tập nội dung U
 
 ## Kết quả học tập
 
-Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Câu điều kiện hỗn hợp nâng cao** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+Sau bài này, bạn có thể tạo câu trả lời liền mạch về **Câu điều kiện hỗn hợp nâng cao**, dùng đúng cấu trúc trọng tâm và giải thích tác dụng của một lựa chọn.
 
-## Phòng luyện tập
+## Luyện tập theo tình huống
 
-### Nhận diện cách diễn đạt
+### Tình huống
 
-Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+Thảo luận sự cố hư cấu mà cảnh báo sớm có thể thay đổi kết quả. Phân biệt nguyên nhân quá khứ, hệ quả hiện tại và phương án giả định.
 
-> **Colleague:** How would you handle this situation?
->
-> **You:** If I had studied harder, I would have passed the exam.
+> **Lưu ý:** Tình huống và các chi tiết đều là hư cấu để luyện ngôn ngữ; đây không phải sự kiện, chính sách, nghiên cứu hoặc diễn giải pháp lý có thật.
 
-Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+### Luyện tập có kiểm soát
 
-> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+Lấy hai câu ví dụ trong bài. Biến đổi câu đầu bằng cấu trúc trọng tâm, sau đó sửa câu thứ hai để thay đổi mức nhấn mạnh hoặc độ chắc chắn nhưng giữ nguyên dữ kiện.
 
-### Đến lượt bạn
+### Nhiệm vụ có hướng dẫn
 
-Tạo một câu trả lời mới cho chủ đề **Câu điều kiện hỗn hợp nâng cao**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+Viết 55–170 từ bằng tiếng Anh cho tình huống. Dùng cấu trúc trọng tâm ít nhất hai lần, gạch chân các chỗ đó và thêm một câu giải thích cấu trúc đã thay đổi mức nhấn mạnh, thời gian, điều kiện hoặc độ chắc chắn như thế nào.
 
 ### Bài mẫu
 
-> If I had studied harder, I would have passed the exam. If she were more experienced, she would have handled it better. Had I known about the meeting, I would have attended.
+> **Draft:** If I had studied harder, I would have passed the exam. If she were more experienced, she would have handled it better. Had I known about the meeting, I would have attended.
+>
+> **Language choice:** I make the relationship between evidence, constraint, and recommendation explicit. The response avoids a binary claim when the situation calls for a trade-off, and it gives the audience a practical checkpoint for challenging or confirming the recommendation. Other well-supported responses are possible.
 
-Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+### Vì sao bài mẫu phù hợp
 
-### Chuyển đổi register
+Bài mẫu thể hiện một cách xử lý hợp lý, không phải kịch bản bắt buộc học thuộc. Hãy so sánh mức hoàn thành nhiệm vụ, độ chính xác, độ phù hợp với người nghe và độ rõ với bài của bạn rồi sửa một lần.
 
-Viết lại câu trả lời hai lần: một bản cho đồng đội thân quen và một bản cho khách hàng hoặc stakeholder cấp cao. Giữ nguyên thông điệp nhưng thay đổi độ trực tiếp, lượng bối cảnh và mức giải thích. Chỉ ra một cụm từ bạn đã làm mềm, một chi tiết bạn nói rõ hơn và một giả định bạn đã loại bỏ.
+### Bài tập chuyển đổi
+
+Diễn đạt lại phần phân tích để tập trung vào quy trình thay vì cá nhân. Giữ ngôn ngữ trọng tâm nhưng thay đổi chi tiết và văn phong cho bối cảnh mới.
 
 ### Tự kiểm tra
 
-- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
-- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
-- [ ] Người nghe có thể nhận ra ý chính ngay.
-- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+- [ ] Mình hoàn thành đủ yêu cầu của tình huống, không chỉ dùng đúng cấu trúc.
+- [ ] Ngôn ngữ trọng tâm chính xác và đúng ý định.
+- [ ] Độ trực tiếp và lượng chi tiết phù hợp người nghe hoặc người đọc.
+- [ ] Người nhận có thể nhận ra ý chính và bước tiếp theo.
+- [ ] Mình tách bằng chứng, giả định và khuyến nghị thay vì trình bày tất cả với cùng mức chắc chắn.
 
 <!-- learning-loop:end -->

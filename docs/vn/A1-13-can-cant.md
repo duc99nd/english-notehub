@@ -11,7 +11,7 @@
   'skill': 'grammar',
   'order': 13,
   'cefr': 'A1',
-  'minutes': 18,
+  'minutes': 20,
   'tags': ['can', 'cant', 'ability', 'permission', 'modal', 'grammar'],
   'audioScript': "I can swim very well. Can you swim?\nShe can't speak French, but she can speak English.\nExcuse me, can I sit here?\nCan you help me, please?\n",
   'listeningEnabled': true,
@@ -23,24 +23,54 @@
         'prompt': 'Which sentence is correct?',
         'options': ['I can to swim.', 'I can swimming.', 'I can swim.', 'I can swim to.'],
         'answer': 'I can swim.',
+        'explanation': "Trong ngữ cảnh câu hỏi, “I can swim.” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Can và Can't. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        'distractorFeedback':
+          {
+            'I can to swim.': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'I can swimming.': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'I can swim to.': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
       {
         'type': 'choice',
         'prompt': "What is the negative of 'I can swim'?",
         'options': ['I can not to swim.', "I don't can swim.", "I can't swim.", 'I no can swim.'],
         'answer': "I can't swim.",
+        'explanation': "Trong ngữ cảnh câu hỏi, “I can't swim.” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Can và Can't. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        'distractorFeedback':
+          {
+            'I can not to swim.': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            "I don't can swim.": 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'I no can swim.': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
       {
         'type': 'choice',
         'prompt': "A friend asks: 'Can you play the guitar?' You don't play. What do you say?",
         'options': ['Yes, I can.', "No, I can't.", "Yes, I can't.", 'I can.'],
         'answer': "No, I can't.",
+        'explanation': "Trong ngữ cảnh câu hỏi, “No, I can't.” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Can và Can't. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        'distractorFeedback':
+          {
+            'Yes, I can.': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            "Yes, I can't.": 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'I can.': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
-      { 'type': 'fill', 'prompt': 'Excuse me, ___ I open the window? (xin phép)', 'answer': 'can' },
+      {
+        'type': 'fill',
+        'prompt': 'Excuse me, ___ I open the window? (xin phép)',
+        'answer': 'can',
+        'acceptedAnswers': ['can'],
+        'explanation': "Trong ngữ cảnh câu hỏi, “can” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Can và Can't. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+      },
     ],
   'categoryEn': 'Foundation English',
   'categoryVi': 'Tiếng Anh Nền tảng',
   'prerequisites': ['a1-12-directions'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 20, 'maxWords': 70 },
 }
 ---
 
@@ -218,37 +248,43 @@ Nhấn play, sau đó lặp lại từng dòng. Tạm dừng sau mỗi câu.
 
 ## Kết quả học tập
 
-Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Can và Can't** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+Sau bài này, bạn có thể tạo câu trả lời liền mạch về **Can và Can't**, dùng đúng cấu trúc trọng tâm và giải thích tác dụng của một lựa chọn.
 
-## Phòng luyện tập
+## Luyện tập theo tình huống
 
-### Nhận diện cách diễn đạt
+### Tình huống
 
-Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+Một nhóm nhỏ đang chia việc cho sự kiện. Hãy nói hai việc bạn làm được, một việc chưa làm được và nhờ hỗ trợ.
 
-> **Colleague:** How would you handle this situation?
->
-> **You:** I can swim very well. Can you swim?
+> **Lưu ý:** Tình huống và các chi tiết đều là hư cấu để luyện ngôn ngữ; đây không phải sự kiện, chính sách, nghiên cứu hoặc diễn giải pháp lý có thật.
 
-Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+### Luyện tập có kiểm soát
 
-> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+Lấy hai câu ví dụ trong bài. Biến đổi câu đầu bằng cấu trúc trọng tâm, sau đó sửa câu thứ hai để thay đổi mức nhấn mạnh hoặc độ chắc chắn nhưng giữ nguyên dữ kiện.
 
-### Đến lượt bạn
+### Nhiệm vụ có hướng dẫn
 
-Tạo một câu trả lời mới cho chủ đề **Can và Can't**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+Viết 20–70 từ bằng tiếng Anh cho tình huống. Dùng cấu trúc trọng tâm ít nhất hai lần, gạch chân các chỗ đó và thêm một câu giải thích cấu trúc đã thay đổi mức nhấn mạnh, thời gian, điều kiện hoặc độ chắc chắn như thế nào.
 
 ### Bài mẫu
 
-> I can swim very well. Can you swim? She can't speak French, but she can speak English. Excuse me, can I sit here? Can you help me, please?
+> **Draft:** I can swim very well. Can you swim? She can't speak French, but she can speak English. Excuse me, can I sit here?
+>
+> **Language choice:** I keep the message short, use familiar words, and finish with one clear next step. Other well-supported responses are possible.
 
-Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+### Vì sao bài mẫu phù hợp
+
+Bài mẫu thể hiện một cách xử lý hợp lý, không phải kịch bản bắt buộc học thuộc. Hãy so sánh mức hoàn thành nhiệm vụ, độ chính xác, độ phù hợp với người nghe và độ rõ với bài của bạn rồi sửa một lần.
+
+### Bài tập chuyển đổi
+
+Đổi sang hỏi một đồng đội mới về khả năng của họ. Giữ ngôn ngữ trọng tâm nhưng thay đổi chi tiết và văn phong cho bối cảnh mới.
 
 ### Tự kiểm tra
 
-- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
-- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
-- [ ] Người nghe có thể nhận ra ý chính ngay.
-- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+- [ ] Mình hoàn thành đủ yêu cầu của tình huống, không chỉ dùng đúng cấu trúc.
+- [ ] Ngôn ngữ trọng tâm chính xác và đúng ý định.
+- [ ] Độ trực tiếp và lượng chi tiết phù hợp người nghe hoặc người đọc.
+- [ ] Người nhận có thể nhận ra ý chính và bước tiếp theo.
 
 <!-- learning-loop:end -->

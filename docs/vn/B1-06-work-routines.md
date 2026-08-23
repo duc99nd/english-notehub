@@ -11,7 +11,7 @@
   'skill': 'vocab',
   'order': 6,
   'cefr': 'B1',
-  'minutes': 11,
+  'minutes': 13,
   'tags': ['work', 'job', 'office', 'workplace', 'daily-routine', 'career'],
   'audioScript': "I usually start work at 9 AM and finish at 6 PM.\nI have a meeting with my manager this afternoon.\nI need to finish this report by Friday.\n",
   'listeningEnabled': true,
@@ -24,22 +24,39 @@
         'options':
           ['A type of office chair', 'The time when something must be finished', 'A meeting room'],
         'answer': 'The time when something must be finished',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “The time when something must be finished” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Công việc & Thói quen hàng ngày. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'A type of office chair': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'A meeting room': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
       {
         'type': 'fill',
         'prompt': 'I need to ___ this document before the meeting.',
         'answer': 'review',
+        'acceptedAnswers': ['review'],
+        'explanation': 'Trong ngữ cảnh câu hỏi, “review” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Công việc & Thói quen hàng ngày. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
       },
       {
         'type': 'choice',
         'prompt': "Which word means 'to manage a team'?",
         'options': ['To work', 'To supervise', 'To vacation'],
         'answer': 'To supervise',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “To supervise” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Công việc & Thói quen hàng ngày. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'To work': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'To vacation': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
     ],
   'categoryEn': 'Independent Workplace Communication',
   'categoryVi': 'Giao tiếp Công việc Độc lập',
   'prerequisites': ['b1-05-review-unit1'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'dialogue', 'minTurns': 4, 'maxTurns': 6 },
 }
 ---
 
@@ -119,37 +136,47 @@ Trả lời ba câu hỏi trong phần quiz để hoàn thành bài học này.
 
 ## Kết quả học tập
 
-Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Công việc & Thói quen hàng ngày** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+Sau bài này, bạn có thể hoàn thành đoạn hội thoại bốn lượt về **Công việc & Thói quen hàng ngày**, chọn cách diễn đạt phù hợp quan hệ và mục tiêu trước mắt.
 
-## Phòng luyện tập
+## Luyện tập theo tình huống
 
-### Nhận diện cách diễn đạt
+### Tình huống
 
-Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+Giới thiệu thực tế cho đồng đội mới về ngày làm việc, gồm lịch họp, thời gian tập trung và một hạn chót thứ Sáu.
 
-> **Colleague:** How would you handle this situation?
->
-> **You:** I usually start work at 9 AM and finish at 6 PM.
+> **Lưu ý:** Tình huống và các chi tiết đều là hư cấu để luyện ngôn ngữ; đây không phải sự kiện, chính sách, nghiên cứu hoặc diễn giải pháp lý có thật.
 
-Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+### Luyện tập có kiểm soát
 
-> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+Chọn ba cách diễn đạt trong bài **Công việc & Thói quen hàng ngày**. Gắn nhãn chức năng cho từng cách: mở lời, nêu chi tiết, làm rõ hoặc đưa bước tiếp theo. Loại cách diễn đạt không phù hợp quan hệ trong tình huống.
 
-### Đến lượt bạn
+### Nhiệm vụ có hướng dẫn
 
-Tạo một câu trả lời mới cho chủ đề **Công việc & Thói quen hàng ngày**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+Viết đoạn hội thoại bốn đến sáu lượt cho tình huống này. Dùng ít nhất ba cách diễn đạt trọng tâm, phản hồi thông tin của người kia và kết thúc bằng câu hỏi, xác nhận hoặc hành động đã thống nhất.
 
 ### Bài mẫu
 
-> I usually start work at 9 AM and finish at 6 PM. I have a meeting with my manager this afternoon. I need to finish this report by Friday.
+> **Partner:** We need to respond to the situation above. What would you say first?
+>
+> **You:** I usually start work at 9 AM and finish at 6 PM.
+>
+> **Partner:** What detail should we confirm before we act?
+>
+> **You:** I have a meeting with my manager this afternoon. I need to finish this report by Friday.
 
-Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+### Vì sao bài mẫu phù hợp
+
+Bài mẫu thể hiện một cách xử lý hợp lý, không phải kịch bản bắt buộc học thuộc. Hãy so sánh mức hoàn thành nhiệm vụ, độ chính xác, độ phù hợp với người nghe và độ rõ với bài của bạn rồi sửa một lần.
+
+### Bài tập chuyển đổi
+
+So sánh lịch thường ngày với ngày phát hành sản phẩm. Giữ ngôn ngữ trọng tâm nhưng thay đổi chi tiết và văn phong cho bối cảnh mới.
 
 ### Tự kiểm tra
 
-- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
-- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
-- [ ] Người nghe có thể nhận ra ý chính ngay.
-- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+- [ ] Mình hoàn thành đủ yêu cầu của tình huống, không chỉ dùng đúng cấu trúc.
+- [ ] Ngôn ngữ trọng tâm chính xác và đúng ý định.
+- [ ] Độ trực tiếp và lượng chi tiết phù hợp người nghe hoặc người đọc.
+- [ ] Người nhận có thể nhận ra ý chính và bước tiếp theo.
 
 <!-- learning-loop:end -->

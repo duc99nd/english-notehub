@@ -11,7 +11,7 @@
   'skill': 'grammar',
   'order': 5,
   'cefr': 'B2',
-  'minutes': 11,
+  'minutes': 13,
   'tags': ['grammar', 'persuasion', 'rhetoric', 'B2'],
   'audioScript': "Not only does this solution reduce costs, but it also improves scalability.\nThe more data we collect, the better our predictions become.\nIt is essential that we act now to remain competitive.\n",
   'listeningEnabled': true,
@@ -24,22 +24,39 @@
         'options':
           ['It might be helpful to...', 'It is essential that we...', 'We could possibly...'],
         'answer': 'It is essential that we...',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “It is essential that we...” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ngữ pháp thuyết phục. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'It might be helpful to...': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'We could possibly...': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
       {
         'type': 'fill',
         'prompt': 'Not only ___ it reduce costs, but it also improves scalability.',
         'answer': 'does',
+        'acceptedAnswers': ['does'],
+        'explanation': 'Trong ngữ cảnh câu hỏi, “does” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ngữ pháp thuyết phục. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
       },
       {
         'type': 'choice',
         'prompt': 'The more we test, the better the result becomes. is an example of:',
         'options': ['Comparative structure', 'Double comparative', 'Conditional structure'],
         'answer': 'Double comparative',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “Double comparative” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ngữ pháp thuyết phục. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'Comparative structure': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'Conditional structure': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
     ],
   'categoryEn': 'Technical Leadership Communication',
   'categoryVi': 'Giao tiếp Dẫn dắt Kỹ thuật',
   'prerequisites': ['b2-04-meeting-facilitation'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 55, 'maxWords': 170 },
 }
 ---
 
@@ -84,11 +101,11 @@ Các luận điểm mạnh không chỉ dựa trên dữ kiện, mà còn vào c
 - Điều quan trọng là đội ngũ đồng ý về ưu tiên.
 - Điều then chốt là các bên liên quan phê duyệt trước khi ra mắt.
 
-## Quick quiz
+## Trắc nghiệm nhanh
 
 Kiểm tra ngữ pháp thuyết phục của bạn trong phần quiz.
 
-## What to learn next
+## Bài học tiếp theo
 
 Trong bài tiếp theo **B2-06-business-article**, bạn sẽ đọc và phân tích các bài báo kinh doanh và báo cáo thị trường.
 
@@ -96,41 +113,44 @@ Trong bài tiếp theo **B2-06-business-article**, bạn sẽ đọc và phân t
 
 ## Kết quả học tập
 
-Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Ngữ pháp thuyết phục** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+Sau bài này, bạn có thể tạo câu trả lời liền mạch về **Ngữ pháp thuyết phục**, dùng đúng cấu trúc trọng tâm và giải thích tác dụng của một lựa chọn.
 
-## Phòng luyện tập
+## Luyện tập theo tình huống
 
-### Nhận diện cách diễn đạt
+### Tình huống
 
-Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+Thuyết phục nhóm lãnh đạo đầu tư cho observability. Kết hợp chi phí, khả năng mở rộng và tính cấp thiết mà không phóng đại độ chắc chắn.
 
-> **Colleague:** How would you handle this situation?
->
-> **You:** Not only does this solution reduce costs, but it also improves scalability.
+> **Lưu ý:** Tình huống và các chi tiết đều là hư cấu để luyện ngôn ngữ; đây không phải sự kiện, chính sách, nghiên cứu hoặc diễn giải pháp lý có thật.
 
-Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+### Luyện tập có kiểm soát
 
-> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+Lấy hai câu ví dụ trong bài. Biến đổi câu đầu bằng cấu trúc trọng tâm, sau đó sửa câu thứ hai để thay đổi mức nhấn mạnh hoặc độ chắc chắn nhưng giữ nguyên dữ kiện.
 
-### Đến lượt bạn
+### Nhiệm vụ có hướng dẫn
 
-Tạo một câu trả lời mới cho chủ đề **Ngữ pháp thuyết phục**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+Viết 55–170 từ bằng tiếng Anh cho tình huống. Dùng cấu trúc trọng tâm ít nhất hai lần, gạch chân các chỗ đó và thêm một câu giải thích cấu trúc đã thay đổi mức nhấn mạnh, thời gian, điều kiện hoặc độ chắc chắn như thế nào.
 
 ### Bài mẫu
 
-> Not only does this solution reduce costs, but it also improves scalability. The more data we collect, the better our predictions become. It is essential that we act now to remain competitive.
+> **Draft:** Not only does this solution reduce costs, but it also improves scalability. The more data we collect, the better our predictions become. It is essential that we act now to remain competitive.
+>
+> **Language choice:** I make the relationship between evidence, constraint, and recommendation explicit. The response avoids a binary claim when the situation calls for a trade-off, and it gives the audience a practical checkpoint for challenging or confirming the recommendation. Other well-supported responses are possible.
 
-Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+### Vì sao bài mẫu phù hợp
 
-### Chuyển đổi register
+Bài mẫu thể hiện một cách xử lý hợp lý, không phải kịch bản bắt buộc học thuộc. Hãy so sánh mức hoàn thành nhiệm vụ, độ chính xác, độ phù hợp với người nghe và độ rõ với bài của bạn rồi sửa một lần.
 
-Viết lại câu trả lời hai lần: một bản cho đồng đội thân quen và một bản cho khách hàng hoặc stakeholder cấp cao. Giữ nguyên thông điệp nhưng thay đổi độ trực tiếp, lượng bối cảnh và mức giải thích. Chỉ ra một cụm từ bạn đã làm mềm, một chi tiết bạn nói rõ hơn và một giả định bạn đã loại bỏ.
+### Bài tập chuyển đổi
+
+Viết lại lập luận cho nhóm kỹ sư còn nghi ngờ lợi ích vận hành. Giữ ngôn ngữ trọng tâm nhưng thay đổi chi tiết và văn phong cho bối cảnh mới.
 
 ### Tự kiểm tra
 
-- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
-- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
-- [ ] Người nghe có thể nhận ra ý chính ngay.
-- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+- [ ] Mình hoàn thành đủ yêu cầu của tình huống, không chỉ dùng đúng cấu trúc.
+- [ ] Ngôn ngữ trọng tâm chính xác và đúng ý định.
+- [ ] Độ trực tiếp và lượng chi tiết phù hợp người nghe hoặc người đọc.
+- [ ] Người nhận có thể nhận ra ý chính và bước tiếp theo.
+- [ ] Mình tách bằng chứng, giả định và khuyến nghị thay vì trình bày tất cả với cùng mức chắc chắn.
 
 <!-- learning-loop:end -->

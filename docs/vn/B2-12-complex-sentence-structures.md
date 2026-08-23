@@ -11,7 +11,7 @@
   'skill': 'grammar',
   'order': 12,
   'cefr': 'B2',
-  'minutes': 11,
+  'minutes': 13,
   'tags': ['grammar', 'complex-sentences', 'writing', 'formal', 'B2'],
   'audioScript': "Although the deadline is tight, we will deliver quality work.\nGiven the complexity of the project, we recommend additional resources.\nUnless we act now, we risk losing our competitive edge.\n",
   'listeningEnabled': true,
@@ -23,141 +23,154 @@
         'prompt': 'Which word introduces a contrast?',
         'options': ['Because', 'Although', 'And'],
         'answer': 'Although',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “Although” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Cấu trúc câu phức tạp. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'Because': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'And': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
       {
         'type': 'fill',
         'prompt': '___ the complexity, we recommend additional support.',
         'answer': 'Given',
+        'acceptedAnswers': ['Given'],
+        'explanation': 'Trong ngữ cảnh câu hỏi, “Given” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Cấu trúc câu phức tạp. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
       },
       {
         'type': 'choice',
         'prompt': 'Unless we act now, we... expresses:',
         'options': ['Condition with negative', 'Past habit', 'Future certainty'],
         'answer': 'Condition with negative',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “Condition with negative” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Cấu trúc câu phức tạp. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'Past habit': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'Future certainty': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
     ],
   'categoryEn': 'Technical Leadership Communication',
   'categoryVi': 'Giao tiếp Dẫn dắt Kỹ thuật',
   'prerequisites': ['b2-11-cultural-nuances'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 55, 'maxWords': 170 },
 }
 ---
 
-# Complex Sentence Structures
+# Cấu trúc câu phức trong văn bản chuyên nghiệp
 
-## Building sophisticated sentences
+## Xây dựng câu văn gãy gọn và tinh tế
 
-B2 writing requires the ability to combine ideas into complex, well-structured sentences. Mastering relative clauses, participles, and noun clauses will elevate your professional writing.
+Kỹ năng viết ở cấp độ B2 đòi hỏi khả năng kết hợp các ý tưởng thành những câu văn phức có cấu trúc chặt chẽ. Việc làm chủ mệnh đề quan hệ (relative clauses), phân từ (participles) và mệnh đề danh từ (noun clauses) sẽ nâng tầm văn phong viết báo cáo, email và tài liệu kỹ thuật của bạn.
 
-> **Pattern**: `The report, which was published last month, highlights...` — non-defining clause adds extra information
+> **Mẫu câu**: `The report, which was published last month, highlights...` — mệnh đề không xác định bổ sung thêm thông tin phụ
 
-### Relative clauses: defining vs. non-defining
+### Mệnh đề quan hệ: Xác định (Defining) vs. Không xác định (Non-defining)
 
-|| Type | Use | Punctuation |
-|| --- | --- | --- |
-|| Defining | Essential information, identifies which one | No commas |
-|| Non-defining | Extra information, adds detail | Commas both sides |
+| Loại mệnh đề                  | Chức năng                                                  | Dấu câu               |
+| ----------------------------- | ---------------------------------------------------------- | --------------------- |
+| Defining (Xác định)           | Thông tin thiết yếu, xác định rõ đối tượng được nói đến    | Không dùng dấu phẩy   |
+| Non-defining (Không xác định) | Bổ sung thêm thông tin phụ, không làm thay đổi nghĩa chính | Đặt giữa hai dấu phẩy |
 
-**Defining examples:**
+**Ví dụ về mệnh đề xác định (Defining):**
 
-- "The report **that was published** contains the latest figures."
-- "The colleague **who raised the concern** should be consulted."
+- "The report **that was published yesterday** contains the latest performance metrics."
+  _(Báo cáo được xuất bản hôm qua chứa các chỉ số hiệu năng mới nhất.)_
+- "The engineer **who raised the blocker** should attend the sync."
+  _(Kỹ sư đã nêu blocker cần tham gia buổi họp đồng bộ.)_
 
-**Non-defining examples:**
+**Ví dụ về mệnh đề không xác định (Non-defining):**
 
-- "The report, **which was published last month**, highlights key trends."
-- "Mr. Tanaka, **who leads our Tokyo office**, will attend the meeting."
+- "The quarterly report, **which was published last month**, highlights key architectural improvements."
+  _(Báo cáo quý, vốn đã được xuất bản tháng trước, nêu bật các cải tiến kiến trúc chính.)_
+- "Alex, **who leads the infrastructure team**, will facilitate the post-mortem."
+  _(Alex, người dẫn dắt đội ngũ hạ tầng, sẽ điều phối buổi họp rút kinh nghiệm.)_
 
-### Reduced relative clauses (participles)
+### Rút gọn mệnh đề quan hệ bằng phân từ (Participles)
 
-Simplify by removing the relative pronoun and "be" verb:
+Rút gọn câu bằng cách lược bỏ đại từ quan hệ và động từ "to be":
 
-|| Full form | Reduced form |
-|| --- | --- |
-|| The report which was published last month... | The report published last month... |
-|| The data that were analyzed showed... | The data analyzed showed... |
-|| The team that is working on this project... | The team working on this project... |
+| Dạng đầy đủ                                  | Dạng rút gọn                       |
+| -------------------------------------------- | ---------------------------------- |
+| The report which was published last month... | The report published last month... |
+| The data that were analyzed showed...        | The data analyzed showed...        |
+| The team that is working on this sprint...   | The team working on this sprint... |
 
-**With perfect participle:**
+**Sử dụng phân từ hoàn thành (Having + V3/ed):**
 
-- "**Having reviewed** the data, we can conclude..." (= After we reviewed...)
-- "**Having considered** all options, we recommend..."
+- "**Having reviewed** the telemetry data, we concluded that memory leaks were resolved."
+  _(= Sau khi xem xét dữ liệu giám sát, chúng tôi kết luận sự cố rò rỉ bộ nhớ đã được xử lý.)_
+- "**Having evaluated** both cloud providers, we recommend AWS for better multi-region support."
 
-### Noun clauses
+### Mệnh đề danh từ (Noun clauses)
 
-Noun clauses function as subjects or objects:
+Mệnh đề danh từ đóng vai trò như chủ ngữ hoặc tân ngữ trong câu:
 
-|| Pattern | Example |
-|| --- | --- |
-|| That-clause | "**That** performance improved is clear." |
-|| What-clause | "**What** concerns us most is market share." |
-|| Whether/if-clause | "Please confirm **whether** you can attend." |
-|| Wh-ever clause | "I will send **whatever** you need." |
+| Mẫu câu           | Ví dụ thực tế                                                            |
+| ----------------- | ------------------------------------------------------------------------ |
+| That-clause       | "**That** the deployment succeeded without downtime is a big milestone." |
+| What-clause       | "**What** concerns us most is the database query latency."               |
+| Whether/if-clause | "Please confirm **whether** the staging environment is ready."           |
+| Wh-ever clause    | "We will implement **whatever** solution best ensures security."         |
 
-## Putting it together
+## So sánh cách viết
 
-**Before (simple sentences):**
+**Trước (Các câu đơn vụn vặt):**
 
-> "We reviewed the data. The data showed improved performance. We reached a conclusion."
+> "We reviewed the logs. The logs showed high latency. We decided to optimize the queries."
 
-**After (sophisticated):**
+**Sau (Chuyên nghiệp và mạch lạc):**
 
-> "**Having reviewed** the data, we concluded **that** performance had improved significantly."
+> "**Having reviewed** the logs, we discovered **that** unindexed queries were causing significant latency, which prompted an immediate optimization."
 
-**Before:**
+## Bài học tiếp theo
 
-> "The Q3 report was published. It contains important findings. I recommend reading it."
-
-**After:**
-
-> "The Q3 report, **which was published last week**, contains important findings **that** I recommend reviewing carefully."
-
-## Quick quiz
-
-Test your complex sentence skills in the quiz section.
-
-## What to learn next
-
-In the next lesson **B2-13-editorial-reading**, you will practice reading and analyzing editorial and opinion pieces.
+Ở bài tiếp theo **B2-13-editorial-reading**, bạn sẽ luyện tập kỹ năng đọc hiểu và phản biện các bài xã luận và phân tích công nghệ chuyên sâu.
 
 <!-- learning-loop:start -->
 
 ## Kết quả học tập
 
-Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Cấu trúc câu phức** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+Sau bài này, bạn có thể tạo câu trả lời liền mạch về **Cấu trúc câu phức**, dùng đúng cấu trúc trọng tâm và giải thích tác dụng của một lựa chọn.
 
-## Phòng luyện tập
+## Luyện tập theo tình huống
 
-### Nhận diện cách diễn đạt
+### Tình huống
 
-Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+Viết cập nhật dự án kết nối hạn chót gấp, hạn chế nguồn lực, khuyến nghị và hệ quả mà không tạo câu quá dài sai cấu trúc.
 
-> **Colleague:** How would you handle this situation?
->
-> **You:** Although the deadline is tight, we will deliver quality work.
+> **Lưu ý:** Tình huống và các chi tiết đều là hư cấu để luyện ngôn ngữ; đây không phải sự kiện, chính sách, nghiên cứu hoặc diễn giải pháp lý có thật.
 
-Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+### Luyện tập có kiểm soát
 
-> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+Lấy hai câu ví dụ trong bài. Biến đổi câu đầu bằng cấu trúc trọng tâm, sau đó sửa câu thứ hai để thay đổi mức nhấn mạnh hoặc độ chắc chắn nhưng giữ nguyên dữ kiện.
 
-### Đến lượt bạn
+### Nhiệm vụ có hướng dẫn
 
-Tạo một câu trả lời mới cho chủ đề **Cấu trúc câu phức**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+Viết 55–170 từ bằng tiếng Anh cho tình huống. Dùng cấu trúc trọng tâm ít nhất hai lần, gạch chân các chỗ đó và thêm một câu giải thích cấu trúc đã thay đổi mức nhấn mạnh, thời gian, điều kiện hoặc độ chắc chắn như thế nào.
 
 ### Bài mẫu
 
-> Although the deadline is tight, we will deliver quality work. Given the complexity of the project, we recommend additional resources. Unless we act now, we risk losing our competitive edge.
+> **Draft:** Although the deadline is tight, we will deliver quality work. Given the complexity of the project, we recommend additional resources. Unless we act now, we risk losing our competitive edge.
+>
+> **Language choice:** I make the relationship between evidence, constraint, and recommendation explicit. The response avoids a binary claim when the situation calls for a trade-off, and it gives the audience a practical checkpoint for challenging or confirming the recommendation. Other well-supported responses are possible.
 
-Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+### Vì sao bài mẫu phù hợp
 
-### Chuyển đổi register
+Bài mẫu thể hiện một cách xử lý hợp lý, không phải kịch bản bắt buộc học thuộc. Hãy so sánh mức hoàn thành nhiệm vụ, độ chính xác, độ phù hợp với người nghe và độ rõ với bài của bạn rồi sửa một lần.
 
-Viết lại câu trả lời hai lần: một bản cho đồng đội thân quen và một bản cho khách hàng hoặc stakeholder cấp cao. Giữ nguyên thông điệp nhưng thay đổi độ trực tiếp, lượng bối cảnh và mức giải thích. Chỉ ra một cụm từ bạn đã làm mềm, một chi tiết bạn nói rõ hơn và một giả định bạn đã loại bỏ.
+### Bài tập chuyển đổi
+
+Rút gọn cập nhật cho dashboard trạng thái dành cho lãnh đạo. Giữ ngôn ngữ trọng tâm nhưng thay đổi chi tiết và văn phong cho bối cảnh mới.
 
 ### Tự kiểm tra
 
-- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
-- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
-- [ ] Người nghe có thể nhận ra ý chính ngay.
-- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+- [ ] Mình hoàn thành đủ yêu cầu của tình huống, không chỉ dùng đúng cấu trúc.
+- [ ] Ngôn ngữ trọng tâm chính xác và đúng ý định.
+- [ ] Độ trực tiếp và lượng chi tiết phù hợp người nghe hoặc người đọc.
+- [ ] Người nhận có thể nhận ra ý chính và bước tiếp theo.
+- [ ] Mình tách bằng chứng, giả định và khuyến nghị thay vì trình bày tất cả với cùng mức chắc chắn.
 
 <!-- learning-loop:end -->

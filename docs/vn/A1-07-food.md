@@ -11,7 +11,7 @@
   'skill': 'grammar',
   'order': 7,
   'cefr': 'A1',
-  'minutes': 21,
+  'minutes': 23,
   'tags': ['food', 'drinks', 'restaurant', 'countable', 'uncountable', 'grammar'],
   'audioScript': "I would like some rice and chicken, please.\nI drink water every day. Sometimes I drink coffee.\nFor breakfast, I eat bread and eggs.\nDo you like fruit?\n",
   'listeningEnabled': true,
@@ -23,6 +23,12 @@
         'prompt': "Complete: 'I would like ___ rice, please.'",
         'options': ['any', 'some', 'a'],
         'answer': 'some',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “some” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Thức ăn & Đồ uống. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'any': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'a': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
       {
         'type': 'choice',
@@ -35,18 +41,41 @@
             'I would like waters, please.',
           ],
         'answer': 'I would like a glass of water, please.',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “I would like a glass of water, please.” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Thức ăn & Đồ uống. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'I would like a water, please.': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'I would like a waters, please.': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'I would like waters, please.': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
       {
         'type': 'choice',
         'prompt': 'What is the polite way to ask for the check at a restaurant?',
         'options': ['Money now.', 'Pay me.', 'The bill, please.', 'Check please give.'],
         'answer': 'The bill, please.',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “The bill, please.” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Thức ăn & Đồ uống. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'Money now.': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'Pay me.': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'Check please give.': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
-      { 'type': 'fill', 'prompt': 'I ___ like some chicken, please. (muốn)', 'answer': 'would' },
+      {
+        'type': 'fill',
+        'prompt': 'I ___ like some chicken, please. (muốn)',
+        'answer': 'would',
+        'acceptedAnswers': ['would'],
+        'explanation': 'Trong ngữ cảnh câu hỏi, “would” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Thức ăn & Đồ uống. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+      },
     ],
   'categoryEn': 'Foundation English',
   'categoryVi': 'Tiếng Anh Nền tảng',
   'prerequisites': ['a1-06-time-place'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 20, 'maxWords': 70 },
 }
 ---
 
@@ -242,37 +271,43 @@ Nhấn play, sau đó lặp lại từng dòng.
 
 ## Kết quả học tập
 
-Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Thức ăn & Đồ uống** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+Sau bài này, bạn có thể tạo câu trả lời liền mạch về **Thức ăn & Đồ uống**, dùng đúng cấu trúc trọng tâm và giải thích tác dụng của một lựa chọn.
 
-## Phòng luyện tập
+## Luyện tập theo tình huống
 
-### Nhận diện cách diễn đạt
+### Tình huống
 
-Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+Bạn đang gọi một bữa trưa đơn giản. Hãy nêu một món ăn, một đồ uống và hỏi có trái cây hay không.
 
-> **Colleague:** How would you handle this situation?
->
-> **You:** I would like some rice and chicken, please.
+> **Lưu ý:** Tình huống và các chi tiết đều là hư cấu để luyện ngôn ngữ; đây không phải sự kiện, chính sách, nghiên cứu hoặc diễn giải pháp lý có thật.
 
-Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+### Luyện tập có kiểm soát
 
-> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+Lấy hai câu ví dụ trong bài. Biến đổi câu đầu bằng cấu trúc trọng tâm, sau đó sửa câu thứ hai để thay đổi mức nhấn mạnh hoặc độ chắc chắn nhưng giữ nguyên dữ kiện.
 
-### Đến lượt bạn
+### Nhiệm vụ có hướng dẫn
 
-Tạo một câu trả lời mới cho chủ đề **Thức ăn & Đồ uống**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+Viết 20–70 từ bằng tiếng Anh cho tình huống. Dùng cấu trúc trọng tâm ít nhất hai lần, gạch chân các chỗ đó và thêm một câu giải thích cấu trúc đã thay đổi mức nhấn mạnh, thời gian, điều kiện hoặc độ chắc chắn như thế nào.
 
 ### Bài mẫu
 
-> I would like some rice and chicken, please. I drink water every day. Sometimes I drink coffee. For breakfast, I eat bread and eggs. Do you like fruit?
+> **Draft:** I would like some rice and chicken, please. I drink water every day. Sometimes I drink coffee. For breakfast, I eat bread and eggs.
+>
+> **Language choice:** I keep the message short, use familiar words, and finish with one clear next step. Other well-supported responses are possible.
 
-Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+### Vì sao bài mẫu phù hợp
+
+Bài mẫu thể hiện một cách xử lý hợp lý, không phải kịch bản bắt buộc học thuộc. Hãy so sánh mức hoàn thành nhiệm vụ, độ chính xác, độ phù hợp với người nghe và độ rõ với bài của bạn rồi sửa một lần.
+
+### Bài tập chuyển đổi
+
+Đổi sang gọi bữa sáng cho hai người có đồ uống khác nhau. Giữ ngôn ngữ trọng tâm nhưng thay đổi chi tiết và văn phong cho bối cảnh mới.
 
 ### Tự kiểm tra
 
-- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
-- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
-- [ ] Người nghe có thể nhận ra ý chính ngay.
-- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+- [ ] Mình hoàn thành đủ yêu cầu của tình huống, không chỉ dùng đúng cấu trúc.
+- [ ] Ngôn ngữ trọng tâm chính xác và đúng ý định.
+- [ ] Độ trực tiếp và lượng chi tiết phù hợp người nghe hoặc người đọc.
+- [ ] Người nhận có thể nhận ra ý chính và bước tiếp theo.
 
 <!-- learning-loop:end -->

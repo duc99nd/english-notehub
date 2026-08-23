@@ -11,7 +11,7 @@
   'skill': 'grammar',
   'order': 12,
   'cefr': 'C2',
-  'minutes': 14,
+  'minutes': 15,
   'tags': ['debate', 'parliament', 'grammar', 'formal', 'argument', 'rhetoric'],
   'audioScript': "Formal debate employs specific grammatical structures for maximum rhetorical impact.\nPassive constructions allow impersonal attribution of sources and claims.\ncleft sentences create emphasis crucial for persuasive argumentation.\n",
   'listeningEnabled': true,
@@ -23,6 +23,13 @@
         'prompt': 'Which sentence structure creates maximum emphasis for a key point in debate?',
         'options': ['Simple sentence', 'Cleft sentence', 'Compound sentence', 'Fragment'],
         'answer': 'Cleft sentence',
+        'explanation': 'In this context, “Cleft sentence” supplies the meaning or form targeted in Formal Debate Grammar. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'Simple sentence': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Compound sentence': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Fragment': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
       {
         'type': 'choice',
@@ -35,16 +42,28 @@
             'A request for clarification',
           ],
         'answer': "A brief interjection during opponent's speech",
+        'explanation': "In this context, “A brief interjection during opponent's speech” supplies the meaning or form targeted in Formal Debate Grammar. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        'distractorFeedback':
+          {
+            'A question about rules': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'A closing statement': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'A request for clarification': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
       {
         'type': 'fill',
         'prompt': 'It is not the policy that is flawed, but rather its ___.',
         'answer': 'implementation',
+        'acceptedAnswers': ['implementation'],
+        'explanation': 'In this context, “implementation” supplies the meaning or form targeted in Formal Debate Grammar. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
       },
     ],
   'categoryEn': 'Expert Register and Influence',
   'categoryVi': 'Sắc thái và Ảnh hưởng Chuyên sâu',
   'prerequisites': ['c2-11-research-presentation'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 75, 'maxWords': 230 },
 }
 ---
 
@@ -152,42 +171,44 @@ In **C2-13-write-publish**, you will explore the reading comprehension skills ne
 
 ## Learning outcome
 
-By the end of this lesson, you will be able to choose an appropriate structure and apply it accurately when discussing formal debate grammar.
+By the end of this lesson, you can produce a connected response about formal debate grammar, use the target structure accurately, and explain one effect of that choice.
 
-## Practice lab
+## Scenario practice
 
-### Notice the language
+### Situation
 
-Read the situation, then listen to the model once for meaning and once for phrasing.
+Debate a fictional AI-governance motion. Attribute claims carefully, create emphasis without distortion, and concede one bounded point.
 
-> **Colleague:** How would you handle **formal debate grammar** in this situation?
->
-> **You:** Formal debate employs specific grammatical structures for maximum rhetorical impact.
+> **Training note:** This situation and its details are fictional. They are designed for language practice, not presented as a real event, policy, study, or legal interpretation.
 
-Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+### Controlled practice
 
-> **Pattern**: clear point + concrete detail or reason + appropriate next step
+Take two example sentences from the lesson. Transform the first with the target structure, then revise the second to change emphasis or level of certainty without changing the core facts.
 
-### Your turn
+### Guided task
 
-Write four connected sentences for a colleague, client, and senior stakeholder. Use the target structure twice, then revise one sentence to change its tone or emphasis.
+Write 75–230 words for the situation. Use the target structure at least twice, underline those choices, and add one sentence explaining how one structure changes emphasis, time, condition, or certainty.
 
 ### Model response
 
-> Formal debate employs specific grammatical structures for maximum rhetorical impact. Passive constructions allow impersonal attribution of sources and claims. cleft sentences create emphasis crucial for persuasive argumentation.
+> **Draft:** Formal debate employs specific grammatical structures for maximum rhetorical impact. Passive constructions allow impersonal attribution of sources and claims. cleft sentences create emphasis crucial for persuasive argumentation.
+>
+> **Language choice:** I distinguish what the language states from what a reader may plausibly infer. The response preserves useful ambiguity only where the genre requires it, names the evidence supporting the preferred interpretation, and explicitly acknowledges what cannot be concluded without additional context or specialist review. Other well-supported responses are possible.
 
-The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+### Why the model works
 
-### Register switch
+The model shows one defensible route through the task; it is not a script to memorize. Compare its task completion, language accuracy, audience fit, and clarity with your response, then revise once.
 
-Rewrite your response twice: first for a trusted teammate, then for a client or senior stakeholder. Keep the underlying message the same while changing directness, context, and the amount of explanation. Identify one phrase you softened, one detail you made explicit, and one assumption you removed. Then write a plausible alternative interpretation of the model and explain which contextual evidence would help a reader choose between the two readings.
+### Transfer task
+
+Reverse sides and build the strongest opposing case. Keep the target language, but change the details and register needed for the new context.
 
 ### Self-check
 
-- [ ] I completed the task without translating a full Vietnamese sentence word for word.
-- [ ] I used at least two useful expressions from the lesson.
-- [ ] My main point is easy to identify.
-- [ ] I included a concrete detail, reason, or next step.
-- [ ] I qualified claims where certainty was limited and adjusted the register for my audience.
+- [ ] I completed every part of this lesson's scenario, not only the language form.
+- [ ] My target language is accurate and fits the intended meaning.
+- [ ] My level of directness and detail fits the named audience.
+- [ ] The reader or listener can identify my main point and next step.
+- [ ] I separated evidence, assumptions, and recommendations instead of presenting them as equally certain.
 
 <!-- learning-loop:end -->

@@ -11,7 +11,7 @@
   'skill': 'vocab',
   'order': 8,
   'cefr': 'B2',
-  'minutes': 10,
+  'minutes': 12,
   'tags': ['data', 'storytelling', 'presentation', 'B2'],
   'audioScript': "The data reveals a clear upward trend over the last quarter.\nOur findings underscore the need for immediate intervention.\nThis metric serves as a key indicator of customer satisfaction.\n",
   'listeningEnabled': true,
@@ -23,22 +23,39 @@
         'prompt': 'What does "underscore" mean?',
         'options': ['To hide', 'To emphasize', 'To calculate'],
         'answer': 'To emphasize',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “To emphasize” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Kể chuyện bằng dữ liệu. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'To hide': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'To calculate': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
       {
         'type': 'fill',
         'prompt': 'This metric ___ as a key indicator of customer satisfaction.',
         'answer': 'serves',
+        'acceptedAnswers': ['serves'],
+        'explanation': 'Trong ngữ cảnh câu hỏi, “serves” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Kể chuyện bằng dữ liệu. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
       },
       {
         'type': 'choice',
         'prompt': "An \\ upward trend\\\" means:\"",
         'options': ['Numbers are decreasing', 'Numbers are increasing', 'Numbers are stable'],
         'answer': 'Numbers are increasing',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “Numbers are increasing” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Kể chuyện bằng dữ liệu. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'Numbers are decreasing': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'Numbers are stable': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
     ],
   'categoryEn': 'Technical Leadership Communication',
   'categoryVi': 'Giao tiếp Dẫn dắt Kỹ thuật',
   'prerequisites': ['b2-07-proposal-writing'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'dialogue', 'minTurns': 4, 'maxTurns': 6 },
 }
 ---
 
@@ -76,11 +93,11 @@ Kể chuyện bằng dữ liệu kết hợp số liệu, hình ảnh và câu c
 3. **Thêm ngữ cảnh** về lý do xu hướng quan trọng
 4. **Kết thúc bằng lời kêu gọi hành động**
 
-## Quick quiz
+## Trắc nghiệm nhanh
 
 Kiểm tra từ vựng kể chuyện dữ liệu trong phần quiz.
 
-## What to learn next
+## Bài học tiếp theo
 
 Trong bài tiếp theo **B2-09-conditionals-advanced**, bạn sẽ làm chủ câu điều kiện loại 3 và câu điều kiện hỗn hợp.
 
@@ -88,41 +105,48 @@ Trong bài tiếp theo **B2-09-conditionals-advanced**, bạn sẽ làm chủ c�
 
 ## Kết quả học tập
 
-Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Kể chuyện bằng dữ liệu** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+Sau bài này, bạn có thể hoàn thành đoạn hội thoại bốn lượt về **Kể chuyện bằng dữ liệu**, chọn cách diễn đạt phù hợp quan hệ và mục tiêu trước mắt.
 
-## Phòng luyện tập
+## Luyện tập theo tình huống
 
-### Nhận diện cách diễn đạt
+### Tình huống
 
-Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+Dashboard khách hàng hư cấu cho thấy churn tăng dù lượt đăng ký cao hơn. Hãy trình bày xu hướng, ý nghĩa và đề xuất một hướng điều tra.
 
-> **Colleague:** How would you handle this situation?
->
-> **You:** The data reveals a clear upward trend over the last quarter.
+> **Lưu ý:** Tình huống và các chi tiết đều là hư cấu để luyện ngôn ngữ; đây không phải sự kiện, chính sách, nghiên cứu hoặc diễn giải pháp lý có thật.
 
-Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+### Luyện tập có kiểm soát
 
-> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+Chọn ba cách diễn đạt trong bài **Kể chuyện bằng dữ liệu**. Gắn nhãn chức năng cho từng cách: mở lời, nêu chi tiết, làm rõ hoặc đưa bước tiếp theo. Loại cách diễn đạt không phù hợp quan hệ trong tình huống.
 
-### Đến lượt bạn
+### Nhiệm vụ có hướng dẫn
 
-Tạo một câu trả lời mới cho chủ đề **Kể chuyện bằng dữ liệu**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+Viết đoạn hội thoại bốn đến sáu lượt cho tình huống này. Dùng ít nhất ba cách diễn đạt trọng tâm, phản hồi thông tin của người kia và kết thúc bằng câu hỏi, xác nhận hoặc hành động đã thống nhất.
 
 ### Bài mẫu
 
-> The data reveals a clear upward trend over the last quarter. Our findings underscore the need for immediate intervention. This metric serves as a key indicator of customer satisfaction.
+> **Partner:** We need to respond to the situation above. What would you say first?
+>
+> **You:** The data reveals a clear upward trend over the last quarter.
+>
+> **Partner:** What detail should we confirm before we act?
+>
+> **You:** Our findings underscore the need for immediate intervention. This metric serves as a key indicator of customer satisfaction.
 
-Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+### Vì sao bài mẫu phù hợp
 
-### Chuyển đổi register
+Bài mẫu thể hiện một cách xử lý hợp lý, không phải kịch bản bắt buộc học thuộc. Hãy so sánh mức hoàn thành nhiệm vụ, độ chính xác, độ phù hợp với người nghe và độ rõ với bài của bạn rồi sửa một lần.
 
-Viết lại câu trả lời hai lần: một bản cho đồng đội thân quen và một bản cho khách hàng hoặc stakeholder cấp cao. Giữ nguyên thông điệp nhưng thay đổi độ trực tiếp, lượng bối cảnh và mức giải thích. Chỉ ra một cụm từ bạn đã làm mềm, một chi tiết bạn nói rõ hơn và một giả định bạn đã loại bỏ.
+### Bài tập chuyển đổi
+
+Trình bày cùng dữ liệu cho nhóm kinh doanh không chuyên kỹ thuật. Giữ ngôn ngữ trọng tâm nhưng thay đổi chi tiết và văn phong cho bối cảnh mới.
 
 ### Tự kiểm tra
 
-- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
-- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
-- [ ] Người nghe có thể nhận ra ý chính ngay.
-- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+- [ ] Mình hoàn thành đủ yêu cầu của tình huống, không chỉ dùng đúng cấu trúc.
+- [ ] Ngôn ngữ trọng tâm chính xác và đúng ý định.
+- [ ] Độ trực tiếp và lượng chi tiết phù hợp người nghe hoặc người đọc.
+- [ ] Người nhận có thể nhận ra ý chính và bước tiếp theo.
+- [ ] Mình tách bằng chứng, giả định và khuyến nghị thay vì trình bày tất cả với cùng mức chắc chắn.
 
 <!-- learning-loop:end -->

@@ -11,7 +11,7 @@
   'skill': 'vocab',
   'order': 1,
   'cefr': 'B1',
-  'minutes': 11,
+  'minutes': 13,
   'tags': ['travel', 'transport', 'vocabulary', 'vacation', 'journey'],
   'audioScript': "I'm planning a trip to Barcelona next month.\nI usually take a flight because it's faster.\nCan you tell me how to get to the train station?\n",
   'listeningEnabled': true,
@@ -23,22 +23,39 @@
         'prompt': 'What do you need to do before boarding a plane?',
         'options': ['Check in online', 'Go swimming', 'Cook dinner'],
         'answer': 'Check in online',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “Check in online” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Du lịch & Phương tiện đi lại. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'Go swimming': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'Cook dinner': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
       {
         'type': 'fill',
         'prompt': 'I need to ___ my passport before traveling abroad.',
         'answer': 'renew',
+        'acceptedAnswers': ['renew'],
+        'explanation': 'Trong ngữ cảnh câu hỏi, “renew” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Du lịch & Phương tiện đi lại. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
       },
       {
         'type': 'choice',
         'prompt': 'Which transport is usually the fastest for long distances?',
         'options': ['Bicycle', 'Airplane', 'Walking'],
         'answer': 'Airplane',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “Airplane” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Du lịch & Phương tiện đi lại. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'Bicycle': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'Walking': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
     ],
   'categoryEn': 'Independent Workplace Communication',
   'categoryVi': 'Giao tiếp Công việc Độc lập',
   'prerequisites': ['a2-15-review-unit3'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'dialogue', 'minTurns': 4, 'maxTurns': 6 },
 }
 ---
 
@@ -112,37 +129,47 @@ Trả lời ba câu hỏi trong phần quiz để hoàn thành bài học này.
 
 ## Kết quả học tập
 
-Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Du lịch & Phương tiện đi lại** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+Sau bài này, bạn có thể hoàn thành đoạn hội thoại bốn lượt về **Du lịch & Phương tiện đi lại**, chọn cách diễn đạt phù hợp quan hệ và mục tiêu trước mắt.
 
-## Phòng luyện tập
+## Luyện tập theo tình huống
 
-### Nhận diện cách diễn đạt
+### Tình huống
 
-Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+Bạn đang sắp xếp chuyến công tác ngắn với đồng nghiệp. Hãy so sánh máy bay và tàu rồi hỏi đường đến văn phòng khách hàng.
 
-> **Colleague:** How would you handle this situation?
->
-> **You:** I'm planning a trip to Barcelona next month.
+> **Lưu ý:** Tình huống và các chi tiết đều là hư cấu để luyện ngôn ngữ; đây không phải sự kiện, chính sách, nghiên cứu hoặc diễn giải pháp lý có thật.
 
-Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+### Luyện tập có kiểm soát
 
-> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+Chọn ba cách diễn đạt trong bài **Du lịch & Phương tiện đi lại**. Gắn nhãn chức năng cho từng cách: mở lời, nêu chi tiết, làm rõ hoặc đưa bước tiếp theo. Loại cách diễn đạt không phù hợp quan hệ trong tình huống.
 
-### Đến lượt bạn
+### Nhiệm vụ có hướng dẫn
 
-Tạo một câu trả lời mới cho chủ đề **Du lịch & Phương tiện đi lại**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+Viết đoạn hội thoại bốn đến sáu lượt cho tình huống này. Dùng ít nhất ba cách diễn đạt trọng tâm, phản hồi thông tin của người kia và kết thúc bằng câu hỏi, xác nhận hoặc hành động đã thống nhất.
 
 ### Bài mẫu
 
-> I'm planning a trip to Barcelona next month. I usually take a flight because it's faster. Can you tell me how to get to the train station?
+> **Partner:** We need to respond to the situation above. What would you say first?
+>
+> **You:** I'm planning a trip to Barcelona next month.
+>
+> **Partner:** What detail should we confirm before we act?
+>
+> **You:** I usually take a flight because it's faster. Can you tell me how to get to the train station?
 
-Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+### Vì sao bài mẫu phù hợp
+
+Bài mẫu thể hiện một cách xử lý hợp lý, không phải kịch bản bắt buộc học thuộc. Hãy so sánh mức hoàn thành nhiệm vụ, độ chính xác, độ phù hợp với người nghe và độ rõ với bài của bạn rồi sửa một lần.
+
+### Bài tập chuyển đổi
+
+Điều chỉnh kế hoạch sau khi chuyến bay ưu tiên bị hủy. Giữ ngôn ngữ trọng tâm nhưng thay đổi chi tiết và văn phong cho bối cảnh mới.
 
 ### Tự kiểm tra
 
-- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
-- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
-- [ ] Người nghe có thể nhận ra ý chính ngay.
-- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+- [ ] Mình hoàn thành đủ yêu cầu của tình huống, không chỉ dùng đúng cấu trúc.
+- [ ] Ngôn ngữ trọng tâm chính xác và đúng ý định.
+- [ ] Độ trực tiếp và lượng chi tiết phù hợp người nghe hoặc người đọc.
+- [ ] Người nhận có thể nhận ra ý chính và bước tiếp theo.
 
 <!-- learning-loop:end -->

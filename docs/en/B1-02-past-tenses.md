@@ -11,7 +11,7 @@
   'skill': 'grammar',
   'order': 2,
   'cefr': 'B1',
-  'minutes': 11,
+  'minutes': 13,
   'tags':
     [
       'past-tenses',
@@ -32,8 +32,20 @@
         'prompt': 'Which tense describes an action in progress in the past?',
         'options': ['Past Simple', 'Past Continuous', 'Future Simple'],
         'answer': 'Past Continuous',
+        'explanation': 'In this context, “Past Continuous” supplies the meaning or form targeted in Past Tenses & Narratives. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'Past Simple': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Future Simple': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
-      { 'type': 'fill', 'prompt': 'I ___ (study) when the phone rang.', 'answer': 'was studying' },
+      {
+        'type': 'fill',
+        'prompt': 'I ___ (study) when the phone rang.',
+        'answer': 'was studying',
+        'acceptedAnswers': ['was studying'],
+        'explanation': 'In this context, “was studying” supplies the meaning or form targeted in Past Tenses & Narratives. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+      },
       {
         'type': 'choice',
         'prompt': 'When do we use Past Perfect?',
@@ -44,11 +56,20 @@
             'For future plans',
           ],
         'answer': 'For actions that happened before another past action',
+        'explanation': 'In this context, “For actions that happened before another past action” supplies the meaning or form targeted in Past Tenses & Narratives. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'For current actions': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'For future plans': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
     ],
   'categoryEn': 'Independent Workplace Communication',
   'categoryVi': 'Giao tiếp Công việc Độc lập',
   'prerequisites': ['b1-01-travel-transport'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 45, 'maxWords': 135 },
 }
 ---
 
@@ -134,37 +155,43 @@ In the next lesson **B1-03-travel-blogs**, you will read travel blog posts and p
 
 ## Learning outcome
 
-By the end of this lesson, you will be able to choose an appropriate structure and apply it accurately when discussing past tenses & narratives.
+By the end of this lesson, you can produce a connected response about past tenses & narratives, use the target structure accurately, and explain one effect of that choice.
 
-## Practice lab
+## Scenario practice
 
-### Notice the language
+### Situation
 
-Read the situation, then listen to the model once for meaning and once for phrasing.
+Tell a teammate why you missed a connection: describe the background, the interrupting event, and what had already happened.
 
-> **Colleague:** How would you handle **past tenses & narratives** in this situation?
->
-> **You:** I was walking down the street when it started raining.
+> **Training note:** This situation and its details are fictional. They are designed for language practice, not presented as a real event, policy, study, or legal interpretation.
 
-Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+### Controlled practice
 
-> **Pattern**: clear point + concrete detail or reason + appropriate next step
+Take two example sentences from the lesson. Transform the first with the target structure, then revise the second to change emphasis or level of certainty without changing the core facts.
 
-### Your turn
+### Guided task
 
-Write four connected sentences for a colleague or classmate. Use the target structure twice, then revise one sentence to change its tone or emphasis.
+Write 45–135 words for the situation. Use the target structure at least twice, underline those choices, and add one sentence explaining how one structure changes emphasis, time, condition, or certainty.
 
 ### Model response
 
-> I was walking down the street when it started raining. She had already left by the time I arrived. We spent three hours at the museum yesterday.
+> **Draft:** I was walking down the street when it started raining. She had already left by the time I arrived. We spent three hours at the museum yesterday.
+>
+> **Language choice:** I organize the response so the situation comes first, the relevant detail follows, and the final sentence makes the requested action clear. I would revise any sentence that is correct but difficult for the audience to process. Other well-supported responses are possible.
 
-The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+### Why the model works
+
+The model shows one defensible route through the task; it is not a script to memorize. Compare its task completion, language accuracy, audience fit, and clarity with your response, then revise once.
+
+### Transfer task
+
+Retell the incident from another traveler’s point of view. Keep the target language, but change the details and register needed for the new context.
 
 ### Self-check
 
-- [ ] I completed the task without translating a full Vietnamese sentence word for word.
-- [ ] I used at least two useful expressions from the lesson.
-- [ ] My main point is easy to identify.
-- [ ] I included a concrete detail, reason, or next step.
+- [ ] I completed every part of this lesson's scenario, not only the language form.
+- [ ] My target language is accurate and fits the intended meaning.
+- [ ] My level of directness and detail fits the named audience.
+- [ ] The reader or listener can identify my main point and next step.
 
 <!-- learning-loop:end -->

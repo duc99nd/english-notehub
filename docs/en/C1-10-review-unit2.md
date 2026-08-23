@@ -11,7 +11,7 @@
   'skill': 'review',
   'order': 10,
   'cefr': 'C1',
-  'minutes': 10,
+  'minutes': 12,
   'tags': ['review', 'unit2', 'investor', 'grammar', 'policy', 'C1'],
   'audioScript': "Let's review Unit 2.\nYou can now communicate effectively with investors.\nYou can use advanced C1 grammar structures.\nYou can read policy documents.\nYou can write executive summaries.\n",
   'listeningEnabled': true,
@@ -23,11 +23,19 @@
         'prompt': 'What does "EPS" stand for?',
         'options': ['Earnings per share', 'Executive profit summary', 'Equity price standard'],
         'answer': 'Earnings per share',
+        'explanation': 'In this context, “Earnings per share” supplies the meaning or form targeted in Review Unit 2. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'Executive profit summary': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Equity price standard': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
       {
         'type': 'fill',
         'prompt': '___ have we seen such rapid growth in this segment.',
         'answer': 'Never',
+        'acceptedAnswers': ['Never'],
+        'explanation': 'In this context, “Never” supplies the meaning or form targeted in Review Unit 2. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
       },
       {
         'type': 'choice',
@@ -39,22 +47,39 @@
             'The budget was approved yesterday.',
           ],
         'answer': 'It is essential that the budget be approved.',
+        'explanation': 'In this context, “It is essential that the budget be approved.” supplies the meaning or form targeted in Review Unit 2. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'We will approve the budget.': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'The budget was approved yesterday.': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
       {
         'type': 'fill',
         'prompt': 'All employees ___ complete the training by March 31.',
         'answer': 'must',
+        'acceptedAnswers': ['must'],
+        'explanation': 'In this context, “must” supplies the meaning or form targeted in Review Unit 2. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
       },
       {
         'type': 'choice',
         'prompt': 'According to BLUF, what comes first?',
         'options': ['Background', 'Recommendation', 'Risks'],
         'answer': 'Recommendation',
+        'explanation': 'In this context, “Recommendation” supplies the meaning or form targeted in Review Unit 2. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'Background': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Risks': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
     ],
   'categoryEn': 'Strategic Professional Communication',
   'categoryVi': 'Giao tiếp Chuyên nghiệp Chiến lược',
   'prerequisites': ['c1-09-executive-summary'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 65, 'maxWords': 200 },
 }
 ---
 
@@ -121,42 +146,44 @@ Continue to **Unit 3** with **C1-11-academic-discourse**.
 
 ## Learning outcome
 
-By the end of this lesson, you will be able to combine the unit language to complete a realistic task about review unit 2.
+By the end of this lesson, you can combine language from the unit to resolve a realistic task involving review unit 2 and justify one revision.
 
-## Practice lab
+## Scenario practice
 
-### Notice the language
+### Situation
 
-Read the situation, then listen to the model once for meaning and once for phrasing.
+Prepare a fictional governance brief: address investors, choose precise grammar, interpret a policy exception, and recommend a decision in an executive summary.
 
-> **Colleague:** How would you handle **review unit 2** in this situation?
->
-> **You:** Let's review Unit 2.
+> **Training note:** This situation and its details are fictional. They are designed for language practice, not presented as a real event, policy, study, or legal interpretation.
 
-Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+### Controlled practice
 
-> **Pattern**: clear point + concrete detail or reason + appropriate next step
+Select language from at least three lessons in this unit. For each choice, note the job it performs: describe, connect, qualify, request, or conclude.
 
-### Your turn
+### Guided task
 
-Complete one integrated response for a colleague, client, and senior stakeholder using language from at least three lessons in this unit.
+Write 65–200 words to complete the integrated task. Use material from at least three lessons, then annotate one revision that improved accuracy, tone, or clarity.
 
 ### Model response
 
-> Let's review Unit 2. You can now communicate effectively with investors. You can use advanced C1 grammar structures. You can read policy documents. You can write executive summaries.
+> **Integrated response:** Let's review Unit 2. You can now communicate effectively with investors. You can use advanced C1 grammar structures.
+>
+> **Revision note:** I select only the evidence that changes the decision, qualify any projection that depends on an assumption, and make ownership visible. A different stakeholder could reasonably prefer another option, so the response identifies the condition that would justify revisiting the recommendation. Other well-supported responses are possible.
 
-The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+### Why the model works
 
-### Register switch
+The model shows one defensible route through the task; it is not a script to memorize. Compare its task completion, language accuracy, audience fit, and clarity with your response, then revise once.
 
-Rewrite your response twice: first for a trusted teammate, then for a client or senior stakeholder. Keep the underlying message the same while changing directness, context, and the amount of explanation. Identify one phrase you softened, one detail you made explicit, and one assumption you removed.
+### Transfer task
+
+Adapt the brief after the projected benefit falls. Keep the target language, but change the details and register needed for the new context.
 
 ### Self-check
 
-- [ ] I completed the task without translating a full Vietnamese sentence word for word.
-- [ ] I used at least two useful expressions from the lesson.
-- [ ] My main point is easy to identify.
-- [ ] I included a concrete detail, reason, or next step.
-- [ ] I qualified claims where certainty was limited and adjusted the register for my audience.
+- [ ] I completed every part of this lesson's scenario, not only the language form.
+- [ ] My target language is accurate and fits the intended meaning.
+- [ ] My level of directness and detail fits the named audience.
+- [ ] The reader or listener can identify my main point and next step.
+- [ ] I separated evidence, assumptions, and recommendations instead of presenting them as equally certain.
 
 <!-- learning-loop:end -->

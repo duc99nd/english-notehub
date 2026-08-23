@@ -2,133 +2,183 @@
 {
   'id': 'b2-07-proposal-writing',
   'slug': 'b2-07-proposal-writing',
-  'titleEn': 'Proposal Writing',
-  'titleVi': 'Viết đề xuất',
-  'subtitleEn': 'Write compelling business proposals',
-  'subtitleVi': 'Viết đề xuất kinh doanh thuyết phục',
+  'titleEn': 'Technical Proposal Writing',
+  'titleVi': 'Viết đề xuất kỹ thuật',
+  'subtitleEn': 'Write engineering proposals with clear problems, phased solutions, and measurable assumptions',
+  'subtitleVi': 'Viết đề xuất kỹ thuật với vấn đề rõ ràng, giải pháp theo giai đoạn và giả định có thể kiểm chứng',
   'level': 'B2',
   'unit': 2,
   'skill': 'writing',
   'order': 7,
   'cefr': 'B2',
-  'minutes': 10,
-  'tags': ['writing', 'proposal', 'business', 'B2'],
-  'audioScript': "This proposal outlines our three-phase approach to digital transformation.\nOur solution will deliver measurable ROI within twelve months.\nWe are confident this partnership will yield significant long-term value.\n",
+  'minutes': 16,
+  'tags': ['writing', 'proposal', 'architecture', 'ROI', 'B2'],
+  'audioScript': "This fictional proposal outlines a phased strategy for migrating a session store to a distributed cache cluster.\nBased on the illustrative baseline, phase one targets a forty-percent reduction in p99 query latency.\nWe recommend approving a limited pilot to test memory usage under peak load before considering full cutover.\n",
   'listeningEnabled': true,
   'flashcardCount': 6,
   'quiz':
     [
       {
         'type': 'choice',
-        'prompt': 'What does "ROI" stand for?',
-        'options': ['Rate of Income', 'Return on Investment', 'Risk of Implementation'],
-        'answer': 'Return on Investment',
+        'prompt': 'Which problem statement in an engineering proposal is most effective for executive leadership?',
+        'options':
+          [
+            'Peak-hour database contention is affecting checkout performance, so the platform team should investigate caching options.',
+            'Database read contention during peak hours causes p99 latency spikes of over 800ms, directly impacting checkout conversion rates.',
+            'A managed Redis service could improve response times, and the proposal should focus on adopting it this quarter.',
+          ],
+        'answer': 'Database read contention during peak hours causes p99 latency spikes of over 800ms, directly impacting checkout conversion rates.',
+        'explanation': 'Cách viết này nối triệu chứng kỹ thuật có thể đo với ảnh hưởng kinh doanh. Hai lựa chọn còn lại có thể là điểm khởi đầu, nhưng một câu thiếu bằng chứng và câu kia chọn công cụ trước khi xác định vấn đề.',
+        'distractorFeedback':
+          {
+            'Peak-hour database contention is affecting checkout performance, so the platform team should investigate caching options.': 'Câu này xác định khu vực vấn đề và hướng điều tra, nhưng chưa định lượng triệu chứng hoặc chứng minh ảnh hưởng kinh doanh.',
+            'A managed Redis service could improve response times, and the proposal should focus on adopting it this quarter.': 'Câu này chọn sẵn sản phẩm và thời điểm trước khi chứng minh vấn đề hoặc tiêu chí đánh giá.',
+          },
       },
       {
         'type': 'fill',
-        'prompt': 'This proposal ___ our three-phase approach.',
+        'prompt': 'This proposal ___ our three-phase implementation strategy.',
         'answer': 'outlines',
+        'acceptedAnswers': ['outlines'],
+        'explanation': '"Outlines" là động từ thường dùng khi giới thiệu ngắn gọn cấu trúc hoặc các ý chính của đề xuất.',
       },
       {
         'type': 'choice',
-        'prompt': 'Which word means "to produce results"?',
-        'options': ['yield', 'delay', 'consume'],
-        'answer': 'yield',
+        'prompt': 'What is the primary function of presenting a "phased rollout" in a technical proposal?',
+        'options':
+          [
+            'It de-risks the migration by delivering incremental value with clear rollback gates at each milestone.',
+            'It divides the work into smaller milestones, although it does not by itself prove that the proposed benefits will occur.',
+            'It moves approval to later phases, so the team can begin implementation before stakeholders review the risks.',
+          ],
+        'answer': 'It de-risks the migration by delivering incremental value with clear rollback gates at each milestone.',
+        'explanation': 'Triển khai theo giai đoạn giới hạn phạm vi ảnh hưởng và tạo điểm kiểm tra bằng chứng, phê duyệt và rollback. Cách làm này không loại bỏ yêu cầu xác minh lợi ích hoặc xin phê duyệt phù hợp.',
+        'distractorFeedback':
+          {
+            'It divides the work into smaller milestones, although it does not by itself prove that the proposed benefits will occur.': 'Đây là lưu ý đúng nhưng chưa nêu chức năng chính của đề xuất: giới hạn rủi ro bằng cổng bằng chứng và rollback rõ ràng.',
+            'It moves approval to later phases, so the team can begin implementation before stakeholders review the risks.': 'Chia giai đoạn phải tạo các điểm phê duyệt; cách làm này không cho phép bắt đầu trước khi rủi ro liên quan được xem xét.',
+          },
       },
     ],
   'categoryEn': 'Technical Leadership Communication',
   'categoryVi': 'Giao tiếp Dẫn dắt Kỹ thuật',
   'prerequisites': ['b2-06-business-article'],
+  'editorialStatus': 'pilot-reviewed',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 100, 'maxWords': 140 },
 }
 ---
 
-# Viết đề xuất
+# Viết Đề Xuất Kỹ Thuật (Technical Proposal Writing)
 
-## Cấu trúc đề xuất kinh doanh
+## Thách thức khi viết đề xuất cho Ban Lãnh đạo
 
-Một đề xuất rõ ràng tuân theo cấu trúc logic: vấn đề → giải pháp → lợi ích → ROI.
+Khi Senior Engineer hoặc Tech Lead đề xuất cải tiến kiến trúc, tái cấu trúc mã nguồn (refactoring), hoặc di chuyển hạ tầng đám mây, chỉ nói về cú pháp code hay công nghệ mới là chưa đủ. Ban điều hành và các bên liên quan cần thấy rõ **vấn đề thực tế (Problem Statement)**, **kế hoạch triển khai theo giai đoạn (Phased Implementation)**, và **giá trị kinh doanh đo lường được (Measurable ROI)**.
 
-> **Pattern**: `This proposal outlines our [approach] to [goal]`
+Một đề xuất kỹ thuật chuẩn mực ở cấp độ B2 sẽ liên kết trực tiếp giải pháp kỹ thuật với trải nghiệm người dùng và việc tối ưu hóa chi phí vận hành.
 
-### Từ vựng đề xuất thiết yếu
+> **Mẫu câu**: `This proposal outlines [solution] to address [business/technical problem], delivering [quantifiable benefit] across [timeline].`
+>
+> _(Tài liệu này đề xuất [giải pháp] nhằm giải quyết [vấn đề], mang lại [lợi ích đo lường được] trong vòng [khoảng thời gian].)_
 
-| Tiếng Anh                  | Tiếng Việt                   |
-| -------------------------- | ---------------------------- |
-| outline                    | phác thảo                    |
-| ROI (Return on Investment) | Lợi tức đầu tư               |
-| yield results              | mang lại kết quả             |
-| deliver value              | tạo giá trị                  |
-| phased approach            | cách tiếp cận theo giai đoạn |
-| measurable outcomes        | kết quả đo lường được        |
+---
 
-## Các phần tiêu chuẩn
+## Đề xuất mô phỏng: Di chuyển cụm Redis Cache
 
-| Phần              | Mục đích                  |
-| ----------------- | ------------------------- |
-| Tóm tắt điều hành | Tổng quan đề xuất         |
-| Phát biểu vấn đề  | Xác định vấn đề           |
-| Giải pháp đề xuất | Trình bày cách tiếp cận   |
-| Tiến độ           | Triển khai theo giai đoạn |
-| ROI kỳ vọng       | Định lượng giá trị        |
+**Lưu ý:** Tổ chức, kiến trúc, sự cố, chi phí, tỷ lệ phần trăm và số liệu hiệu năng dưới đây đều là dữ liệu hư cấu dùng cho bài tập. Đề xuất thật phải thay chúng bằng baseline đo được, ước tính chi phí, giả định và nguồn bằng chứng cụ thể.
 
-## Ngôn ngữ đề xuất mẫu
+**Kính gửi:** Ban Cố vấn Kỹ thuật (Engineering Steering Committee)
 
-> "Đề xuất này phác thảo cách tiếp cận ba giai đoạn cho chuyển đổi số. Giải pháp của chúng tôi sẽ mang lại ROI rõ ràng trong vòng mười hai tháng. Chúng tôi tin rằng quan hệ đối tác này sẽ tạo ra giá trị dài hạn đáng kể."
+**Người gửi:** Đội ngũ Backend Platform
 
-## Cụm từ hữu ích
+**Tiêu đề:** Proposal: Distributed In-Memory Cache Migration for Checkout Services
 
-- Chúng tôi đề xuất triển khai...
-- Kết quả kỳ vọng là...
-- Đội ngũ chúng tôi sẽ bàn giao...
-- Khoản đầu tư này sẽ mang lại...
+### 1. Tóm tắt điều hành (Executive Summary)
 
-## Quick quiz
+This proposal outlines a two-phase architecture migration from our legacy monolithic session store to a managed Redis cluster. Based on the fictional baseline used in this exercise, offloading hot-key queries from PostgreSQL is expected to reduce p99 latency spikes during flash sales and could reduce cloud compute costs by an estimated 22% annually.
 
-Kiểm tra kiến thức viết đề xuất trong phần quiz.
+### 2. Mô tả vấn đề (Problem Statement)
 
-## What to learn next
+During peak traffic events, relational database connection pool exhaustion leads to 850ms API response times. This latency bottleneck causes a 4.5% shopping cart abandonment rate and requires costly manual vertical scaling.
 
-Trong bài tiếp theo **B2-08-data-storytelling**, bạn sẽ học cách trình bày insights dữ liệu có sức ảnh hưởng.
+### 3. Giải pháp đề xuất (Proposed Solution & Architecture)
+
+- **Phase 1 (Sprint 21):** Deploy read-through cache for static product catalogs and session tokens.
+- **Phase 2 (Sprint 22):** Implement cache invalidation webhooks and shadow traffic benchmarking.
+- **Chiến lược chuyển đổi (Cutover):** Triển khai blue-green với phương án rollback đã kiểm thử để giảm rủi ro chuyển đổi.
+
+### 4. Kết quả đo lường kỳ vọng (Measurable Expected Outcomes)
+
+- **Mục tiêu hiệu năng:** Giảm độ trễ p99 API thanh toán từ baseline minh họa 850ms xuống dưới 120ms.
+- **Mục tiêu độ tin cậy:** Giảm nghẽn connection pool và kiểm chứng availability bằng peak-load test.
+- **Ảnh hưởng chi phí ước tính:** Tiết kiệm khoảng 4.200 USD/tháng sau khi tính chi phí cache, database downsizing, migration và vận hành.
+
+---
+
+## Từ vựng & Mẫu câu cấu trúc chuyên nghiệp
+
+| Cụm từ trọng tâm                        | Chức năng văn bản                                               | Ví dụ minh họa                                                                       |
+| :-------------------------------------- | :-------------------------------------------------------------- | :----------------------------------------------------------------------------------- |
+| **This proposal outlines [initiative]** | Câu mở đầu chính thức nêu rõ phạm vi tài liệu.                  | "This proposal outlines our phased strategy to modernize API authentication."        |
+| **Deliver measurable ROI / value**      | Định lượng lợi ích về tốc độ, thời gian hoạt động hoặc chi phí. | "The refactoring will deliver measurable latency improvements within 30 days."       |
+| **Address root causes**                 | Tập trung vào nguyên nhân gốc rễ thay vì triệu chứng bề mặt.    | "This approach addresses the root cause of connection pool exhaustion."              |
+| **Phased implementation**               | Trình bày lộ trình triển khai từng bước ít rủi ro.              | "We recommend a three-phase rollout with automated rollback triggers."               |
+| **Mitigate risks**                      | Thể hiện sự lường trước các điểm có thể xảy ra lỗi.             | "To mitigate cutover risk, shadow traffic testing will run concurrently for 7 days." |
+
+---
+
+## Trắc nghiệm nhanh
+
+Kiểm tra khả năng tư duy và lựa chọn cách hành văn trong đề xuất kỹ thuật ở phần trắc nghiệm phía trên.
+
+---
+
+## Bài học tiếp theo
+
+Ở bài tiếp theo **B2-08-data-storytelling**, bạn sẽ học cách trình bày các biểu đồ benchmark và số liệu giám sát hệ thống dưới dạng câu chuyện dữ liệu có sức thuyết phục cao.
 
 <!-- learning-loop:start -->
 
 ## Kết quả học tập
 
-Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Viết đề xuất** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+Sau bài này, bạn có thể tự viết một bản tóm tắt đề xuất kỹ thuật từ 100 đến 140 từ, nêu bật vấn đề hệ thống, giải pháp chia giai đoạn và số liệu ROI cụ thể.
 
 ## Phòng luyện tập
 
-### Nhận diện cách diễn đạt
+### Nhận diện cấu trúc văn bản
 
-Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+Chú ý cách bản đề xuất bắt đầu bằng tóm tắt ngắn gọn, đi vào các điểm nghẽn có số liệu cụ thể (850ms latency, 4.5% drop), và kết thúc bằng lợi ích tài chính rõ ràng.
 
-> **Colleague:** How would you handle this situation?
->
-> **You:** This proposal outlines our three-phase approach to digital transformation.
+### Luyện tập có định hướng
 
-Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+**Yêu cầu viết:** Viết một bản tóm tắt đề xuất kỹ thuật (100–140 từ) gửi cho Engineering Manager đề xuất xây dựng hệ thống kiểm thử tự động End-to-End (Playwright E2E pipeline) để giảm lỗi hồi quy trước khi release lên production.
 
-> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+**Yêu cầu bắt buộc:**
 
-### Đến lượt bạn
-
-Tạo một câu trả lời mới cho chủ đề **Viết đề xuất**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+- Câu mở đầu sử dụng cấu trúc chuẩn (`This proposal outlines...`).
+- Nêu rõ số liệu vấn đề (ví dụ: số giờ test tay, số lần phải rollback).
+- Chia giai đoạn thực hiện (Phase 1 / Phase 2).
+- Đo lường kết quả kỳ vọng (thời gian chạy test giảm, giảm tỷ lệ bug).
 
 ### Bài mẫu
 
-> This proposal outlines our three-phase approach to digital transformation. Our solution will deliver measurable ROI within twelve months. We are confident this partnership will yield significant long-term value.
-
-Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
-
-### Chuyển đổi register
-
-Viết lại câu trả lời hai lần: một bản cho đồng đội thân quen và một bản cho khách hàng hoặc stakeholder cấp cao. Giữ nguyên thông điệp nhưng thay đổi độ trực tiếp, lượng bối cảnh và mức giải thích. Chỉ ra một cụm từ bạn đã làm mềm, một chi tiết bạn nói rõ hơn và một giả định bạn đã loại bỏ.
+> **Proposal: Automated E2E Testing Pipeline Implementation**
+>
+> This proposal outlines our strategy to implement an automated Playwright testing pipeline within our CI/CD workflow. Currently, manual regression testing consumes over 35 engineering hours per sprint and delays bi-weekly releases.
+>
+> We propose a two-phase rollout:
+>
+> - **Phase 1 (Sprint 12):** Automate the top 15 critical checkout and authentication user flows.
+> - **Phase 2 (Sprint 13):** Integrate test container orchestration into GitHub Actions with parallel test execution.
+>
+> During the next two sprints, the pilot targets a reduction in pre-release validation time from 16 hours to 18 minutes and an estimated 60% reduction in production regression incidents. We recommend approving Phase 1 setup for an evidence-gathering trial.
 
 ### Tự kiểm tra
 
-- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
-- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
-- [ ] Người nghe có thể nhận ra ý chính ngay.
-- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+- [ ] Câu mở đầu nêu rõ mục đích với văn phong trang trọng.
+- [ ] Vấn đề được diễn đạt bằng số liệu khách quan.
+- [ ] Kế hoạch được chia thành các phase rõ ràng.
+- [ ] Nêu bật được lợi ích cụ thể (tiết kiệm thời gian, giảm lỗi).
+- [ ] Độ dài đạt chuẩn từ 100 đến 140 từ.
 
 <!-- learning-loop:end -->

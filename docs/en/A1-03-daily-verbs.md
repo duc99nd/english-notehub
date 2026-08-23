@@ -11,7 +11,7 @@
   'skill': 'reading',
   'order': 3,
   'cefr': 'A1',
-  'minutes': 20,
+  'minutes': 22,
   'tags': ['verbs', 'daily-routine', 'reading', 'speaking', 'foundation'],
   'audioScript': "I wake up at six in the morning.\nI eat breakfast at seven. I drink coffee every day.\nI go to work at eight. I come home at six.\nI read a book before I sleep at ten.\n",
   'listeningEnabled': true,
@@ -23,19 +23,48 @@
         'prompt': "Which verb completes the sentence? 'I ___ up at six in the morning.'",
         'options': ['wake', 'wakes', 'waking', 'woke'],
         'answer': 'wake',
+        'explanation': 'In this context, “wake” supplies the meaning or form targeted in Daily Verbs. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'wakes': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'waking': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'woke': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
-      { 'type': 'fill', 'prompt': 'I ___ coffee every morning. (uống)', 'answer': 'drink' },
+      {
+        'type': 'fill',
+        'prompt': 'I ___ coffee every morning. (uống)',
+        'answer': 'drink',
+        'acceptedAnswers': ['drink'],
+        'explanation': 'In this context, “drink” supplies the meaning or form targeted in Daily Verbs. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+      },
       {
         'type': 'choice',
         'prompt': "What is the opposite of 'come'?",
         'options': ['go', 'stay', 'leave', 'arrive'],
         'answer': 'go',
+        'explanation': 'In this context, “go” supplies the meaning or form targeted in Daily Verbs. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'stay': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'leave': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'arrive': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
-      { 'type': 'fill', 'prompt': 'She ___ home at six in the evening. (đến)', 'answer': 'comes' },
+      {
+        'type': 'fill',
+        'prompt': 'She ___ home at six in the evening. (đến)',
+        'answer': 'comes',
+        'acceptedAnswers': ['comes'],
+        'explanation': 'In this context, “comes” supplies the meaning or form targeted in Daily Verbs. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+      },
     ],
   'categoryEn': 'Foundation English',
   'categoryVi': 'Tiếng Anh Nền tảng',
   'prerequisites': ['a1-02-numbers'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 20, 'maxWords': 70 },
 }
 ---
 
@@ -198,37 +227,43 @@ In **A1-04-family**, you will learn the words for family members — mother, fat
 
 ## Learning outcome
 
-By the end of this lesson, you will be able to identify the main point, supporting detail, and register choices in a text about daily verbs.
+By the end of this lesson, you can extract the main point and supporting detail from a text about daily verbs, then make one evidence-based interpretation.
 
-## Practice lab
+## Scenario practice
 
-### Notice the language
+### Situation
 
-Read the situation, then listen to the model once for meaning and once for phrasing.
+A classmate wants to compare weekday routines. Read a short schedule and identify what happens before work and after work.
 
-> **Colleague:** How would you handle **daily verbs** in this situation?
->
-> **You:** I wake up at six in the morning.
+> **Training note:** This situation and its details are fictional. They are designed for language practice, not presented as a real event, policy, study, or legal interpretation.
 
-Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+### Controlled practice
 
-> **Pattern**: clear point + concrete detail or reason + appropriate next step
+Before reading the explanation again, write one line for the text's main point, one line for its strongest supporting detail, and one phrase that signals tone or stance.
 
-### Your turn
+### Guided task
 
-Summarize the text in two sentences for a colleague or classmate. Identify one claim, one supporting detail, and one phrase that signals the writer's attitude.
+Write 20–70 words as structured reading notes. State the main point, cite or paraphrase one supporting detail, identify a register choice, and separate evidence from your inference.
 
 ### Model response
 
-> I wake up at six in the morning. I eat breakfast at seven. I drink coffee every day. I go to work at eight. I come home at six. I read a book before I sleep at ten.
+> **Main point and evidence:** I wake up at six in the morning. I eat breakfast at seven. I drink coffee every day. I go to work at eight. I come home at six.
+>
+> **Interpretation:** I keep the message short, use familiar words, and finish with one clear next step. Other well-supported responses are possible.
 
-The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+### Why the model works
+
+The model shows one defensible route through the task; it is not a script to memorize. Compare its task completion, language accuracy, audience fit, and clarity with your response, then revise once.
+
+### Transfer task
+
+Change the schedule from a weekday to Sunday. Keep the target language, but change the details and register needed for the new context.
 
 ### Self-check
 
-- [ ] I completed the task without translating a full Vietnamese sentence word for word.
-- [ ] I used at least two useful expressions from the lesson.
-- [ ] My main point is easy to identify.
-- [ ] I included a concrete detail, reason, or next step.
+- [ ] I completed every part of this lesson's scenario, not only the language form.
+- [ ] My target language is accurate and fits the intended meaning.
+- [ ] My level of directness and detail fits the named audience.
+- [ ] The reader or listener can identify my main point and next step.
 
 <!-- learning-loop:end -->

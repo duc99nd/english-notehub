@@ -11,35 +11,60 @@
   'skill': 'grammar',
   'order': 2,
   'cefr': 'A1',
-  'minutes': 18,
+  'minutes': 20,
   'tags': ['numbers', 'phone', 'counting', 'math', 'foundation'],
   'audioScript': "One, two, three, four, five.\nMy number is zero nine one, five six seven, eight nine zero.\nI have two sisters and one brother.\nFour plus five equals nine.\n",
   'listeningEnabled': true,
   'flashcardCount': 8,
   'quiz':
     [
-      { 'type': 'fill', 'prompt': 'How do you spell the number 14? ___', 'answer': 'fourteen' },
+      {
+        'type': 'fill',
+        'prompt': 'How do you spell the number 14? ___',
+        'answer': 'fourteen',
+        'acceptedAnswers': ['fourteen'],
+        'explanation': 'In this context, “fourteen” supplies the meaning or form targeted in Numbers & Phone Numbers. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+      },
       {
         'type': 'choice',
         'prompt': "Someone says: 'My number is zero nine one, two three four, five six seven.' What is the number?",
         'options': ['091234567', '91234567', '0912345678', '9234567'],
         'answer': '091234567',
+        'explanation': 'In this context, “091234567” supplies the meaning or form targeted in Numbers & Phone Numbers. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            '9234567': 'This option does not complete the communicative intent or target form tested by the question context.',
+            '91234567': 'This option does not complete the communicative intent or target form tested by the question context.',
+            '0912345678': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
       {
         'type': 'choice',
         'prompt': 'Which is the correct spelling for 40?',
         'options': ['fourty', 'forty', 'fourti', 'fourteen'],
         'answer': 'forty',
+        'explanation': 'In this context, “forty” supplies the meaning or form targeted in Numbers & Phone Numbers. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'fourty': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'fourti': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'fourteen': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
       {
         'type': 'fill',
         'prompt': 'Six ___ two equals eight. (plus / minus / times)',
         'answer': 'plus',
+        'acceptedAnswers': ['plus'],
+        'explanation': 'In this context, “plus” supplies the meaning or form targeted in Numbers & Phone Numbers. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
       },
     ],
   'categoryEn': 'Foundation English',
   'categoryVi': 'Tiếng Anh Nền tảng',
   'prerequisites': ['a1-01-greetings'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 20, 'maxWords': 70 },
 }
 ---
 
@@ -205,37 +230,43 @@ In **A1-03-daily-verbs**, you will learn the 20 most common English verbs — wa
 
 ## Learning outcome
 
-By the end of this lesson, you will be able to choose an appropriate structure and apply it accurately when discussing numbers & phone numbers.
+By the end of this lesson, you can produce a connected response about numbers & phone numbers, use the target structure accurately, and explain one effect of that choice.
 
-## Practice lab
+## Scenario practice
 
-### Notice the language
+### Situation
 
-Read the situation, then listen to the model once for meaning and once for phrasing.
+A delivery form has the wrong phone number. Say the correct number slowly and confirm the final two digits.
 
-> **Colleague:** How would you handle **numbers & phone numbers** in this situation?
->
-> **You:** One, two, three, four, five.
+> **Training note:** This situation and its details are fictional. They are designed for language practice, not presented as a real event, policy, study, or legal interpretation.
 
-Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+### Controlled practice
 
-> **Pattern**: clear point + concrete detail or reason + appropriate next step
+Take two example sentences from the lesson. Transform the first with the target structure, then revise the second to change emphasis or level of certainty without changing the core facts.
 
-### Your turn
+### Guided task
 
-Write four connected sentences for a colleague or classmate. Use the target structure twice, then revise one sentence to change its tone or emphasis.
+Write 20–70 words for the situation. Use the target structure at least twice, underline those choices, and add one sentence explaining how one structure changes emphasis, time, condition, or certainty.
 
 ### Model response
 
-> One, two, three, four, five. My number is zero nine one, five six seven, eight nine zero. I have two sisters and one brother. Four plus five equals nine.
+> **Draft:** One, two, three, four, five. My number is zero nine one, five six seven, eight nine zero. I have two sisters and one brother.
+>
+> **Language choice:** I keep the message short, use familiar words, and finish with one clear next step. Other well-supported responses are possible.
 
-The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+### Why the model works
+
+The model shows one defensible route through the task; it is not a script to memorize. Compare its task completion, language accuracy, audience fit, and clarity with your response, then revise once.
+
+### Transfer task
+
+Give a room number and a quantity instead of a phone number. Keep the target language, but change the details and register needed for the new context.
 
 ### Self-check
 
-- [ ] I completed the task without translating a full Vietnamese sentence word for word.
-- [ ] I used at least two useful expressions from the lesson.
-- [ ] My main point is easy to identify.
-- [ ] I included a concrete detail, reason, or next step.
+- [ ] I completed every part of this lesson's scenario, not only the language form.
+- [ ] My target language is accurate and fits the intended meaning.
+- [ ] My level of directness and detail fits the named audience.
+- [ ] The reader or listener can identify my main point and next step.
 
 <!-- learning-loop:end -->

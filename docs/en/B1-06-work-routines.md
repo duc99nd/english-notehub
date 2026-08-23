@@ -11,7 +11,7 @@
   'skill': 'vocab',
   'order': 6,
   'cefr': 'B1',
-  'minutes': 11,
+  'minutes': 13,
   'tags': ['work', 'job', 'office', 'workplace', 'daily-routine', 'career'],
   'audioScript': "I usually start work at 9 AM and finish at 6 PM.\nI have a meeting with my manager this afternoon.\nI need to finish this report by Friday.\n",
   'listeningEnabled': true,
@@ -24,22 +24,39 @@
         'options':
           ['A type of office chair', 'The time when something must be finished', 'A meeting room'],
         'answer': 'The time when something must be finished',
+        'explanation': 'In this context, “The time when something must be finished” supplies the meaning or form targeted in Work & Daily Routines. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'A type of office chair': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'A meeting room': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
       {
         'type': 'fill',
         'prompt': 'I need to ___ this document before the meeting.',
         'answer': 'review',
+        'acceptedAnswers': ['review'],
+        'explanation': 'In this context, “review” supplies the meaning or form targeted in Work & Daily Routines. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
       },
       {
         'type': 'choice',
         'prompt': "Which word means 'to manage a team'?",
         'options': ['To work', 'To supervise', 'To vacation'],
         'answer': 'To supervise',
+        'explanation': 'In this context, “To supervise” supplies the meaning or form targeted in Work & Daily Routines. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'To work': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'To vacation': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
     ],
   'categoryEn': 'Independent Workplace Communication',
   'categoryVi': 'Giao tiếp Công việc Độc lập',
   'prerequisites': ['b1-05-review-unit1'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'dialogue', 'minTurns': 4, 'maxTurns': 6 },
 }
 ---
 
@@ -119,37 +136,47 @@ In the next lesson **B1-07-modals-obligation**, you will learn how to use modals
 
 ## Learning outcome
 
-By the end of this lesson, you will be able to select and use useful language for work & daily routines in a short, realistic exchange.
+By the end of this lesson, you can complete a four-turn exchange about work & daily routines, choosing expressions that fit the relationship and immediate goal.
 
-## Practice lab
+## Scenario practice
 
-### Notice the language
+### Situation
 
-Read the situation, then listen to the model once for meaning and once for phrasing.
+Give a new teammate a practical overview of your workday, including meetings, focused work, and one Friday deadline.
 
-> **Colleague:** How would you handle **work & daily routines** in this situation?
->
-> **You:** I usually start work at 9 AM and finish at 6 PM.
+> **Training note:** This situation and its details are fictional. They are designed for language practice, not presented as a real event, policy, study, or legal interpretation.
 
-Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+### Controlled practice
 
-> **Pattern**: clear point + concrete detail or reason + appropriate next step
+Choose three expressions from **Work & Daily Routines**. Label each one as an opener, key detail, clarification, or next step. Remove any expression that does not fit the relationship in the situation.
 
-### Your turn
+### Guided task
 
-Create a four-line exchange with a colleague or classmate. Use at least three target expressions from **Work & Daily Routines** and add one follow-up question.
+Write a four-to-six-turn exchange for this situation. Use at least three target expressions, respond to the other speaker's information, and end with a question, confirmation, or agreed action.
 
 ### Model response
 
-> I usually start work at 9 AM and finish at 6 PM. I have a meeting with my manager this afternoon. I need to finish this report by Friday.
+> **Partner:** We need to respond to the situation above. What would you say first?
+>
+> **You:** I usually start work at 9 AM and finish at 6 PM.
+>
+> **Partner:** What detail should we confirm before we act?
+>
+> **You:** I have a meeting with my manager this afternoon. I need to finish this report by Friday.
 
-The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+### Why the model works
+
+The model shows one defensible route through the task; it is not a script to memorize. Compare its task completion, language accuracy, audience fit, and clarity with your response, then revise once.
+
+### Transfer task
+
+Compare the normal routine with a release day. Keep the target language, but change the details and register needed for the new context.
 
 ### Self-check
 
-- [ ] I completed the task without translating a full Vietnamese sentence word for word.
-- [ ] I used at least two useful expressions from the lesson.
-- [ ] My main point is easy to identify.
-- [ ] I included a concrete detail, reason, or next step.
+- [ ] I completed every part of this lesson's scenario, not only the language form.
+- [ ] My target language is accurate and fits the intended meaning.
+- [ ] My level of directness and detail fits the named audience.
+- [ ] The reader or listener can identify my main point and next step.
 
 <!-- learning-loop:end -->

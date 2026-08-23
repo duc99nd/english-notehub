@@ -11,7 +11,7 @@
   'skill': 'grammar',
   'order': 5,
   'cefr': 'B2',
-  'minutes': 11,
+  'minutes': 13,
   'tags': ['grammar', 'persuasion', 'rhetoric', 'B2'],
   'audioScript': "Not only does this solution reduce costs, but it also improves scalability.\nThe more data we collect, the better our predictions become.\nIt is essential that we act now to remain competitive.\n",
   'listeningEnabled': true,
@@ -24,22 +24,39 @@
         'options':
           ['It might be helpful to...', 'It is essential that we...', 'We could possibly...'],
         'answer': 'It is essential that we...',
+        'explanation': 'In this context, “It is essential that we...” supplies the meaning or form targeted in Persuasive Grammar. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'It might be helpful to...': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'We could possibly...': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
       {
         'type': 'fill',
         'prompt': 'Not only ___ it reduce costs, but it also improves scalability.',
         'answer': 'does',
+        'acceptedAnswers': ['does'],
+        'explanation': 'In this context, “does” supplies the meaning or form targeted in Persuasive Grammar. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
       },
       {
         'type': 'choice',
         'prompt': 'The more we test, the better the result becomes. is an example of:',
         'options': ['Comparative structure', 'Double comparative', 'Conditional structure'],
         'answer': 'Double comparative',
+        'explanation': 'In this context, “Double comparative” supplies the meaning or form targeted in Persuasive Grammar. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'Comparative structure': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Conditional structure': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
     ],
   'categoryEn': 'Technical Leadership Communication',
   'categoryVi': 'Giao tiếp Dẫn dắt Kỹ thuật',
   'prerequisites': ['b2-04-meeting-facilitation'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 55, 'maxWords': 170 },
 }
 ---
 
@@ -96,41 +113,44 @@ In the next lesson **B2-06-business-article**, you will read and analyze busines
 
 ## Learning outcome
 
-By the end of this lesson, you will be able to choose an appropriate structure and apply it accurately when discussing persuasive grammar.
+By the end of this lesson, you can produce a connected response about persuasive grammar, use the target structure accurately, and explain one effect of that choice.
 
-## Practice lab
+## Scenario practice
 
-### Notice the language
+### Situation
 
-Read the situation, then listen to the model once for meaning and once for phrasing.
+Persuade a leadership group to fund observability work. Combine cost, scalability, and urgency without overstating certainty.
 
-> **Colleague:** How would you handle **persuasive grammar** in this situation?
->
-> **You:** Not only does this solution reduce costs, but it also improves scalability.
+> **Training note:** This situation and its details are fictional. They are designed for language practice, not presented as a real event, policy, study, or legal interpretation.
 
-Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+### Controlled practice
 
-> **Pattern**: clear point + concrete detail or reason + appropriate next step
+Take two example sentences from the lesson. Transform the first with the target structure, then revise the second to change emphasis or level of certainty without changing the core facts.
 
-### Your turn
+### Guided task
 
-Write four connected sentences for a colleague or classmate. Use the target structure twice, then revise one sentence to change its tone or emphasis.
+Write 55–170 words for the situation. Use the target structure at least twice, underline those choices, and add one sentence explaining how one structure changes emphasis, time, condition, or certainty.
 
 ### Model response
 
-> Not only does this solution reduce costs, but it also improves scalability. The more data we collect, the better our predictions become. It is essential that we act now to remain competitive.
+> **Draft:** Not only does this solution reduce costs, but it also improves scalability. The more data we collect, the better our predictions become. It is essential that we act now to remain competitive.
+>
+> **Language choice:** I make the relationship between evidence, constraint, and recommendation explicit. The response avoids a binary claim when the situation calls for a trade-off, and it gives the audience a practical checkpoint for challenging or confirming the recommendation. Other well-supported responses are possible.
 
-The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+### Why the model works
 
-### Register switch
+The model shows one defensible route through the task; it is not a script to memorize. Compare its task completion, language accuracy, audience fit, and clarity with your response, then revise once.
 
-Rewrite your response twice: first for a trusted teammate, then for a client or senior stakeholder. Keep the underlying message the same while changing directness, context, and the amount of explanation. Identify one phrase you softened, one detail you made explicit, and one assumption you removed.
+### Transfer task
+
+Rewrite the argument for engineers who question the operational benefit. Keep the target language, but change the details and register needed for the new context.
 
 ### Self-check
 
-- [ ] I completed the task without translating a full Vietnamese sentence word for word.
-- [ ] I used at least two useful expressions from the lesson.
-- [ ] My main point is easy to identify.
-- [ ] I included a concrete detail, reason, or next step.
+- [ ] I completed every part of this lesson's scenario, not only the language form.
+- [ ] My target language is accurate and fits the intended meaning.
+- [ ] My level of directness and detail fits the named audience.
+- [ ] The reader or listener can identify my main point and next step.
+- [ ] I separated evidence, assumptions, and recommendations instead of presenting them as equally certain.
 
 <!-- learning-loop:end -->

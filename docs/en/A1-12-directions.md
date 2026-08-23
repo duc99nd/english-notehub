@@ -11,7 +11,7 @@
   'skill': 'vocab',
   'order': 12,
   'cefr': 'A1',
-  'minutes': 20,
+  'minutes': 22,
   'tags': ['directions', 'places', 'prepositions', 'vocab', 'travel'],
   'audioScript': "Excuse me, where is the bank?\nTurn left at the traffic light.\nGo straight for two blocks.\nThe hotel is on your right.\n",
   'listeningEnabled': true,
@@ -23,28 +23,54 @@
         'prompt': 'How do you ask for directions?',
         'options': ['Where is the bank?', 'I am the bank.', 'Bank is where?', 'Bank what?'],
         'answer': 'Where is the bank?',
+        'explanation': 'In this context, “Where is the bank?” supplies the meaning or form targeted in Directions & Places. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'I am the bank.': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Bank is where?': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Bank what?': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
       {
         'type': 'choice',
         'prompt': "What does 'turn left' mean?",
         'options': ['rẽ trái', 'rẽ phải', 'đi thẳng', 'quay lại'],
         'answer': 'rẽ trái',
+        'explanation': 'In this context, “rẽ trái” supplies the meaning or form targeted in Directions & Places. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'rẽ phải': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'đi thẳng': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'quay lại': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
       {
         'type': 'fill',
         'prompt': 'Go ___ for two blocks. (đi thẳng = straight)',
         'answer': 'straight',
+        'acceptedAnswers': ['straight'],
+        'explanation': 'In this context, “straight” supplies the meaning or form targeted in Directions & Places. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
       },
       {
         'type': 'choice',
         'prompt': "What is the opposite of 'far'?",
         'options': ['near', 'right', 'left', 'straight'],
         'answer': 'near',
+        'explanation': 'In this context, “near” supplies the meaning or form targeted in Directions & Places. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'right': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'left': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'straight': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
     ],
   'categoryEn': 'Foundation English',
   'categoryVi': 'Tiếng Anh Nền tảng',
   'prerequisites': ['a1-11-shopping-money'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'dialogue', 'minTurns': 4, 'maxTurns': 6 },
 }
 ---
 
@@ -234,37 +260,47 @@ In **A1-13-can-cant**, you will learn how to talk about abilities using **can** 
 
 ## Learning outcome
 
-By the end of this lesson, you will be able to select and use useful language for directions & places in a short, realistic exchange.
+By the end of this lesson, you can complete a four-turn exchange about directions & places, choosing expressions that fit the relationship and immediate goal.
 
-## Practice lab
+## Scenario practice
 
-### Notice the language
+### Situation
 
-Read the situation, then listen to the model once for meaning and once for phrasing.
+A visitor at the station needs to find a nearby hotel. Give three short direction steps and confirm the final side of the street.
 
-> **Colleague:** How would you handle **directions & places** in this situation?
->
-> **You:** Excuse me, where is the bank?
+> **Training note:** This situation and its details are fictional. They are designed for language practice, not presented as a real event, policy, study, or legal interpretation.
 
-Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+### Controlled practice
 
-> **Pattern**: clear point + concrete detail or reason + appropriate next step
+Choose three expressions from **Directions & Places**. Label each one as an opener, key detail, clarification, or next step. Remove any expression that does not fit the relationship in the situation.
 
-### Your turn
+### Guided task
 
-Create a four-line exchange with a colleague or classmate. Use at least three target expressions from **Directions & Places** and add one follow-up question.
+Write a four-to-six-turn exchange for this situation. Use at least three target expressions, respond to the other speaker's information, and end with a question, confirmation, or agreed action.
 
 ### Model response
 
-> Excuse me, where is the bank? Turn left at the traffic light. Go straight for two blocks. The hotel is on your right.
+> **Partner:** We need to respond to the situation above. What would you say first?
+>
+> **You:** Excuse me, where is the bank?
+>
+> **Partner:** What detail should we confirm before we act?
+>
+> **You:** Turn left at the traffic light. Go straight for two blocks.
 
-The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+### Why the model works
+
+The model shows one defensible route through the task; it is not a script to memorize. Compare its task completion, language accuracy, audience fit, and clarity with your response, then revise once.
+
+### Transfer task
+
+Give directions from the hotel to a bank. Keep the target language, but change the details and register needed for the new context.
 
 ### Self-check
 
-- [ ] I completed the task without translating a full Vietnamese sentence word for word.
-- [ ] I used at least two useful expressions from the lesson.
-- [ ] My main point is easy to identify.
-- [ ] I included a concrete detail, reason, or next step.
+- [ ] I completed every part of this lesson's scenario, not only the language form.
+- [ ] My target language is accurate and fits the intended meaning.
+- [ ] My level of directness and detail fits the named audience.
+- [ ] The reader or listener can identify my main point and next step.
 
 <!-- learning-loop:end -->

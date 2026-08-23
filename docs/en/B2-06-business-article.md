@@ -11,7 +11,7 @@
   'skill': 'reading',
   'order': 6,
   'cefr': 'B2',
-  'minutes': 11,
+  'minutes': 12,
   'tags': ['reading', 'business', 'articles', 'B2'],
   'audioScript': "The company has reported a 15% year-over-year revenue growth.\nMarket analysts predict continued expansion into emerging economies.\nThe acquisition is expected to bolster the firm's market position.\n",
   'listeningEnabled': true,
@@ -23,11 +23,19 @@
         'prompt': 'What does "bolster" mean?',
         'options': ['Weaken', 'Strengthen or support', 'Replace'],
         'answer': 'Strengthen or support',
+        'explanation': 'In this context, “Strengthen or support” supplies the meaning or form targeted in Business Article Reading. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'Weaken': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Replace': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
       {
         'type': 'fill',
         'prompt': 'The company reported a 15% ___-over-___ revenue growth.',
         'answer': 'year',
+        'acceptedAnswers': ['year'],
+        'explanation': 'In this context, “year” supplies the meaning or form targeted in Business Article Reading. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
       },
       {
         'type': 'choice',
@@ -35,11 +43,20 @@
         'options':
           ['Developed countries', 'Developing countries with rapid growth', 'Failing economies'],
         'answer': 'Developing countries with rapid growth',
+        'explanation': 'In this context, “Developing countries with rapid growth” supplies the meaning or form targeted in Business Article Reading. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'Developed countries': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Failing economies': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
     ],
   'categoryEn': 'Technical Leadership Communication',
   'categoryVi': 'Giao tiếp Dẫn dắt Kỹ thuật',
   'prerequisites': ['b2-05-persuasive-grammar'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 55, 'maxWords': 170 },
 }
 ---
 
@@ -94,41 +111,44 @@ In the next lesson **B2-07-proposal-writing**, you will learn how to write compe
 
 ## Learning outcome
 
-By the end of this lesson, you will be able to identify the main point, supporting detail, and register choices in a text about business article reading.
+By the end of this lesson, you can extract the main point and supporting detail from a text about business article reading, then make one evidence-based interpretation.
 
-## Practice lab
+## Scenario practice
 
-### Notice the language
+### Situation
 
-Read the situation, then listen to the model once for meaning and once for phrasing.
+Read a fictional expansion article. Separate reported results, analyst prediction, and corporate expectation before briefing a manager.
 
-> **Colleague:** How would you handle **business article reading** in this situation?
->
-> **You:** The company has reported a 15% year-over-year revenue growth.
+> **Training note:** This situation and its details are fictional. They are designed for language practice, not presented as a real event, policy, study, or legal interpretation.
 
-Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+### Controlled practice
 
-> **Pattern**: clear point + concrete detail or reason + appropriate next step
+Before reading the explanation again, write one line for the text's main point, one line for its strongest supporting detail, and one phrase that signals tone or stance.
 
-### Your turn
+### Guided task
 
-Summarize the text in two sentences for a colleague or classmate. Identify one claim, one supporting detail, and one phrase that signals the writer's attitude.
+Write 55–170 words as structured reading notes. State the main point, cite or paraphrase one supporting detail, identify a register choice, and separate evidence from your inference.
 
 ### Model response
 
-> The company has reported a 15% year-over-year revenue growth. Market analysts predict continued expansion into emerging economies. The acquisition is expected to bolster the firm's market position.
+> **Main point and evidence:** The company has reported a 15% year-over-year revenue growth. Market analysts predict continued expansion into emerging economies. The acquisition is expected to bolster the firm's market position.
+>
+> **Interpretation:** I make the relationship between evidence, constraint, and recommendation explicit. The response avoids a binary claim when the situation calls for a trade-off, and it gives the audience a practical checkpoint for challenging or confirming the recommendation. Other well-supported responses are possible.
 
-The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+### Why the model works
 
-### Register switch
+The model shows one defensible route through the task; it is not a script to memorize. Compare its task completion, language accuracy, audience fit, and clarity with your response, then revise once.
 
-Rewrite your response twice: first for a trusted teammate, then for a client or senior stakeholder. Keep the underlying message the same while changing directness, context, and the amount of explanation. Identify one phrase you softened, one detail you made explicit, and one assumption you removed.
+### Transfer task
+
+Add one question that would test the article’s evidence. Keep the target language, but change the details and register needed for the new context.
 
 ### Self-check
 
-- [ ] I completed the task without translating a full Vietnamese sentence word for word.
-- [ ] I used at least two useful expressions from the lesson.
-- [ ] My main point is easy to identify.
-- [ ] I included a concrete detail, reason, or next step.
+- [ ] I completed every part of this lesson's scenario, not only the language form.
+- [ ] My target language is accurate and fits the intended meaning.
+- [ ] My level of directness and detail fits the named audience.
+- [ ] The reader or listener can identify my main point and next step.
+- [ ] I separated evidence, assumptions, and recommendations instead of presenting them as equally certain.
 
 <!-- learning-loop:end -->

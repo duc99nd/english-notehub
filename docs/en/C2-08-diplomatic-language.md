@@ -11,7 +11,7 @@
   'skill': 'reading',
   'order': 8,
   'cefr': 'C2',
-  'minutes': 14,
+  'minutes': 15,
   'tags': ['diplomacy', 'treaties', 'formal', 'international', 'correspondence', 'register'],
   'audioScript': "Diplomatic language prioritizes face-saving and ambiguity management.\nTreaties use deliberate vagueness to accommodate multiple interpretations.\nUnderstanding diplomatic register requires attention to what is NOT said.\n",
   'listeningEnabled': true,
@@ -29,6 +29,13 @@
             'To simplify complex issues',
           ],
         'answer': 'To preserve face and manage ambiguity',
+        'explanation': 'In this context, “To preserve face and manage ambiguity” supplies the meaning or form targeted in Diplomatic Language. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'To be completely transparent': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'To confuse the opposition': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'To simplify complex issues': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
       {
         'type': 'choice',
@@ -41,16 +48,28 @@
             'Rejection',
           ],
         'answer': 'Polite acknowledgment without commitment',
+        'explanation': 'In this context, “Polite acknowledgment without commitment” supplies the meaning or form targeted in Diplomatic Language. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'Strong agreement': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Full endorsement': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Rejection': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
       {
         'type': 'fill',
         'prompt': "The ambassador expressed 'grave concern' over the incident, signalling ___ displeasure.",
         'answer': 'diplomatic',
+        'acceptedAnswers': ['diplomatic'],
+        'explanation': 'In this context, “diplomatic” supplies the meaning or form targeted in Diplomatic Language. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
       },
     ],
   'categoryEn': 'Expert Register and Influence',
   'categoryVi': 'Sắc thái và Ảnh hưởng Chuyên sâu',
   'prerequisites': ['c2-07-panel-discussion'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 75, 'maxWords': 230 },
 }
 ---
 
@@ -145,42 +164,44 @@ In **C2-09-legal-contracts**, you will apply your understanding of formal regist
 
 ## Learning outcome
 
-By the end of this lesson, you will be able to identify the main point, supporting detail, and register choices in a text about diplomatic language.
+By the end of this lesson, you can extract the main point and supporting detail from a text about diplomatic language, then make one evidence-based interpretation.
 
-## Practice lab
+## Scenario practice
 
-### Notice the language
+### Situation
 
-Read the situation, then listen to the model once for meaning and once for phrasing.
+Read a fictional joint statement whose compromise wording permits two interpretations. Identify face-saving language, strategic omission, and limits of inference.
 
-> **Colleague:** How would you handle **diplomatic language** in this situation?
->
-> **You:** Diplomatic language prioritizes face-saving and ambiguity management.
+> **Training note:** This situation and its details are fictional. They are designed for language practice, not presented as a real event, policy, study, or legal interpretation.
 
-Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+### Controlled practice
 
-> **Pattern**: clear point + concrete detail or reason + appropriate next step
+Before reading the explanation again, write one line for the text's main point, one line for its strongest supporting detail, and one phrase that signals tone or stance.
 
-### Your turn
+### Guided task
 
-Summarize the text in two sentences for a colleague, client, and senior stakeholder. Identify one claim, one supporting detail, and one phrase that signals the writer's attitude.
+Write 75–230 words as structured reading notes. State the main point, cite or paraphrase one supporting detail, identify a register choice, and separate evidence from your inference.
 
 ### Model response
 
-> Diplomatic language prioritizes face-saving and ambiguity management. Treaties use deliberate vagueness to accommodate multiple interpretations. Understanding diplomatic register requires attention to what is NOT said.
+> **Main point and evidence:** Diplomatic language prioritizes face-saving and ambiguity management. Treaties use deliberate vagueness to accommodate multiple interpretations. Understanding diplomatic register requires attention to what is NOT said.
+>
+> **Interpretation:** I distinguish what the language states from what a reader may plausibly infer. The response preserves useful ambiguity only where the genre requires it, names the evidence supporting the preferred interpretation, and explicitly acknowledges what cannot be concluded without additional context or specialist review. Other well-supported responses are possible.
 
-The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+### Why the model works
 
-### Register switch
+The model shows one defensible route through the task; it is not a script to memorize. Compare its task completion, language accuracy, audience fit, and clarity with your response, then revise once.
 
-Rewrite your response twice: first for a trusted teammate, then for a client or senior stakeholder. Keep the underlying message the same while changing directness, context, and the amount of explanation. Identify one phrase you softened, one detail you made explicit, and one assumption you removed. Then write a plausible alternative interpretation of the model and explain which contextual evidence would help a reader choose between the two readings.
+### Transfer task
+
+Draft a clarification that preserves the relationship. Keep the target language, but change the details and register needed for the new context.
 
 ### Self-check
 
-- [ ] I completed the task without translating a full Vietnamese sentence word for word.
-- [ ] I used at least two useful expressions from the lesson.
-- [ ] My main point is easy to identify.
-- [ ] I included a concrete detail, reason, or next step.
-- [ ] I qualified claims where certainty was limited and adjusted the register for my audience.
+- [ ] I completed every part of this lesson's scenario, not only the language form.
+- [ ] My target language is accurate and fits the intended meaning.
+- [ ] My level of directness and detail fits the named audience.
+- [ ] The reader or listener can identify my main point and next step.
+- [ ] I separated evidence, assumptions, and recommendations instead of presenting them as equally certain.
 
 <!-- learning-loop:end -->

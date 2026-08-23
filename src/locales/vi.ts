@@ -64,6 +64,8 @@ export default {
     answerPlaceholder: 'Nhập câu trả lời',
     correct: 'Chính xác',
     correctAnswer: 'Xem lại câu này. Đáp án đúng: {answer}',
+    yourChoice: 'Lựa chọn của bạn:',
+    explanation: 'Giải thích:',
     check: 'Kiểm tra đáp án',
     retry: 'Làm lại',
     markComplete: 'Đánh dấu đã học',

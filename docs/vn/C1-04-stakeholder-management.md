@@ -11,7 +11,7 @@
   'skill': 'vocab',
   'order': 4,
   'cefr': 'C1',
-  'minutes': 12,
+  'minutes': 13,
   'tags': ['stakeholder', 'management', 'leadership', 'influence', 'C1'],
   'audioScript': "We need to bring the dissenting stakeholders on board.\nTheir buy-in is critical for the project's success.\nLet's align expectations before we move forward.\n",
   'listeningEnabled': true,
@@ -23,22 +23,39 @@
         'prompt': "What does 'buy-in' mean in a business context?",
         'options': ['Purchasing shares', 'Agreement and support', 'Investment return'],
         'answer': 'Agreement and support',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “Agreement and support” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Quản lý các Bên liên quan. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'Purchasing shares': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'Investment return': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
       {
         'type': 'fill',
         'prompt': 'We need to ___ expectations before we move forward with the initiative.',
         'answer': 'align',
+        'acceptedAnswers': ['align'],
+        'explanation': 'Trong ngữ cảnh câu hỏi, “align” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Quản lý các Bên liên quan. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
       },
       {
         'type': 'choice',
         'prompt': "Which phrase means 'to get someone's support for a decision'?",
         'options': ['bring on board', 'put aside', 'leave behind'],
         'answer': 'bring on board',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “bring on board” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Quản lý các Bên liên quan. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'put aside': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'leave behind': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
     ],
   'categoryEn': 'Strategic Professional Communication',
   'categoryVi': 'Giao tiếp Chuyên nghiệp Chiến lược',
   'prerequisites': ['c1-03-writing-strategy'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'dialogue', 'minTurns': 4, 'maxTurns': 6 },
 }
 ---
 
@@ -54,14 +71,14 @@ Trong bối cảnh điều hành và dự án, **quản lý bên liên quan** l�
 
 ### Từ vựng thiết yếu
 
-|| Thuật ngữ | Định nghĩa | Ngữ cảnh |
-|| --- | --- | --- |
-|| **buy-in** | Đồng thuận và ủng hộ cho quyết định | "Chúng ta cần sự ủng hộ của hội đồng trước khi tiến hành." |
-|| **đưa vào cuộc** | Đảm bảo sự ủng hộ của ai đó | "Hãy đưa CFO vào cuộc." |
-|| **thống nhất kỳ vọng** | Đảm bảo hiểu biết chung | "Chúng ta nên thống nhất kỳ vọng sớm." |
-|| **champion** | Người ủng hộ tích cực sáng kiến | "Tìm một nhà tài trợ cấp cao." |
-|| **silo** | Phòng ban hoặc chức năng cô lập | "Phá vỡ các silo tổ chức." |
-|| **gatekeeper** | Người kiểm soát quyền truy cập | "HR là người gác cổng cho thay đổi chính sách." |
+| Thuật ngữ              | Định nghĩa                                    | Ngữ cảnh                                         |
+| ---------------------- | --------------------------------------------- | ------------------------------------------------ |
+| **buy-in**             | Sự đồng thuận và ủng hộ cho quyết định        | "Chúng ta cần board buy-in trước khi tiến hành." |
+| **bring on board**     | Thuyết phục và đưa ai đó vào cuộc ủng hộ      | "Hãy bring the CFO on board."                    |
+| **align expectations** | Thống nhất kỳ vọng để cùng hiểu một hướng     | "Chúng ta nên align expectations từ sớm."        |
+| **champion**           | Người ủng hộ và bảo trợ tích cực sáng kiến    | "Tìm một executive champion."                    |
+| **silo**               | Phòng ban hoặc chức năng bị cô lập            | "Phá vỡ các organizational silos."               |
+| **gatekeeper**         | Người kiểm soát quyền truy cập hoặc phê duyệt | "HR là gatekeeper cho thay đổi chính sách."      |
 
 ## Chiến lược ảnh hưởng và giao tiếp
 
@@ -69,34 +86,34 @@ Trong bối cảnh điều hành và dự án, **quản lý bên liên quan** l�
 
 Khi cần thúc đẩy sáng kiến, xây dựng liên minh những người ủng hộ là điều cần thiết:
 
-> **Pattern**: `Chúng ta cần đảm bảo sự ủng hộ từ [bên liên quan chính] trước khi tiến hành [sáng kiến].`
+> **Pattern**: `We need to secure buy-in from [key stakeholder] before we can proceed with [initiative].`
 
 ### Cụm từ phổ biến
 
-|| Tình huống | Diễn đạt |
-|| --- | --- |
-|| Tìm kiếm sự ủng hộ | "Chúng tôi đang tìm kiếm những người ủng hộ để vận động cho sáng kiến này." |
-|| Quản lý kỳ vọng | "Hãy đặt kỳ vọng thực tế với hội đồng." |
-|| Giải quyết sự phản kháng | "Làm sao để đưa những người hoài nghi vào cuộc?" |
-|| Ủy thác | "Chúng ta nên chỉ định một nhà tài trợ điều hành cho dự án này." |
+| Tình huống               | Diễn đạt                                                       |
+| ------------------------ | -------------------------------------------------------------- |
+| Tìm kiếm sự ủng hộ       | "We're looking for champions to advocate for this initiative." |
+| Quản lý kỳ vọng          | "Let's set realistic expectations with the board."             |
+| Giải quyết sự phản kháng | "How do we bring the skeptics on board?"                       |
+| Ủy thác                  | "We should assign an executive sponsor to this project."       |
 
 ## Bài tập: Chọn thuật ngữ đúng
 
 Điền vào chỗ trống với từ vựng phù hợp:
 
 1. "Trước khi ra mắt, chúng ta cần đảm bảo **\_\_\_** từ tất cả trưởng phòng."
-   _(sự ủng hộ)_
+   _(buy-in)_
 
 2. "Chính sách mới thất bại vì chúng ta không xác định **\_\_\_** chính đủ sớm."
-   _(người gác cổng / bên liên quan)_
+   _(gatekeepers / stakeholders)_
 
 3. "Hãy **\_\_\_** kỳ vọng của chúng ta để tránh bất ngờ sau này."
-   _(thống nhất)_
+   _(align)_
 
 4. "Chúng ta cần ai đó **\_\_\_** dự án này ở cấp điều hành."
-   _(ủng hộ / tài trợ)_
+   _(champion / sponsor)_
 
-## What to learn next
+## Bài học tiếp theo
 
 Trong bài tiếp theo **C1-05-review-unit1**, bạn sẽ củng cố từ vựng, ngữ pháp và kỹ năng đọc từ Unit 1 và chuẩn bị cho bài kiểm tra.
 
@@ -104,42 +121,48 @@ Trong bài tiếp theo **C1-05-review-unit1**, bạn sẽ củng cố từ vựn
 
 ## Kết quả học tập
 
-Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Quản lý các Bên liên quan** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+Sau bài này, bạn có thể hoàn thành đoạn hội thoại bốn lượt về **Quản lý các Bên liên quan**, chọn cách diễn đạt phù hợp quan hệ và mục tiêu trước mắt.
 
-## Phòng luyện tập
+## Luyện tập theo tình huống
 
-### Nhận diện cách diễn đạt
+### Tình huống
 
-Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+Dự án migration nền tảng hư cấu có một bên liên quan có ảnh hưởng nhưng hoài nghi. Hãy xác định mối quan tâm, mức đồng thuận cần có và bước căn chỉnh dựa trên bằng chứng.
 
-> **Colleague:** How would you handle this situation?
->
-> **You:** We need to bring the dissenting stakeholders on board.
+> **Lưu ý:** Tình huống và các chi tiết đều là hư cấu để luyện ngôn ngữ; đây không phải sự kiện, chính sách, nghiên cứu hoặc diễn giải pháp lý có thật.
 
-Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+### Luyện tập có kiểm soát
 
-> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+Chọn ba cách diễn đạt trong bài **Quản lý các Bên liên quan**. Gắn nhãn chức năng cho từng cách: mở lời, nêu chi tiết, làm rõ hoặc đưa bước tiếp theo. Loại cách diễn đạt không phù hợp quan hệ trong tình huống.
 
-### Đến lượt bạn
+### Nhiệm vụ có hướng dẫn
 
-Tạo một câu trả lời mới cho chủ đề **Quản lý các Bên liên quan**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+Viết đoạn hội thoại bốn đến sáu lượt cho tình huống này. Dùng ít nhất ba cách diễn đạt trọng tâm, phản hồi thông tin của người kia và kết thúc bằng câu hỏi, xác nhận hoặc hành động đã thống nhất.
 
 ### Bài mẫu
 
-> We need to bring the dissenting stakeholders on board. Their buy-in is critical for the project's success. Let's align expectations before we move forward.
+> **Partner:** We need to respond to the situation above. What would you say first?
+>
+> **You:** We need to bring the dissenting stakeholders on board.
+>
+> **Partner:** What detail should we confirm before we act?
+>
+> **You:** Their buy-in is critical for the project's success. Let's align expectations before we move forward.
 
-Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+### Vì sao bài mẫu phù hợp
 
-### Chuyển đổi register
+Bài mẫu thể hiện một cách xử lý hợp lý, không phải kịch bản bắt buộc học thuộc. Hãy so sánh mức hoàn thành nhiệm vụ, độ chính xác, độ phù hợp với người nghe và độ rõ với bài của bạn rồi sửa một lần.
 
-Viết lại câu trả lời hai lần: một bản cho đồng đội thân quen và một bản cho khách hàng hoặc stakeholder cấp cao. Giữ nguyên thông điệp nhưng thay đổi độ trực tiếp, lượng bối cảnh và mức giải thích. Chỉ ra một cụm từ bạn đã làm mềm, một chi tiết bạn nói rõ hơn và một giả định bạn đã loại bỏ.
+### Bài tập chuyển đổi
+
+Điều chỉnh cách tiếp cận khi người hoài nghi có quyền quyết định. Giữ ngôn ngữ trọng tâm nhưng thay đổi chi tiết và văn phong cho bối cảnh mới.
 
 ### Tự kiểm tra
 
-- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
-- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
-- [ ] Người nghe có thể nhận ra ý chính ngay.
-- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
-- [ ] Mình đã giới hạn mức độ chắc chắn của nhận định và điều chỉnh register theo người nghe.
+- [ ] Mình hoàn thành đủ yêu cầu của tình huống, không chỉ dùng đúng cấu trúc.
+- [ ] Ngôn ngữ trọng tâm chính xác và đúng ý định.
+- [ ] Độ trực tiếp và lượng chi tiết phù hợp người nghe hoặc người đọc.
+- [ ] Người nhận có thể nhận ra ý chính và bước tiếp theo.
+- [ ] Mình tách bằng chứng, giả định và khuyến nghị thay vì trình bày tất cả với cùng mức chắc chắn.
 
 <!-- learning-loop:end -->

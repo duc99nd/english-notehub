@@ -11,7 +11,7 @@
   'skill': 'grammar',
   'order': 7,
   'cefr': 'A1',
-  'minutes': 21,
+  'minutes': 23,
   'tags': ['food', 'drinks', 'restaurant', 'countable', 'uncountable', 'grammar'],
   'audioScript': "I would like some rice and chicken, please.\nI drink water every day. Sometimes I drink coffee.\nFor breakfast, I eat bread and eggs.\nDo you like fruit?\n",
   'listeningEnabled': true,
@@ -23,6 +23,12 @@
         'prompt': "Complete: 'I would like ___ rice, please.'",
         'options': ['any', 'some', 'a'],
         'answer': 'some',
+        'explanation': 'In this context, “some” supplies the meaning or form targeted in Food & Drinks. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'any': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'a': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
       {
         'type': 'choice',
@@ -35,18 +41,41 @@
             'I would like waters, please.',
           ],
         'answer': 'I would like a glass of water, please.',
+        'explanation': 'In this context, “I would like a glass of water, please.” supplies the meaning or form targeted in Food & Drinks. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'I would like a water, please.': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'I would like a waters, please.': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'I would like waters, please.': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
       {
         'type': 'choice',
         'prompt': 'What is the polite way to ask for the check at a restaurant?',
         'options': ['Money now.', 'Pay me.', 'The bill, please.', 'Check please give.'],
         'answer': 'The bill, please.',
+        'explanation': 'In this context, “The bill, please.” supplies the meaning or form targeted in Food & Drinks. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'Money now.': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Pay me.': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Check please give.': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
-      { 'type': 'fill', 'prompt': 'I ___ like some chicken, please. (muốn)', 'answer': 'would' },
+      {
+        'type': 'fill',
+        'prompt': 'I ___ like some chicken, please. (muốn)',
+        'answer': 'would',
+        'acceptedAnswers': ['would'],
+        'explanation': 'In this context, “would” supplies the meaning or form targeted in Food & Drinks. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+      },
     ],
   'categoryEn': 'Foundation English',
   'categoryVi': 'Tiếng Anh Nền tảng',
   'prerequisites': ['a1-06-time-place'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 20, 'maxWords': 70 },
 }
 ---
 
@@ -230,37 +259,43 @@ In **A1-08-weather**, you will learn words for weather conditions (sunny, rainy,
 
 ## Learning outcome
 
-By the end of this lesson, you will be able to choose an appropriate structure and apply it accurately when discussing food & drinks.
+By the end of this lesson, you can produce a connected response about food & drinks, use the target structure accurately, and explain one effect of that choice.
 
-## Practice lab
+## Scenario practice
 
-### Notice the language
+### Situation
 
-Read the situation, then listen to the model once for meaning and once for phrasing.
+You are ordering a simple lunch. Name one dish, one drink, and ask whether fruit is available.
 
-> **Colleague:** How would you handle **food & drinks** in this situation?
->
-> **You:** I would like some rice and chicken, please.
+> **Training note:** This situation and its details are fictional. They are designed for language practice, not presented as a real event, policy, study, or legal interpretation.
 
-Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+### Controlled practice
 
-> **Pattern**: clear point + concrete detail or reason + appropriate next step
+Take two example sentences from the lesson. Transform the first with the target structure, then revise the second to change emphasis or level of certainty without changing the core facts.
 
-### Your turn
+### Guided task
 
-Write four connected sentences for a colleague or classmate. Use the target structure twice, then revise one sentence to change its tone or emphasis.
+Write 20–70 words for the situation. Use the target structure at least twice, underline those choices, and add one sentence explaining how one structure changes emphasis, time, condition, or certainty.
 
 ### Model response
 
-> I would like some rice and chicken, please. I drink water every day. Sometimes I drink coffee. For breakfast, I eat bread and eggs. Do you like fruit?
+> **Draft:** I would like some rice and chicken, please. I drink water every day. Sometimes I drink coffee. For breakfast, I eat bread and eggs.
+>
+> **Language choice:** I keep the message short, use familiar words, and finish with one clear next step. Other well-supported responses are possible.
 
-The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+### Why the model works
+
+The model shows one defensible route through the task; it is not a script to memorize. Compare its task completion, language accuracy, audience fit, and clarity with your response, then revise once.
+
+### Transfer task
+
+Order breakfast for two people with different drinks. Keep the target language, but change the details and register needed for the new context.
 
 ### Self-check
 
-- [ ] I completed the task without translating a full Vietnamese sentence word for word.
-- [ ] I used at least two useful expressions from the lesson.
-- [ ] My main point is easy to identify.
-- [ ] I included a concrete detail, reason, or next step.
+- [ ] I completed every part of this lesson's scenario, not only the language form.
+- [ ] My target language is accurate and fits the intended meaning.
+- [ ] My level of directness and detail fits the named audience.
+- [ ] The reader or listener can identify my main point and next step.
 
 <!-- learning-loop:end -->

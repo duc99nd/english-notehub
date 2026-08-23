@@ -11,25 +11,45 @@
   'skill': 'vocab',
   'order': 1,
   'cefr': 'A1',
-  'minutes': 15,
+  'minutes': 17,
   'tags': ['greetings', 'introduction', 'daily', 'foundation', 'speaking'],
   'audioScript': "Hello. My name is Anna. Nice to meet you.\nHi, I'm Duc. I'm from Vietnam.\nGood morning. How are you today?\nI'm fine, thank you. And you?\n",
   'listeningEnabled': true,
   'flashcardCount': 8,
   'quiz':
     [
-      { 'type': 'fill', 'prompt': 'Hello, my ___ is Anna.', 'answer': 'name' },
+      {
+        'type': 'fill',
+        'prompt': 'Hello, my ___ is Anna.',
+        'answer': 'name',
+        'acceptedAnswers': ['name'],
+        'explanation': 'Trong ngữ cảnh câu hỏi, “name” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Chào hỏi & Giới thiệu bản thân. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+      },
       {
         'type': 'choice',
         'prompt': 'Which greeting is most appropriate when you meet your new boss for the first time?',
         'options': ["Hey, what's up?", 'Yo bro!', 'Good morning. Nice to meet you.', 'Sup?'],
         'answer': 'Good morning. Nice to meet you.',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “Good morning. Nice to meet you.” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Chào hỏi & Giới thiệu bản thân. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            "Hey, what's up?": 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'Yo bro!': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'Sup?': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
       {
         'type': 'choice',
         'prompt': "Your colleague says 'How are you?' What is a polite reply?",
         'options': ["I'm twenty.", "I'm fine, thank you. And you?", 'My name is Anna.', 'Goodbye.'],
         'answer': "I'm fine, thank you. And you?",
+        'explanation': "Trong ngữ cảnh câu hỏi, “I'm fine, thank you. And you?” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Chào hỏi & Giới thiệu bản thân. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        'distractorFeedback':
+          {
+            "I'm twenty.": 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'My name is Anna.': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'Goodbye.': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
       {
         'type': 'choice',
@@ -42,11 +62,21 @@
             'Please call me later.',
           ],
         'answer': "I'm happy to know you (first meeting).",
+        'explanation': "Trong ngữ cảnh câu hỏi, “I'm happy to know you (first meeting).” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Chào hỏi & Giới thiệu bản thân. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        'distractorFeedback':
+          {
+            'I want to leave now.': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'I have known you for a long time.': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'Please call me later.': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
     ],
   'categoryEn': 'Foundation English',
   'categoryVi': 'Tiếng Anh Nền tảng',
   'prerequisites': [],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'dialogue', 'minTurns': 4, 'maxTurns': 6 },
 }
 ---
 
@@ -165,37 +195,47 @@ Nhấn play để nghe bốn câu dưới đây, sau đó lặp lại từng câ
 
 ## Kết quả học tập
 
-Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Chào hỏi & Giới thiệu bản thân** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+Sau bài này, bạn có thể hoàn thành đoạn hội thoại bốn lượt về **Chào hỏi & Giới thiệu bản thân**, chọn cách diễn đạt phù hợp quan hệ và mục tiêu trước mắt.
 
-## Phòng luyện tập
+## Luyện tập theo tình huống
 
-### Nhận diện cách diễn đạt
+### Tình huống
 
-Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+Đây là buổi sáng đầu tiên ở lớp mới. Hãy tự giới thiệu với một bạn cùng lớp và duy trì cuộc trò chuyện.
 
-> **Colleague:** How would you handle this situation?
->
-> **You:** Hello. My name is Anna. Nice to meet you.
+> **Lưu ý:** Tình huống và các chi tiết đều là hư cấu để luyện ngôn ngữ; đây không phải sự kiện, chính sách, nghiên cứu hoặc diễn giải pháp lý có thật.
 
-Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+### Luyện tập có kiểm soát
 
-> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+Chọn ba cách diễn đạt trong bài **Chào hỏi & Giới thiệu bản thân**. Gắn nhãn chức năng cho từng cách: mở lời, nêu chi tiết, làm rõ hoặc đưa bước tiếp theo. Loại cách diễn đạt không phù hợp quan hệ trong tình huống.
 
-### Đến lượt bạn
+### Nhiệm vụ có hướng dẫn
 
-Tạo một câu trả lời mới cho chủ đề **Chào hỏi & Giới thiệu bản thân**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+Viết đoạn hội thoại bốn đến sáu lượt cho tình huống này. Dùng ít nhất ba cách diễn đạt trọng tâm, phản hồi thông tin của người kia và kết thúc bằng câu hỏi, xác nhận hoặc hành động đã thống nhất.
 
 ### Bài mẫu
 
-> Hello. My name is Anna. Nice to meet you. Hi, I'm Duc. I'm from Vietnam. Good morning. How are you today? I'm fine, thank you. And you?
+> **Partner:** We need to respond to the situation above. What would you say first?
+>
+> **You:** Hello. My name is Anna. Nice to meet you.
+>
+> **Partner:** What detail should we confirm before we act?
+>
+> **You:** Hi, I'm Duc. I'm from Vietnam. Good morning. How are you today?
 
-Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+### Vì sao bài mẫu phù hợp
+
+Bài mẫu thể hiện một cách xử lý hợp lý, không phải kịch bản bắt buộc học thuộc. Hãy so sánh mức hoàn thành nhiệm vụ, độ chính xác, độ phù hợp với người nghe và độ rõ với bài của bạn rồi sửa một lần.
+
+### Bài tập chuyển đổi
+
+Đổi người nghe thành một vị khách đến văn phòng nhỏ. Giữ ngôn ngữ trọng tâm nhưng thay đổi chi tiết và văn phong cho bối cảnh mới.
 
 ### Tự kiểm tra
 
-- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
-- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
-- [ ] Người nghe có thể nhận ra ý chính ngay.
-- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+- [ ] Mình hoàn thành đủ yêu cầu của tình huống, không chỉ dùng đúng cấu trúc.
+- [ ] Ngôn ngữ trọng tâm chính xác và đúng ý định.
+- [ ] Độ trực tiếp và lượng chi tiết phù hợp người nghe hoặc người đọc.
+- [ ] Người nhận có thể nhận ra ý chính và bước tiếp theo.
 
 <!-- learning-loop:end -->

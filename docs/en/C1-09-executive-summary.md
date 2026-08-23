@@ -11,7 +11,7 @@
   'skill': 'writing',
   'order': 9,
   'cefr': 'C1',
-  'minutes': 11,
+  'minutes': 12,
   'tags': ['writing', 'executive-summary', 'business', 'C1'],
   'audioScript': "The proposal requests board approval for a five million dollar investment in operational efficiency.\nIt is projected to generate a fifteen percent reduction in costs over eighteen months.\nManagement recommends approval.\n",
   'listeningEnabled': true,
@@ -23,22 +23,39 @@
         'prompt': 'What is the primary purpose of an executive summary?',
         'options': ['Provide background details', 'Enable a quick decision', 'Show research depth'],
         'answer': 'Enable a quick decision',
+        'explanation': 'In this context, “Enable a quick decision” supplies the meaning or form targeted in Executive Summary Writing. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'Provide background details': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Show research depth': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
       {
         'type': 'fill',
         'prompt': 'Management ___ approval of the proposal.',
         'answer': 'recommends',
+        'acceptedAnswers': ['recommends'],
+        'explanation': 'In this context, “recommends” supplies the meaning or form targeted in Executive Summary Writing. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
       },
       {
         'type': 'choice',
         'prompt': 'Which section comes first in an executive summary?',
         'options': ['Risks', 'Recommendation', 'Background'],
         'answer': 'Recommendation',
+        'explanation': 'In this context, “Recommendation” supplies the meaning or form targeted in Executive Summary Writing. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'Risks': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Background': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
     ],
   'categoryEn': 'Strategic Professional Communication',
   'categoryVi': 'Giao tiếp Chuyên nghiệp Chiến lược',
   'prerequisites': ['c1-08-policy-reading'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 65, 'maxWords': 200 },
 }
 ---
 
@@ -99,42 +116,44 @@ In the next lesson **C1-10-review-unit2**, you will consolidate Unit 2 skills.
 
 ## Learning outcome
 
-By the end of this lesson, you will be able to produce and revise a clear piece of writing about executive summary writing for a defined audience.
+By the end of this lesson, you can write and revise a response about executive summary writing for a named audience, with a clear purpose, relevant support, and next step.
 
-## Practice lab
+## Scenario practice
 
-### Notice the language
+### Situation
 
-Read the situation, then listen to the model once for meaning and once for phrasing.
+Write an executive summary for a fictional efficiency proposal. Lead with the decision, select two material facts, qualify the projection, and recommend action.
 
-> **Colleague:** How would you handle **executive summary writing** in this situation?
->
-> **You:** The proposal requests board approval for a five million dollar investment in operational efficiency.
+> **Training note:** This situation and its details are fictional. They are designed for language practice, not presented as a real event, policy, study, or legal interpretation.
 
-Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+### Controlled practice
 
-> **Pattern**: clear point + concrete detail or reason + appropriate next step
+Build a four-part outline: audience, purpose, one concrete supporting detail, and requested next step. Check that every planned sentence serves one of those four parts.
 
-### Your turn
+### Guided task
 
-Write 80–120 words for a colleague, client, and senior stakeholder. State the purpose early, support it with a concrete detail, and finish with a clear next step.
+Write 65–200 words for the stated audience. Make the purpose visible in the opening, support it with a concrete detail, and close with a proportionate next step.
 
 ### Model response
 
-> The proposal requests board approval for a five million dollar investment in operational efficiency. It is projected to generate a fifteen percent reduction in costs over eighteen months. Management recommends approval.
+> **Draft:** The proposal requests board approval for a five million dollar investment in operational efficiency. It is projected to generate a fifteen percent reduction in costs over eighteen months. Management recommends approval.
+>
+> **Revision note:** I select only the evidence that changes the decision, qualify any projection that depends on an assumption, and make ownership visible. A different stakeholder could reasonably prefer another option, so the response identifies the condition that would justify revisiting the recommendation. Other well-supported responses are possible.
 
-The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+### Why the model works
 
-### Register switch
+The model shows one defensible route through the task; it is not a script to memorize. Compare its task completion, language accuracy, audience fit, and clarity with your response, then revise once.
 
-Rewrite your response twice: first for a trusted teammate, then for a client or senior stakeholder. Keep the underlying message the same while changing directness, context, and the amount of explanation. Identify one phrase you softened, one detail you made explicit, and one assumption you removed.
+### Transfer task
+
+Cut the summary by one third for a board agenda. Keep the target language, but change the details and register needed for the new context.
 
 ### Self-check
 
-- [ ] I completed the task without translating a full Vietnamese sentence word for word.
-- [ ] I used at least two useful expressions from the lesson.
-- [ ] My main point is easy to identify.
-- [ ] I included a concrete detail, reason, or next step.
-- [ ] I qualified claims where certainty was limited and adjusted the register for my audience.
+- [ ] I completed every part of this lesson's scenario, not only the language form.
+- [ ] My target language is accurate and fits the intended meaning.
+- [ ] My level of directness and detail fits the named audience.
+- [ ] The reader or listener can identify my main point and next step.
+- [ ] I separated evidence, assumptions, and recommendations instead of presenting them as equally certain.
 
 <!-- learning-loop:end -->

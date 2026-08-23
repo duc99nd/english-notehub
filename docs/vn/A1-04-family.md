@@ -11,7 +11,7 @@
   'skill': 'writing',
   'order': 4,
   'cefr': 'A1',
-  'minutes': 20,
+  'minutes': 22,
   'tags': ['family', 'vocabulary', 'writing', 'speaking', 'daily'],
   'audioScript': "This is my family. I have a mother and a father.\nI have two sisters. Their names are Mai and Lan.\nMy brother is older than me. His name is Tuan.\nMy grandmother is 70. She is kind and patient.\n",
   'listeningEnabled': true,
@@ -23,11 +23,20 @@
         'prompt': "How do you say 'anh trai' in English?",
         'options': ['Father', 'Brother', 'Uncle', 'Son'],
         'answer': 'Brother',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “Brother” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Các thành viên trong gia đình. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'Father': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'Uncle': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'Son': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
       {
         'type': 'fill',
         'prompt': "My ___ is 70 years old. She is my mom's mother. (bà)",
         'answer': 'grandmother',
+        'acceptedAnswers': ['grandmother'],
+        'explanation': 'Trong ngữ cảnh câu hỏi, “grandmother” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Các thành viên trong gia đình. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
       },
       {
         'type': 'choice',
@@ -40,16 +49,28 @@
             'I have two brothers.',
           ],
         'answer': 'There are two girls who are my sisters.',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “There are two girls who are my sisters.” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Các thành viên trong gia đình. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'I am a sister.': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'My sisters are two years old.': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'I have two brothers.': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
       {
         'type': 'fill',
         'prompt': 'This is my brother. ___ name is Tuan. (đại từ sở hữu)',
         'answer': 'His',
+        'acceptedAnswers': ['His'],
+        'explanation': 'Trong ngữ cảnh câu hỏi, “His” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Các thành viên trong gia đình. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
       },
     ],
   'categoryEn': 'Foundation English',
   'categoryVi': 'Tiếng Anh Nền tảng',
   'prerequisites': ['a1-03-daily-verbs'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 20, 'maxWords': 70 },
 }
 ---
 
@@ -230,37 +251,43 @@ Nhấn play, sau đó lặp lại từng dòng. Tạm dừng sau mỗi câu.
 
 ## Kết quả học tập
 
-Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Các thành viên trong gia đình** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+Sau bài này, bạn có thể viết và chỉnh sửa câu trả lời về **Các thành viên trong gia đình** cho người đọc xác định, có mục đích, thông tin hỗ trợ và bước tiếp theo rõ ràng.
 
-## Phòng luyện tập
+## Luyện tập theo tình huống
 
-### Nhận diện cách diễn đạt
+### Tình huống
 
-Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+Bạn đang làm hồ sơ ngắn cho hoạt động trên lớp. Hãy viết bốn câu ngắn về người thân trong gia đình.
 
-> **Colleague:** How would you handle this situation?
->
-> **You:** This is my family. I have a mother and a father.
+> **Lưu ý:** Tình huống và các chi tiết đều là hư cấu để luyện ngôn ngữ; đây không phải sự kiện, chính sách, nghiên cứu hoặc diễn giải pháp lý có thật.
 
-Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+### Luyện tập có kiểm soát
 
-> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+Lập dàn ý bốn phần: người đọc, mục đích, một chi tiết hỗ trợ cụ thể và bước tiếp theo được yêu cầu. Kiểm tra để mỗi câu dự kiến đều phục vụ một trong bốn phần.
 
-### Đến lượt bạn
+### Nhiệm vụ có hướng dẫn
 
-Tạo một câu trả lời mới cho chủ đề **Các thành viên trong gia đình**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+Viết 20–70 từ bằng tiếng Anh cho đúng người đọc. Nêu mục đích ngay phần mở đầu, hỗ trợ bằng một chi tiết cụ thể và kết thúc bằng bước tiếp theo phù hợp.
 
 ### Bài mẫu
 
-> This is my family. I have a mother and a father. I have two sisters. Their names are Mai and Lan. My brother is older than me. His name is Tuan. My grandmother is 70. She is kind and patient.
+> **Draft:** This is my family. I have a mother and a father. I have two sisters. Their names are Mai and Lan. My brother is older than me. His name is Tuan.
+>
+> **Revision note:** I keep the message short, use familiar words, and finish with one clear next step. Other well-supported responses are possible.
 
-Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+### Vì sao bài mẫu phù hợp
+
+Bài mẫu thể hiện một cách xử lý hợp lý, không phải kịch bản bắt buộc học thuộc. Hãy so sánh mức hoàn thành nhiệm vụ, độ chính xác, độ phù hợp với người nghe và độ rõ với bài của bạn rồi sửa một lần.
+
+### Bài tập chuyển đổi
+
+Đổi sang miêu tả một người bạn và những người sống cùng họ. Giữ ngôn ngữ trọng tâm nhưng thay đổi chi tiết và văn phong cho bối cảnh mới.
 
 ### Tự kiểm tra
 
-- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
-- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
-- [ ] Người nghe có thể nhận ra ý chính ngay.
-- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+- [ ] Mình hoàn thành đủ yêu cầu của tình huống, không chỉ dùng đúng cấu trúc.
+- [ ] Ngôn ngữ trọng tâm chính xác và đúng ý định.
+- [ ] Độ trực tiếp và lượng chi tiết phù hợp người nghe hoặc người đọc.
+- [ ] Người nhận có thể nhận ra ý chính và bước tiếp theo.
 
 <!-- learning-loop:end -->

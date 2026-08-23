@@ -11,7 +11,7 @@
   'skill': 'vocab',
   'order': 6,
   'cefr': 'C1',
-  'minutes': 11,
+  'minutes': 12,
   'tags': ['investor', 'relations', 'finance', 'communication', 'C1'],
   'audioScript': "We project double-digit growth over the next fiscal year.\nOur earnings per share have outperformed analyst consensus.\nWe are committed to delivering shareholder value through disciplined execution.\n",
   'listeningEnabled': true,
@@ -23,22 +23,39 @@
         'prompt': 'What does "earnings per share" (EPS) measure?',
         'options': ['Total company profit', 'Profit allocated per share', 'Number of shares'],
         'answer': 'Profit allocated per share',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “Profit allocated per share” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Quan hệ Nhà đầu tư. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'Total company profit': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'Number of shares': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
       {
         'type': 'fill',
         'prompt': 'We ___ double-digit growth over the next fiscal year.',
         'answer': 'project',
+        'acceptedAnswers': ['project'],
+        'explanation': 'Trong ngữ cảnh câu hỏi, “project” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Quan hệ Nhà đầu tư. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
       },
       {
         'type': 'choice',
         'prompt': 'Shareholder value refers to:',
         'options': ['Stock price performance', 'Number of shareholders', 'Dividend policy'],
         'answer': 'Stock price performance',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “Stock price performance” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Quan hệ Nhà đầu tư. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'Number of shareholders': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'Dividend policy': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
     ],
   'categoryEn': 'Strategic Professional Communication',
   'categoryVi': 'Giao tiếp Chuyên nghiệp Chiến lược',
   'prerequisites': ['c1-05-review-unit1'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'dialogue', 'minTurns': 4, 'maxTurns': 6 },
 }
 ---
 
@@ -85,7 +102,7 @@ Quan hệ nhà đầu tư (IR) đòi hỏi sự giao tiếp chính xác và tự
 2. "Chúng tôi \_\_\_ mang lại tăng trưởng hai con số trong năm tới."
 3. "Kết quả của chúng tôi liên tục \_\_\_ kỳ vọng của nhà phân tích."
 
-## What to learn next
+## Bài học tiếp theo
 
 Trong bài tiếp theo **C1-08-policy-reading**, bạn sẽ đọc và diễn giải tài liệu chính sách.
 
@@ -93,42 +110,48 @@ Trong bài tiếp theo **C1-08-policy-reading**, bạn sẽ đọc và diễn gi
 
 ## Kết quả học tập
 
-Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Quan hệ Nhà đầu tư** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+Sau bài này, bạn có thể hoàn thành đoạn hội thoại bốn lượt về **Quan hệ Nhà đầu tư**, chọn cách diễn đạt phù hợp quan hệ và mục tiêu trước mắt.
 
-## Phòng luyện tập
+## Luyện tập theo tình huống
 
-### Nhận diện cách diễn đạt
+### Tình huống
 
-Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+Soạn phát biểu cho cuộc gọi quý hư cấu khi tăng trưởng vượt một dự báo nhưng biên lợi nhuận giảm. Cân bằng sự tự tin, bằng chứng và thận trọng về tương lai.
 
-> **Colleague:** How would you handle this situation?
->
-> **You:** We project double-digit growth over the next fiscal year.
+> **Lưu ý:** Tình huống và các chi tiết đều là hư cấu để luyện ngôn ngữ; đây không phải sự kiện, chính sách, nghiên cứu hoặc diễn giải pháp lý có thật.
 
-Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+### Luyện tập có kiểm soát
 
-> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+Chọn ba cách diễn đạt trong bài **Quan hệ Nhà đầu tư**. Gắn nhãn chức năng cho từng cách: mở lời, nêu chi tiết, làm rõ hoặc đưa bước tiếp theo. Loại cách diễn đạt không phù hợp quan hệ trong tình huống.
 
-### Đến lượt bạn
+### Nhiệm vụ có hướng dẫn
 
-Tạo một câu trả lời mới cho chủ đề **Quan hệ Nhà đầu tư**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+Viết đoạn hội thoại bốn đến sáu lượt cho tình huống này. Dùng ít nhất ba cách diễn đạt trọng tâm, phản hồi thông tin của người kia và kết thúc bằng câu hỏi, xác nhận hoặc hành động đã thống nhất.
 
 ### Bài mẫu
 
-> We project double-digit growth over the next fiscal year. Our earnings per share have outperformed analyst consensus. We are committed to delivering shareholder value through disciplined execution.
+> **Partner:** We need to respond to the situation above. What would you say first?
+>
+> **You:** We project double-digit growth over the next fiscal year.
+>
+> **Partner:** What detail should we confirm before we act?
+>
+> **You:** Our earnings per share have outperformed analyst consensus. We are committed to delivering shareholder value through disciplined execution.
 
-Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+### Vì sao bài mẫu phù hợp
 
-### Chuyển đổi register
+Bài mẫu thể hiện một cách xử lý hợp lý, không phải kịch bản bắt buộc học thuộc. Hãy so sánh mức hoàn thành nhiệm vụ, độ chính xác, độ phù hợp với người nghe và độ rõ với bài của bạn rồi sửa một lần.
 
-Viết lại câu trả lời hai lần: một bản cho đồng đội thân quen và một bản cho khách hàng hoặc stakeholder cấp cao. Giữ nguyên thông điệp nhưng thay đổi độ trực tiếp, lượng bối cảnh và mức giải thích. Chỉ ra một cụm từ bạn đã làm mềm, một chi tiết bạn nói rõ hơn và một giả định bạn đã loại bỏ.
+### Bài tập chuyển đổi
+
+Trả lời câu hỏi tiếp của chuyên gia phân tích hoài nghi mà không lặp lại tiêu đề. Giữ ngôn ngữ trọng tâm nhưng thay đổi chi tiết và văn phong cho bối cảnh mới.
 
 ### Tự kiểm tra
 
-- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
-- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
-- [ ] Người nghe có thể nhận ra ý chính ngay.
-- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
-- [ ] Mình đã giới hạn mức độ chắc chắn của nhận định và điều chỉnh register theo người nghe.
+- [ ] Mình hoàn thành đủ yêu cầu của tình huống, không chỉ dùng đúng cấu trúc.
+- [ ] Ngôn ngữ trọng tâm chính xác và đúng ý định.
+- [ ] Độ trực tiếp và lượng chi tiết phù hợp người nghe hoặc người đọc.
+- [ ] Người nhận có thể nhận ra ý chính và bước tiếp theo.
+- [ ] Mình tách bằng chứng, giả định và khuyến nghị thay vì trình bày tất cả với cùng mức chắc chắn.
 
 <!-- learning-loop:end -->

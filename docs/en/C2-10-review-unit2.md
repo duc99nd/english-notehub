@@ -11,7 +11,7 @@
   'skill': 'review',
   'order': 10,
   'cefr': 'C2',
-  'minutes': 13,
+  'minutes': 14,
   'tags': ['review', 'conference', 'panel', 'diplomacy', 'legal', 'consolidation'],
   'audioScript': "Unit 2 advanced your professional communication skills across speaking, reading, and writing domains.\nConference discourse, panel grammar, diplomatic register, and legal precision represent pinnacle formal English.\nMastery of these registers distinguishes C2 speakers in international professional contexts.\n",
   'listeningEnabled': true,
@@ -23,12 +23,26 @@
         'prompt': 'Which phrase signals a speaker is presenting their central argument?',
         'options': ['Moving on to...', 'I shall argue that...', 'In conclusion...', 'To sum up...'],
         'answer': 'I shall argue that...',
+        'explanation': 'In this context, “I shall argue that...” supplies the meaning or form targeted in Review Unit 2. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'Moving on to...': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'In conclusion...': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'To sum up...': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
       {
         'type': 'choice',
         'prompt': 'In legal contracts, which word creates a mandatory obligation?',
         'options': ['May', 'Might', 'Should', 'Shall'],
         'answer': 'Shall',
+        'explanation': 'In this context, “Shall” supplies the meaning or form targeted in Review Unit 2. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'May': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Might': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Should': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
       {
         'type': 'choice',
@@ -41,6 +55,13 @@
             'Rejection',
           ],
         'answer': 'Polite acknowledgment without commitment',
+        'explanation': 'In this context, “Polite acknowledgment without commitment” supplies the meaning or form targeted in Review Unit 2. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'Strong agreement': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Full commitment': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Rejection': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
       {
         'type': 'choice',
@@ -48,21 +69,35 @@
         'options':
           ['First conditional', 'Second conditional', 'Third conditional', 'Zero conditional'],
         'answer': 'Second conditional',
+        'explanation': 'In this context, “Second conditional” supplies the meaning or form targeted in Review Unit 2. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'First conditional': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Third conditional': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Zero conditional': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
       {
         'type': 'fill',
         'prompt': 'The subjunctive is used after verbs of suggestion, demand, and ___.',
         'answer': 'recommendation',
+        'acceptedAnswers': ['recommendation'],
+        'explanation': 'In this context, “recommendation” supplies the meaning or form targeted in Review Unit 2. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
       },
       {
         'type': 'fill',
         'prompt': "In treaties, '___' means applying with necessary changes.",
         'answer': 'mutatis mutandis',
+        'acceptedAnswers': ['mutatis mutandis'],
+        'explanation': 'In this context, “mutatis mutandis” supplies the meaning or form targeted in Review Unit 2. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
       },
     ],
   'categoryEn': 'Expert Register and Influence',
   'categoryVi': 'Sắc thái và Ảnh hưởng Chuyên sâu',
   'prerequisites': ['c2-09-legal-contracts'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 75, 'maxWords': 230 },
 }
 ---
 
@@ -156,42 +191,44 @@ In **C2-11-research-presentation**, you will master the vocabulary of formal res
 
 ## Learning outcome
 
-By the end of this lesson, you will be able to combine the unit language to complete a realistic task about review unit 2.
+By the end of this lesson, you can combine language from the unit to resolve a realistic task involving review unit 2 and justify one revision.
 
-## Practice lab
+## Scenario practice
 
-### Notice the language
+### Situation
 
-Read the situation, then listen to the model once for meaning and once for phrasing.
+Prepare a fictional cross-border expert forum: frame a talk, disagree on a panel, interpret diplomatic wording, and flag contractual ambiguity.
 
-> **Colleague:** How would you handle **review unit 2** in this situation?
->
-> **You:** Unit 2 advanced your professional communication skills across speaking, reading, and writing domains.
+> **Training note:** This situation and its details are fictional. They are designed for language practice, not presented as a real event, policy, study, or legal interpretation.
 
-Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+### Controlled practice
 
-> **Pattern**: clear point + concrete detail or reason + appropriate next step
+Select language from at least three lessons in this unit. For each choice, note the job it performs: describe, connect, qualify, request, or conclude.
 
-### Your turn
+### Guided task
 
-Complete one integrated response for a colleague, client, and senior stakeholder using language from at least three lessons in this unit.
+Write 75–230 words to complete the integrated task. Use material from at least three lessons, then annotate one revision that improved accuracy, tone, or clarity.
 
 ### Model response
 
-> Unit 2 advanced your professional communication skills across speaking, reading, and writing domains. Conference discourse, panel grammar, diplomatic register, and legal precision represent pinnacle formal English. Mastery of these registers distinguishes C2 speakers in international professional contexts.
+> **Integrated response:** Unit 2 advanced your professional communication skills across speaking, reading, and writing domains. Conference discourse, panel grammar, diplomatic register, and legal precision represent pinnacle formal English. Mastery of these registers distinguishes C2 speakers in international professional contexts.
+>
+> **Revision note:** I distinguish what the language states from what a reader may plausibly infer. The response preserves useful ambiguity only where the genre requires it, names the evidence supporting the preferred interpretation, and explicitly acknowledges what cannot be concluded without additional context or specialist review. Other well-supported responses are possible.
 
-The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+### Why the model works
 
-### Register switch
+The model shows one defensible route through the task; it is not a script to memorize. Compare its task completion, language accuracy, audience fit, and clarity with your response, then revise once.
 
-Rewrite your response twice: first for a trusted teammate, then for a client or senior stakeholder. Keep the underlying message the same while changing directness, context, and the amount of explanation. Identify one phrase you softened, one detail you made explicit, and one assumption you removed. Then write a plausible alternative interpretation of the model and explain which contextual evidence would help a reader choose between the two readings.
+### Transfer task
+
+Adapt the final briefing for a non-specialist executive. Keep the target language, but change the details and register needed for the new context.
 
 ### Self-check
 
-- [ ] I completed the task without translating a full Vietnamese sentence word for word.
-- [ ] I used at least two useful expressions from the lesson.
-- [ ] My main point is easy to identify.
-- [ ] I included a concrete detail, reason, or next step.
-- [ ] I qualified claims where certainty was limited and adjusted the register for my audience.
+- [ ] I completed every part of this lesson's scenario, not only the language form.
+- [ ] My target language is accurate and fits the intended meaning.
+- [ ] My level of directness and detail fits the named audience.
+- [ ] The reader or listener can identify my main point and next step.
+- [ ] I separated evidence, assumptions, and recommendations instead of presenting them as equally certain.
 
 <!-- learning-loop:end -->

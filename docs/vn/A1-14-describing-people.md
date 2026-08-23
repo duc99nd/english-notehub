@@ -11,7 +11,7 @@
   'skill': 'vocab',
   'order': 14,
   'cefr': 'A1',
-  'minutes': 20,
+  'minutes': 22,
   'tags': ['describing', 'people', 'appearance', 'personality', 'vocab'],
   'audioScript': "She is tall with long black hair.\nHe is friendly and funny.\nMy brother has brown eyes and short hair.\nMy best friend is kind and patient.\n",
   'listeningEnabled': true,
@@ -23,19 +23,48 @@
         'prompt': 'Which word describes hair length?',
         'options': ['tall', 'long', 'friendly', 'short'],
         'answer': 'long',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “long” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Miêu tả con người. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'tall': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'friendly': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'short': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
-      { 'type': 'fill', 'prompt': 'She is ___ and friendly. (cao = tall)', 'answer': 'tall' },
+      {
+        'type': 'fill',
+        'prompt': 'She is ___ and friendly. (cao = tall)',
+        'answer': 'tall',
+        'acceptedAnswers': ['tall'],
+        'explanation': 'Trong ngữ cảnh câu hỏi, “tall” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Miêu tả con người. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+      },
       {
         'type': 'choice',
         'prompt': 'Which is a personality trait?',
         'options': ['Hair color', 'Tall', 'Friendly', 'Young'],
         'answer': 'Friendly',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “Friendly” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Miêu tả con người. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'Hair color': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'Tall': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'Young': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
-      { 'type': 'fill', 'prompt': 'He ___ black hair. (động từ sở hữu)', 'answer': 'has' },
+      {
+        'type': 'fill',
+        'prompt': 'He ___ black hair. (động từ sở hữu)',
+        'answer': 'has',
+        'acceptedAnswers': ['has'],
+        'explanation': 'Trong ngữ cảnh câu hỏi, “has” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Miêu tả con người. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+      },
     ],
   'categoryEn': 'Foundation English',
   'categoryVi': 'Tiếng Anh Nền tảng',
   'prerequisites': ['a1-13-can-cant'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'dialogue', 'minTurns': 4, 'maxTurns': 6 },
 }
 ---
 
@@ -223,37 +252,47 @@ Nhấn play, sau đó lặp lại từng dòng.
 
 ## Kết quả học tập
 
-Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Miêu tả con người** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+Sau bài này, bạn có thể hoàn thành đoạn hội thoại bốn lượt về **Miêu tả con người**, chọn cách diễn đạt phù hợp quan hệ và mục tiêu trước mắt.
 
-## Phòng luyện tập
+## Luyện tập theo tình huống
 
-### Nhận diện cách diễn đạt
+### Tình huống
 
-Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+Lễ tân hỏi bạn đang gặp ai. Hãy miêu tả người đó bằng hai đặc điểm ngoại hình và một từ chỉ tính cách.
 
-> **Colleague:** How would you handle this situation?
->
-> **You:** She is tall with long black hair.
+> **Lưu ý:** Tình huống và các chi tiết đều là hư cấu để luyện ngôn ngữ; đây không phải sự kiện, chính sách, nghiên cứu hoặc diễn giải pháp lý có thật.
 
-Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+### Luyện tập có kiểm soát
 
-> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+Chọn ba cách diễn đạt trong bài **Miêu tả con người**. Gắn nhãn chức năng cho từng cách: mở lời, nêu chi tiết, làm rõ hoặc đưa bước tiếp theo. Loại cách diễn đạt không phù hợp quan hệ trong tình huống.
 
-### Đến lượt bạn
+### Nhiệm vụ có hướng dẫn
 
-Tạo một câu trả lời mới cho chủ đề **Miêu tả con người**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+Viết đoạn hội thoại bốn đến sáu lượt cho tình huống này. Dùng ít nhất ba cách diễn đạt trọng tâm, phản hồi thông tin của người kia và kết thúc bằng câu hỏi, xác nhận hoặc hành động đã thống nhất.
 
 ### Bài mẫu
 
-> She is tall with long black hair. He is friendly and funny. My brother has brown eyes and short hair. My best friend is kind and patient.
+> **Partner:** We need to respond to the situation above. What would you say first?
+>
+> **You:** She is tall with long black hair.
+>
+> **Partner:** What detail should we confirm before we act?
+>
+> **You:** He is friendly and funny. My brother has brown eyes and short hair.
 
-Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+### Vì sao bài mẫu phù hợp
+
+Bài mẫu thể hiện một cách xử lý hợp lý, không phải kịch bản bắt buộc học thuộc. Hãy so sánh mức hoàn thành nhiệm vụ, độ chính xác, độ phù hợp với người nghe và độ rõ với bài của bạn rồi sửa một lần.
+
+### Bài tập chuyển đổi
+
+Miêu tả một người khác mà không dùng tall hoặc short. Giữ ngôn ngữ trọng tâm nhưng thay đổi chi tiết và văn phong cho bối cảnh mới.
 
 ### Tự kiểm tra
 
-- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
-- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
-- [ ] Người nghe có thể nhận ra ý chính ngay.
-- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+- [ ] Mình hoàn thành đủ yêu cầu của tình huống, không chỉ dùng đúng cấu trúc.
+- [ ] Ngôn ngữ trọng tâm chính xác và đúng ý định.
+- [ ] Độ trực tiếp và lượng chi tiết phù hợp người nghe hoặc người đọc.
+- [ ] Người nhận có thể nhận ra ý chính và bước tiếp theo.
 
 <!-- learning-loop:end -->

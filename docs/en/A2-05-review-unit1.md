@@ -11,7 +11,7 @@
   'skill': 'review',
   'order': 5,
   'cefr': 'A2',
-  'minutes': 10,
+  'minutes': 11,
   'tags': ['review', 'unit1', 'grammar', 'vocabulary'],
   'audioScript': "Let's review what we learned in Unit 1.\nYou can ask for help politely.\nYou can talk about your daily routine.\nYou can compare things.\nYou can talk about past events.\n",
   'listeningEnabled': true,
@@ -23,25 +23,58 @@
         'prompt': 'How do you politely ask for help?',
         'options': ['Give me help.', 'Could you help me, please?', 'Help me now!'],
         'answer': 'Could you help me, please?',
+        'explanation': 'In this context, “Could you help me, please?” supplies the meaning or form targeted in Review Unit 1. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'Give me help.': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Help me now!': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
-      { 'type': 'fill', 'prompt': 'I wake ___ at six every morning.', 'answer': 'up' },
+      {
+        'type': 'fill',
+        'prompt': 'I wake ___ at six every morning.',
+        'answer': 'up',
+        'acceptedAnswers': ['up'],
+        'explanation': 'In this context, “up” supplies the meaning or form targeted in Review Unit 1. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+      },
       {
         'type': 'choice',
         'prompt': 'Which is the correct comparative form?',
         'options': ['more beautiful', 'beautifuller', 'beautfuller'],
         'answer': 'more beautiful',
+        'explanation': 'In this context, “more beautiful” supplies the meaning or form targeted in Review Unit 1. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'beautifuller': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'beautfuller': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
-      { 'type': 'fill', 'prompt': 'Yesterday, she ___ to the market. (go)', 'answer': 'went' },
+      {
+        'type': 'fill',
+        'prompt': 'Yesterday, she ___ to the market. (go)',
+        'answer': 'went',
+        'acceptedAnswers': ['went'],
+        'explanation': 'In this context, “went” supplies the meaning or form targeted in Review Unit 1. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+      },
       {
         'type': 'choice',
         'prompt': 'Which sentence is in past simple?',
         'options': ['I work at home.', 'I am working.', 'I worked late.'],
         'answer': 'I worked late.',
+        'explanation': 'In this context, “I worked late.” supplies the meaning or form targeted in Review Unit 1. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'I work at home.': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'I am working.': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
     ],
   'categoryEn': 'Everyday Workplace English',
   'categoryVi': 'Tiếng Anh Công việc Hằng ngày',
   'prerequisites': ['a2-04-past-events'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 28, 'maxWords': 90 },
 }
 ---
 
@@ -96,37 +129,43 @@ Continue to **A2-06-email-basics** to learn how to write basic emails in English
 
 ## Learning outcome
 
-By the end of this lesson, you will be able to combine the unit language to complete a realistic task about review unit 1.
+By the end of this lesson, you can combine language from the unit to resolve a realistic task involving review unit 1 and justify one revision.
 
-## Practice lab
+## Scenario practice
 
-### Notice the language
+### Situation
 
-Read the situation, then listen to the model once for meaning and once for phrasing.
+During office orientation, ask for help, describe your routine, compare two desks, and report one problem from yesterday.
 
-> **Colleague:** How would you handle **review unit 1** in this situation?
->
-> **You:** Let's review what we learned in Unit 1.
+> **Training note:** This situation and its details are fictional. They are designed for language practice, not presented as a real event, policy, study, or legal interpretation.
 
-Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+### Controlled practice
 
-> **Pattern**: clear point + concrete detail or reason + appropriate next step
+Select language from at least three lessons in this unit. For each choice, note the job it performs: describe, connect, qualify, request, or conclude.
 
-### Your turn
+### Guided task
 
-Complete one integrated response for a colleague or classmate using language from at least three lessons in this unit.
+Write 28–90 words to complete the integrated task. Use material from at least three lessons, then annotate one revision that improved accuracy, tone, or clarity.
 
 ### Model response
 
-> Let's review what we learned in Unit 1. You can ask for help politely. You can talk about your daily routine. You can compare things. You can talk about past events.
+> **Integrated response:** Let's review what we learned in Unit 1. You can ask for help politely. You can talk about your daily routine.
+>
+> **Revision note:** I connect the main point to one concrete detail. I check the time, person, or action so the listener knows what happens next. Other well-supported responses are possible.
 
-The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+### Why the model works
+
+The model shows one defensible route through the task; it is not a script to memorize. Compare its task completion, language accuracy, audience fit, and clarity with your response, then revise once.
+
+### Transfer task
+
+Repeat the task for a class orientation instead of an office. Keep the target language, but change the details and register needed for the new context.
 
 ### Self-check
 
-- [ ] I completed the task without translating a full Vietnamese sentence word for word.
-- [ ] I used at least two useful expressions from the lesson.
-- [ ] My main point is easy to identify.
-- [ ] I included a concrete detail, reason, or next step.
+- [ ] I completed every part of this lesson's scenario, not only the language form.
+- [ ] My target language is accurate and fits the intended meaning.
+- [ ] My level of directness and detail fits the named audience.
+- [ ] The reader or listener can identify my main point and next step.
 
 <!-- learning-loop:end -->

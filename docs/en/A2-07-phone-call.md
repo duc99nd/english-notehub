@@ -11,7 +11,7 @@
   'skill': 'grammar',
   'order': 7,
   'cefr': 'A2',
-  'minutes': 10,
+  'minutes': 12,
   'tags': ['phone-call', 'speaking', 'grammar', 'communication'],
   'audioScript': "Hello, this is Anna speaking.\nCan I speak to Mr. Smith, please?\nI'm calling about our meeting tomorrow.\n",
   'listeningEnabled': true,
@@ -23,18 +23,39 @@
         'prompt': 'How do you answer a phone call formally?',
         'options': ['Yeah, who are you?', 'Hello, this is [name] speaking.', "What's up?"],
         'answer': 'Hello, this is [name] speaking.',
+        'explanation': 'In this context, “Hello, this is [name] speaking.” supplies the meaning or form targeted in Phone Call. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'Yeah, who are you?': 'This option does not complete the communicative intent or target form tested by the question context.',
+            "What's up?": 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
-      { 'type': 'fill', 'prompt': 'Can I speak ___ Mr. Smith, please?', 'answer': 'to' },
+      {
+        'type': 'fill',
+        'prompt': 'Can I speak ___ Mr. Smith, please?',
+        'answer': 'to',
+        'acceptedAnswers': ['to'],
+        'explanation': 'In this context, “to” supplies the meaning or form targeted in Phone Call. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+      },
       {
         'type': 'choice',
         'prompt': 'What should you say if the person is not available?',
         'options': ['Put him on!', 'Could you take a message, please?', 'Call back later.'],
         'answer': 'Could you take a message, please?',
+        'explanation': 'In this context, “Could you take a message, please?” supplies the meaning or form targeted in Phone Call. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'Put him on!': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Call back later.': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
     ],
   'categoryEn': 'Everyday Workplace English',
   'categoryVi': 'Tiếng Anh Công việc Hằng ngày',
   'prerequisites': ['a2-06-email-basics'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 28, 'maxWords': 90 },
 }
 ---
 
@@ -99,37 +120,43 @@ In the next lesson **A2-08-future-plans**, you will learn how to talk about futu
 
 ## Learning outcome
 
-By the end of this lesson, you will be able to choose an appropriate structure and apply it accurately when discussing phone call.
+By the end of this lesson, you can produce a connected response about phone call, use the target structure accurately, and explain one effect of that choice.
 
-## Practice lab
+## Scenario practice
 
-### Notice the language
+### Situation
 
-Read the situation, then listen to the model once for meaning and once for phrasing.
+Call a colleague to move tomorrow’s meeting. Introduce yourself, explain why you are calling, and suggest a new time.
 
-> **Colleague:** How would you handle **phone call** in this situation?
->
-> **You:** Hello, this is Anna speaking.
+> **Training note:** This situation and its details are fictional. They are designed for language practice, not presented as a real event, policy, study, or legal interpretation.
 
-Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+### Controlled practice
 
-> **Pattern**: clear point + concrete detail or reason + appropriate next step
+Take two example sentences from the lesson. Transform the first with the target structure, then revise the second to change emphasis or level of certainty without changing the core facts.
 
-### Your turn
+### Guided task
 
-Write four connected sentences for a colleague or classmate. Use the target structure twice, then revise one sentence to change its tone or emphasis.
+Write 28–90 words for the situation. Use the target structure at least twice, underline those choices, and add one sentence explaining how one structure changes emphasis, time, condition, or certainty.
 
 ### Model response
 
-> Hello, this is Anna speaking. Can I speak to Mr. Smith, please? I'm calling about our meeting tomorrow.
+> **Draft:** Hello, this is Anna speaking. Can I speak to Mr. Smith, please? I'm calling about our meeting tomorrow.
+>
+> **Language choice:** I connect the main point to one concrete detail. I check the time, person, or action so the listener knows what happens next. Other well-supported responses are possible.
 
-The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+### Why the model works
+
+The model shows one defensible route through the task; it is not a script to memorize. Compare its task completion, language accuracy, audience fit, and clarity with your response, then revise once.
+
+### Transfer task
+
+Leave the same information as a voicemail message. Keep the target language, but change the details and register needed for the new context.
 
 ### Self-check
 
-- [ ] I completed the task without translating a full Vietnamese sentence word for word.
-- [ ] I used at least two useful expressions from the lesson.
-- [ ] My main point is easy to identify.
-- [ ] I included a concrete detail, reason, or next step.
+- [ ] I completed every part of this lesson's scenario, not only the language form.
+- [ ] My target language is accurate and fits the intended meaning.
+- [ ] My level of directness and detail fits the named audience.
+- [ ] The reader or listener can identify my main point and next step.
 
 <!-- learning-loop:end -->

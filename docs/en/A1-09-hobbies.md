@@ -11,7 +11,7 @@
   'skill': 'writing',
   'order': 9,
   'cefr': 'A1',
-  'minutes': 19,
+  'minutes': 20,
   'tags': ['hobbies', 'free-time', 'preferences', 'writing', 'speaking'],
   'audioScript': "In my free time, I like to read books.\nSometimes I play soccer with my friends.\nI enjoy listening to music. I also like cooking.\nOn weekends, I often watch movies.\n",
   'listeningEnabled': true,
@@ -29,28 +29,54 @@
             'I enjoying read books.',
           ],
         'answer': 'I enjoy reading books.',
+        'explanation': 'In this context, “I enjoy reading books.” supplies the meaning or form targeted in Hobbies & Free Time. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'I enjoy to read books.': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'I enjoy read books.': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'I enjoying read books.': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
       {
         'type': 'choice',
         'prompt': "Which verb goes with 'music'?",
         'options': ['play music', 'listen to music', 'watch music', 'do music'],
         'answer': 'listen to music',
+        'explanation': 'In this context, “listen to music” supplies the meaning or form targeted in Hobbies & Free Time. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'play music': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'watch music': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'do music': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
       {
         'type': 'fill',
         'prompt': 'I ___ playing soccer on weekends. (rất thích = love)',
         'answer': 'love',
+        'acceptedAnswers': ['love'],
+        'explanation': 'In this context, “love” supplies the meaning or form targeted in Hobbies & Free Time. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
       },
       {
         'type': 'choice',
         'prompt': "What does 'cooking' mean?",
         'options': ['nấu ăn', 'đọc sách', 'chơi bóng đá', 'nghe nhạc'],
         'answer': 'nấu ăn',
+        'explanation': 'In this context, “nấu ăn” supplies the meaning or form targeted in Hobbies & Free Time. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'đọc sách': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'chơi bóng đá': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'nghe nhạc': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
     ],
   'categoryEn': 'Foundation English',
   'categoryVi': 'Tiếng Anh Nền tảng',
   'prerequisites': ['a1-08-weather'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 20, 'maxWords': 70 },
 }
 ---
 
@@ -201,37 +227,43 @@ In **A1-10-review-unit2**, you will review everything from Unit 2: time, places,
 
 ## Learning outcome
 
-By the end of this lesson, you will be able to produce and revise a clear piece of writing about hobbies & free time for a defined audience.
+By the end of this lesson, you can write and revise a response about hobbies & free time for a named audience, with a clear purpose, relevant support, and next step.
 
-## Practice lab
+## Scenario practice
 
-### Notice the language
+### Situation
 
-Read the situation, then listen to the model once for meaning and once for phrasing.
+A new friend asks what you do after work or class. Write four short sentences about two hobbies and when you do them.
 
-> **Colleague:** How would you handle **hobbies & free time** in this situation?
->
-> **You:** In my free time, I like to read books.
+> **Training note:** This situation and its details are fictional. They are designed for language practice, not presented as a real event, policy, study, or legal interpretation.
 
-Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+### Controlled practice
 
-> **Pattern**: clear point + concrete detail or reason + appropriate next step
+Build a four-part outline: audience, purpose, one concrete supporting detail, and requested next step. Check that every planned sentence serves one of those four parts.
 
-### Your turn
+### Guided task
 
-Write 80–120 words for a colleague or classmate. State the purpose early, support it with a concrete detail, and finish with a clear next step.
+Write 20–70 words for the stated audience. Make the purpose visible in the opening, support it with a concrete detail, and close with a proportionate next step.
 
 ### Model response
 
-> In my free time, I like to read books. Sometimes I play soccer with my friends. I enjoy listening to music. I also like cooking. On weekends, I often watch movies.
+> **Draft:** In my free time, I like to read books. Sometimes I play soccer with my friends. I enjoy listening to music. I also like cooking.
+>
+> **Revision note:** I keep the message short, use familiar words, and finish with one clear next step. Other well-supported responses are possible.
 
-The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+### Why the model works
+
+The model shows one defensible route through the task; it is not a script to memorize. Compare its task completion, language accuracy, audience fit, and clarity with your response, then revise once.
+
+### Transfer task
+
+Invite the friend to join one activity this weekend. Keep the target language, but change the details and register needed for the new context.
 
 ### Self-check
 
-- [ ] I completed the task without translating a full Vietnamese sentence word for word.
-- [ ] I used at least two useful expressions from the lesson.
-- [ ] My main point is easy to identify.
-- [ ] I included a concrete detail, reason, or next step.
+- [ ] I completed every part of this lesson's scenario, not only the language form.
+- [ ] My target language is accurate and fits the intended meaning.
+- [ ] My level of directness and detail fits the named audience.
+- [ ] The reader or listener can identify my main point and next step.
 
 <!-- learning-loop:end -->

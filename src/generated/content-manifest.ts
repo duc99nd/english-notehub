@@ -358,7 +358,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "vocab",
     "order": 1,
     "cefr": "A1",
-    "minutes": 15,
+    "minutes": 17,
     "tags": [
       "greetings",
       "introduction",
@@ -373,7 +373,11 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
       {
         "type": "fill",
         "prompt": "Hello, my ___ is Anna.",
-        "answer": "name"
+        "answer": "name",
+        "acceptedAnswers": [
+          "name"
+        ],
+        "explanation": "In this context, “name” supplies the meaning or form targeted in Greetings & Self-introduction. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -384,7 +388,13 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Good morning. Nice to meet you.",
           "Sup?"
         ],
-        "answer": "Good morning. Nice to meet you."
+        "answer": "Good morning. Nice to meet you.",
+        "explanation": "In this context, “Good morning. Nice to meet you.” supplies the meaning or form targeted in Greetings & Self-introduction. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Hey, what's up?": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Yo bro!": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Sup?": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "choice",
@@ -395,7 +405,13 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "My name is Anna.",
           "Goodbye."
         ],
-        "answer": "I'm fine, thank you. And you?"
+        "answer": "I'm fine, thank you. And you?",
+        "explanation": "In this context, “I'm fine, thank you. And you?” supplies the meaning or form targeted in Greetings & Self-introduction. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "I'm twenty.": "This option does not complete the communicative intent or target form tested by the question context.",
+          "My name is Anna.": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Goodbye.": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "choice",
@@ -406,12 +422,25 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "I have known you for a long time.",
           "Please call me later."
         ],
-        "answer": "I'm happy to know you (first meeting)."
+        "answer": "I'm happy to know you (first meeting).",
+        "explanation": "In this context, “I'm happy to know you (first meeting).” supplies the meaning or form targeted in Greetings & Self-introduction. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "I want to leave now.": "This option does not complete the communicative intent or target form tested by the question context.",
+          "I have known you for a long time.": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Please call me later.": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Foundation English",
     "categoryVi": "Tiếng Anh Nền tảng",
-    "prerequisites": []
+    "prerequisites": [],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "dialogue",
+      "minTurns": 4,
+      "maxTurns": 6
+    }
   },
   "A1-02-numbers": {
     "id": "a1-02-numbers",
@@ -425,7 +454,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "grammar",
     "order": 2,
     "cefr": "A1",
-    "minutes": 18,
+    "minutes": 20,
     "tags": [
       "numbers",
       "phone",
@@ -440,7 +469,11 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
       {
         "type": "fill",
         "prompt": "How do you spell the number 14? ___",
-        "answer": "fourteen"
+        "answer": "fourteen",
+        "acceptedAnswers": [
+          "fourteen"
+        ],
+        "explanation": "In this context, “fourteen” supplies the meaning or form targeted in Numbers & Phone Numbers. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -451,7 +484,13 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "0912345678",
           "9234567"
         ],
-        "answer": "091234567"
+        "answer": "091234567",
+        "explanation": "In this context, “091234567” supplies the meaning or form targeted in Numbers & Phone Numbers. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "9234567": "This option does not complete the communicative intent or target form tested by the question context.",
+          "91234567": "This option does not complete the communicative intent or target form tested by the question context.",
+          "0912345678": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "choice",
@@ -462,19 +501,36 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "fourti",
           "fourteen"
         ],
-        "answer": "forty"
+        "answer": "forty",
+        "explanation": "In this context, “forty” supplies the meaning or form targeted in Numbers & Phone Numbers. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "fourty": "This option does not complete the communicative intent or target form tested by the question context.",
+          "fourti": "This option does not complete the communicative intent or target form tested by the question context.",
+          "fourteen": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "Six ___ two equals eight. (plus / minus / times)",
-        "answer": "plus"
+        "answer": "plus",
+        "acceptedAnswers": [
+          "plus"
+        ],
+        "explanation": "In this context, “plus” supplies the meaning or form targeted in Numbers & Phone Numbers. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       }
     ],
     "categoryEn": "Foundation English",
     "categoryVi": "Tiếng Anh Nền tảng",
     "prerequisites": [
       "a1-01-greetings"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 20,
+      "maxWords": 70
+    }
   },
   "A1-03-daily-verbs": {
     "id": "a1-03-daily-verbs",
@@ -488,7 +544,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "reading",
     "order": 3,
     "cefr": "A1",
-    "minutes": 20,
+    "minutes": 22,
     "tags": [
       "verbs",
       "daily-routine",
@@ -509,12 +565,22 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "waking",
           "woke"
         ],
-        "answer": "wake"
+        "answer": "wake",
+        "explanation": "In this context, “wake” supplies the meaning or form targeted in Daily Verbs. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "wakes": "This option does not complete the communicative intent or target form tested by the question context.",
+          "waking": "This option does not complete the communicative intent or target form tested by the question context.",
+          "woke": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "I ___ coffee every morning. (uống)",
-        "answer": "drink"
+        "answer": "drink",
+        "acceptedAnswers": [
+          "drink"
+        ],
+        "explanation": "In this context, “drink” supplies the meaning or form targeted in Daily Verbs. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -525,19 +591,36 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "leave",
           "arrive"
         ],
-        "answer": "go"
+        "answer": "go",
+        "explanation": "In this context, “go” supplies the meaning or form targeted in Daily Verbs. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "stay": "This option does not complete the communicative intent or target form tested by the question context.",
+          "leave": "This option does not complete the communicative intent or target form tested by the question context.",
+          "arrive": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "She ___ home at six in the evening. (đến)",
-        "answer": "comes"
+        "answer": "comes",
+        "acceptedAnswers": [
+          "comes"
+        ],
+        "explanation": "In this context, “comes” supplies the meaning or form targeted in Daily Verbs. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       }
     ],
     "categoryEn": "Foundation English",
     "categoryVi": "Tiếng Anh Nền tảng",
     "prerequisites": [
       "a1-02-numbers"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 20,
+      "maxWords": 70
+    }
   },
   "A1-04-family": {
     "id": "a1-04-family",
@@ -551,7 +634,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "writing",
     "order": 4,
     "cefr": "A1",
-    "minutes": 20,
+    "minutes": 22,
     "tags": [
       "family",
       "vocabulary",
@@ -572,12 +655,22 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Uncle",
           "Son"
         ],
-        "answer": "Brother"
+        "answer": "Brother",
+        "explanation": "In this context, “Brother” supplies the meaning or form targeted in Family Members. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Father": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Uncle": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Son": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "My ___ is 70 years old. She is my mom's mother. (bà)",
-        "answer": "grandmother"
+        "answer": "grandmother",
+        "acceptedAnswers": [
+          "grandmother"
+        ],
+        "explanation": "In this context, “grandmother” supplies the meaning or form targeted in Family Members. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -588,19 +681,36 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "My sisters are two years old.",
           "I have two brothers."
         ],
-        "answer": "There are two girls who are my sisters."
+        "answer": "There are two girls who are my sisters.",
+        "explanation": "In this context, “There are two girls who are my sisters.” supplies the meaning or form targeted in Family Members. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "I am a sister.": "This option does not complete the communicative intent or target form tested by the question context.",
+          "My sisters are two years old.": "This option does not complete the communicative intent or target form tested by the question context.",
+          "I have two brothers.": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "This is my brother. ___ name is Tuan. (đại từ sở hữu)",
-        "answer": "His"
+        "answer": "His",
+        "acceptedAnswers": [
+          "His"
+        ],
+        "explanation": "In this context, “His” supplies the meaning or form targeted in Family Members. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       }
     ],
     "categoryEn": "Foundation English",
     "categoryVi": "Tiếng Anh Nền tảng",
     "prerequisites": [
       "a1-03-daily-verbs"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 20,
+      "maxWords": 70
+    }
   },
   "A1-05-review-unit1": {
     "id": "a1-05-review-unit1",
@@ -614,7 +724,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "review",
     "order": 5,
     "cefr": "A1",
-    "minutes": 20,
+    "minutes": 22,
     "tags": [
       "review",
       "unit1",
@@ -633,12 +743,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "My name is...",
           "I name is..."
         ],
-        "answer": "My name is..."
+        "answer": "My name is...",
+        "explanation": "In this context, “My name is...” supplies the meaning or form targeted in Review Unit 1. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Me name is...": "This option does not complete the communicative intent or target form tested by the question context.",
+          "I name is...": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "My phone number is zero nine one, five six seven, eight nine zero. Write the digits:",
-        "answer": "091567890"
+        "answer": "091567890",
+        "acceptedAnswers": [
+          "091567890"
+        ],
+        "explanation": "In this context, “091567890” supplies the meaning or form targeted in Review Unit 1. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -648,12 +767,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "eat",
           "sleep"
         ],
-        "answer": "eat"
+        "answer": "eat",
+        "explanation": "In this context, “eat” supplies the meaning or form targeted in Review Unit 1. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "drink": "This option does not complete the communicative intent or target form tested by the question context.",
+          "sleep": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "This is my ___. She is my mom. (mẹ)",
-        "answer": "mother"
+        "answer": "mother",
+        "acceptedAnswers": [
+          "mother"
+        ],
+        "explanation": "In this context, “mother” supplies the meaning or form targeted in Review Unit 1. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -663,14 +791,26 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "I wake up at six.",
           "I eat."
         ],
-        "answer": "I wake up at six."
+        "answer": "I wake up at six.",
+        "explanation": "In this context, “I wake up at six.” supplies the meaning or form targeted in Review Unit 1. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "I sleep.": "This option does not complete the communicative intent or target form tested by the question context.",
+          "I eat.": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Foundation English",
     "categoryVi": "Tiếng Anh Nền tảng",
     "prerequisites": [
       "a1-04-family"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 20,
+      "maxWords": 70
+    }
   },
   "A1-06-time-place": {
     "id": "a1-06-time-place",
@@ -684,7 +824,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "vocab",
     "order": 6,
     "cefr": "A1",
-    "minutes": 20,
+    "minutes": 22,
     "tags": [
       "time",
       "places",
@@ -705,7 +845,13 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "at",
           "by"
         ],
-        "answer": "at"
+        "answer": "at",
+        "explanation": "In this context, “at” supplies the meaning or form targeted in Time & Places. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "in": "This option does not complete the communicative intent or target form tested by the question context.",
+          "on": "This option does not complete the communicative intent or target form tested by the question context.",
+          "by": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "choice",
@@ -715,7 +861,12 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "at",
           "on"
         ],
-        "answer": "at"
+        "answer": "at",
+        "explanation": "In this context, “at” supplies the meaning or form targeted in Time & Places. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "in": "This option does not complete the communicative intent or target form tested by the question context.",
+          "on": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "choice",
@@ -725,19 +876,35 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "12pm - 6pm",
           "6pm - 12am"
         ],
-        "answer": "12pm - 6pm"
+        "answer": "12pm - 6pm",
+        "explanation": "In this context, “12pm - 6pm” supplies the meaning or form targeted in Time & Places. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "6am - 12pm": "This option does not complete the communicative intent or target form tested by the question context.",
+          "6pm - 12am": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "I have a meeting ___ Monday morning. (giới từ)",
-        "answer": "on"
+        "answer": "on",
+        "acceptedAnswers": [
+          "on"
+        ],
+        "explanation": "In this context, “on” supplies the meaning or form targeted in Time & Places. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       }
     ],
     "categoryEn": "Foundation English",
     "categoryVi": "Tiếng Anh Nền tảng",
     "prerequisites": [
       "a1-05-review-unit1"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "dialogue",
+      "minTurns": 4,
+      "maxTurns": 6
+    }
   },
   "A1-07-food": {
     "id": "a1-07-food",
@@ -751,7 +918,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "grammar",
     "order": 7,
     "cefr": "A1",
-    "minutes": 21,
+    "minutes": 23,
     "tags": [
       "food",
       "drinks",
@@ -772,7 +939,12 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "some",
           "a"
         ],
-        "answer": "some"
+        "answer": "some",
+        "explanation": "In this context, “some” supplies the meaning or form targeted in Food & Drinks. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "any": "This option does not complete the communicative intent or target form tested by the question context.",
+          "a": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "choice",
@@ -783,7 +955,13 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "I would like a waters, please.",
           "I would like waters, please."
         ],
-        "answer": "I would like a glass of water, please."
+        "answer": "I would like a glass of water, please.",
+        "explanation": "In this context, “I would like a glass of water, please.” supplies the meaning or form targeted in Food & Drinks. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "I would like a water, please.": "This option does not complete the communicative intent or target form tested by the question context.",
+          "I would like a waters, please.": "This option does not complete the communicative intent or target form tested by the question context.",
+          "I would like waters, please.": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "choice",
@@ -794,19 +972,36 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "The bill, please.",
           "Check please give."
         ],
-        "answer": "The bill, please."
+        "answer": "The bill, please.",
+        "explanation": "In this context, “The bill, please.” supplies the meaning or form targeted in Food & Drinks. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Money now.": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Pay me.": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Check please give.": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "I ___ like some chicken, please. (muốn)",
-        "answer": "would"
+        "answer": "would",
+        "acceptedAnswers": [
+          "would"
+        ],
+        "explanation": "In this context, “would” supplies the meaning or form targeted in Food & Drinks. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       }
     ],
     "categoryEn": "Foundation English",
     "categoryVi": "Tiếng Anh Nền tảng",
     "prerequisites": [
       "a1-06-time-place"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 20,
+      "maxWords": 70
+    }
   },
   "A1-08-weather": {
     "id": "a1-08-weather",
@@ -820,7 +1015,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "reading",
     "order": 8,
     "cefr": "A1",
-    "minutes": 21,
+    "minutes": 22,
     "tags": [
       "weather",
       "seasons",
@@ -840,7 +1035,13 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Today is a sun.",
           "Today is the sun."
         ],
-        "answer": "Today is sunny."
+        "answer": "Today is sunny.",
+        "explanation": "In this context, “Today is sunny.” supplies the meaning or form targeted in Weather. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Today is sun.": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Today is a sun.": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Today is the sun.": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "choice",
@@ -851,12 +1052,22 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "rainy",
           "windy"
         ],
-        "answer": "rainy"
+        "answer": "rainy",
+        "explanation": "In this context, “rainy” supplies the meaning or form targeted in Weather. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "cloudy": "This option does not complete the communicative intent or target form tested by the question context.",
+          "sunny": "This option does not complete the communicative intent or target form tested by the question context.",
+          "windy": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "In summer, it is very ___. (nóng)",
-        "answer": "hot"
+        "answer": "hot",
+        "acceptedAnswers": [
+          "hot"
+        ],
+        "explanation": "In this context, “hot” supplies the meaning or form targeted in Weather. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -867,14 +1078,27 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "autumn",
           "winter"
         ],
-        "answer": "summer"
+        "answer": "summer",
+        "explanation": "In this context, “summer” supplies the meaning or form targeted in Weather. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "spring": "This option does not complete the communicative intent or target form tested by the question context.",
+          "autumn": "This option does not complete the communicative intent or target form tested by the question context.",
+          "winter": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Foundation English",
     "categoryVi": "Tiếng Anh Nền tảng",
     "prerequisites": [
       "a1-07-food"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 20,
+      "maxWords": 70
+    }
   },
   "A1-09-hobbies": {
     "id": "a1-09-hobbies",
@@ -888,7 +1112,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "writing",
     "order": 9,
     "cefr": "A1",
-    "minutes": 19,
+    "minutes": 20,
     "tags": [
       "hobbies",
       "free-time",
@@ -909,7 +1133,13 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "I enjoy read books.",
           "I enjoying read books."
         ],
-        "answer": "I enjoy reading books."
+        "answer": "I enjoy reading books.",
+        "explanation": "In this context, “I enjoy reading books.” supplies the meaning or form targeted in Hobbies & Free Time. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "I enjoy to read books.": "This option does not complete the communicative intent or target form tested by the question context.",
+          "I enjoy read books.": "This option does not complete the communicative intent or target form tested by the question context.",
+          "I enjoying read books.": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "choice",
@@ -920,12 +1150,22 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "watch music",
           "do music"
         ],
-        "answer": "listen to music"
+        "answer": "listen to music",
+        "explanation": "In this context, “listen to music” supplies the meaning or form targeted in Hobbies & Free Time. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "play music": "This option does not complete the communicative intent or target form tested by the question context.",
+          "watch music": "This option does not complete the communicative intent or target form tested by the question context.",
+          "do music": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "I ___ playing soccer on weekends. (rất thích = love)",
-        "answer": "love"
+        "answer": "love",
+        "acceptedAnswers": [
+          "love"
+        ],
+        "explanation": "In this context, “love” supplies the meaning or form targeted in Hobbies & Free Time. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -936,14 +1176,27 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "chơi bóng đá",
           "nghe nhạc"
         ],
-        "answer": "nấu ăn"
+        "answer": "nấu ăn",
+        "explanation": "In this context, “nấu ăn” supplies the meaning or form targeted in Hobbies & Free Time. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "đọc sách": "This option does not complete the communicative intent or target form tested by the question context.",
+          "chơi bóng đá": "This option does not complete the communicative intent or target form tested by the question context.",
+          "nghe nhạc": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Foundation English",
     "categoryVi": "Tiếng Anh Nền tảng",
     "prerequisites": [
       "a1-08-weather"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 20,
+      "maxWords": 70
+    }
   },
   "A1-10-review-unit2": {
     "id": "a1-10-review-unit2",
@@ -957,7 +1210,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "review",
     "order": 10,
     "cefr": "A1",
-    "minutes": 19,
+    "minutes": 21,
     "tags": [
       "review",
       "unit2",
@@ -977,12 +1230,22 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "at",
           "by"
         ],
-        "answer": "at"
+        "answer": "at",
+        "explanation": "In this context, “at” supplies the meaning or form targeted in Review Unit 2. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "in": "This option does not complete the communicative intent or target form tested by the question context.",
+          "on": "This option does not complete the communicative intent or target form tested by the question context.",
+          "by": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "I would like a ___ of water, please. (đơn vị đo)",
-        "answer": "glass"
+        "answer": "glass",
+        "acceptedAnswers": [
+          "glass"
+        ],
+        "explanation": "In this context, “glass” supplies the meaning or form targeted in Review Unit 2. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -992,12 +1255,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Trời mưa",
           "Trời lạnh"
         ],
-        "answer": "Trời mưa"
+        "answer": "Trời mưa",
+        "explanation": "In this context, “Trời mưa” supplies the meaning or form targeted in Review Unit 2. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Trời nắng": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Trời lạnh": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "I ___ listening to music in my free time. (thích - dùng enjoy)",
-        "answer": "enjoy"
+        "answer": "enjoy",
+        "acceptedAnswers": [
+          "enjoy"
+        ],
+        "explanation": "In this context, “enjoy” supplies the meaning or form targeted in Review Unit 2. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -1008,14 +1280,27 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "library",
           "bank"
         ],
-        "answer": "market"
+        "answer": "market",
+        "explanation": "In this context, “market” supplies the meaning or form targeted in Review Unit 2. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "school": "This option does not complete the communicative intent or target form tested by the question context.",
+          "library": "This option does not complete the communicative intent or target form tested by the question context.",
+          "bank": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Foundation English",
     "categoryVi": "Tiếng Anh Nền tảng",
     "prerequisites": [
       "a1-09-hobbies"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 20,
+      "maxWords": 70
+    }
   },
   "A1-11-shopping-money": {
     "id": "a1-11-shopping-money",
@@ -1029,7 +1314,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "vocab",
     "order": 11,
     "cefr": "A1",
-    "minutes": 21,
+    "minutes": 22,
     "tags": [
       "shopping",
       "money",
@@ -1050,7 +1335,13 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "How old is this?",
           "How much money do you have?"
         ],
-        "answer": "How much is this?"
+        "answer": "How much is this?",
+        "explanation": "In this context, “How much is this?” supplies the meaning or form targeted in Shopping & Money. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "How many is this?": "This option does not complete the communicative intent or target form tested by the question context.",
+          "How old is this?": "This option does not complete the communicative intent or target form tested by the question context.",
+          "How much money do you have?": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "choice",
@@ -1061,12 +1352,22 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "free",
           "discount"
         ],
-        "answer": "expensive"
+        "answer": "expensive",
+        "explanation": "In this context, “expensive” supplies the meaning or form targeted in Shopping & Money. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "small": "This option does not complete the communicative intent or target form tested by the question context.",
+          "free": "This option does not complete the communicative intent or target form tested by the question context.",
+          "discount": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "It ___ 50 dollars. (verb for price)",
-        "answer": "costs"
+        "answer": "costs",
+        "acceptedAnswers": [
+          "costs"
+        ],
+        "explanation": "In this context, “costs” supplies the meaning or form targeted in Shopping & Money. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -1077,14 +1378,27 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "How many cards?",
           "Do you take dollars?"
         ],
-        "answer": "Can I pay by card?"
+        "answer": "Can I pay by card?",
+        "explanation": "In this context, “Can I pay by card?” supplies the meaning or form targeted in Shopping & Money. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Where is the card?": "This option does not complete the communicative intent or target form tested by the question context.",
+          "How many cards?": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Do you take dollars?": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Foundation English",
     "categoryVi": "Tiếng Anh Nền tảng",
     "prerequisites": [
       "a1-10-review-unit2"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "dialogue",
+      "minTurns": 4,
+      "maxTurns": 6
+    }
   },
   "A1-12-directions": {
     "id": "a1-12-directions",
@@ -1098,7 +1412,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "vocab",
     "order": 12,
     "cefr": "A1",
-    "minutes": 20,
+    "minutes": 22,
     "tags": [
       "directions",
       "places",
@@ -1119,7 +1433,13 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Bank is where?",
           "Bank what?"
         ],
-        "answer": "Where is the bank?"
+        "answer": "Where is the bank?",
+        "explanation": "In this context, “Where is the bank?” supplies the meaning or form targeted in Directions & Places. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "I am the bank.": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Bank is where?": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Bank what?": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "choice",
@@ -1130,12 +1450,22 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "đi thẳng",
           "quay lại"
         ],
-        "answer": "rẽ trái"
+        "answer": "rẽ trái",
+        "explanation": "In this context, “rẽ trái” supplies the meaning or form targeted in Directions & Places. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "rẽ phải": "This option does not complete the communicative intent or target form tested by the question context.",
+          "đi thẳng": "This option does not complete the communicative intent or target form tested by the question context.",
+          "quay lại": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "Go ___ for two blocks. (đi thẳng = straight)",
-        "answer": "straight"
+        "answer": "straight",
+        "acceptedAnswers": [
+          "straight"
+        ],
+        "explanation": "In this context, “straight” supplies the meaning or form targeted in Directions & Places. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -1146,14 +1476,27 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "left",
           "straight"
         ],
-        "answer": "near"
+        "answer": "near",
+        "explanation": "In this context, “near” supplies the meaning or form targeted in Directions & Places. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "right": "This option does not complete the communicative intent or target form tested by the question context.",
+          "left": "This option does not complete the communicative intent or target form tested by the question context.",
+          "straight": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Foundation English",
     "categoryVi": "Tiếng Anh Nền tảng",
     "prerequisites": [
       "a1-11-shopping-money"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "dialogue",
+      "minTurns": 4,
+      "maxTurns": 6
+    }
   },
   "A1-13-can-cant": {
     "id": "a1-13-can-cant",
@@ -1167,7 +1510,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "grammar",
     "order": 13,
     "cefr": "A1",
-    "minutes": 18,
+    "minutes": 20,
     "tags": [
       "can",
       "cant",
@@ -1189,7 +1532,13 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "I can swim.",
           "I can swim to."
         ],
-        "answer": "I can swim."
+        "answer": "I can swim.",
+        "explanation": "In this context, “I can swim.” supplies the meaning or form targeted in Can and Can't. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "I can to swim.": "This option does not complete the communicative intent or target form tested by the question context.",
+          "I can swimming.": "This option does not complete the communicative intent or target form tested by the question context.",
+          "I can swim to.": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "choice",
@@ -1200,7 +1549,13 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "I can't swim.",
           "I no can swim."
         ],
-        "answer": "I can't swim."
+        "answer": "I can't swim.",
+        "explanation": "In this context, “I can't swim.” supplies the meaning or form targeted in Can and Can't. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "I can not to swim.": "This option does not complete the communicative intent or target form tested by the question context.",
+          "I don't can swim.": "This option does not complete the communicative intent or target form tested by the question context.",
+          "I no can swim.": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "choice",
@@ -1211,19 +1566,36 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Yes, I can't.",
           "I can."
         ],
-        "answer": "No, I can't."
+        "answer": "No, I can't.",
+        "explanation": "In this context, “No, I can't.” supplies the meaning or form targeted in Can and Can't. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Yes, I can.": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Yes, I can't.": "This option does not complete the communicative intent or target form tested by the question context.",
+          "I can.": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "Excuse me, ___ I open the window? (xin phép)",
-        "answer": "can"
+        "answer": "can",
+        "acceptedAnswers": [
+          "can"
+        ],
+        "explanation": "In this context, “can” supplies the meaning or form targeted in Can and Can't. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       }
     ],
     "categoryEn": "Foundation English",
     "categoryVi": "Tiếng Anh Nền tảng",
     "prerequisites": [
       "a1-12-directions"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 20,
+      "maxWords": 70
+    }
   },
   "A1-14-describing-people": {
     "id": "a1-14-describing-people",
@@ -1237,7 +1609,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "vocab",
     "order": 14,
     "cefr": "A1",
-    "minutes": 20,
+    "minutes": 22,
     "tags": [
       "describing",
       "people",
@@ -1258,12 +1630,22 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "friendly",
           "short"
         ],
-        "answer": "long"
+        "answer": "long",
+        "explanation": "In this context, “long” supplies the meaning or form targeted in Describing People. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "tall": "This option does not complete the communicative intent or target form tested by the question context.",
+          "friendly": "This option does not complete the communicative intent or target form tested by the question context.",
+          "short": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "She is ___ and friendly. (cao = tall)",
-        "answer": "tall"
+        "answer": "tall",
+        "acceptedAnswers": [
+          "tall"
+        ],
+        "explanation": "In this context, “tall” supplies the meaning or form targeted in Describing People. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -1274,19 +1656,36 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Friendly",
           "Young"
         ],
-        "answer": "Friendly"
+        "answer": "Friendly",
+        "explanation": "In this context, “Friendly” supplies the meaning or form targeted in Describing People. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Hair color": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Tall": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Young": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "He ___ black hair. (động từ sở hữu)",
-        "answer": "has"
+        "answer": "has",
+        "acceptedAnswers": [
+          "has"
+        ],
+        "explanation": "In this context, “has” supplies the meaning or form targeted in Describing People. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       }
     ],
     "categoryEn": "Foundation English",
     "categoryVi": "Tiếng Anh Nền tảng",
     "prerequisites": [
       "a1-13-can-cant"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "dialogue",
+      "minTurns": 4,
+      "maxTurns": 6
+    }
   },
   "A1-15-review-unit3": {
     "id": "a1-15-review-unit3",
@@ -1300,7 +1699,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "review",
     "order": 15,
     "cefr": "A1",
-    "minutes": 20,
+    "minutes": 22,
     "tags": [
       "review",
       "unit3",
@@ -1321,12 +1720,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "What is the price?",
           "Where is it?"
         ],
-        "answer": "What is the price?"
+        "answer": "What is the price?",
+        "explanation": "In this context, “What is the price?” supplies the meaning or form targeted in Review Unit 3. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "How many?": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Where is it?": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "Turn ___ at the traffic light.",
-        "answer": "left"
+        "answer": "left",
+        "acceptedAnswers": [
+          "left"
+        ],
+        "explanation": "In this context, “left” supplies the meaning or form targeted in Review Unit 3. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -1336,12 +1744,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "I can swim.",
           "I can swimming."
         ],
-        "answer": "I can swim."
+        "answer": "I can swim.",
+        "explanation": "In this context, “I can swim.” supplies the meaning or form targeted in Review Unit 3. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "I can to swim.": "This option does not complete the communicative intent or target form tested by the question context.",
+          "I can swimming.": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "She ___ black hair. (có)",
-        "answer": "has"
+        "answer": "has",
+        "acceptedAnswers": [
+          "has"
+        ],
+        "explanation": "In this context, “has” supplies the meaning or form targeted in Review Unit 3. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -1351,14 +1768,26 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Personality",
           "Height"
         ],
-        "answer": "Personality"
+        "answer": "Personality",
+        "explanation": "In this context, “Personality” supplies the meaning or form targeted in Review Unit 3. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Appearance": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Height": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Foundation English",
     "categoryVi": "Tiếng Anh Nền tảng",
     "prerequisites": [
       "a1-14-describing-people"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 20,
+      "maxWords": 70
+    }
   },
   "A2-01-asking-help": {
     "id": "a2-01-asking-help",
@@ -1372,7 +1801,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "vocab",
     "order": 1,
     "cefr": "A2",
-    "minutes": 10,
+    "minutes": 12,
     "tags": [
       "asking-help",
       "polite",
@@ -1391,12 +1820,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Could you help me with this box, please?",
           "Help!"
         ],
-        "answer": "Could you help me with this box, please?"
+        "answer": "Could you help me with this box, please?",
+        "explanation": "In this context, “Could you help me with this box, please?” supplies the meaning or form targeted in Asking for Help. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Give me that box.": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Help!": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "Excuse me, ___ you help me find the station?",
-        "answer": "could"
+        "answer": "could",
+        "acceptedAnswers": [
+          "could"
+        ],
+        "explanation": "In this context, “could” supplies the meaning or form targeted in Asking for Help. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -1406,14 +1844,26 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Would you mind helping me?",
           "Come here!"
         ],
-        "answer": "Would you mind helping me?"
+        "answer": "Would you mind helping me?",
+        "explanation": "In this context, “Would you mind helping me?” supplies the meaning or form targeted in Asking for Help. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Do this for me.": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Come here!": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Everyday Workplace English",
     "categoryVi": "Tiếng Anh Công việc Hằng ngày",
     "prerequisites": [
       "a1-15-review-unit3"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "dialogue",
+      "minTurns": 4,
+      "maxTurns": 6
+    }
   },
   "A2-02-daily-routine": {
     "id": "a2-02-daily-routine",
@@ -1427,7 +1877,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "grammar",
     "order": 2,
     "cefr": "A2",
-    "minutes": 10,
+    "minutes": 12,
     "tags": [
       "daily-routine",
       "present-simple",
@@ -1446,12 +1896,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "I wake up at six.",
           "I waking up at six."
         ],
-        "answer": "I wake up at six."
+        "answer": "I wake up at six.",
+        "explanation": "In this context, “I wake up at six.” supplies the meaning or form targeted in Daily Routine. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "I wakes up at six.": "This option does not complete the communicative intent or target form tested by the question context.",
+          "I waking up at six.": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "She ___ to school every morning. (go)",
-        "answer": "goes"
+        "answer": "goes",
+        "acceptedAnswers": [
+          "goes"
+        ],
+        "explanation": "In this context, “goes” supplies the meaning or form targeted in Daily Routine. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -1461,14 +1920,26 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "With he, she, it",
           "Never"
         ],
-        "answer": "With he, she, it"
+        "answer": "With he, she, it",
+        "explanation": "In this context, “With he, she, it” supplies the meaning or form targeted in Daily Routine. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "With I, you, we, they": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Never": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Everyday Workplace English",
     "categoryVi": "Tiếng Anh Công việc Hằng ngày",
     "prerequisites": [
       "a2-01-asking-help"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 28,
+      "maxWords": 90
+    }
   },
   "A2-03-comparatives": {
     "id": "a2-03-comparatives",
@@ -1482,7 +1953,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "reading",
     "order": 3,
     "cefr": "A2",
-    "minutes": 10,
+    "minutes": 12,
     "tags": [
       "comparatives",
       "adjectives",
@@ -1501,12 +1972,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "She is taller than me.",
           "She is tall than me."
         ],
-        "answer": "She is taller than me."
+        "answer": "She is taller than me.",
+        "explanation": "In this context, “She is taller than me.” supplies the meaning or form targeted in Comparatives. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "She is more tall than me.": "This option does not complete the communicative intent or target form tested by the question context.",
+          "She is tall than me.": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "This task is ___ than the last one. (easy)",
-        "answer": "easier"
+        "answer": "easier",
+        "acceptedAnswers": [
+          "easier"
+        ],
+        "explanation": "In this context, “easier” supplies the meaning or form targeted in Comparatives. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -1516,14 +1996,26 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "beautiful",
           "big"
         ],
-        "answer": "beautiful"
+        "answer": "beautiful",
+        "explanation": "In this context, “beautiful” supplies the meaning or form targeted in Comparatives. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "tall": "This option does not complete the communicative intent or target form tested by the question context.",
+          "big": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Everyday Workplace English",
     "categoryVi": "Tiếng Anh Công việc Hằng ngày",
     "prerequisites": [
       "a2-02-daily-routine"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 28,
+      "maxWords": 90
+    }
   },
   "A2-04-past-events": {
     "id": "a2-04-past-events",
@@ -1537,7 +2029,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "writing",
     "order": 4,
     "cefr": "A2",
-    "minutes": 10,
+    "minutes": 12,
     "tags": [
       "past-simple",
       "verbs",
@@ -1556,12 +2048,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "I went to school.",
           "I goed at school."
         ],
-        "answer": "I went to school."
+        "answer": "I went to school.",
+        "explanation": "In this context, “I went to school.” supplies the meaning or form targeted in Past Events. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "I goed to school.": "This option does not complete the communicative intent or target form tested by the question context.",
+          "I goed at school.": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "Yesterday, she ___ a new dress. (buy)",
-        "answer": "bought"
+        "answer": "bought",
+        "acceptedAnswers": [
+          "bought"
+        ],
+        "explanation": "In this context, “bought” supplies the meaning or form targeted in Past Events. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -1571,14 +2072,26 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "With you, we, they",
           "With all subjects"
         ],
-        "answer": "With I, he, she, it"
+        "answer": "With I, he, she, it",
+        "explanation": "In this context, “With I, he, she, it” supplies the meaning or form targeted in Past Events. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "With you, we, they": "This option does not complete the communicative intent or target form tested by the question context.",
+          "With all subjects": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Everyday Workplace English",
     "categoryVi": "Tiếng Anh Công việc Hằng ngày",
     "prerequisites": [
       "a2-03-comparatives"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 28,
+      "maxWords": 90
+    }
   },
   "A2-05-review-unit1": {
     "id": "a2-05-review-unit1",
@@ -1592,7 +2105,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "review",
     "order": 5,
     "cefr": "A2",
-    "minutes": 10,
+    "minutes": 11,
     "tags": [
       "review",
       "unit1",
@@ -1611,12 +2124,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Could you help me, please?",
           "Help me now!"
         ],
-        "answer": "Could you help me, please?"
+        "answer": "Could you help me, please?",
+        "explanation": "In this context, “Could you help me, please?” supplies the meaning or form targeted in Review Unit 1. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Give me help.": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Help me now!": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "I wake ___ at six every morning.",
-        "answer": "up"
+        "answer": "up",
+        "acceptedAnswers": [
+          "up"
+        ],
+        "explanation": "In this context, “up” supplies the meaning or form targeted in Review Unit 1. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -1626,12 +2148,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "beautifuller",
           "beautfuller"
         ],
-        "answer": "more beautiful"
+        "answer": "more beautiful",
+        "explanation": "In this context, “more beautiful” supplies the meaning or form targeted in Review Unit 1. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "beautifuller": "This option does not complete the communicative intent or target form tested by the question context.",
+          "beautfuller": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "Yesterday, she ___ to the market. (go)",
-        "answer": "went"
+        "answer": "went",
+        "acceptedAnswers": [
+          "went"
+        ],
+        "explanation": "In this context, “went” supplies the meaning or form targeted in Review Unit 1. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -1641,14 +2172,26 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "I am working.",
           "I worked late."
         ],
-        "answer": "I worked late."
+        "answer": "I worked late.",
+        "explanation": "In this context, “I worked late.” supplies the meaning or form targeted in Review Unit 1. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "I work at home.": "This option does not complete the communicative intent or target form tested by the question context.",
+          "I am working.": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Everyday Workplace English",
     "categoryVi": "Tiếng Anh Công việc Hằng ngày",
     "prerequisites": [
       "a2-04-past-events"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 28,
+      "maxWords": 90
+    }
   },
   "A2-06-email-basics": {
     "id": "a2-06-email-basics",
@@ -1662,7 +2205,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "vocab",
     "order": 6,
     "cefr": "A2",
-    "minutes": 10,
+    "minutes": 12,
     "tags": [
       "email",
       "writing",
@@ -1681,12 +2224,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Dear Sir or Madam,",
           "Hi mate!"
         ],
-        "answer": "Dear Sir or Madam,"
+        "answer": "Dear Sir or Madam,",
+        "explanation": "In this context, “Dear Sir or Madam,” supplies the meaning or form targeted in Email Basics. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Hey there!": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Hi mate!": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "I am writing to ___ about your product. (inquire)",
-        "answer": "inquire"
+        "answer": "inquire",
+        "acceptedAnswers": [
+          "inquire"
+        ],
+        "explanation": "In this context, “inquire” supplies the meaning or form targeted in Email Basics. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -1696,14 +2248,26 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Best regards",
           "Talk soon"
         ],
-        "answer": "Best regards"
+        "answer": "Best regards",
+        "explanation": "In this context, “Best regards” supplies the meaning or form targeted in Email Basics. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Cheers": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Talk soon": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Everyday Workplace English",
     "categoryVi": "Tiếng Anh Công việc Hằng ngày",
     "prerequisites": [
       "a2-05-review-unit1"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "dialogue",
+      "minTurns": 4,
+      "maxTurns": 6
+    }
   },
   "A2-07-phone-call": {
     "id": "a2-07-phone-call",
@@ -1717,7 +2281,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "grammar",
     "order": 7,
     "cefr": "A2",
-    "minutes": 10,
+    "minutes": 12,
     "tags": [
       "phone-call",
       "speaking",
@@ -1736,12 +2300,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Hello, this is [name] speaking.",
           "What's up?"
         ],
-        "answer": "Hello, this is [name] speaking."
+        "answer": "Hello, this is [name] speaking.",
+        "explanation": "In this context, “Hello, this is [name] speaking.” supplies the meaning or form targeted in Phone Call. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Yeah, who are you?": "This option does not complete the communicative intent or target form tested by the question context.",
+          "What's up?": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "Can I speak ___ Mr. Smith, please?",
-        "answer": "to"
+        "answer": "to",
+        "acceptedAnswers": [
+          "to"
+        ],
+        "explanation": "In this context, “to” supplies the meaning or form targeted in Phone Call. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -1751,14 +2324,26 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Could you take a message, please?",
           "Call back later."
         ],
-        "answer": "Could you take a message, please?"
+        "answer": "Could you take a message, please?",
+        "explanation": "In this context, “Could you take a message, please?” supplies the meaning or form targeted in Phone Call. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Put him on!": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Call back later.": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Everyday Workplace English",
     "categoryVi": "Tiếng Anh Công việc Hằng ngày",
     "prerequisites": [
       "a2-06-email-basics"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 28,
+      "maxWords": 90
+    }
   },
   "A2-08-future-plans": {
     "id": "a2-08-future-plans",
@@ -1772,7 +2357,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "reading",
     "order": 8,
     "cefr": "A2",
-    "minutes": 11,
+    "minutes": 12,
     "tags": [
       "future",
       "grammar",
@@ -1791,12 +2376,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "I am going to go to the cinema.",
           "I going to go to the cinema."
         ],
-        "answer": "I am going to go to the cinema."
+        "answer": "I am going to go to the cinema.",
+        "explanation": "In this context, “I am going to go to the cinema.” supplies the meaning or form targeted in Future Plans. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "I will go to the cinema.": "This option does not complete the communicative intent or target form tested by the question context.",
+          "I going to go to the cinema.": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "She ___ (call) you tomorrow. Choose: will / is going to",
-        "answer": "will"
+        "answer": "will",
+        "acceptedAnswers": [
+          "will"
+        ],
+        "explanation": "In this context, “will” supplies the meaning or form targeted in Future Plans. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -1806,14 +2400,26 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "For spontaneous decisions or predictions",
           "For past events"
         ],
-        "answer": "For spontaneous decisions or predictions"
+        "answer": "For spontaneous decisions or predictions",
+        "explanation": "In this context, “For spontaneous decisions or predictions” supplies the meaning or form targeted in Future Plans. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "For planned decisions": "This option does not complete the communicative intent or target form tested by the question context.",
+          "For past events": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Everyday Workplace English",
     "categoryVi": "Tiếng Anh Công việc Hằng ngày",
     "prerequisites": [
       "a2-07-phone-call"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 28,
+      "maxWords": 90
+    }
   },
   "A2-09-should-must": {
     "id": "a2-09-should-must",
@@ -1827,7 +2433,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "writing",
     "order": 9,
     "cefr": "A2",
-    "minutes": 10,
+    "minutes": 12,
     "tags": [
       "should",
       "must",
@@ -1847,12 +2453,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "You should try this restaurant.",
           "You will go to school."
         ],
-        "answer": "You should try this restaurant."
+        "answer": "You should try this restaurant.",
+        "explanation": "In this context, “You should try this restaurant.” supplies the meaning or form targeted in Should and Must. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "You must be on time.": "This option does not complete the communicative intent or target form tested by the question context.",
+          "You will go to school.": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "You ___ finish your work before the deadline. (must/should)",
-        "answer": "must"
+        "answer": "must",
+        "acceptedAnswers": [
+          "must"
+        ],
+        "explanation": "In this context, “must” supplies the meaning or form targeted in Should and Must. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -1862,14 +2477,26 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Should is advice, must is strong obligation.",
           "Must is for past tense."
         ],
-        "answer": "Should is advice, must is strong obligation."
+        "answer": "Should is advice, must is strong obligation.",
+        "explanation": "In this context, “Should is advice, must is strong obligation.” supplies the meaning or form targeted in Should and Must. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "They mean the same thing.": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Must is for past tense.": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Everyday Workplace English",
     "categoryVi": "Tiếng Anh Công việc Hằng ngày",
     "prerequisites": [
       "a2-08-future-plans"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 28,
+      "maxWords": 90
+    }
   },
   "A2-10-review-unit2": {
     "id": "a2-10-review-unit2",
@@ -1883,7 +2510,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "review",
     "order": 10,
     "cefr": "A2",
-    "minutes": 10,
+    "minutes": 11,
     "tags": [
       "review",
       "unit2",
@@ -1902,12 +2529,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Dear Sir or Madam,",
           "What's up?"
         ],
-        "answer": "Dear Sir or Madam,"
+        "answer": "Dear Sir or Madam,",
+        "explanation": "In this context, “Dear Sir or Madam,” supplies the meaning or form targeted in Review Unit 2. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Hey buddy!": "This option does not complete the communicative intent or target form tested by the question context.",
+          "What's up?": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "I ___ (go) to Hanoi next week. Choose: will / am going to",
-        "answer": "am going to"
+        "answer": "am going to",
+        "acceptedAnswers": [
+          "am going to"
+        ],
+        "explanation": "In this context, “am going to” supplies the meaning or form targeted in Review Unit 2. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -1917,12 +2553,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "You must wear a helmet.",
           "You will come tomorrow."
         ],
-        "answer": "You must wear a helmet."
+        "answer": "You must wear a helmet.",
+        "explanation": "In this context, “You must wear a helmet.” supplies the meaning or form targeted in Review Unit 2. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "You should eat vegetables.": "This option does not complete the communicative intent or target form tested by the question context.",
+          "You will come tomorrow.": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "Can I speak ___ Mr. Smith, please?",
-        "answer": "to"
+        "answer": "to",
+        "acceptedAnswers": [
+          "to"
+        ],
+        "explanation": "In this context, “to” supplies the meaning or form targeted in Review Unit 2. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -1932,14 +2577,26 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Best regards,",
           "Cheers mate!"
         ],
-        "answer": "Best regards,"
+        "answer": "Best regards,",
+        "explanation": "In this context, “Best regards,” supplies the meaning or form targeted in Review Unit 2. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Talk soon!": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Cheers mate!": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Everyday Workplace English",
     "categoryVi": "Tiếng Anh Công việc Hằng ngày",
     "prerequisites": [
       "a2-09-should-must"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 28,
+      "maxWords": 90
+    }
   },
   "A2-11-small-talk": {
     "id": "a2-11-small-talk",
@@ -1953,7 +2610,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "vocab",
     "order": 11,
     "cefr": "A2",
-    "minutes": 10,
+    "minutes": 12,
     "tags": [
       "small-talk",
       "speaking",
@@ -1972,12 +2629,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Politics",
           "Religion"
         ],
-        "answer": "The weather"
+        "answer": "The weather",
+        "explanation": "In this context, “The weather” supplies the meaning or form targeted in Small Talk. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Politics": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Religion": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "How was your ___?",
-        "answer": "weekend"
+        "answer": "weekend",
+        "acceptedAnswers": [
+          "weekend"
+        ],
+        "explanation": "In this context, “weekend” supplies the meaning or form targeted in Small Talk. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -1987,14 +2653,26 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "I love this weather.",
           "How much do you earn?"
         ],
-        "answer": "How much do you earn?"
+        "answer": "How much do you earn?",
+        "explanation": "In this context, “How much do you earn?” supplies the meaning or form targeted in Small Talk. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "How about that game?": "This option does not complete the communicative intent or target form tested by the question context.",
+          "I love this weather.": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Everyday Workplace English",
     "categoryVi": "Tiếng Anh Công việc Hằng ngày",
     "prerequisites": [
       "a2-10-review-unit2"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "dialogue",
+      "minTurns": 4,
+      "maxTurns": 6
+    }
   },
   "A2-12-opinions": {
     "id": "a2-12-opinions",
@@ -2008,7 +2686,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "grammar",
     "order": 12,
     "cefr": "A2",
-    "minutes": 10,
+    "minutes": 12,
     "tags": [
       "opinions",
       "grammar",
@@ -2027,12 +2705,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "I think this is good.",
           "I thinked this is good."
         ],
-        "answer": "I think this is good."
+        "answer": "I think this is good.",
+        "explanation": "In this context, “I think this is good.” supplies the meaning or form targeted in Opinions. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "I am thinking this is good.": "This option does not complete the communicative intent or target form tested by the question context.",
+          "I thinked this is good.": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "In my ___, we should try again. (opinion)",
-        "answer": "opinion"
+        "answer": "opinion",
+        "acceptedAnswers": [
+          "opinion"
+        ],
+        "explanation": "In this context, “opinion” supplies the meaning or form targeted in Opinions. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -2042,14 +2729,26 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "I want",
           "I feel"
         ],
-        "answer": "I want"
+        "answer": "I want",
+        "explanation": "In this context, “I want” supplies the meaning or form targeted in Opinions. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "I believe": "This option does not complete the communicative intent or target form tested by the question context.",
+          "I feel": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Everyday Workplace English",
     "categoryVi": "Tiếng Anh Công việc Hằng ngày",
     "prerequisites": [
       "a2-11-small-talk"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 28,
+      "maxWords": 90
+    }
   },
   "A2-13-experiences": {
     "id": "a2-13-experiences",
@@ -2063,7 +2762,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "grammar",
     "order": 13,
     "cefr": "A2",
-    "minutes": 10,
+    "minutes": 12,
     "tags": [
       "grammar",
       "present-perfect",
@@ -2082,12 +2781,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "I have visit Tokyo.",
           "I visited have Tokyo."
         ],
-        "answer": "I have visited Tokyo."
+        "answer": "I have visited Tokyo.",
+        "explanation": "In this context, “I have visited Tokyo.” supplies the meaning or form targeted in Experiences. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "I have visit Tokyo.": "This option does not complete the communicative intent or target form tested by the question context.",
+          "I visited have Tokyo.": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "She ___ lived here for three years.",
-        "answer": "has"
+        "answer": "has",
+        "acceptedAnswers": [
+          "has"
+        ],
+        "explanation": "In this context, “has” supplies the meaning or form targeted in Experiences. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -2097,14 +2805,26 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "try",
           "trying"
         ],
-        "answer": "tried"
+        "answer": "tried",
+        "explanation": "In this context, “tried” supplies the meaning or form targeted in Experiences. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "try": "This option does not complete the communicative intent or target form tested by the question context.",
+          "trying": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Everyday Workplace English",
     "categoryVi": "Tiếng Anh Công việc Hằng ngày",
     "prerequisites": [
       "a2-12-opinions"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 28,
+      "maxWords": 90
+    }
   },
   "A2-14-short-reading": {
     "id": "a2-14-short-reading",
@@ -2118,7 +2838,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "reading",
     "order": 14,
     "cefr": "A2",
-    "minutes": 10,
+    "minutes": 12,
     "tags": [
       "reading",
       "short-text",
@@ -2137,12 +2857,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Twelve",
           "Twenty"
         ],
-        "answer": "Twelve"
+        "answer": "Twelve",
+        "explanation": "In this context, “Twelve” supplies the meaning or form targeted in Short Reading. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Two": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Twenty": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "Tom has worked at the same company ___ 2018.",
-        "answer": "since"
+        "answer": "since",
+        "acceptedAnswers": [
+          "since"
+        ],
+        "explanation": "In this context, “since” supplies the meaning or form targeted in Short Reading. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -2152,14 +2881,26 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Present perfect",
           "Future"
         ],
-        "answer": "Present perfect"
+        "answer": "Present perfect",
+        "explanation": "In this context, “Present perfect” supplies the meaning or form targeted in Short Reading. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Past simple": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Future": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Everyday Workplace English",
     "categoryVi": "Tiếng Anh Công việc Hằng ngày",
     "prerequisites": [
       "a2-13-experiences"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 28,
+      "maxWords": 90
+    }
   },
   "A2-15-review-unit3": {
     "id": "a2-15-review-unit3",
@@ -2173,7 +2914,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "review",
     "order": 15,
     "cefr": "A2",
-    "minutes": 10,
+    "minutes": 12,
     "tags": [
       "review",
       "unit3",
@@ -2194,12 +2935,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Lovely weather today, isn't it?",
           "Where is the train station?"
         ],
-        "answer": "Lovely weather today, isn't it?"
+        "answer": "Lovely weather today, isn't it?",
+        "explanation": "In this context, “Lovely weather today, isn't it?” supplies the meaning or form targeted in Review Unit 3. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Please give me the file.": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Where is the train station?": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "In my ___, we should wait. (opinion)",
-        "answer": "opinion"
+        "answer": "opinion",
+        "acceptedAnswers": [
+          "opinion"
+        ],
+        "explanation": "In this context, “opinion” supplies the meaning or form targeted in Review Unit 3. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -2209,12 +2959,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Present perfect",
           "Future"
         ],
-        "answer": "Present perfect"
+        "answer": "Present perfect",
+        "explanation": "In this context, “Present perfect” supplies the meaning or form targeted in Review Unit 3. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Past simple": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Future": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "She has worked here ___ 2018.",
-        "answer": "since"
+        "answer": "since",
+        "acceptedAnswers": [
+          "since"
+        ],
+        "explanation": "In this context, “since” supplies the meaning or form targeted in Review Unit 3. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -2224,14 +2983,26 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "I think",
           "I order"
         ],
-        "answer": "I order"
+        "answer": "I order",
+        "explanation": "In this context, “I order” supplies the meaning or form targeted in Review Unit 3. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "I believe": "This option does not complete the communicative intent or target form tested by the question context.",
+          "I think": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Everyday Workplace English",
     "categoryVi": "Tiếng Anh Công việc Hằng ngày",
     "prerequisites": [
       "a2-14-short-reading"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 28,
+      "maxWords": 90
+    }
   },
   "B1-01-travel-transport": {
     "id": "b1-01-travel-transport",
@@ -2245,7 +3016,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "vocab",
     "order": 1,
     "cefr": "B1",
-    "minutes": 11,
+    "minutes": 13,
     "tags": [
       "travel",
       "transport",
@@ -2265,12 +3036,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Go swimming",
           "Cook dinner"
         ],
-        "answer": "Check in online"
+        "answer": "Check in online",
+        "explanation": "In this context, “Check in online” supplies the meaning or form targeted in Travel & Transport. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Go swimming": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Cook dinner": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "I need to ___ my passport before traveling abroad.",
-        "answer": "renew"
+        "answer": "renew",
+        "acceptedAnswers": [
+          "renew"
+        ],
+        "explanation": "In this context, “renew” supplies the meaning or form targeted in Travel & Transport. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -2280,14 +3060,26 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Airplane",
           "Walking"
         ],
-        "answer": "Airplane"
+        "answer": "Airplane",
+        "explanation": "In this context, “Airplane” supplies the meaning or form targeted in Travel & Transport. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Bicycle": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Walking": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Independent Workplace Communication",
     "categoryVi": "Giao tiếp Công việc Độc lập",
     "prerequisites": [
       "a2-15-review-unit3"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "dialogue",
+      "minTurns": 4,
+      "maxTurns": 6
+    }
   },
   "B1-02-past-tenses": {
     "id": "b1-02-past-tenses",
@@ -2301,7 +3093,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "grammar",
     "order": 2,
     "cefr": "B1",
-    "minutes": 11,
+    "minutes": 13,
     "tags": [
       "past-tenses",
       "grammar",
@@ -2323,12 +3115,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Past Continuous",
           "Future Simple"
         ],
-        "answer": "Past Continuous"
+        "answer": "Past Continuous",
+        "explanation": "In this context, “Past Continuous” supplies the meaning or form targeted in Past Tenses & Narratives. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Past Simple": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Future Simple": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "I ___ (study) when the phone rang.",
-        "answer": "was studying"
+        "answer": "was studying",
+        "acceptedAnswers": [
+          "was studying"
+        ],
+        "explanation": "In this context, “was studying” supplies the meaning or form targeted in Past Tenses & Narratives. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -2338,14 +3139,26 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "For current actions",
           "For future plans"
         ],
-        "answer": "For actions that happened before another past action"
+        "answer": "For actions that happened before another past action",
+        "explanation": "In this context, “For actions that happened before another past action” supplies the meaning or form targeted in Past Tenses & Narratives. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "For current actions": "This option does not complete the communicative intent or target form tested by the question context.",
+          "For future plans": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Independent Workplace Communication",
     "categoryVi": "Giao tiếp Công việc Độc lập",
     "prerequisites": [
       "b1-01-travel-transport"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 45,
+      "maxWords": 135
+    }
   },
   "B1-03-travel-blogs": {
     "id": "b1-03-travel-blogs",
@@ -2359,7 +3172,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "reading",
     "order": 3,
     "cefr": "B1",
-    "minutes": 12,
+    "minutes": 14,
     "tags": [
       "reading",
       "travel",
@@ -2380,12 +3193,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "A type of food",
           "A transportation ticket"
         ],
-        "answer": "A gift you buy to remember a place"
+        "answer": "A gift you buy to remember a place",
+        "explanation": "In this context, “A gift you buy to remember a place” supplies the meaning or form targeted in Travel Blogs & Postcards. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "A type of food": "This option does not complete the communicative intent or target form tested by the question context.",
+          "A transportation ticket": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "The food was absolutely ___ — I've never tasted anything like it!",
-        "answer": "delicious"
+        "answer": "delicious",
+        "acceptedAnswers": [
+          "delicious"
+        ],
+        "explanation": "In this context, “delicious” supplies the meaning or form targeted in Travel Blogs & Postcards. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -2395,14 +3217,26 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Busy and full of activity",
           "Very small"
         ],
-        "answer": "Busy and full of activity"
+        "answer": "Busy and full of activity",
+        "explanation": "In this context, “Busy and full of activity” supplies the meaning or form targeted in Travel Blogs & Postcards. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Quiet and peaceful": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Very small": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Independent Workplace Communication",
     "categoryVi": "Giao tiếp Công việc Độc lập",
     "prerequisites": [
       "b1-02-past-tenses"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 45,
+      "maxWords": 135
+    }
   },
   "B1-04-email-friend": {
     "id": "b1-04-email-friend",
@@ -2416,7 +3250,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "writing",
     "order": 4,
     "cefr": "B1",
-    "minutes": 12,
+    "minutes": 14,
     "tags": [
       "writing",
       "email",
@@ -2436,12 +3270,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Hi [Name],",
           "To Whom It May Concern,"
         ],
-        "answer": "Hi [Name],"
+        "answer": "Hi [Name],",
+        "explanation": "In this context, “Hi [Name],” supplies the meaning or form targeted in Writing an Email to a Friend. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Dear Sir/Madam,": "This option does not complete the communicative intent or target form tested by the question context.",
+          "To Whom It May Concern,": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "It's been a while ___ we last spoke.",
-        "answer": "since"
+        "answer": "since",
+        "acceptedAnswers": [
+          "since"
+        ],
+        "explanation": "In this context, “since” supplies the meaning or form targeted in Writing an Email to a Friend. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -2451,14 +3294,26 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Best regards,",
           "Love,"
         ],
-        "answer": "Love,"
+        "answer": "Love,",
+        "explanation": "In this context, “Love,” supplies the meaning or form targeted in Writing an Email to a Friend. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Yours faithfully,": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Best regards,": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Independent Workplace Communication",
     "categoryVi": "Giao tiếp Công việc Độc lập",
     "prerequisites": [
       "b1-03-travel-blogs"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 45,
+      "maxWords": 135
+    }
   },
   "B1-05-review-unit1": {
     "id": "b1-05-review-unit1",
@@ -2472,7 +3327,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "review",
     "order": 5,
     "cefr": "B1",
-    "minutes": 11,
+    "minutes": 13,
     "tags": [
       "review",
       "unit1",
@@ -2494,12 +3349,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "She was walking",
           "She is walking"
         ],
-        "answer": "She was walking"
+        "answer": "She was walking",
+        "explanation": "In this context, “She was walking” supplies the meaning or form targeted in Review Unit 1. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "She walked": "This option does not complete the communicative intent or target form tested by the question context.",
+          "She is walking": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "I ___ (see) the movie before you recommended it. (Past Perfect)",
-        "answer": "had seen"
+        "answer": "had seen",
+        "acceptedAnswers": [
+          "had seen"
+        ],
+        "explanation": "In this context, “had seen” supplies the meaning or form targeted in Review Unit 1. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -2509,12 +3373,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "To whom it may concern,",
           "Love,"
         ],
-        "answer": "Love,"
+        "answer": "Love,",
+        "explanation": "In this context, “Love,” supplies the meaning or form targeted in Review Unit 1. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Yours faithfully,": "This option does not complete the communicative intent or target form tested by the question context.",
+          "To whom it may concern,": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "My flight ___ at 8 PM tomorrow.",
-        "answer": "departs"
+        "answer": "departs",
+        "acceptedAnswers": [
+          "departs"
+        ],
+        "explanation": "In this context, “departs” supplies the meaning or form targeted in Review Unit 1. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -2524,14 +3397,26 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "I walking when I saw her.",
           "I was walk when I saw her."
         ],
-        "answer": "I was walking when I saw her."
+        "answer": "I was walking when I saw her.",
+        "explanation": "In this context, “I was walking when I saw her.” supplies the meaning or form targeted in Review Unit 1. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "I walking when I saw her.": "This option does not complete the communicative intent or target form tested by the question context.",
+          "I was walk when I saw her.": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Independent Workplace Communication",
     "categoryVi": "Giao tiếp Công việc Độc lập",
     "prerequisites": [
       "b1-04-email-friend"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 45,
+      "maxWords": 135
+    }
   },
   "B1-06-work-routines": {
     "id": "b1-06-work-routines",
@@ -2545,7 +3430,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "vocab",
     "order": 6,
     "cefr": "B1",
-    "minutes": 11,
+    "minutes": 13,
     "tags": [
       "work",
       "job",
@@ -2566,12 +3451,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "The time when something must be finished",
           "A meeting room"
         ],
-        "answer": "The time when something must be finished"
+        "answer": "The time when something must be finished",
+        "explanation": "In this context, “The time when something must be finished” supplies the meaning or form targeted in Work & Daily Routines. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "A type of office chair": "This option does not complete the communicative intent or target form tested by the question context.",
+          "A meeting room": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "I need to ___ this document before the meeting.",
-        "answer": "review"
+        "answer": "review",
+        "acceptedAnswers": [
+          "review"
+        ],
+        "explanation": "In this context, “review” supplies the meaning or form targeted in Work & Daily Routines. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -2581,14 +3475,26 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "To supervise",
           "To vacation"
         ],
-        "answer": "To supervise"
+        "answer": "To supervise",
+        "explanation": "In this context, “To supervise” supplies the meaning or form targeted in Work & Daily Routines. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "To work": "This option does not complete the communicative intent or target form tested by the question context.",
+          "To vacation": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Independent Workplace Communication",
     "categoryVi": "Giao tiếp Công việc Độc lập",
     "prerequisites": [
       "b1-05-review-unit1"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "dialogue",
+      "minTurns": 4,
+      "maxTurns": 6
+    }
   },
   "B1-07-modals-obligation": {
     "id": "b1-07-modals-obligation",
@@ -2602,7 +3508,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "grammar",
     "order": 7,
     "cefr": "B1",
-    "minutes": 11,
+    "minutes": 13,
     "tags": [
       "modals",
       "obligation",
@@ -2623,12 +3529,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "must",
           "might"
         ],
-        "answer": "must"
+        "answer": "must",
+        "explanation": "In this context, “must” supplies the meaning or form targeted in Modals of Obligation & Advice. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "should": "This option does not complete the communicative intent or target form tested by the question context.",
+          "might": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "You ___ see a doctor — you look really tired.",
-        "answer": "should"
+        "answer": "should",
+        "acceptedAnswers": [
+          "should"
+        ],
+        "explanation": "In this context, “should” supplies the meaning or form targeted in Modals of Obligation & Advice. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -2638,14 +3553,26 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "had to",
           "should have"
         ],
-        "answer": "had to"
+        "answer": "had to",
+        "explanation": "In this context, “had to” supplies the meaning or form targeted in Modals of Obligation & Advice. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "must": "This option does not complete the communicative intent or target form tested by the question context.",
+          "should have": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Independent Workplace Communication",
     "categoryVi": "Giao tiếp Công việc Độc lập",
     "prerequisites": [
       "b1-06-work-routines"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 45,
+      "maxWords": 135
+    }
   },
   "B1-08-lifestyle-article": {
     "id": "b1-08-lifestyle-article",
@@ -2659,7 +3586,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "reading",
     "order": 8,
     "cefr": "B1",
-    "minutes": 12,
+    "minutes": 14,
     "tags": [
       "reading",
       "lifestyle",
@@ -2679,12 +3606,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "A healthy separation between job and personal time",
           "Working more hours"
         ],
-        "answer": "A healthy separation between job and personal time"
+        "answer": "A healthy separation between job and personal time",
+        "explanation": "In this context, “A healthy separation between job and personal time” supplies the meaning or form targeted in Magazine Article: Healthy Lifestyle. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Only working, no personal life": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Working more hours": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "You should take regular ___ to stay productive.",
-        "answer": "breaks"
+        "answer": "breaks",
+        "acceptedAnswers": [
+          "breaks"
+        ],
+        "explanation": "In this context, “breaks” supplies the meaning or form targeted in Magazine Article: Healthy Lifestyle. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -2694,14 +3630,26 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "A lifestyle with little physical activity",
           "A very busy schedule"
         ],
-        "answer": "A lifestyle with little physical activity"
+        "answer": "A lifestyle with little physical activity",
+        "explanation": "In this context, “A lifestyle with little physical activity” supplies the meaning or form targeted in Magazine Article: Healthy Lifestyle. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "An active lifestyle with lots of exercise": "This option does not complete the communicative intent or target form tested by the question context.",
+          "A very busy schedule": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Independent Workplace Communication",
     "categoryVi": "Giao tiếp Công việc Độc lập",
     "prerequisites": [
       "b1-07-modals-obligation"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 45,
+      "maxWords": 135
+    }
   },
   "B1-09-job-application": {
     "id": "b1-09-job-application",
@@ -2715,7 +3663,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "writing",
     "order": 9,
     "cefr": "B1",
-    "minutes": 12,
+    "minutes": 14,
     "tags": [
       "writing",
       "job",
@@ -2736,12 +3684,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "The position you are applying for",
           "Your salary expectations"
         ],
-        "answer": "The position you are applying for"
+        "answer": "The position you are applying for",
+        "explanation": "In this context, “The position you are applying for” supplies the meaning or form targeted in Writing a Job Application Letter. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Your hobbies": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Your salary expectations": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "I am writing to ___ for the Marketing Manager position.",
-        "answer": "apply"
+        "answer": "apply",
+        "acceptedAnswers": [
+          "apply"
+        ],
+        "explanation": "In this context, “apply” supplies the meaning or form targeted in Writing a Job Application Letter. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -2751,14 +3708,26 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Yours faithfully,",
           "See ya!"
         ],
-        "answer": "Yours faithfully,"
+        "answer": "Yours faithfully,",
+        "explanation": "In this context, “Yours faithfully,” supplies the meaning or form targeted in Writing a Job Application Letter. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Love,": "This option does not complete the communicative intent or target form tested by the question context.",
+          "See ya!": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Independent Workplace Communication",
     "categoryVi": "Giao tiếp Công việc Độc lập",
     "prerequisites": [
       "b1-08-lifestyle-article"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 45,
+      "maxWords": 135
+    }
   },
   "B1-10-review-unit2": {
     "id": "b1-10-review-unit2",
@@ -2772,7 +3741,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "review",
     "order": 10,
     "cefr": "B1",
-    "minutes": 11,
+    "minutes": 13,
     "tags": [
       "review",
       "unit2",
@@ -2794,12 +3763,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "should",
           "had to"
         ],
-        "answer": "should"
+        "answer": "should",
+        "explanation": "In this context, “should” supplies the meaning or form targeted in Review Unit 2. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "must": "This option does not complete the communicative intent or target form tested by the question context.",
+          "had to": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "I ___ (have to) work late yesterday.",
-        "answer": "had to"
+        "answer": "had to",
+        "acceptedAnswers": [
+          "had to"
+        ],
+        "explanation": "In this context, “had to” supplies the meaning or form targeted in Review Unit 2. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -2809,12 +3787,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Yours faithfully,",
           "Best,"
         ],
-        "answer": "Yours faithfully,"
+        "answer": "Yours faithfully,",
+        "explanation": "In this context, “Yours faithfully,” supplies the meaning or form targeted in Review Unit 2. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Love,": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Best,": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "The project has a ___ next Friday.",
-        "answer": "deadline"
+        "answer": "deadline",
+        "acceptedAnswers": [
+          "deadline"
+        ],
+        "explanation": "In this context, “deadline” supplies the meaning or form targeted in Review Unit 2. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -2824,14 +3811,26 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Having choices about when or how you work",
           "Being very strict"
         ],
-        "answer": "Having choices about when or how you work"
+        "answer": "Having choices about when or how you work",
+        "explanation": "In this context, “Having choices about when or how you work” supplies the meaning or form targeted in Review Unit 2. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Working only at night": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Being very strict": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Independent Workplace Communication",
     "categoryVi": "Giao tiếp Công việc Độc lập",
     "prerequisites": [
       "b1-09-job-application"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 45,
+      "maxWords": 135
+    }
   },
   "B1-11-food-cooking": {
     "id": "b1-11-food-cooking",
@@ -2845,7 +3844,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "vocab",
     "order": 11,
     "cefr": "B1",
-    "minutes": 11,
+    "minutes": 12,
     "tags": [
       "food",
       "cooking",
@@ -2866,12 +3865,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "To cut into small pieces",
           "To stir"
         ],
-        "answer": "To cut into small pieces"
+        "answer": "To cut into small pieces",
+        "explanation": "In this context, “To cut into small pieces” supplies the meaning or form targeted in Food & Cooking. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "To boil": "This option does not complete the communicative intent or target form tested by the question context.",
+          "To stir": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "You need to ___ the onions before adding them to the pan.",
-        "answer": "chop"
+        "answer": "chop",
+        "acceptedAnswers": [
+          "chop"
+        ],
+        "explanation": "In this context, “chop” supplies the meaning or form targeted in Food & Cooking. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -2881,14 +3889,26 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Something you use in a recipe",
           "A type of restaurant"
         ],
-        "answer": "Something you use in a recipe"
+        "answer": "Something you use in a recipe",
+        "explanation": "In this context, “Something you use in a recipe” supplies the meaning or form targeted in Food & Cooking. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "A cooking tool": "This option does not complete the communicative intent or target form tested by the question context.",
+          "A type of restaurant": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Independent Workplace Communication",
     "categoryVi": "Giao tiếp Công việc Độc lập",
     "prerequisites": [
       "b1-10-review-unit2"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "dialogue",
+      "minTurns": 4,
+      "maxTurns": 6
+    }
   },
   "B1-12-conditionals": {
     "id": "b1-12-conditionals",
@@ -2902,7 +3922,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "grammar",
     "order": 12,
     "cefr": "B1",
-    "minutes": 11,
+    "minutes": 14,
     "tags": [
       "conditionals",
       "grammar",
@@ -2922,12 +3942,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "For real and likely situations",
           "For past events"
         ],
-        "answer": "For real and likely situations"
+        "answer": "For real and likely situations",
+        "explanation": "In this context, “For real and likely situations” supplies the meaning or form targeted in First & Second Conditionals. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "For imaginary situations": "This option does not complete the communicative intent or target form tested by the question context.",
+          "For past events": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "If I ___ (have) more money, I would buy a car.",
-        "answer": "had"
+        "answer": "had",
+        "acceptedAnswers": [
+          "had"
+        ],
+        "explanation": "In this context, “had” supplies the meaning or form targeted in First & Second Conditionals. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -2937,14 +3966,26 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "If she studied, she would pass.",
           "If she studied, she passes."
         ],
-        "answer": "If she studied, she would pass."
+        "answer": "If she studied, she would pass.",
+        "explanation": "In this context, “If she studied, she would pass.” supplies the meaning or form targeted in First & Second Conditionals. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "If she studies, she passes.": "This option does not complete the communicative intent or target form tested by the question context.",
+          "If she studied, she passes.": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Independent Workplace Communication",
     "categoryVi": "Giao tiếp Công việc Độc lập",
     "prerequisites": [
       "b1-11-food-cooking"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 45,
+      "maxWords": 135
+    }
   },
   "B1-13-recipe-menu": {
     "id": "b1-13-recipe-menu",
@@ -2958,7 +3999,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "reading",
     "order": 13,
     "cefr": "B1",
-    "minutes": 12,
+    "minutes": 14,
     "tags": [
       "reading",
       "recipe",
@@ -2979,12 +4020,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Heat the oven before using it",
           "Clean the oven"
         ],
-        "answer": "Heat the oven before using it"
+        "answer": "Heat the oven before using it",
+        "explanation": "In this context, “Heat the oven before using it” supplies the meaning or form targeted in Recipes & Menus. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Turn off the oven": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Clean the oven": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "The recipe says to ___ the mixture for 5 minutes.",
-        "answer": "stir"
+        "answer": "stir",
+        "acceptedAnswers": [
+          "stir"
+        ],
+        "explanation": "In this context, “stir” supplies the meaning or form targeted in Recipes & Menus. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -2994,14 +4044,26 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "A small dish before the main course",
           "A dessert"
         ],
-        "answer": "A small dish before the main course"
+        "answer": "A small dish before the main course",
+        "explanation": "In this context, “A small dish before the main course” supplies the meaning or form targeted in Recipes & Menus. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "The main dish": "This option does not complete the communicative intent or target form tested by the question context.",
+          "A dessert": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Independent Workplace Communication",
     "categoryVi": "Giao tiếp Công việc Độc lập",
     "prerequisites": [
       "b1-12-conditionals"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 45,
+      "maxWords": 135
+    }
   },
   "B1-14-blog-review": {
     "id": "b1-14-blog-review",
@@ -3015,7 +4077,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "writing",
     "order": 14,
     "cefr": "B1",
-    "minutes": 12,
+    "minutes": 14,
     "tags": [
       "writing",
       "blog",
@@ -3036,12 +4098,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "To share your opinion about something",
           "To write a formal letter"
         ],
-        "answer": "To share your opinion about something"
+        "answer": "To share your opinion about something",
+        "explanation": "In this context, “To share your opinion about something” supplies the meaning or form targeted in Writing a Blog Post or Review. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "To tell a fictional story": "This option does not complete the communicative intent or target form tested by the question context.",
+          "To write a formal letter": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "The food was absolutely ___ — I've never tasted anything better!",
-        "answer": "delicious"
+        "answer": "delicious",
+        "acceptedAnswers": [
+          "delicious"
+        ],
+        "explanation": "In this context, “delicious” supplies the meaning or form targeted in Writing a Blog Post or Review. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -3051,14 +4122,26 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "I would definitely recommend this place.",
           "The worst experience ever."
         ],
-        "answer": "I would definitely recommend this place."
+        "answer": "I would definitely recommend this place.",
+        "explanation": "In this context, “I would definitely recommend this place.” supplies the meaning or form targeted in Writing a Blog Post or Review. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "I would not recommend this.": "This option does not complete the communicative intent or target form tested by the question context.",
+          "The worst experience ever.": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Independent Workplace Communication",
     "categoryVi": "Giao tiếp Công việc Độc lập",
     "prerequisites": [
       "b1-13-recipe-menu"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 45,
+      "maxWords": 135
+    }
   },
   "B1-15-review-unit3": {
     "id": "b1-15-review-unit3",
@@ -3072,7 +4155,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "review",
     "order": 15,
     "cefr": "B1",
-    "minutes": 11,
+    "minutes": 13,
     "tags": [
       "review",
       "unit3",
@@ -3094,12 +4177,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "To bake",
           "To fry"
         ],
-        "answer": "To fry"
+        "answer": "To fry",
+        "explanation": "In this context, “To fry” supplies the meaning or form targeted in Review Unit 3. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "To boil": "This option does not complete the communicative intent or target form tested by the question context.",
+          "To bake": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "If I ___ (have) a lot of money, I would buy a house.",
-        "answer": "had"
+        "answer": "had",
+        "acceptedAnswers": [
+          "had"
+        ],
+        "explanation": "In this context, “had” supplies the meaning or form targeted in Review Unit 3. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -3109,12 +4201,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "If I study, I will pass.",
           "If I studied, I will pass."
         ],
-        "answer": "If I study, I will pass."
+        "answer": "If I study, I will pass.",
+        "explanation": "In this context, “If I study, I will pass.” supplies the meaning or form targeted in Review Unit 3. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "If I studied, I would pass.": "This option does not complete the communicative intent or target form tested by the question context.",
+          "If I studied, I will pass.": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "The food was absolutely ___ — it was delicious!",
-        "answer": "delicious"
+        "answer": "delicious",
+        "acceptedAnswers": [
+          "delicious"
+        ],
+        "explanation": "In this context, “delicious” supplies the meaning or form targeted in Review Unit 3. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -3124,69 +4225,103 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "In general / considering everything",
           "Only the positive points"
         ],
-        "answer": "In general / considering everything"
+        "answer": "In general / considering everything",
+        "explanation": "In this context, “In general / considering everything” supplies the meaning or form targeted in Review Unit 3. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "At the beginning": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Only the positive points": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Independent Workplace Communication",
     "categoryVi": "Giao tiếp Công việc Độc lập",
     "prerequisites": [
       "b1-14-blog-review"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 45,
+      "maxWords": 135
+    }
   },
   "B2-01-negotiation-advanced": {
     "id": "b2-01-negotiation-advanced",
     "slug": "b2-01-negotiation-advanced",
     "titleEn": "Advanced Negotiation Strategies",
     "titleVi": "Chiến lược đàm phán nâng cao",
-    "subtitleEn": "Master workplace negotiation phrases and idioms",
-    "subtitleVi": "Làm chủ các cụm từ và thành ngữ đàm phán",
+    "subtitleEn": "Practice proposing trade-offs, pushing back on scope, and reaching workable compromises",
+    "subtitleVi": "Luyện đề xuất trade-off, phản hồi yêu cầu tăng phạm vi và tìm phương án hai bên có thể thực hiện",
     "level": "B2",
     "unit": 1,
-    "skill": "vocab",
+    "skill": "speaking",
     "order": 1,
     "cefr": "B2",
-    "minutes": 11,
+    "minutes": 16,
     "tags": [
       "negotiation",
-      "workplace",
-      "advanced",
-      "professional"
+      "speaking",
+      "trade-offs",
+      "meetings",
+      "B2"
     ],
-    "audioScript": "Let me run this proposal by you before the meeting.\nWe need to find some middle ground on the timeline.\nIf we circle back next week, we can finalize the terms.\n",
+    "audioScript": "Let me run this alternative proposal by you before we commit.\nTo protect our release date, we can find some middle ground by phasing the analytics rollout.\nIf we circle back after the load test, we will have hard data to finalize the SLA.\n",
     "listeningEnabled": true,
     "flashcardCount": 6,
     "quiz": [
       {
         "type": "choice",
-        "prompt": "What does \"run something by someone\" mean?",
+        "prompt": "In a sprint negotiation, which response most diplomatically pushes back against an unrealistic scope addition?",
         "options": [
-          "To reject an idea",
-          "To share for feedback",
-          "To delay a decision"
+          "We cannot do this; you should have submitted the request three weeks ago.",
+          "To ensure stability for Friday's release, could we find some middle ground by shipping the core flow first and backlogging the export feature?",
+          "We can try to deliver both features and review our progress on Thursday before making a final commitment."
         ],
-        "answer": "To share for feedback"
+        "answer": "To ensure stability for Friday's release, could we find some middle ground by shipping the core flow first and backlogging the export feature?",
+        "explanation": "The response acknowledges the release goal, states the quality constraint, and offers a concrete phased alternative instead of only refusing or making an unsupported promise.",
+        "distractorFeedback": {
+          "We cannot do this; you should have submitted the request three weeks ago.": "This names a boundary but assigns blame and offers no path forward.",
+          "We can try to deliver both features and review our progress on Thursday before making a final commitment.": "This sounds cooperative, but it hides the known stability risk and does not define what will be phased or deferred."
+        }
       },
       {
         "type": "fill",
-        "prompt": "We need to find some ___ ___ before we proceed.",
-        "answer": "middle ground"
+        "prompt": "Before we present the revised SLA to the client, let me ___ this proposal by the infrastructure lead.",
+        "answer": "run",
+        "acceptedAnswers": [
+          "run"
+        ],
+        "explanation": "The fixed expression is \"run something by someone\", meaning to share it for feedback before committing."
       },
       {
         "type": "choice",
-        "prompt": "Which phrase means \"to return to a topic later\"?",
+        "prompt": "Why is 'Let us circle back after the benchmark results' more effective than 'We cannot decide now'?",
         "options": [
-          "buy in",
-          "circle back",
-          "deep dive"
+          "It defers the conversation while anchoring the next decision to concrete evidence and a clear checkpoint.",
+          "It softens the refusal, but it intentionally leaves the next decision criteria undefined.",
+          "It signals that the benchmark is only a formality and the decision has already been made."
         ],
-        "answer": "circle back"
+        "answer": "It defers the conversation while anchoring the next decision to concrete evidence and a clear checkpoint.",
+        "explanation": "A useful \"circle back\" names the trigger for returning to the decision. Here, the benchmark results provide that trigger and the evidence needed for the next discussion.",
+        "distractorFeedback": {
+          "It softens the refusal, but it intentionally leaves the next decision criteria undefined.": "The benchmark results define the decision criterion, so the follow-up is not intentionally vague.",
+          "It signals that the benchmark is only a formality and the decision has already been made.": "The wording keeps the decision open and makes the benchmark material to that decision."
+        }
       }
     ],
     "categoryEn": "Technical Leadership Communication",
     "categoryVi": "Giao tiếp Dẫn dắt Kỹ thuật",
     "prerequisites": [
       "b1-15-review-unit3"
-    ]
+    ],
+    "editorialStatus": "pilot-reviewed",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "dialogue",
+      "minTurns": 4,
+      "maxTurns": 6
+    }
   },
   "B2-02-conflict-resolution": {
     "id": "b2-02-conflict-resolution",
@@ -3200,7 +4335,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "grammar",
     "order": 2,
     "cefr": "B2",
-    "minutes": 11,
+    "minutes": 13,
     "tags": [
       "conflict",
       "workplace",
@@ -3220,12 +4355,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "The mistake were made by them.",
           "The mistake made by them."
         ],
-        "answer": "The mistake was made by them."
+        "answer": "The mistake was made by them.",
+        "explanation": "In this context, “The mistake was made by them.” supplies the meaning or form targeted in Conflict Resolution Grammar. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "The mistake were made by them.": "This option does not complete the communicative intent or target form tested by the question context.",
+          "The mistake made by them.": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "If the issue ___ raised earlier, we could have avoided this.",
-        "answer": "had been"
+        "answer": "had been",
+        "acceptedAnswers": [
+          "had been"
+        ],
+        "explanation": "In this context, “had been” supplies the meaning or form targeted in Conflict Resolution Grammar. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -3235,14 +4379,26 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "If we had discussed this",
           "We should discuss this"
         ],
-        "answer": "If we had discussed this"
+        "answer": "If we had discussed this",
+        "explanation": "In this context, “If we had discussed this” supplies the meaning or form targeted in Conflict Resolution Grammar. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "If we will discuss this": "This option does not complete the communicative intent or target form tested by the question context.",
+          "We should discuss this": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Technical Leadership Communication",
     "categoryVi": "Giao tiếp Dẫn dắt Kỹ thuật",
     "prerequisites": [
       "b2-01-negotiation-advanced"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 55,
+      "maxWords": 170
+    }
   },
   "B2-03-presenting-architecture": {
     "id": "b2-03-presenting-architecture",
@@ -3256,7 +4412,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "reading",
     "order": 3,
     "cefr": "B2",
-    "minutes": 11,
+    "minutes": 12,
     "tags": [
       "architecture",
       "system-design",
@@ -3275,12 +4431,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "X is more important than Y",
           "X is less important than Y"
         ],
-        "answer": "X is more important than Y"
+        "answer": "X is more important than Y",
+        "explanation": "In this context, “X is more important than Y” supplies the meaning or form targeted in Presenting Architecture Decisions. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "X and Y are equally important": "This option does not complete the communicative intent or target form tested by the question context.",
+          "X is less important than Y": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "We decided ___ a microservices approach for now.",
-        "answer": "against"
+        "answer": "against",
+        "acceptedAnswers": [
+          "against"
+        ],
+        "explanation": "In this context, “against” supplies the meaning or form targeted in Presenting Architecture Decisions. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -3290,14 +4455,26 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "This may change in the future",
           "This is urgent"
         ],
-        "answer": "This may change in the future"
+        "answer": "This may change in the future",
+        "explanation": "In this context, “This may change in the future” supplies the meaning or form targeted in Presenting Architecture Decisions. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "This is permanent": "This option does not complete the communicative intent or target form tested by the question context.",
+          "This is urgent": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Technical Leadership Communication",
     "categoryVi": "Giao tiếp Dẫn dắt Kỹ thuật",
     "prerequisites": [
       "b2-02-conflict-resolution"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 55,
+      "maxWords": 170
+    }
   },
   "B2-04-meeting-facilitation": {
     "id": "b2-04-meeting-facilitation",
@@ -3311,7 +4488,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "vocab",
     "order": 4,
     "cefr": "B2",
-    "minutes": 12,
+    "minutes": 13,
     "tags": [
       "meetings",
       "facilitation",
@@ -3330,12 +4507,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "To start or begin",
           "To cancel"
         ],
-        "answer": "To start or begin"
+        "answer": "To start or begin",
+        "explanation": "In this context, “To start or begin” supplies the meaning or form targeted in Meeting Facilitation. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "To end a meeting": "This option does not complete the communicative intent or target form tested by the question context.",
+          "To cancel": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "Let's ___ that topic for the next session.",
-        "answer": "park"
+        "answer": "park",
+        "acceptedAnswers": [
+          "park"
+        ],
+        "explanation": "In this context, “park” supplies the meaning or form targeted in Meeting Facilitation. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -3345,14 +4531,26 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "A type of meeting",
           "A final report"
         ],
-        "answer": "A way to break a deadlock"
+        "answer": "A way to break a deadlock",
+        "explanation": "In this context, “A way to break a deadlock” supplies the meaning or form targeted in Meeting Facilitation. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "A type of meeting": "This option does not complete the communicative intent or target form tested by the question context.",
+          "A final report": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Technical Leadership Communication",
     "categoryVi": "Giao tiếp Dẫn dắt Kỹ thuật",
     "prerequisites": [
       "b2-03-presenting-architecture"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "dialogue",
+      "minTurns": 4,
+      "maxTurns": 6
+    }
   },
   "B2-05-persuasive-grammar": {
     "id": "b2-05-persuasive-grammar",
@@ -3366,7 +4564,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "grammar",
     "order": 5,
     "cefr": "B2",
-    "minutes": 11,
+    "minutes": 13,
     "tags": [
       "grammar",
       "persuasion",
@@ -3385,12 +4583,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "It is essential that we...",
           "We could possibly..."
         ],
-        "answer": "It is essential that we..."
+        "answer": "It is essential that we...",
+        "explanation": "In this context, “It is essential that we...” supplies the meaning or form targeted in Persuasive Grammar. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "It might be helpful to...": "This option does not complete the communicative intent or target form tested by the question context.",
+          "We could possibly...": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "Not only ___ it reduce costs, but it also improves scalability.",
-        "answer": "does"
+        "answer": "does",
+        "acceptedAnswers": [
+          "does"
+        ],
+        "explanation": "In this context, “does” supplies the meaning or form targeted in Persuasive Grammar. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -3400,14 +4607,26 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Double comparative",
           "Conditional structure"
         ],
-        "answer": "Double comparative"
+        "answer": "Double comparative",
+        "explanation": "In this context, “Double comparative” supplies the meaning or form targeted in Persuasive Grammar. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Comparative structure": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Conditional structure": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Technical Leadership Communication",
     "categoryVi": "Giao tiếp Dẫn dắt Kỹ thuật",
     "prerequisites": [
       "b2-04-meeting-facilitation"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 55,
+      "maxWords": 170
+    }
   },
   "B2-06-business-article": {
     "id": "b2-06-business-article",
@@ -3421,7 +4640,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "reading",
     "order": 6,
     "cefr": "B2",
-    "minutes": 11,
+    "minutes": 12,
     "tags": [
       "reading",
       "business",
@@ -3440,12 +4659,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Strengthen or support",
           "Replace"
         ],
-        "answer": "Strengthen or support"
+        "answer": "Strengthen or support",
+        "explanation": "In this context, “Strengthen or support” supplies the meaning or form targeted in Business Article Reading. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Weaken": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Replace": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "The company reported a 15% ___-over-___ revenue growth.",
-        "answer": "year"
+        "answer": "year",
+        "acceptedAnswers": [
+          "year"
+        ],
+        "explanation": "In this context, “year” supplies the meaning or form targeted in Business Article Reading. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -3455,69 +4683,103 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Developing countries with rapid growth",
           "Failing economies"
         ],
-        "answer": "Developing countries with rapid growth"
+        "answer": "Developing countries with rapid growth",
+        "explanation": "In this context, “Developing countries with rapid growth” supplies the meaning or form targeted in Business Article Reading. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Developed countries": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Failing economies": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Technical Leadership Communication",
     "categoryVi": "Giao tiếp Dẫn dắt Kỹ thuật",
     "prerequisites": [
       "b2-05-persuasive-grammar"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 55,
+      "maxWords": 170
+    }
   },
   "B2-07-proposal-writing": {
     "id": "b2-07-proposal-writing",
     "slug": "b2-07-proposal-writing",
-    "titleEn": "Proposal Writing",
-    "titleVi": "Viết đề xuất",
-    "subtitleEn": "Write compelling business proposals",
-    "subtitleVi": "Viết đề xuất kinh doanh thuyết phục",
+    "titleEn": "Technical Proposal Writing",
+    "titleVi": "Viết đề xuất kỹ thuật",
+    "subtitleEn": "Write engineering proposals with clear problems, phased solutions, and measurable assumptions",
+    "subtitleVi": "Viết đề xuất kỹ thuật với vấn đề rõ ràng, giải pháp theo giai đoạn và giả định có thể kiểm chứng",
     "level": "B2",
     "unit": 2,
     "skill": "writing",
     "order": 7,
     "cefr": "B2",
-    "minutes": 10,
+    "minutes": 16,
     "tags": [
       "writing",
       "proposal",
-      "business",
+      "architecture",
+      "ROI",
       "B2"
     ],
-    "audioScript": "This proposal outlines our three-phase approach to digital transformation.\nOur solution will deliver measurable ROI within twelve months.\nWe are confident this partnership will yield significant long-term value.\n",
+    "audioScript": "This fictional proposal outlines a phased strategy for migrating a session store to a distributed cache cluster.\nBased on the illustrative baseline, phase one targets a forty-percent reduction in p99 query latency.\nWe recommend approving a limited pilot to test memory usage under peak load before considering full cutover.\n",
     "listeningEnabled": true,
     "flashcardCount": 6,
     "quiz": [
       {
         "type": "choice",
-        "prompt": "What does \"ROI\" stand for?",
+        "prompt": "Which problem statement in an engineering proposal is most effective for executive leadership?",
         "options": [
-          "Rate of Income",
-          "Return on Investment",
-          "Risk of Implementation"
+          "Peak-hour database contention is affecting checkout performance, so the platform team should investigate caching options.",
+          "Database read contention during peak hours causes p99 latency spikes of over 800ms, directly impacting checkout conversion rates.",
+          "A managed Redis service could improve response times, and the proposal should focus on adopting it this quarter."
         ],
-        "answer": "Return on Investment"
+        "answer": "Database read contention during peak hours causes p99 latency spikes of over 800ms, directly impacting checkout conversion rates.",
+        "explanation": "This version connects a measurable technical symptom to a business effect. The other options are plausible starting points, but one lacks evidence and the other starts with a preferred tool before establishing the problem.",
+        "distractorFeedback": {
+          "Peak-hour database contention is affecting checkout performance, so the platform team should investigate caching options.": "This identifies the area and a possible investigation, but it does not quantify the symptom or establish its business impact.",
+          "A managed Redis service could improve response times, and the proposal should focus on adopting it this quarter.": "This begins with a preferred product and timeline before demonstrating the underlying problem or evaluation criteria."
+        }
       },
       {
         "type": "fill",
-        "prompt": "This proposal ___ our three-phase approach.",
-        "answer": "outlines"
+        "prompt": "This proposal ___ our three-phase implementation strategy.",
+        "answer": "outlines",
+        "acceptedAnswers": [
+          "outlines"
+        ],
+        "explanation": "\"Outlines\" is the conventional verb for briefly presenting the structure or main points of a proposal."
       },
       {
         "type": "choice",
-        "prompt": "Which word means \"to produce results\"?",
+        "prompt": "What is the primary function of presenting a \"phased rollout\" in a technical proposal?",
         "options": [
-          "yield",
-          "delay",
-          "consume"
+          "It de-risks the migration by delivering incremental value with clear rollback gates at each milestone.",
+          "It divides the work into smaller milestones, although it does not by itself prove that the proposed benefits will occur.",
+          "It moves approval to later phases, so the team can begin implementation before stakeholders review the risks."
         ],
-        "answer": "yield"
+        "answer": "It de-risks the migration by delivering incremental value with clear rollback gates at each milestone.",
+        "explanation": "A phased rollout limits blast radius and creates checkpoints for evidence, approval, and rollback. It does not remove the need to validate benefits or obtain the relevant approvals.",
+        "distractorFeedback": {
+          "It divides the work into smaller milestones, although it does not by itself prove that the proposed benefits will occur.": "This is a useful caution, but it omits the main proposal function: containing risk through explicit evidence and rollback gates.",
+          "It moves approval to later phases, so the team can begin implementation before stakeholders review the risks.": "Phasing should create approval checkpoints; it does not justify starting before relevant risks are reviewed."
+        }
       }
     ],
     "categoryEn": "Technical Leadership Communication",
     "categoryVi": "Giao tiếp Dẫn dắt Kỹ thuật",
     "prerequisites": [
       "b2-06-business-article"
-    ]
+    ],
+    "editorialStatus": "pilot-reviewed",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 100,
+      "maxWords": 140
+    }
   },
   "B2-08-data-storytelling": {
     "id": "b2-08-data-storytelling",
@@ -3531,7 +4793,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "vocab",
     "order": 8,
     "cefr": "B2",
-    "minutes": 10,
+    "minutes": 12,
     "tags": [
       "data",
       "storytelling",
@@ -3550,12 +4812,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "To emphasize",
           "To calculate"
         ],
-        "answer": "To emphasize"
+        "answer": "To emphasize",
+        "explanation": "In this context, “To emphasize” supplies the meaning or form targeted in Data Storytelling. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "To hide": "This option does not complete the communicative intent or target form tested by the question context.",
+          "To calculate": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "This metric ___ as a key indicator of customer satisfaction.",
-        "answer": "serves"
+        "answer": "serves",
+        "acceptedAnswers": [
+          "serves"
+        ],
+        "explanation": "In this context, “serves” supplies the meaning or form targeted in Data Storytelling. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -3565,14 +4836,26 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Numbers are increasing",
           "Numbers are stable"
         ],
-        "answer": "Numbers are increasing"
+        "answer": "Numbers are increasing",
+        "explanation": "In this context, “Numbers are increasing” supplies the meaning or form targeted in Data Storytelling. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Numbers are decreasing": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Numbers are stable": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Technical Leadership Communication",
     "categoryVi": "Giao tiếp Dẫn dắt Kỹ thuật",
     "prerequisites": [
       "b2-07-proposal-writing"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "dialogue",
+      "minTurns": 4,
+      "maxTurns": 6
+    }
   },
   "B2-09-conditionals-advanced": {
     "id": "b2-09-conditionals-advanced",
@@ -3586,7 +4869,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "grammar",
     "order": 9,
     "cefr": "B2",
-    "minutes": 11,
+    "minutes": 13,
     "tags": [
       "grammar",
       "conditionals",
@@ -3605,12 +4888,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "For past hypothetical situations",
           "For real future possibilities"
         ],
-        "answer": "For past hypothetical situations"
+        "answer": "For past hypothetical situations",
+        "explanation": "In this context, “For past hypothetical situations” supplies the meaning or form targeted in Advanced Mixed Conditionals. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "For imaginary present situations": "This option does not complete the communicative intent or target form tested by the question context.",
+          "For real future possibilities": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "If I had known, I ___ have come earlier.",
-        "answer": "would"
+        "answer": "would",
+        "acceptedAnswers": [
+          "would"
+        ],
+        "explanation": "In this context, “would” supplies the meaning or form targeted in Advanced Mixed Conditionals. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -3620,14 +4912,26 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Using 'if' with 'when'",
           "Only present tense"
         ],
-        "answer": "Combining past and present hypotheticals"
+        "answer": "Combining past and present hypotheticals",
+        "explanation": "In this context, “Combining past and present hypotheticals” supplies the meaning or form targeted in Advanced Mixed Conditionals. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Using 'if' with 'when'": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Only present tense": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Technical Leadership Communication",
     "categoryVi": "Giao tiếp Dẫn dắt Kỹ thuật",
     "prerequisites": [
       "b2-08-data-storytelling"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 55,
+      "maxWords": 170
+    }
   },
   "B2-10-review-unit2": {
     "id": "b2-10-review-unit2",
@@ -3641,7 +4945,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "review",
     "order": 10,
     "cefr": "B2",
-    "minutes": 10,
+    "minutes": 12,
     "tags": [
       "review",
       "unit2",
@@ -3661,12 +4965,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "To start a meeting",
           "To cancel a meeting"
         ],
-        "answer": "To start a meeting"
+        "answer": "To start a meeting",
+        "explanation": "In this context, “To start a meeting” supplies the meaning or form targeted in Review Unit 2. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "To end a meeting": "This option does not complete the communicative intent or target form tested by the question context.",
+          "To cancel a meeting": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "If I ___ (know), I would have helped.",
-        "answer": "had known"
+        "answer": "had known",
+        "acceptedAnswers": [
+          "had known"
+        ],
+        "explanation": "In this context, “had known” supplies the meaning or form targeted in Review Unit 2. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -3676,12 +4989,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Bolster",
           "Delay"
         ],
-        "answer": "Bolster"
+        "answer": "Bolster",
+        "explanation": "In this context, “Bolster” supplies the meaning or form targeted in Review Unit 2. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Weaken": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Delay": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "Not only ___ it reduce costs, but it also improves performance.",
-        "answer": "does"
+        "answer": "does",
+        "acceptedAnswers": [
+          "does"
+        ],
+        "explanation": "In this context, “does” supplies the meaning or form targeted in Review Unit 2. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -3691,14 +5013,26 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Rate of Income",
           "Risk of Implementation"
         ],
-        "answer": "Return on Investment"
+        "answer": "Return on Investment",
+        "explanation": "In this context, “Return on Investment” supplies the meaning or form targeted in Review Unit 2. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Rate of Income": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Risk of Implementation": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Technical Leadership Communication",
     "categoryVi": "Giao tiếp Dẫn dắt Kỹ thuật",
     "prerequisites": [
       "b2-09-conditionals-advanced"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 55,
+      "maxWords": 170
+    }
   },
   "B2-11-cultural-nuances": {
     "id": "b2-11-cultural-nuances",
@@ -3712,7 +5046,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "vocab",
     "order": 11,
     "cefr": "B2",
-    "minutes": 10,
+    "minutes": 12,
     "tags": [
       "culture",
       "communication",
@@ -3731,12 +5065,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "To understand implied meaning",
           "To summarize text"
         ],
-        "answer": "To understand implied meaning"
+        "answer": "To understand implied meaning",
+        "explanation": "In this context, “To understand implied meaning” supplies the meaning or form targeted in Cultural Nuances. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "To read carefully": "This option does not complete the communicative intent or target form tested by the question context.",
+          "To summarize text": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "Building ___ takes time across different cultures.",
-        "answer": "rapport"
+        "answer": "rapport",
+        "acceptedAnswers": [
+          "rapport"
+        ],
+        "explanation": "In this context, “rapport” supplies the meaning or form targeted in Cultural Nuances. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -3746,14 +5089,26 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Rude",
           "Funny"
         ],
-        "answer": "Rude"
+        "answer": "Rude",
+        "explanation": "In this context, “Rude” supplies the meaning or form targeted in Cultural Nuances. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Appreciated": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Funny": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Technical Leadership Communication",
     "categoryVi": "Giao tiếp Dẫn dắt Kỹ thuật",
     "prerequisites": [
       "b2-10-review-unit2"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "dialogue",
+      "minTurns": 4,
+      "maxTurns": 6
+    }
   },
   "B2-12-complex-sentence-structures": {
     "id": "b2-12-complex-sentence-structures",
@@ -3767,7 +5122,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "grammar",
     "order": 12,
     "cefr": "B2",
-    "minutes": 11,
+    "minutes": 13,
     "tags": [
       "grammar",
       "sentences",
@@ -3786,12 +5141,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Although",
           "And"
         ],
-        "answer": "Although"
+        "answer": "Although",
+        "explanation": "In this context, “Although” supplies the meaning or form targeted in Complex Sentence Structures. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Because": "This option does not complete the communicative intent or target form tested by the question context.",
+          "And": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "___ the complexity, we recommend additional support.",
-        "answer": "Given"
+        "answer": "Given",
+        "acceptedAnswers": [
+          "Given"
+        ],
+        "explanation": "In this context, “Given” supplies the meaning or form targeted in Complex Sentence Structures. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -3801,69 +5165,104 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Past habit",
           "Future certainty"
         ],
-        "answer": "Condition with negative"
+        "answer": "Condition with negative",
+        "explanation": "In this context, “Condition with negative” supplies the meaning or form targeted in Complex Sentence Structures. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Past habit": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Future certainty": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Technical Leadership Communication",
     "categoryVi": "Giao tiếp Dẫn dắt Kỹ thuật",
     "prerequisites": [
       "b2-11-cultural-nuances"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 55,
+      "maxWords": 170
+    }
   },
   "B2-13-editorial-reading": {
     "id": "b2-13-editorial-reading",
     "slug": "b2-13-editorial-reading",
-    "titleEn": "Editorial & Opinion Reading",
-    "titleVi": "Đọc bài xã luận và bài bình luận",
-    "subtitleEn": "Analyze opinion pieces and editorials",
-    "subtitleVi": "Phân tích bài bình luận và xã luận",
+    "titleEn": "Editorial and Critical Reading",
+    "titleVi": "Đọc xã luận và phân tích phản biện",
+    "subtitleEn": "Analyze engineering leadership op-eds, detect rhetorical strategies, and evaluate technical arguments",
+    "subtitleVi": "Đọc hiểu và phân tích phản biện các bài xã luận công nghệ, nhận diện luận điểm và cấu trúc lập luận",
     "level": "B2",
     "unit": 3,
     "skill": "reading",
     "order": 13,
     "cefr": "B2",
-    "minutes": 10,
+    "minutes": 16,
     "tags": [
       "reading",
       "editorial",
-      "opinion",
+      "critical-thinking",
+      "analysis",
       "B2"
     ],
-    "audioScript": "The author argues that remote work is here to stay.\nCritics contend that the policy fails to address core issues.\nEditorials often reflect the publication's political stance.\n",
+    "audioScript": "The fictional author contends that pursuing short-term feature velocity at the expense of architecture creates a compounding deficit.\nThe passage uses an uncited forty-percent estimate, so a critical reader should ask for the underlying study and method.\nThe author presents a protected refactoring budget as one policy to test rather than a universal rule.\n",
     "listeningEnabled": true,
     "flashcardCount": 6,
     "quiz": [
       {
         "type": "choice",
-        "prompt": "What does \"contend\" mean in opinion writing?",
+        "prompt": "What is the primary rhetorical function of the phrase \"While proponents argue that...\" in an editorial?",
         "options": [
-          "To agree",
-          "To argue or claim",
-          "To summarize"
+          "It introduces a concession or counter-argument before refuting it with stronger evidence.",
+          "It attributes a competing view, but the phrase alone does not show whether the author will accept or challenge it.",
+          "It signals that the next sentence will provide neutral background rather than evaluate the competing view."
         ],
-        "answer": "To argue or claim"
+        "answer": "It introduces a concession or counter-argument before refuting it with stronger evidence.",
+        "explanation": "In this passage, the author acknowledges the proponents’ position and then pivots to a rebuttal. The surrounding sentences—not the marker alone—establish that function.",
+        "distractorFeedback": {
+          "It attributes a competing view, but the phrase alone does not show whether the author will accept or challenge it.": "This is true of the marker in isolation, but the question asks about its function in the full passage, where a rebuttal follows.",
+          "It signals that the next sentence will provide neutral background rather than evaluate the competing view.": "The following sentence evaluates and challenges the competing view rather than remaining neutral."
+        }
       },
       {
         "type": "fill",
-        "prompt": "Editorials often ___ the publication's political stance.",
-        "answer": "reflect"
+        "prompt": "Critics ___ that cutting corners on test automation creates an illusion of speed.",
+        "answer": "contend",
+        "acceptedAnswers": [
+          "contend",
+          "argue"
+        ],
+        "explanation": "Both \"contend\" and \"argue\" can report a disputed claim. The canonical answer highlights the lesson’s target verb."
       },
       {
         "type": "choice",
-        "prompt": "A \\ stance\\\" is:\"",
+        "prompt": "Which evidence problem should a critical reader flag in the fictional editorial?",
         "options": [
-          "A position or viewpoint",
-          "A summary",
-          "A question"
+          "The 40% figure is not connected to a named study, dataset, or method.",
+          "The author uses a metaphor to compare technical debt with financial interest.",
+          "The author recommends reserving capacity for refactoring instead of waiting for a crisis."
         ],
-        "answer": "A position or viewpoint"
+        "answer": "The 40% figure is not connected to a named study, dataset, or method.",
+        "explanation": "A precise percentage can sound authoritative, but readers cannot evaluate it without a traceable source and method. The other options describe rhetorical or policy choices, not missing evidence.",
+        "distractorFeedback": {
+          "The author uses a metaphor to compare technical debt with financial interest.": "A metaphor can be evaluated for framing, but its presence is not the missing empirical support attached to the percentage.",
+          "The author recommends reserving capacity for refactoring instead of waiting for a crisis.": "This is a policy recommendation to assess, not the specific sourcing problem in the supporting evidence."
+        }
       }
     ],
     "categoryEn": "Technical Leadership Communication",
     "categoryVi": "Giao tiếp Dẫn dắt Kỹ thuật",
     "prerequisites": [
       "b2-12-complex-sentence-structures"
-    ]
+    ],
+    "editorialStatus": "pilot-reviewed",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 45,
+      "maxWords": 90
+    }
   },
   "B2-14-formal-correspondence": {
     "id": "b2-14-formal-correspondence",
@@ -3877,7 +5276,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "writing",
     "order": 14,
     "cefr": "B2",
-    "minutes": 11,
+    "minutes": 13,
     "tags": [
       "writing",
       "formal",
@@ -3896,12 +5295,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Dear Sir or Madam,",
           "What's up?"
         ],
-        "answer": "Dear Sir or Madam,"
+        "answer": "Dear Sir or Madam,",
+        "explanation": "In this context, “Dear Sir or Madam,” supplies the meaning or form targeted in Formal Correspondence. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Hey!": "This option does not complete the communicative intent or target form tested by the question context.",
+          "What's up?": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "I am writing to ___ about the position.",
-        "answer": "inquire"
+        "answer": "inquire",
+        "acceptedAnswers": [
+          "inquire"
+        ],
+        "explanation": "In this context, “inquire” supplies the meaning or form targeted in Formal Correspondence. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -3911,14 +5319,26 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "When it's convenient for you",
           "Never"
         ],
-        "answer": "When it's convenient for you"
+        "answer": "When it's convenient for you",
+        "explanation": "In this context, “When it's convenient for you” supplies the meaning or form targeted in Formal Correspondence. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Immediately": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Never": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Technical Leadership Communication",
     "categoryVi": "Giao tiếp Dẫn dắt Kỹ thuật",
     "prerequisites": [
       "b2-13-editorial-reading"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 55,
+      "maxWords": 170
+    }
   },
   "B2-15-review-unit3": {
     "id": "b2-15-review-unit3",
@@ -3932,7 +5352,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "review",
     "order": 15,
     "cefr": "B2",
-    "minutes": 10,
+    "minutes": 12,
     "tags": [
       "review",
       "unit3",
@@ -3952,12 +5372,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Read slowly",
           "Summarize"
         ],
-        "answer": "Understand implied meaning"
+        "answer": "Understand implied meaning",
+        "explanation": "In this context, “Understand implied meaning” supplies the meaning or form targeted in Review Unit 3. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Read slowly": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Summarize": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "I am writing to ___ about the position.",
-        "answer": "inquire"
+        "answer": "inquire",
+        "acceptedAnswers": [
+          "inquire"
+        ],
+        "explanation": "In this context, “inquire” supplies the meaning or form targeted in Review Unit 3. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -3967,12 +5396,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Although",
           "And"
         ],
-        "answer": "Although"
+        "answer": "Although",
+        "explanation": "In this context, “Although” supplies the meaning or form targeted in Review Unit 3. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Because": "This option does not complete the communicative intent or target form tested by the question context.",
+          "And": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "Critics ___ that the policy fails to address core issues.",
-        "answer": "contend"
+        "answer": "contend",
+        "acceptedAnswers": [
+          "contend"
+        ],
+        "explanation": "In this context, “contend” supplies the meaning or form targeted in Review Unit 3. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -3982,14 +5420,26 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Dear Sir or Madam,",
           "Yo"
         ],
-        "answer": "Dear Sir or Madam,"
+        "answer": "Dear Sir or Madam,",
+        "explanation": "In this context, “Dear Sir or Madam,” supplies the meaning or form targeted in Review Unit 3. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Hey!": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Yo": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Technical Leadership Communication",
     "categoryVi": "Giao tiếp Dẫn dắt Kỹ thuật",
     "prerequisites": [
       "b2-14-formal-correspondence"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 55,
+      "maxWords": 170
+    }
   },
   "C1-01-executive-meetings": {
     "id": "c1-01-executive-meetings",
@@ -4003,7 +5453,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "vocab",
     "order": 1,
     "cefr": "C1",
-    "minutes": 11,
+    "minutes": 13,
     "tags": [
       "executive",
       "meetings",
@@ -4023,12 +5473,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Let's cancel this forever.",
           "Let's start this immediately."
         ],
-        "answer": "Let's table this for now."
+        "answer": "Let's table this for now.",
+        "explanation": "In this context, “Let's table this for now.” supplies the meaning or form targeted in Executive Meetings Vocabulary. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Let's cancel this forever.": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Let's start this immediately.": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "We need to ___ on our strategic priorities before the board meeting.",
-        "answer": "align"
+        "answer": "align",
+        "acceptedAnswers": [
+          "align"
+        ],
+        "explanation": "In this context, “align” supplies the meaning or form targeted in Executive Meetings Vocabulary. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -4038,14 +5497,26 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Random thoughts",
           "Historical data only"
         ],
-        "answer": "Ideas that can be put into practice"
+        "answer": "Ideas that can be put into practice",
+        "explanation": "In this context, “Ideas that can be put into practice” supplies the meaning or form targeted in Executive Meetings Vocabulary. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Random thoughts": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Historical data only": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Strategic Professional Communication",
     "categoryVi": "Giao tiếp Chuyên nghiệp Chiến lược",
     "prerequisites": [
       "b2-15-review-unit3"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "dialogue",
+      "minTurns": 4,
+      "maxTurns": 6
+    }
   },
   "C1-02-board-presentations": {
     "id": "c1-02-board-presentations",
@@ -4059,7 +5530,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "grammar",
     "order": 2,
     "cefr": "C1",
-    "minutes": 12,
+    "minutes": 13,
     "tags": [
       "grammar",
       "conditionals",
@@ -4079,12 +5550,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "First conditional (if + present, will)",
           "Zero conditional (if + present, present)"
         ],
-        "answer": "Third conditional (if + past perfect, would have)"
+        "answer": "Third conditional (if + past perfect, would have)",
+        "explanation": "In this context, “Third conditional (if + past perfect, would have)” supplies the meaning or form targeted in Board Presentation Grammar. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "First conditional (if + present, will)": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Zero conditional (if + present, present)": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "___ we secure additional funding, we could accelerate our timeline.",
-        "answer": "Should"
+        "answer": "Should",
+        "acceptedAnswers": [
+          "Should"
+        ],
+        "explanation": "In this context, “Should” supplies the meaning or form targeted in Board Presentation Grammar. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -4094,14 +5574,26 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "First conditional",
           "Second conditional"
         ],
-        "answer": "Inverted conditional (formal)"
+        "answer": "Inverted conditional (formal)",
+        "explanation": "In this context, “Inverted conditional (formal)” supplies the meaning or form targeted in Board Presentation Grammar. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "First conditional": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Second conditional": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Strategic Professional Communication",
     "categoryVi": "Giao tiếp Chuyên nghiệp Chiến lược",
     "prerequisites": [
       "c1-01-executive-meetings"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 65,
+      "maxWords": 200
+    }
   },
   "C1-03-writing-strategy": {
     "id": "c1-03-writing-strategy",
@@ -4115,7 +5607,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "reading",
     "order": 3,
     "cefr": "C1",
-    "minutes": 12,
+    "minutes": 13,
     "tags": [
       "reading",
       "strategy",
@@ -4135,12 +5627,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Tailwinds or advantages",
           "Wind speeds"
         ],
-        "answer": "Challenges or obstacles"
+        "answer": "Challenges or obstacles",
+        "explanation": "In this context, “Challenges or obstacles” supplies the meaning or form targeted in Strategic Document Reading. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Tailwinds or advantages": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Wind speeds": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "The company announced a ___ toward renewable energy sources.",
-        "answer": "pivot"
+        "answer": "pivot",
+        "acceptedAnswers": [
+          "pivot"
+        ],
+        "explanation": "In this context, “pivot” supplies the meaning or form targeted in Strategic Document Reading. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -4150,14 +5651,26 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "The company is struggling",
           "The product is expensive"
         ],
-        "answer": "The company has strong competitive advantages"
+        "answer": "The company has strong competitive advantages",
+        "explanation": "In this context, “The company has strong competitive advantages” supplies the meaning or form targeted in Strategic Document Reading. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "The company is struggling": "This option does not complete the communicative intent or target form tested by the question context.",
+          "The product is expensive": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Strategic Professional Communication",
     "categoryVi": "Giao tiếp Chuyên nghiệp Chiến lược",
     "prerequisites": [
       "c1-02-board-presentations"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 65,
+      "maxWords": 200
+    }
   },
   "C1-04-stakeholder-management": {
     "id": "c1-04-stakeholder-management",
@@ -4171,7 +5684,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "vocab",
     "order": 4,
     "cefr": "C1",
-    "minutes": 12,
+    "minutes": 13,
     "tags": [
       "stakeholder",
       "management",
@@ -4191,12 +5704,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Agreement and support",
           "Investment return"
         ],
-        "answer": "Agreement and support"
+        "answer": "Agreement and support",
+        "explanation": "In this context, “Agreement and support” supplies the meaning or form targeted in Stakeholder Management. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Purchasing shares": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Investment return": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "We need to ___ expectations before we move forward with the initiative.",
-        "answer": "align"
+        "answer": "align",
+        "acceptedAnswers": [
+          "align"
+        ],
+        "explanation": "In this context, “align” supplies the meaning or form targeted in Stakeholder Management. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -4206,14 +5728,26 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "put aside",
           "leave behind"
         ],
-        "answer": "bring on board"
+        "answer": "bring on board",
+        "explanation": "In this context, “bring on board” supplies the meaning or form targeted in Stakeholder Management. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "put aside": "This option does not complete the communicative intent or target form tested by the question context.",
+          "leave behind": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Strategic Professional Communication",
     "categoryVi": "Giao tiếp Chuyên nghiệp Chiến lược",
     "prerequisites": [
       "c1-03-writing-strategy"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "dialogue",
+      "minTurns": 4,
+      "maxTurns": 6
+    }
   },
   "C1-05-review-unit1": {
     "id": "c1-05-review-unit1",
@@ -4227,7 +5761,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "review",
     "order": 5,
     "cefr": "C1",
-    "minutes": 10,
+    "minutes": 12,
     "tags": [
       "review",
       "unit1",
@@ -4248,12 +5782,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Agreement and support",
           "Investment return"
         ],
-        "answer": "Agreement and support"
+        "answer": "Agreement and support",
+        "explanation": "In this context, “Agreement and support” supplies the meaning or form targeted in Review Unit 1. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Purchasing shares": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Investment return": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "The board has ___ a pivot toward renewable energy.",
-        "answer": "endorsed"
+        "answer": "endorsed",
+        "acceptedAnswers": [
+          "endorsed"
+        ],
+        "explanation": "In this context, “endorsed” supplies the meaning or form targeted in Review Unit 1. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -4263,12 +5806,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Pivot toward digital solutions",
           "Continue current operations"
         ],
-        "answer": "Pivot toward digital solutions"
+        "answer": "Pivot toward digital solutions",
+        "explanation": "In this context, “Pivot toward digital solutions” supplies the meaning or form targeted in Review Unit 1. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Maintain status quo": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Continue current operations": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "Let's ___ expectations before we move forward.",
-        "answer": "align"
+        "answer": "align",
+        "acceptedAnswers": [
+          "align"
+        ],
+        "explanation": "In this context, “align” supplies the meaning or form targeted in Review Unit 1. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -4278,14 +5830,26 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Challenges or obstacles",
           "Wind patterns"
         ],
-        "answer": "Challenges or obstacles"
+        "answer": "Challenges or obstacles",
+        "explanation": "In this context, “Challenges or obstacles” supplies the meaning or form targeted in Review Unit 1. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Favorable conditions": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Wind patterns": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Strategic Professional Communication",
     "categoryVi": "Giao tiếp Chuyên nghiệp Chiến lược",
     "prerequisites": [
       "c1-04-stakeholder-management"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 65,
+      "maxWords": 200
+    }
   },
   "C1-06-investor-relations": {
     "id": "c1-06-investor-relations",
@@ -4299,7 +5863,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "vocab",
     "order": 6,
     "cefr": "C1",
-    "minutes": 11,
+    "minutes": 12,
     "tags": [
       "investor",
       "relations",
@@ -4319,12 +5883,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Profit allocated per share",
           "Number of shares"
         ],
-        "answer": "Profit allocated per share"
+        "answer": "Profit allocated per share",
+        "explanation": "In this context, “Profit allocated per share” supplies the meaning or form targeted in Investor Relations. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Total company profit": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Number of shares": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "We ___ double-digit growth over the next fiscal year.",
-        "answer": "project"
+        "answer": "project",
+        "acceptedAnswers": [
+          "project"
+        ],
+        "explanation": "In this context, “project” supplies the meaning or form targeted in Investor Relations. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -4334,14 +5907,26 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Number of shareholders",
           "Dividend policy"
         ],
-        "answer": "Stock price performance"
+        "answer": "Stock price performance",
+        "explanation": "In this context, “Stock price performance” supplies the meaning or form targeted in Investor Relations. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Number of shareholders": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Dividend policy": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Strategic Professional Communication",
     "categoryVi": "Giao tiếp Chuyên nghiệp Chiến lược",
     "prerequisites": [
       "c1-05-review-unit1"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "dialogue",
+      "minTurns": 4,
+      "maxTurns": 6
+    }
   },
   "C1-07-advanced-grammar": {
     "id": "c1-07-advanced-grammar",
@@ -4355,7 +5940,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "grammar",
     "order": 7,
     "cefr": "C1",
-    "minutes": 12,
+    "minutes": 14,
     "tags": [
       "grammar",
       "inversion",
@@ -4375,12 +5960,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Never have we seen such growth.",
           "Never we seen have such growth."
         ],
-        "answer": "Never have we seen such growth."
+        "answer": "Never have we seen such growth.",
+        "explanation": "In this context, “Never have we seen such growth.” supplies the meaning or form targeted in Advanced C1 Grammar. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Never we have seen such growth.": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Never we seen have such growth.": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "It is essential that every team member ___ (be) informed.",
-        "answer": "be"
+        "answer": "be",
+        "acceptedAnswers": [
+          "be"
+        ],
+        "explanation": "In this context, “be” supplies the meaning or form targeted in Advanced C1 Grammar. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -4390,14 +5984,26 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Hypothetical/wished situations",
           "Future plans"
         ],
-        "answer": "Hypothetical/wished situations"
+        "answer": "Hypothetical/wished situations",
+        "explanation": "In this context, “Hypothetical/wished situations” supplies the meaning or form targeted in Advanced C1 Grammar. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Past habits": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Future plans": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Strategic Professional Communication",
     "categoryVi": "Giao tiếp Chuyên nghiệp Chiến lược",
     "prerequisites": [
       "c1-06-investor-relations"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 65,
+      "maxWords": 200
+    }
   },
   "C1-08-policy-reading": {
     "id": "c1-08-policy-reading",
@@ -4411,7 +6017,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "reading",
     "order": 8,
     "cefr": "C1",
-    "minutes": 11,
+    "minutes": 12,
     "tags": [
       "reading",
       "policy",
@@ -4431,12 +6037,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Replaces",
           "Clarifies"
         ],
-        "answer": "Replaces"
+        "answer": "Replaces",
+        "explanation": "In this context, “Replaces” supplies the meaning or form targeted in Policy Document Reading. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Supports": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Clarifies": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "Exceptions require ___ approval from the Chief Compliance Officer.",
-        "answer": "written"
+        "answer": "written",
+        "acceptedAnswers": [
+          "written"
+        ],
+        "explanation": "In this context, “written” supplies the meaning or form targeted in Policy Document Reading. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -4446,14 +6061,26 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "All employees must",
           "It is recommended that"
         ],
-        "answer": "All employees must"
+        "answer": "All employees must",
+        "explanation": "In this context, “All employees must” supplies the meaning or form targeted in Policy Document Reading. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Employees should": "This option does not complete the communicative intent or target form tested by the question context.",
+          "It is recommended that": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Strategic Professional Communication",
     "categoryVi": "Giao tiếp Chuyên nghiệp Chiến lược",
     "prerequisites": [
       "c1-07-advanced-grammar"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 65,
+      "maxWords": 200
+    }
   },
   "C1-09-executive-summary": {
     "id": "c1-09-executive-summary",
@@ -4467,7 +6094,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "writing",
     "order": 9,
     "cefr": "C1",
-    "minutes": 11,
+    "minutes": 12,
     "tags": [
       "writing",
       "executive-summary",
@@ -4486,12 +6113,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Enable a quick decision",
           "Show research depth"
         ],
-        "answer": "Enable a quick decision"
+        "answer": "Enable a quick decision",
+        "explanation": "In this context, “Enable a quick decision” supplies the meaning or form targeted in Executive Summary Writing. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Provide background details": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Show research depth": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "Management ___ approval of the proposal.",
-        "answer": "recommends"
+        "answer": "recommends",
+        "acceptedAnswers": [
+          "recommends"
+        ],
+        "explanation": "In this context, “recommends” supplies the meaning or form targeted in Executive Summary Writing. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -4501,14 +6137,26 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Recommendation",
           "Background"
         ],
-        "answer": "Recommendation"
+        "answer": "Recommendation",
+        "explanation": "In this context, “Recommendation” supplies the meaning or form targeted in Executive Summary Writing. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Risks": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Background": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Strategic Professional Communication",
     "categoryVi": "Giao tiếp Chuyên nghiệp Chiến lược",
     "prerequisites": [
       "c1-08-policy-reading"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 65,
+      "maxWords": 200
+    }
   },
   "C1-10-review-unit2": {
     "id": "c1-10-review-unit2",
@@ -4522,7 +6170,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "review",
     "order": 10,
     "cefr": "C1",
-    "minutes": 10,
+    "minutes": 12,
     "tags": [
       "review",
       "unit2",
@@ -4543,12 +6191,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Executive profit summary",
           "Equity price standard"
         ],
-        "answer": "Earnings per share"
+        "answer": "Earnings per share",
+        "explanation": "In this context, “Earnings per share” supplies the meaning or form targeted in Review Unit 2. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Executive profit summary": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Equity price standard": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "___ have we seen such rapid growth in this segment.",
-        "answer": "Never"
+        "answer": "Never",
+        "acceptedAnswers": [
+          "Never"
+        ],
+        "explanation": "In this context, “Never” supplies the meaning or form targeted in Review Unit 2. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -4558,12 +6215,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "It is essential that the budget be approved.",
           "The budget was approved yesterday."
         ],
-        "answer": "It is essential that the budget be approved."
+        "answer": "It is essential that the budget be approved.",
+        "explanation": "In this context, “It is essential that the budget be approved.” supplies the meaning or form targeted in Review Unit 2. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "We will approve the budget.": "This option does not complete the communicative intent or target form tested by the question context.",
+          "The budget was approved yesterday.": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "All employees ___ complete the training by March 31.",
-        "answer": "must"
+        "answer": "must",
+        "acceptedAnswers": [
+          "must"
+        ],
+        "explanation": "In this context, “must” supplies the meaning or form targeted in Review Unit 2. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -4573,14 +6239,26 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Recommendation",
           "Risks"
         ],
-        "answer": "Recommendation"
+        "answer": "Recommendation",
+        "explanation": "In this context, “Recommendation” supplies the meaning or form targeted in Review Unit 2. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Background": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Risks": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Strategic Professional Communication",
     "categoryVi": "Giao tiếp Chuyên nghiệp Chiến lược",
     "prerequisites": [
       "c1-09-executive-summary"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 65,
+      "maxWords": 200
+    }
   },
   "C1-11-academic-discourse": {
     "id": "c1-11-academic-discourse",
@@ -4594,7 +6272,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "vocab",
     "order": 11,
     "cefr": "C1",
-    "minutes": 11,
+    "minutes": 12,
     "tags": [
       "vocab",
       "academic",
@@ -4614,12 +6292,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Cautious, qualified language",
           "Technical jargon"
         ],
-        "answer": "Cautious, qualified language"
+        "answer": "Cautious, qualified language",
+        "explanation": "In this context, “Cautious, qualified language” supplies the meaning or form targeted in Academic Discourse. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Strong claims": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Technical jargon": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "The findings ___ a correlation between the variables.",
-        "answer": "suggest"
+        "answer": "suggest",
+        "acceptedAnswers": [
+          "suggest"
+        ],
+        "explanation": "In this context, “suggest” supplies the meaning or form targeted in Academic Discourse. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -4629,14 +6316,26 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Suggests",
           "Guarantees"
         ],
-        "answer": "Suggests"
+        "answer": "Suggests",
+        "explanation": "In this context, “Suggests” supplies the meaning or form targeted in Academic Discourse. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Proves": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Guarantees": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Strategic Professional Communication",
     "categoryVi": "Giao tiếp Chuyên nghiệp Chiến lược",
     "prerequisites": [
       "c1-10-review-unit2"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "dialogue",
+      "minTurns": 4,
+      "maxTurns": 6
+    }
   },
   "C1-12-nuanced-grammar": {
     "id": "c1-12-nuanced-grammar",
@@ -4650,7 +6349,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "grammar",
     "order": 12,
     "cefr": "C1",
-    "minutes": 12,
+    "minutes": 14,
     "tags": [
       "grammar",
       "mixed-conditionals",
@@ -4670,12 +6369,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "If I had studied, I would be a doctor now.",
           "If it rains, I stayed."
         ],
-        "answer": "If I had studied, I would be a doctor now."
+        "answer": "If I had studied, I would be a doctor now.",
+        "explanation": "In this context, “If I had studied, I would be a doctor now.” supplies the meaning or form targeted in Nuanced C1 Grammar. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "If it rains, I will stay.": "This option does not complete the communicative intent or target form tested by the question context.",
+          "If it rains, I stayed.": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "___ circumstances change, we are prepared to pivot.",
-        "answer": "Should"
+        "answer": "Should",
+        "acceptedAnswers": [
+          "Should"
+        ],
+        "explanation": "In this context, “Should” supplies the meaning or form targeted in Nuanced C1 Grammar. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -4685,14 +6393,26 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Past speculation / regret",
           "Present habit"
         ],
-        "answer": "Past speculation / regret"
+        "answer": "Past speculation / regret",
+        "explanation": "In this context, “Past speculation / regret” supplies the meaning or form targeted in Nuanced C1 Grammar. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Future possibility": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Present habit": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Strategic Professional Communication",
     "categoryVi": "Giao tiếp Chuyên nghiệp Chiến lược",
     "prerequisites": [
       "c1-11-academic-discourse"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 65,
+      "maxWords": 200
+    }
   },
   "C1-13-critical-reading": {
     "id": "c1-13-critical-reading",
@@ -4706,7 +6426,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "reading",
     "order": 13,
     "cefr": "C1",
-    "minutes": 11,
+    "minutes": 13,
     "tags": [
       "reading",
       "critical",
@@ -4726,12 +6446,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Correlation is association; causation is cause-effect",
           "Correlation proves causation"
         ],
-        "answer": "Correlation is association; causation is cause-effect"
+        "answer": "Correlation is association; causation is cause-effect",
+        "explanation": "In this context, “Correlation is association; causation is cause-effect” supplies the meaning or form targeted in Critical Reading. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Same thing": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Correlation proves causation": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "The argument ___ alternative explanations.",
-        "answer": "overlooks"
+        "answer": "overlooks",
+        "acceptedAnswers": [
+          "overlooks"
+        ],
+        "explanation": "In this context, “overlooks” supplies the meaning or form targeted in Critical Reading. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -4741,14 +6470,26 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Selective use of evidence",
           "Peer review"
         ],
-        "answer": "Selective use of evidence"
+        "answer": "Selective use of evidence",
+        "explanation": "In this context, “Selective use of evidence” supplies the meaning or form targeted in Critical Reading. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Large sample size": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Peer review": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Strategic Professional Communication",
     "categoryVi": "Giao tiếp Chuyên nghiệp Chiến lược",
     "prerequisites": [
       "c1-12-nuanced-grammar"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 65,
+      "maxWords": 200
+    }
   },
   "C1-14-research-writing": {
     "id": "c1-14-research-writing",
@@ -4762,7 +6503,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "writing",
     "order": 14,
     "cefr": "C1",
-    "minutes": 11,
+    "minutes": 13,
     "tags": [
       "writing",
       "research",
@@ -4782,12 +6523,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Abstract → Introduction → Methodology → Results → Discussion",
           "Introduction → Argument → End"
         ],
-        "answer": "Abstract → Introduction → Methodology → Results → Discussion"
+        "answer": "Abstract → Introduction → Methodology → Results → Discussion",
+        "explanation": "In this context, “Abstract → Introduction → Methodology → Results → Discussion” supplies the meaning or form targeted in Research Writing. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Thesis → Body → Conclusion": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Introduction → Argument → End": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "The ___ employs a mixed-methods approach over twelve months.",
-        "answer": "methodology"
+        "answer": "methodology",
+        "acceptedAnswers": [
+          "methodology"
+        ],
+        "explanation": "In this context, “methodology” supplies the meaning or form targeted in Research Writing. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -4797,14 +6547,26 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Abstract and Results",
           "Introduction"
         ],
-        "answer": "Abstract and Results"
+        "answer": "Abstract and Results",
+        "explanation": "In this context, “Abstract and Results” supplies the meaning or form targeted in Research Writing. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Methodology": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Introduction": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Strategic Professional Communication",
     "categoryVi": "Giao tiếp Chuyên nghiệp Chiến lược",
     "prerequisites": [
       "c1-13-critical-reading"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 65,
+      "maxWords": 200
+    }
   },
   "C1-15-review-unit3": {
     "id": "c1-15-review-unit3",
@@ -4818,7 +6580,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "review",
     "order": 15,
     "cefr": "C1",
-    "minutes": 11,
+    "minutes": 12,
     "tags": [
       "review",
       "unit3",
@@ -4838,12 +6600,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Suggest",
           "Guarantee"
         ],
-        "answer": "Suggest"
+        "answer": "Suggest",
+        "explanation": "In this context, “Suggest” supplies the meaning or form targeted in Review Unit 3. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Prove": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Guarantee": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "Were we to launch in Q1, we would capture early adopters. → Identify the conditional type: ___ conditional.",
-        "answer": "Inverted"
+        "answer": "Inverted",
+        "acceptedAnswers": [
+          "Inverted"
+        ],
+        "explanation": "In this context, “Inverted” supplies the meaning or form targeted in Review Unit 3. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -4853,12 +6624,21 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Abstract, Introduction, Methodology, Results, Discussion",
           "Aim, Method, Review, Analysis, Decision"
         ],
-        "answer": "Abstract, Introduction, Methodology, Results, Discussion"
+        "answer": "Abstract, Introduction, Methodology, Results, Discussion",
+        "explanation": "In this context, “Abstract, Introduction, Methodology, Results, Discussion” supplies the meaning or form targeted in Review Unit 3. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Intro, Method, Results, Analysis, Discussion": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Aim, Method, Review, Analysis, Decision": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "It appears that the data was misinterpreted. → This sentence uses ___ language.",
-        "answer": "hedging"
+        "answer": "hedging",
+        "acceptedAnswers": [
+          "hedging"
+        ],
+        "explanation": "In this context, “hedging” supplies the meaning or form targeted in Review Unit 3. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "choice",
@@ -4868,14 +6648,26 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Selective use of evidence",
           "Peer review"
         ],
-        "answer": "Selective use of evidence"
+        "answer": "Selective use of evidence",
+        "explanation": "In this context, “Selective use of evidence” supplies the meaning or form targeted in Review Unit 3. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Large sample size": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Peer review": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       }
     ],
     "categoryEn": "Strategic Professional Communication",
     "categoryVi": "Giao tiếp Chuyên nghiệp Chiến lược",
     "prerequisites": [
       "c1-14-research-writing"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 65,
+      "maxWords": 200
+    }
   },
   "C2-01-humor-english": {
     "id": "c2-01-humor-english",
@@ -4889,7 +6681,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "vocab",
     "order": 1,
     "cefr": "C2",
-    "minutes": 11,
+    "minutes": 12,
     "tags": [
       "humor",
       "wordplay",
@@ -4910,7 +6702,13 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Malapropism",
           "Innuendo"
         ],
-        "answer": "Irony"
+        "answer": "Irony",
+        "explanation": "In this context, “Irony” supplies the meaning or form targeted in Humor in English. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Pun": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Malapropism": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Innuendo": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "choice",
@@ -4921,19 +6719,36 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Paradox",
           "Preamble"
         ],
-        "answer": "Pun"
+        "answer": "Pun",
+        "explanation": "In this context, “Pun” supplies the meaning or form targeted in Humor in English. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Parody": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Paradox": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Preamble": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "The comedian's self-___ made the audience feel at ease.",
-        "answer": "self-deprecation"
+        "answer": "self-deprecation",
+        "acceptedAnswers": [
+          "self-deprecation"
+        ],
+        "explanation": "In this context, “self-deprecation” supplies the meaning or form targeted in Humor in English. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       }
     ],
     "categoryEn": "Expert Register and Influence",
     "categoryVi": "Sắc thái và Ảnh hưởng Chuyên sâu",
     "prerequisites": [
       "c1-15-review-unit3"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "dialogue",
+      "minTurns": 4,
+      "maxTurns": 6
+    }
   },
   "C2-02-satire-irony": {
     "id": "c2-02-satire-irony",
@@ -4947,7 +6762,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "grammar",
     "order": 2,
     "cefr": "C2",
-    "minutes": 12,
+    "minutes": 13,
     "tags": [
       "satire",
       "irony",
@@ -4968,7 +6783,13 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "As if",
           "The subjunctive mood"
         ],
-        "answer": "The subjunctive mood"
+        "answer": "The subjunctive mood",
+        "explanation": "In this context, “The subjunctive mood” supplies the meaning or form targeted in Satire & Irony. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Exclamation marks": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Of course": "This option does not complete the communicative intent or target form tested by the question context.",
+          "As if": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "choice",
@@ -4979,19 +6800,36 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "A surgeon operates on her own leg.",
           "The weather forecast was wrong again."
         ],
-        "answer": "A fire station burns down."
+        "answer": "A fire station burns down.",
+        "explanation": "In this context, “A fire station burns down.” supplies the meaning or form targeted in Satire & Irony. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "A teacher says 'How clever' to a foolish action.": "This option does not complete the communicative intent or target form tested by the question context.",
+          "A surgeon operates on her own leg.": "This option does not complete the communicative intent or target form tested by the question context.",
+          "The weather forecast was wrong again.": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "The article was dripping with ___ when it called the failure a 'resounding success'.",
-        "answer": "sarcasm"
+        "answer": "sarcasm",
+        "acceptedAnswers": [
+          "sarcasm"
+        ],
+        "explanation": "In this context, “sarcasm” supplies the meaning or form targeted in Satire & Irony. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       }
     ],
     "categoryEn": "Expert Register and Influence",
     "categoryVi": "Sắc thái và Ảnh hưởng Chuyên sâu",
     "prerequisites": [
       "c2-01-humor-english"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 75,
+      "maxWords": 230
+    }
   },
   "C2-03-academic-tone": {
     "id": "c2-03-academic-tone",
@@ -5005,7 +6843,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "reading",
     "order": 3,
     "cefr": "C2",
-    "minutes": 12,
+    "minutes": 13,
     "tags": [
       "academic",
       "formal",
@@ -5026,7 +6864,13 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "It is evident that...",
           "One might argue..."
         ],
-        "answer": "It is evident that..."
+        "answer": "It is evident that...",
+        "explanation": "In this context, “It is evident that...” supplies the meaning or form targeted in Academic Tone & Style. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "It appears that...": "This option does not complete the communicative intent or target form tested by the question context.",
+          "The data suggest...": "This option does not complete the communicative intent or target form tested by the question context.",
+          "One might argue...": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "choice",
@@ -5037,19 +6881,36 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "To lengthen the text",
           "To avoid using statistics"
         ],
-        "answer": "To express appropriate levels of certainty"
+        "answer": "To express appropriate levels of certainty",
+        "explanation": "In this context, “To express appropriate levels of certainty” supplies the meaning or form targeted in Academic Tone & Style. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "To confuse readers": "This option does not complete the communicative intent or target form tested by the question context.",
+          "To lengthen the text": "This option does not complete the communicative intent or target form tested by the question context.",
+          "To avoid using statistics": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "The findings are ___ with the existing literature on this topic.",
-        "answer": "consistent"
+        "answer": "consistent",
+        "acceptedAnswers": [
+          "consistent"
+        ],
+        "explanation": "In this context, “consistent” supplies the meaning or form targeted in Academic Tone & Style. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       }
     ],
     "categoryEn": "Expert Register and Influence",
     "categoryVi": "Sắc thái và Ảnh hưởng Chuyên sâu",
     "prerequisites": [
       "c2-02-satire-irony"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 75,
+      "maxWords": 230
+    }
   },
   "C2-04-whitepaper-writing": {
     "id": "c2-04-whitepaper-writing",
@@ -5063,7 +6924,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "writing",
     "order": 4,
     "cefr": "C2",
-    "minutes": 13,
+    "minutes": 14,
     "tags": [
       "whitepaper",
       "business",
@@ -5084,7 +6945,13 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "To list all technical details",
           "To thank the sponsors"
         ],
-        "answer": "To distil key arguments for time-pressed executives"
+        "answer": "To distil key arguments for time-pressed executives",
+        "explanation": "In this context, “To distil key arguments for time-pressed executives” supplies the meaning or form targeted in Whitepaper Writing. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "To entertain the reader": "This option does not complete the communicative intent or target form tested by the question context.",
+          "To list all technical details": "This option does not complete the communicative intent or target form tested by the question context.",
+          "To thank the sponsors": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "choice",
@@ -5095,19 +6962,36 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Personal anecdotes",
           "Humorous anecdotes"
         ],
-        "answer": "Evidence-based argumentation"
+        "answer": "Evidence-based argumentation",
+        "explanation": "In this context, “Evidence-based argumentation” supplies the meaning or form targeted in Whitepaper Writing. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Emotional appeal alone": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Personal anecdotes": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Humorous anecdotes": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "The whitepaper must anticipate and refute potential ___ from stakeholders.",
-        "answer": "objections"
+        "answer": "objections",
+        "acceptedAnswers": [
+          "objections"
+        ],
+        "explanation": "In this context, “objections” supplies the meaning or form targeted in Whitepaper Writing. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       }
     ],
     "categoryEn": "Expert Register and Influence",
     "categoryVi": "Sắc thái và Ảnh hưởng Chuyên sâu",
     "prerequisites": [
       "c2-03-academic-tone"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 75,
+      "maxWords": 230
+    }
   },
   "C2-05-review-unit1": {
     "id": "c2-05-review-unit1",
@@ -5121,7 +7005,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "review",
     "order": 5,
     "cefr": "C2",
-    "minutes": 13,
+    "minutes": 14,
     "tags": [
       "review",
       "humor",
@@ -5143,7 +7027,13 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Verbal irony",
           "Understatement"
         ],
-        "answer": "Verbal irony"
+        "answer": "Verbal irony",
+        "explanation": "In this context, “Verbal irony” supplies the meaning or form targeted in Review Unit 1. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Pun": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Satire": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Understatement": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "choice",
@@ -5154,7 +7044,13 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Subjunctive",
           "Conditional"
         ],
-        "answer": "Subjunctive"
+        "answer": "Subjunctive",
+        "explanation": "In this context, “Subjunctive” supplies the meaning or form targeted in Review Unit 1. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Indicative": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Imperative": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Conditional": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "choice",
@@ -5165,7 +7061,13 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "It is evident that...",
           "One might argue..."
         ],
-        "answer": "It is evident that..."
+        "answer": "It is evident that...",
+        "explanation": "In this context, “It is evident that...” supplies the meaning or form targeted in Review Unit 1. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "It appears that...": "This option does not complete the communicative intent or target form tested by the question context.",
+          "The data may suggest...": "This option does not complete the communicative intent or target form tested by the question context.",
+          "One might argue...": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "choice",
@@ -5176,29 +7078,54 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "The table of contents",
           "The references"
         ],
-        "answer": "The executive summary"
+        "answer": "The executive summary",
+        "explanation": "In this context, “The executive summary” supplies the meaning or form targeted in Review Unit 1. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "The conclusion": "This option does not complete the communicative intent or target form tested by the question context.",
+          "The table of contents": "This option does not complete the communicative intent or target form tested by the question context.",
+          "The references": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "British humor often relies on ___ and dry wit.",
-        "answer": "understatement"
+        "answer": "understatement",
+        "acceptedAnswers": [
+          "understatement"
+        ],
+        "explanation": "In this context, “understatement” supplies the meaning or form targeted in Review Unit 1. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "fill",
         "prompt": "When the audience knows more than the characters, this is called ___ irony.",
-        "answer": "dramatic"
+        "answer": "dramatic",
+        "acceptedAnswers": [
+          "dramatic"
+        ],
+        "explanation": "In this context, “dramatic” supplies the meaning or form targeted in Review Unit 1. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "fill",
         "prompt": "Academic writers use ___ language to express appropriate levels of certainty.",
-        "answer": "hedging"
+        "answer": "hedging",
+        "acceptedAnswers": [
+          "hedging"
+        ],
+        "explanation": "In this context, “hedging” supplies the meaning or form targeted in Review Unit 1. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       }
     ],
     "categoryEn": "Expert Register and Influence",
     "categoryVi": "Sắc thái và Ảnh hưởng Chuyên sâu",
     "prerequisites": [
       "c2-04-whitepaper-writing"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 75,
+      "maxWords": 230
+    }
   },
   "C2-06-conference-talk": {
     "id": "c2-06-conference-talk",
@@ -5212,7 +7139,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "vocab",
     "order": 6,
     "cefr": "C2",
-    "minutes": 14,
+    "minutes": 15,
     "tags": [
       "conference",
       "presentation",
@@ -5234,7 +7161,13 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "In conclusion...",
           "Thank you for your attention..."
         ],
-        "answer": "I shall argue that..."
+        "answer": "I shall argue that...",
+        "explanation": "In this context, “I shall argue that...” supplies the meaning or form targeted in Conference Talk Vocabulary. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Moving on to...": "This option does not complete the communicative intent or target form tested by the question context.",
+          "In conclusion...": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Thank you for your attention...": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "choice",
@@ -5245,19 +7178,36 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "I don't know",
           "We have no time for questions"
         ],
-        "answer": "I'm glad you raised that point"
+        "answer": "I'm glad you raised that point",
+        "explanation": "In this context, “I'm glad you raised that point” supplies the meaning or form targeted in Conference Talk Vocabulary. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "That's a stupid question": "This option does not complete the communicative intent or target form tested by the question context.",
+          "I don't know": "This option does not complete the communicative intent or target form tested by the question context.",
+          "We have no time for questions": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "The speaker acknowledged the ___ of the previous research while introducing her own methodology.",
-        "answer": "limitations"
+        "answer": "limitations",
+        "acceptedAnswers": [
+          "limitations"
+        ],
+        "explanation": "In this context, “limitations” supplies the meaning or form targeted in Conference Talk Vocabulary. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       }
     ],
     "categoryEn": "Expert Register and Influence",
     "categoryVi": "Sắc thái và Ảnh hưởng Chuyên sâu",
     "prerequisites": [
       "c2-05-review-unit1"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "dialogue",
+      "minTurns": 4,
+      "maxTurns": 6
+    }
   },
   "C2-07-panel-discussion": {
     "id": "c2-07-panel-discussion",
@@ -5271,7 +7221,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "grammar",
     "order": 7,
     "cefr": "C2",
-    "minutes": 13,
+    "minutes": 15,
     "tags": [
       "panel",
       "debate",
@@ -5293,7 +7243,13 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Past perfect",
           "Future continuous"
         ],
-        "answer": "Second conditional"
+        "answer": "Second conditional",
+        "explanation": "In this context, “Second conditional” supplies the meaning or form targeted in Panel Discussion Grammar. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Present simple": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Past perfect": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Future continuous": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "choice",
@@ -5304,19 +7260,36 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "was",
           "would be"
         ],
-        "answer": "be"
+        "answer": "be",
+        "explanation": "In this context, “be” supplies the meaning or form targeted in Panel Discussion Grammar. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "is": "This option does not complete the communicative intent or target form tested by the question context.",
+          "was": "This option does not complete the communicative intent or target form tested by the question context.",
+          "would be": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "Were the committee to ___ the proposal, significant implications would follow.",
-        "answer": "reject"
+        "answer": "reject",
+        "acceptedAnswers": [
+          "reject"
+        ],
+        "explanation": "In this context, “reject” supplies the meaning or form targeted in Panel Discussion Grammar. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       }
     ],
     "categoryEn": "Expert Register and Influence",
     "categoryVi": "Sắc thái và Ảnh hưởng Chuyên sâu",
     "prerequisites": [
       "c2-06-conference-talk"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 75,
+      "maxWords": 230
+    }
   },
   "C2-08-diplomatic-language": {
     "id": "c2-08-diplomatic-language",
@@ -5330,7 +7303,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "reading",
     "order": 8,
     "cefr": "C2",
-    "minutes": 14,
+    "minutes": 15,
     "tags": [
       "diplomacy",
       "treaties",
@@ -5352,7 +7325,13 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "To confuse the opposition",
           "To simplify complex issues"
         ],
-        "answer": "To preserve face and manage ambiguity"
+        "answer": "To preserve face and manage ambiguity",
+        "explanation": "In this context, “To preserve face and manage ambiguity” supplies the meaning or form targeted in Diplomatic Language. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "To be completely transparent": "This option does not complete the communicative intent or target form tested by the question context.",
+          "To confuse the opposition": "This option does not complete the communicative intent or target form tested by the question context.",
+          "To simplify complex issues": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "choice",
@@ -5363,19 +7342,36 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Polite acknowledgment without commitment",
           "Rejection"
         ],
-        "answer": "Polite acknowledgment without commitment"
+        "answer": "Polite acknowledgment without commitment",
+        "explanation": "In this context, “Polite acknowledgment without commitment” supplies the meaning or form targeted in Diplomatic Language. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Strong agreement": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Full endorsement": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Rejection": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "The ambassador expressed 'grave concern' over the incident, signalling ___ displeasure.",
-        "answer": "diplomatic"
+        "answer": "diplomatic",
+        "acceptedAnswers": [
+          "diplomatic"
+        ],
+        "explanation": "In this context, “diplomatic” supplies the meaning or form targeted in Diplomatic Language. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       }
     ],
     "categoryEn": "Expert Register and Influence",
     "categoryVi": "Sắc thái và Ảnh hưởng Chuyên sâu",
     "prerequisites": [
       "c2-07-panel-discussion"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 75,
+      "maxWords": 230
+    }
   },
   "C2-09-legal-contracts": {
     "id": "c2-09-legal-contracts",
@@ -5389,7 +7385,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "writing",
     "order": 9,
     "cefr": "C2",
-    "minutes": 13,
+    "minutes": 15,
     "tags": [
       "legal",
       "contracts",
@@ -5412,7 +7408,13 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "To satisfy legal requirements",
           "To provide examples"
         ],
-        "answer": "To eliminate ambiguity by establishing precise meanings"
+        "answer": "To eliminate ambiguity by establishing precise meanings",
+        "explanation": "In this context, “To eliminate ambiguity by establishing precise meanings” supplies the meaning or form targeted in Legal Contracts. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "To impress readers with complexity": "This option does not complete the communicative intent or target form tested by the question context.",
+          "To satisfy legal requirements": "This option does not complete the communicative intent or target form tested by the question context.",
+          "To provide examples": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "choice",
@@ -5423,19 +7425,36 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Shall",
           "Might"
         ],
-        "answer": "Shall"
+        "answer": "Shall",
+        "explanation": "In this context, “Shall” supplies the meaning or form targeted in Legal Contracts. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "May": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Should": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Might": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "The parties hereby ___ that they have read and understood the terms of this agreement.",
-        "answer": "acknowledge"
+        "answer": "acknowledge",
+        "acceptedAnswers": [
+          "acknowledge"
+        ],
+        "explanation": "In this context, “acknowledge” supplies the meaning or form targeted in Legal Contracts. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       }
     ],
     "categoryEn": "Expert Register and Influence",
     "categoryVi": "Sắc thái và Ảnh hưởng Chuyên sâu",
     "prerequisites": [
       "c2-08-diplomatic-language"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 75,
+      "maxWords": 230
+    }
   },
   "C2-10-review-unit2": {
     "id": "c2-10-review-unit2",
@@ -5449,7 +7468,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "review",
     "order": 10,
     "cefr": "C2",
-    "minutes": 13,
+    "minutes": 14,
     "tags": [
       "review",
       "conference",
@@ -5471,7 +7490,13 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "In conclusion...",
           "To sum up..."
         ],
-        "answer": "I shall argue that..."
+        "answer": "I shall argue that...",
+        "explanation": "In this context, “I shall argue that...” supplies the meaning or form targeted in Review Unit 2. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Moving on to...": "This option does not complete the communicative intent or target form tested by the question context.",
+          "In conclusion...": "This option does not complete the communicative intent or target form tested by the question context.",
+          "To sum up...": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "choice",
@@ -5482,7 +7507,13 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Should",
           "Shall"
         ],
-        "answer": "Shall"
+        "answer": "Shall",
+        "explanation": "In this context, “Shall” supplies the meaning or form targeted in Review Unit 2. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "May": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Might": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Should": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "choice",
@@ -5493,7 +7524,13 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Polite acknowledgment without commitment",
           "Rejection"
         ],
-        "answer": "Polite acknowledgment without commitment"
+        "answer": "Polite acknowledgment without commitment",
+        "explanation": "In this context, “Polite acknowledgment without commitment” supplies the meaning or form targeted in Review Unit 2. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Strong agreement": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Full commitment": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Rejection": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "choice",
@@ -5504,24 +7541,45 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Third conditional",
           "Zero conditional"
         ],
-        "answer": "Second conditional"
+        "answer": "Second conditional",
+        "explanation": "In this context, “Second conditional” supplies the meaning or form targeted in Review Unit 2. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "First conditional": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Third conditional": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Zero conditional": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "The subjunctive is used after verbs of suggestion, demand, and ___.",
-        "answer": "recommendation"
+        "answer": "recommendation",
+        "acceptedAnswers": [
+          "recommendation"
+        ],
+        "explanation": "In this context, “recommendation” supplies the meaning or form targeted in Review Unit 2. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "fill",
         "prompt": "In treaties, '___' means applying with necessary changes.",
-        "answer": "mutatis mutandis"
+        "answer": "mutatis mutandis",
+        "acceptedAnswers": [
+          "mutatis mutandis"
+        ],
+        "explanation": "In this context, “mutatis mutandis” supplies the meaning or form targeted in Review Unit 2. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       }
     ],
     "categoryEn": "Expert Register and Influence",
     "categoryVi": "Sắc thái và Ảnh hưởng Chuyên sâu",
     "prerequisites": [
       "c2-09-legal-contracts"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 75,
+      "maxWords": 230
+    }
   },
   "C2-11-research-presentation": {
     "id": "c2-11-research-presentation",
@@ -5535,7 +7593,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "vocab",
     "order": 11,
     "cefr": "C2",
-    "minutes": 13,
+    "minutes": 14,
     "tags": [
       "research",
       "academic",
@@ -5557,7 +7615,13 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "The limitations are irrelevant",
           "We ignored the limitations"
         ],
-        "answer": "Notwithstanding the limitations..."
+        "answer": "Notwithstanding the limitations...",
+        "explanation": "In this context, “Notwithstanding the limitations...” supplies the meaning or form targeted in Research Presentation Vocabulary. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "The study has no limitations": "This option does not complete the communicative intent or target form tested by the question context.",
+          "The limitations are irrelevant": "This option does not complete the communicative intent or target form tested by the question context.",
+          "We ignored the limitations": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "choice",
@@ -5568,19 +7632,36 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "A research ethics framework",
           "A citation style"
         ],
-        "answer": "Using multiple research methods to verify findings"
+        "answer": "Using multiple research methods to verify findings",
+        "explanation": "In this context, “Using multiple research methods to verify findings” supplies the meaning or form targeted in Research Presentation Vocabulary. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "A type of statistical analysis": "This option does not complete the communicative intent or target form tested by the question context.",
+          "A research ethics framework": "This option does not complete the communicative intent or target form tested by the question context.",
+          "A citation style": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "The findings are ___ with the theoretical framework proposed in the literature.",
-        "answer": "consistent"
+        "answer": "consistent",
+        "acceptedAnswers": [
+          "consistent"
+        ],
+        "explanation": "In this context, “consistent” supplies the meaning or form targeted in Research Presentation Vocabulary. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       }
     ],
     "categoryEn": "Expert Register and Influence",
     "categoryVi": "Sắc thái và Ảnh hưởng Chuyên sâu",
     "prerequisites": [
       "c2-10-review-unit2"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "dialogue",
+      "minTurns": 4,
+      "maxTurns": 6
+    }
   },
   "C2-12-debate-formal": {
     "id": "c2-12-debate-formal",
@@ -5594,7 +7675,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "grammar",
     "order": 12,
     "cefr": "C2",
-    "minutes": 14,
+    "minutes": 15,
     "tags": [
       "debate",
       "parliament",
@@ -5616,7 +7697,13 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Compound sentence",
           "Fragment"
         ],
-        "answer": "Cleft sentence"
+        "answer": "Cleft sentence",
+        "explanation": "In this context, “Cleft sentence” supplies the meaning or form targeted in Formal Debate Grammar. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Simple sentence": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Compound sentence": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Fragment": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "choice",
@@ -5627,19 +7714,36 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "A closing statement",
           "A request for clarification"
         ],
-        "answer": "A brief interjection during opponent's speech"
+        "answer": "A brief interjection during opponent's speech",
+        "explanation": "In this context, “A brief interjection during opponent's speech” supplies the meaning or form targeted in Formal Debate Grammar. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "A question about rules": "This option does not complete the communicative intent or target form tested by the question context.",
+          "A closing statement": "This option does not complete the communicative intent or target form tested by the question context.",
+          "A request for clarification": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "It is not the policy that is flawed, but rather its ___.",
-        "answer": "implementation"
+        "answer": "implementation",
+        "acceptedAnswers": [
+          "implementation"
+        ],
+        "explanation": "In this context, “implementation” supplies the meaning or form targeted in Formal Debate Grammar. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       }
     ],
     "categoryEn": "Expert Register and Influence",
     "categoryVi": "Sắc thái và Ảnh hưởng Chuyên sâu",
     "prerequisites": [
       "c2-11-research-presentation"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 75,
+      "maxWords": 230
+    }
   },
   "C2-13-write-publish": {
     "id": "c2-13-write-publish",
@@ -5653,7 +7757,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "reading",
     "order": 13,
     "cefr": "C2",
-    "minutes": 13,
+    "minutes": 15,
     "tags": [
       "publishing",
       "peer review",
@@ -5675,7 +7779,13 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Immediate acceptance",
           "Transfer to another journal"
         ],
-        "answer": "Conditional acceptance pending revisions"
+        "answer": "Conditional acceptance pending revisions",
+        "explanation": "In this context, “Conditional acceptance pending revisions” supplies the meaning or form targeted in Writing for Publication. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Complete rejection": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Immediate acceptance": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Transfer to another journal": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "choice",
@@ -5686,19 +7796,36 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Detailed statistical methods",
           "Suggested reviewers"
         ],
-        "answer": "Detailed statistical methods"
+        "answer": "Detailed statistical methods",
+        "explanation": "In this context, “Detailed statistical methods” supplies the meaning or form targeted in Writing for Publication. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Submission title and authors": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Statement of originality": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Suggested reviewers": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "The reviewer described the methodology as '___', indicating serious methodological concerns.",
-        "answer": "flawed"
+        "answer": "flawed",
+        "acceptedAnswers": [
+          "flawed"
+        ],
+        "explanation": "In this context, “flawed” supplies the meaning or form targeted in Writing for Publication. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       }
     ],
     "categoryEn": "Expert Register and Influence",
     "categoryVi": "Sắc thái và Ảnh hưởng Chuyên sâu",
     "prerequisites": [
       "c2-12-debate-formal"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 75,
+      "maxWords": 230
+    }
   },
   "C2-14-professional-poetry": {
     "id": "c2-14-professional-poetry",
@@ -5712,7 +7839,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "writing",
     "order": 14,
     "cefr": "C2",
-    "minutes": 14,
+    "minutes": 15,
     "tags": [
       "poetry",
       "professional",
@@ -5734,7 +7861,13 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Using complex imagery",
           "Challenging conventional forms"
         ],
-        "answer": "Serving the occasion and audience"
+        "answer": "Serving the occasion and audience",
+        "explanation": "In this context, “Serving the occasion and audience” supplies the meaning or form targeted in Professional Poetry. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Personal artistic expression": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Using complex imagery": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Challenging conventional forms": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "choice",
@@ -5745,19 +7878,36 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Iambic pentameter",
           "Anapestic tetrameter"
         ],
-        "answer": "Iambic pentameter"
+        "answer": "Iambic pentameter",
+        "explanation": "In this context, “Iambic pentameter” supplies the meaning or form targeted in Professional Poetry. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Iambic trimeter": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Trochaic dimeter": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Anapestic tetrameter": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "A commemorative poem should balance ___ with dignity and appropriate emotion.",
-        "answer": "brevity"
+        "answer": "brevity",
+        "acceptedAnswers": [
+          "brevity"
+        ],
+        "explanation": "In this context, “brevity” supplies the meaning or form targeted in Professional Poetry. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       }
     ],
     "categoryEn": "Expert Register and Influence",
     "categoryVi": "Sắc thái và Ảnh hưởng Chuyên sâu",
     "prerequisites": [
       "c2-13-write-publish"
-    ]
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 75,
+      "maxWords": 230
+    }
   },
   "C2-15-review-unit3": {
     "id": "c2-15-review-unit3",
@@ -5771,7 +7921,7 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
     "skill": "review",
     "order": 15,
     "cefr": "C2",
-    "minutes": 13,
+    "minutes": 14,
     "tags": [
       "review",
       "research",
@@ -5794,7 +7944,13 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Compound sentence",
           "Question"
         ],
-        "answer": "Cleft sentence"
+        "answer": "Cleft sentence",
+        "explanation": "In this context, “Cleft sentence” supplies the meaning or form targeted in Review Unit 3. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Simple sentence": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Compound sentence": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Question": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "choice",
@@ -5805,7 +7961,13 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Immediate acceptance",
           "Transfer to another journal"
         ],
-        "answer": "Conditional acceptance pending revisions"
+        "answer": "Conditional acceptance pending revisions",
+        "explanation": "In this context, “Conditional acceptance pending revisions” supplies the meaning or form targeted in Review Unit 3. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Rejected outright": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Immediate acceptance": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Transfer to another journal": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "choice",
@@ -5816,7 +7978,13 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Challenging conventional forms",
           "Demonstrating linguistic virtuosity"
         ],
-        "answer": "Serving the occasion and audience"
+        "answer": "Serving the occasion and audience",
+        "explanation": "In this context, “Serving the occasion and audience” supplies the meaning or form targeted in Review Unit 3. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Personal artistic expression": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Challenging conventional forms": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Demonstrating linguistic virtuosity": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "choice",
@@ -5827,23 +7995,4670 @@ export const CONTENT_MANIFEST: Record<string, Record<string, unknown>> = {
           "Length and depth",
           "Theory and practice"
         ],
-        "answer": "Confidence and epistemic humility"
+        "answer": "Confidence and epistemic humility",
+        "explanation": "In this context, “Confidence and epistemic humility” supplies the meaning or form targeted in Review Unit 3. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        "distractorFeedback": {
+          "Speed and clarity": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Length and depth": "This option does not complete the communicative intent or target form tested by the question context.",
+          "Theory and practice": "This option does not complete the communicative intent or target form tested by the question context."
+        }
       },
       {
         "type": "fill",
         "prompt": "In formal debate, 'It is not [X] but [Y] that matters' is an example of a ___ sentence.",
-        "answer": "cleft"
+        "answer": "cleft",
+        "acceptedAnswers": [
+          "cleft"
+        ],
+        "explanation": "In this context, “cleft” supplies the meaning or form targeted in Review Unit 3. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       },
       {
         "type": "fill",
         "prompt": "When responding to peer reviewers, one should address each comment ___.",
-        "answer": "in turn"
+        "answer": "in turn",
+        "acceptedAnswers": [
+          "in turn"
+        ],
+        "explanation": "In this context, “in turn” supplies the meaning or form targeted in Review Unit 3. Check it against the surrounding sentence rather than memorizing the answer in isolation."
       }
     ],
     "categoryEn": "Expert Register and Influence",
     "categoryVi": "Sắc thái và Ảnh hưởng Chuyên sâu",
     "prerequisites": [
       "c2-14-professional-poetry"
+    ],
+    "editorialStatus": "structured-rewrite",
+    "sourceType": "fictional",
+    "practiceContract": {
+      "mode": "writing",
+      "minWords": 75,
+      "maxWords": 230
+    }
+  }
+}
+
+export const VI_PRACTICE_OVERRIDES: Record<string, Record<string, unknown>> = {
+  "A1-01-greetings": {
+    "quiz": [
+      {
+        "type": "fill",
+        "prompt": "Hello, my ___ is Anna.",
+        "answer": "name",
+        "acceptedAnswers": [
+          "name"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “name” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Chào hỏi & Giới thiệu bản thân. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "Which greeting is most appropriate when you meet your new boss for the first time?",
+        "options": [
+          "Hey, what's up?",
+          "Yo bro!",
+          "Good morning. Nice to meet you.",
+          "Sup?"
+        ],
+        "answer": "Good morning. Nice to meet you.",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Good morning. Nice to meet you.” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Chào hỏi & Giới thiệu bản thân. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Hey, what's up?": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Yo bro!": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Sup?": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "choice",
+        "prompt": "Your colleague says 'How are you?' What is a polite reply?",
+        "options": [
+          "I'm twenty.",
+          "I'm fine, thank you. And you?",
+          "My name is Anna.",
+          "Goodbye."
+        ],
+        "answer": "I'm fine, thank you. And you?",
+        "explanation": "Trong ngữ cảnh câu hỏi, “I'm fine, thank you. And you?” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Chào hỏi & Giới thiệu bản thân. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "I'm twenty.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "My name is Anna.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Goodbye.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "choice",
+        "prompt": "What does 'Nice to meet you' mean?",
+        "options": [
+          "I want to leave now.",
+          "I'm happy to know you (first meeting).",
+          "I have known you for a long time.",
+          "Please call me later."
+        ],
+        "answer": "I'm happy to know you (first meeting).",
+        "explanation": "Trong ngữ cảnh câu hỏi, “I'm happy to know you (first meeting).” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Chào hỏi & Giới thiệu bản thân. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "I want to leave now.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "I have known you for a long time.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Please call me later.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "A1-02-numbers": {
+    "quiz": [
+      {
+        "type": "fill",
+        "prompt": "How do you spell the number 14? ___",
+        "answer": "fourteen",
+        "acceptedAnswers": [
+          "fourteen"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “fourteen” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Số đếm & Số điện thoại. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "Someone says: 'My number is zero nine one, two three four, five six seven.' What is the number?",
+        "options": [
+          "091234567",
+          "91234567",
+          "0912345678",
+          "9234567"
+        ],
+        "answer": "091234567",
+        "explanation": "Trong ngữ cảnh câu hỏi, “091234567” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Số đếm & Số điện thoại. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "9234567": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "91234567": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "0912345678": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "choice",
+        "prompt": "Which is the correct spelling for 40?",
+        "options": [
+          "fourty",
+          "forty",
+          "fourti",
+          "fourteen"
+        ],
+        "answer": "forty",
+        "explanation": "Trong ngữ cảnh câu hỏi, “forty” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Số đếm & Số điện thoại. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "fourty": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "fourti": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "fourteen": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "Six ___ two equals eight. (plus / minus / times)",
+        "answer": "plus",
+        "acceptedAnswers": [
+          "plus"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “plus” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Số đếm & Số điện thoại. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      }
+    ]
+  },
+  "A1-03-daily-verbs": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "Which verb completes the sentence? 'I ___ up at six in the morning.'",
+        "options": [
+          "wake",
+          "wakes",
+          "waking",
+          "woke"
+        ],
+        "answer": "wake",
+        "explanation": "Trong ngữ cảnh câu hỏi, “wake” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Động từ hàng ngày. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "wakes": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "waking": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "woke": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "I ___ coffee every morning. (uống)",
+        "answer": "drink",
+        "acceptedAnswers": [
+          "drink"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “drink” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Động từ hàng ngày. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "What is the opposite of 'come'?",
+        "options": [
+          "go",
+          "stay",
+          "leave",
+          "arrive"
+        ],
+        "answer": "go",
+        "explanation": "Trong ngữ cảnh câu hỏi, “go” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Động từ hàng ngày. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "stay": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "leave": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "arrive": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "She ___ home at six in the evening. (đến)",
+        "answer": "comes",
+        "acceptedAnswers": [
+          "comes"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “comes” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Động từ hàng ngày. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      }
+    ]
+  },
+  "A1-04-family": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "How do you say 'anh trai' in English?",
+        "options": [
+          "Father",
+          "Brother",
+          "Uncle",
+          "Son"
+        ],
+        "answer": "Brother",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Brother” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Các thành viên trong gia đình. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Father": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Uncle": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Son": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "My ___ is 70 years old. She is my mom's mother. (bà)",
+        "answer": "grandmother",
+        "acceptedAnswers": [
+          "grandmother"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “grandmother” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Các thành viên trong gia đình. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "What does 'I have two sisters' mean?",
+        "options": [
+          "I am a sister.",
+          "There are two girls who are my sisters.",
+          "My sisters are two years old.",
+          "I have two brothers."
+        ],
+        "answer": "There are two girls who are my sisters.",
+        "explanation": "Trong ngữ cảnh câu hỏi, “There are two girls who are my sisters.” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Các thành viên trong gia đình. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "I am a sister.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "My sisters are two years old.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "I have two brothers.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "This is my brother. ___ name is Tuan. (đại từ sở hữu)",
+        "answer": "His",
+        "acceptedAnswers": [
+          "His"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “His” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Các thành viên trong gia đình. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      }
+    ]
+  },
+  "A1-05-review-unit1": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "How do you introduce yourself in English?",
+        "options": [
+          "Me name is...",
+          "My name is...",
+          "I name is..."
+        ],
+        "answer": "My name is...",
+        "explanation": "Trong ngữ cảnh câu hỏi, “My name is...” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 1. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Me name is...": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "I name is...": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "My phone number is zero nine one, five six seven, eight nine zero. Write the digits:",
+        "answer": "091567890",
+        "acceptedAnswers": [
+          "091567890"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “091567890” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 1. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "Which verb means 'ăn'?",
+        "options": [
+          "drink",
+          "eat",
+          "sleep"
+        ],
+        "answer": "eat",
+        "explanation": "Trong ngữ cảnh câu hỏi, “eat” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 1. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "drink": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "sleep": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "This is my ___. She is my mom. (mẹ)",
+        "answer": "mother",
+        "acceptedAnswers": [
+          "mother"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “mother” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 1. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "What time do you wake up? (thức dậy) Choose the right answer:",
+        "options": [
+          "I sleep.",
+          "I wake up at six.",
+          "I eat."
+        ],
+        "answer": "I wake up at six.",
+        "explanation": "Trong ngữ cảnh câu hỏi, “I wake up at six.” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 1. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "I sleep.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "I eat.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "A1-06-time-place": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "Which preposition is correct? 'I wake up ___ six in the morning.'",
+        "options": [
+          "in",
+          "on",
+          "at",
+          "by"
+        ],
+        "answer": "at",
+        "explanation": "Trong ngữ cảnh câu hỏi, “at” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Thời gian & Địa điểm. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "in": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "on": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "by": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "choice",
+        "prompt": "Complete: 'She works ___ a hospital.'",
+        "options": [
+          "in",
+          "at",
+          "on"
+        ],
+        "answer": "at",
+        "explanation": "Trong ngữ cảnh câu hỏi, “at” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Thời gian & Địa điểm. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "in": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "on": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "choice",
+        "prompt": "When is 'afternoon'?",
+        "options": [
+          "6am - 12pm",
+          "12pm - 6pm",
+          "6pm - 12am"
+        ],
+        "answer": "12pm - 6pm",
+        "explanation": "Trong ngữ cảnh câu hỏi, “12pm - 6pm” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Thời gian & Địa điểm. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "6am - 12pm": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "6pm - 12am": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "I have a meeting ___ Monday morning. (giới từ)",
+        "answer": "on",
+        "acceptedAnswers": [
+          "on"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “on” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Thời gian & Địa điểm. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      }
+    ]
+  },
+  "A1-07-food": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "Complete: 'I would like ___ rice, please.'",
+        "options": [
+          "any",
+          "some",
+          "a"
+        ],
+        "answer": "some",
+        "explanation": "Trong ngữ cảnh câu hỏi, “some” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Thức ăn & Đồ uống. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "any": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "a": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "choice",
+        "prompt": "Which is correct?",
+        "options": [
+          "I would like a water, please.",
+          "I would like a glass of water, please.",
+          "I would like a waters, please.",
+          "I would like waters, please."
+        ],
+        "answer": "I would like a glass of water, please.",
+        "explanation": "Trong ngữ cảnh câu hỏi, “I would like a glass of water, please.” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Thức ăn & Đồ uống. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "I would like a water, please.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "I would like a waters, please.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "I would like waters, please.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "choice",
+        "prompt": "What is the polite way to ask for the check at a restaurant?",
+        "options": [
+          "Money now.",
+          "Pay me.",
+          "The bill, please.",
+          "Check please give."
+        ],
+        "answer": "The bill, please.",
+        "explanation": "Trong ngữ cảnh câu hỏi, “The bill, please.” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Thức ăn & Đồ uống. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Money now.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Pay me.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Check please give.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "I ___ like some chicken, please. (muốn)",
+        "answer": "would",
+        "acceptedAnswers": [
+          "would"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “would” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Thức ăn & Đồ uống. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      }
+    ]
+  },
+  "A1-08-weather": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "Which is the correct sentence?",
+        "options": [
+          "Today is sun.",
+          "Today is sunny.",
+          "Today is a sun.",
+          "Today is the sun."
+        ],
+        "answer": "Today is sunny.",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Today is sunny.” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Thời tiết. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Today is sun.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Today is a sun.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Today is the sun.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "choice",
+        "prompt": "How do you say 'mưa'?",
+        "options": [
+          "cloudy",
+          "sunny",
+          "rainy",
+          "windy"
+        ],
+        "answer": "rainy",
+        "explanation": "Trong ngữ cảnh câu hỏi, “rainy” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Thời tiết. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "cloudy": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "sunny": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "windy": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "In summer, it is very ___. (nóng)",
+        "answer": "hot",
+        "acceptedAnswers": [
+          "hot"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “hot” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Thời tiết. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "Which season is hot in Vietnam?",
+        "options": [
+          "spring",
+          "summer",
+          "autumn",
+          "winter"
+        ],
+        "answer": "summer",
+        "explanation": "Trong ngữ cảnh câu hỏi, “summer” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Thời tiết. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "spring": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "autumn": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "winter": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "A1-09-hobbies": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "Which is correct?",
+        "options": [
+          "I enjoy to read books.",
+          "I enjoy reading books.",
+          "I enjoy read books.",
+          "I enjoying read books."
+        ],
+        "answer": "I enjoy reading books.",
+        "explanation": "Trong ngữ cảnh câu hỏi, “I enjoy reading books.” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Sở thích & Thời gian rảnh. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "I enjoy to read books.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "I enjoy read books.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "I enjoying read books.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "choice",
+        "prompt": "Which verb goes with 'music'?",
+        "options": [
+          "play music",
+          "listen to music",
+          "watch music",
+          "do music"
+        ],
+        "answer": "listen to music",
+        "explanation": "Trong ngữ cảnh câu hỏi, “listen to music” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Sở thích & Thời gian rảnh. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "play music": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "watch music": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "do music": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "I ___ playing soccer on weekends. (rất thích = love)",
+        "answer": "love",
+        "acceptedAnswers": [
+          "love"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “love” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Sở thích & Thời gian rảnh. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "What does 'cooking' mean?",
+        "options": [
+          "nấu ăn",
+          "đọc sách",
+          "chơi bóng đá",
+          "nghe nhạc"
+        ],
+        "answer": "nấu ăn",
+        "explanation": "Trong ngữ cảnh câu hỏi, “nấu ăn” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Sở thích & Thời gian rảnh. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "đọc sách": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "chơi bóng đá": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "nghe nhạc": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "A1-10-review-unit2": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "Which preposition is correct? 'I wake up ___ six in the morning.'",
+        "options": [
+          "in",
+          "on",
+          "at",
+          "by"
+        ],
+        "answer": "at",
+        "explanation": "Trong ngữ cảnh câu hỏi, “at” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 2. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "in": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "on": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "by": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "I would like a ___ of water, please. (đơn vị đo)",
+        "answer": "glass",
+        "acceptedAnswers": [
+          "glass"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “glass” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 2. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "'It is rainy today' có nghĩa là gì?",
+        "options": [
+          "Trời nắng",
+          "Trời mưa",
+          "Trời lạnh"
+        ],
+        "answer": "Trời mưa",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Trời mưa” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 2. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Trời nắng": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Trời lạnh": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "I ___ listening to music in my free time. (thích - dùng enjoy)",
+        "answer": "enjoy",
+        "acceptedAnswers": [
+          "enjoy"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “enjoy” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 2. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "Where do you usually buy fresh vegetables?",
+        "options": [
+          "school",
+          "market",
+          "library",
+          "bank"
+        ],
+        "answer": "market",
+        "explanation": "Trong ngữ cảnh câu hỏi, “market” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 2. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "school": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "library": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "bank": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "A1-11-shopping-money": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "Which question asks for the price?",
+        "options": [
+          "How many is this?",
+          "How much is this?",
+          "How old is this?",
+          "How much money do you have?"
+        ],
+        "answer": "How much is this?",
+        "explanation": "Trong ngữ cảnh câu hỏi, “How much is this?” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Mua sắm & Tiền bạc. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "How many is this?": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "How old is this?": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "How much money do you have?": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "choice",
+        "prompt": "What is the opposite of 'cheap'?",
+        "options": [
+          "small",
+          "expensive",
+          "free",
+          "discount"
+        ],
+        "answer": "expensive",
+        "explanation": "Trong ngữ cảnh câu hỏi, “expensive” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Mua sắm & Tiền bạc. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "small": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "free": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "discount": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "It ___ 50 dollars. (verb for price)",
+        "answer": "costs",
+        "acceptedAnswers": [
+          "costs"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “costs” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Mua sắm & Tiền bạc. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "You want to pay with your Visa card. You ask:",
+        "options": [
+          "Where is the card?",
+          "Can I pay by card?",
+          "How many cards?",
+          "Do you take dollars?"
+        ],
+        "answer": "Can I pay by card?",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Can I pay by card?” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Mua sắm & Tiền bạc. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Where is the card?": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "How many cards?": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Do you take dollars?": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "A1-12-directions": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "How do you ask for directions?",
+        "options": [
+          "Where is the bank?",
+          "I am the bank.",
+          "Bank is where?",
+          "Bank what?"
+        ],
+        "answer": "Where is the bank?",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Where is the bank?” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Đường đi & Địa điểm. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "I am the bank.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Bank is where?": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Bank what?": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "choice",
+        "prompt": "What does 'turn left' mean?",
+        "options": [
+          "rẽ trái",
+          "rẽ phải",
+          "đi thẳng",
+          "quay lại"
+        ],
+        "answer": "rẽ trái",
+        "explanation": "Trong ngữ cảnh câu hỏi, “rẽ trái” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Đường đi & Địa điểm. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "rẽ phải": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "đi thẳng": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "quay lại": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "Go ___ for two blocks. (đi thẳng = straight)",
+        "answer": "straight",
+        "acceptedAnswers": [
+          "straight"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “straight” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Đường đi & Địa điểm. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "What is the opposite of 'far'?",
+        "options": [
+          "near",
+          "right",
+          "left",
+          "straight"
+        ],
+        "answer": "near",
+        "explanation": "Trong ngữ cảnh câu hỏi, “near” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Đường đi & Địa điểm. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "right": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "left": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "straight": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "A1-13-can-cant": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          "I can to swim.",
+          "I can swimming.",
+          "I can swim.",
+          "I can swim to."
+        ],
+        "answer": "I can swim.",
+        "explanation": "Trong ngữ cảnh câu hỏi, “I can swim.” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Can và Can't. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "I can to swim.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "I can swimming.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "I can swim to.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "choice",
+        "prompt": "What is the negative of 'I can swim'?",
+        "options": [
+          "I can not to swim.",
+          "I don't can swim.",
+          "I can't swim.",
+          "I no can swim."
+        ],
+        "answer": "I can't swim.",
+        "explanation": "Trong ngữ cảnh câu hỏi, “I can't swim.” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Can và Can't. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "I can not to swim.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "I don't can swim.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "I no can swim.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "choice",
+        "prompt": "A friend asks: 'Can you play the guitar?' You don't play. What do you say?",
+        "options": [
+          "Yes, I can.",
+          "No, I can't.",
+          "Yes, I can't.",
+          "I can."
+        ],
+        "answer": "No, I can't.",
+        "explanation": "Trong ngữ cảnh câu hỏi, “No, I can't.” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Can và Can't. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Yes, I can.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Yes, I can't.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "I can.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "Excuse me, ___ I open the window? (xin phép)",
+        "answer": "can",
+        "acceptedAnswers": [
+          "can"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “can” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Can và Can't. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      }
+    ]
+  },
+  "A1-14-describing-people": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "Which word describes hair length?",
+        "options": [
+          "tall",
+          "long",
+          "friendly",
+          "short"
+        ],
+        "answer": "long",
+        "explanation": "Trong ngữ cảnh câu hỏi, “long” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Miêu tả con người. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "tall": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "friendly": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "short": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "She is ___ and friendly. (cao = tall)",
+        "answer": "tall",
+        "acceptedAnswers": [
+          "tall"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “tall” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Miêu tả con người. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "Which is a personality trait?",
+        "options": [
+          "Hair color",
+          "Tall",
+          "Friendly",
+          "Young"
+        ],
+        "answer": "Friendly",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Friendly” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Miêu tả con người. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Hair color": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Tall": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Young": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "He ___ black hair. (động từ sở hữu)",
+        "answer": "has",
+        "acceptedAnswers": [
+          "has"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “has” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Miêu tả con người. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      }
+    ]
+  },
+  "A1-15-review-unit3": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "'How much does this cost?' means:",
+        "options": [
+          "How many?",
+          "What is the price?",
+          "Where is it?"
+        ],
+        "answer": "What is the price?",
+        "explanation": "Trong ngữ cảnh câu hỏi, “What is the price?” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 3. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "How many?": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Where is it?": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "Turn ___ at the traffic light.",
+        "answer": "left",
+        "acceptedAnswers": [
+          "left"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “left” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 3. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "Which is correct?",
+        "options": [
+          "I can to swim.",
+          "I can swim.",
+          "I can swimming."
+        ],
+        "answer": "I can swim.",
+        "explanation": "Trong ngữ cảnh câu hỏi, “I can swim.” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 3. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "I can to swim.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "I can swimming.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "She ___ black hair. (có)",
+        "answer": "has",
+        "acceptedAnswers": [
+          "has"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “has” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 3. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "What does 'friendly' describe?",
+        "options": [
+          "Appearance",
+          "Personality",
+          "Height"
+        ],
+        "answer": "Personality",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Personality” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 3. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Appearance": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Height": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "A2-01-asking-help": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "How do you politely ask someone to help you carry a heavy box?",
+        "options": [
+          "Give me that box.",
+          "Could you help me with this box, please?",
+          "Help!"
+        ],
+        "answer": "Could you help me with this box, please?",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Could you help me with this box, please?” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Hỏi xin giúp đỡ. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Give me that box.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Help!": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "Excuse me, ___ you help me find the station?",
+        "answer": "could",
+        "acceptedAnswers": [
+          "could"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “could” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Hỏi xin giúp đỡ. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "Which phrase is the most polite?",
+        "options": [
+          "Do this for me.",
+          "Would you mind helping me?",
+          "Come here!"
+        ],
+        "answer": "Would you mind helping me?",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Would you mind helping me?” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Hỏi xin giúp đỡ. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Do this for me.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Come here!": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "A2-02-daily-routine": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "Which sentence is correct for daily routine?",
+        "options": [
+          "I wakes up at six.",
+          "I wake up at six.",
+          "I waking up at six."
+        ],
+        "answer": "I wake up at six.",
+        "explanation": "Trong ngữ cảnh câu hỏi, “I wake up at six.” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Thói quen hàng ngày. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "I wakes up at six.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "I waking up at six.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "She ___ to school every morning. (go)",
+        "answer": "goes",
+        "acceptedAnswers": [
+          "goes"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “goes” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Thói quen hàng ngày. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "When do we add 's' or 'es' to the verb?",
+        "options": [
+          "With I, you, we, they",
+          "With he, she, it",
+          "Never"
+        ],
+        "answer": "With he, she, it",
+        "explanation": "Trong ngữ cảnh câu hỏi, “With he, she, it” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Thói quen hàng ngày. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "With I, you, we, they": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Never": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "A2-03-comparatives": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "Which is correct for comparing two short adjectives?",
+        "options": [
+          "She is more tall than me.",
+          "She is taller than me.",
+          "She is tall than me."
+        ],
+        "answer": "She is taller than me.",
+        "explanation": "Trong ngữ cảnh câu hỏi, “She is taller than me.” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài So sánh hơn. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "She is more tall than me.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "She is tall than me.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "This task is ___ than the last one. (easy)",
+        "answer": "easier",
+        "acceptedAnswers": [
+          "easier"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “easier” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài So sánh hơn. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "Which word needs 'more' before it?",
+        "options": [
+          "tall",
+          "beautiful",
+          "big"
+        ],
+        "answer": "beautiful",
+        "explanation": "Trong ngữ cảnh câu hỏi, “beautiful” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài So sánh hơn. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "tall": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "big": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "A2-04-past-events": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "Which sentence uses past simple correctly?",
+        "options": [
+          "I goed to school.",
+          "I went to school.",
+          "I goed at school."
+        ],
+        "answer": "I went to school.",
+        "explanation": "Trong ngữ cảnh câu hỏi, “I went to school.” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Sự kiện trong quá khứ. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "I goed to school.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "I goed at school.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "Yesterday, she ___ a new dress. (buy)",
+        "answer": "bought",
+        "acceptedAnswers": [
+          "bought"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “bought” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Sự kiện trong quá khứ. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "When do we use 'was'?",
+        "options": [
+          "With I, he, she, it",
+          "With you, we, they",
+          "With all subjects"
+        ],
+        "answer": "With I, he, she, it",
+        "explanation": "Trong ngữ cảnh câu hỏi, “With I, he, she, it” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Sự kiện trong quá khứ. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "With you, we, they": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "With all subjects": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "A2-05-review-unit1": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "How do you politely ask for help?",
+        "options": [
+          "Give me help.",
+          "Could you help me, please?",
+          "Help me now!"
+        ],
+        "answer": "Could you help me, please?",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Could you help me, please?” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 1. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Give me help.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Help me now!": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "I wake ___ at six every morning.",
+        "answer": "up",
+        "acceptedAnswers": [
+          "up"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “up” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 1. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "Which is the correct comparative form?",
+        "options": [
+          "more beautiful",
+          "beautifuller",
+          "beautfuller"
+        ],
+        "answer": "more beautiful",
+        "explanation": "Trong ngữ cảnh câu hỏi, “more beautiful” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 1. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "beautifuller": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "beautfuller": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "Yesterday, she ___ to the market. (go)",
+        "answer": "went",
+        "acceptedAnswers": [
+          "went"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “went” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 1. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "Which sentence is in past simple?",
+        "options": [
+          "I work at home.",
+          "I am working.",
+          "I worked late."
+        ],
+        "answer": "I worked late.",
+        "explanation": "Trong ngữ cảnh câu hỏi, “I worked late.” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 1. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "I work at home.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "I am working.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "A2-06-email-basics": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "Which greeting is formal for business emails?",
+        "options": [
+          "Hey there!",
+          "Dear Sir or Madam,",
+          "Hi mate!"
+        ],
+        "answer": "Dear Sir or Madam,",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Dear Sir or Madam,” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Email cơ bản. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Hey there!": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Hi mate!": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "I am writing to ___ about your product. (inquire)",
+        "answer": "inquire",
+        "acceptedAnswers": [
+          "inquire"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “inquire” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Email cơ bản. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "Which closing phrase is the most formal?",
+        "options": [
+          "Cheers",
+          "Best regards",
+          "Talk soon"
+        ],
+        "answer": "Best regards",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Best regards” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Email cơ bản. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Cheers": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Talk soon": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "A2-07-phone-call": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "How do you answer a phone call formally?",
+        "options": [
+          "Yeah, who are you?",
+          "Hello, this is [name] speaking.",
+          "What's up?"
+        ],
+        "answer": "Hello, this is [name] speaking.",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Hello, this is [name] speaking.” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Cuộc gọi điện thoại. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Yeah, who are you?": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "What's up?": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "Can I speak ___ Mr. Smith, please?",
+        "answer": "to",
+        "acceptedAnswers": [
+          "to"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “to” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Cuộc gọi điện thoại. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "What should you say if the person is not available?",
+        "options": [
+          "Put him on!",
+          "Could you take a message, please?",
+          "Call back later."
+        ],
+        "answer": "Could you take a message, please?",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Could you take a message, please?” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Cuộc gọi điện thoại. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Put him on!": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Call back later.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "A2-08-future-plans": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "Which is correct for a planned decision?",
+        "options": [
+          "I will go to the cinema.",
+          "I am going to go to the cinema.",
+          "I going to go to the cinema."
+        ],
+        "answer": "I am going to go to the cinema.",
+        "explanation": "Trong ngữ cảnh câu hỏi, “I am going to go to the cinema.” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Kế hoạch tương lai. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "I will go to the cinema.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "I going to go to the cinema.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "She ___ (call) you tomorrow. Choose: will / is going to",
+        "answer": "will",
+        "acceptedAnswers": [
+          "will"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “will” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Kế hoạch tương lai. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "When do we use \"will\"?",
+        "options": [
+          "For planned decisions",
+          "For spontaneous decisions or predictions",
+          "For past events"
+        ],
+        "answer": "For spontaneous decisions or predictions",
+        "explanation": "Trong ngữ cảnh câu hỏi, “For spontaneous decisions or predictions” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Kế hoạch tương lai. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "For planned decisions": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "For past events": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "A2-09-should-must": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "Which sentence gives advice?",
+        "options": [
+          "You must be on time.",
+          "You should try this restaurant.",
+          "You will go to school."
+        ],
+        "answer": "You should try this restaurant.",
+        "explanation": "Trong ngữ cảnh câu hỏi, “You should try this restaurant.” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Should và Must. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "You must be on time.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "You will go to school.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "You ___ finish your work before the deadline. (must/should)",
+        "answer": "must",
+        "acceptedAnswers": [
+          "must"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “must” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Should và Must. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "What's the difference between should and must?",
+        "options": [
+          "They mean the same thing.",
+          "Should is advice, must is strong obligation.",
+          "Must is for past tense."
+        ],
+        "answer": "Should is advice, must is strong obligation.",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Should is advice, must is strong obligation.” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Should và Must. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "They mean the same thing.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Must is for past tense.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "A2-10-review-unit2": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "How do you start a formal email?",
+        "options": [
+          "Hey buddy!",
+          "Dear Sir or Madam,",
+          "What's up?"
+        ],
+        "answer": "Dear Sir or Madam,",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Dear Sir or Madam,” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 2. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Hey buddy!": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "What's up?": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "I ___ (go) to Hanoi next week. Choose: will / am going to",
+        "answer": "am going to",
+        "acceptedAnswers": [
+          "am going to"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “am going to” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 2. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "Which sentence is an example of must (obligation)?",
+        "options": [
+          "You should eat vegetables.",
+          "You must wear a helmet.",
+          "You will come tomorrow."
+        ],
+        "answer": "You must wear a helmet.",
+        "explanation": "Trong ngữ cảnh câu hỏi, “You must wear a helmet.” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 2. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "You should eat vegetables.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "You will come tomorrow.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "Can I speak ___ Mr. Smith, please?",
+        "answer": "to",
+        "acceptedAnswers": [
+          "to"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “to” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 2. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "Which phrase ends a formal email?",
+        "options": [
+          "Talk soon!",
+          "Best regards,",
+          "Cheers mate!"
+        ],
+        "answer": "Best regards,",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Best regards,” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 2. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Talk soon!": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Cheers mate!": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "A2-11-small-talk": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "What is a common small talk topic?",
+        "options": [
+          "The weather",
+          "Politics",
+          "Religion"
+        ],
+        "answer": "The weather",
+        "explanation": "Trong ngữ cảnh câu hỏi, “The weather” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Tán gẫu. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Politics": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Religion": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "How was your ___?",
+        "answer": "weekend",
+        "acceptedAnswers": [
+          "weekend"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “weekend” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Tán gẫu. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "Which is NOT good for small talk?",
+        "options": [
+          "How about that game?",
+          "I love this weather.",
+          "How much do you earn?"
+        ],
+        "answer": "How much do you earn?",
+        "explanation": "Trong ngữ cảnh câu hỏi, “How much do you earn?” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Tán gẫu. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "How about that game?": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "I love this weather.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "A2-12-opinions": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "Which phrase is correct for giving an opinion?",
+        "options": [
+          "I am thinking this is good.",
+          "I think this is good.",
+          "I thinked this is good."
+        ],
+        "answer": "I think this is good.",
+        "explanation": "Trong ngữ cảnh câu hỏi, “I think this is good.” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ý kiến. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "I am thinking this is good.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "I thinked this is good.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "In my ___, we should try again. (opinion)",
+        "answer": "opinion",
+        "acceptedAnswers": [
+          "opinion"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “opinion” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ý kiến. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "Which is NOT a phrase for opinions?",
+        "options": [
+          "I believe",
+          "I want",
+          "I feel"
+        ],
+        "answer": "I want",
+        "explanation": "Trong ngữ cảnh câu hỏi, “I want” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ý kiến. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "I believe": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "I feel": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "A2-13-experiences": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "Which is the correct present perfect?",
+        "options": [
+          "I have visited Tokyo.",
+          "I have visit Tokyo.",
+          "I visited have Tokyo."
+        ],
+        "answer": "I have visited Tokyo.",
+        "explanation": "Trong ngữ cảnh câu hỏi, “I have visited Tokyo.” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Kinh nghiệm. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "I have visit Tokyo.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "I visited have Tokyo.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "She ___ lived here for three years.",
+        "answer": "has",
+        "acceptedAnswers": [
+          "has"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “has” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Kinh nghiệm. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "Have you ever ___ sushi? — Choose the right form",
+        "options": [
+          "tried",
+          "try",
+          "trying"
+        ],
+        "answer": "tried",
+        "explanation": "Trong ngữ cảnh câu hỏi, “tried” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Kinh nghiệm. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "try": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "trying": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "A2-14-short-reading": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "How many countries has Maria visited?",
+        "options": [
+          "Two",
+          "Twelve",
+          "Twenty"
+        ],
+        "answer": "Twelve",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Twelve” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Đọc Hiểu Ngắn. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Two": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Twenty": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "Tom has worked at the same company ___ 2018.",
+        "answer": "since",
+        "acceptedAnswers": [
+          "since"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “since” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Đọc Hiểu Ngắn. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "They have learned English for many years. What tense is \"have learned\"?",
+        "options": [
+          "Past simple",
+          "Present perfect",
+          "Future"
+        ],
+        "answer": "Present perfect",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Present perfect” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Đọc Hiểu Ngắn. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Past simple": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Future": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "A2-15-review-unit3": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "Which phrase is a small talk starter?",
+        "options": [
+          "Please give me the file.",
+          "Lovely weather today, isn't it?",
+          "Where is the train station?"
+        ],
+        "answer": "Lovely weather today, isn't it?",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Lovely weather today, isn't it?” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 3. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Please give me the file.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Where is the train station?": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "In my ___, we should wait. (opinion)",
+        "answer": "opinion",
+        "acceptedAnswers": [
+          "opinion"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “opinion” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 3. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "I have visited Tokyo. Which tense?",
+        "options": [
+          "Past simple",
+          "Present perfect",
+          "Future"
+        ],
+        "answer": "Present perfect",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Present perfect” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 3. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Past simple": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Future": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "She has worked here ___ 2018.",
+        "answer": "since",
+        "acceptedAnswers": [
+          "since"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “since” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 3. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "Which is NOT an opinion phrase?",
+        "options": [
+          "I believe",
+          "I think",
+          "I order"
+        ],
+        "answer": "I order",
+        "explanation": "Trong ngữ cảnh câu hỏi, “I order” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 3. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "I believe": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "I think": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "B1-01-travel-transport": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "What do you need to do before boarding a plane?",
+        "options": [
+          "Check in online",
+          "Go swimming",
+          "Cook dinner"
+        ],
+        "answer": "Check in online",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Check in online” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Du lịch & Phương tiện đi lại. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Go swimming": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Cook dinner": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "I need to ___ my passport before traveling abroad.",
+        "answer": "renew",
+        "acceptedAnswers": [
+          "renew"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “renew” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Du lịch & Phương tiện đi lại. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "Which transport is usually the fastest for long distances?",
+        "options": [
+          "Bicycle",
+          "Airplane",
+          "Walking"
+        ],
+        "answer": "Airplane",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Airplane” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Du lịch & Phương tiện đi lại. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Bicycle": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Walking": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "B1-02-past-tenses": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "Which tense describes an action in progress in the past?",
+        "options": [
+          "Past Simple",
+          "Past Continuous",
+          "Future Simple"
+        ],
+        "answer": "Past Continuous",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Past Continuous” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Các Thì Quá khứ & Kể chuyện. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Past Simple": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Future Simple": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "I ___ (study) when the phone rang.",
+        "answer": "was studying",
+        "acceptedAnswers": [
+          "was studying"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “was studying” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Các Thì Quá khứ & Kể chuyện. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "When do we use Past Perfect?",
+        "options": [
+          "For actions that happened before another past action",
+          "For current actions",
+          "For future plans"
+        ],
+        "answer": "For actions that happened before another past action",
+        "explanation": "Trong ngữ cảnh câu hỏi, “For actions that happened before another past action” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Các Thì Quá khứ & Kể chuyện. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "For current actions": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "For future plans": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "B1-03-travel-blogs": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "What is a 'souvenir'?",
+        "options": [
+          "A gift you buy to remember a place",
+          "A type of food",
+          "A transportation ticket"
+        ],
+        "answer": "A gift you buy to remember a place",
+        "explanation": "Trong ngữ cảnh câu hỏi, “A gift you buy to remember a place” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Blog Du lịch & Bưu thiếp. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "A type of food": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "A transportation ticket": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "The food was absolutely ___ — I've never tasted anything like it!",
+        "answer": "delicious",
+        "acceptedAnswers": [
+          "delicious"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “delicious” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Blog Du lịch & Bưu thiếp. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "What does 'bustling' mean in 'bustling city'?",
+        "options": [
+          "Quiet and peaceful",
+          "Busy and full of activity",
+          "Very small"
+        ],
+        "answer": "Busy and full of activity",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Busy and full of activity” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Blog Du lịch & Bưu thiếp. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Quiet and peaceful": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Very small": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "B1-04-email-friend": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "Which greeting is most appropriate for a close friend?",
+        "options": [
+          "Dear Sir/Madam,",
+          "Hi [Name],",
+          "To Whom It May Concern,"
+        ],
+        "answer": "Hi [Name],",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Hi [Name],” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Viết Email Cho Bạn bè. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Dear Sir/Madam,": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "To Whom It May Concern,": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "It's been a while ___ we last spoke.",
+        "answer": "since",
+        "acceptedAnswers": [
+          "since"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “since” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Viết Email Cho Bạn bè. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "Which closing is most suitable for an informal email?",
+        "options": [
+          "Yours faithfully,",
+          "Best regards,",
+          "Love,"
+        ],
+        "answer": "Love,",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Love,” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Viết Email Cho Bạn bè. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Yours faithfully,": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Best regards,": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "B1-05-review-unit1": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "What is the Past Continuous form of \"walk\" for \"she\"?",
+        "options": [
+          "She walked",
+          "She was walking",
+          "She is walking"
+        ],
+        "answer": "She was walking",
+        "explanation": "Trong ngữ cảnh câu hỏi, “She was walking” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 1. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "She walked": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "She is walking": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "I ___ (see) the movie before you recommended it. (Past Perfect)",
+        "answer": "had seen",
+        "acceptedAnswers": [
+          "had seen"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “had seen” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 1. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "Which is the correct way to say goodbye to a friend in an email?",
+        "options": [
+          "Yours faithfully,",
+          "To whom it may concern,",
+          "Love,"
+        ],
+        "answer": "Love,",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Love,” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 1. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Yours faithfully,": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "To whom it may concern,": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "My flight ___ at 8 PM tomorrow.",
+        "answer": "departs",
+        "acceptedAnswers": [
+          "departs"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “departs” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 1. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "Which sentence correctly uses past tenses?",
+        "options": [
+          "I was walking when I saw her.",
+          "I walking when I saw her.",
+          "I was walk when I saw her."
+        ],
+        "answer": "I was walking when I saw her.",
+        "explanation": "Trong ngữ cảnh câu hỏi, “I was walking when I saw her.” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 1. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "I walking when I saw her.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "I was walk when I saw her.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "B1-06-work-routines": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "What is a 'deadline'?",
+        "options": [
+          "A type of office chair",
+          "The time when something must be finished",
+          "A meeting room"
+        ],
+        "answer": "The time when something must be finished",
+        "explanation": "Trong ngữ cảnh câu hỏi, “The time when something must be finished” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Công việc & Thói quen hàng ngày. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "A type of office chair": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "A meeting room": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "I need to ___ this document before the meeting.",
+        "answer": "review",
+        "acceptedAnswers": [
+          "review"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “review” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Công việc & Thói quen hàng ngày. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "Which word means 'to manage a team'?",
+        "options": [
+          "To work",
+          "To supervise",
+          "To vacation"
+        ],
+        "answer": "To supervise",
+        "explanation": "Trong ngữ cảnh câu hỏi, “To supervise” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Công việc & Thói quen hàng ngày. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "To work": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "To vacation": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "B1-07-modals-obligation": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "Which modal is used for strong obligation from an external rule?",
+        "options": [
+          "should",
+          "must",
+          "might"
+        ],
+        "answer": "must",
+        "explanation": "Trong ngữ cảnh câu hỏi, “must” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Động từ Trợ giúp Chỉ Nghĩa vụ & Lời khuyên. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "should": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "might": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "You ___ see a doctor — you look really tired.",
+        "answer": "should",
+        "acceptedAnswers": [
+          "should"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “should” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Động từ Trợ giúp Chỉ Nghĩa vụ & Lời khuyên. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "What is the past form of \"have to\"?",
+        "options": [
+          "must",
+          "had to",
+          "should have"
+        ],
+        "answer": "had to",
+        "explanation": "Trong ngữ cảnh câu hỏi, “had to” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Động từ Trợ giúp Chỉ Nghĩa vụ & Lời khuyên. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "must": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "should have": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "B1-08-lifestyle-article": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "What does 'work-life balance' mean?",
+        "options": [
+          "Only working, no personal life",
+          "A healthy separation between job and personal time",
+          "Working more hours"
+        ],
+        "answer": "A healthy separation between job and personal time",
+        "explanation": "Trong ngữ cảnh câu hỏi, “A healthy separation between job and personal time” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Bài báo Tạp chí: Lối sống lành mạnh. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Only working, no personal life": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Working more hours": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "You should take regular ___ to stay productive.",
+        "answer": "breaks",
+        "acceptedAnswers": [
+          "breaks"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “breaks” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Bài báo Tạp chí: Lối sống lành mạnh. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "What is a 'sedentary lifestyle'?",
+        "options": [
+          "An active lifestyle with lots of exercise",
+          "A lifestyle with little physical activity",
+          "A very busy schedule"
+        ],
+        "answer": "A lifestyle with little physical activity",
+        "explanation": "Trong ngữ cảnh câu hỏi, “A lifestyle with little physical activity” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Bài báo Tạp chí: Lối sống lành mạnh. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "An active lifestyle with lots of exercise": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "A very busy schedule": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "B1-09-job-application": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "What should you include in the first paragraph of a job application?",
+        "options": [
+          "Your hobbies",
+          "The position you are applying for",
+          "Your salary expectations"
+        ],
+        "answer": "The position you are applying for",
+        "explanation": "Trong ngữ cảnh câu hỏi, “The position you are applying for” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Viết Thư Xin Việc. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Your hobbies": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Your salary expectations": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "I am writing to ___ for the Marketing Manager position.",
+        "answer": "apply",
+        "acceptedAnswers": [
+          "apply"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “apply” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Viết Thư Xin Việc. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "Which sign-off is appropriate for a formal job application?",
+        "options": [
+          "Love,",
+          "Yours faithfully,",
+          "See ya!"
+        ],
+        "answer": "Yours faithfully,",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Yours faithfully,” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Viết Thư Xin Việc. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Love,": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "See ya!": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "B1-10-review-unit2": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "Which modal is used for advice?",
+        "options": [
+          "must",
+          "should",
+          "had to"
+        ],
+        "answer": "should",
+        "explanation": "Trong ngữ cảnh câu hỏi, “should” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 2. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "must": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "had to": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "I ___ (have to) work late yesterday.",
+        "answer": "had to",
+        "acceptedAnswers": [
+          "had to"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “had to” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 2. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "Which sign-off is formal for a job application?",
+        "options": [
+          "Love,",
+          "Yours faithfully,",
+          "Best,"
+        ],
+        "answer": "Yours faithfully,",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Yours faithfully,” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 2. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Love,": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Best,": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "The project has a ___ next Friday.",
+        "answer": "deadline",
+        "acceptedAnswers": [
+          "deadline"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “deadline” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 2. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "What does 'flexibility' mean in a work context?",
+        "options": [
+          "Working only at night",
+          "Having choices about when or how you work",
+          "Being very strict"
+        ],
+        "answer": "Having choices about when or how you work",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Having choices about when or how you work” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 2. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Working only at night": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Being very strict": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "B1-11-food-cooking": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "What does 'to chop' mean in cooking?",
+        "options": [
+          "To boil",
+          "To cut into small pieces",
+          "To stir"
+        ],
+        "answer": "To cut into small pieces",
+        "explanation": "Trong ngữ cảnh câu hỏi, “To cut into small pieces” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Đồ ăn & Nấu ăn. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "To boil": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "To stir": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "You need to ___ the onions before adding them to the pan.",
+        "answer": "chop",
+        "acceptedAnswers": [
+          "chop"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “chop” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Đồ ăn & Nấu ăn. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "What is an 'ingredient'?",
+        "options": [
+          "A cooking tool",
+          "Something you use in a recipe",
+          "A type of restaurant"
+        ],
+        "answer": "Something you use in a recipe",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Something you use in a recipe” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Đồ ăn & Nấu ăn. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "A cooking tool": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "A type of restaurant": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "B1-12-conditionals": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "When do we use the First Conditional?",
+        "options": [
+          "For imaginary situations",
+          "For real and likely situations",
+          "For past events"
+        ],
+        "answer": "For real and likely situations",
+        "explanation": "Trong ngữ cảnh câu hỏi, “For real and likely situations” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Câu Điều kiện Loại 1 & Loại 2. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "For imaginary situations": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "For past events": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "If I ___ (have) more money, I would buy a car.",
+        "answer": "had",
+        "acceptedAnswers": [
+          "had"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “had” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Câu Điều kiện Loại 1 & Loại 2. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "What is the correct Second Conditional form?",
+        "options": [
+          "If she studies, she passes.",
+          "If she studied, she would pass.",
+          "If she studied, she passes."
+        ],
+        "answer": "If she studied, she would pass.",
+        "explanation": "Trong ngữ cảnh câu hỏi, “If she studied, she would pass.” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Câu Điều kiện Loại 1 & Loại 2. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "If she studies, she passes.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "If she studied, she passes.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "B1-13-recipe-menu": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "What does 'preheat the oven' mean?",
+        "options": [
+          "Turn off the oven",
+          "Heat the oven before using it",
+          "Clean the oven"
+        ],
+        "answer": "Heat the oven before using it",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Heat the oven before using it” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Công thức Nấu ăn & Thực đơn. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Turn off the oven": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Clean the oven": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "The recipe says to ___ the mixture for 5 minutes.",
+        "answer": "stir",
+        "acceptedAnswers": [
+          "stir"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “stir” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Công thức Nấu ăn & Thực đơn. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "What is an 'appetizer'?",
+        "options": [
+          "The main dish",
+          "A small dish before the main course",
+          "A dessert"
+        ],
+        "answer": "A small dish before the main course",
+        "explanation": "Trong ngữ cảnh câu hỏi, “A small dish before the main course” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Công thức Nấu ăn & Thực đơn. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "The main dish": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "A dessert": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "B1-14-blog-review": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "What is the purpose of a review?",
+        "options": [
+          "To tell a fictional story",
+          "To share your opinion about something",
+          "To write a formal letter"
+        ],
+        "answer": "To share your opinion about something",
+        "explanation": "Trong ngữ cảnh câu hỏi, “To share your opinion about something” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Viết Bài đăng Blog hoặc Đánh giá. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "To tell a fictional story": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "To write a formal letter": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "The food was absolutely ___ — I've never tasted anything better!",
+        "answer": "delicious",
+        "acceptedAnswers": [
+          "delicious"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “delicious” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Viết Bài đăng Blog hoặc Đánh giá. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "Which phrase is good for a positive review?",
+        "options": [
+          "I would not recommend this.",
+          "I would definitely recommend this place.",
+          "The worst experience ever."
+        ],
+        "answer": "I would definitely recommend this place.",
+        "explanation": "Trong ngữ cảnh câu hỏi, “I would definitely recommend this place.” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Viết Bài đăng Blog hoặc Đánh giá. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "I would not recommend this.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "The worst experience ever.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "B1-15-review-unit3": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "Which cooking method means to cook in hot oil?",
+        "options": [
+          "To boil",
+          "To bake",
+          "To fry"
+        ],
+        "answer": "To fry",
+        "explanation": "Trong ngữ cảnh câu hỏi, “To fry” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 3. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "To boil": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "To bake": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "If I ___ (have) a lot of money, I would buy a house.",
+        "answer": "had",
+        "acceptedAnswers": [
+          "had"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “had” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 3. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "Which is the correct First Conditional?",
+        "options": [
+          "If I studied, I would pass.",
+          "If I study, I will pass.",
+          "If I studied, I will pass."
+        ],
+        "answer": "If I study, I will pass.",
+        "explanation": "Trong ngữ cảnh câu hỏi, “If I study, I will pass.” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 3. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "If I studied, I would pass.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "If I studied, I will pass.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "The food was absolutely ___ — it was delicious!",
+        "answer": "delicious",
+        "acceptedAnswers": [
+          "delicious"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “delicious” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 3. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "What does 'overall' mean in a review?",
+        "options": [
+          "At the beginning",
+          "In general / considering everything",
+          "Only the positive points"
+        ],
+        "answer": "In general / considering everything",
+        "explanation": "Trong ngữ cảnh câu hỏi, “In general / considering everything” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 3. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "At the beginning": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Only the positive points": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "B2-01-negotiation-advanced": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "In a sprint negotiation, which response most diplomatically pushes back against an unrealistic scope addition?",
+        "options": [
+          "We cannot do this; you should have submitted the request three weeks ago.",
+          "To ensure stability for Friday's release, could we find some middle ground by shipping the core flow first and backlogging the export feature?",
+          "We can try to deliver both features and review our progress on Thursday before making a final commitment."
+        ],
+        "answer": "To ensure stability for Friday's release, could we find some middle ground by shipping the core flow first and backlogging the export feature?",
+        "explanation": "Câu trả lời ghi nhận mục tiêu phát hành, nêu ràng buộc chất lượng và đưa ra phương án chia giai đoạn cụ thể thay vì chỉ từ chối hoặc hứa khi chưa đủ cơ sở.",
+        "distractorFeedback": {
+          "We cannot do this; you should have submitted the request three weeks ago.": "Câu này có nêu giới hạn nhưng mang tính đổ lỗi và không đưa ra hướng xử lý.",
+          "We can try to deliver both features and review our progress on Thursday before making a final commitment.": "Câu này có vẻ hợp tác nhưng che mất rủi ro ổn định đã biết và không nói rõ phần nào sẽ được chia giai đoạn hoặc dời lại."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "Before we present the revised SLA to the client, let me ___ this proposal by the infrastructure lead.",
+        "answer": "run",
+        "acceptedAnswers": [
+          "run"
+        ],
+        "explanation": "Cụm cố định là \"run something by someone\": đưa nội dung cho ai đó xem và góp ý trước khi cam kết."
+      },
+      {
+        "type": "choice",
+        "prompt": "Why is 'Let us circle back after the benchmark results' more effective than 'We cannot decide now'?",
+        "options": [
+          "It defers the conversation while anchoring the next decision to concrete evidence and a clear checkpoint.",
+          "It softens the refusal, but it intentionally leaves the next decision criteria undefined.",
+          "It signals that the benchmark is only a formality and the decision has already been made."
+        ],
+        "answer": "It defers the conversation while anchoring the next decision to concrete evidence and a clear checkpoint.",
+        "explanation": "Một cách dùng \"circle back\" hiệu quả cần nêu điều kiện để quay lại quyết định. Trong câu này, kết quả benchmark chính là điều kiện và bằng chứng cho lần trao đổi tiếp theo.",
+        "distractorFeedback": {
+          "It softens the refusal, but it intentionally leaves the next decision criteria undefined.": "Kết quả benchmark đã xác định tiêu chí cho quyết định, nên lần trao đổi tiếp theo không bị để mơ hồ có chủ đích.",
+          "It signals that the benchmark is only a formality and the decision has already been made.": "Cách diễn đạt vẫn để ngỏ quyết định và coi benchmark là dữ liệu quan trọng cho quyết định đó."
+        }
+      }
+    ]
+  },
+  "B2-02-conflict-resolution": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "Which sentence is correct passive voice?",
+        "options": [
+          "The mistake was made by them.",
+          "The mistake were made by them.",
+          "The mistake made by them."
+        ],
+        "answer": "The mistake was made by them.",
+        "explanation": "Trong ngữ cảnh câu hỏi, “The mistake was made by them.” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ngữ pháp giải quyết xung đột. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "The mistake were made by them.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "The mistake made by them.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "If the issue ___ raised earlier, we could have avoided this.",
+        "answer": "had been",
+        "acceptedAnswers": [
+          "had been"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “had been” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ngữ pháp giải quyết xung đột. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "What does \"Had we discussed this\" mean?",
+        "options": [
+          "If we will discuss this",
+          "If we had discussed this",
+          "We should discuss this"
+        ],
+        "answer": "If we had discussed this",
+        "explanation": "Trong ngữ cảnh câu hỏi, “If we had discussed this” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ngữ pháp giải quyết xung đột. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "If we will discuss this": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "We should discuss this": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "B2-03-presenting-architecture": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "What does \"prioritizes X over Y\" mean?",
+        "options": [
+          "X and Y are equally important",
+          "X is more important than Y",
+          "X is less important than Y"
+        ],
+        "answer": "X is more important than Y",
+        "explanation": "Trong ngữ cảnh câu hỏi, “X is more important than Y” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Trình bày quyết định kiến trúc. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "X and Y are equally important": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "X is less important than Y": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "We decided ___ a microservices approach for now.",
+        "answer": "against",
+        "acceptedAnswers": [
+          "against"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “against” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Trình bày quyết định kiến trúc. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "What does \"for now\" imply?",
+        "options": [
+          "This is permanent",
+          "This may change in the future",
+          "This is urgent"
+        ],
+        "answer": "This may change in the future",
+        "explanation": "Trong ngữ cảnh câu hỏi, “This may change in the future” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Trình bày quyết định kiến trúc. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "This is permanent": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "This is urgent": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "B2-04-meeting-facilitation": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "What does \"kick off\" mean in a meeting context?",
+        "options": [
+          "To end a meeting",
+          "To start or begin",
+          "To cancel"
+        ],
+        "answer": "To start or begin",
+        "explanation": "Trong ngữ cảnh câu hỏi, “To start or begin” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Điều phối cuộc họp. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "To end a meeting": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "To cancel": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "Let's ___ that topic for the next session.",
+        "answer": "park",
+        "acceptedAnswers": [
+          "park"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “park” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Điều phối cuộc họp. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "What is a \"tiebreaker\"?",
+        "options": [
+          "A way to break a deadlock",
+          "A type of meeting",
+          "A final report"
+        ],
+        "answer": "A way to break a deadlock",
+        "explanation": "Trong ngữ cảnh câu hỏi, “A way to break a deadlock” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Điều phối cuộc họp. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "A type of meeting": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "A final report": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "B2-05-persuasive-grammar": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "Which structure emphasizes importance?",
+        "options": [
+          "It might be helpful to...",
+          "It is essential that we...",
+          "We could possibly..."
+        ],
+        "answer": "It is essential that we...",
+        "explanation": "Trong ngữ cảnh câu hỏi, “It is essential that we...” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ngữ pháp thuyết phục. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "It might be helpful to...": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "We could possibly...": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "Not only ___ it reduce costs, but it also improves scalability.",
+        "answer": "does",
+        "acceptedAnswers": [
+          "does"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “does” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ngữ pháp thuyết phục. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "The more we test, the better the result becomes. is an example of:",
+        "options": [
+          "Comparative structure",
+          "Double comparative",
+          "Conditional structure"
+        ],
+        "answer": "Double comparative",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Double comparative” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ngữ pháp thuyết phục. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Comparative structure": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Conditional structure": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "B2-06-business-article": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "What does \"bolster\" mean?",
+        "options": [
+          "Weaken",
+          "Strengthen or support",
+          "Replace"
+        ],
+        "answer": "Strengthen or support",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Strengthen or support” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Đọc bài báo kinh doanh. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Weaken": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Replace": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "The company reported a 15% ___-over-___ revenue growth.",
+        "answer": "year",
+        "acceptedAnswers": [
+          "year"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “year” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Đọc bài báo kinh doanh. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "Emerging economies refers to:",
+        "options": [
+          "Developed countries",
+          "Developing countries with rapid growth",
+          "Failing economies"
+        ],
+        "answer": "Developing countries with rapid growth",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Developing countries with rapid growth” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Đọc bài báo kinh doanh. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Developed countries": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Failing economies": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "B2-07-proposal-writing": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "Which problem statement in an engineering proposal is most effective for executive leadership?",
+        "options": [
+          "Peak-hour database contention is affecting checkout performance, so the platform team should investigate caching options.",
+          "Database read contention during peak hours causes p99 latency spikes of over 800ms, directly impacting checkout conversion rates.",
+          "A managed Redis service could improve response times, and the proposal should focus on adopting it this quarter."
+        ],
+        "answer": "Database read contention during peak hours causes p99 latency spikes of over 800ms, directly impacting checkout conversion rates.",
+        "explanation": "Cách viết này nối triệu chứng kỹ thuật có thể đo với ảnh hưởng kinh doanh. Hai lựa chọn còn lại có thể là điểm khởi đầu, nhưng một câu thiếu bằng chứng và câu kia chọn công cụ trước khi xác định vấn đề.",
+        "distractorFeedback": {
+          "Peak-hour database contention is affecting checkout performance, so the platform team should investigate caching options.": "Câu này xác định khu vực vấn đề và hướng điều tra, nhưng chưa định lượng triệu chứng hoặc chứng minh ảnh hưởng kinh doanh.",
+          "A managed Redis service could improve response times, and the proposal should focus on adopting it this quarter.": "Câu này chọn sẵn sản phẩm và thời điểm trước khi chứng minh vấn đề hoặc tiêu chí đánh giá."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "This proposal ___ our three-phase implementation strategy.",
+        "answer": "outlines",
+        "acceptedAnswers": [
+          "outlines"
+        ],
+        "explanation": "\"Outlines\" là động từ thường dùng khi giới thiệu ngắn gọn cấu trúc hoặc các ý chính của đề xuất."
+      },
+      {
+        "type": "choice",
+        "prompt": "What is the primary function of presenting a \"phased rollout\" in a technical proposal?",
+        "options": [
+          "It de-risks the migration by delivering incremental value with clear rollback gates at each milestone.",
+          "It divides the work into smaller milestones, although it does not by itself prove that the proposed benefits will occur.",
+          "It moves approval to later phases, so the team can begin implementation before stakeholders review the risks."
+        ],
+        "answer": "It de-risks the migration by delivering incremental value with clear rollback gates at each milestone.",
+        "explanation": "Triển khai theo giai đoạn giới hạn phạm vi ảnh hưởng và tạo điểm kiểm tra bằng chứng, phê duyệt và rollback. Cách làm này không loại bỏ yêu cầu xác minh lợi ích hoặc xin phê duyệt phù hợp.",
+        "distractorFeedback": {
+          "It divides the work into smaller milestones, although it does not by itself prove that the proposed benefits will occur.": "Đây là lưu ý đúng nhưng chưa nêu chức năng chính của đề xuất: giới hạn rủi ro bằng cổng bằng chứng và rollback rõ ràng.",
+          "It moves approval to later phases, so the team can begin implementation before stakeholders review the risks.": "Chia giai đoạn phải tạo các điểm phê duyệt; cách làm này không cho phép bắt đầu trước khi rủi ro liên quan được xem xét."
+        }
+      }
+    ]
+  },
+  "B2-08-data-storytelling": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "What does \"underscore\" mean?",
+        "options": [
+          "To hide",
+          "To emphasize",
+          "To calculate"
+        ],
+        "answer": "To emphasize",
+        "explanation": "Trong ngữ cảnh câu hỏi, “To emphasize” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Kể chuyện bằng dữ liệu. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "To hide": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "To calculate": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "This metric ___ as a key indicator of customer satisfaction.",
+        "answer": "serves",
+        "acceptedAnswers": [
+          "serves"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “serves” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Kể chuyện bằng dữ liệu. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "An \\ upward trend\\\" means:\"",
+        "options": [
+          "Numbers are decreasing",
+          "Numbers are increasing",
+          "Numbers are stable"
+        ],
+        "answer": "Numbers are increasing",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Numbers are increasing” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Kể chuyện bằng dữ liệu. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Numbers are decreasing": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Numbers are stable": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "B2-09-conditionals-advanced": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "When do we use the Third Conditional?",
+        "options": [
+          "For imaginary present situations",
+          "For past hypothetical situations",
+          "For real future possibilities"
+        ],
+        "answer": "For past hypothetical situations",
+        "explanation": "Trong ngữ cảnh câu hỏi, “For past hypothetical situations” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Câu điều kiện hỗn hợp nâng cao. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "For imaginary present situations": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "For real future possibilities": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "If I had known, I ___ have come earlier.",
+        "answer": "would",
+        "acceptedAnswers": [
+          "would"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “would” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Câu điều kiện hỗn hợp nâng cao. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "What is a mixed conditional?",
+        "options": [
+          "Combining past and present hypotheticals",
+          "Using 'if' with 'when'",
+          "Only present tense"
+        ],
+        "answer": "Combining past and present hypotheticals",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Combining past and present hypotheticals” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Câu điều kiện hỗn hợp nâng cao. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Using 'if' with 'when'": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Only present tense": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "B2-10-review-unit2": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "What does \"kick off\" mean?",
+        "options": [
+          "To end a meeting",
+          "To start a meeting",
+          "To cancel a meeting"
+        ],
+        "answer": "To start a meeting",
+        "explanation": "Trong ngữ cảnh câu hỏi, “To start a meeting” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 2. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "To end a meeting": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "To cancel a meeting": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "If I ___ (know), I would have helped.",
+        "answer": "had known",
+        "acceptedAnswers": [
+          "had known"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “had known” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 2. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "Which phrase means \"to strengthen\"?",
+        "options": [
+          "Weaken",
+          "Bolster",
+          "Delay"
+        ],
+        "answer": "Bolster",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Bolster” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 2. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Weaken": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Delay": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "Not only ___ it reduce costs, but it also improves performance.",
+        "answer": "does",
+        "acceptedAnswers": [
+          "does"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “does” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 2. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "ROI stands for:",
+        "options": [
+          "Return on Investment",
+          "Rate of Income",
+          "Risk of Implementation"
+        ],
+        "answer": "Return on Investment",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Return on Investment” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 2. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Rate of Income": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Risk of Implementation": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "B2-11-cultural-nuances": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "What does \"read between the lines\" mean?",
+        "options": [
+          "To read carefully",
+          "To understand implied meaning",
+          "To summarize text"
+        ],
+        "answer": "To understand implied meaning",
+        "explanation": "Trong ngữ cảnh câu hỏi, “To understand implied meaning” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Sắc thái văn hóa. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "To read carefully": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "To summarize text": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "Building ___ takes time across different cultures.",
+        "answer": "rapport",
+        "acceptedAnswers": [
+          "rapport"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “rapport” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Sắc thái văn hóa. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "Direct feedback in some cultures is considered:",
+        "options": [
+          "Appreciated",
+          "Rude",
+          "Funny"
+        ],
+        "answer": "Rude",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Rude” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Sắc thái văn hóa. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Appreciated": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Funny": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "B2-12-complex-sentence-structures": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "Which word introduces a contrast?",
+        "options": [
+          "Because",
+          "Although",
+          "And"
+        ],
+        "answer": "Although",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Although” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Cấu trúc câu phức tạp. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Because": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "And": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "___ the complexity, we recommend additional support.",
+        "answer": "Given",
+        "acceptedAnswers": [
+          "Given"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “Given” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Cấu trúc câu phức tạp. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "Unless we act now, we... expresses:",
+        "options": [
+          "Condition with negative",
+          "Past habit",
+          "Future certainty"
+        ],
+        "answer": "Condition with negative",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Condition with negative” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Cấu trúc câu phức tạp. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Past habit": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Future certainty": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "B2-13-editorial-reading": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "What is the primary rhetorical function of the phrase \"While proponents argue that...\" in an editorial?",
+        "options": [
+          "It introduces a concession or counter-argument before refuting it with stronger evidence.",
+          "It attributes a competing view, but the phrase alone does not show whether the author will accept or challenge it.",
+          "It signals that the next sentence will provide neutral background rather than evaluate the competing view."
+        ],
+        "answer": "It introduces a concession or counter-argument before refuting it with stronger evidence.",
+        "explanation": "Trong đoạn này, tác giả ghi nhận quan điểm ủng hộ rồi chuyển sang phản bác. Chính các câu xung quanh, không chỉ riêng cụm nối, xác định chức năng đó.",
+        "distractorFeedback": {
+          "It attributes a competing view, but the phrase alone does not show whether the author will accept or challenge it.": "Nhận xét này đúng nếu chỉ xét riêng cụm nối, nhưng câu hỏi hỏi chức năng trong toàn đoạn, nơi phần phản bác xuất hiện ngay sau đó.",
+          "It signals that the next sentence will provide neutral background rather than evaluate the competing view.": "Câu tiếp theo đánh giá và phản bác quan điểm cạnh tranh chứ không chỉ cung cấp bối cảnh trung lập."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "Critics ___ that cutting corners on test automation creates an illusion of speed.",
+        "answer": "contend",
+        "acceptedAnswers": [
+          "contend",
+          "argue"
+        ],
+        "explanation": "Cả \"contend\" và \"argue\" đều có thể dùng để thuật lại một nhận định còn tranh luận. Đáp án chuẩn nhấn mạnh động từ trọng tâm của bài."
+      },
+      {
+        "type": "choice",
+        "prompt": "Which evidence problem should a critical reader flag in the fictional editorial?",
+        "options": [
+          "The 40% figure is not connected to a named study, dataset, or method.",
+          "The author uses a metaphor to compare technical debt with financial interest.",
+          "The author recommends reserving capacity for refactoring instead of waiting for a crisis."
+        ],
+        "answer": "The 40% figure is not connected to a named study, dataset, or method.",
+        "explanation": "Một tỷ lệ chính xác có thể tạo cảm giác đáng tin, nhưng người đọc không thể đánh giá nếu thiếu nguồn và phương pháp. Hai lựa chọn còn lại mô tả thủ pháp hoặc đề xuất, không phải lỗ hổng bằng chứng.",
+        "distractorFeedback": {
+          "The author uses a metaphor to compare technical debt with financial interest.": "Có thể đánh giá cách ẩn dụ định khung vấn đề, nhưng bản thân ẩn dụ không phải bằng chứng thực nghiệm bị thiếu cho tỷ lệ phần trăm.",
+          "The author recommends reserving capacity for refactoring instead of waiting for a crisis.": "Đây là khuyến nghị chính sách cần đánh giá, không phải vấn đề truy nguồn cụ thể của bằng chứng hỗ trợ."
+        }
+      }
+    ]
+  },
+  "B2-14-formal-correspondence": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "Which is a formal opening?",
+        "options": [
+          "Hey!",
+          "Dear Sir or Madam,",
+          "What's up?"
+        ],
+        "answer": "Dear Sir or Madam,",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Dear Sir or Madam,” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Thư tín trang trọng. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Hey!": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "What's up?": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "I am writing to ___ about the position.",
+        "answer": "inquire",
+        "acceptedAnswers": [
+          "inquire"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “inquire” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Thư tín trang trọng. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "At your earliest convenience means:",
+        "options": [
+          "Immediately",
+          "When it's convenient for you",
+          "Never"
+        ],
+        "answer": "When it's convenient for you",
+        "explanation": "Trong ngữ cảnh câu hỏi, “When it's convenient for you” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Thư tín trang trọng. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Immediately": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Never": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "B2-15-review-unit3": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "What does \"read between the lines\" mean?",
+        "options": [
+          "Understand implied meaning",
+          "Read slowly",
+          "Summarize"
+        ],
+        "answer": "Understand implied meaning",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Understand implied meaning” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 3. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Read slowly": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Summarize": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "I am writing to ___ about the position.",
+        "answer": "inquire",
+        "acceptedAnswers": [
+          "inquire"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “inquire” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 3. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "Which word introduces a contrast?",
+        "options": [
+          "Because",
+          "Although",
+          "And"
+        ],
+        "answer": "Although",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Although” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 3. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Because": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "And": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "Critics ___ that the policy fails to address core issues.",
+        "answer": "contend",
+        "acceptedAnswers": [
+          "contend"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “contend” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 3. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "Formal email opening?",
+        "options": [
+          "Hey!",
+          "Dear Sir or Madam,",
+          "Yo"
+        ],
+        "answer": "Dear Sir or Madam,",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Dear Sir or Madam,” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 3. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Hey!": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Yo": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "C1-01-executive-meetings": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "Which phrase is most appropriate when postponing a discussion?",
+        "options": [
+          "Let's table this for now.",
+          "Let's cancel this forever.",
+          "Let's start this immediately."
+        ],
+        "answer": "Let's table this for now.",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Let's table this for now.” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Từ vựng về Cuộc họp Cấp cao. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Let's cancel this forever.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Let's start this immediately.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "We need to ___ on our strategic priorities before the board meeting.",
+        "answer": "align",
+        "acceptedAnswers": [
+          "align"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “align” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Từ vựng về Cuộc họp Cấp cao. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "What does 'actionable insights' mean?",
+        "options": [
+          "Ideas that can be put into practice",
+          "Random thoughts",
+          "Historical data only"
+        ],
+        "answer": "Ideas that can be put into practice",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Ideas that can be put into practice” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Từ vựng về Cuộc họp Cấp cao. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Random thoughts": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Historical data only": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "C1-02-board-presentations": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "Which conditional is used for past unreal conditions?",
+        "options": [
+          "Third conditional (if + past perfect, would have)",
+          "First conditional (if + present, will)",
+          "Zero conditional (if + present, present)"
+        ],
+        "answer": "Third conditional (if + past perfect, would have)",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Third conditional (if + past perfect, would have)” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ngữ pháp Thuyết trình Hội đồng Quản trị. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "First conditional (if + present, will)": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Zero conditional (if + present, present)": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "___ we secure additional funding, we could accelerate our timeline.",
+        "answer": "Should",
+        "acceptedAnswers": [
+          "Should"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “Should” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ngữ pháp Thuyết trình Hội đồng Quản trị. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "\"Were the board to approve...\" is an example of:",
+        "options": [
+          "Inverted conditional (formal)",
+          "First conditional",
+          "Second conditional"
+        ],
+        "answer": "Inverted conditional (formal)",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Inverted conditional (formal)” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ngữ pháp Thuyết trình Hội đồng Quản trị. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "First conditional": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Second conditional": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "C1-03-writing-strategy": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "What does \"headwinds\" typically mean in business context?",
+        "options": [
+          "Challenges or obstacles",
+          "Tailwinds or advantages",
+          "Wind speeds"
+        ],
+        "answer": "Challenges or obstacles",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Challenges or obstacles” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Đọc Hiểu Tài liệu Chiến lược. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Tailwinds or advantages": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Wind speeds": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "The company announced a ___ toward renewable energy sources.",
+        "answer": "pivot",
+        "acceptedAnswers": [
+          "pivot"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “pivot” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Đọc Hiểu Tài liệu Chiến lược. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "\"Our value proposition remains compelling\" suggests:",
+        "options": [
+          "The company has strong competitive advantages",
+          "The company is struggling",
+          "The product is expensive"
+        ],
+        "answer": "The company has strong competitive advantages",
+        "explanation": "Trong ngữ cảnh câu hỏi, “The company has strong competitive advantages” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Đọc Hiểu Tài liệu Chiến lược. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "The company is struggling": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "The product is expensive": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "C1-04-stakeholder-management": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "What does 'buy-in' mean in a business context?",
+        "options": [
+          "Purchasing shares",
+          "Agreement and support",
+          "Investment return"
+        ],
+        "answer": "Agreement and support",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Agreement and support” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Quản lý các Bên liên quan. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Purchasing shares": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Investment return": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "We need to ___ expectations before we move forward with the initiative.",
+        "answer": "align",
+        "acceptedAnswers": [
+          "align"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “align” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Quản lý các Bên liên quan. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "Which phrase means 'to get someone's support for a decision'?",
+        "options": [
+          "bring on board",
+          "put aside",
+          "leave behind"
+        ],
+        "answer": "bring on board",
+        "explanation": "Trong ngữ cảnh câu hỏi, “bring on board” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Quản lý các Bên liên quan. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "put aside": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "leave behind": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "C1-05-review-unit1": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "What does 'buy-in' mean in a business context?",
+        "options": [
+          "Purchasing shares",
+          "Agreement and support",
+          "Investment return"
+        ],
+        "answer": "Agreement and support",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Agreement and support” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 1. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Purchasing shares": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Investment return": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "The board has ___ a pivot toward renewable energy.",
+        "answer": "endorsed",
+        "acceptedAnswers": [
+          "endorsed"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “endorsed” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 1. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "Which phrase signals a strategic shift?",
+        "options": [
+          "Maintain status quo",
+          "Pivot toward digital solutions",
+          "Continue current operations"
+        ],
+        "answer": "Pivot toward digital solutions",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Pivot toward digital solutions” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 1. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Maintain status quo": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Continue current operations": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "Let's ___ expectations before we move forward.",
+        "answer": "align",
+        "acceptedAnswers": [
+          "align"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “align” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 1. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "Headwinds in business typically means:",
+        "options": [
+          "Favorable conditions",
+          "Challenges or obstacles",
+          "Wind patterns"
+        ],
+        "answer": "Challenges or obstacles",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Challenges or obstacles” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 1. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Favorable conditions": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Wind patterns": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "C1-06-investor-relations": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "What does \"earnings per share\" (EPS) measure?",
+        "options": [
+          "Total company profit",
+          "Profit allocated per share",
+          "Number of shares"
+        ],
+        "answer": "Profit allocated per share",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Profit allocated per share” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Quan hệ Nhà đầu tư. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Total company profit": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Number of shares": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "We ___ double-digit growth over the next fiscal year.",
+        "answer": "project",
+        "acceptedAnswers": [
+          "project"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “project” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Quan hệ Nhà đầu tư. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "Shareholder value refers to:",
+        "options": [
+          "Stock price performance",
+          "Number of shareholders",
+          "Dividend policy"
+        ],
+        "answer": "Stock price performance",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Stock price performance” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Quan hệ Nhà đầu tư. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Number of shareholders": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Dividend policy": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "C1-07-advanced-grammar": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "Which is correct inversion?",
+        "options": [
+          "Never we have seen such growth.",
+          "Never have we seen such growth.",
+          "Never we seen have such growth."
+        ],
+        "answer": "Never have we seen such growth.",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Never have we seen such growth.” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ngữ pháp C1 nâng cao. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Never we have seen such growth.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Never we seen have such growth.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "It is essential that every team member ___ (be) informed.",
+        "answer": "be",
+        "acceptedAnswers": [
+          "be"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “be” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ngữ pháp C1 nâng cao. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "What is the subjunctive mood used for?",
+        "options": [
+          "Past habits",
+          "Hypothetical/wished situations",
+          "Future plans"
+        ],
+        "answer": "Hypothetical/wished situations",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Hypothetical/wished situations” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ngữ pháp C1 nâng cao. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Past habits": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Future plans": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "C1-08-policy-reading": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "What does \"supersedes\" mean in a policy context?",
+        "options": [
+          "Supports",
+          "Replaces",
+          "Clarifies"
+        ],
+        "answer": "Replaces",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Replaces” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Đọc Tài liệu Chính sách. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Supports": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Clarifies": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "Exceptions require ___ approval from the Chief Compliance Officer.",
+        "answer": "written",
+        "acceptedAnswers": [
+          "written"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “written” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Đọc Tài liệu Chính sách. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "Which phrase signals a mandatory requirement?",
+        "options": [
+          "Employees should",
+          "All employees must",
+          "It is recommended that"
+        ],
+        "answer": "All employees must",
+        "explanation": "Trong ngữ cảnh câu hỏi, “All employees must” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Đọc Tài liệu Chính sách. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Employees should": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "It is recommended that": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "C1-09-executive-summary": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "What is the primary purpose of an executive summary?",
+        "options": [
+          "Provide background details",
+          "Enable a quick decision",
+          "Show research depth"
+        ],
+        "answer": "Enable a quick decision",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Enable a quick decision” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Viết Tóm tắt Điều hành. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Provide background details": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Show research depth": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "Management ___ approval of the proposal.",
+        "answer": "recommends",
+        "acceptedAnswers": [
+          "recommends"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “recommends” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Viết Tóm tắt Điều hành. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "Which section comes first in an executive summary?",
+        "options": [
+          "Risks",
+          "Recommendation",
+          "Background"
+        ],
+        "answer": "Recommendation",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Recommendation” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Viết Tóm tắt Điều hành. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Risks": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Background": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "C1-10-review-unit2": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "What does \"EPS\" stand for?",
+        "options": [
+          "Earnings per share",
+          "Executive profit summary",
+          "Equity price standard"
+        ],
+        "answer": "Earnings per share",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Earnings per share” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 2. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Executive profit summary": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Equity price standard": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "___ have we seen such rapid growth in this segment.",
+        "answer": "Never",
+        "acceptedAnswers": [
+          "Never"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “Never” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 2. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "Which is a subjunctive construction?",
+        "options": [
+          "We will approve the budget.",
+          "It is essential that the budget be approved.",
+          "The budget was approved yesterday."
+        ],
+        "answer": "It is essential that the budget be approved.",
+        "explanation": "Trong ngữ cảnh câu hỏi, “It is essential that the budget be approved.” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 2. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "We will approve the budget.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "The budget was approved yesterday.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "All employees ___ complete the training by March 31.",
+        "answer": "must",
+        "acceptedAnswers": [
+          "must"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “must” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 2. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "According to BLUF, what comes first?",
+        "options": [
+          "Background",
+          "Recommendation",
+          "Risks"
+        ],
+        "answer": "Recommendation",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Recommendation” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 2. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Background": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Risks": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "C1-11-academic-discourse": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "What is \"hedging\" in academic writing?",
+        "options": [
+          "Strong claims",
+          "Cautious, qualified language",
+          "Technical jargon"
+        ],
+        "answer": "Cautious, qualified language",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Cautious, qualified language” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Diễn ngôn Học thuật. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Strong claims": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Technical jargon": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "The findings ___ a correlation between the variables.",
+        "answer": "suggest",
+        "acceptedAnswers": [
+          "suggest"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “suggest” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Diễn ngôn Học thuật. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "Which is a hedging word?",
+        "options": [
+          "Proves",
+          "Suggests",
+          "Guarantees"
+        ],
+        "answer": "Suggests",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Suggests” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Diễn ngôn Học thuật. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Proves": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Guarantees": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "C1-12-nuanced-grammar": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "Which is a mixed conditional?",
+        "options": [
+          "If it rains, I will stay.",
+          "If I had studied, I would be a doctor now.",
+          "If it rains, I stayed."
+        ],
+        "answer": "If I had studied, I would be a doctor now.",
+        "explanation": "Trong ngữ cảnh câu hỏi, “If I had studied, I would be a doctor now.” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ngữ pháp C1 tinh tế. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "If it rains, I will stay.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "If it rains, I stayed.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "___ circumstances change, we are prepared to pivot.",
+        "answer": "Should",
+        "acceptedAnswers": [
+          "Should"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “Should” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ngữ pháp C1 tinh tế. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "What does \"modal perfect\" express?",
+        "options": [
+          "Future possibility",
+          "Past speculation / regret",
+          "Present habit"
+        ],
+        "answer": "Past speculation / regret",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Past speculation / regret” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ngữ pháp C1 tinh tế. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Future possibility": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Present habit": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "C1-13-critical-reading": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "What is \"correlation\" vs \"causation\"?",
+        "options": [
+          "Same thing",
+          "Correlation is association; causation is cause-effect",
+          "Correlation proves causation"
+        ],
+        "answer": "Correlation is association; causation is cause-effect",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Correlation is association; causation is cause-effect” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Đọc phản biện. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Same thing": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Correlation proves causation": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "The argument ___ alternative explanations.",
+        "answer": "overlooks",
+        "acceptedAnswers": [
+          "overlooks"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “overlooks” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Đọc phản biện. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "Which is a sign of bias in research?",
+        "options": [
+          "Large sample size",
+          "Selective use of evidence",
+          "Peer review"
+        ],
+        "answer": "Selective use of evidence",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Selective use of evidence” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Đọc phản biện. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Large sample size": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Peer review": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "C1-14-research-writing": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "What is the standard research paper structure?",
+        "options": [
+          "Thesis → Body → Conclusion",
+          "Abstract → Introduction → Methodology → Results → Discussion",
+          "Introduction → Argument → End"
+        ],
+        "answer": "Abstract → Introduction → Methodology → Results → Discussion",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Abstract → Introduction → Methodology → Results → Discussion” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Viết nghiên cứu. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Thesis → Body → Conclusion": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Introduction → Argument → End": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "The ___ employs a mixed-methods approach over twelve months.",
+        "answer": "methodology",
+        "acceptedAnswers": [
+          "methodology"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “methodology” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Viết nghiên cứu. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "Where do you state your main finding?",
+        "options": [
+          "Methodology",
+          "Abstract and Results",
+          "Introduction"
+        ],
+        "answer": "Abstract and Results",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Abstract and Results” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Viết nghiên cứu. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Methodology": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Introduction": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "C1-15-review-unit3": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "Which is a hedge verb?",
+        "options": [
+          "Prove",
+          "Suggest",
+          "Guarantee"
+        ],
+        "answer": "Suggest",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Suggest” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 3. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Prove": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Guarantee": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "Were we to launch in Q1, we would capture early adopters. → Identify the conditional type: ___ conditional.",
+        "answer": "Inverted",
+        "acceptedAnswers": [
+          "Inverted"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “Inverted” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 3. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "What does IMRaD stand for?",
+        "options": [
+          "Intro, Method, Results, Analysis, Discussion",
+          "Abstract, Introduction, Methodology, Results, Discussion",
+          "Aim, Method, Review, Analysis, Decision"
+        ],
+        "answer": "Abstract, Introduction, Methodology, Results, Discussion",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Abstract, Introduction, Methodology, Results, Discussion” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 3. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Intro, Method, Results, Analysis, Discussion": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Aim, Method, Review, Analysis, Decision": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "It appears that the data was misinterpreted. → This sentence uses ___ language.",
+        "answer": "hedging",
+        "acceptedAnswers": [
+          "hedging"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “hedging” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 3. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "choice",
+        "prompt": "What is a sign of bias in research?",
+        "options": [
+          "Large sample size",
+          "Selective use of evidence",
+          "Peer review"
+        ],
+        "answer": "Selective use of evidence",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Selective use of evidence” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 3. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Large sample size": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Peer review": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      }
+    ]
+  },
+  "C2-01-humor-english": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "Which type of humor relies on saying the opposite of what you mean?",
+        "options": [
+          "Pun",
+          "Irony",
+          "Malapropism",
+          "Innuendo"
+        ],
+        "answer": "Irony",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Irony” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Humor trong tiếng Anh. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Pun": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Malapropism": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Innuendo": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "choice",
+        "prompt": "What is a 'play on words' also called?",
+        "options": [
+          "Parody",
+          "Pun",
+          "Paradox",
+          "Preamble"
+        ],
+        "answer": "Pun",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Pun” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Humor trong tiếng Anh. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Parody": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Paradox": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Preamble": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "The comedian's self-___ made the audience feel at ease.",
+        "answer": "self-deprecation",
+        "acceptedAnswers": [
+          "self-deprecation"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “self-deprecation” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Humor trong tiếng Anh. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      }
+    ]
+  },
+  "C2-02-satire-irony": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "What is the grammatical marker often used to signal verbal irony?",
+        "options": [
+          "Exclamation marks",
+          "Of course",
+          "As if",
+          "The subjunctive mood"
+        ],
+        "answer": "The subjunctive mood",
+        "explanation": "Trong ngữ cảnh câu hỏi, “The subjunctive mood” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Satire & Irony. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Exclamation marks": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Of course": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "As if": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "choice",
+        "prompt": "Which sentence demonstrates situational irony?",
+        "options": [
+          "A fire station burns down.",
+          "A teacher says 'How clever' to a foolish action.",
+          "A surgeon operates on her own leg.",
+          "The weather forecast was wrong again."
+        ],
+        "answer": "A fire station burns down.",
+        "explanation": "Trong ngữ cảnh câu hỏi, “A fire station burns down.” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Satire & Irony. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "A teacher says 'How clever' to a foolish action.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "A surgeon operates on her own leg.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "The weather forecast was wrong again.": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "The article was dripping with ___ when it called the failure a 'resounding success'.",
+        "answer": "sarcasm",
+        "acceptedAnswers": [
+          "sarcasm"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “sarcasm” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Satire & Irony. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      }
+    ]
+  },
+  "C2-03-academic-tone": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "Which hedging phrase expresses the strongest certainty?",
+        "options": [
+          "It appears that...",
+          "The data suggest...",
+          "It is evident that...",
+          "One might argue..."
+        ],
+        "answer": "It is evident that...",
+        "explanation": "Trong ngữ cảnh câu hỏi, “It is evident that...” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Giọng điệu & Phong cách học thuật. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "It appears that...": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "The data suggest...": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "One might argue...": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "choice",
+        "prompt": "What is the primary purpose of hedging in academic writing?",
+        "options": [
+          "To confuse readers",
+          "To express appropriate levels of certainty",
+          "To lengthen the text",
+          "To avoid using statistics"
+        ],
+        "answer": "To express appropriate levels of certainty",
+        "explanation": "Trong ngữ cảnh câu hỏi, “To express appropriate levels of certainty” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Giọng điệu & Phong cách học thuật. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "To confuse readers": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "To lengthen the text": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "To avoid using statistics": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "The findings are ___ with the existing literature on this topic.",
+        "answer": "consistent",
+        "acceptedAnswers": [
+          "consistent"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “consistent” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Giọng điệu & Phong cách học thuật. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      }
+    ]
+  },
+  "C2-04-whitepaper-writing": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "What is the primary purpose of an executive summary in a whitepaper?",
+        "options": [
+          "To entertain the reader",
+          "To distil key arguments for time-pressed executives",
+          "To list all technical details",
+          "To thank the sponsors"
+        ],
+        "answer": "To distil key arguments for time-pressed executives",
+        "explanation": "Trong ngữ cảnh câu hỏi, “To distil key arguments for time-pressed executives” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Viết Whitepaper. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "To entertain the reader": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "To list all technical details": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "To thank the sponsors": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "choice",
+        "prompt": "Which rhetorical approach is most effective in a whitepaper?",
+        "options": [
+          "Emotional appeal alone",
+          "Evidence-based argumentation",
+          "Personal anecdotes",
+          "Humorous anecdotes"
+        ],
+        "answer": "Evidence-based argumentation",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Evidence-based argumentation” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Viết Whitepaper. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Emotional appeal alone": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Personal anecdotes": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Humorous anecdotes": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "The whitepaper must anticipate and refute potential ___ from stakeholders.",
+        "answer": "objections",
+        "acceptedAnswers": [
+          "objections"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “objections” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Viết Whitepaper. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      }
+    ]
+  },
+  "C2-05-review-unit1": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "Which type of humor relies on saying the opposite of what you mean?",
+        "options": [
+          "Pun",
+          "Satire",
+          "Verbal irony",
+          "Understatement"
+        ],
+        "answer": "Verbal irony",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Verbal irony” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 1. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Pun": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Satire": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Understatement": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "choice",
+        "prompt": "What grammatical mood is commonly used to signal sarcasm?",
+        "options": [
+          "Indicative",
+          "Imperative",
+          "Subjunctive",
+          "Conditional"
+        ],
+        "answer": "Subjunctive",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Subjunctive” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 1. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Indicative": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Imperative": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Conditional": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "choice",
+        "prompt": "Which hedging phrase expresses the strongest certainty?",
+        "options": [
+          "It appears that...",
+          "The data may suggest...",
+          "It is evident that...",
+          "One might argue..."
+        ],
+        "answer": "It is evident that...",
+        "explanation": "Trong ngữ cảnh câu hỏi, “It is evident that...” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 1. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "It appears that...": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "The data may suggest...": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "One might argue...": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "choice",
+        "prompt": "What is the most-read section of a whitepaper?",
+        "options": [
+          "The conclusion",
+          "The executive summary",
+          "The table of contents",
+          "The references"
+        ],
+        "answer": "The executive summary",
+        "explanation": "Trong ngữ cảnh câu hỏi, “The executive summary” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 1. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "The conclusion": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "The table of contents": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "The references": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "British humor often relies on ___ and dry wit.",
+        "answer": "understatement",
+        "acceptedAnswers": [
+          "understatement"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “understatement” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 1. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "fill",
+        "prompt": "When the audience knows more than the characters, this is called ___ irony.",
+        "answer": "dramatic",
+        "acceptedAnswers": [
+          "dramatic"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “dramatic” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 1. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "fill",
+        "prompt": "Academic writers use ___ language to express appropriate levels of certainty.",
+        "answer": "hedging",
+        "acceptedAnswers": [
+          "hedging"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “hedging” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 1. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      }
+    ]
+  },
+  "C2-06-conference-talk": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "Which phrase signals a speaker is about to present their central argument?",
+        "options": [
+          "Moving on to...",
+          "I shall argue that...",
+          "In conclusion...",
+          "Thank you for your attention..."
+        ],
+        "answer": "I shall argue that...",
+        "explanation": "Trong ngữ cảnh câu hỏi, “I shall argue that...” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Từ vựng buổi thuyết trình hội nghị. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Moving on to...": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "In conclusion...": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Thank you for your attention...": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "choice",
+        "prompt": "What is the appropriate response when asked a challenging question at a conference?",
+        "options": [
+          "That's a stupid question",
+          "I'm glad you raised that point",
+          "I don't know",
+          "We have no time for questions"
+        ],
+        "answer": "I'm glad you raised that point",
+        "explanation": "Trong ngữ cảnh câu hỏi, “I'm glad you raised that point” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Từ vựng buổi thuyết trình hội nghị. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "That's a stupid question": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "I don't know": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "We have no time for questions": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "The speaker acknowledged the ___ of the previous research while introducing her own methodology.",
+        "answer": "limitations",
+        "acceptedAnswers": [
+          "limitations"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “limitations” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Từ vựng buổi thuyết trình hội nghị. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      }
+    ]
+  },
+  "C2-07-panel-discussion": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "Which grammatical structure is most appropriate for softening disagreement in a panel?",
+        "options": [
+          "Present simple",
+          "Second conditional",
+          "Past perfect",
+          "Future continuous"
+        ],
+        "answer": "Second conditional",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Second conditional” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ngữ pháp Thảo luận Bàn tròn. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Present simple": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Past perfect": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Future continuous": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "choice",
+        "prompt": "What is the subjunctive form of 'suggest' in 'She suggested that he ___ present at the meeting'?",
+        "options": [
+          "is",
+          "be",
+          "was",
+          "would be"
+        ],
+        "answer": "be",
+        "explanation": "Trong ngữ cảnh câu hỏi, “be” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ngữ pháp Thảo luận Bàn tròn. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "is": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "was": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "would be": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "Were the committee to ___ the proposal, significant implications would follow.",
+        "answer": "reject",
+        "acceptedAnswers": [
+          "reject"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “reject” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ngữ pháp Thảo luận Bàn tròn. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      }
+    ]
+  },
+  "C2-08-diplomatic-language": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "What is the primary function of diplomatic language?",
+        "options": [
+          "To be completely transparent",
+          "To preserve face and manage ambiguity",
+          "To confuse the opposition",
+          "To simplify complex issues"
+        ],
+        "answer": "To preserve face and manage ambiguity",
+        "explanation": "Trong ngữ cảnh câu hỏi, “To preserve face and manage ambiguity” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ngôn ngữ Ngoại giao. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "To be completely transparent": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "To confuse the opposition": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "To simplify complex issues": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "choice",
+        "prompt": "What does 'taking note of' typically imply in diplomatic language?",
+        "options": [
+          "Strong agreement",
+          "Full endorsement",
+          "Polite acknowledgment without commitment",
+          "Rejection"
+        ],
+        "answer": "Polite acknowledgment without commitment",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Polite acknowledgment without commitment” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ngôn ngữ Ngoại giao. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Strong agreement": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Full endorsement": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Rejection": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "The ambassador expressed 'grave concern' over the incident, signalling ___ displeasure.",
+        "answer": "diplomatic",
+        "acceptedAnswers": [
+          "diplomatic"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “diplomatic” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ngôn ngữ Ngoại giao. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      }
+    ]
+  },
+  "C2-09-legal-contracts": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "What is the purpose of the definitions section in a legal contract?",
+        "options": [
+          "To impress readers with complexity",
+          "To eliminate ambiguity by establishing precise meanings",
+          "To satisfy legal requirements",
+          "To provide examples"
+        ],
+        "answer": "To eliminate ambiguity by establishing precise meanings",
+        "explanation": "Trong ngữ cảnh câu hỏi, “To eliminate ambiguity by establishing precise meanings” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Hợp đồng Pháp lý. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "To impress readers with complexity": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "To satisfy legal requirements": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "To provide examples": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "choice",
+        "prompt": "Which word, when used in a contract, creates the strongest obligation?",
+        "options": [
+          "May",
+          "Should",
+          "Shall",
+          "Might"
+        ],
+        "answer": "Shall",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Shall” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Hợp đồng Pháp lý. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "May": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Should": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Might": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "The parties hereby ___ that they have read and understood the terms of this agreement.",
+        "answer": "acknowledge",
+        "acceptedAnswers": [
+          "acknowledge"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “acknowledge” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Hợp đồng Pháp lý. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      }
+    ]
+  },
+  "C2-10-review-unit2": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "Which phrase signals a speaker is presenting their central argument?",
+        "options": [
+          "Moving on to...",
+          "I shall argue that...",
+          "In conclusion...",
+          "To sum up..."
+        ],
+        "answer": "I shall argue that...",
+        "explanation": "Trong ngữ cảnh câu hỏi, “I shall argue that...” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 2. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Moving on to...": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "In conclusion...": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "To sum up...": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "choice",
+        "prompt": "In legal contracts, which word creates a mandatory obligation?",
+        "options": [
+          "May",
+          "Might",
+          "Should",
+          "Shall"
+        ],
+        "answer": "Shall",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Shall” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 2. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "May": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Might": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Should": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "choice",
+        "prompt": "What does 'taking note of' imply in diplomatic language?",
+        "options": [
+          "Strong agreement",
+          "Full commitment",
+          "Polite acknowledgment without commitment",
+          "Rejection"
+        ],
+        "answer": "Polite acknowledgment without commitment",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Polite acknowledgment without commitment” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 2. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Strong agreement": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Full commitment": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Rejection": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "choice",
+        "prompt": "Which grammatical structure is used for softened disagreement in panels?",
+        "options": [
+          "First conditional",
+          "Second conditional",
+          "Third conditional",
+          "Zero conditional"
+        ],
+        "answer": "Second conditional",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Second conditional” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 2. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "First conditional": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Third conditional": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Zero conditional": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "The subjunctive is used after verbs of suggestion, demand, and ___.",
+        "answer": "recommendation",
+        "acceptedAnswers": [
+          "recommendation"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “recommendation” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 2. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "fill",
+        "prompt": "In treaties, '___' means applying with necessary changes.",
+        "answer": "mutatis mutandis",
+        "acceptedAnswers": [
+          "mutatis mutandis"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “mutatis mutandis” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 2. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      }
+    ]
+  },
+  "C2-11-research-presentation": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "Which phrase is most appropriate when acknowledging a study's limitations?",
+        "options": [
+          "The study has no limitations",
+          "Notwithstanding the limitations...",
+          "The limitations are irrelevant",
+          "We ignored the limitations"
+        ],
+        "answer": "Notwithstanding the limitations...",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Notwithstanding the limitations...” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Từ vựng Thuyết trình Nghiên cứu. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "The study has no limitations": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "The limitations are irrelevant": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "We ignored the limitations": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "choice",
+        "prompt": "What does 'methodological triangulation' mean?",
+        "options": [
+          "Using multiple research methods to verify findings",
+          "A type of statistical analysis",
+          "A research ethics framework",
+          "A citation style"
+        ],
+        "answer": "Using multiple research methods to verify findings",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Using multiple research methods to verify findings” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Từ vựng Thuyết trình Nghiên cứu. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "A type of statistical analysis": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "A research ethics framework": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "A citation style": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "The findings are ___ with the theoretical framework proposed in the literature.",
+        "answer": "consistent",
+        "acceptedAnswers": [
+          "consistent"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “consistent” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Từ vựng Thuyết trình Nghiên cứu. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      }
+    ]
+  },
+  "C2-12-debate-formal": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "Which sentence structure creates maximum emphasis for a key point in debate?",
+        "options": [
+          "Simple sentence",
+          "Cleft sentence",
+          "Compound sentence",
+          "Fragment"
+        ],
+        "answer": "Cleft sentence",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Cleft sentence” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ngữ pháp Tranh luận Trang trọng. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Simple sentence": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Compound sentence": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Fragment": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "choice",
+        "prompt": "In parliamentary debate, what is a 'point of information'?",
+        "options": [
+          "A question about rules",
+          "A brief interjection during opponent's speech",
+          "A closing statement",
+          "A request for clarification"
+        ],
+        "answer": "A brief interjection during opponent's speech",
+        "explanation": "Trong ngữ cảnh câu hỏi, “A brief interjection during opponent's speech” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ngữ pháp Tranh luận Trang trọng. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "A question about rules": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "A closing statement": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "A request for clarification": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "It is not the policy that is flawed, but rather its ___.",
+        "answer": "implementation",
+        "acceptedAnswers": [
+          "implementation"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “implementation” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ngữ pháp Tranh luận Trang trọng. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      }
+    ]
+  },
+  "C2-13-write-publish": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "What is the purpose of a 'revise and resubmit' decision?",
+        "options": [
+          "Complete rejection",
+          "Conditional acceptance pending revisions",
+          "Immediate acceptance",
+          "Transfer to another journal"
+        ],
+        "answer": "Conditional acceptance pending revisions",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Conditional acceptance pending revisions” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Viết để Xuất bản. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Complete rejection": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Immediate acceptance": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Transfer to another journal": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "choice",
+        "prompt": "What should a cover letter NOT include according to journal conventions?",
+        "options": [
+          "Submission title and authors",
+          "Statement of originality",
+          "Detailed statistical methods",
+          "Suggested reviewers"
+        ],
+        "answer": "Detailed statistical methods",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Detailed statistical methods” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Viết để Xuất bản. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Submission title and authors": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Statement of originality": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Suggested reviewers": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "The reviewer described the methodology as '___', indicating serious methodological concerns.",
+        "answer": "flawed",
+        "acceptedAnswers": [
+          "flawed"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “flawed” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Viết để Xuất bản. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      }
+    ]
+  },
+  "C2-14-professional-poetry": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "What is the primary consideration when writing professional poetry?",
+        "options": [
+          "Personal artistic expression",
+          "Serving the occasion and audience",
+          "Using complex imagery",
+          "Challenging conventional forms"
+        ],
+        "answer": "Serving the occasion and audience",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Serving the occasion and audience” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Thơ Chuyên nghiệp. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Personal artistic expression": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Using complex imagery": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Challenging conventional forms": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "choice",
+        "prompt": "Which meter is most commonly used in commemorative poetry?",
+        "options": [
+          "Iambic trimeter",
+          "Trochaic dimeter",
+          "Iambic pentameter",
+          "Anapestic tetrameter"
+        ],
+        "answer": "Iambic pentameter",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Iambic pentameter” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Thơ Chuyên nghiệp. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Iambic trimeter": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Trochaic dimeter": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Anapestic tetrameter": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "A commemorative poem should balance ___ with dignity and appropriate emotion.",
+        "answer": "brevity",
+        "acceptedAnswers": [
+          "brevity"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “brevity” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Thơ Chuyên nghiệp. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      }
+    ]
+  },
+  "C2-15-review-unit3": {
+    "quiz": [
+      {
+        "type": "choice",
+        "prompt": "Which structure creates maximum emphasis in formal debate?",
+        "options": [
+          "Simple sentence",
+          "Cleft sentence",
+          "Compound sentence",
+          "Question"
+        ],
+        "answer": "Cleft sentence",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Cleft sentence” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 3. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Simple sentence": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Compound sentence": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Question": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "choice",
+        "prompt": "What does a 'revise and resubmit' decision mean?",
+        "options": [
+          "Rejected outright",
+          "Conditional acceptance pending revisions",
+          "Immediate acceptance",
+          "Transfer to another journal"
+        ],
+        "answer": "Conditional acceptance pending revisions",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Conditional acceptance pending revisions” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 3. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Rejected outright": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Immediate acceptance": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Transfer to another journal": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "choice",
+        "prompt": "What is the primary purpose of professional poetry?",
+        "options": [
+          "Personal artistic expression",
+          "Serving the occasion and audience",
+          "Challenging conventional forms",
+          "Demonstrating linguistic virtuosity"
+        ],
+        "answer": "Serving the occasion and audience",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Serving the occasion and audience” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 3. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Personal artistic expression": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Challenging conventional forms": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Demonstrating linguistic virtuosity": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "choice",
+        "prompt": "In research presentations, what balance must be maintained?",
+        "options": [
+          "Speed and clarity",
+          "Confidence and epistemic humility",
+          "Length and depth",
+          "Theory and practice"
+        ],
+        "answer": "Confidence and epistemic humility",
+        "explanation": "Trong ngữ cảnh câu hỏi, “Confidence and epistemic humility” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 3. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        "distractorFeedback": {
+          "Speed and clarity": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Length and depth": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.",
+          "Theory and practice": "Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi."
+        }
+      },
+      {
+        "type": "fill",
+        "prompt": "In formal debate, 'It is not [X] but [Y] that matters' is an example of a ___ sentence.",
+        "answer": "cleft",
+        "acceptedAnswers": [
+          "cleft"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “cleft” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 3. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      },
+      {
+        "type": "fill",
+        "prompt": "When responding to peer reviewers, one should address each comment ___.",
+        "answer": "in turn",
+        "acceptedAnswers": [
+          "in turn"
+        ],
+        "explanation": "Trong ngữ cảnh câu hỏi, “in turn” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Ôn tập Unit 3. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc."
+      }
     ]
   }
 }

@@ -11,7 +11,7 @@
   'skill': 'writing',
   'order': 4,
   'cefr': 'A1',
-  'minutes': 20,
+  'minutes': 22,
   'tags': ['family', 'vocabulary', 'writing', 'speaking', 'daily'],
   'audioScript': "This is my family. I have a mother and a father.\nI have two sisters. Their names are Mai and Lan.\nMy brother is older than me. His name is Tuan.\nMy grandmother is 70. She is kind and patient.\n",
   'listeningEnabled': true,
@@ -23,11 +23,20 @@
         'prompt': "How do you say 'anh trai' in English?",
         'options': ['Father', 'Brother', 'Uncle', 'Son'],
         'answer': 'Brother',
+        'explanation': 'In this context, “Brother” supplies the meaning or form targeted in Family Members. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'Father': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Uncle': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Son': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
       {
         'type': 'fill',
         'prompt': "My ___ is 70 years old. She is my mom's mother. (bà)",
         'answer': 'grandmother',
+        'acceptedAnswers': ['grandmother'],
+        'explanation': 'In this context, “grandmother” supplies the meaning or form targeted in Family Members. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
       },
       {
         'type': 'choice',
@@ -40,16 +49,28 @@
             'I have two brothers.',
           ],
         'answer': 'There are two girls who are my sisters.',
+        'explanation': 'In this context, “There are two girls who are my sisters.” supplies the meaning or form targeted in Family Members. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'I am a sister.': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'My sisters are two years old.': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'I have two brothers.': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
       {
         'type': 'fill',
         'prompt': 'This is my brother. ___ name is Tuan. (đại từ sở hữu)',
         'answer': 'His',
+        'acceptedAnswers': ['His'],
+        'explanation': 'In this context, “His” supplies the meaning or form targeted in Family Members. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
       },
     ],
   'categoryEn': 'Foundation English',
   'categoryVi': 'Tiếng Anh Nền tảng',
   'prerequisites': ['a1-03-daily-verbs'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 20, 'maxWords': 70 },
 }
 ---
 
@@ -219,37 +240,43 @@ In **A1-05-review-unit1**, you will review everything from Unit 1: greetings, nu
 
 ## Learning outcome
 
-By the end of this lesson, you will be able to produce and revise a clear piece of writing about family members for a defined audience.
+By the end of this lesson, you can write and revise a response about family members for a named audience, with a clear purpose, relevant support, and next step.
 
-## Practice lab
+## Scenario practice
 
-### Notice the language
+### Situation
 
-Read the situation, then listen to the model once for meaning and once for phrasing.
+You are making a simple profile for a class activity. Write four short sentences about people in your family.
 
-> **Colleague:** How would you handle **family members** in this situation?
->
-> **You:** This is my family. I have a mother and a father.
+> **Training note:** This situation and its details are fictional. They are designed for language practice, not presented as a real event, policy, study, or legal interpretation.
 
-Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+### Controlled practice
 
-> **Pattern**: clear point + concrete detail or reason + appropriate next step
+Build a four-part outline: audience, purpose, one concrete supporting detail, and requested next step. Check that every planned sentence serves one of those four parts.
 
-### Your turn
+### Guided task
 
-Write 80–120 words for a colleague or classmate. State the purpose early, support it with a concrete detail, and finish with a clear next step.
+Write 20–70 words for the stated audience. Make the purpose visible in the opening, support it with a concrete detail, and close with a proportionate next step.
 
 ### Model response
 
-> This is my family. I have a mother and a father. I have two sisters. Their names are Mai and Lan. My brother is older than me. His name is Tuan. My grandmother is 70. She is kind and patient.
+> **Draft:** This is my family. I have a mother and a father. I have two sisters. Their names are Mai and Lan. My brother is older than me. His name is Tuan.
+>
+> **Revision note:** I keep the message short, use familiar words, and finish with one clear next step. Other well-supported responses are possible.
 
-The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+### Why the model works
+
+The model shows one defensible route through the task; it is not a script to memorize. Compare its task completion, language accuracy, audience fit, and clarity with your response, then revise once.
+
+### Transfer task
+
+Describe a friend and the people they live with. Keep the target language, but change the details and register needed for the new context.
 
 ### Self-check
 
-- [ ] I completed the task without translating a full Vietnamese sentence word for word.
-- [ ] I used at least two useful expressions from the lesson.
-- [ ] My main point is easy to identify.
-- [ ] I included a concrete detail, reason, or next step.
+- [ ] I completed every part of this lesson's scenario, not only the language form.
+- [ ] My target language is accurate and fits the intended meaning.
+- [ ] My level of directness and detail fits the named audience.
+- [ ] The reader or listener can identify my main point and next step.
 
 <!-- learning-loop:end -->

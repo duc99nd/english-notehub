@@ -11,7 +11,7 @@
   'skill': 'vocab',
   'order': 11,
   'cefr': 'A1',
-  'minutes': 21,
+  'minutes': 22,
   'tags': ['shopping', 'money', 'numbers', 'vocab', 'daily'],
   'audioScript': "How much does this shirt cost?\nIt costs fifty thousand dong.\nI would like to buy this book, please.\nDo you accept credit cards?\n",
   'listeningEnabled': true,
@@ -29,25 +29,55 @@
             'How much money do you have?',
           ],
         'answer': 'How much is this?',
+        'explanation': 'In this context, “How much is this?” supplies the meaning or form targeted in Shopping & Money. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'How many is this?': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'How old is this?': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'How much money do you have?': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
       {
         'type': 'choice',
         'prompt': "What is the opposite of 'cheap'?",
         'options': ['small', 'expensive', 'free', 'discount'],
         'answer': 'expensive',
+        'explanation': 'In this context, “expensive” supplies the meaning or form targeted in Shopping & Money. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'small': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'free': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'discount': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
-      { 'type': 'fill', 'prompt': 'It ___ 50 dollars. (verb for price)', 'answer': 'costs' },
+      {
+        'type': 'fill',
+        'prompt': 'It ___ 50 dollars. (verb for price)',
+        'answer': 'costs',
+        'acceptedAnswers': ['costs'],
+        'explanation': 'In this context, “costs” supplies the meaning or form targeted in Shopping & Money. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+      },
       {
         'type': 'choice',
         'prompt': 'You want to pay with your Visa card. You ask:',
         'options':
           ['Where is the card?', 'Can I pay by card?', 'How many cards?', 'Do you take dollars?'],
         'answer': 'Can I pay by card?',
+        'explanation': 'In this context, “Can I pay by card?” supplies the meaning or form targeted in Shopping & Money. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'Where is the card?': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'How many cards?': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Do you take dollars?': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
     ],
   'categoryEn': 'Foundation English',
   'categoryVi': 'Tiếng Anh Nền tảng',
   'prerequisites': ['a1-10-review-unit2'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'dialogue', 'minTurns': 4, 'maxTurns': 6 },
 }
 ---
 
@@ -236,37 +266,47 @@ In **A1-12-directions**, you will learn vocabulary for places and directions —
 
 ## Learning outcome
 
-By the end of this lesson, you will be able to select and use useful language for shopping & money in a short, realistic exchange.
+By the end of this lesson, you can complete a four-turn exchange about shopping & money, choosing expressions that fit the relationship and immediate goal.
 
-## Practice lab
+## Scenario practice
 
-### Notice the language
+### Situation
 
-Read the situation, then listen to the model once for meaning and once for phrasing.
+You have a small budget and want to buy a notebook. Ask the price, confirm the amount, and choose how to pay.
 
-> **Colleague:** How would you handle **shopping & money** in this situation?
->
-> **You:** How much does this shirt cost?
+> **Training note:** This situation and its details are fictional. They are designed for language practice, not presented as a real event, policy, study, or legal interpretation.
 
-Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+### Controlled practice
 
-> **Pattern**: clear point + concrete detail or reason + appropriate next step
+Choose three expressions from **Shopping & Money**. Label each one as an opener, key detail, clarification, or next step. Remove any expression that does not fit the relationship in the situation.
 
-### Your turn
+### Guided task
 
-Create a four-line exchange with a colleague or classmate. Use at least three target expressions from **Shopping & Money** and add one follow-up question.
+Write a four-to-six-turn exchange for this situation. Use at least three target expressions, respond to the other speaker's information, and end with a question, confirmation, or agreed action.
 
 ### Model response
 
-> How much does this shirt cost? It costs fifty thousand dong. I would like to buy this book, please. Do you accept credit cards?
+> **Partner:** We need to respond to the situation above. What would you say first?
+>
+> **You:** How much does this shirt cost?
+>
+> **Partner:** What detail should we confirm before we act?
+>
+> **You:** It costs fifty thousand dong. I would like to buy this book, please.
 
-The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+### Why the model works
+
+The model shows one defensible route through the task; it is not a script to memorize. Compare its task completion, language accuracy, audience fit, and clarity with your response, then revise once.
+
+### Transfer task
+
+Ask about two shirts and decide which one to buy. Keep the target language, but change the details and register needed for the new context.
 
 ### Self-check
 
-- [ ] I completed the task without translating a full Vietnamese sentence word for word.
-- [ ] I used at least two useful expressions from the lesson.
-- [ ] My main point is easy to identify.
-- [ ] I included a concrete detail, reason, or next step.
+- [ ] I completed every part of this lesson's scenario, not only the language form.
+- [ ] My target language is accurate and fits the intended meaning.
+- [ ] My level of directness and detail fits the named audience.
+- [ ] The reader or listener can identify my main point and next step.
 
 <!-- learning-loop:end -->

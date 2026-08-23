@@ -11,7 +11,7 @@
   'skill': 'vocab',
   'order': 8,
   'cefr': 'B2',
-  'minutes': 10,
+  'minutes': 12,
   'tags': ['data', 'storytelling', 'presentation', 'B2'],
   'audioScript': "The data reveals a clear upward trend over the last quarter.\nOur findings underscore the need for immediate intervention.\nThis metric serves as a key indicator of customer satisfaction.\n",
   'listeningEnabled': true,
@@ -23,22 +23,39 @@
         'prompt': 'What does "underscore" mean?',
         'options': ['To hide', 'To emphasize', 'To calculate'],
         'answer': 'To emphasize',
+        'explanation': 'In this context, “To emphasize” supplies the meaning or form targeted in Data Storytelling. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'To hide': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'To calculate': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
       {
         'type': 'fill',
         'prompt': 'This metric ___ as a key indicator of customer satisfaction.',
         'answer': 'serves',
+        'acceptedAnswers': ['serves'],
+        'explanation': 'In this context, “serves” supplies the meaning or form targeted in Data Storytelling. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
       },
       {
         'type': 'choice',
         'prompt': "An \\ upward trend\\\" means:\"",
         'options': ['Numbers are decreasing', 'Numbers are increasing', 'Numbers are stable'],
         'answer': 'Numbers are increasing',
+        'explanation': 'In this context, “Numbers are increasing” supplies the meaning or form targeted in Data Storytelling. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'Numbers are decreasing': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Numbers are stable': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
     ],
   'categoryEn': 'Technical Leadership Communication',
   'categoryVi': 'Giao tiếp Dẫn dắt Kỹ thuật',
   'prerequisites': ['b2-07-proposal-writing'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'dialogue', 'minTurns': 4, 'maxTurns': 6 },
 }
 ---
 
@@ -88,41 +105,48 @@ In the next lesson **B2-09-conditionals-advanced**, you will master third and mi
 
 ## Learning outcome
 
-By the end of this lesson, you will be able to select and use useful language for data storytelling in a short, realistic exchange.
+By the end of this lesson, you can complete a four-turn exchange about data storytelling, choosing expressions that fit the relationship and immediate goal.
 
-## Practice lab
+## Scenario practice
 
-### Notice the language
+### Situation
 
-Read the situation, then listen to the model once for meaning and once for phrasing.
+A fictional customer dashboard shows rising churn despite higher sign-ups. Present the trend, explain why it matters, and recommend one investigation.
 
-> **Colleague:** How would you handle **data storytelling** in this situation?
->
-> **You:** The data reveals a clear upward trend over the last quarter.
+> **Training note:** This situation and its details are fictional. They are designed for language practice, not presented as a real event, policy, study, or legal interpretation.
 
-Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+### Controlled practice
 
-> **Pattern**: clear point + concrete detail or reason + appropriate next step
+Choose three expressions from **Data Storytelling**. Label each one as an opener, key detail, clarification, or next step. Remove any expression that does not fit the relationship in the situation.
 
-### Your turn
+### Guided task
 
-Create a four-line exchange with a colleague or classmate. Use at least three target expressions from **Data Storytelling** and add one follow-up question.
+Write a four-to-six-turn exchange for this situation. Use at least three target expressions, respond to the other speaker's information, and end with a question, confirmation, or agreed action.
 
 ### Model response
 
-> The data reveals a clear upward trend over the last quarter. Our findings underscore the need for immediate intervention. This metric serves as a key indicator of customer satisfaction.
+> **Partner:** We need to respond to the situation above. What would you say first?
+>
+> **You:** The data reveals a clear upward trend over the last quarter.
+>
+> **Partner:** What detail should we confirm before we act?
+>
+> **You:** Our findings underscore the need for immediate intervention. This metric serves as a key indicator of customer satisfaction.
 
-The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+### Why the model works
 
-### Register switch
+The model shows one defensible route through the task; it is not a script to memorize. Compare its task completion, language accuracy, audience fit, and clarity with your response, then revise once.
 
-Rewrite your response twice: first for a trusted teammate, then for a client or senior stakeholder. Keep the underlying message the same while changing directness, context, and the amount of explanation. Identify one phrase you softened, one detail you made explicit, and one assumption you removed.
+### Transfer task
+
+Present the same data to a non-technical commercial team. Keep the target language, but change the details and register needed for the new context.
 
 ### Self-check
 
-- [ ] I completed the task without translating a full Vietnamese sentence word for word.
-- [ ] I used at least two useful expressions from the lesson.
-- [ ] My main point is easy to identify.
-- [ ] I included a concrete detail, reason, or next step.
+- [ ] I completed every part of this lesson's scenario, not only the language form.
+- [ ] My target language is accurate and fits the intended meaning.
+- [ ] My level of directness and detail fits the named audience.
+- [ ] The reader or listener can identify my main point and next step.
+- [ ] I separated evidence, assumptions, and recommendations instead of presenting them as equally certain.
 
 <!-- learning-loop:end -->

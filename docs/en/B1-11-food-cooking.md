@@ -11,7 +11,7 @@
   'skill': 'vocab',
   'order': 11,
   'cefr': 'B1',
-  'minutes': 11,
+  'minutes': 12,
   'tags': ['food', 'cooking', 'ingredients', 'kitchen', 'meals', 'recipes'],
   'audioScript': "I'm going to cook pasta for dinner tonight.\nFirst, you need to chop the vegetables.\nThe soup needs to simmer for about 20 minutes.\n",
   'listeningEnabled': true,
@@ -23,22 +23,39 @@
         'prompt': "What does 'to chop' mean in cooking?",
         'options': ['To boil', 'To cut into small pieces', 'To stir'],
         'answer': 'To cut into small pieces',
+        'explanation': 'In this context, “To cut into small pieces” supplies the meaning or form targeted in Food & Cooking. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'To boil': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'To stir': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
       {
         'type': 'fill',
         'prompt': 'You need to ___ the onions before adding them to the pan.',
         'answer': 'chop',
+        'acceptedAnswers': ['chop'],
+        'explanation': 'In this context, “chop” supplies the meaning or form targeted in Food & Cooking. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
       },
       {
         'type': 'choice',
         'prompt': "What is an 'ingredient'?",
         'options': ['A cooking tool', 'Something you use in a recipe', 'A type of restaurant'],
         'answer': 'Something you use in a recipe',
+        'explanation': 'In this context, “Something you use in a recipe” supplies the meaning or form targeted in Food & Cooking. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'A cooking tool': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'A type of restaurant': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
     ],
   'categoryEn': 'Independent Workplace Communication',
   'categoryVi': 'Giao tiếp Công việc Độc lập',
   'prerequisites': ['b1-10-review-unit2'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'dialogue', 'minTurns': 4, 'maxTurns': 6 },
 }
 ---
 
@@ -125,37 +142,47 @@ In the next lesson **B1-12-conditionals**, you will learn how to use first and s
 
 ## Learning outcome
 
-By the end of this lesson, you will be able to select and use useful language for food & cooking in a short, realistic exchange.
+By the end of this lesson, you can complete a four-turn exchange about food & cooking, choosing expressions that fit the relationship and immediate goal.
 
-## Practice lab
+## Scenario practice
 
-### Notice the language
+### Situation
 
-Read the situation, then listen to the model once for meaning and once for phrasing.
+Your team is planning a shared lunch. Explain one dish, sequence three preparation steps, and state the cooking time.
 
-> **Colleague:** How would you handle **food & cooking** in this situation?
->
-> **You:** I'm going to cook pasta for dinner tonight.
+> **Training note:** This situation and its details are fictional. They are designed for language practice, not presented as a real event, policy, study, or legal interpretation.
 
-Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+### Controlled practice
 
-> **Pattern**: clear point + concrete detail or reason + appropriate next step
+Choose three expressions from **Food & Cooking**. Label each one as an opener, key detail, clarification, or next step. Remove any expression that does not fit the relationship in the situation.
 
-### Your turn
+### Guided task
 
-Create a four-line exchange with a colleague or classmate. Use at least three target expressions from **Food & Cooking** and add one follow-up question.
+Write a four-to-six-turn exchange for this situation. Use at least three target expressions, respond to the other speaker's information, and end with a question, confirmation, or agreed action.
 
 ### Model response
 
-> I'm going to cook pasta for dinner tonight. First, you need to chop the vegetables. The soup needs to simmer for about 20 minutes.
+> **Partner:** We need to respond to the situation above. What would you say first?
+>
+> **You:** I'm going to cook pasta for dinner tonight.
+>
+> **Partner:** What detail should we confirm before we act?
+>
+> **You:** First, you need to chop the vegetables. The soup needs to simmer for about 20 minutes.
 
-The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+### Why the model works
+
+The model shows one defensible route through the task; it is not a script to memorize. Compare its task completion, language accuracy, audience fit, and clarity with your response, then revise once.
+
+### Transfer task
+
+Adapt the dish for one vegetarian teammate. Keep the target language, but change the details and register needed for the new context.
 
 ### Self-check
 
-- [ ] I completed the task without translating a full Vietnamese sentence word for word.
-- [ ] I used at least two useful expressions from the lesson.
-- [ ] My main point is easy to identify.
-- [ ] I included a concrete detail, reason, or next step.
+- [ ] I completed every part of this lesson's scenario, not only the language form.
+- [ ] My target language is accurate and fits the intended meaning.
+- [ ] My level of directness and detail fits the named audience.
+- [ ] The reader or listener can identify my main point and next step.
 
 <!-- learning-loop:end -->

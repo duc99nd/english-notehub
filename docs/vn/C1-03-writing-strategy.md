@@ -11,7 +11,7 @@
   'skill': 'reading',
   'order': 3,
   'cefr': 'C1',
-  'minutes': 12,
+  'minutes': 13,
   'tags': ['reading', 'strategy', 'reports', 'documents', 'C1'],
   'audioScript': "Our five-year roadmap prioritizes sustainable growth over rapid expansion.\nThe board has endorsed a pivot toward technology-enabled solutions.\nWe anticipate headwinds in Q4 but remain confident in our long-term positioning.\n",
   'listeningEnabled': true,
@@ -23,11 +23,19 @@
         'prompt': 'What does "headwinds" typically mean in business context?',
         'options': ['Challenges or obstacles', 'Tailwinds or advantages', 'Wind speeds'],
         'answer': 'Challenges or obstacles',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “Challenges or obstacles” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Đọc Hiểu Tài liệu Chiến lược. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'Tailwinds or advantages': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'Wind speeds': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
       {
         'type': 'fill',
         'prompt': 'The company announced a ___ toward renewable energy sources.',
         'answer': 'pivot',
+        'acceptedAnswers': ['pivot'],
+        'explanation': 'Trong ngữ cảnh câu hỏi, “pivot” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Đọc Hiểu Tài liệu Chiến lược. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
       },
       {
         'type': 'choice',
@@ -39,11 +47,20 @@
             'The product is expensive',
           ],
         'answer': 'The company has strong competitive advantages',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “The company has strong competitive advantages” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Đọc Hiểu Tài liệu Chiến lược. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'The company is struggling': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'The product is expensive': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
     ],
   'categoryEn': 'Strategic Professional Communication',
   'categoryVi': 'Giao tiếp Chuyên nghiệp Chiến lược',
   'prerequisites': ['c1-02-board-presentations'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 65, 'maxWords': 200 },
 }
 ---
 
@@ -93,7 +110,7 @@ Tài liệu chiến lược thường dùng từ tín hiệu để chỉ tầm q
 
 **Điểm chính:** Ban quản lý muốn hội đồng phê duyệt khoản đầu tư đáng kể vào chuyển đổi số.
 
-## What to learn next
+## Bài học tiếp theo
 
 Trong bài tiếp theo **C1-04-stakeholder-management**, bạn sẽ học từ vựng quản lý bên liên quan.
 
@@ -101,42 +118,44 @@ Trong bài tiếp theo **C1-04-stakeholder-management**, bạn sẽ học từ v
 
 ## Kết quả học tập
 
-Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Đọc Hiểu Tài liệu Chiến lược** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+Sau bài này, bạn có thể rút ra ý chính và chi tiết hỗ trợ từ văn bản về **Đọc Hiểu Tài liệu Chiến lược**, sau đó đưa ra một cách hiểu dựa trên bằng chứng.
 
-## Phòng luyện tập
+## Luyện tập theo tình huống
 
-### Nhận diện cách diễn đạt
+### Tình huống
 
-Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+Đọc trích đoạn chiến lược năm năm hư cấu. Phân biệt mục tiêu, lựa chọn chiến lược, trở ngại đã thừa nhận và giả định thiếu bằng chứng.
 
-> **Colleague:** How would you handle this situation?
->
-> **You:** Our five-year roadmap prioritizes sustainable growth over rapid expansion.
+> **Lưu ý:** Tình huống và các chi tiết đều là hư cấu để luyện ngôn ngữ; đây không phải sự kiện, chính sách, nghiên cứu hoặc diễn giải pháp lý có thật.
 
-Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+### Luyện tập có kiểm soát
 
-> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+Trước khi đọc lại phần giải thích, hãy viết một dòng cho ý chính, một dòng cho chi tiết hỗ trợ mạnh nhất và một cụm từ thể hiện tông giọng hoặc lập trường.
 
-### Đến lượt bạn
+### Nhiệm vụ có hướng dẫn
 
-Tạo một câu trả lời mới cho chủ đề **Đọc Hiểu Tài liệu Chiến lược**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+Viết 65–200 từ bằng tiếng Anh dưới dạng ghi chú đọc hiểu có cấu trúc. Nêu ý chính, trích hoặc diễn đạt lại một chi tiết hỗ trợ, xác định một lựa chọn văn phong và tách bằng chứng khỏi suy luận.
 
 ### Bài mẫu
 
-> Our five-year roadmap prioritizes sustainable growth over rapid expansion. The board has endorsed a pivot toward technology-enabled solutions. We anticipate headwinds in Q4 but remain confident in our long-term positioning.
+> **Main point and evidence:** Our five-year roadmap prioritizes sustainable growth over rapid expansion. The board has endorsed a pivot toward technology-enabled solutions. We anticipate headwinds in Q4 but remain confident in our long-term positioning.
+>
+> **Interpretation:** I select only the evidence that changes the decision, qualify any projection that depends on an assumption, and make ownership visible. A different stakeholder could reasonably prefer another option, so the response identifies the condition that would justify revisiting the recommendation. Other well-supported responses are possible.
 
-Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+### Vì sao bài mẫu phù hợp
 
-### Chuyển đổi register
+Bài mẫu thể hiện một cách xử lý hợp lý, không phải kịch bản bắt buộc học thuộc. Hãy so sánh mức hoàn thành nhiệm vụ, độ chính xác, độ phù hợp với người nghe và độ rõ với bài của bạn rồi sửa một lần.
 
-Viết lại câu trả lời hai lần: một bản cho đồng đội thân quen và một bản cho khách hàng hoặc stakeholder cấp cao. Giữ nguyên thông điệp nhưng thay đổi độ trực tiếp, lượng bối cảnh và mức giải thích. Chỉ ra một cụm từ bạn đã làm mềm, một chi tiết bạn nói rõ hơn và một giả định bạn đã loại bỏ.
+### Bài tập chuyển đổi
+
+Tóm lược hệ quả cho nhóm delivery thay vì tóm tắt toàn bộ tài liệu. Giữ ngôn ngữ trọng tâm nhưng thay đổi chi tiết và văn phong cho bối cảnh mới.
 
 ### Tự kiểm tra
 
-- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
-- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
-- [ ] Người nghe có thể nhận ra ý chính ngay.
-- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
-- [ ] Mình đã giới hạn mức độ chắc chắn của nhận định và điều chỉnh register theo người nghe.
+- [ ] Mình hoàn thành đủ yêu cầu của tình huống, không chỉ dùng đúng cấu trúc.
+- [ ] Ngôn ngữ trọng tâm chính xác và đúng ý định.
+- [ ] Độ trực tiếp và lượng chi tiết phù hợp người nghe hoặc người đọc.
+- [ ] Người nhận có thể nhận ra ý chính và bước tiếp theo.
+- [ ] Mình tách bằng chứng, giả định và khuyến nghị thay vì trình bày tất cả với cùng mức chắc chắn.
 
 <!-- learning-loop:end -->

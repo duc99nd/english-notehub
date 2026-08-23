@@ -11,7 +11,7 @@
   'skill': 'vocab',
   'order': 6,
   'cefr': 'C1',
-  'minutes': 11,
+  'minutes': 12,
   'tags': ['investor', 'relations', 'finance', 'communication', 'C1'],
   'audioScript': "We project double-digit growth over the next fiscal year.\nOur earnings per share have outperformed analyst consensus.\nWe are committed to delivering shareholder value through disciplined execution.\n",
   'listeningEnabled': true,
@@ -23,22 +23,39 @@
         'prompt': 'What does "earnings per share" (EPS) measure?',
         'options': ['Total company profit', 'Profit allocated per share', 'Number of shares'],
         'answer': 'Profit allocated per share',
+        'explanation': 'In this context, “Profit allocated per share” supplies the meaning or form targeted in Investor Relations. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'Total company profit': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Number of shares': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
       {
         'type': 'fill',
         'prompt': 'We ___ double-digit growth over the next fiscal year.',
         'answer': 'project',
+        'acceptedAnswers': ['project'],
+        'explanation': 'In this context, “project” supplies the meaning or form targeted in Investor Relations. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
       },
       {
         'type': 'choice',
         'prompt': 'Shareholder value refers to:',
         'options': ['Stock price performance', 'Number of shareholders', 'Dividend policy'],
         'answer': 'Stock price performance',
+        'explanation': 'In this context, “Stock price performance” supplies the meaning or form targeted in Investor Relations. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'Number of shareholders': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Dividend policy': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
     ],
   'categoryEn': 'Strategic Professional Communication',
   'categoryVi': 'Giao tiếp Chuyên nghiệp Chiến lược',
   'prerequisites': ['c1-05-review-unit1'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'dialogue', 'minTurns': 4, 'maxTurns': 6 },
 }
 ---
 
@@ -93,42 +110,48 @@ In the next lesson **C1-08-policy-reading**, you will read and interpret policy 
 
 ## Learning outcome
 
-By the end of this lesson, you will be able to select and use useful language for investor relations in a short, realistic exchange.
+By the end of this lesson, you can complete a four-turn exchange about investor relations, choosing expressions that fit the relationship and immediate goal.
 
-## Practice lab
+## Scenario practice
 
-### Notice the language
+### Situation
 
-Read the situation, then listen to the model once for meaning and once for phrasing.
+Draft remarks for a fictional quarterly call where growth beat one estimate but margins narrowed. Balance confidence, evidence, and forward-looking caution.
 
-> **Colleague:** How would you handle **investor relations** in this situation?
->
-> **You:** We project double-digit growth over the next fiscal year.
+> **Training note:** This situation and its details are fictional. They are designed for language practice, not presented as a real event, policy, study, or legal interpretation.
 
-Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+### Controlled practice
 
-> **Pattern**: clear point + concrete detail or reason + appropriate next step
+Choose three expressions from **Investor Relations**. Label each one as an opener, key detail, clarification, or next step. Remove any expression that does not fit the relationship in the situation.
 
-### Your turn
+### Guided task
 
-Create a four-line exchange with a colleague, client, and senior stakeholder. Use at least three target expressions from **Investor Relations** and add one follow-up question.
+Write a four-to-six-turn exchange for this situation. Use at least three target expressions, respond to the other speaker's information, and end with a question, confirmation, or agreed action.
 
 ### Model response
 
-> We project double-digit growth over the next fiscal year. Our earnings per share have outperformed analyst consensus. We are committed to delivering shareholder value through disciplined execution.
+> **Partner:** We need to respond to the situation above. What would you say first?
+>
+> **You:** We project double-digit growth over the next fiscal year.
+>
+> **Partner:** What detail should we confirm before we act?
+>
+> **You:** Our earnings per share have outperformed analyst consensus. We are committed to delivering shareholder value through disciplined execution.
 
-The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+### Why the model works
 
-### Register switch
+The model shows one defensible route through the task; it is not a script to memorize. Compare its task completion, language accuracy, audience fit, and clarity with your response, then revise once.
 
-Rewrite your response twice: first for a trusted teammate, then for a client or senior stakeholder. Keep the underlying message the same while changing directness, context, and the amount of explanation. Identify one phrase you softened, one detail you made explicit, and one assumption you removed.
+### Transfer task
+
+Answer a skeptical analyst’s follow-up without repeating the headline. Keep the target language, but change the details and register needed for the new context.
 
 ### Self-check
 
-- [ ] I completed the task without translating a full Vietnamese sentence word for word.
-- [ ] I used at least two useful expressions from the lesson.
-- [ ] My main point is easy to identify.
-- [ ] I included a concrete detail, reason, or next step.
-- [ ] I qualified claims where certainty was limited and adjusted the register for my audience.
+- [ ] I completed every part of this lesson's scenario, not only the language form.
+- [ ] My target language is accurate and fits the intended meaning.
+- [ ] My level of directness and detail fits the named audience.
+- [ ] The reader or listener can identify my main point and next step.
+- [ ] I separated evidence, assumptions, and recommendations instead of presenting them as equally certain.
 
 <!-- learning-loop:end -->

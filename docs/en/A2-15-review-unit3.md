@@ -11,7 +11,7 @@
   'skill': 'review',
   'order': 15,
   'cefr': 'A2',
-  'minutes': 10,
+  'minutes': 12,
   'tags': ['review', 'unit3', 'small-talk', 'opinions', 'experiences', 'A2'],
   'audioScript': "Let's review Unit 3.\nYou can make small talk in English.\nYou can share your opinions politely.\nYou can talk about your life experiences.\nYou can read short personal stories.\n",
   'listeningEnabled': true,
@@ -28,25 +28,58 @@
             'Where is the train station?',
           ],
         'answer': "Lovely weather today, isn't it?",
+        'explanation': "In this context, “Lovely weather today, isn't it?” supplies the meaning or form targeted in Review Unit 3. Check it against the surrounding sentence rather than memorizing the answer in isolation.",
+        'distractorFeedback':
+          {
+            'Please give me the file.': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Where is the train station?': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
-      { 'type': 'fill', 'prompt': 'In my ___, we should wait. (opinion)', 'answer': 'opinion' },
+      {
+        'type': 'fill',
+        'prompt': 'In my ___, we should wait. (opinion)',
+        'answer': 'opinion',
+        'acceptedAnswers': ['opinion'],
+        'explanation': 'In this context, “opinion” supplies the meaning or form targeted in Review Unit 3. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+      },
       {
         'type': 'choice',
         'prompt': 'I have visited Tokyo. Which tense?',
         'options': ['Past simple', 'Present perfect', 'Future'],
         'answer': 'Present perfect',
+        'explanation': 'In this context, “Present perfect” supplies the meaning or form targeted in Review Unit 3. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'Past simple': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Future': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
-      { 'type': 'fill', 'prompt': 'She has worked here ___ 2018.', 'answer': 'since' },
+      {
+        'type': 'fill',
+        'prompt': 'She has worked here ___ 2018.',
+        'answer': 'since',
+        'acceptedAnswers': ['since'],
+        'explanation': 'In this context, “since” supplies the meaning or form targeted in Review Unit 3. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+      },
       {
         'type': 'choice',
         'prompt': 'Which is NOT an opinion phrase?',
         'options': ['I believe', 'I think', 'I order'],
         'answer': 'I order',
+        'explanation': 'In this context, “I order” supplies the meaning or form targeted in Review Unit 3. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'I believe': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'I think': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
     ],
   'categoryEn': 'Everyday Workplace English',
   'categoryVi': 'Tiếng Anh Công việc Hằng ngày',
   'prerequisites': ['a2-14-short-reading'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 28, 'maxWords': 90 },
 }
 ---
 
@@ -110,37 +143,43 @@ Congratulations on completing the **A2 curriculum!** Continue to the **B1** leve
 
 ## Learning outcome
 
-By the end of this lesson, you will be able to combine the unit language to complete a realistic task about review unit 3.
+By the end of this lesson, you can combine language from the unit to resolve a realistic task involving review unit 3 and justify one revision.
 
-## Practice lab
+## Scenario practice
 
-### Notice the language
+### Situation
 
-Read the situation, then listen to the model once for meaning and once for phrasing.
+Welcome a new coworker with small talk, exchange opinions about lunch, and compare one past experience.
 
-> **Colleague:** How would you handle **review unit 3** in this situation?
->
-> **You:** Let's review Unit 3.
+> **Training note:** This situation and its details are fictional. They are designed for language practice, not presented as a real event, policy, study, or legal interpretation.
 
-Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+### Controlled practice
 
-> **Pattern**: clear point + concrete detail or reason + appropriate next step
+Select language from at least three lessons in this unit. For each choice, note the job it performs: describe, connect, qualify, request, or conclude.
 
-### Your turn
+### Guided task
 
-Complete one integrated response for a colleague or classmate using language from at least three lessons in this unit.
+Write 28–90 words to complete the integrated task. Use material from at least three lessons, then annotate one revision that improved accuracy, tone, or clarity.
 
 ### Model response
 
-> Let's review Unit 3. You can make small talk in English. You can share your opinions politely. You can talk about your life experiences. You can read short personal stories.
+> **Integrated response:** Let's review Unit 3. You can make small talk in English. You can share your opinions politely.
+>
+> **Revision note:** I connect the main point to one concrete detail. I check the time, person, or action so the listener knows what happens next. Other well-supported responses are possible.
 
-The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+### Why the model works
+
+The model shows one defensible route through the task; it is not a script to memorize. Compare its task completion, language accuracy, audience fit, and clarity with your response, then revise once.
+
+### Transfer task
+
+Adapt the exchange for a new online classmate. Keep the target language, but change the details and register needed for the new context.
 
 ### Self-check
 
-- [ ] I completed the task without translating a full Vietnamese sentence word for word.
-- [ ] I used at least two useful expressions from the lesson.
-- [ ] My main point is easy to identify.
-- [ ] I included a concrete detail, reason, or next step.
+- [ ] I completed every part of this lesson's scenario, not only the language form.
+- [ ] My target language is accurate and fits the intended meaning.
+- [ ] My level of directness and detail fits the named audience.
+- [ ] The reader or listener can identify my main point and next step.
 
 <!-- learning-loop:end -->

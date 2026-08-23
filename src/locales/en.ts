@@ -65,6 +65,8 @@ export default {
     answerPlaceholder: 'Type your answer',
     correct: 'Correct',
     correctAnswer: 'Review this one. Correct answer: {answer}',
+    yourChoice: 'Your choice:',
+    explanation: 'Why:',
     check: 'Check answers',
     retry: 'Try again',
     markComplete: 'Mark lesson complete',

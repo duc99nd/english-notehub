@@ -11,7 +11,7 @@
   'skill': 'reading',
   'order': 8,
   'cefr': 'B1',
-  'minutes': 12,
+  'minutes': 14,
   'tags': ['reading', 'lifestyle', 'health', 'work-life-balance', 'article'],
   'audioScript': "More and more people are working remotely these days.\nExperts recommend taking regular breaks throughout the day.\nA healthy lifestyle includes both physical and mental well-being.\n",
   'listeningEnabled': true,
@@ -28,11 +28,19 @@
             'Working more hours',
           ],
         'answer': 'A healthy separation between job and personal time',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “A healthy separation between job and personal time” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Bài báo Tạp chí: Lối sống lành mạnh. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'Only working, no personal life': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'Working more hours': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
       {
         'type': 'fill',
         'prompt': 'You should take regular ___ to stay productive.',
         'answer': 'breaks',
+        'acceptedAnswers': ['breaks'],
+        'explanation': 'Trong ngữ cảnh câu hỏi, “breaks” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Bài báo Tạp chí: Lối sống lành mạnh. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
       },
       {
         'type': 'choice',
@@ -44,11 +52,20 @@
             'A very busy schedule',
           ],
         'answer': 'A lifestyle with little physical activity',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “A lifestyle with little physical activity” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Bài báo Tạp chí: Lối sống lành mạnh. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'An active lifestyle with lots of exercise': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'A very busy schedule': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
     ],
   'categoryEn': 'Independent Workplace Communication',
   'categoryVi': 'Giao tiếp Công việc Độc lập',
   'prerequisites': ['b1-07-modals-obligation'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 45, 'maxWords': 135 },
 }
 ---
 
@@ -117,37 +134,43 @@ Trả lời ba câu hỏi trong phần quiz để hoàn thành bài học này.
 
 ## Kết quả học tập
 
-Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Bài báo Tạp chí: Lối sống lành mạnh** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+Sau bài này, bạn có thể rút ra ý chính và chi tiết hỗ trợ từ văn bản về **Bài báo Tạp chí: Lối sống lành mạnh**, sau đó đưa ra một cách hiểu dựa trên bằng chứng.
 
-## Phòng luyện tập
+## Luyện tập theo tình huống
 
-### Nhận diện cách diễn đạt
+### Tình huống
 
-Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+Đọc bài ngắn về sức khỏe khi làm việc từ xa. Xác định khuyến nghị, lý do hỗ trợ và một nhận định cần bằng chứng.
 
-> **Colleague:** How would you handle this situation?
->
-> **You:** More and more people are working remotely these days.
+> **Lưu ý:** Tình huống và các chi tiết đều là hư cấu để luyện ngôn ngữ; đây không phải sự kiện, chính sách, nghiên cứu hoặc diễn giải pháp lý có thật.
 
-Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+### Luyện tập có kiểm soát
 
-> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+Trước khi đọc lại phần giải thích, hãy viết một dòng cho ý chính, một dòng cho chi tiết hỗ trợ mạnh nhất và một cụm từ thể hiện tông giọng hoặc lập trường.
 
-### Đến lượt bạn
+### Nhiệm vụ có hướng dẫn
 
-Tạo một câu trả lời mới cho chủ đề **Bài báo Tạp chí: Lối sống lành mạnh**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+Viết 45–135 từ bằng tiếng Anh dưới dạng ghi chú đọc hiểu có cấu trúc. Nêu ý chính, trích hoặc diễn đạt lại một chi tiết hỗ trợ, xác định một lựa chọn văn phong và tách bằng chứng khỏi suy luận.
 
 ### Bài mẫu
 
-> More and more people are working remotely these days. Experts recommend taking regular breaks throughout the day. A healthy lifestyle includes both physical and mental well-being.
+> **Main point and evidence:** More and more people are working remotely these days. Experts recommend taking regular breaks throughout the day. A healthy lifestyle includes both physical and mental well-being.
+>
+> **Interpretation:** I organize the response so the situation comes first, the relevant detail follows, and the final sentence makes the requested action clear. I would revise any sentence that is correct but difficult for the audience to process. Other well-supported responses are possible.
 
-Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+### Vì sao bài mẫu phù hợp
+
+Bài mẫu thể hiện một cách xử lý hợp lý, không phải kịch bản bắt buộc học thuộc. Hãy so sánh mức hoàn thành nhiệm vụ, độ chính xác, độ phù hợp với người nghe và độ rõ với bài của bạn rồi sửa một lần.
+
+### Bài tập chuyển đổi
+
+Chuyển lời khuyên thành thông báo ba ý cho nhóm. Giữ ngôn ngữ trọng tâm nhưng thay đổi chi tiết và văn phong cho bối cảnh mới.
 
 ### Tự kiểm tra
 
-- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
-- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
-- [ ] Người nghe có thể nhận ra ý chính ngay.
-- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+- [ ] Mình hoàn thành đủ yêu cầu của tình huống, không chỉ dùng đúng cấu trúc.
+- [ ] Ngôn ngữ trọng tâm chính xác và đúng ý định.
+- [ ] Độ trực tiếp và lượng chi tiết phù hợp người nghe hoặc người đọc.
+- [ ] Người nhận có thể nhận ra ý chính và bước tiếp theo.
 
 <!-- learning-loop:end -->

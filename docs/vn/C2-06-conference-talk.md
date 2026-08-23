@@ -11,7 +11,7 @@
   'skill': 'vocab',
   'order': 6,
   'cefr': 'C2',
-  'minutes': 14,
+  'minutes': 15,
   'tags': ['conference', 'presentation', 'academic', 'professional', 'discourse', 'speaking'],
   'categoryEn': 'Expert Register and Influence',
   'categoryVi': 'Sắc thái và Ảnh hưởng Chuyên sâu',
@@ -32,6 +32,13 @@
             'Thank you for your attention...',
           ],
         'answer': 'I shall argue that...',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “I shall argue that...” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Từ vựng buổi thuyết trình hội nghị. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'Moving on to...': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'In conclusion...': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'Thank you for your attention...': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
       {
         'type': 'choice',
@@ -44,13 +51,25 @@
             'We have no time for questions',
           ],
         'answer': "I'm glad you raised that point",
+        'explanation': "Trong ngữ cảnh câu hỏi, “I'm glad you raised that point” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Từ vựng buổi thuyết trình hội nghị. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.",
+        'distractorFeedback':
+          {
+            "That's a stupid question": 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            "I don't know": 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'We have no time for questions': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
       {
         'type': 'fill',
         'prompt': 'The speaker acknowledged the ___ of the previous research while introducing her own methodology.',
         'answer': 'limitations',
+        'acceptedAnswers': ['limitations'],
+        'explanation': 'Trong ngữ cảnh câu hỏi, “limitations” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Từ vựng buổi thuyết trình hội nghị. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
       },
     ],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'dialogue', 'minTurns': 4, 'maxTurns': 6 },
 }
 ---
 
@@ -129,7 +148,7 @@ Khi đối mặt với các câu hỏi khó:
 
 > **Mẫu câu**: `My paper is available on [platform] should you wish to explore these arguments in greater depth.`
 
-## Register Chuyên nghiệp trong Q&A
+## Văn phong chuyên nghiệp trong Q&A
 
 | Tình huống             | Biểu thức C2                                       |
 | ---------------------- | -------------------------------------------------- |
@@ -146,42 +165,48 @@ Trong **C2-07-panel-discussion**, bạn sẽ khám phá ngữ pháp của các c
 
 ## Kết quả học tập
 
-Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Từ vựng buổi thuyết trình hội nghị** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+Sau bài này, bạn có thể hoàn thành đoạn hội thoại bốn lượt về **Từ vựng buổi thuyết trình hội nghị**, chọn cách diễn đạt phù hợp quan hệ và mục tiêu trước mắt.
 
-## Phòng luyện tập
+## Luyện tập theo tình huống
 
-### Nhận diện cách diễn đạt
+### Tình huống
 
-Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+Chuẩn bị phần mở đầu và chuyển sang Q&A cho bài nói hội nghị nghiên cứu hư cấu. Nêu nhận định, giới hạn, cấu trúc và cách phản hồi câu hỏi gay gắt.
 
-> **Colleague:** How would you handle this situation?
->
-> **You:** Conference discourse has its own conventions and rituals.
+> **Lưu ý:** Tình huống và các chi tiết đều là hư cấu để luyện ngôn ngữ; đây không phải sự kiện, chính sách, nghiên cứu hoặc diễn giải pháp lý có thật.
 
-Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+### Luyện tập có kiểm soát
 
-> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+Chọn ba cách diễn đạt trong bài **Từ vựng buổi thuyết trình hội nghị**. Gắn nhãn chức năng cho từng cách: mở lời, nêu chi tiết, làm rõ hoặc đưa bước tiếp theo. Loại cách diễn đạt không phù hợp quan hệ trong tình huống.
 
-### Đến lượt bạn
+### Nhiệm vụ có hướng dẫn
 
-Tạo một câu trả lời mới cho chủ đề **Từ vựng buổi thuyết trình hội nghị**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+Viết đoạn hội thoại bốn đến sáu lượt cho tình huống này. Dùng ít nhất ba cách diễn đạt trọng tâm, phản hồi thông tin của người kia và kết thúc bằng câu hỏi, xác nhận hoặc hành động đã thống nhất.
 
 ### Bài mẫu
 
-> Conference discourse has its own conventions and rituals. Phrases like "I shall argue" signal a deliberate rhetorical move. Audience engagement phrases maintain the presenter-attendee dynamic.
+> **Partner:** We need to respond to the situation above. What would you say first?
+>
+> **You:** Conference discourse has its own conventions and rituals.
+>
+> **Partner:** What detail should we confirm before we act?
+>
+> **You:** Phrases like "I shall argue" signal a deliberate rhetorical move. Audience engagement phrases maintain the presenter-attendee dynamic.
 
-Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+### Vì sao bài mẫu phù hợp
 
-### Chuyển đổi register
+Bài mẫu thể hiện một cách xử lý hợp lý, không phải kịch bản bắt buộc học thuộc. Hãy so sánh mức hoàn thành nhiệm vụ, độ chính xác, độ phù hợp với người nghe và độ rõ với bài của bạn rồi sửa một lần.
 
-Viết lại câu trả lời hai lần: một bản cho đồng đội thân quen và một bản cho khách hàng hoặc stakeholder cấp cao. Giữ nguyên thông điệp nhưng thay đổi độ trực tiếp, lượng bối cảnh và mức giải thích. Chỉ ra một cụm từ bạn đã làm mềm, một chi tiết bạn nói rõ hơn và một giả định bạn đã loại bỏ. Sau đó, viết thêm một cách diễn giải hợp lý khác của bài mẫu và nêu bằng chứng ngữ cảnh cần có để chọn giữa hai cách hiểu.
+### Bài tập chuyển đổi
+
+Điều chỉnh câu trả lời khi câu hỏi chỉ ra một hạn chế thực sự. Giữ ngôn ngữ trọng tâm nhưng thay đổi chi tiết và văn phong cho bối cảnh mới.
 
 ### Tự kiểm tra
 
-- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
-- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
-- [ ] Người nghe có thể nhận ra ý chính ngay.
-- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
-- [ ] Mình đã giới hạn mức độ chắc chắn của nhận định và điều chỉnh register theo người nghe.
+- [ ] Mình hoàn thành đủ yêu cầu của tình huống, không chỉ dùng đúng cấu trúc.
+- [ ] Ngôn ngữ trọng tâm chính xác và đúng ý định.
+- [ ] Độ trực tiếp và lượng chi tiết phù hợp người nghe hoặc người đọc.
+- [ ] Người nhận có thể nhận ra ý chính và bước tiếp theo.
+- [ ] Mình tách bằng chứng, giả định và khuyến nghị thay vì trình bày tất cả với cùng mức chắc chắn.
 
 <!-- learning-loop:end -->

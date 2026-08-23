@@ -11,7 +11,7 @@
   'skill': 'reading',
   'order': 3,
   'cefr': 'C1',
-  'minutes': 12,
+  'minutes': 13,
   'tags': ['reading', 'strategy', 'reports', 'documents', 'C1'],
   'audioScript': "Our five-year roadmap prioritizes sustainable growth over rapid expansion.\nThe board has endorsed a pivot toward technology-enabled solutions.\nWe anticipate headwinds in Q4 but remain confident in our long-term positioning.\n",
   'listeningEnabled': true,
@@ -23,11 +23,19 @@
         'prompt': 'What does "headwinds" typically mean in business context?',
         'options': ['Challenges or obstacles', 'Tailwinds or advantages', 'Wind speeds'],
         'answer': 'Challenges or obstacles',
+        'explanation': 'In this context, “Challenges or obstacles” supplies the meaning or form targeted in Strategic Document Reading. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'Tailwinds or advantages': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Wind speeds': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
       {
         'type': 'fill',
         'prompt': 'The company announced a ___ toward renewable energy sources.',
         'answer': 'pivot',
+        'acceptedAnswers': ['pivot'],
+        'explanation': 'In this context, “pivot” supplies the meaning or form targeted in Strategic Document Reading. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
       },
       {
         'type': 'choice',
@@ -39,11 +47,20 @@
             'The product is expensive',
           ],
         'answer': 'The company has strong competitive advantages',
+        'explanation': 'In this context, “The company has strong competitive advantages” supplies the meaning or form targeted in Strategic Document Reading. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'The company is struggling': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'The product is expensive': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
     ],
   'categoryEn': 'Strategic Professional Communication',
   'categoryVi': 'Giao tiếp Chuyên nghiệp Chiến lược',
   'prerequisites': ['c1-02-board-presentations'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 65, 'maxWords': 200 },
 }
 ---
 
@@ -101,42 +118,44 @@ In the next lesson **C1-04-stakeholder-management**, you will learn stakeholder 
 
 ## Learning outcome
 
-By the end of this lesson, you will be able to identify the main point, supporting detail, and register choices in a text about strategic document reading.
+By the end of this lesson, you can extract the main point and supporting detail from a text about strategic document reading, then make one evidence-based interpretation.
 
-## Practice lab
+## Scenario practice
 
-### Notice the language
+### Situation
 
-Read the situation, then listen to the model once for meaning and once for phrasing.
+Read a fictional five-year strategy excerpt. Distinguish objective, strategic choice, acknowledged headwind, and unsupported assumption.
 
-> **Colleague:** How would you handle **strategic document reading** in this situation?
->
-> **You:** Our five-year roadmap prioritizes sustainable growth over rapid expansion.
+> **Training note:** This situation and its details are fictional. They are designed for language practice, not presented as a real event, policy, study, or legal interpretation.
 
-Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+### Controlled practice
 
-> **Pattern**: clear point + concrete detail or reason + appropriate next step
+Before reading the explanation again, write one line for the text's main point, one line for its strongest supporting detail, and one phrase that signals tone or stance.
 
-### Your turn
+### Guided task
 
-Summarize the text in two sentences for a colleague, client, and senior stakeholder. Identify one claim, one supporting detail, and one phrase that signals the writer's attitude.
+Write 65–200 words as structured reading notes. State the main point, cite or paraphrase one supporting detail, identify a register choice, and separate evidence from your inference.
 
 ### Model response
 
-> Our five-year roadmap prioritizes sustainable growth over rapid expansion. The board has endorsed a pivot toward technology-enabled solutions. We anticipate headwinds in Q4 but remain confident in our long-term positioning.
+> **Main point and evidence:** Our five-year roadmap prioritizes sustainable growth over rapid expansion. The board has endorsed a pivot toward technology-enabled solutions. We anticipate headwinds in Q4 but remain confident in our long-term positioning.
+>
+> **Interpretation:** I select only the evidence that changes the decision, qualify any projection that depends on an assumption, and make ownership visible. A different stakeholder could reasonably prefer another option, so the response identifies the condition that would justify revisiting the recommendation. Other well-supported responses are possible.
 
-The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+### Why the model works
 
-### Register switch
+The model shows one defensible route through the task; it is not a script to memorize. Compare its task completion, language accuracy, audience fit, and clarity with your response, then revise once.
 
-Rewrite your response twice: first for a trusted teammate, then for a client or senior stakeholder. Keep the underlying message the same while changing directness, context, and the amount of explanation. Identify one phrase you softened, one detail you made explicit, and one assumption you removed.
+### Transfer task
+
+Brief a delivery team on the implications rather than summarizing the whole document. Keep the target language, but change the details and register needed for the new context.
 
 ### Self-check
 
-- [ ] I completed the task without translating a full Vietnamese sentence word for word.
-- [ ] I used at least two useful expressions from the lesson.
-- [ ] My main point is easy to identify.
-- [ ] I included a concrete detail, reason, or next step.
-- [ ] I qualified claims where certainty was limited and adjusted the register for my audience.
+- [ ] I completed every part of this lesson's scenario, not only the language form.
+- [ ] My target language is accurate and fits the intended meaning.
+- [ ] My level of directness and detail fits the named audience.
+- [ ] The reader or listener can identify my main point and next step.
+- [ ] I separated evidence, assumptions, and recommendations instead of presenting them as equally certain.
 
 <!-- learning-loop:end -->

@@ -11,7 +11,7 @@
   'skill': 'review',
   'order': 10,
   'cefr': 'A1',
-  'minutes': 19,
+  'minutes': 21,
   'tags': ['review', 'unit2', 'all-skills', 'consolidation'],
   'audioScript': "In the morning, I go to school.\nI eat rice and chicken for lunch. I drink water.\nToday is sunny and hot. It is summer.\nIn my free time, I like to read books.\nI also enjoy listening to music.\n",
   'listeningEnabled': true,
@@ -23,33 +23,60 @@
         'prompt': "Which preposition is correct? 'I wake up ___ six in the morning.'",
         'options': ['in', 'on', 'at', 'by'],
         'answer': 'at',
+        'explanation': 'In this context, “at” supplies the meaning or form targeted in Review Unit 2. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'in': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'on': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'by': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
       {
         'type': 'fill',
         'prompt': 'I would like a ___ of water, please. (đơn vị đo)',
         'answer': 'glass',
+        'acceptedAnswers': ['glass'],
+        'explanation': 'In this context, “glass” supplies the meaning or form targeted in Review Unit 2. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
       },
       {
         'type': 'choice',
         'prompt': "'It is rainy today' có nghĩa là gì?",
         'options': ['Trời nắng', 'Trời mưa', 'Trời lạnh'],
         'answer': 'Trời mưa',
+        'explanation': 'In this context, “Trời mưa” supplies the meaning or form targeted in Review Unit 2. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'Trời nắng': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Trời lạnh': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
       {
         'type': 'fill',
         'prompt': 'I ___ listening to music in my free time. (thích - dùng enjoy)',
         'answer': 'enjoy',
+        'acceptedAnswers': ['enjoy'],
+        'explanation': 'In this context, “enjoy” supplies the meaning or form targeted in Review Unit 2. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
       },
       {
         'type': 'choice',
         'prompt': 'Where do you usually buy fresh vegetables?',
         'options': ['school', 'market', 'library', 'bank'],
         'answer': 'market',
+        'explanation': 'In this context, “market” supplies the meaning or form targeted in Review Unit 2. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'school': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'library': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'bank': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
     ],
   'categoryEn': 'Foundation English',
   'categoryVi': 'Tiếng Anh Nền tảng',
   'prerequisites': ['a1-09-hobbies'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 20, 'maxWords': 70 },
 }
 ---
 
@@ -256,37 +283,43 @@ In **A1-11-shopping-money**, you will learn the vocabulary for shopping — pric
 
 ## Learning outcome
 
-By the end of this lesson, you will be able to combine the unit language to complete a realistic task about review unit 2.
+By the end of this lesson, you can combine language from the unit to resolve a realistic task involving review unit 2 and justify one revision.
 
-## Practice lab
+## Scenario practice
 
-### Notice the language
+### Situation
 
-Read the situation, then listen to the model once for meaning and once for phrasing.
+Plan a simple Saturday with a friend: choose a time, place, meal, weather-friendly activity, and hobby.
 
-> **Colleague:** How would you handle **review unit 2** in this situation?
->
-> **You:** In the morning, I go to school.
+> **Training note:** This situation and its details are fictional. They are designed for language practice, not presented as a real event, policy, study, or legal interpretation.
 
-Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+### Controlled practice
 
-> **Pattern**: clear point + concrete detail or reason + appropriate next step
+Select language from at least three lessons in this unit. For each choice, note the job it performs: describe, connect, qualify, request, or conclude.
 
-### Your turn
+### Guided task
 
-Complete one integrated response for a colleague or classmate using language from at least three lessons in this unit.
+Write 20–70 words to complete the integrated task. Use material from at least three lessons, then annotate one revision that improved accuracy, tone, or clarity.
 
 ### Model response
 
-> In the morning, I go to school. I eat rice and chicken for lunch. I drink water. Today is sunny and hot. It is summer. In my free time, I like to read books. I also enjoy listening to music.
+> **Integrated response:** In the morning, I go to school. I eat rice and chicken for lunch. I drink water. Today is sunny and hot. It is summer.
+>
+> **Revision note:** I keep the message short, use familiar words, and finish with one clear next step. Other well-supported responses are possible.
 
-The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+### Why the model works
+
+The model shows one defensible route through the task; it is not a script to memorize. Compare its task completion, language accuracy, audience fit, and clarity with your response, then revise once.
+
+### Transfer task
+
+Change the plan because the weather becomes rainy. Keep the target language, but change the details and register needed for the new context.
 
 ### Self-check
 
-- [ ] I completed the task without translating a full Vietnamese sentence word for word.
-- [ ] I used at least two useful expressions from the lesson.
-- [ ] My main point is easy to identify.
-- [ ] I included a concrete detail, reason, or next step.
+- [ ] I completed every part of this lesson's scenario, not only the language form.
+- [ ] My target language is accurate and fits the intended meaning.
+- [ ] My level of directness and detail fits the named audience.
+- [ ] The reader or listener can identify my main point and next step.
 
 <!-- learning-loop:end -->

@@ -11,7 +11,7 @@
   'skill': 'reading',
   'order': 14,
   'cefr': 'A2',
-  'minutes': 10,
+  'minutes': 12,
   'tags': ['reading', 'short-text', 'experiences', 'A2'],
   'audioScript': "Maria has traveled to twelve countries.\nTom has worked at the same company since 2018.\nThey have both learned English for many years.\n",
   'listeningEnabled': true,
@@ -23,22 +23,39 @@
         'prompt': 'How many countries has Maria visited?',
         'options': ['Two', 'Twelve', 'Twenty'],
         'answer': 'Twelve',
+        'explanation': 'In this context, “Twelve” supplies the meaning or form targeted in Short Reading. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'Two': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Twenty': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
       {
         'type': 'fill',
         'prompt': 'Tom has worked at the same company ___ 2018.',
         'answer': 'since',
+        'acceptedAnswers': ['since'],
+        'explanation': 'In this context, “since” supplies the meaning or form targeted in Short Reading. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
       },
       {
         'type': 'choice',
         'prompt': 'They have learned English for many years. What tense is "have learned"?',
         'options': ['Past simple', 'Present perfect', 'Future'],
         'answer': 'Present perfect',
+        'explanation': 'In this context, “Present perfect” supplies the meaning or form targeted in Short Reading. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'Past simple': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Future': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
     ],
   'categoryEn': 'Everyday Workplace English',
   'categoryVi': 'Tiếng Anh Công việc Hằng ngày',
   'prerequisites': ['a2-13-experiences'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 28, 'maxWords': 90 },
 }
 ---
 
@@ -104,37 +121,43 @@ In the next lesson **A2-15-review-unit3**, you will review everything from Unit 
 
 ## Learning outcome
 
-By the end of this lesson, you will be able to identify the main point, supporting detail, and register choices in a text about short reading.
+By the end of this lesson, you can extract the main point and supporting detail from a text about short reading, then make one evidence-based interpretation.
 
-## Practice lab
+## Scenario practice
 
-### Notice the language
+### Situation
 
-Read the situation, then listen to the model once for meaning and once for phrasing.
+Read two short colleague profiles. Identify one achievement, how long each person has done something, and one similarity.
 
-> **Colleague:** How would you handle **short reading** in this situation?
->
-> **You:** Maria has traveled to twelve countries.
+> **Training note:** This situation and its details are fictional. They are designed for language practice, not presented as a real event, policy, study, or legal interpretation.
 
-Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+### Controlled practice
 
-> **Pattern**: clear point + concrete detail or reason + appropriate next step
+Before reading the explanation again, write one line for the text's main point, one line for its strongest supporting detail, and one phrase that signals tone or stance.
 
-### Your turn
+### Guided task
 
-Summarize the text in two sentences for a colleague or classmate. Identify one claim, one supporting detail, and one phrase that signals the writer's attitude.
+Write 28–90 words as structured reading notes. State the main point, cite or paraphrase one supporting detail, identify a register choice, and separate evidence from your inference.
 
 ### Model response
 
-> Maria has traveled to twelve countries. Tom has worked at the same company since 2018. They have both learned English for many years.
+> **Main point and evidence:** Maria has traveled to twelve countries. Tom has worked at the same company since 2018. They have both learned English for many years.
+>
+> **Interpretation:** I connect the main point to one concrete detail. I check the time, person, or action so the listener knows what happens next. Other well-supported responses are possible.
 
-The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+### Why the model works
+
+The model shows one defensible route through the task; it is not a script to memorize. Compare its task completion, language accuracy, audience fit, and clarity with your response, then revise once.
+
+### Transfer task
+
+Write one follow-up question for each profile. Keep the target language, but change the details and register needed for the new context.
 
 ### Self-check
 
-- [ ] I completed the task without translating a full Vietnamese sentence word for word.
-- [ ] I used at least two useful expressions from the lesson.
-- [ ] My main point is easy to identify.
-- [ ] I included a concrete detail, reason, or next step.
+- [ ] I completed every part of this lesson's scenario, not only the language form.
+- [ ] My target language is accurate and fits the intended meaning.
+- [ ] My level of directness and detail fits the named audience.
+- [ ] The reader or listener can identify my main point and next step.
 
 <!-- learning-loop:end -->

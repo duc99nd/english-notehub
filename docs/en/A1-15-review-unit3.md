@@ -11,7 +11,7 @@
   'skill': 'review',
   'order': 15,
   'cefr': 'A1',
-  'minutes': 20,
+  'minutes': 22,
   'tags': ['review', 'unit3', 'shopping', 'directions', 'describing', 'A1'],
   'audioScript': "Let's review Unit 3.\nYou can now ask for directions.\nYou can talk about abilities using can and can't.\nYou can describe people.\n",
   'listeningEnabled': true,
@@ -23,25 +23,58 @@
         'prompt': "'How much does this cost?' means:",
         'options': ['How many?', 'What is the price?', 'Where is it?'],
         'answer': 'What is the price?',
+        'explanation': 'In this context, “What is the price?” supplies the meaning or form targeted in Review Unit 3. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'How many?': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Where is it?': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
-      { 'type': 'fill', 'prompt': 'Turn ___ at the traffic light.', 'answer': 'left' },
+      {
+        'type': 'fill',
+        'prompt': 'Turn ___ at the traffic light.',
+        'answer': 'left',
+        'acceptedAnswers': ['left'],
+        'explanation': 'In this context, “left” supplies the meaning or form targeted in Review Unit 3. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+      },
       {
         'type': 'choice',
         'prompt': 'Which is correct?',
         'options': ['I can to swim.', 'I can swim.', 'I can swimming.'],
         'answer': 'I can swim.',
+        'explanation': 'In this context, “I can swim.” supplies the meaning or form targeted in Review Unit 3. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'I can to swim.': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'I can swimming.': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
-      { 'type': 'fill', 'prompt': 'She ___ black hair. (có)', 'answer': 'has' },
+      {
+        'type': 'fill',
+        'prompt': 'She ___ black hair. (có)',
+        'answer': 'has',
+        'acceptedAnswers': ['has'],
+        'explanation': 'In this context, “has” supplies the meaning or form targeted in Review Unit 3. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+      },
       {
         'type': 'choice',
         'prompt': "What does 'friendly' describe?",
         'options': ['Appearance', 'Personality', 'Height'],
         'answer': 'Personality',
+        'explanation': 'In this context, “Personality” supplies the meaning or form targeted in Review Unit 3. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'Appearance': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Height': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
     ],
   'categoryEn': 'Foundation English',
   'categoryVi': 'Tiếng Anh Nền tảng',
   'prerequisites': ['a1-14-describing-people'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 20, 'maxWords': 70 },
 }
 ---
 
@@ -293,37 +326,43 @@ Keep going! Each A2 lesson builds on A1 vocabulary, so everything you learned he
 
 ## Learning outcome
 
-By the end of this lesson, you will be able to combine the unit language to complete a realistic task about review unit 3.
+By the end of this lesson, you can combine language from the unit to resolve a realistic task involving review unit 3 and justify one revision.
 
-## Practice lab
+## Scenario practice
 
-### Notice the language
+### Situation
 
-Read the situation, then listen to the model once for meaning and once for phrasing.
+Help a new visitor buy a ticket, find the correct platform, and identify the staff member who can assist them.
 
-> **Colleague:** How would you handle **review unit 3** in this situation?
->
-> **You:** Let's review Unit 3.
+> **Training note:** This situation and its details are fictional. They are designed for language practice, not presented as a real event, policy, study, or legal interpretation.
 
-Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+### Controlled practice
 
-> **Pattern**: clear point + concrete detail or reason + appropriate next step
+Select language from at least three lessons in this unit. For each choice, note the job it performs: describe, connect, qualify, request, or conclude.
 
-### Your turn
+### Guided task
 
-Complete one integrated response for a colleague or classmate using language from at least three lessons in this unit.
+Write 20–70 words to complete the integrated task. Use material from at least three lessons, then annotate one revision that improved accuracy, tone, or clarity.
 
 ### Model response
 
-> Let's review Unit 3. You can now ask for directions. You can talk about abilities using can and can't. You can describe people.
+> **Integrated response:** Let's review Unit 3. You can now ask for directions. You can talk about abilities using can and can't.
+>
+> **Revision note:** I keep the message short, use familiar words, and finish with one clear next step. Other well-supported responses are possible.
 
-The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+### Why the model works
+
+The model shows one defensible route through the task; it is not a script to memorize. Compare its task completion, language accuracy, audience fit, and clarity with your response, then revise once.
+
+### Transfer task
+
+Change the destination and one ability of the staff member. Keep the target language, but change the details and register needed for the new context.
 
 ### Self-check
 
-- [ ] I completed the task without translating a full Vietnamese sentence word for word.
-- [ ] I used at least two useful expressions from the lesson.
-- [ ] My main point is easy to identify.
-- [ ] I included a concrete detail, reason, or next step.
+- [ ] I completed every part of this lesson's scenario, not only the language form.
+- [ ] My target language is accurate and fits the intended meaning.
+- [ ] My level of directness and detail fits the named audience.
+- [ ] The reader or listener can identify my main point and next step.
 
 <!-- learning-loop:end -->

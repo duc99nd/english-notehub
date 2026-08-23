@@ -11,7 +11,7 @@
   'skill': 'review',
   'order': 10,
   'cefr': 'A2',
-  'minutes': 10,
+  'minutes': 11,
   'tags': ['review', 'unit2', 'grammar', 'vocabulary'],
   'audioScript': "Let's review Unit 2.\nYou learned about email vocabulary.\nYou practiced phone call phrases.\nYou studied future tenses.\nYou learned should and must.\n",
   'listeningEnabled': true,
@@ -23,11 +23,19 @@
         'prompt': 'How do you start a formal email?',
         'options': ['Hey buddy!', 'Dear Sir or Madam,', "What's up?"],
         'answer': 'Dear Sir or Madam,',
+        'explanation': 'In this context, “Dear Sir or Madam,” supplies the meaning or form targeted in Review Unit 2. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'Hey buddy!': 'This option does not complete the communicative intent or target form tested by the question context.',
+            "What's up?": 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
       {
         'type': 'fill',
         'prompt': 'I ___ (go) to Hanoi next week. Choose: will / am going to',
         'answer': 'am going to',
+        'acceptedAnswers': ['am going to'],
+        'explanation': 'In this context, “am going to” supplies the meaning or form targeted in Review Unit 2. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
       },
       {
         'type': 'choice',
@@ -35,18 +43,39 @@
         'options':
           ['You should eat vegetables.', 'You must wear a helmet.', 'You will come tomorrow.'],
         'answer': 'You must wear a helmet.',
+        'explanation': 'In this context, “You must wear a helmet.” supplies the meaning or form targeted in Review Unit 2. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'You should eat vegetables.': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'You will come tomorrow.': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
-      { 'type': 'fill', 'prompt': 'Can I speak ___ Mr. Smith, please?', 'answer': 'to' },
+      {
+        'type': 'fill',
+        'prompt': 'Can I speak ___ Mr. Smith, please?',
+        'answer': 'to',
+        'acceptedAnswers': ['to'],
+        'explanation': 'In this context, “to” supplies the meaning or form targeted in Review Unit 2. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+      },
       {
         'type': 'choice',
         'prompt': 'Which phrase ends a formal email?',
         'options': ['Talk soon!', 'Best regards,', 'Cheers mate!'],
         'answer': 'Best regards,',
+        'explanation': 'In this context, “Best regards,” supplies the meaning or form targeted in Review Unit 2. Check it against the surrounding sentence rather than memorizing the answer in isolation.',
+        'distractorFeedback':
+          {
+            'Talk soon!': 'This option does not complete the communicative intent or target form tested by the question context.',
+            'Cheers mate!': 'This option does not complete the communicative intent or target form tested by the question context.',
+          },
       },
     ],
   'categoryEn': 'Everyday Workplace English',
   'categoryVi': 'Tiếng Anh Công việc Hằng ngày',
   'prerequisites': ['a2-09-should-must'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'writing', 'minWords': 28, 'maxWords': 90 },
 }
 ---
 
@@ -97,37 +126,43 @@ Continue to **A2-11-small-talk** to learn how to make small talk in English.
 
 ## Learning outcome
 
-By the end of this lesson, you will be able to combine the unit language to complete a realistic task about review unit 2.
+By the end of this lesson, you can combine language from the unit to resolve a realistic task involving review unit 2 and justify one revision.
 
-## Practice lab
+## Scenario practice
 
-### Notice the language
+### Situation
 
-Read the situation, then listen to the model once for meaning and once for phrasing.
+Coordinate a remote-work day by email and phone: confirm a future plan, move one call, and state one requirement.
 
-> **Colleague:** How would you handle **review unit 2** in this situation?
->
-> **You:** Let's review Unit 2.
+> **Training note:** This situation and its details are fictional. They are designed for language practice, not presented as a real event, policy, study, or legal interpretation.
 
-Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+### Controlled practice
 
-> **Pattern**: clear point + concrete detail or reason + appropriate next step
+Select language from at least three lessons in this unit. For each choice, note the job it performs: describe, connect, qualify, request, or conclude.
 
-### Your turn
+### Guided task
 
-Complete one integrated response for a colleague or classmate using language from at least three lessons in this unit.
+Write 28–90 words to complete the integrated task. Use material from at least three lessons, then annotate one revision that improved accuracy, tone, or clarity.
 
 ### Model response
 
-> Let's review Unit 2. You learned about email vocabulary. You practiced phone call phrases. You studied future tenses. You learned should and must.
+> **Integrated response:** Let's review Unit 2. You learned about email vocabulary. You practiced phone call phrases.
+>
+> **Revision note:** I connect the main point to one concrete detail. I check the time, person, or action so the listener knows what happens next. Other well-supported responses are possible.
 
-The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+### Why the model works
+
+The model shows one defensible route through the task; it is not a script to memorize. Compare its task completion, language accuracy, audience fit, and clarity with your response, then revise once.
+
+### Transfer task
+
+Change the plan because the office will be closed. Keep the target language, but change the details and register needed for the new context.
 
 ### Self-check
 
-- [ ] I completed the task without translating a full Vietnamese sentence word for word.
-- [ ] I used at least two useful expressions from the lesson.
-- [ ] My main point is easy to identify.
-- [ ] I included a concrete detail, reason, or next step.
+- [ ] I completed every part of this lesson's scenario, not only the language form.
+- [ ] My target language is accurate and fits the intended meaning.
+- [ ] My level of directness and detail fits the named audience.
+- [ ] The reader or listener can identify my main point and next step.
 
 <!-- learning-loop:end -->

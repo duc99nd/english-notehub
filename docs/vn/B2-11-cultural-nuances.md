@@ -11,7 +11,7 @@
   'skill': 'vocab',
   'order': 11,
   'cefr': 'B2',
-  'minutes': 10,
+  'minutes': 12,
   'tags': ['culture', 'international', 'business', 'communication', 'B2'],
   'audioScript': "In some cultures, direct feedback is considered rude.\nIt's important to read between the lines during international negotiations.\nBuilding rapport takes time across different cultural contexts.\n",
   'listeningEnabled': true,
@@ -23,126 +23,143 @@
         'prompt': 'What does "read between the lines" mean?',
         'options': ['To read carefully', 'To understand implied meaning', 'To summarize text'],
         'answer': 'To understand implied meaning',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “To understand implied meaning” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Sắc thái văn hóa. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'To read carefully': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'To summarize text': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
       {
         'type': 'fill',
         'prompt': 'Building ___ takes time across different cultures.',
         'answer': 'rapport',
+        'acceptedAnswers': ['rapport'],
+        'explanation': 'Trong ngữ cảnh câu hỏi, “rapport” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Sắc thái văn hóa. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
       },
       {
         'type': 'choice',
         'prompt': 'Direct feedback in some cultures is considered:',
         'options': ['Appreciated', 'Rude', 'Funny'],
         'answer': 'Rude',
+        'explanation': 'Trong ngữ cảnh câu hỏi, “Rude” thể hiện đúng ý nghĩa hoặc cấu trúc trọng tâm của bài Sắc thái văn hóa. Hãy đối chiếu với câu mẫu xung quanh thay vì chỉ ghi nhớ đáp án rời rạc.',
+        'distractorFeedback':
+          {
+            'Appreciated': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+            'Funny': 'Phương án này không hoàn thành đúng ý định giao tiếp hoặc cấu trúc được kiểm tra trong ngữ cảnh câu hỏi.',
+          },
       },
     ],
   'categoryEn': 'Technical Leadership Communication',
   'categoryVi': 'Giao tiếp Dẫn dắt Kỹ thuật',
   'prerequisites': ['b2-10-review-unit2'],
+  'editorialStatus': 'structured-rewrite',
+  'sourceType': 'fictional',
+  'practiceContract': { 'mode': 'dialogue', 'minTurns': 4, 'maxTurns': 6 },
 }
 ---
 
-# Cultural Nuances
+# Những sắc thái văn hóa trong giao tiếp quốc tế
 
-## Understanding cultural dimensions
+## Hiểu về các chiều kích văn hóa
 
-In international business, cultural awareness is as important as technical skill. Misunderstanding cultural norms can damage relationships and derail deals.
+Trong môi trường làm việc toàn cầu, sự thấu hiểu văn hóa (cultural awareness) quan trọng không kém kỹ năng kỹ thuật. Hiểu sai các quy chuẩn văn hóa có thể làm tổn hại mối quan hệ đối tác và làm chậm tiến độ dự án.
 
-> **Pattern**: `It's important to be mindful of cultural differences when...` — acknowledge the need for cultural sensitivity
+> **Mẫu câu**: `It's important to be mindful of cultural differences when...` — nhấn mạnh sự cẩn trọng và tôn trọng sự khác biệt văn hóa
 
-### High-context vs. Low-context cultures
+### Văn hóa ngữ cảnh cao (High-context) vs. Ngữ cảnh thấp (Low-context)
 
-|| Dimension | High-context | Low-context |
-|| --- | --- | --- |
-|| Communication style | Indirect, relationship-focused | Direct, task-focused |
-|| Meaning source | Context, nonverbal cues | Explicit verbal messages |
-|| Relationship building | Takes time, personal connection first | Business can begin immediately |
-|| Examples | Japan, China, Arab nations | Germany, US, Scandinavia |
+| Chiều kích           | High-context (Ngữ cảnh cao)               | Low-context (Ngữ cảnh thấp)                 |
+| -------------------- | ----------------------------------------- | ------------------------------------------- |
+| Phong cách giao tiếp | Gián tiếp, chú trọng xây dựng mối quan hệ | Trực diện, tập trung vào mục tiêu công việc |
+| Nguồn gốc ý nghĩa    | Bối cảnh, cử chỉ phi ngôn ngữ, ẩn ý       | Thông điệp rõ ràng qua lời nói/văn bản      |
+| Xây dựng quan hệ     | Cần thời gian, kết nối cá nhân trước      | Có thể bắt đầu đàm phán công việc ngay      |
+| Ví dụ điển hình      | Nhật Bản, Việt Nam, các nước Ả Rập        | Đức, Mỹ, Hà Lan, Bắc Âu                     |
 
-### Direct vs. Indirect communication
+### Giao tiếp trực tiếp (Direct) vs. Gián tiếp (Indirect)
 
-|| Style | Characteristics | Examples |
-|| --- | --- | --- |
-|| Direct | Explicit statements, "say no" clearly | Germany, Netherlands, Israel |
-|| Indirect | Read between the lines, "we'll see" may mean no | Japan, Thailand, Mexico |
+| Phong cách | Đặc điểm nhận diện                                                                        | Ví dụ               |
+| ---------- | ----------------------------------------------------------------------------------------- | ------------------- |
+| Direct     | Phát biểu thẳng thắn, nói "No" rõ ràng                                                    | Đức, Hà Lan, Israel |
+| Indirect   | Cần đọc ẩn ý (`read between the lines`), "chúng tôi sẽ xem xét" có thể mang nghĩa từ chối | Nhật Bản, Thái Lan  |
 
-### Time orientation
+### Quan niệm về thời gian
 
-|| Monochronic | Polychronic |
-|| --- | --- |
-|| Time is linear and fixed | Time is fluid and flexible |
-|| Punctuality is critical | Relationships may override schedules |
-|| Meetings start and end on time | Meetings may run over |
+| Monochronic (Thời gian tuyến tính)                    | Polychronic (Thời gian linh hoạt)                                        |
+| ----------------------------------------------------- | ------------------------------------------------------------------------ |
+| Thời gian là cố định, đúng giờ là nguyên tắc sống còn | Thời gian linh hoạt, mối quan hệ con người có thể ưu tiên hơn lịch trình |
+| Cuộc họp bắt đầu và kết thúc chuẩn giờ                | Cuộc họp có thể kéo dài nếu thảo luận đang sâu                           |
 
-## Practical scenarios
+## Tình huống thực tế
 
-**Giving feedback in different cultures**
+**Góp ý phản hồi giữa các nền văn hóa**
 
-> "In Japan, constructive feedback is often delivered indirectly through a third party. In Germany, direct feedback is expected and appreciated."
+> "In some cultures, direct feedback is considered rude; in others, direct feedback is expected and appreciated."
+> _(Ở một số nền văn hóa, góp ý quá trực diện bị xem là thiếu lịch sự; nhưng ở những nơi khác, sự thẳng thắn lại được mong đợi và đánh giá cao.)_
 
-**Negotiating across cultures**
+**Đàm phán đa văn hóa**
 
-> "American negotiators may push for quick decisions, while Japanese counterparts may prioritize relationship-building first."
+> "American counterparts may push for quick decisions, while Japanese counterparts may prioritize building rapport first."
+> _(Đối tác Mỹ thường muốn chốt quyết định nhanh, trong khi đối tác Nhật Bản sẽ ưu tiên xây dựng niềm tin và sự kết nối trước.)_
 
-**Gift-giving etiquette**
+## Lời khuyên khi giao tiếp đa văn hóa
 
-> "In China, refusing a gift directly is considered impolite — the recipient may initially decline before accepting."
+- **Tìm hiểu trước (Do research)** về bối cảnh văn hóa của đối tác trước cuộc họp quan trọng.
+- **Quan sát và lắng nghe (Observe & listen)** trước khi đưa ra nhận định vội vàng.
+- **Hỏi làm rõ lịch sự (Ask clarifying questions)** khi cảm thấy thông điệp chưa rõ ràng.
+- **Kiên nhẫn xây dựng quan hệ (Build rapport)** với các đối tác thuộc nền văn hóa ngữ cảnh cao.
+- **Linh hoạt điều chỉnh phong cách (Adapt your style)** thay vì kỳ vọng đối phương phải hoàn toàn theo cách của mình.
 
-## Cross-cultural communication tips
+## Bài học tiếp theo
 
-- **Do your research** before meeting counterparts from new cultures
-- **Observe and listen** before making assumptions
-- **Ask clarifying questions** when in doubt
-- **Be patient** with relationship-building in high-context cultures
-- **Adapt your style** rather than expecting others to adapt to yours
-
-## Quick quiz
-
-Test your cultural awareness in the quiz section.
-
-## What to learn next
-
-In the next lesson **B2-12-complex-sentence-structures**, you will master complex sentence structures for formal writing.
+Ở bài tiếp theo **B2-12-complex-sentence-structures**, bạn sẽ làm chủ các cấu trúc câu phức để viết văn bản trang trọng và chuyên nghiệp hơn.
 
 <!-- learning-loop:start -->
 
 ## Kết quả học tập
 
-Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Những sắc thái văn hóa** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+Sau bài này, bạn có thể hoàn thành đoạn hội thoại bốn lượt về **Những sắc thái văn hóa**, chọn cách diễn đạt phù hợp quan hệ và mục tiêu trước mắt.
 
-## Phòng luyện tập
+## Luyện tập theo tình huống
 
-### Nhận diện cách diễn đạt
+### Tình huống
 
-Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+Nhóm làm việc từ xa hiểu phản hồi ngắn theo hai cách khác nhau. Hãy so sánh hai cách hiểu, hỏi để làm rõ và tránh quy chụp cho cả một nền văn hóa.
 
-> **Colleague:** How would you handle this situation?
->
-> **You:** In some cultures, direct feedback is considered rude.
+> **Lưu ý:** Tình huống và các chi tiết đều là hư cấu để luyện ngôn ngữ; đây không phải sự kiện, chính sách, nghiên cứu hoặc diễn giải pháp lý có thật.
 
-Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+### Luyện tập có kiểm soát
 
-> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+Chọn ba cách diễn đạt trong bài **Những sắc thái văn hóa**. Gắn nhãn chức năng cho từng cách: mở lời, nêu chi tiết, làm rõ hoặc đưa bước tiếp theo. Loại cách diễn đạt không phù hợp quan hệ trong tình huống.
 
-### Đến lượt bạn
+### Nhiệm vụ có hướng dẫn
 
-Tạo một câu trả lời mới cho chủ đề **Những sắc thái văn hóa**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+Viết đoạn hội thoại bốn đến sáu lượt cho tình huống này. Dùng ít nhất ba cách diễn đạt trọng tâm, phản hồi thông tin của người kia và kết thúc bằng câu hỏi, xác nhận hoặc hành động đã thống nhất.
 
 ### Bài mẫu
 
-> In some cultures, direct feedback is considered rude. It's important to read between the lines during international negotiations. Building rapport takes time across different cultural contexts.
+> **Partner:** We need to respond to the situation above. What would you say first?
+>
+> **You:** In some cultures, direct feedback is considered rude.
+>
+> **Partner:** What detail should we confirm before we act?
+>
+> **You:** It's important to read between the lines during international negotiations. Building rapport takes time across different cultural contexts.
 
-Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+### Vì sao bài mẫu phù hợp
 
-### Chuyển đổi register
+Bài mẫu thể hiện một cách xử lý hợp lý, không phải kịch bản bắt buộc học thuộc. Hãy so sánh mức hoàn thành nhiệm vụ, độ chính xác, độ phù hợp với người nghe và độ rõ với bài của bạn rồi sửa một lần.
 
-Viết lại câu trả lời hai lần: một bản cho đồng đội thân quen và một bản cho khách hàng hoặc stakeholder cấp cao. Giữ nguyên thông điệp nhưng thay đổi độ trực tiếp, lượng bối cảnh và mức giải thích. Chỉ ra một cụm từ bạn đã làm mềm, một chi tiết bạn nói rõ hơn và một giả định bạn đã loại bỏ.
+### Bài tập chuyển đổi
+
+Điều chỉnh câu làm rõ cho kênh trao đổi không đồng bộ. Giữ ngôn ngữ trọng tâm nhưng thay đổi chi tiết và văn phong cho bối cảnh mới.
 
 ### Tự kiểm tra
 
-- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
-- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
-- [ ] Người nghe có thể nhận ra ý chính ngay.
-- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+- [ ] Mình hoàn thành đủ yêu cầu của tình huống, không chỉ dùng đúng cấu trúc.
+- [ ] Ngôn ngữ trọng tâm chính xác và đúng ý định.
+- [ ] Độ trực tiếp và lượng chi tiết phù hợp người nghe hoặc người đọc.
+- [ ] Người nhận có thể nhận ra ý chính và bước tiếp theo.
+- [ ] Mình tách bằng chứng, giả định và khuyến nghị thay vì trình bày tất cả với cùng mức chắc chắn.
 
 <!-- learning-loop:end -->
