@@ -31,6 +31,12 @@ import {
 } from '@/lib/content'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
+import {
+  Sheet,
+  SheetContent,
+  SheetHeader,
+  SheetTitle,
+} from '@/components/ui/sheet'
 import { useTheme } from '@/composables/useTheme'
 import { Input } from '@/components/ui/input'
 
@@ -49,6 +55,7 @@ const showDesktopSidebar = ref(true)
 const activeHeadingId = ref('')
 const activeDoc = ref<DocItem | null>(null)
 const isDocLoading = ref(false)
+const docLoadError = ref(false)
 const sectionCountBySlug = ref<Record<string, number>>({})
 
 let headingElements: HTMLElement[] = []
@@ -66,6 +73,15 @@ const currentLocale = computed<AppLocale>({
 })
 
 const selectedTag = ref('')
+const selectedLevel = ref('')
+
+const allLevels = computed(() => {
+  const levels = new Set<string>()
+  for (const doc of docs) {
+    if (doc.level || doc.cefr) levels.add(doc.level || doc.cefr || '')
+  }
+  return Array.from(levels).sort((a, b) => a.localeCompare(b))
+})
 
 const allTags = computed(() => {
   const tags = new Set<string>()
@@ -93,6 +109,10 @@ function toggleTag(tag: string): void {
 const filteredDocs = computed(() => {
   const normalizedQuery = searchQuery.value.trim().toLowerCase()
   let result = docs
+
+  if (selectedLevel.value) {
+    result = result.filter((doc) => (doc.level || doc.cefr) === selectedLevel.value)
+  }
 
   if (selectedTag.value) {
     result = result.filter((doc) => doc.tags?.includes(selectedTag.value))
@@ -218,7 +238,17 @@ function headingClass(level: number): string {
 }
 
 function getHeadingText(heading: DocHeading): string {
-  return heading.text
+  const cleaned = heading.text
+    .replace(/&#(x)?([0-9a-fA-F]+);/g, (_, hex: string | undefined, code: string) => {
+      const value = hex ? Number.parseInt(code, 16) : Number.parseInt(code, 10)
+      return Number.isFinite(value) ? String.fromCodePoint(value) : ''
+    })
+    .replace(/&amp;/g, '&')
+    .replace(/&(lt|gt|quot|#039|nbsp);/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim()
+
+  return cleaned || heading.id
 }
 
 function formatCount(count: number | undefined): string {
@@ -334,56 +364,36 @@ async function loadActiveDocBySlug(slug: string): Promise<void> {
   }
 
   isDocLoading.value = true
+  docLoadError.value = false
   activeDoc.value = null
   headingElements = []
   activeHeadingId.value = ''
 
   loadRequestId += 1
   const requestId = loadRequestId
-  const loadedDoc = await getDocBySlug(slug, currentLocale.value)
-  if (requestId !== loadRequestId) {
-    return
-  }
+  try {
+    const loadedDoc = await getDocBySlug(slug, currentLocale.value)
+    if (requestId !== loadRequestId) {
+      return
+    }
 
-  activeDoc.value = loadedDoc ?? null
-  if (loadedDoc) {
-    sectionCountBySlug.value = {
-      ...sectionCountBySlug.value,
-      [loadedDoc.slug]: loadedDoc.sectionCount,
+    activeDoc.value = loadedDoc ?? null
+    docLoadError.value = !loadedDoc
+    if (loadedDoc) {
+      sectionCountBySlug.value = {
+        ...sectionCountBySlug.value,
+        [loadedDoc.slug]: loadedDoc.sectionCount,
+      }
+    }
+  } catch {
+    if (requestId === loadRequestId) {
+      docLoadError.value = true
+    }
+  } finally {
+    if (requestId === loadRequestId) {
+      isDocLoading.value = false
     }
   }
-  isDocLoading.value = false
-}
-
-async function preloadSectionCounts(): Promise<void> {
-  const entries = await Promise.all(
-    docs.map(async (doc) => {
-      const loadedDoc = await getDocBySlug(doc.slug, currentLocale.value)
-      return loadedDoc ? ([doc.slug, loadedDoc.sectionCount] as const) : null
-    }),
-  )
-
-  const nextCounts = Object.fromEntries(
-    entries.filter((entry): entry is [string, number] => entry !== null),
-  )
-
-  sectionCountBySlug.value = {
-    ...sectionCountBySlug.value,
-    ...nextCounts,
-  }
-}
-
-function scheduleSectionCountPreload(): void {
-  const run = () => {
-    void preloadSectionCounts()
-  }
-
-  if (typeof window.requestIdleCallback === 'function') {
-    window.requestIdleCallback(run)
-    return
-  }
-
-  window.setTimeout(run, 160)
 }
 
 watch(
@@ -491,7 +501,6 @@ watch(
 onMounted(() => {
   window.addEventListener('scroll', queueHeadingSync, { passive: true })
   window.addEventListener('resize', queueHeadingSync)
-  scheduleSectionCountPreload()
 })
 
 onBeforeUnmount(() => {
@@ -658,7 +667,19 @@ function scrollToTop(): void {
                 class="pl-11"
               />
             </div>
-            <div v-if="allTags.length" class="mt-3.5 flex flex-wrap gap-1.5 max-h-24 overflow-y-auto pr-1">
+            <div v-if="allLevels.length" class="mt-3.5 flex flex-wrap gap-1.5">
+              <button
+                v-for="level in allLevels"
+                :key="level"
+                type="button"
+                class="rounded-full border px-2.5 py-1 text-[0.68rem] font-semibold transition-colors"
+                :class="selectedLevel === level ? 'border-primary bg-primary text-primary-foreground' : 'border-foreground/10 bg-background text-muted-foreground hover:border-primary/40 hover:text-foreground'"
+                @click="selectedLevel = selectedLevel === level ? '' : level"
+              >
+                {{ level }}
+              </button>
+            </div>
+            <div v-if="allTags.length" class="mt-3 flex max-h-24 flex-wrap gap-1.5 overflow-y-auto pr-1">
               <button
                 v-for="tag in allTags"
                 :key="tag"
@@ -923,7 +944,15 @@ function scrollToTop(): void {
         </div>
 
         <div v-else class="surface-panel rounded-[2rem] px-6 py-8 text-muted-foreground sm:px-8">
-          {{ t('labels.noSections') }}
+          <p class="font-semibold text-foreground">
+            {{ docLoadError ? t('labels.loadError') : t('labels.noSections') }}
+          </p>
+          <p class="mt-2 text-sm leading-6">
+            {{ docLoadError ? t('labels.loadErrorDescription') : t('labels.noSections') }}
+          </p>
+          <Button v-if="docLoadError" class="mt-5" size="sm" @click="loadActiveDocBySlug(activeSlug)">
+            {{ t('actions.retry') }}
+          </Button>
         </div>
       </section>
 

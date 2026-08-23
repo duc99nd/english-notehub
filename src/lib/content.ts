@@ -718,7 +718,7 @@ const FILE_META: Record<string, LegacyFileMeta> = {
     titleEn: 'Reporting Verbs for Updates & Documentation',
     subtitleEn: 'Varried verbs for documenting team decisions and client requests',
     titleVi: 'Động Từ Tường Thuật Chuyên Nghiệp',
-    titleVi: 'Cách dẫn dắt, tường thuật ý kiến họp hành và quyết định thiết kế',
+    subtitleVi: 'Cách dẫn dắt, tường thuật ý kiến họp hành và quyết định thiết kế',
     order: 61,
     categoryEn: 'Speaking Grammar Hacks',
     categoryVi: 'Mẹo Ngữ pháp Speaking',
@@ -793,7 +793,7 @@ const FILE_META: Record<string, LegacyFileMeta> = {
     titleEn: 'Prepositions in IT Context',
     subtitleEn: 'Correct preposition usage for deploy, work, depend, connect, and scheduling',
     titleVi: 'Giới Từ Trong Ngữ Cảnh IT',
-    titleVi: 'Cách dùng giới từ đúng khi deploy, work, depend, connect và lên lịch',
+    subtitleVi: 'Cách dùng giới từ đúng khi deploy, work, depend, connect và lên lịch',
     order: 68,
     categoryEn: 'Speaking Grammar Hacks',
     categoryVi: 'Mẹo Ngữ pháp Speaking',
@@ -805,7 +805,7 @@ const FILE_META: Record<string, LegacyFileMeta> = {
     subtitleEn:
       'Clarifying say/tell/speak/talk, error/bug/exception, and other confusing technical words',
     titleVi: 'Từ Vựng Dễ Nhầm Lẫn Trong IT',
-    titleVi: 'Phân biệt say/tell/speak/talk, error/bug/exception và các từ chuyên ngành dễ nhầm',
+    subtitleVi: 'Phân biệt say/tell/speak/talk, error/bug/exception và các từ chuyên ngành dễ nhầm',
     order: 69,
     categoryEn: 'Vocabulary Deep Dives',
     categoryVi: 'Từ vựng Chuyên sâu',
@@ -858,10 +858,29 @@ function escapeHtml(unsafe: string): string {
 }
 
 function stripMarkdownSyntax(input: string): string {
-  return input
+  const decoded = input
+    .replace(/&(amp|lt|gt|quot|#039|nbsp);/g, (_, entity: string) => {
+      const map: Record<string, string> = {
+        amp: '&',
+        lt: '<',
+        gt: '>',
+        quot: '"',
+        '#039': "'",
+        nbsp: ' ',
+      }
+      return map[entity] ?? ''
+    })
+    .replace(/&#(x)?([0-9a-fA-F]+);/g, (_, hex: string | undefined, code: string) => {
+      const value = hex ? Number.parseInt(code, 16) : Number.parseInt(code, 10)
+      return Number.isFinite(value) ? String.fromCodePoint(value) : ''
+    })
+    .replace(/<[^>]+>/g, ' ')
+
+  return decoded
     .replace(/\*\*/g, '')
     .replace(/`/g, '')
     .replace(/\[(.*?)\]\(.*?\)/g, '$1')
+    .replace(/\s+/g, ' ')
     .trim()
 }
 
@@ -884,7 +903,16 @@ function createFallbackTitle(fileName: string): string {
 }
 
 function stripLeadingDocHeadings(markdown: string): string {
-  return markdown
+  let result = markdown
+
+  if (isFrontmatterPresent(result)) {
+    const endIndex = result.indexOf('\n---', 3)
+    if (endIndex !== -1) {
+      result = result.slice(endIndex + 4)
+    }
+  }
+
+  return result
     .replace(/^#\s+.+\n+/, '')
     .replace(/^##\s+.+\n+/, '')
     .trimStart()

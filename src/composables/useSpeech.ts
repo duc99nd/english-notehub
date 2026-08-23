@@ -10,7 +10,7 @@ export interface SpeechOptions {
 interface SpeechComposable {
   speaking: Readonly<ReturnType<typeof ref<boolean>>>
   supported: Readonly<ReturnType<typeof ref<boolean>>>
-  voices: Readonly<ReturnType<typeof ref<SpeechSynthesisVoice[]>>>
+  voices: Readonly<ReturnType<typeof ref<readonly SpeechSynthesisVoice[]>>>
   speak: (text: string, options?: SpeechOptions) => void
   stop: () => void
   pause: () => void
@@ -119,5 +119,5 @@ export function useSpeech(): SpeechComposable {
     pause,
     resume,
   }
-  return _composable
+  return _composable!
 }

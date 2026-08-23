@@ -12,6 +12,8 @@ export default {
   labels: {
     sections: 'Mục',
     noSections: 'Chưa có mục nội dung',
+    loadError: 'Không thể tải bài học này',
+    loadErrorDescription: 'Bạn có thể thử lại hoặc chọn bài khác trong thư viện.',
     referenceLibrary: 'Thư viện tài liệu',
     totalDocs: 'Tổng tài liệu',
     totalSections: 'Tổng mục',
@@ -37,6 +39,7 @@ export default {
     previousDoc: 'Tài liệu trước',
     nextDoc: 'Tài liệu sau',
     searchDocuments: 'Tìm tài liệu',
+    retry: 'Thử lại',
   },
   locale: {
     en: 'Tiếng Anh',

@@ -12,6 +12,8 @@ export default {
   labels: {
     sections: 'sections',
     noSections: 'No sections found',
+    loadError: 'This lesson could not be loaded',
+    loadErrorDescription: 'Try again or choose another lesson from the library.',
     referenceLibrary: 'Reference Library',
     totalDocs: 'Total Docs',
     totalSections: 'Total Sections',
@@ -37,6 +39,7 @@ export default {
     previousDoc: 'Previous doc',
     nextDoc: 'Next doc',
     searchDocuments: 'Search documents',
+    retry: 'Try again',
   },
   locale: {
     en: 'English',
