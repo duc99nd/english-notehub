@@ -11,7 +11,7 @@
   'skill': 'grammar',
   'order': 7,
   'cefr': 'C2',
-  'minutes': 5,
+  'minutes': 13,
   'tags': ['panel', 'debate', 'grammar', 'formal', 'discourse', 'discussion'],
   'audioScript': "Panel discussions employ conditional structures to soften disagreement.\nSubjunctive forms appear in formal proposals and resolutions.\nParticipial constructions allow for concise, elegant expression.\n",
   'listeningEnabled': true,
@@ -36,6 +36,9 @@
         'answer': 'reject',
       },
     ],
+  'categoryEn': 'Expert Register and Influence',
+  'categoryVi': 'Sắc thái và Ảnh hưởng Chuyên sâu',
+  'prerequisites': ['c2-06-conference-talk'],
 }
 ---
 
@@ -129,3 +132,47 @@ Test your mastery of panel discussion grammar.
 ## What to learn next
 
 In **C2-08-diplomatic-language**, you will explore the reading comprehension skills required for diplomatic and international relations texts.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to choose an appropriate structure and apply it accurately when discussing panel discussion grammar.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **panel discussion grammar** in this situation?
+>
+> **You:** Panel discussions employ conditional structures to soften disagreement.
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Write four connected sentences for a colleague, client, and senior stakeholder. Use the target structure twice, then revise one sentence to change its tone or emphasis.
+
+### Model response
+
+> Panel discussions employ conditional structures to soften disagreement. Subjunctive forms appear in formal proposals and resolutions. Participial constructions allow for concise, elegant expression.
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Register switch
+
+Rewrite your response twice: first for a trusted teammate, then for a client or senior stakeholder. Keep the underlying message the same while changing directness, context, and the amount of explanation. Identify one phrase you softened, one detail you made explicit, and one assumption you removed. Then write a plausible alternative interpretation of the model and explain which contextual evidence would help a reader choose between the two readings.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+- [ ] I qualified claims where certainty was limited and adjusted the register for my audience.
+
+<!-- learning-loop:end -->

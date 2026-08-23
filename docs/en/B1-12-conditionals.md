@@ -11,7 +11,7 @@
   'skill': 'grammar',
   'order': 12,
   'cefr': 'B1',
-  'minutes': 5,
+  'minutes': 11,
   'tags': ['conditionals', 'grammar', 'if-clause', 'first-conditional', 'second-conditional'],
   'audioScript': "If it rains tomorrow, I'll stay at home.\nIf I won the lottery, I would travel the world.\nIf I had more time, I would learn to cook.\n",
   'listeningEnabled': true,
@@ -42,6 +42,9 @@
         'answer': 'If she studied, she would pass.',
       },
     ],
+  'categoryEn': 'Independent Workplace Communication',
+  'categoryVi': 'Giao tiếp Công việc Độc lập',
+  'prerequisites': ['b1-11-food-cooking'],
 }
 ---
 
@@ -130,3 +133,42 @@ Answer the three questions in the quiz section to finish this lesson.
 ## What to Learn Next
 
 In the next lesson **B1-13-recipe-menu**, you will read recipes and menus from restaurants.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to choose an appropriate structure and apply it accurately when discussing first & second conditionals.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **first & second conditionals** in this situation?
+>
+> **You:** If it rains tomorrow, I'll stay at home.
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Write four connected sentences for a colleague or classmate. Use the target structure twice, then revise one sentence to change its tone or emphasis.
+
+### Model response
+
+> If it rains tomorrow, I'll stay at home. If I won the lottery, I would travel the world. If I had more time, I would learn to cook.
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+
+<!-- learning-loop:end -->

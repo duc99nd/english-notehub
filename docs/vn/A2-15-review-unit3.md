@@ -13,36 +13,40 @@
   'cefr': 'A2',
   'minutes': 10,
   'tags': ['review', 'unit3', 'small-talk', 'opinions', 'experiences', 'A2'],
-  'audioScript': "Hãy ôn tập Unit 3.\nBạn có thể trò chuyện xã giao bằng tiếng Anh.\nBạn có thể chia sẻ ý kiến lịch sự.\nBạn có thể nói về kinh nghiệm cuộc sống.\nBạn có thể đọc hiểu câu chuyện ngắn cá nhân.\n",
+  'audioScript': "Let's review Unit 3.\nYou can make small talk in English.\nYou can share your opinions politely.\nYou can talk about your life experiences.\nYou can read short personal stories.\n",
   'listeningEnabled': true,
   'flashcardCount': 20,
   'quiz':
     [
       {
         'type': 'choice',
-        'prompt': 'Cụm nào mở đầu small talk?',
-        'options': ['Làm ơn đưa tôi tập tin.', 'Thời tiết đẹp nhỉ?', 'Nhà ga ở đâu?'],
-        'answer': 'Thời tiết đẹp nhỉ?',
+        'prompt': 'Which phrase is a small talk starter?',
+        'options':
+          [
+            'Please give me the file.',
+            "Lovely weather today, isn't it?",
+            'Where is the train station?',
+          ],
+        'answer': "Lovely weather today, isn't it?",
       },
-      {
-        'type': 'fill',
-        'prompt': 'Theo ___ của tôi, chúng ta nên đợi. (opinion)',
-        'answer': 'ý kiến',
-      },
-      {
-        'type': 'choice',
-        'prompt': 'Tôi đã từng đến Tokyo. Ở thì gì?',
-        'options': ['Quá khứ đơn', 'Hiện tại hoàn thành', 'Tương lai'],
-        'answer': 'Hiện tại hoàn thành',
-      },
-      { 'type': 'fill', 'prompt': 'Cô ấy đã làm ở đây ___ 2018.', 'answer': 'từ' },
+      { 'type': 'fill', 'prompt': 'In my ___, we should wait. (opinion)', 'answer': 'opinion' },
       {
         'type': 'choice',
-        'prompt': 'Cụm nào KHÔNG phải cụm ý kiến?',
-        'options': ['Tôi tin rằng', 'Tôi nghĩ', 'Tôi yêu cầu'],
-        'answer': 'Tôi yêu cầu',
+        'prompt': 'I have visited Tokyo. Which tense?',
+        'options': ['Past simple', 'Present perfect', 'Future'],
+        'answer': 'Present perfect',
+      },
+      { 'type': 'fill', 'prompt': 'She has worked here ___ 2018.', 'answer': 'since' },
+      {
+        'type': 'choice',
+        'prompt': 'Which is NOT an opinion phrase?',
+        'options': ['I believe', 'I think', 'I order'],
+        'answer': 'I order',
       },
     ],
+  'categoryEn': 'Everyday Workplace English',
+  'categoryVi': 'Tiếng Anh Công việc Hằng ngày',
+  'prerequisites': ['a2-14-short-reading'],
 }
 ---
 
@@ -101,3 +105,42 @@ Trả lời 5 câu quiz để kiểm tra sự thành thạo Unit 3 của bạn.
 ## What to learn next
 
 Chúc mừng bạn đã hoàn thành **chương trình A2!** Tiếp tục sang cấp độ **B1** cho tiếng Anh trung cấp.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Ôn tập Unit 3** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** Let's review Unit 3.
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Ôn tập Unit 3**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> Let's review Unit 3. You can make small talk in English. You can share your opinions politely. You can talk about your life experiences. You can read short personal stories.
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+
+<!-- learning-loop:end -->

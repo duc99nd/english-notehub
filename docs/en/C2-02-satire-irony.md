@@ -11,7 +11,7 @@
   'skill': 'grammar',
   'order': 2,
   'cefr': 'C2',
-  'minutes': 5,
+  'minutes': 12,
   'tags': ['satire', 'irony', 'rhetoric', 'politics', 'media'],
   'audioScript': "Satire uses humor to critique power and expose weakness.\nVerbal irony says the opposite of what is meant.\nSarcasm is typically harsher and more direct than irony.\n",
   'listeningEnabled': true,
@@ -42,6 +42,9 @@
         'answer': 'sarcasm',
       },
     ],
+  'categoryEn': 'Expert Register and Influence',
+  'categoryVi': 'Sắc thái và Ảnh hưởng Chuyên sâu',
+  'prerequisites': ['c2-01-humor-english'],
 }
 ---
 
@@ -117,3 +120,47 @@ Test your understanding of satire and irony types.
 ## What to learn next
 
 In **C2-03-academic-tone**, you will learn to adjust your tone for academic contexts.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to choose an appropriate structure and apply it accurately when discussing satire & irony.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **satire & irony** in this situation?
+>
+> **You:** Satire uses humor to critique power and expose weakness.
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Write four connected sentences for a colleague, client, and senior stakeholder. Use the target structure twice, then revise one sentence to change its tone or emphasis.
+
+### Model response
+
+> Satire uses humor to critique power and expose weakness. Verbal irony says the opposite of what is meant. Sarcasm is typically harsher and more direct than irony.
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Register switch
+
+Rewrite your response twice: first for a trusted teammate, then for a client or senior stakeholder. Keep the underlying message the same while changing directness, context, and the amount of explanation. Identify one phrase you softened, one detail you made explicit, and one assumption you removed. Then write a plausible alternative interpretation of the model and explain which contextual evidence would help a reader choose between the two readings.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+- [ ] I qualified claims where certainty was limited and adjusted the register for my audience.
+
+<!-- learning-loop:end -->

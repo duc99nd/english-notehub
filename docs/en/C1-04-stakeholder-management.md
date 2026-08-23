@@ -11,7 +11,7 @@
   'skill': 'vocab',
   'order': 4,
   'cefr': 'C1',
-  'minutes': 5,
+  'minutes': 12,
   'tags': ['stakeholder', 'management', 'leadership', 'influence', 'C1'],
   'audioScript': "We need to bring the dissenting stakeholders on board.\nTheir buy-in is critical for the project's success.\nLet's align expectations before we move forward.\n",
   'listeningEnabled': true,
@@ -36,6 +36,9 @@
         'answer': 'bring on board',
       },
     ],
+  'categoryEn': 'Strategic Professional Communication',
+  'categoryVi': 'Giao tiếp Chuyên nghiệp Chiến lược',
+  'prerequisites': ['c1-03-writing-strategy'],
 }
 ---
 
@@ -96,3 +99,47 @@ Fill in the blanks with the appropriate vocabulary:
 ## What to learn next
 
 In the next lesson **C1-05-review-unit1**, you will consolidate the vocabulary, grammar, and reading skills from Unit 1 and prepare for the assessment.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to select and use useful language for stakeholder management in a short, realistic exchange.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **stakeholder management** in this situation?
+>
+> **You:** We need to bring the dissenting stakeholders on board.
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Create a four-line exchange with a colleague, client, and senior stakeholder. Use at least three target expressions from **Stakeholder Management** and add one follow-up question.
+
+### Model response
+
+> We need to bring the dissenting stakeholders on board. Their buy-in is critical for the project's success. Let's align expectations before we move forward.
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Register switch
+
+Rewrite your response twice: first for a trusted teammate, then for a client or senior stakeholder. Keep the underlying message the same while changing directness, context, and the amount of explanation. Identify one phrase you softened, one detail you made explicit, and one assumption you removed.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+- [ ] I qualified claims where certainty was limited and adjusted the register for my audience.
+
+<!-- learning-loop:end -->

@@ -11,36 +11,34 @@
   'skill': 'grammar',
   'order': 12,
   'cefr': 'B2',
-  'minutes': 5,
+  'minutes': 11,
   'tags': ['grammar', 'complex-sentences', 'writing', 'formal', 'B2'],
-  'audioScript': "The report, which was published last month, highlights key trends.\nHaving reviewed the data, we can conclude that performance improved.\nWhat concerns us most is the declining market share.\n",
+  'audioScript': "Although the deadline is tight, we will deliver quality work.\nGiven the complexity of the project, we recommend additional resources.\nUnless we act now, we risk losing our competitive edge.\n",
   'listeningEnabled': true,
   'flashcardCount': 6,
   'quiz':
     [
       {
         'type': 'choice',
-        'prompt': 'Which sentence uses a non-defining relative clause correctly?',
-        'options':
-          [
-            'The report that was published last month highlights key trends.',
-            'The report, which was published last month, highlights key trends.',
-            'The report which was published last month highlights key trends.',
-          ],
-        'answer': 'The report, which was published last month, highlights key trends.',
+        'prompt': 'Which word introduces a contrast?',
+        'options': ['Because', 'Although', 'And'],
+        'answer': 'Although',
       },
       {
         'type': 'fill',
-        'prompt': '___ the data, we can conclude that performance improved.',
-        'answer': 'Having reviewed',
+        'prompt': '___ the complexity, we recommend additional support.',
+        'answer': 'Given',
       },
       {
         'type': 'choice',
-        'prompt': 'What type of clause is "What concerns us most"?',
-        'options': ['Relative clause', 'Noun clause', 'Adverbial clause'],
-        'answer': 'Noun clause',
+        'prompt': 'Unless we act now, we... expresses:',
+        'options': ['Condition with negative', 'Past habit', 'Future certainty'],
+        'answer': 'Condition with negative',
       },
     ],
+  'categoryEn': 'Technical Leadership Communication',
+  'categoryVi': 'Giao tiếp Dẫn dắt Kỹ thuật',
+  'prerequisites': ['b2-11-cultural-nuances'],
 }
 ---
 
@@ -120,3 +118,46 @@ Test your complex sentence skills in the quiz section.
 ## What to learn next
 
 In the next lesson **B2-13-editorial-reading**, you will practice reading and analyzing editorial and opinion pieces.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Cấu trúc câu phức** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** Although the deadline is tight, we will deliver quality work.
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Cấu trúc câu phức**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> Although the deadline is tight, we will deliver quality work. Given the complexity of the project, we recommend additional resources. Unless we act now, we risk losing our competitive edge.
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Chuyển đổi register
+
+Viết lại câu trả lời hai lần: một bản cho đồng đội thân quen và một bản cho khách hàng hoặc stakeholder cấp cao. Giữ nguyên thông điệp nhưng thay đổi độ trực tiếp, lượng bối cảnh và mức giải thích. Chỉ ra một cụm từ bạn đã làm mềm, một chi tiết bạn nói rõ hơn và một giả định bạn đã loại bỏ.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+
+<!-- learning-loop:end -->

@@ -11,7 +11,7 @@
   'skill': 'reading',
   'order': 13,
   'cefr': 'C1',
-  'minutes': 5,
+  'minutes': 11,
   'tags': ['reading', 'critical', 'analysis', 'bias', 'C1'],
   'audioScript': "The author claims a causal link, but the evidence is correlational.\nThe methodology appears sound, though the sample size is limited.\nThe argument overlooks alternative explanations.\n",
   'listeningEnabled': true,
@@ -41,6 +41,9 @@
         'answer': 'Selective use of evidence',
       },
     ],
+  'categoryEn': 'Strategic Professional Communication',
+  'categoryVi': 'Giao tiếp Chuyên nghiệp Chiến lược',
+  'prerequisites': ['c1-12-nuanced-grammar'],
 }
 ---
 
@@ -104,3 +107,47 @@ Use these prompts to interrogate a text:
 ## What to learn next
 
 In the next lesson **C1-14-research-writing**, you will learn to write research-style papers.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to identify the main point, supporting detail, and register choices in a text about critical reading.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **critical reading** in this situation?
+>
+> **You:** The author claims a causal link, but the evidence is correlational.
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Summarize the text in two sentences for a colleague, client, and senior stakeholder. Identify one claim, one supporting detail, and one phrase that signals the writer's attitude.
+
+### Model response
+
+> The author claims a causal link, but the evidence is correlational. The methodology appears sound, though the sample size is limited. The argument overlooks alternative explanations.
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Register switch
+
+Rewrite your response twice: first for a trusted teammate, then for a client or senior stakeholder. Keep the underlying message the same while changing directness, context, and the amount of explanation. Identify one phrase you softened, one detail you made explicit, and one assumption you removed.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+- [ ] I qualified claims where certainty was limited and adjusted the register for my audience.
+
+<!-- learning-loop:end -->

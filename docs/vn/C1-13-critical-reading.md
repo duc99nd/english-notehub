@@ -11,32 +11,39 @@
   'skill': 'reading',
   'order': 13,
   'cefr': 'C1',
-  'minutes': 5,
+  'minutes': 11,
   'tags': ['reading', 'critical', 'analysis', 'bias', 'C1'],
-  'audioScript': "Tác giả tuyên bố mối liên hệ nhân quả, nhưng bằng chứng là tương quan.\nPhương pháp luận có vẻ vững chắc, dù cỡ mẫu còn hạn chế.\nLập luận bỏ qua các giải thích thay thế.\n",
+  'audioScript': "The author claims a causal link, but the evidence is correlational.\nThe methodology appears sound, though the sample size is limited.\nThe argument overlooks alternative explanations.\n",
   'listeningEnabled': true,
   'flashcardCount': 6,
   'quiz':
     [
       {
         'type': 'choice',
-        'prompt': 'Tương quan vs "nhân quả" khác nhau thế nào?',
+        'prompt': 'What is "correlation" vs "causation"?',
         'options':
           [
-            'Giống nhau',
-            'Tương quan là liên hệ; nhân quả là quan hệ nguyên nhân-kết quả',
-            'Tương quan chứng minh nhân quả',
+            'Same thing',
+            'Correlation is association; causation is cause-effect',
+            'Correlation proves causation',
           ],
-        'answer': 'Tương quan là liên hệ; nhân quả là quan hệ nguyên nhân-kết quả',
+        'answer': 'Correlation is association; causation is cause-effect',
       },
-      { 'type': 'fill', 'prompt': 'Lập luận ___ các giải thích thay thế.', 'answer': 'bỏ qua' },
+      {
+        'type': 'fill',
+        'prompt': 'The argument ___ alternative explanations.',
+        'answer': 'overlooks',
+      },
       {
         'type': 'choice',
-        'prompt': 'Đâu là dấu hiệu của thiên kiến trong nghiên cứu?',
-        'options': ['Cỡ mẫu lớn', 'Sử dụng chọn lọc bằng chứng', 'Đánh giá ngang hàng'],
-        'answer': 'Sử dụng chọn lọc bằng chứng',
+        'prompt': 'Which is a sign of bias in research?',
+        'options': ['Large sample size', 'Selective use of evidence', 'Peer review'],
+        'answer': 'Selective use of evidence',
       },
     ],
+  'categoryEn': 'Strategic Professional Communication',
+  'categoryVi': 'Giao tiếp Chuyên nghiệp Chiến lược',
+  'prerequisites': ['c1-12-nuanced-grammar'],
 }
 ---
 
@@ -100,3 +107,47 @@ Sử dụng các câu hỏi này để thẩm vấn văn bản:
 ## What to learn next
 
 Trong bài tiếp theo **C1-14-research-writing**, bạn sẽ học cách viết bài nghiên cứu.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Đọc phản biện** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** The author claims a causal link, but the evidence is correlational.
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Đọc phản biện**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> The author claims a causal link, but the evidence is correlational. The methodology appears sound, though the sample size is limited. The argument overlooks alternative explanations.
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Chuyển đổi register
+
+Viết lại câu trả lời hai lần: một bản cho đồng đội thân quen và một bản cho khách hàng hoặc stakeholder cấp cao. Giữ nguyên thông điệp nhưng thay đổi độ trực tiếp, lượng bối cảnh và mức giải thích. Chỉ ra một cụm từ bạn đã làm mềm, một chi tiết bạn nói rõ hơn và một giả định bạn đã loại bỏ.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+- [ ] Mình đã giới hạn mức độ chắc chắn của nhận định và điều chỉnh register theo người nghe.
+
+<!-- learning-loop:end -->

@@ -11,7 +11,7 @@
   'skill': 'reading',
   'order': 14,
   'cefr': 'A2',
-  'minutes': 5,
+  'minutes': 10,
   'tags': ['reading', 'short-text', 'experiences', 'A2'],
   'audioScript': "Maria has traveled to twelve countries.\nTom has worked at the same company since 2018.\nThey have both learned English for many years.\n",
   'listeningEnabled': true,
@@ -36,6 +36,9 @@
         'answer': 'Present perfect',
       },
     ],
+  'categoryEn': 'Everyday Workplace English',
+  'categoryVi': 'Tiếng Anh Công việc Hằng ngày',
+  'prerequisites': ['a2-13-experiences'],
 }
 ---
 
@@ -96,3 +99,42 @@ Answer the three questions in the quiz section to finish this lesson.
 ## What to learn next
 
 In the next lesson **A2-15-review-unit3**, you will review everything from Unit 3.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to identify the main point, supporting detail, and register choices in a text about short reading.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **short reading** in this situation?
+>
+> **You:** Maria has traveled to twelve countries.
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Summarize the text in two sentences for a colleague or classmate. Identify one claim, one supporting detail, and one phrase that signals the writer's attitude.
+
+### Model response
+
+> Maria has traveled to twelve countries. Tom has worked at the same company since 2018. They have both learned English for many years.
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+
+<!-- learning-loop:end -->

@@ -39,6 +39,9 @@
         'answer': 'I worked late.',
       },
     ],
+  'categoryEn': 'Everyday Workplace English',
+  'categoryVi': 'Tiếng Anh Công việc Hằng ngày',
+  'prerequisites': ['a2-04-past-events'],
 }
 ---
 
@@ -88,3 +91,42 @@ Try the quiz below to test your knowledge. Good luck!
 ## What to learn next
 
 Continue to **A2-06-email-basics** to learn how to write basic emails in English.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to combine the unit language to complete a realistic task about review unit 1.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **review unit 1** in this situation?
+>
+> **You:** Let's review what we learned in Unit 1.
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Complete one integrated response for a colleague or classmate using language from at least three lessons in this unit.
+
+### Model response
+
+> Let's review what we learned in Unit 1. You can ask for help politely. You can talk about your daily routine. You can compare things. You can talk about past events.
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+
+<!-- learning-loop:end -->

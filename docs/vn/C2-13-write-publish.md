@@ -11,8 +11,46 @@
   'skill': 'reading',
   'order': 13,
   'cefr': 'C2',
-  'minutes': 5,
+  'minutes': 13,
   'tags': ['publishing', 'peer review', 'academic', 'journal', 'writing', 'scholarly'],
+  'categoryEn': 'Expert Register and Influence',
+  'categoryVi': 'Sắc thái và Ảnh hưởng Chuyên sâu',
+  'prerequisites': ['c2-12-debate-formal'],
+  'audioScript': "Scholarly publishing follows established conventions and workflows.\nUnderstanding peer review discourse helps navigate revision requests.\nCover letters and response letters are genres unto themselves.\n",
+  'listeningEnabled': true,
+  'flashcardCount': 6,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': "What is the purpose of a 'revise and resubmit' decision?",
+        'options':
+          [
+            'Complete rejection',
+            'Conditional acceptance pending revisions',
+            'Immediate acceptance',
+            'Transfer to another journal',
+          ],
+        'answer': 'Conditional acceptance pending revisions',
+      },
+      {
+        'type': 'choice',
+        'prompt': 'What should a cover letter NOT include according to journal conventions?',
+        'options':
+          [
+            'Submission title and authors',
+            'Statement of originality',
+            'Detailed statistical methods',
+            'Suggested reviewers',
+          ],
+        'answer': 'Detailed statistical methods',
+      },
+      {
+        'type': 'fill',
+        'prompt': "The reviewer described the methodology as '___', indicating serious methodological concerns.",
+        'answer': 'flawed',
+      },
+    ],
 }
 ---
 
@@ -97,3 +135,47 @@ Các báo cáo phản biện sử dụng ngôn ngữ được mã hóa:
 ## Bài học tiếp theo
 
 Trong **C2-14-professional-poetry**, bạn sẽ khám phá sự giao thoa giữa giao tiếp chuyên nghiệp và nghệ thuật văn chương — viết thơ với mục đích chuyên nghiệp.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Viết để Xuất bản** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** Scholarly publishing follows established conventions and workflows.
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Viết để Xuất bản**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> Scholarly publishing follows established conventions and workflows. Understanding peer review discourse helps navigate revision requests. Cover letters and response letters are genres unto themselves.
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Chuyển đổi register
+
+Viết lại câu trả lời hai lần: một bản cho đồng đội thân quen và một bản cho khách hàng hoặc stakeholder cấp cao. Giữ nguyên thông điệp nhưng thay đổi độ trực tiếp, lượng bối cảnh và mức giải thích. Chỉ ra một cụm từ bạn đã làm mềm, một chi tiết bạn nói rõ hơn và một giả định bạn đã loại bỏ. Sau đó, viết thêm một cách diễn giải hợp lý khác của bài mẫu và nêu bằng chứng ngữ cảnh cần có để chọn giữa hai cách hiểu.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+- [ ] Mình đã giới hạn mức độ chắc chắn của nhận định và điều chỉnh register theo người nghe.
+
+<!-- learning-loop:end -->

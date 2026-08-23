@@ -11,31 +11,35 @@
   'skill': 'reading',
   'order': 3,
   'cefr': 'B1',
-  'minutes': 5,
+  'minutes': 12,
   'tags': ['reading', 'travel', 'blog', 'postcard', 'vacation', 'experience'],
-  'audioScript': "Chào mọi người! Tôi đang viết những dòng này từ một quán cà phê nhỏ ở Rome.\nThời tiết đã tuyệt vời và tôi đã khám phá mỗi ngày.\nTôi không thể chờ để chia sẻ thêm nhiều ảnh!\n",
+  'audioScript': "Hi everyone! I'm writing this from a small café in Rome.\nThe weather has been amazing and I've been exploring every day.\nI can't wait to share more photos!\n",
   'listeningEnabled': true,
   'flashcardCount': 8,
   'quiz':
     [
       {
         'type': 'choice',
-        'prompt': 'Souvenir nghĩa là gì?',
-        'options': ['Món quà bạn mua để nhớ về một nơi', 'Một loại đồ ăn', 'Một vé phương tiện'],
-        'answer': 'Món quà bạn mua để nhớ về một nơi',
+        'prompt': "What is a 'souvenir'?",
+        'options':
+          ['A gift you buy to remember a place', 'A type of food', 'A transportation ticket'],
+        'answer': 'A gift you buy to remember a place',
       },
       {
         'type': 'fill',
-        'prompt': 'Đồ ăn tuyệt đến mức — tôi chưa bao giờ nếm món nào ngon như vậy!',
+        'prompt': "The food was absolutely ___ — I've never tasted anything like it!",
         'answer': 'delicious',
       },
       {
         'type': 'choice',
-        'prompt': "Bustling nghĩa là gì trong cụm 'bustling city' (thành phố nhộn nhịp)?",
-        'options': ['Yên tĩnh và bình yên', 'Đông đúc và nhộn nhịp', 'Rất nhỏ'],
-        'answer': 'Đông đúc và nhộn nhịp',
+        'prompt': "What does 'bustling' mean in 'bustling city'?",
+        'options': ['Quiet and peaceful', 'Busy and full of activity', 'Very small'],
+        'answer': 'Busy and full of activity',
       },
     ],
+  'categoryEn': 'Independent Workplace Communication',
+  'categoryVi': 'Giao tiếp Công việc Độc lập',
+  'prerequisites': ['b1-02-past-tenses'],
 }
 ---
 
@@ -107,3 +111,42 @@ Trả lời ba câu hỏi trong phần quiz để hoàn thành bài học này.
 ## Bài học tiếp theo
 
 Ở bài **B1-04-email-friend**, bạn sẽ học cách viết email cho bạn bè về chuyến đi của mình.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Blog Du lịch & Bưu thiếp** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** Hi everyone! I'm writing this from a small café in Rome.
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Blog Du lịch & Bưu thiếp**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> Hi everyone! I'm writing this from a small café in Rome. The weather has been amazing and I've been exploring every day. I can't wait to share more photos!
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+
+<!-- learning-loop:end -->

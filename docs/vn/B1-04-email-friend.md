@@ -11,27 +11,30 @@
   'skill': 'writing',
   'order': 4,
   'cefr': 'B1',
-  'minutes': 5,
+  'minutes': 12,
   'tags': ['writing', 'email', 'friend', 'informal', 'communication'],
-  'audioScript': "Chào Emma, đã lâu rồi chúng ta chưa nói chuyện!\nTôi viết email này để kể cho bạn về chuyến đi Tokyo tháng trước.\nCho tôi biết khi nào bạn rảnh để gặp nhé!\n",
+  'audioScript': "Hi Emma, it's been a while since we last spoke!\nI'm writing to tell you about my trip to Tokyo last month.\nLet me know when you're free to catch up!\n",
   'listeningEnabled': true,
   'flashcardCount': 6,
   'quiz':
     [
       {
         'type': 'choice',
-        'prompt': 'Lời chào nào phù hợp nhất với bạn thân?',
+        'prompt': 'Which greeting is most appropriate for a close friend?',
         'options': ['Dear Sir/Madam,', 'Hi [Name],', 'To Whom It May Concern,'],
         'answer': 'Hi [Name],',
       },
-      { 'type': 'fill', 'prompt': 'Đã lâu rồi ___ chúng ta chưa nói chuyện.', 'answer': 'since' },
+      { 'type': 'fill', 'prompt': "It's been a while ___ we last spoke.", 'answer': 'since' },
       {
         'type': 'choice',
-        'prompt': 'Lời kết thúc nào phù hợp nhất cho email thân mật?',
+        'prompt': 'Which closing is most suitable for an informal email?',
         'options': ['Yours faithfully,', 'Best regards,', 'Love,'],
         'answer': 'Love,',
       },
     ],
+  'categoryEn': 'Independent Workplace Communication',
+  'categoryVi': 'Giao tiếp Công việc Độc lập',
+  'prerequisites': ['b1-03-travel-blogs'],
 }
 ---
 
@@ -123,3 +126,42 @@ Trả lời ba câu hỏi trong phần quiz để hoàn thành bài học này.
 ## Bài học tiếp theo
 
 Ở bài **B1-05-review-unit1**, bạn sẽ ôn tập tất cả từ Unit 1: từ vựng du lịch, các thì quá khứ, đọc và viết.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Viết Email Cho Bạn bè** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** Hi Emma, it's been a while since we last spoke!
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Viết Email Cho Bạn bè**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> Hi Emma, it's been a while since we last spoke! I'm writing to tell you about my trip to Tokyo last month. Let me know when you're free to catch up!
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+
+<!-- learning-loop:end -->

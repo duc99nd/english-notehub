@@ -13,46 +13,48 @@
   'cefr': 'C1',
   'minutes': 10,
   'tags': ['review', 'unit2', 'investor', 'grammar', 'policy', 'C1'],
-  'audioScript': "Hãy ôn tập Unit 2.\nBây giờ bạn có thể giao tiếp hiệu quả với nhà đầu tư.\nBạn có thể sử dụng các cấu trúc ngữ pháp C1 nâng cao.\nBạn có thể đọc tài liệu chính sách.\nBạn có thể viết tóm tắt điều hành.\n",
+  'audioScript': "Let's review Unit 2.\nYou can now communicate effectively with investors.\nYou can use advanced C1 grammar structures.\nYou can read policy documents.\nYou can write executive summaries.\n",
   'listeningEnabled': true,
   'flashcardCount': 20,
   'quiz':
     [
       {
         'type': 'choice',
-        'prompt': 'EPS là viết tắt của gì?',
-        'options':
-          ['Thu nhập trên mỗi cổ phiếu', 'Tóm tắt lợi nhuận điều hành', 'Tiêu chuẩn giá vốn'],
-        'answer': 'Thu nhập trên mỗi cổ phiếu',
+        'prompt': 'What does "EPS" stand for?',
+        'options': ['Earnings per share', 'Executive profit summary', 'Equity price standard'],
+        'answer': 'Earnings per share',
       },
       {
         'type': 'fill',
-        'prompt': '___ chúng tôi chưa thấy tăng trưởng nhanh như vậy trong phân khúc này.',
-        'answer': 'Chưa bao giờ',
+        'prompt': '___ have we seen such rapid growth in this segment.',
+        'answer': 'Never',
       },
       {
         'type': 'choice',
-        'prompt': 'Câu nào là cấu trúc giả định?',
+        'prompt': 'Which is a subjunctive construction?',
         'options':
           [
-            'Chúng tôi sẽ phê duyệt ngân sách.',
-            'Điều cần thiết là ngân sách phải được phê duyệt.',
-            'Ngân sách đã được phê duyệt hôm qua.',
+            'We will approve the budget.',
+            'It is essential that the budget be approved.',
+            'The budget was approved yesterday.',
           ],
-        'answer': 'Điều cần thiết là ngân sách phải được phê duyệt.',
+        'answer': 'It is essential that the budget be approved.',
       },
       {
         'type': 'fill',
-        'prompt': 'Tất cả nhân viên ___ hoàn thành khóa đào tạo trước ngày 31 tháng 3.',
-        'answer': 'phải',
+        'prompt': 'All employees ___ complete the training by March 31.',
+        'answer': 'must',
       },
       {
         'type': 'choice',
-        'prompt': 'Theo BLUF, điều gì đến đầu tiên?',
-        'options': ['Bối cảnh', 'Khuyến nghị', 'Rủi ro'],
-        'answer': 'Khuyến nghị',
+        'prompt': 'According to BLUF, what comes first?',
+        'options': ['Background', 'Recommendation', 'Risks'],
+        'answer': 'Recommendation',
       },
     ],
+  'categoryEn': 'Strategic Professional Communication',
+  'categoryVi': 'Giao tiếp Chuyên nghiệp Chiến lược',
+  'prerequisites': ['c1-09-executive-summary'],
 }
 ---
 
@@ -114,3 +116,47 @@ Trả lời 5 câu quiz để kiểm tra sự thành thạo Unit 2 của bạn.
 ## What to learn next
 
 Tiếp tục **Unit 3** với **C1-11-academic-discourse**.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Ôn tập Unit 2** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** Let's review Unit 2.
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Ôn tập Unit 2**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> Let's review Unit 2. You can now communicate effectively with investors. You can use advanced C1 grammar structures. You can read policy documents. You can write executive summaries.
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Chuyển đổi register
+
+Viết lại câu trả lời hai lần: một bản cho đồng đội thân quen và một bản cho khách hàng hoặc stakeholder cấp cao. Giữ nguyên thông điệp nhưng thay đổi độ trực tiếp, lượng bối cảnh và mức giải thích. Chỉ ra một cụm từ bạn đã làm mềm, một chi tiết bạn nói rõ hơn và một giả định bạn đã loại bỏ.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+- [ ] Mình đã giới hạn mức độ chắc chắn của nhận định và điều chỉnh register theo người nghe.
+
+<!-- learning-loop:end -->

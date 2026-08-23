@@ -11,7 +11,7 @@
   'skill': 'grammar',
   'order': 7,
   'cefr': 'A1',
-  'minutes': 8,
+  'minutes': 21,
   'tags': ['food', 'drinks', 'restaurant', 'countable', 'uncountable', 'grammar'],
   'audioScript': "I would like some rice and chicken, please.\nI drink water every day. Sometimes I drink coffee.\nFor breakfast, I eat bread and eggs.\nDo you like fruit?\n",
   'listeningEnabled': true,
@@ -20,13 +20,13 @@
     [
       {
         'type': 'choice',
-        'prompt': "Điền: 'I would like ___ rice, please.'",
+        'prompt': "Complete: 'I would like ___ rice, please.'",
         'options': ['any', 'some', 'a'],
         'answer': 'some',
       },
       {
         'type': 'choice',
-        'prompt': 'Câu nào đúng?',
+        'prompt': 'Which is correct?',
         'options':
           [
             'I would like a water, please.',
@@ -38,16 +38,15 @@
       },
       {
         'type': 'choice',
-        'prompt': 'Cách lịch sự để xin tính tiền ở nhà hàng?',
+        'prompt': 'What is the polite way to ask for the check at a restaurant?',
         'options': ['Money now.', 'Pay me.', 'The bill, please.', 'Check please give.'],
         'answer': 'The bill, please.',
       },
-      {
-        'type': 'fill',
-        'prompt': 'I ___ like some chicken, please. (muốn = would)',
-        'answer': 'would',
-      },
+      { 'type': 'fill', 'prompt': 'I ___ like some chicken, please. (muốn)', 'answer': 'would' },
     ],
+  'categoryEn': 'Foundation English',
+  'categoryVi': 'Tiếng Anh Nền tảng',
+  'prerequisites': ['a1-06-time-place'],
 }
 ---
 
@@ -199,17 +198,17 @@ Tưởng tượng bạn đang ở một quán cà phê. Viết đơn gọi món 
 
 > Waiter: Are you ready to order?
 >
-> You: Yes. I'd like ****\_\_**** for my main, and ****\_\_**** to drink.
+> You: Yes. I'd like \***\*\_\_\*\*** for my main, and \***\*\_\_\*\*** to drink.
 >
 > Waiter: Anything else?
 >
-> You: ****\_\_****, please. (món tráng miệng / món phụ / thêm)
+> You: \***\*\_\_\*\***, please. (món tráng miệng / món phụ / thêm)
 >
 > Waiter: Sure. I'll be right back.
 
 Sau đó viết những gì người phục vụ mang ra:
 
-> The waiter brings: ****\_\_**** and ****\_\_****.
+> The waiter brings: \***\*\_\_\*\*** and \***\*\_\_\*\***.
 
 **Tự kiểm tra**:
 
@@ -238,3 +237,42 @@ Nhấn play, sau đó lặp lại từng dòng.
 ## Bài học tiếp theo
 
 Ở bài **A1-08-weather**, bạn sẽ học từ vựng về thời tiết (sunny, rainy, hot, cold) và cách nói chuyện về thời tiết — một cách mở đầu cuộc trò chuyện chắc chắn với người lạ.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Thức ăn & Đồ uống** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** I would like some rice and chicken, please.
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Thức ăn & Đồ uống**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> I would like some rice and chicken, please. I drink water every day. Sometimes I drink coffee. For breakfast, I eat bread and eggs. Do you like fruit?
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+
+<!-- learning-loop:end -->

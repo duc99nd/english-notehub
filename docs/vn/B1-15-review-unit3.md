@@ -11,43 +11,47 @@
   'skill': 'review',
   'order': 15,
   'cefr': 'B1',
-  'minutes': 10,
+  'minutes': 11,
   'tags': ['review', 'unit3', 'food', 'conditionals', 'writing', 'vocabulary', 'grammar'],
-  'audioScript': "Hãy ôn tập những gì chúng ta đã học trong Unit 3.\nBây giờ bạn có thể nói về đồ ăn và nấu ăn.\nBạn hiểu câu điều kiện loại 1 và loại 2.\nBạn có thể viết đánh giá và bài đăng blog.\n",
+  'audioScript': "Let's review what we learned in Unit 3.\nYou can now talk about food and cooking.\nYou understand first and second conditionals.\nYou can write reviews and blog posts.\n",
   'listeningEnabled': true,
   'flashcardCount': 16,
   'quiz':
     [
       {
         'type': 'choice',
-        'prompt': 'Phương pháp nấu nào nghĩa là nấu trong dầu nóng?',
-        'options': ['Đun sôi', 'Nướng', 'Chiên'],
-        'answer': 'Chiên',
+        'prompt': 'Which cooking method means to cook in hot oil?',
+        'options': ['To boil', 'To bake', 'To fry'],
+        'answer': 'To fry',
       },
       {
         'type': 'fill',
-        'prompt': 'If I ___ (have) nhiều tiền hơn, tôi sẽ mua một ngôi nhà.',
+        'prompt': 'If I ___ (have) a lot of money, I would buy a house.',
         'answer': 'had',
       },
       {
         'type': 'choice',
-        'prompt': 'Câu nào là Câu Điều kiện Loại 1 đúng?',
+        'prompt': 'Which is the correct First Conditional?',
         'options':
           ['If I studied, I would pass.', 'If I study, I will pass.', 'If I studied, I will pass.'],
         'answer': 'If I study, I will pass.',
       },
       {
         'type': 'fill',
-        'prompt': 'Đồ ăn tuyệt đến mức — nó ngon không thể tin được!',
+        'prompt': 'The food was absolutely ___ — it was delicious!',
         'answer': 'delicious',
       },
       {
         'type': 'choice',
-        'prompt': 'Overall (nhìn chung) nghĩa là gì trong một bài đánh giá?',
-        'options': ['Ở phần mở đầu', 'Nói chung / Xem xét tất cả', 'Chỉ các điểm tích cực'],
-        'answer': 'Nói chung / Xem xét tất cả',
+        'prompt': "What does 'overall' mean in a review?",
+        'options':
+          ['At the beginning', 'In general / considering everything', 'Only the positive points'],
+        'answer': 'In general / considering everything',
       },
     ],
+  'categoryEn': 'Independent Workplace Communication',
+  'categoryVi': 'Giao tiếp Công việc Độc lập',
+  'prerequisites': ['b1-14-blog-review'],
 }
 ---
 
@@ -115,3 +119,42 @@ Bạn đã hoàn thành cả ba unit của B1 English! Tiếp tục luyện tậ
 ## Bài học tiếp theo
 
 Chúc mừng bạn đã hoàn thành mức B1! Tiếp tục với các bài học nâng cao hơn ở B2 để mở rộng kỹ năng tiếng Anh của bạn.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Ôn tập Unit 3** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** Let's review what we learned in Unit 3.
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Ôn tập Unit 3**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> Let's review what we learned in Unit 3. You can now talk about food and cooking. You understand first and second conditionals. You can write reviews and blog posts.
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+
+<!-- learning-loop:end -->

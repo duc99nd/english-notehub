@@ -11,8 +11,40 @@
   'skill': 'writing',
   'order': 9,
   'cefr': 'C2',
-  'minutes': 5,
+  'minutes': 13,
   'tags': ['legal', 'contracts', 'law', 'formal', 'writing', 'precision', 'drafting'],
+  'categoryEn': 'Expert Register and Influence',
+  'categoryVi': 'Sắc thái và Ảnh hưởng Chuyên sâu',
+  'prerequisites': ['c2-08-diplomatic-language'],
+  'audioScript': "Legal language evolved to eliminate ambiguity and protect all parties.\nDefinitions sections are the foundation of legal precision.\nBoilerplate clauses are not merely standard—they serve specific protective functions.\n",
+  'listeningEnabled': true,
+  'flashcardCount': 6,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': 'What is the purpose of the definitions section in a legal contract?',
+        'options':
+          [
+            'To impress readers with complexity',
+            'To eliminate ambiguity by establishing precise meanings',
+            'To satisfy legal requirements',
+            'To provide examples',
+          ],
+        'answer': 'To eliminate ambiguity by establishing precise meanings',
+      },
+      {
+        'type': 'choice',
+        'prompt': 'Which word, when used in a contract, creates the strongest obligation?',
+        'options': ['May', 'Should', 'Shall', 'Might'],
+        'answer': 'Shall',
+      },
+      {
+        'type': 'fill',
+        'prompt': 'The parties hereby ___ that they have read and understood the terms of this agreement.',
+        'answer': 'acknowledge',
+      },
+    ],
 }
 ---
 
@@ -111,3 +143,47 @@ Những điều khoản "tiêu chuẩn" này phục vụ các chức năng thi�
 ## Bài học tiếp theo
 
 Trong **C2-10-review-unit2**, bạn sẽ củng cố các kỹ năng nói, đọc và viết từ Unit 2.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Hợp đồng Pháp lý** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** Legal language evolved to eliminate ambiguity and protect all parties.
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Hợp đồng Pháp lý**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> Legal language evolved to eliminate ambiguity and protect all parties. Definitions sections are the foundation of legal precision. Boilerplate clauses are not merely standard—they serve specific protective functions.
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Chuyển đổi register
+
+Viết lại câu trả lời hai lần: một bản cho đồng đội thân quen và một bản cho khách hàng hoặc stakeholder cấp cao. Giữ nguyên thông điệp nhưng thay đổi độ trực tiếp, lượng bối cảnh và mức giải thích. Chỉ ra một cụm từ bạn đã làm mềm, một chi tiết bạn nói rõ hơn và một giả định bạn đã loại bỏ. Sau đó, viết thêm một cách diễn giải hợp lý khác của bài mẫu và nêu bằng chứng ngữ cảnh cần có để chọn giữa hai cách hiểu.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+- [ ] Mình đã giới hạn mức độ chắc chắn của nhận định và điều chỉnh register theo người nghe.
+
+<!-- learning-loop:end -->

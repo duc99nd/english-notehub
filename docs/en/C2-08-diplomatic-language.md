@@ -11,7 +11,7 @@
   'skill': 'reading',
   'order': 8,
   'cefr': 'C2',
-  'minutes': 5,
+  'minutes': 14,
   'tags': ['diplomacy', 'treaties', 'formal', 'international', 'correspondence', 'register'],
   'audioScript': "Diplomatic language prioritizes face-saving and ambiguity management.\nTreaties use deliberate vagueness to accommodate multiple interpretations.\nUnderstanding diplomatic register requires attention to what is NOT said.\n",
   'listeningEnabled': true,
@@ -48,6 +48,9 @@
         'answer': 'diplomatic',
       },
     ],
+  'categoryEn': 'Expert Register and Influence',
+  'categoryVi': 'Sắc thái và Ảnh hưởng Chuyên sâu',
+  'prerequisites': ['c2-07-panel-discussion'],
 }
 ---
 
@@ -70,13 +73,13 @@ Diplomatic language operates on principles fundamentally different from academic
 
 ### Treaty Language
 
-Treaties are masterpieces of calculated ambiguity:
+Treaties sometimes use carefully qualified language so parties can agree on a workable obligation. The force of a phrase depends on the instrument, jurisdiction, definitions, and surrounding clauses; the notes below are language guidance, not legal interpretation.
 
-> **Pattern**: `The parties shall endeavour to...` (not "will" — weaker obligation)
+> **Pattern**: `The parties shall endeavour to...` (expresses an obligation to make an effort; its legal effect is context-dependent)
 
 > **Pattern**: `It is understood that...` (establishes mutual interpretation without legal binding)
 
-> **Pattern**: `Pending the outcome of consultations...` (delays indefinitely)
+> **Pattern**: `Pending the outcome of consultations...` (postpones action until the stated process produces an outcome)
 
 ### Common Treaty Phrases and Their Functions
 
@@ -107,11 +110,11 @@ Official statements use specific registers:
 > Translation: Some progress, but significant disagreements remain.
 
 > **Pattern**: `Both parties exchanged views on...`
-> Translation: They disagreed on everything and found no common ground.
+> Interpretation: This is deliberately neutral. It confirms discussion but does not, by itself, tell us whether the parties agreed.
 
 ## Degrees of Diplomatic Displeasure
 
-Understanding escalation levels is crucial:
+These expressions can suggest increasing concern, but they are not a universal or fixed escalation scale. Speaker, institution, timing, and accompanying action all change their force:
 
 | Expression                    | Level    | Action implied     |
 | ----------------------------- | -------- | ------------------ |
@@ -137,3 +140,47 @@ Test your ability to decode diplomatic language.
 ## What to learn next
 
 In **C2-09-legal-contracts**, you will apply your understanding of formal register to the precise language of legal documents and contracts.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to identify the main point, supporting detail, and register choices in a text about diplomatic language.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **diplomatic language** in this situation?
+>
+> **You:** Diplomatic language prioritizes face-saving and ambiguity management.
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Summarize the text in two sentences for a colleague, client, and senior stakeholder. Identify one claim, one supporting detail, and one phrase that signals the writer's attitude.
+
+### Model response
+
+> Diplomatic language prioritizes face-saving and ambiguity management. Treaties use deliberate vagueness to accommodate multiple interpretations. Understanding diplomatic register requires attention to what is NOT said.
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Register switch
+
+Rewrite your response twice: first for a trusted teammate, then for a client or senior stakeholder. Keep the underlying message the same while changing directness, context, and the amount of explanation. Identify one phrase you softened, one detail you made explicit, and one assumption you removed. Then write a plausible alternative interpretation of the model and explain which contextual evidence would help a reader choose between the two readings.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+- [ ] I qualified claims where certainty was limited and adjusted the register for my audience.
+
+<!-- learning-loop:end -->

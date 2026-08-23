@@ -43,6 +43,9 @@
         'answer': 'Dear Sir or Madam,',
       },
     ],
+  'categoryEn': 'Technical Leadership Communication',
+  'categoryVi': 'Giao tiếp Dẫn dắt Kỹ thuật',
+  'prerequisites': ['b2-14-formal-correspondence'],
 }
 ---
 
@@ -86,6 +89,51 @@ In Unit 3, you developed advanced communication skills for diverse professional 
 
 Answer the five quiz questions to test your Unit 3 mastery.
 
+Before checking the answers, explain how audience, relationship, and communication channel would change one of your choices. At B2, accuracy matters, but an effective response must also fit the social context.
+
 ## Congratulations!
 
 You have completed all 15 lessons of B2! Move on to **C1-01-executive-meetings** for advanced executive communication.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to combine the unit language to complete a realistic task about review unit 3.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **review unit 3** in this situation?
+>
+> **You:** Welcome to the final review of B2.
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Complete one integrated response for a colleague or classmate using language from at least three lessons in this unit.
+
+### Model response
+
+> Welcome to the final review of B2. You have mastered cultural communication. You can now write formal correspondence and analyze complex texts.
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Register switch
+
+Rewrite your response twice: first for a trusted teammate, then for a client or senior stakeholder. Keep the underlying message the same while changing directness, context, and the amount of explanation. Identify one phrase you softened, one detail you made explicit, and one assumption you removed.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+
+<!-- learning-loop:end -->

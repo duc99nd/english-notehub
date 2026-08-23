@@ -11,32 +11,28 @@
   'skill': 'grammar',
   'order': 12,
   'cefr': 'B1',
-  'minutes': 5,
+  'minutes': 11,
   'tags': ['conditionals', 'grammar', 'if-clause', 'first-conditional', 'second-conditional'],
-  'audioScript': "Nếu trời mưa ngày mai, tôi sẽ ở nhà.\nNếu tôi trúng xổ số, tôi sẽ đi du lịch khắp thế giới.\nNếu tôi có nhiều thời gian hơn, tôi sẽ học nấu ăn.\n",
+  'audioScript': "If it rains tomorrow, I'll stay at home.\nIf I won the lottery, I would travel the world.\nIf I had more time, I would learn to cook.\n",
   'listeningEnabled': true,
   'flashcardCount': 8,
   'quiz':
     [
       {
         'type': 'choice',
-        'prompt': 'Khi nào chúng ta dùng Câu Điều kiện Loại 1?',
+        'prompt': 'When do we use the First Conditional?',
         'options':
-          [
-            'Cho các tình huống tưởng tượng',
-            'Cho các tình huống thực và có thể xảy ra',
-            'Cho các sự kiện quá khứ',
-          ],
-        'answer': 'Cho các tình huống thực và có thể xảy ra',
+          ['For imaginary situations', 'For real and likely situations', 'For past events'],
+        'answer': 'For real and likely situations',
       },
       {
         'type': 'fill',
-        'prompt': 'If I ___ (have) nhiều tiền hơn, tôi sẽ mua một chiếc ô tô.',
+        'prompt': 'If I ___ (have) more money, I would buy a car.',
         'answer': 'had',
       },
       {
         'type': 'choice',
-        'prompt': 'Dạng đúng của Câu Điều kiện Loại 2 là gì?',
+        'prompt': 'What is the correct Second Conditional form?',
         'options':
           [
             'If she studies, she passes.',
@@ -46,6 +42,9 @@
         'answer': 'If she studied, she would pass.',
       },
     ],
+  'categoryEn': 'Independent Workplace Communication',
+  'categoryVi': 'Giao tiếp Công việc Độc lập',
+  'prerequisites': ['b1-11-food-cooking'],
 }
 ---
 
@@ -134,3 +133,42 @@ Trả lời ba câu hỏi trong phần quiz để hoàn thành bài học này.
 ## Bài học tiếp theo
 
 Ở bài **B1-13-recipe-menu**, bạn sẽ đọc công thức nấu ăn và thực đơn từ các nhà hàng.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Câu Điều kiện Loại 1 & Loại 2** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** If it rains tomorrow, I'll stay at home.
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Câu Điều kiện Loại 1 & Loại 2**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> If it rains tomorrow, I'll stay at home. If I won the lottery, I would travel the world. If I had more time, I would learn to cook.
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+
+<!-- learning-loop:end -->

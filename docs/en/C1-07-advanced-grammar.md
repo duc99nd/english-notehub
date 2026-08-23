@@ -11,7 +11,7 @@
   'skill': 'grammar',
   'order': 7,
   'cefr': 'C1',
-  'minutes': 5,
+  'minutes': 12,
   'tags': ['grammar', 'inversion', 'subjunctive', 'advanced', 'C1'],
   'audioScript': "Had we anticipated the disruption, we would have diversified earlier.\nNot only did the merger create synergies, but it also expanded our reach.\nIt is imperative that every stakeholder be informed of the changes.\n",
   'listeningEnabled': true,
@@ -41,6 +41,9 @@
         'answer': 'Hypothetical/wished situations',
       },
     ],
+  'categoryEn': 'Strategic Professional Communication',
+  'categoryVi': 'Giao tiếp Chuyên nghiệp Chiến lược',
+  'prerequisites': ['c1-06-investor-relations'],
 }
 ---
 
@@ -101,3 +104,47 @@ The subjunctive expresses wishes, hypotheticals, and strong recommendations.
 ## What to learn next
 
 In the next lesson **C1-08-policy-reading**, you will read and analyze policy documents.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to choose an appropriate structure and apply it accurately when discussing advanced c1 grammar.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **advanced c1 grammar** in this situation?
+>
+> **You:** Had we anticipated the disruption, we would have diversified earlier.
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Write four connected sentences for a colleague, client, and senior stakeholder. Use the target structure twice, then revise one sentence to change its tone or emphasis.
+
+### Model response
+
+> Had we anticipated the disruption, we would have diversified earlier. Not only did the merger create synergies, but it also expanded our reach. It is imperative that every stakeholder be informed of the changes.
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Register switch
+
+Rewrite your response twice: first for a trusted teammate, then for a client or senior stakeholder. Keep the underlying message the same while changing directness, context, and the amount of explanation. Identify one phrase you softened, one detail you made explicit, and one assumption you removed.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+- [ ] I qualified claims where certainty was limited and adjusted the register for my audience.
+
+<!-- learning-loop:end -->

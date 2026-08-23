@@ -11,36 +11,39 @@
   'skill': 'writing',
   'order': 14,
   'cefr': 'C1',
-  'minutes': 5,
+  'minutes': 11,
   'tags': ['writing', 'research', 'academic', 'structure', 'C1'],
-  'audioScript': "Bài viết này xem xét tác động của làm việc từ xa đến năng suất.\nPhương pháp luận sử dụng phương pháp hỗn hợp.\nCác phát hiện cho thấy sự cải thiện có ý nghĩa thống kê trong đầu ra.\n",
+  'audioScript': "This paper examines the impact of remote work on productivity.\nThe methodology employs a mixed-methods approach.\nThe findings indicate a statistically significant improvement in output.\n",
   'listeningEnabled': true,
   'flashcardCount': 6,
   'quiz':
     [
       {
         'type': 'choice',
-        'prompt': 'Cấu trúc chuẩn của bài nghiên cứu là gì?',
+        'prompt': 'What is the standard research paper structure?',
         'options':
           [
-            'Luận điểm → Thân bài → Kết luận',
-            'Tóm tắt → Giới thiệu → Phương pháp → Kết quả → Thảo luận',
-            'Giới thiệu → Lập luận → Kết thúc',
+            'Thesis → Body → Conclusion',
+            'Abstract → Introduction → Methodology → Results → Discussion',
+            'Introduction → Argument → End',
           ],
-        'answer': 'Tóm tắt → Giới thiệu → Phương pháp → Kết quả → Thảo luận',
+        'answer': 'Abstract → Introduction → Methodology → Results → Discussion',
       },
       {
         'type': 'fill',
-        'prompt': 'Phương pháp ___ sử dụng cách tiếp cận hỗn hợp trong mười hai tháng.',
-        'answer': 'luận',
+        'prompt': 'The ___ employs a mixed-methods approach over twelve months.',
+        'answer': 'methodology',
       },
       {
         'type': 'choice',
-        'prompt': 'Bạn nêu phát hiện chính ở đâu?',
-        'options': ['Phương pháp luận', 'Tóm tắt và Kết quả', 'Giới thiệu'],
-        'answer': 'Tóm tắt và Kết quả',
+        'prompt': 'Where do you state your main finding?',
+        'options': ['Methodology', 'Abstract and Results', 'Introduction'],
+        'answer': 'Abstract and Results',
       },
     ],
+  'categoryEn': 'Strategic Professional Communication',
+  'categoryVi': 'Giao tiếp Chuyên nghiệp Chiến lược',
+  'prerequisites': ['c1-13-critical-reading'],
 }
 ---
 
@@ -118,3 +121,47 @@ Di chuyển từ rộng đến hẹp:
 ## What to learn next
 
 Trong bài tiếp theo **C1-15-review-unit3**, bạn sẽ củng cố Unit 3 và hoàn thành chương trình C1.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Viết nghiên cứu** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** This paper examines the impact of remote work on productivity.
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Viết nghiên cứu**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> This paper examines the impact of remote work on productivity. The methodology employs a mixed-methods approach. The findings indicate a statistically significant improvement in output.
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Chuyển đổi register
+
+Viết lại câu trả lời hai lần: một bản cho đồng đội thân quen và một bản cho khách hàng hoặc stakeholder cấp cao. Giữ nguyên thông điệp nhưng thay đổi độ trực tiếp, lượng bối cảnh và mức giải thích. Chỉ ra một cụm từ bạn đã làm mềm, một chi tiết bạn nói rõ hơn và một giả định bạn đã loại bỏ.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+- [ ] Mình đã giới hạn mức độ chắc chắn của nhận định và điều chỉnh register theo người nghe.
+
+<!-- learning-loop:end -->

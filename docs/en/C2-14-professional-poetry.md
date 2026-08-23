@@ -11,7 +11,7 @@
   'skill': 'writing',
   'order': 14,
   'cefr': 'C2',
-  'minutes': 5,
+  'minutes': 14,
   'tags': ['poetry', 'professional', 'speech writing', 'commemorative', 'corporate', 'literary'],
   'audioScript': "Professional poetry serves purposes beyond artistic expression.\nMeter and rhyme create memorability; metaphor creates meaning.\nThe professional poet serves the occasion, not personal expression.\n",
   'listeningEnabled': true,
@@ -43,6 +43,9 @@
         'answer': 'brevity',
       },
     ],
+  'categoryEn': 'Expert Register and Influence',
+  'categoryVi': 'Sắc thái và Ảnh hưởng Chuyên sâu',
+  'prerequisites': ['c2-13-write-publish'],
 }
 ---
 
@@ -155,3 +158,47 @@ Test your understanding of professional poetry craft.
 ## What to learn next
 
 In **C2-15-review-unit3**, you will consolidate all skills from Unit 3 and the entire C2 course.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to produce and revise a clear piece of writing about professional poetry for a defined audience.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **professional poetry** in this situation?
+>
+> **You:** Professional poetry serves purposes beyond artistic expression.
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Write 80–120 words for a colleague, client, and senior stakeholder. State the purpose early, support it with a concrete detail, and finish with a clear next step.
+
+### Model response
+
+> Professional poetry serves purposes beyond artistic expression. Meter and rhyme create memorability; metaphor creates meaning. The professional poet serves the occasion, not personal expression.
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Register switch
+
+Rewrite your response twice: first for a trusted teammate, then for a client or senior stakeholder. Keep the underlying message the same while changing directness, context, and the amount of explanation. Identify one phrase you softened, one detail you made explicit, and one assumption you removed. Then write a plausible alternative interpretation of the model and explain which contextual evidence would help a reader choose between the two readings.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+- [ ] I qualified claims where certainty was limited and adjusted the register for my audience.
+
+<!-- learning-loop:end -->

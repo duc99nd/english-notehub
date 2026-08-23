@@ -11,7 +11,7 @@
   'skill': 'grammar',
   'order': 2,
   'cefr': 'B1',
-  'minutes': 5,
+  'minutes': 11,
   'tags':
     [
       'past-tenses',
@@ -22,30 +22,33 @@
       'past-continuous',
       'past-perfect',
     ],
-  'audioScript': "Tôi đang đi bộ xuống phố thì trời bắt đầu mưa.\nCô ấy đã đi rồi vào lúc tôi đến.\nChúng tôi đã ở bảo tàng ba tiếng hôm qua.\n",
+  'audioScript': "I was walking down the street when it started raining.\nShe had already left by the time I arrived.\nWe spent three hours at the museum yesterday.\n",
   'listeningEnabled': true,
   'flashcardCount': 8,
   'quiz':
     [
       {
         'type': 'choice',
-        'prompt': 'Thì nào diễn tả một hành động đang diễn ra trong quá khứ?',
-        'options': ['Quá khứ đơn', 'Quá khứ tiếp diễn', 'Tương lai đơn'],
-        'answer': 'Quá khứ tiếp diễn',
+        'prompt': 'Which tense describes an action in progress in the past?',
+        'options': ['Past Simple', 'Past Continuous', 'Future Simple'],
+        'answer': 'Past Continuous',
       },
-      { 'type': 'fill', 'prompt': 'Tôi ___ (study) khi điện thoại reo.', 'answer': 'was studying' },
+      { 'type': 'fill', 'prompt': 'I ___ (study) when the phone rang.', 'answer': 'was studying' },
       {
         'type': 'choice',
-        'prompt': 'Khi nào chúng ta dùng Quá khứ hoàn thành?',
+        'prompt': 'When do we use Past Perfect?',
         'options':
           [
-            'Cho các hành động xảy ra trước một hành động quá khứ khác',
-            'Cho các hành động hiện tại',
-            'Cho các kế hoạch tương lai',
+            'For actions that happened before another past action',
+            'For current actions',
+            'For future plans',
           ],
-        'answer': 'Cho các hành động xảy ra trước một hành động quá khứ khác',
+        'answer': 'For actions that happened before another past action',
       },
     ],
+  'categoryEn': 'Independent Workplace Communication',
+  'categoryVi': 'Giao tiếp Công việc Độc lập',
+  'prerequisites': ['b1-01-travel-transport'],
 }
 ---
 
@@ -128,3 +131,42 @@ Trả lời ba câu hỏi trong phần quiz để hoàn thành bài học này.
 ## Bài học tiếp theo
 
 Ở bài **B1-03-travel-blogs**, bạn sẽ đọc các bài blog du lịch và bưu thiếp từ khắp nơi trên thế giới.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Các Thì Quá khứ & Kể chuyện** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** I was walking down the street when it started raining.
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Các Thì Quá khứ & Kể chuyện**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> I was walking down the street when it started raining. She had already left by the time I arrived. We spent three hours at the museum yesterday.
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+
+<!-- learning-loop:end -->

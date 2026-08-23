@@ -11,32 +11,32 @@
   'skill': 'writing',
   'order': 14,
   'cefr': 'B1',
-  'minutes': 5,
+  'minutes': 12,
   'tags': ['writing', 'blog', 'review', 'opinion', 'experience', 'online'],
-  'audioScript': "Tôi mới thử nhà hàng mới này và tôi phải nói là nó tuyệt vời!\nKhông khí ấm cúng và nhân viên rất thân thiện.\nNhìn chung, tôi chắc chắn sẽ giới thiệu địa điểm này cho bất kỳ ai.\n",
+  'audioScript': "I recently tried this new restaurant and I have to say it was amazing!\nThe atmosphere was cozy and the staff were really friendly.\nOverall, I would definitely recommend this place to anyone.\n",
   'listeningEnabled': true,
   'flashcardCount': 6,
   'quiz':
     [
       {
         'type': 'choice',
-        'prompt': 'Mục đích của bài đánh giá là gì?',
+        'prompt': 'What is the purpose of a review?',
         'options':
           [
-            'Kể một câu chuyện hư cấu',
-            'Chia sẻ ý kiến của bạn về điều gì đó',
-            'Viết một lá thư trang trọng',
+            'To tell a fictional story',
+            'To share your opinion about something',
+            'To write a formal letter',
           ],
-        'answer': 'Chia sẻ ý kiến của bạn về điều gì đó',
+        'answer': 'To share your opinion about something',
       },
       {
         'type': 'fill',
-        'prompt': 'Đồ ăn tuyệt đến mức — tôi chưa bao giờ nếm món nào ngon hơn!',
+        'prompt': "The food was absolutely ___ — I've never tasted anything better!",
         'answer': 'delicious',
       },
       {
         'type': 'choice',
-        'prompt': 'Cụm từ nào phù hợp cho bài đánh giá tích cực?',
+        'prompt': 'Which phrase is good for a positive review?',
         'options':
           [
             'I would not recommend this.',
@@ -46,6 +46,9 @@
         'answer': 'I would definitely recommend this place.',
       },
     ],
+  'categoryEn': 'Independent Workplace Communication',
+  'categoryVi': 'Giao tiếp Công việc Độc lập',
+  'prerequisites': ['b1-13-recipe-menu'],
 }
 ---
 
@@ -131,3 +134,42 @@ Trả lời ba câu hỏi trong phần quiz để hoàn thành bài học này.
 ## Bài học tiếp theo
 
 Ở bài **B1-15-review-unit3**, bạn sẽ ôn tập tất cả từ Unit 3: từ vựng đồ ăn, câu điều kiện, đọc và viết.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Viết Bài đăng Blog hoặc Đánh giá** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** I recently tried this new restaurant and I have to say it was amazing!
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Viết Bài đăng Blog hoặc Đánh giá**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> I recently tried this new restaurant and I have to say it was amazing! The atmosphere was cozy and the staff were really friendly. Overall, I would definitely recommend this place to anyone.
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+
+<!-- learning-loop:end -->

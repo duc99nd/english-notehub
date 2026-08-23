@@ -11,38 +11,34 @@
   'skill': 'review',
   'order': 5,
   'cefr': 'B1',
-  'minutes': 10,
+  'minutes': 11,
   'tags': ['review', 'unit1', 'travel', 'past-tenses', 'writing', 'vocabulary', 'grammar'],
-  'audioScript': "Hãy ôn tập những gì chúng ta đã học trong Unit 1.\nBây giờ bạn có thể nói về du lịch và phương tiện.\nBạn có thể mô tả các sự kiện quá khứ sử dụng các thì khác nhau.\nBạn có thể đọc và viết blog du lịch và email.\n",
+  'audioScript': "Let's review what we learned in Unit 1.\nYou can now talk about travel and transport.\nYou can describe past events using different tenses.\nYou can read and write travel blogs and emails.\n",
   'listeningEnabled': true,
   'flashcardCount': 16,
   'quiz':
     [
       {
         'type': 'choice',
-        'prompt': 'Dạng Quá khứ tiếp diễn của "walk" với chủ ngữ "she" là gì?',
+        'prompt': 'What is the Past Continuous form of "walk" for "she"?',
         'options': ['She walked', 'She was walking', 'She is walking'],
         'answer': 'She was walking',
       },
       {
         'type': 'fill',
-        'prompt': 'Tôi ___ (see) phim rồi trước khi bạn giới thiệu. (Quá khứ hoàn thành)',
+        'prompt': 'I ___ (see) the movie before you recommended it. (Past Perfect)',
         'answer': 'had seen',
       },
       {
         'type': 'choice',
-        'prompt': 'Cách nào đúng để chào tạm biệt bạn trong email?',
+        'prompt': 'Which is the correct way to say goodbye to a friend in an email?',
         'options': ['Yours faithfully,', 'To whom it may concern,', 'Love,'],
         'answer': 'Love,',
       },
-      {
-        'type': 'fill',
-        'prompt': 'Chuyến bay của tôi ___ lúc 8 giờ tối mai.',
-        'answer': 'departs',
-      },
+      { 'type': 'fill', 'prompt': 'My flight ___ at 8 PM tomorrow.', 'answer': 'departs' },
       {
         'type': 'choice',
-        'prompt': 'Câu nào sử dụng đúng các thì quá khứ?',
+        'prompt': 'Which sentence correctly uses past tenses?',
         'options':
           [
             'I was walking when I saw her.',
@@ -52,6 +48,9 @@
         'answer': 'I was walking when I saw her.',
       },
     ],
+  'categoryEn': 'Independent Workplace Communication',
+  'categoryVi': 'Giao tiếp Công việc Độc lập',
+  'prerequisites': ['b1-04-email-friend'],
 }
 ---
 
@@ -113,3 +112,42 @@ Trong Unit 1, bạn đã học bốn kỹ năng quan trọng để nói về du 
 ## Bài học tiếp theo
 
 Tiếp tục với **B1-06-work-routines** để học từ vựng về công việc và thói quen hàng ngày trong Unit 2.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Ôn tập Unit 1** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** Let's review what we learned in Unit 1.
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Ôn tập Unit 1**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> Let's review what we learned in Unit 1. You can now talk about travel and transport. You can describe past events using different tenses. You can read and write travel blogs and emails.
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+
+<!-- learning-loop:end -->

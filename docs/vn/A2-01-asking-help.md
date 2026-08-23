@@ -11,32 +11,34 @@
   'skill': 'vocab',
   'order': 1,
   'cefr': 'A2',
-  'minutes': 5,
+  'minutes': 10,
   'tags': ['asking-help', 'polite', 'daily', 'vocabulary'],
-  'audioScript': "Xin lỗi, bạn có thể giúp tôi với chiếc túi này không?\nXin lỗi đã làm phiền, nhưng tôi cần giúp đỡ.\nBạn có phiền giúp tôi không?\n",
+  'audioScript': "Excuse me, could you help me with this bag?\nSorry to bother you, but I need some help.\nWould you mind helping me, please?\n",
   'listeningEnabled': true,
   'flashcardCount': 6,
   'quiz':
     [
       {
         'type': 'choice',
-        'prompt': 'Làm thế nào để lịch sự nhờ ai đó giúp bạn mang một chiếc hộp nặng?',
-        'options':
-          ['Đưa cái hộp đó cho tôi.', 'Bạn có thể giúp tôi với cái hộp này không?', 'Giúp tôi!'],
-        'answer': 'Bạn có thể giúp tôi với cái hộp này không?',
+        'prompt': 'How do you politely ask someone to help you carry a heavy box?',
+        'options': ['Give me that box.', 'Could you help me with this box, please?', 'Help!'],
+        'answer': 'Could you help me with this box, please?',
       },
       {
         'type': 'fill',
-        'prompt': 'Xin lỗi, bạn ___ giúp tôi tìm nhà ga được không?',
-        'answer': 'có thể',
+        'prompt': 'Excuse me, ___ you help me find the station?',
+        'answer': 'could',
       },
       {
         'type': 'choice',
-        'prompt': 'Câu nào là lịch sự nhất?',
-        'options': ['Làm cái này cho tôi.', 'Bạn có phiền giúp tôi không?', 'Đến đây!'],
-        'answer': 'Bạn có phiền giúp tôi không?',
+        'prompt': 'Which phrase is the most polite?',
+        'options': ['Do this for me.', 'Would you mind helping me?', 'Come here!'],
+        'answer': 'Would you mind helping me?',
       },
     ],
+  'categoryEn': 'Everyday Workplace English',
+  'categoryVi': 'Tiếng Anh Công việc Hằng ngày',
+  'prerequisites': ['a1-15-review-unit3'],
 }
 ---
 
@@ -80,3 +82,42 @@ Nhấn nút play để nghe audio. Sau đó lặp lại từng câu thành tiế
 ## Bài học tiếp theo
 
 Ở bài **A2-02-daily-routine**, bạn sẽ học cách nói về thói quen hàng ngày bằng tiếng Anh.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Hỏi xin giúp đỡ** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** Excuse me, could you help me with this bag?
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Hỏi xin giúp đỡ**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> Excuse me, could you help me with this bag? Sorry to bother you, but I need some help. Would you mind helping me, please?
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+
+<!-- learning-loop:end -->

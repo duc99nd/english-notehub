@@ -11,7 +11,7 @@
   'skill': 'vocab',
   'order': 6,
   'cefr': 'A2',
-  'minutes': 5,
+  'minutes': 10,
   'tags': ['email', 'writing', 'vocabulary', 'communication'],
   'audioScript': "Dear Sir or Madam, I am writing to inquire about your services.\nThank you for your email.\nI look forward to hearing from you.\n",
   'listeningEnabled': true,
@@ -36,6 +36,9 @@
         'answer': 'Best regards',
       },
     ],
+  'categoryEn': 'Everyday Workplace English',
+  'categoryVi': 'Tiếng Anh Công việc Hằng ngày',
+  'prerequisites': ['a2-05-review-unit1'],
 }
 ---
 
@@ -94,3 +97,42 @@ Answer the three questions in the quiz section to finish this lesson.
 ## What to learn next
 
 In the next lesson **A2-07-phone-call**, you will learn how to handle phone calls in English.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to select and use useful language for email basics in a short, realistic exchange.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **email basics** in this situation?
+>
+> **You:** Dear Sir or Madam, I am writing to inquire about your services.
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Create a four-line exchange with a colleague or classmate. Use at least three target expressions from **Email Basics** and add one follow-up question.
+
+### Model response
+
+> Dear Sir or Madam, I am writing to inquire about your services. Thank you for your email. I look forward to hearing from you.
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+
+<!-- learning-loop:end -->

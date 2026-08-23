@@ -11,7 +11,7 @@
   'skill': 'vocab',
   'order': 11,
   'cefr': 'C2',
-  'minutes': 5,
+  'minutes': 13,
   'tags': ['research', 'academic', 'defense', 'PhD', 'methodology', 'vocabulary'],
   'audioScript': "Research presentations require precise methodological vocabulary.\nDefense rhetoric balances confidence with epistemic humility.\nScholarly hedging maintains credibility while asserting findings.\n",
   'listeningEnabled': true,
@@ -48,6 +48,9 @@
         'answer': 'consistent',
       },
     ],
+  'categoryEn': 'Expert Register and Influence',
+  'categoryVi': 'Sắc thái và Ảnh hưởng Chuyên sâu',
+  'prerequisites': ['c2-10-review-unit2'],
 }
 ---
 
@@ -128,3 +131,47 @@ Test your research presentation vocabulary mastery.
 ## What to learn next
 
 In **C2-12-debate-formal**, you will explore the grammar of formal parliamentary and academic debate.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to select and use useful language for research presentation vocabulary in a short, realistic exchange.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **research presentation vocabulary** in this situation?
+>
+> **You:** Research presentations require precise methodological vocabulary.
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Create a four-line exchange with a colleague, client, and senior stakeholder. Use at least three target expressions from **Research Presentation Vocabulary** and add one follow-up question.
+
+### Model response
+
+> Research presentations require precise methodological vocabulary. Defense rhetoric balances confidence with epistemic humility. Scholarly hedging maintains credibility while asserting findings.
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Register switch
+
+Rewrite your response twice: first for a trusted teammate, then for a client or senior stakeholder. Keep the underlying message the same while changing directness, context, and the amount of explanation. Identify one phrase you softened, one detail you made explicit, and one assumption you removed. Then write a plausible alternative interpretation of the model and explain which contextual evidence would help a reader choose between the two readings.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+- [ ] I qualified claims where certainty was limited and adjusted the register for my audience.
+
+<!-- learning-loop:end -->

@@ -66,7 +66,7 @@ const pitfalls: PitfallItem[] = [
     good: 'This is currently outside our sprint scope; should we ticket it for next cycle?',
     tag: 'Scrum Alignment',
     whyEn:
-      "Never say 'cannot'. Point back to the sprint boundary and propose ticket creation for proper planning.",
+      "Avoid stopping at 'cannot'. Explain the current constraint and propose a realistic planning option.",
     whyVi:
       'Tránh nói thẳng "không làm được". Hãy viện dẫn phạm vi sprint và đề xuất tạo ticket để lập kế hoạch trong đợt sau.',
   },

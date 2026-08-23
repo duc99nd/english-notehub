@@ -11,7 +11,7 @@
   'skill': 'writing',
   'order': 7,
   'cefr': 'B2',
-  'minutes': 5,
+  'minutes': 10,
   'tags': ['writing', 'proposal', 'business', 'B2'],
   'audioScript': "This proposal outlines our three-phase approach to digital transformation.\nOur solution will deliver measurable ROI within twelve months.\nWe are confident this partnership will yield significant long-term value.\n",
   'listeningEnabled': true,
@@ -36,6 +36,9 @@
         'answer': 'yield',
       },
     ],
+  'categoryEn': 'Technical Leadership Communication',
+  'categoryVi': 'Giao tiếp Dẫn dắt Kỹ thuật',
+  'prerequisites': ['b2-06-business-article'],
 }
 ---
 
@@ -86,3 +89,46 @@ Test your proposal writing knowledge in the quiz section.
 ## What to learn next
 
 In the next lesson **B2-08-data-storytelling**, you will learn to present data insights with impact.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to produce and revise a clear piece of writing about proposal writing for a defined audience.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **proposal writing** in this situation?
+>
+> **You:** This proposal outlines our three-phase approach to digital transformation.
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Write 80–120 words for a colleague or classmate. State the purpose early, support it with a concrete detail, and finish with a clear next step.
+
+### Model response
+
+> This proposal outlines our three-phase approach to digital transformation. Our solution will deliver measurable ROI within twelve months. We are confident this partnership will yield significant long-term value.
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Register switch
+
+Rewrite your response twice: first for a trusted teammate, then for a client or senior stakeholder. Keep the underlying message the same while changing directness, context, and the amount of explanation. Identify one phrase you softened, one detail you made explicit, and one assumption you removed.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+
+<!-- learning-loop:end -->

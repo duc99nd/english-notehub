@@ -11,31 +11,34 @@
   'skill': 'vocab',
   'order': 8,
   'cefr': 'B2',
-  'minutes': 5,
+  'minutes': 10,
   'tags': ['data', 'storytelling', 'presentation', 'B2'],
-  'audioScript': "Dữ liệu cho thấy xu hướng tăng rõ rệt trong quý vừa qua.\nPhát hiện của chúng tôi nhấn mạnh sự cần thiết phải can thiệp ngay.\nSố liệu này là chỉ số quan trọng về sự hài lòng của khách hàng.\n",
+  'audioScript': "The data reveals a clear upward trend over the last quarter.\nOur findings underscore the need for immediate intervention.\nThis metric serves as a key indicator of customer satisfaction.\n",
   'listeningEnabled': true,
   'flashcardCount': 6,
   'quiz':
     [
       {
         'type': 'choice',
-        'prompt': 'Underscore có nghĩa là gì?',
-        'options': ['Ẩn giấu', 'Nhấn mạnh', 'Tính toán'],
-        'answer': 'Nhấn mạnh',
+        'prompt': 'What does "underscore" mean?',
+        'options': ['To hide', 'To emphasize', 'To calculate'],
+        'answer': 'To emphasize',
       },
       {
         'type': 'fill',
-        'prompt': 'Số liệu này ___ như một chỉ số quan trọng.',
-        'answer': 'đóng vai trò',
+        'prompt': 'This metric ___ as a key indicator of customer satisfaction.',
+        'answer': 'serves',
       },
       {
         'type': 'choice',
-        'prompt': 'Xu hướng đi lên nghĩa là:',
-        'options': ['Số liệu đang giảm', 'Số liệu đang tăng', 'Số liệu ổn định'],
-        'answer': 'Số liệu đang tăng',
+        'prompt': "An \\ upward trend\\\" means:\"",
+        'options': ['Numbers are decreasing', 'Numbers are increasing', 'Numbers are stable'],
+        'answer': 'Numbers are increasing',
       },
     ],
+  'categoryEn': 'Technical Leadership Communication',
+  'categoryVi': 'Giao tiếp Dẫn dắt Kỹ thuật',
+  'prerequisites': ['b2-07-proposal-writing'],
 }
 ---
 
@@ -80,3 +83,46 @@ Kiểm tra từ vựng kể chuyện dữ liệu trong phần quiz.
 ## What to learn next
 
 Trong bài tiếp theo **B2-09-conditionals-advanced**, bạn sẽ làm chủ câu điều kiện loại 3 và câu điều kiện hỗn hợp.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Kể chuyện bằng dữ liệu** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** The data reveals a clear upward trend over the last quarter.
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Kể chuyện bằng dữ liệu**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> The data reveals a clear upward trend over the last quarter. Our findings underscore the need for immediate intervention. This metric serves as a key indicator of customer satisfaction.
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Chuyển đổi register
+
+Viết lại câu trả lời hai lần: một bản cho đồng đội thân quen và một bản cho khách hàng hoặc stakeholder cấp cao. Giữ nguyên thông điệp nhưng thay đổi độ trực tiếp, lượng bối cảnh và mức giải thích. Chỉ ra một cụm từ bạn đã làm mềm, một chi tiết bạn nói rõ hơn và một giả định bạn đã loại bỏ.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+
+<!-- learning-loop:end -->

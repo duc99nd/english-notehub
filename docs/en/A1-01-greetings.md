@@ -11,7 +11,7 @@
   'skill': 'vocab',
   'order': 1,
   'cefr': 'A1',
-  'minutes': 8,
+  'minutes': 15,
   'tags': ['greetings', 'introduction', 'daily', 'foundation', 'speaking'],
   'audioScript': "Hello. My name is Anna. Nice to meet you.\nHi, I'm Duc. I'm from Vietnam.\nGood morning. How are you today?\nI'm fine, thank you. And you?\n",
   'listeningEnabled': true,
@@ -44,6 +44,9 @@
         'answer': "I'm happy to know you (first meeting).",
       },
     ],
+  'categoryEn': 'Foundation English',
+  'categoryVi': 'Tiếng Anh Nền tảng',
+  'prerequisites': [],
 }
 ---
 
@@ -126,7 +129,7 @@ When you meet someone, they usually ask a few questions in a row. Memorize the p
 
 Fill in the blanks, then read the introduction out loud three times.
 
-> My name is ****\_\_****. I'm from ****\_\_****. I work as ****\_\_****. In my free time, I like to ****\_\_****.
+> My name is \***\*\_\_\*\***. I'm from \***\*\_\_\*\***. I work as \***\*\_\_\*\***. In my free time, I like to \***\*\_\_\*\***.
 
 **Self-check**:
 
@@ -138,7 +141,7 @@ Fill in the blanks, then read the introduction out loud three times.
 
 ## Culture note: the handshake
 
-In most English-speaking workplaces, the greeting includes a **firm handshake** with eye contact. In more casual contexts (especially among younger people), a **wave**, a **nod**, or a **smile** is enough. Watch what the other person does and match their energy.
+Greeting customs vary by workplace, culture, accessibility needs, and personal preference. A handshake may be common in some settings, while a **wave**, **nod**, or **smile** is more appropriate in others. Follow the other person's cue and respect their personal space.
 
 ## Listen & repeat
 
@@ -152,3 +155,42 @@ Press play to hear the four sentences below, then repeat each one aloud. Pause a
 ## What to learn next
 
 In the next lesson **A1-02-numbers**, you will learn how to count from 1 to 100 and say phone numbers — the second thing people ask for right after your name.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to select and use useful language for greetings & self-introduction in a short, realistic exchange.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **greetings & self-introduction** in this situation?
+>
+> **You:** Hello. My name is Anna. Nice to meet you.
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Create a four-line exchange with a colleague or classmate. Use at least three target expressions from **Greetings & Self-introduction** and add one follow-up question.
+
+### Model response
+
+> Hello. My name is Anna. Nice to meet you. Hi, I'm Duc. I'm from Vietnam. Good morning. How are you today? I'm fine, thank you. And you?
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+
+<!-- learning-loop:end -->

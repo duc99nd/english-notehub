@@ -11,32 +11,34 @@
   'skill': 'vocab',
   'order': 11,
   'cefr': 'B1',
-  'minutes': 5,
+  'minutes': 11,
   'tags': ['food', 'cooking', 'ingredients', 'kitchen', 'meals', 'recipes'],
-  'audioScript': "Tối nay tôi sẽ nấu mì Ý cho bữa tối.\nĐầu tiên, bạn cần thái rau củ.\nCanh cần đun nhỏ lửa khoảng 20 phút.\n",
+  'audioScript': "I'm going to cook pasta for dinner tonight.\nFirst, you need to chop the vegetables.\nThe soup needs to simmer for about 20 minutes.\n",
   'listeningEnabled': true,
   'flashcardCount': 8,
   'quiz':
     [
       {
         'type': 'choice',
-        'prompt': 'To chop (thái) nghĩa là gì trong nấu ăn?',
-        'options': ['Đun sôi', 'Cắt thành từng miếng nhỏ', 'Khuấy'],
-        'answer': 'Cắt thành từng miếng nhỏ',
+        'prompt': "What does 'to chop' mean in cooking?",
+        'options': ['To boil', 'To cut into small pieces', 'To stir'],
+        'answer': 'To cut into small pieces',
       },
       {
         'type': 'fill',
-        'prompt': 'Bạn cần ___ hành tây trước khi cho vào chảo.',
+        'prompt': 'You need to ___ the onions before adding them to the pan.',
         'answer': 'chop',
       },
       {
         'type': 'choice',
-        'prompt': 'Ingredient (nguyên liệu) là gì?',
-        'options':
-          ['Một dụng cụ nấu ăn', 'Thứ gì đó bạn dùng trong công thức nấu ăn', 'Một loại nhà hàng'],
-        'answer': 'Thứ gì đó bạn dùng trong công thức nấu ăn',
+        'prompt': "What is an 'ingredient'?",
+        'options': ['A cooking tool', 'Something you use in a recipe', 'A type of restaurant'],
+        'answer': 'Something you use in a recipe',
       },
     ],
+  'categoryEn': 'Independent Workplace Communication',
+  'categoryVi': 'Giao tiếp Công việc Độc lập',
+  'prerequisites': ['b1-10-review-unit2'],
 }
 ---
 
@@ -118,3 +120,42 @@ Trả lời ba câu hỏi trong phần quiz để hoàn thành bài học này.
 ## Bài học tiếp theo
 
 Ở bài **B1-12-conditionals**, bạn sẽ học cách sử dụng câu điều kiện loại 1 và loại 2 để nói về các tình huống thực và tưởng tượng.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Đồ ăn & Nấu ăn** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** I'm going to cook pasta for dinner tonight.
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Đồ ăn & Nấu ăn**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> I'm going to cook pasta for dinner tonight. First, you need to chop the vegetables. The soup needs to simmer for about 20 minutes.
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+
+<!-- learning-loop:end -->

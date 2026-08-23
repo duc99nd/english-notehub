@@ -11,7 +11,7 @@
   'skill': 'vocab',
   'order': 12,
   'cefr': 'A1',
-  'minutes': 7,
+  'minutes': 20,
   'tags': ['directions', 'places', 'prepositions', 'vocab', 'travel'],
   'audioScript': "Excuse me, where is the bank?\nTurn left at the traffic light.\nGo straight for two blocks.\nThe hotel is on your right.\n",
   'listeningEnabled': true,
@@ -42,6 +42,9 @@
         'answer': 'near',
       },
     ],
+  'categoryEn': 'Foundation English',
+  'categoryVi': 'Tiếng Anh Nền tảng',
+  'prerequisites': ['a1-11-shopping-money'],
 }
 ---
 
@@ -226,3 +229,42 @@ Press play, then repeat each line aloud.
 ## What to learn next
 
 In **A1-13-can-cant**, you will learn how to talk about abilities using **can** and **can't** — "I can swim", "I can't cook", "Can you help me?" — a small grammar lesson that unlocks huge conversation.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to select and use useful language for directions & places in a short, realistic exchange.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **directions & places** in this situation?
+>
+> **You:** Excuse me, where is the bank?
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Create a four-line exchange with a colleague or classmate. Use at least three target expressions from **Directions & Places** and add one follow-up question.
+
+### Model response
+
+> Excuse me, where is the bank? Turn left at the traffic light. Go straight for two blocks. The hotel is on your right.
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+
+<!-- learning-loop:end -->

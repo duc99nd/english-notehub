@@ -11,7 +11,7 @@
   'skill': 'reading',
   'order': 3,
   'cefr': 'C1',
-  'minutes': 5,
+  'minutes': 12,
   'tags': ['reading', 'strategy', 'reports', 'documents', 'C1'],
   'audioScript': "Our five-year roadmap prioritizes sustainable growth over rapid expansion.\nThe board has endorsed a pivot toward technology-enabled solutions.\nWe anticipate headwinds in Q4 but remain confident in our long-term positioning.\n",
   'listeningEnabled': true,
@@ -41,6 +41,9 @@
         'answer': 'The company has strong competitive advantages',
       },
     ],
+  'categoryEn': 'Strategic Professional Communication',
+  'categoryVi': 'Giao tiếp Chuyên nghiệp Chiến lược',
+  'prerequisites': ['c1-02-board-presentations'],
 }
 ---
 
@@ -93,3 +96,47 @@ Read this excerpt and identify the primary message:
 ## What to learn next
 
 In the next lesson **C1-04-stakeholder-management**, you will learn stakeholder management vocabulary.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to identify the main point, supporting detail, and register choices in a text about strategic document reading.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **strategic document reading** in this situation?
+>
+> **You:** Our five-year roadmap prioritizes sustainable growth over rapid expansion.
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Summarize the text in two sentences for a colleague, client, and senior stakeholder. Identify one claim, one supporting detail, and one phrase that signals the writer's attitude.
+
+### Model response
+
+> Our five-year roadmap prioritizes sustainable growth over rapid expansion. The board has endorsed a pivot toward technology-enabled solutions. We anticipate headwinds in Q4 but remain confident in our long-term positioning.
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Register switch
+
+Rewrite your response twice: first for a trusted teammate, then for a client or senior stakeholder. Keep the underlying message the same while changing directness, context, and the amount of explanation. Identify one phrase you softened, one detail you made explicit, and one assumption you removed.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+- [ ] I qualified claims where certainty was limited and adjusted the register for my audience.
+
+<!-- learning-loop:end -->

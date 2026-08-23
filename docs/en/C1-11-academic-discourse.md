@@ -11,7 +11,7 @@
   'skill': 'vocab',
   'order': 11,
   'cefr': 'C1',
-  'minutes': 5,
+  'minutes': 11,
   'tags': ['vocab', 'academic', 'discourse', 'hedging', 'C1'],
   'audioScript': "The findings suggest a correlation between the variables.\nThe methodology warrants further investigation.\nThe literature indicates a gap in current research.\n",
   'listeningEnabled': true,
@@ -36,6 +36,9 @@
         'answer': 'Suggests',
       },
     ],
+  'categoryEn': 'Strategic Professional Communication',
+  'categoryVi': 'Giao tiếp Chuyên nghiệp Chiến lược',
+  'prerequisites': ['c1-10-review-unit2'],
 }
 ---
 
@@ -96,3 +99,47 @@ Academic writers use **hedges** to qualify their claims and show appropriate cau
 ## What to learn next
 
 In the next lesson **C1-12-nuanced-grammar**, you will master nuanced C1 grammar for academic contexts.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to select and use useful language for academic discourse in a short, realistic exchange.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **academic discourse** in this situation?
+>
+> **You:** The findings suggest a correlation between the variables.
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Create a four-line exchange with a colleague, client, and senior stakeholder. Use at least three target expressions from **Academic Discourse** and add one follow-up question.
+
+### Model response
+
+> The findings suggest a correlation between the variables. The methodology warrants further investigation. The literature indicates a gap in current research.
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Register switch
+
+Rewrite your response twice: first for a trusted teammate, then for a client or senior stakeholder. Keep the underlying message the same while changing directness, context, and the amount of explanation. Identify one phrase you softened, one detail you made explicit, and one assumption you removed.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+- [ ] I qualified claims where certainty was limited and adjusted the register for my audience.
+
+<!-- learning-loop:end -->

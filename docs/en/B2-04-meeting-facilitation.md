@@ -11,7 +11,7 @@
   'skill': 'vocab',
   'order': 4,
   'cefr': 'B2',
-  'minutes': 5,
+  'minutes': 12,
   'tags': ['meetings', 'facilitation', 'workplace', 'B2'],
   'audioScript': "Let's kick off the meeting with a quick round-up.\nCould we park that topic for the next session?\nWe need a tiebreaker to move this forward.\n",
   'listeningEnabled': true,
@@ -32,6 +32,9 @@
         'answer': 'A way to break a deadlock',
       },
     ],
+  'categoryEn': 'Technical Leadership Communication',
+  'categoryVi': 'Giao tiếp Dẫn dắt Kỹ thuật',
+  'prerequisites': ['b2-03-presenting-architecture'],
 }
 ---
 
@@ -94,3 +97,46 @@ Test your meeting facilitation vocabulary in the quiz section.
 ## What to learn next
 
 In the next lesson **B2-05-persuasive-grammar**, you will learn grammar patterns for making persuasive arguments in professional settings.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to select and use useful language for meeting facilitation in a short, realistic exchange.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **meeting facilitation** in this situation?
+>
+> **You:** Let's kick off the meeting with a quick round-up.
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Create a four-line exchange with a colleague or classmate. Use at least three target expressions from **Meeting Facilitation** and add one follow-up question.
+
+### Model response
+
+> Let's kick off the meeting with a quick round-up. Could we park that topic for the next session? We need a tiebreaker to move this forward.
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Register switch
+
+Rewrite your response twice: first for a trusted teammate, then for a client or senior stakeholder. Keep the underlying message the same while changing directness, context, and the amount of explanation. Identify one phrase you softened, one detail you made explicit, and one assumption you removed.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+
+<!-- learning-loop:end -->

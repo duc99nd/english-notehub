@@ -11,7 +11,7 @@
   'skill': 'reading',
   'order': 8,
   'cefr': 'A2',
-  'minutes': 5,
+  'minutes': 11,
   'tags': ['future', 'grammar', 'plans', 'reading'],
   'audioScript': "I am going to visit my grandmother this weekend.\nI will call you later.\nWe are going to start a new project.\n",
   'listeningEnabled': true,
@@ -42,6 +42,9 @@
         'answer': 'For spontaneous decisions or predictions',
       },
     ],
+  'categoryEn': 'Everyday Workplace English',
+  'categoryVi': 'Tiếng Anh Công việc Hằng ngày',
+  'prerequisites': ['a2-07-phone-call'],
 }
 ---
 
@@ -100,3 +103,42 @@ Answer the three questions in the quiz section to finish this lesson.
 ## What to learn next
 
 In the next lesson **A2-09-should-must**, you will learn how to use should and must for advice and obligation.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to identify the main point, supporting detail, and register choices in a text about future plans.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **future plans** in this situation?
+>
+> **You:** I am going to visit my grandmother this weekend.
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Summarize the text in two sentences for a colleague or classmate. Identify one claim, one supporting detail, and one phrase that signals the writer's attitude.
+
+### Model response
+
+> I am going to visit my grandmother this weekend. I will call you later. We are going to start a new project.
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+
+<!-- learning-loop:end -->

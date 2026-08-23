@@ -11,7 +11,7 @@
   'skill': 'vocab',
   'order': 1,
   'cefr': 'A2',
-  'minutes': 5,
+  'minutes': 10,
   'tags': ['asking-help', 'polite', 'daily', 'vocabulary'],
   'audioScript': "Excuse me, could you help me with this bag?\nSorry to bother you, but I need some help.\nWould you mind helping me, please?\n",
   'listeningEnabled': true,
@@ -36,6 +36,9 @@
         'answer': 'Would you mind helping me?',
       },
     ],
+  'categoryEn': 'Everyday Workplace English',
+  'categoryVi': 'Tiếng Anh Công việc Hằng ngày',
+  'prerequisites': ['a1-15-review-unit3'],
 }
 ---
 
@@ -83,3 +86,42 @@ Answer the three questions in the quiz section to finish this lesson.
 ## What to learn next
 
 In the next lesson **A2-02-daily-routine**, you will learn how to talk about your daily routine in English.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to select and use useful language for asking for help in a short, realistic exchange.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **asking for help** in this situation?
+>
+> **You:** Excuse me, could you help me with this bag?
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Create a four-line exchange with a colleague or classmate. Use at least three target expressions from **Asking for Help** and add one follow-up question.
+
+### Model response
+
+> Excuse me, could you help me with this bag? Sorry to bother you, but I need some help. Would you mind helping me, please?
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+
+<!-- learning-loop:end -->

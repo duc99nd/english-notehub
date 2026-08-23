@@ -11,27 +11,30 @@
   'skill': 'writing',
   'order': 4,
   'cefr': 'A2',
-  'minutes': 5,
+  'minutes': 10,
   'tags': ['past-simple', 'verbs', 'writing', 'events'],
-  'audioScript': "Hôm qua tôi đã đi chợ.\nCô ấy gọi cho tôi tối qua.\nHọ đã chơi bóng đá sáng nay.\n",
+  'audioScript': "I went to the market yesterday.\nShe called me last night.\nThey played football this morning.\n",
   'listeningEnabled': true,
   'flashcardCount': 6,
   'quiz':
     [
       {
         'type': 'choice',
-        'prompt': 'Câu nào dùng thì quá khứ đơn đúng?',
+        'prompt': 'Which sentence uses past simple correctly?',
         'options': ['I goed to school.', 'I went to school.', 'I goed at school.'],
         'answer': 'I went to school.',
       },
       { 'type': 'fill', 'prompt': 'Yesterday, she ___ a new dress. (buy)', 'answer': 'bought' },
       {
         'type': 'choice',
-        'prompt': "Khi nào chúng ta dùng 'was'?",
-        'options': ['Với I, he, she, it', 'Với you, we, they', 'Với tất cả chủ ngữ'],
-        'answer': 'Với I, he, she, it',
+        'prompt': "When do we use 'was'?",
+        'options': ['With I, he, she, it', 'With you, we, they', 'With all subjects'],
+        'answer': 'With I, he, she, it',
       },
     ],
+  'categoryEn': 'Everyday Workplace English',
+  'categoryVi': 'Tiếng Anh Công việc Hằng ngày',
+  'prerequisites': ['a2-03-comparatives'],
 }
 ---
 
@@ -86,3 +89,42 @@ Nhấn nút play để nghe audio. Sau đó lặp lại từng câu thành tiế
 ## Bài học tiếp theo
 
 Ở bài **A2-05-review-unit1**, bạn sẽ ôn tập tất cả bài học từ Unit 1.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Sự kiện trong quá khứ** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** I went to the market yesterday.
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Sự kiện trong quá khứ**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> I went to the market yesterday. She called me last night. They played football this morning.
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+
+<!-- learning-loop:end -->

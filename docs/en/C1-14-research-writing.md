@@ -11,7 +11,7 @@
   'skill': 'writing',
   'order': 14,
   'cefr': 'C1',
-  'minutes': 5,
+  'minutes': 11,
   'tags': ['writing', 'research', 'academic', 'structure', 'C1'],
   'audioScript': "This paper examines the impact of remote work on productivity.\nThe methodology employs a mixed-methods approach.\nThe findings indicate a statistically significant improvement in output.\n",
   'listeningEnabled': true,
@@ -41,6 +41,9 @@
         'answer': 'Abstract and Results',
       },
     ],
+  'categoryEn': 'Strategic Professional Communication',
+  'categoryVi': 'Giao tiếp Chuyên nghiệp Chiến lược',
+  'prerequisites': ['c1-13-critical-reading'],
 }
 ---
 
@@ -118,3 +121,47 @@ Move from broad to narrow:
 ## What to learn next
 
 In the next lesson **C1-15-review-unit3**, you will consolidate Unit 3 and complete the C1 curriculum.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to produce and revise a clear piece of writing about research writing for a defined audience.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **research writing** in this situation?
+>
+> **You:** This paper examines the impact of remote work on productivity.
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Write 80–120 words for a colleague, client, and senior stakeholder. State the purpose early, support it with a concrete detail, and finish with a clear next step.
+
+### Model response
+
+> This paper examines the impact of remote work on productivity. The methodology employs a mixed-methods approach. The findings indicate a statistically significant improvement in output.
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Register switch
+
+Rewrite your response twice: first for a trusted teammate, then for a client or senior stakeholder. Keep the underlying message the same while changing directness, context, and the amount of explanation. Identify one phrase you softened, one detail you made explicit, and one assumption you removed.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+- [ ] I qualified claims where certainty was limited and adjusted the register for my audience.
+
+<!-- learning-loop:end -->

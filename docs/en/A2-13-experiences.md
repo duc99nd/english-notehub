@@ -11,7 +11,7 @@
   'skill': 'grammar',
   'order': 13,
   'cefr': 'A2',
-  'minutes': 5,
+  'minutes': 10,
   'tags': ['grammar', 'present-perfect', 'experiences', 'A2'],
   'audioScript': "I have visited Japan twice.\nShe has lived here for three years.\nHave you ever tried sushi?\n",
   'listeningEnabled': true,
@@ -32,6 +32,9 @@
         'answer': 'tried',
       },
     ],
+  'categoryEn': 'Everyday Workplace English',
+  'categoryVi': 'Tiếng Anh Công việc Hằng ngày',
+  'prerequisites': ['a2-12-opinions'],
 }
 ---
 
@@ -102,3 +105,42 @@ Answer the three questions in the quiz section to finish this lesson.
 ## What to learn next
 
 In the next lesson **A2-14-short-reading**, you will read short texts about personal experiences.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to choose an appropriate structure and apply it accurately when discussing experiences.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **experiences** in this situation?
+>
+> **You:** I have visited Japan twice.
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Write four connected sentences for a colleague or classmate. Use the target structure twice, then revise one sentence to change its tone or emphasis.
+
+### Model response
+
+> I have visited Japan twice. She has lived here for three years. Have you ever tried sushi?
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+
+<!-- learning-loop:end -->

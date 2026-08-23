@@ -11,47 +11,50 @@
   'skill': 'review',
   'order': 15,
   'cefr': 'C1',
-  'minutes': 10,
+  'minutes': 11,
   'tags': ['review', 'unit3', 'academic', 'research', 'C1'],
-  'audioScript': "Hãy ôn tập Unit 3.\nBây giờ bạn có thể sử dụng từ vựng học thuật và hedging.\nBạn có thể áp dụng các cấu trúc ngữ pháp C1 tinh tế.\nBạn có thể phê bình lập luận học thuật.\nBạn có thể viết bài nghiên cứu.\n",
+  'audioScript': "Let's review Unit 3.\nYou can now use academic vocabulary and hedging.\nYou can apply nuanced C1 grammar structures.\nYou can critique academic arguments.\nYou can write research-style papers.\n",
   'listeningEnabled': true,
   'flashcardCount': 20,
   'quiz':
     [
       {
         'type': 'choice',
-        'prompt': 'Động từ nào là hedge?',
-        'options': ['Chứng minh', 'Gợi ý', 'Đảm bảo'],
-        'answer': 'Gợi ý',
+        'prompt': 'Which is a hedge verb?',
+        'options': ['Prove', 'Suggest', 'Guarantee'],
+        'answer': 'Suggest',
       },
       {
         'type': 'fill',
-        'prompt': 'Were we to launch in Q1, we would capture early adopters. → Xác định loại câu điều kiện: điều kiện ___.',
-        'answer': 'đảo ngữ',
+        'prompt': 'Were we to launch in Q1, we would capture early adopters. → Identify the conditional type: ___ conditional.',
+        'answer': 'Inverted',
       },
       {
         'type': 'choice',
-        'prompt': 'IMRaD là viết tắt của gì?',
+        'prompt': 'What does IMRaD stand for?',
         'options':
           [
-            'Giới thiệu, Phương pháp, Kết quả, Phân tích, Thảo luận',
-            'Tóm tắt, Giới thiệu, Phương pháp luận, Kết quả, Thảo luận',
-            'Mục đích, Phương pháp, Đánh giá, Phân tích, Quyết định',
+            'Intro, Method, Results, Analysis, Discussion',
+            'Abstract, Introduction, Methodology, Results, Discussion',
+            'Aim, Method, Review, Analysis, Decision',
           ],
-        'answer': 'Tóm tắt, Giới thiệu, Phương pháp luận, Kết quả, Thảo luận',
+        'answer': 'Abstract, Introduction, Methodology, Results, Discussion',
       },
       {
         'type': 'fill',
-        'prompt': 'Có vẻ như dữ liệu đã bị hiểu sai. → Câu này sử dụng ngôn ngữ ___.',
+        'prompt': 'It appears that the data was misinterpreted. → This sentence uses ___ language.',
         'answer': 'hedging',
       },
       {
         'type': 'choice',
-        'prompt': 'Dấu hiệu của thiên kiến trong nghiên cứu là gì?',
-        'options': ['Cỡ mẫu lớn', 'Sử dụng chọn lọc bằng chứng', 'Đánh giá ngang hàng'],
-        'answer': 'Sử dụng chọn lọc bằng chứng',
+        'prompt': 'What is a sign of bias in research?',
+        'options': ['Large sample size', 'Selective use of evidence', 'Peer review'],
+        'answer': 'Selective use of evidence',
       },
     ],
+  'categoryEn': 'Strategic Professional Communication',
+  'categoryVi': 'Giao tiếp Chuyên nghiệp Chiến lược',
+  'prerequisites': ['c1-14-research-writing'],
 }
 ---
 
@@ -121,3 +124,47 @@ Trả lời 5 câu quiz để kiểm tra sự thành thạo Unit 3 của bạn.
 ## What to learn next
 
 Chúc mừng bạn đã hoàn thành **chương trình C1!** Tiếp tục sang cấp độ **C2** để làm chủ nâng cao.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Ôn tập Unit 3** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** Let's review Unit 3.
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Ôn tập Unit 3**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> Let's review Unit 3. You can now use academic vocabulary and hedging. You can apply nuanced C1 grammar structures. You can critique academic arguments. You can write research-style papers.
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Chuyển đổi register
+
+Viết lại câu trả lời hai lần: một bản cho đồng đội thân quen và một bản cho khách hàng hoặc stakeholder cấp cao. Giữ nguyên thông điệp nhưng thay đổi độ trực tiếp, lượng bối cảnh và mức giải thích. Chỉ ra một cụm từ bạn đã làm mềm, một chi tiết bạn nói rõ hơn và một giả định bạn đã loại bỏ.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+- [ ] Mình đã giới hạn mức độ chắc chắn của nhận định và điều chỉnh register theo người nghe.
+
+<!-- learning-loop:end -->

@@ -11,7 +11,7 @@
   'skill': 'reading',
   'order': 8,
   'cefr': 'A1',
-  'minutes': 7,
+  'minutes': 21,
   'tags': ['weather', 'seasons', 'small-talk', 'reading'],
   'audioScript': "Today is sunny and hot. The temperature is 35 degrees.\nIn summer, it is very hot in Vietnam.\nIn winter, it is cold and sometimes rainy.\nI like spring because flowers are beautiful.\n",
   'listeningEnabled': true,
@@ -20,24 +20,27 @@
     [
       {
         'type': 'choice',
-        'prompt': 'Câu nào đúng?',
+        'prompt': 'Which is the correct sentence?',
         'options': ['Today is sun.', 'Today is sunny.', 'Today is a sun.', 'Today is the sun.'],
         'answer': 'Today is sunny.',
       },
       {
         'type': 'choice',
-        'prompt': "Từ nào có nghĩa là 'mưa'?",
+        'prompt': "How do you say 'mưa'?",
         'options': ['cloudy', 'sunny', 'rainy', 'windy'],
         'answer': 'rainy',
       },
-      { 'type': 'fill', 'prompt': 'In summer, it is very ___. (nóng = hot)', 'answer': 'hot' },
+      { 'type': 'fill', 'prompt': 'In summer, it is very ___. (nóng)', 'answer': 'hot' },
       {
         'type': 'choice',
-        'prompt': 'Mùa nào nóng ở Việt Nam?',
+        'prompt': 'Which season is hot in Vietnam?',
         'options': ['spring', 'summer', 'autumn', 'winter'],
         'answer': 'summer',
       },
     ],
+  'categoryEn': 'Foundation English',
+  'categoryVi': 'Tiếng Anh Nền tảng',
+  'prerequisites': ['a1-07-food'],
 }
 ---
 
@@ -235,3 +238,42 @@ Nhấn play, sau đó lặp lại từng dòng.
 ## Bài học tiếp theo
 
 Ở bài **A1-09-hobbies**, bạn sẽ học từ vựng về các hoạt động lúc rảnh — thể thao, âm nhạc, đọc sách, chơi game — và cách nói về những gì bạn thích làm lúc rảnh.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Thời tiết** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** Today is sunny and hot. The temperature is 35 degrees.
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Thời tiết**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> Today is sunny and hot. The temperature is 35 degrees. In summer, it is very hot in Vietnam. In winter, it is cold and sometimes rainy. I like spring because flowers are beautiful.
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+
+<!-- learning-loop:end -->

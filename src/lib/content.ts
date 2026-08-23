@@ -1,5 +1,5 @@
-import matter from 'gray-matter'
 import type { AppLocale } from '@/i18n'
+import { CONTENT_MANIFEST } from '@/generated/content-manifest'
 
 export type TocLevel = 1 | 2 | 3
 
@@ -1054,56 +1054,35 @@ function buildSummaryFromFrontmatter(
 // Cache parsed frontmatter per file so we only parse once at startup
 const frontmatterByFileName = new Map<string, Record<string, unknown>>()
 
-function parseFrontmatterSync(raw: string): Record<string, unknown> {
-  try {
-    const parsed = matter(raw)
-    return parsed.data as Record<string, unknown>
-  } catch {
-    return {}
-  }
-}
-
 function ensureFrontmatter(fileName: string): Record<string, unknown> {
   const cached = frontmatterByFileName.get(fileName)
   if (cached) return cached
-  const loader = moduleLoaderByFileName.get(fileName)
-  if (!loader) return {}
-  // Load synchronously at module init — Vite glob with ?raw returns string already inlined at build time
-  // For dev mode this is an async loader; we use a fallback that resolves to '' if not loaded yet
-  // To keep sync contract: we only use data for files where raw is inlined (production builds).
-  // For dev, fall back to empty frontmatter; rendering still works because markdown body is unchanged.
-  let raw = ''
-  try {
-    const maybeSync = (loader as unknown as { sync?: () => string }).sync
-    if (typeof maybeSync === 'function') {
-      raw = maybeSync()
-    }
-  } catch {
-    raw = ''
-  }
-  if (!raw) {
-    frontmatterByFileName.set(fileName, {})
-    return {}
-  }
-  const data = isFrontmatterPresent(raw) ? parseFrontmatterSync(raw) : {}
+  const data = CONTENT_MANIFEST[fileName] ?? {}
   frontmatterByFileName.set(fileName, data)
   return data
 }
 
 async function loadFrontmatterAsync(fileName: string): Promise<Record<string, unknown>> {
-  const cached = frontmatterByFileName.get(fileName)
-  if (cached) return cached
-  const loader = moduleLoaderByFileName.get(fileName)
-  if (!loader) return {}
-  try {
-    const raw = await loader()
-    const data = isFrontmatterPresent(raw) ? parseFrontmatterSync(raw) : {}
-    frontmatterByFileName.set(fileName, data)
-    return data
-  } catch {
-    frontmatterByFileName.set(fileName, {})
-    return {}
+  return ensureFrontmatter(fileName)
+}
+
+const CEFR_LEVEL_ORDER: CefrLevel[] = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2']
+
+function compareDocs(a: DocSummary, b: DocSummary): number {
+  const aCurriculum = /^[abc][12]-/i.test(a.fileName)
+  const bCurriculum = /^[abc][12]-/i.test(b.fileName)
+  if (aCurriculum !== bCurriculum) return aCurriculum ? -1 : 1
+
+  if (aCurriculum && bCurriculum) {
+    const levelDelta =
+      CEFR_LEVEL_ORDER.indexOf((a.level ?? a.cefr ?? 'A1') as CefrLevel) -
+      CEFR_LEVEL_ORDER.indexOf((b.level ?? b.cefr ?? 'A1') as CefrLevel)
+    if (levelDelta !== 0) return levelDelta
+    const unitDelta = (a.unit ?? 0) - (b.unit ?? 0)
+    if (unitDelta !== 0) return unitDelta
   }
+
+  return a.order - b.order || a.titleEn.localeCompare(b.titleEn)
 }
 
 const docs: DocSummary[] = Object.keys(markdownModules)
@@ -1134,7 +1113,7 @@ const docs: DocSummary[] = Object.keys(markdownModules)
       isArchived: meta?.isArchived,
     }
   })
-  .sort((a, b) => a.order - b.order)
+  .sort(compareDocs)
 
 const docBySlug = new Map(docs.map((doc) => [doc.slug, doc]))
 const docById = new Map(docs.map((doc) => [doc.id, doc]))

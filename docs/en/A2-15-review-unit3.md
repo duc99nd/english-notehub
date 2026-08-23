@@ -44,6 +44,9 @@
         'answer': 'I order',
       },
     ],
+  'categoryEn': 'Everyday Workplace English',
+  'categoryVi': 'Tiếng Anh Công việc Hằng ngày',
+  'prerequisites': ['a2-14-short-reading'],
 }
 ---
 
@@ -102,3 +105,42 @@ Answer the five quiz questions to test your Unit 3 mastery.
 ## What to learn next
 
 Congratulations on completing the **A2 curriculum!** Continue to the **B1** level for intermediate English.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to combine the unit language to complete a realistic task about review unit 3.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **review unit 3** in this situation?
+>
+> **You:** Let's review Unit 3.
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Complete one integrated response for a colleague or classmate using language from at least three lessons in this unit.
+
+### Model response
+
+> Let's review Unit 3. You can make small talk in English. You can share your opinions politely. You can talk about your life experiences. You can read short personal stories.
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+
+<!-- learning-loop:end -->

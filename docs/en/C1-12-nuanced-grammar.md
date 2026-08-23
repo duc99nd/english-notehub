@@ -11,7 +11,7 @@
   'skill': 'grammar',
   'order': 12,
   'cefr': 'C1',
-  'minutes': 5,
+  'minutes': 12,
   'tags': ['grammar', 'mixed-conditionals', 'modality', 'advanced', 'C1'],
   'audioScript': "Had the board approved the proposal earlier, we would be operating internationally today.\nWere we to launch in Q1, we would capture the early adopters.\nShould circumstances change, we are prepared to pivot.\n",
   'listeningEnabled': true,
@@ -41,6 +41,9 @@
         'answer': 'Past speculation / regret',
       },
     ],
+  'categoryEn': 'Strategic Professional Communication',
+  'categoryVi': 'Giao tiếp Chuyên nghiệp Chiến lược',
+  'prerequisites': ['c1-11-academic-discourse'],
 }
 ---
 
@@ -113,3 +116,47 @@ Academic hedging uses **distancing** to show detachment from claims.
 ## What to learn next
 
 In the next lesson **C1-13-critical-reading**, you will read and critique academic arguments.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to choose an appropriate structure and apply it accurately when discussing nuanced c1 grammar.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **nuanced c1 grammar** in this situation?
+>
+> **You:** Had the board approved the proposal earlier, we would be operating internationally today.
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Write four connected sentences for a colleague, client, and senior stakeholder. Use the target structure twice, then revise one sentence to change its tone or emphasis.
+
+### Model response
+
+> Had the board approved the proposal earlier, we would be operating internationally today. Were we to launch in Q1, we would capture the early adopters. Should circumstances change, we are prepared to pivot.
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Register switch
+
+Rewrite your response twice: first for a trusted teammate, then for a client or senior stakeholder. Keep the underlying message the same while changing directness, context, and the amount of explanation. Identify one phrase you softened, one detail you made explicit, and one assumption you removed.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+- [ ] I qualified claims where certainty was limited and adjusted the register for my audience.
+
+<!-- learning-loop:end -->

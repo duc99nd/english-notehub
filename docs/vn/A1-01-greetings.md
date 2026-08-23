@@ -11,7 +11,7 @@
   'skill': 'vocab',
   'order': 1,
   'cefr': 'A1',
-  'minutes': 8,
+  'minutes': 15,
   'tags': ['greetings', 'introduction', 'daily', 'foundation', 'speaking'],
   'audioScript': "Hello. My name is Anna. Nice to meet you.\nHi, I'm Duc. I'm from Vietnam.\nGood morning. How are you today?\nI'm fine, thank you. And you?\n",
   'listeningEnabled': true,
@@ -21,29 +21,32 @@
       { 'type': 'fill', 'prompt': 'Hello, my ___ is Anna.', 'answer': 'name' },
       {
         'type': 'choice',
-        'prompt': 'Bạn gặp sếp lần đầu. Lời chào nào phù hợp nhất?',
+        'prompt': 'Which greeting is most appropriate when you meet your new boss for the first time?',
         'options': ["Hey, what's up?", 'Yo bro!', 'Good morning. Nice to meet you.', 'Sup?'],
         'answer': 'Good morning. Nice to meet you.',
       },
       {
         'type': 'choice',
-        'prompt': "Đồng nghiệp nói 'How are you?'. Bạn trả lời thế nào cho lịch sự?",
+        'prompt': "Your colleague says 'How are you?' What is a polite reply?",
         'options': ["I'm twenty.", "I'm fine, thank you. And you?", 'My name is Anna.', 'Goodbye.'],
         'answer': "I'm fine, thank you. And you?",
       },
       {
         'type': 'choice',
-        'prompt': "'Nice to meet you' có nghĩa là gì?",
+        'prompt': "What does 'Nice to meet you' mean?",
         'options':
           [
-            'Tôi muốn đi về.',
-            'Rất vui được gặp bạn (lần đầu gặp).',
-            'Tôi đã quen bạn lâu rồi.',
-            'Hãy gọi cho tôi sau.',
+            'I want to leave now.',
+            "I'm happy to know you (first meeting).",
+            'I have known you for a long time.',
+            'Please call me later.',
           ],
-        'answer': 'Rất vui được gặp bạn (lần đầu gặp).',
+        'answer': "I'm happy to know you (first meeting).",
       },
     ],
+  'categoryEn': 'Foundation English',
+  'categoryVi': 'Tiếng Anh Nền tảng',
+  'prerequisites': [],
 }
 ---
 
@@ -131,7 +134,7 @@ Khi gặp ai đó, họ thường hỏi liên tục vài câu. Hãy ghi nhớ m�
 
 Điền vào chỗ trống, sau đó đọc to ba lần.
 
-> My name is ****\_\_****. I'm from ****\_\_****. I work as ****\_\_****. In my free time, I like to ****\_\_****.
+> My name is \***\*\_\_\*\***. I'm from \***\*\_\_\*\***. I work as \***\*\_\_\*\***. In my free time, I like to \***\*\_\_\*\***.
 
 **Tự kiểm tra**:
 
@@ -143,7 +146,7 @@ Khi gặp ai đó, họ thường hỏi liên tục vài câu. Hãy ghi nhớ m�
 
 ## Ghi chú văn hóa: cái bắt tay
 
-Ở hầu hết nơi làm việc nói tiếng Anh, lời chào đi kèm **một cái bắt tay chắc chắn** với ánh mắt nhìn thẳng. Trong ngữ cảnh thoải mái hơn (đặc biệt giới trẻ), **vẫy tay**, **gật đầu**, hoặc **cười** là đủ. Quan sát người đối diện làm gì rồi bắt chước.
+Thói quen chào hỏi thay đổi theo nơi làm việc, văn hóa, nhu cầu tiếp cận và sở thích cá nhân. Một số nơi thường bắt tay, trong khi nơi khác phù hợp hơn với **vẫy tay**, **gật đầu** hoặc **mỉm cười**. Hãy quan sát tín hiệu của người đối diện và tôn trọng không gian cá nhân.
 
 ## Nghe và lặp lại
 
@@ -157,3 +160,42 @@ Nhấn play để nghe bốn câu dưới đây, sau đó lặp lại từng câ
 ## Bài học tiếp theo
 
 Ở bài **A1-02-numbers**, bạn sẽ học cách đếm từ 1 đến 100 và nói số điện thoại — điều thứ hai mọi người hỏi ngay sau khi biết tên bạn.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Chào hỏi & Giới thiệu bản thân** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** Hello. My name is Anna. Nice to meet you.
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Chào hỏi & Giới thiệu bản thân**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> Hello. My name is Anna. Nice to meet you. Hi, I'm Duc. I'm from Vietnam. Good morning. How are you today? I'm fine, thank you. And you?
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+
+<!-- learning-loop:end -->

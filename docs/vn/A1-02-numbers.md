@@ -11,23 +11,23 @@
   'skill': 'grammar',
   'order': 2,
   'cefr': 'A1',
-  'minutes': 8,
+  'minutes': 18,
   'tags': ['numbers', 'phone', 'counting', 'math', 'foundation'],
   'audioScript': "One, two, three, four, five.\nMy number is zero nine one, five six seven, eight nine zero.\nI have two sisters and one brother.\nFour plus five equals nine.\n",
   'listeningEnabled': true,
   'flashcardCount': 8,
   'quiz':
     [
-      { 'type': 'fill', 'prompt': 'Viết bằng chữ: 14 → ___', 'answer': 'fourteen' },
+      { 'type': 'fill', 'prompt': 'How do you spell the number 14? ___', 'answer': 'fourteen' },
       {
         'type': 'choice',
-        'prompt': "Ai đó nói: 'My number is zero nine one, two three four, five six seven.' Số đó là gì?",
+        'prompt': "Someone says: 'My number is zero nine one, two three four, five six seven.' What is the number?",
         'options': ['091234567', '91234567', '0912345678', '9234567'],
         'answer': '091234567',
       },
       {
         'type': 'choice',
-        'prompt': 'Cách viết nào đúng cho số 40?',
+        'prompt': 'Which is the correct spelling for 40?',
         'options': ['fourty', 'forty', 'fourti', 'fourteen'],
         'answer': 'forty',
       },
@@ -37,6 +37,9 @@
         'answer': 'plus',
       },
     ],
+  'categoryEn': 'Foundation English',
+  'categoryVi': 'Tiếng Anh Nền tảng',
+  'prerequisites': ['a1-01-greetings'],
 }
 ---
 
@@ -205,3 +208,42 @@ Nhấn play và lặp lại từng dòng. Tạm dừng sau mỗi câu để bắ
 ## Bài học tiếp theo
 
 Ở bài **A1-03-daily-verbs**, bạn sẽ học 20 động từ tiếng Anh thông dụng nhất — wake up, eat, go, work, sleep — để bắt đầu xây dựng những câu nói về cuộc sống hàng ngày.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Số đếm & Số điện thoại** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** One, two, three, four, five.
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Số đếm & Số điện thoại**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> One, two, three, four, five. My number is zero nine one, five six seven, eight nine zero. I have two sisters and one brother. Four plus five equals nine.
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+
+<!-- learning-loop:end -->

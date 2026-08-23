@@ -11,28 +11,35 @@
   'skill': 'vocab',
   'order': 6,
   'cefr': 'B1',
-  'minutes': 5,
+  'minutes': 11,
   'tags': ['work', 'job', 'office', 'workplace', 'daily-routine', 'career'],
-  'audioScript': "Tôi thường bắt đầu làm việc lúc 9 giờ sáng và kết thúc lúc 6 giờ tối.\nChiều nay tôi có cuộc họp với quản lý của tôi.\nTôi cần hoàn thành báo cáo này trước thứ Sáu.\n",
+  'audioScript': "I usually start work at 9 AM and finish at 6 PM.\nI have a meeting with my manager this afternoon.\nI need to finish this report by Friday.\n",
   'listeningEnabled': true,
   'flashcardCount': 8,
   'quiz':
     [
       {
         'type': 'choice',
-        'prompt': 'Deadline nghĩa là gì?',
+        'prompt': "What is a 'deadline'?",
         'options':
-          ['Một loại ghế văn phòng', 'Thời hạn phải hoàn thành công việc', 'Một phòng họp'],
-        'answer': 'Thời hạn phải hoàn thành công việc',
+          ['A type of office chair', 'The time when something must be finished', 'A meeting room'],
+        'answer': 'The time when something must be finished',
       },
-      { 'type': 'fill', 'prompt': 'Tôi cần ___ tài liệu này trước cuộc họp.', 'answer': 'review' },
+      {
+        'type': 'fill',
+        'prompt': 'I need to ___ this document before the meeting.',
+        'answer': 'review',
+      },
       {
         'type': 'choice',
-        'prompt': "Từ nào nghĩa là 'quản lý một nhóm'?",
+        'prompt': "Which word means 'to manage a team'?",
         'options': ['To work', 'To supervise', 'To vacation'],
         'answer': 'To supervise',
       },
     ],
+  'categoryEn': 'Independent Workplace Communication',
+  'categoryVi': 'Giao tiếp Công việc Độc lập',
+  'prerequisites': ['b1-05-review-unit1'],
 }
 ---
 
@@ -107,3 +114,42 @@ Trả lời ba câu hỏi trong phần quiz để hoàn thành bài học này.
 ## Bài học tiếp theo
 
 Ở bài **B1-07-modals-obligation**, bạn sẽ học cách sử dụng động từ khuyết thiếu để diễn tả nghĩa vụ và lời khuyên trong công việc.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Công việc & Thói quen hàng ngày** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** I usually start work at 9 AM and finish at 6 PM.
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Công việc & Thói quen hàng ngày**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> I usually start work at 9 AM and finish at 6 PM. I have a meeting with my manager this afternoon. I need to finish this report by Friday.
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+
+<!-- learning-loop:end -->

@@ -11,8 +11,63 @@
   'skill': 'review',
   'order': 5,
   'cefr': 'C2',
-  'minutes': 10,
+  'minutes': 13,
   'tags': ['review', 'humor', 'irony', 'academic', 'whitepaper', 'consolidation'],
+  'categoryEn': 'Expert Register and Influence',
+  'categoryVi': 'Sắc thái và Ảnh hưởng Chuyên sâu',
+  'prerequisites': ['c2-04-whitepaper-writing'],
+  'audioScript': "Unit 1 covered four essential C2 skills: humor, irony, academic register, and whitepaper writing.\nEach skill builds upon the previous, creating a foundation for sophisticated English communication.\nReview these concepts regularly to maintain your C2 proficiency.\n",
+  'listeningEnabled': true,
+  'flashcardCount': 10,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': 'Which type of humor relies on saying the opposite of what you mean?',
+        'options': ['Pun', 'Satire', 'Verbal irony', 'Understatement'],
+        'answer': 'Verbal irony',
+      },
+      {
+        'type': 'choice',
+        'prompt': 'What grammatical mood is commonly used to signal sarcasm?',
+        'options': ['Indicative', 'Imperative', 'Subjunctive', 'Conditional'],
+        'answer': 'Subjunctive',
+      },
+      {
+        'type': 'choice',
+        'prompt': 'Which hedging phrase expresses the strongest certainty?',
+        'options':
+          [
+            'It appears that...',
+            'The data may suggest...',
+            'It is evident that...',
+            'One might argue...',
+          ],
+        'answer': 'It is evident that...',
+      },
+      {
+        'type': 'choice',
+        'prompt': 'What is the most-read section of a whitepaper?',
+        'options':
+          ['The conclusion', 'The executive summary', 'The table of contents', 'The references'],
+        'answer': 'The executive summary',
+      },
+      {
+        'type': 'fill',
+        'prompt': 'British humor often relies on ___ and dry wit.',
+        'answer': 'understatement',
+      },
+      {
+        'type': 'fill',
+        'prompt': 'When the audience knows more than the characters, this is called ___ irony.',
+        'answer': 'dramatic',
+      },
+      {
+        'type': 'fill',
+        'prompt': 'Academic writers use ___ language to express appropriate levels of certainty.',
+        'answer': 'hedging',
+      },
+    ],
 }
 ---
 
@@ -97,3 +152,47 @@ Trong Unit 2, bạn sẽ áp dụng những kỹ năng nền tảng này vào c�
 ## Bài học tiếp theo
 
 Trong **C2-06-conference-talk**, bạn sẽ làm chủ từ vựng và các mô hình diễn ngôn của các bài thuyết trình hội nghị trang trọng.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Ôn tập Unit 1** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** Unit 1 covered four essential C2 skills: humor, irony, academic register, and whitepaper writing.
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Ôn tập Unit 1**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> Unit 1 covered four essential C2 skills: humor, irony, academic register, and whitepaper writing. Each skill builds upon the previous, creating a foundation for sophisticated English communication. Review these concepts regularly to maintain your C2 proficiency.
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Chuyển đổi register
+
+Viết lại câu trả lời hai lần: một bản cho đồng đội thân quen và một bản cho khách hàng hoặc stakeholder cấp cao. Giữ nguyên thông điệp nhưng thay đổi độ trực tiếp, lượng bối cảnh và mức giải thích. Chỉ ra một cụm từ bạn đã làm mềm, một chi tiết bạn nói rõ hơn và một giả định bạn đã loại bỏ. Sau đó, viết thêm một cách diễn giải hợp lý khác của bài mẫu và nêu bằng chứng ngữ cảnh cần có để chọn giữa hai cách hiểu.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+- [ ] Mình đã giới hạn mức độ chắc chắn của nhận định và điều chỉnh register theo người nghe.
+
+<!-- learning-loop:end -->

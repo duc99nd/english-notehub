@@ -11,7 +11,7 @@
   'skill': 'reading',
   'order': 3,
   'cefr': 'B1',
-  'minutes': 5,
+  'minutes': 12,
   'tags': ['reading', 'travel', 'blog', 'postcard', 'vacation', 'experience'],
   'audioScript': "Hi everyone! I'm writing this from a small café in Rome.\nThe weather has been amazing and I've been exploring every day.\nI can't wait to share more photos!\n",
   'listeningEnabled': true,
@@ -37,6 +37,9 @@
         'answer': 'Busy and full of activity',
       },
     ],
+  'categoryEn': 'Independent Workplace Communication',
+  'categoryVi': 'Giao tiếp Công việc Độc lập',
+  'prerequisites': ['b1-02-past-tenses'],
 }
 ---
 
@@ -108,3 +111,42 @@ Answer the three questions in the quiz section to finish this lesson.
 ## What to Learn Next
 
 In the next lesson **B1-04-email-friend**, you will learn how to write an email to a friend about your travels.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to identify the main point, supporting detail, and register choices in a text about travel blogs & postcards.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **travel blogs & postcards** in this situation?
+>
+> **You:** Hi everyone! I'm writing this from a small café in Rome.
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Summarize the text in two sentences for a colleague or classmate. Identify one claim, one supporting detail, and one phrase that signals the writer's attitude.
+
+### Model response
+
+> Hi everyone! I'm writing this from a small café in Rome. The weather has been amazing and I've been exploring every day. I can't wait to share more photos!
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+
+<!-- learning-loop:end -->

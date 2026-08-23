@@ -11,7 +11,7 @@
   'skill': 'writing',
   'order': 14,
   'cefr': 'B1',
-  'minutes': 5,
+  'minutes': 12,
   'tags': ['writing', 'blog', 'review', 'opinion', 'experience', 'online'],
   'audioScript': "I recently tried this new restaurant and I have to say it was amazing!\nThe atmosphere was cozy and the staff were really friendly.\nOverall, I would definitely recommend this place to anyone.\n",
   'listeningEnabled': true,
@@ -46,6 +46,9 @@
         'answer': 'I would definitely recommend this place.',
       },
     ],
+  'categoryEn': 'Independent Workplace Communication',
+  'categoryVi': 'Giao tiếp Công việc Độc lập',
+  'prerequisites': ['b1-13-recipe-menu'],
 }
 ---
 
@@ -129,3 +132,42 @@ Answer the three questions in the quiz section to finish this lesson.
 ## What to Learn Next
 
 In the next lesson **B1-15-review-unit3**, you will review everything from Unit 3: food vocabulary, conditionals, reading, and writing.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to produce and revise a clear piece of writing about writing a blog post or review for a defined audience.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **writing a blog post or review** in this situation?
+>
+> **You:** I recently tried this new restaurant and I have to say it was amazing!
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Write 80–120 words for a colleague or classmate. State the purpose early, support it with a concrete detail, and finish with a clear next step.
+
+### Model response
+
+> I recently tried this new restaurant and I have to say it was amazing! The atmosphere was cozy and the staff were really friendly. Overall, I would definitely recommend this place to anyone.
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+
+<!-- learning-loop:end -->

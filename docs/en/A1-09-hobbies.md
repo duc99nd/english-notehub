@@ -11,7 +11,7 @@
   'skill': 'writing',
   'order': 9,
   'cefr': 'A1',
-  'minutes': 7,
+  'minutes': 19,
   'tags': ['hobbies', 'free-time', 'preferences', 'writing', 'speaking'],
   'audioScript': "In my free time, I like to read books.\nSometimes I play soccer with my friends.\nI enjoy listening to music. I also like cooking.\nOn weekends, I often watch movies.\n",
   'listeningEnabled': true,
@@ -48,6 +48,9 @@
         'answer': 'nấu ăn',
       },
     ],
+  'categoryEn': 'Foundation English',
+  'categoryVi': 'Tiếng Anh Nền tảng',
+  'prerequisites': ['a1-08-weather'],
 }
 ---
 
@@ -193,3 +196,42 @@ Press play, then repeat each line aloud.
 ## What to learn next
 
 In **A1-10-review-unit2**, you will review everything from Unit 2: time, places, food, weather, and hobbies. A short check to see what you remember.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to produce and revise a clear piece of writing about hobbies & free time for a defined audience.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **hobbies & free time** in this situation?
+>
+> **You:** In my free time, I like to read books.
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Write 80–120 words for a colleague or classmate. State the purpose early, support it with a concrete detail, and finish with a clear next step.
+
+### Model response
+
+> In my free time, I like to read books. Sometimes I play soccer with my friends. I enjoy listening to music. I also like cooking. On weekends, I often watch movies.
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+
+<!-- learning-loop:end -->

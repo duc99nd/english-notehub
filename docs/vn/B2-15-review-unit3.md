@@ -13,52 +13,39 @@
   'cefr': 'B2',
   'minutes': 10,
   'tags': ['review', 'culture', 'grammar', 'reading', 'writing', 'consolidation', 'B2'],
-  'audioScript': "Unit 3 completes your B2 journey, integrating cultural awareness, complex grammar, analytical reading, and formal writing.\nYou now possess the complete range of B2 competencies for professional English.\nThis review consolidates your mastery across all three units.\n",
+  'audioScript': "Welcome to the final review of B2.\nYou have mastered cultural communication.\nYou can now write formal correspondence and analyze complex texts.\n",
   'listeningEnabled': true,
-  'flashcardCount': 10,
+  'flashcardCount': 16,
   'quiz':
     [
       {
         'type': 'choice',
-        'prompt': 'What is a characteristic of high-context cultures?',
-        'options':
-          [
-            'Direct communication is preferred',
-            'Meaning is conveyed through context and relationships',
-            'Written contracts are always required',
-          ],
-        'answer': 'Meaning is conveyed through context and relationships',
+        'prompt': 'What does "read between the lines" mean?',
+        'options': ['Understand implied meaning', 'Read slowly', 'Summarize'],
+        'answer': 'Understand implied meaning',
       },
+      { 'type': 'fill', 'prompt': 'I am writing to ___ about the position.', 'answer': 'inquire' },
       {
         'type': 'choice',
-        'prompt': 'Which sentence uses a non-defining relative clause correctly?',
-        'options':
-          [
-            'The report that was published highlights key trends.',
-            'The report, which was published, highlights key trends.',
-            'The report which was published highlights key trends.',
-          ],
-        'answer': 'The report, which was published, highlights key trends.',
-      },
-      {
-        'type': 'choice',
-        'prompt': 'What does "in light of" mean in formal writing?',
-        'options':
-          ['Inside a building', 'Considering or taking into account', 'Because of bright light'],
-        'answer': 'Considering or taking into account',
-      },
-      {
-        'type': 'choice',
-        'prompt': 'Which phrase is appropriate for a formal email closing?',
-        'options': ['Catch you later!', 'I look forward to your response.', 'Thanks a bunch!'],
-        'answer': 'I look forward to your response.',
+        'prompt': 'Which word introduces a contrast?',
+        'options': ['Because', 'Although', 'And'],
+        'answer': 'Although',
       },
       {
         'type': 'fill',
-        'prompt': 'Please find ___ the requested documentation.',
-        'answer': 'attached',
+        'prompt': 'Critics ___ that the policy fails to address core issues.',
+        'answer': 'contend',
+      },
+      {
+        'type': 'choice',
+        'prompt': 'Formal email opening?',
+        'options': ['Hey!', 'Dear Sir or Madam,', 'Yo'],
+        'answer': 'Dear Sir or Madam,',
       },
     ],
+  'categoryEn': 'Technical Leadership Communication',
+  'categoryVi': 'Giao tiếp Dẫn dắt Kỹ thuật',
+  'prerequisites': ['b2-14-formal-correspondence'],
 }
 ---
 
@@ -158,3 +145,48 @@ Bạn đã hoàn thành toàn bộ chương trình B2. Năng lực tiếng Anh c
 ---
 
 _Đây là kết thúc chương trình B2. Tiếp tục thực hành các kỹ năng này trong các bối cảnh chuyên nghiệp thực tế để duy trì sự làm chủ của bạn._
+
+Trước khi xem đáp án, hãy giải thích người nghe, mối quan hệ và kênh giao tiếp sẽ làm thay đổi một lựa chọn của bạn như thế nào. Ở B2, độ chính xác quan trọng nhưng câu trả lời hiệu quả còn phải phù hợp bối cảnh xã hội.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Ôn tập Unit 3** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** Welcome to the final review of B2.
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Ôn tập Unit 3**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> Welcome to the final review of B2. You have mastered cultural communication. You can now write formal correspondence and analyze complex texts.
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Chuyển đổi register
+
+Viết lại câu trả lời hai lần: một bản cho đồng đội thân quen và một bản cho khách hàng hoặc stakeholder cấp cao. Giữ nguyên thông điệp nhưng thay đổi độ trực tiếp, lượng bối cảnh và mức giải thích. Chỉ ra một cụm từ bạn đã làm mềm, một chi tiết bạn nói rõ hơn và một giả định bạn đã loại bỏ.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+
+<!-- learning-loop:end -->

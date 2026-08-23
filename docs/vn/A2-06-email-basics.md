@@ -11,16 +11,16 @@
   'skill': 'vocab',
   'order': 6,
   'cefr': 'A2',
-  'minutes': 5,
+  'minutes': 10,
   'tags': ['email', 'writing', 'vocabulary', 'communication'],
-  'audioScript': "Kính gửi ông/bà, tôi viết để hỏi về dịch vụ của bạn.\nCảm ơn bạn đã gửi email.\nTôi mong chờ tin từ bạn.\n",
+  'audioScript': "Dear Sir or Madam, I am writing to inquire about your services.\nThank you for your email.\nI look forward to hearing from you.\n",
   'listeningEnabled': true,
   'flashcardCount': 6,
   'quiz':
     [
       {
         'type': 'choice',
-        'prompt': 'Lời chào nào là trang trọng cho email công việc?',
+        'prompt': 'Which greeting is formal for business emails?',
         'options': ['Hey there!', 'Dear Sir or Madam,', 'Hi mate!'],
         'answer': 'Dear Sir or Madam,',
       },
@@ -31,11 +31,14 @@
       },
       {
         'type': 'choice',
-        'prompt': 'Cụm từ kết thúc nào trang trọng nhất?',
+        'prompt': 'Which closing phrase is the most formal?',
         'options': ['Cheers', 'Best regards', 'Talk soon'],
         'answer': 'Best regards',
       },
     ],
+  'categoryEn': 'Everyday Workplace English',
+  'categoryVi': 'Tiếng Anh Công việc Hằng ngày',
+  'prerequisites': ['a2-05-review-unit1'],
 }
 ---
 
@@ -90,3 +93,42 @@ Nhấn nút play để nghe audio. Sau đó lặp lại từng câu thành tiế
 ## Bài học tiếp theo
 
 Ở bài **A2-07-phone-call**, bạn sẽ học cách nhận và thực hiện cuộc gọi điện thoại bằng tiếng Anh.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Email cơ bản** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** Dear Sir or Madam, I am writing to inquire about your services.
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Email cơ bản**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> Dear Sir or Madam, I am writing to inquire about your services. Thank you for your email. I look forward to hearing from you.
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+
+<!-- learning-loop:end -->

@@ -11,27 +11,30 @@
   'skill': 'grammar',
   'order': 13,
   'cefr': 'A2',
-  'minutes': 5,
+  'minutes': 10,
   'tags': ['grammar', 'present-perfect', 'experiences', 'A2'],
-  'audioScript': "Tôi đã từng đến Nhật Bản hai lần.\nCô ấy đã sống ở đây ba năm rồi.\nBạn đã từng thử sushi chưa?\n",
+  'audioScript': "I have visited Japan twice.\nShe has lived here for three years.\nHave you ever tried sushi?\n",
   'listeningEnabled': true,
   'flashcardCount': 6,
   'quiz':
     [
       {
         'type': 'choice',
-        'prompt': 'Đâu là câu hiện tại hoàn thành đúng?',
-        'options': ['Tôi đã từng đến Tokyo.', 'Tôi có đến Tokyo.', 'Tôi đã từng đến Tokyo rồi.'],
-        'answer': 'Tôi đã từng đến Tokyo.',
+        'prompt': 'Which is the correct present perfect?',
+        'options': ['I have visited Tokyo.', 'I have visit Tokyo.', 'I visited have Tokyo.'],
+        'answer': 'I have visited Tokyo.',
       },
-      { 'type': 'fill', 'prompt': 'Cô ấy ___ sống ở đây ba năm rồi.', 'answer': 'đã' },
+      { 'type': 'fill', 'prompt': 'She ___ lived here for three years.', 'answer': 'has' },
       {
         'type': 'choice',
-        'prompt': 'Bạn đã từng ___ sushi chưa? — Chọn dạng đúng',
-        'options': ['thử', 'thử rồi', 'đang thử'],
-        'answer': 'thử',
+        'prompt': 'Have you ever ___ sushi? — Choose the right form',
+        'options': ['tried', 'try', 'trying'],
+        'answer': 'tried',
       },
     ],
+  'categoryEn': 'Everyday Workplace English',
+  'categoryVi': 'Tiếng Anh Công việc Hằng ngày',
+  'prerequisites': ['a2-12-opinions'],
 }
 ---
 
@@ -102,3 +105,42 @@ Trả lời ba câu hỏi trong phần quiz để hoàn thành bài học.
 ## Bài học tiếp theo
 
 Ở bài **A2-14-short-reading**, bạn sẽ đọc các đoạn văn ngắn về kinh nghiệm cá nhân.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Kinh nghiệm** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** I have visited Japan twice.
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Kinh nghiệm**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> I have visited Japan twice. She has lived here for three years. Have you ever tried sushi?
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+
+<!-- learning-loop:end -->

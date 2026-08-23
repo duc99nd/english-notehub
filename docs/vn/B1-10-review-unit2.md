@@ -11,39 +11,42 @@
   'skill': 'review',
   'order': 10,
   'cefr': 'B1',
-  'minutes': 10,
+  'minutes': 11,
   'tags': ['review', 'unit2', 'work', 'modals', 'writing', 'vocabulary', 'grammar'],
-  'audioScript': "Hãy ôn tập những gì chúng ta đã học trong Unit 2.\nBây giờ bạn có thể nói về công việc và nơi làm việc của mình.\nBạn hiểu must, have to, should và ought to.\nBạn có thể viết thư xin việc.\n",
+  'audioScript': "Let's review what we learned in Unit 2.\nYou can now talk about your job and workplace.\nYou understand must, have to, should, and ought to.\nYou can write a job application letter.\n",
   'listeningEnabled': true,
   'flashcardCount': 16,
   'quiz':
     [
       {
         'type': 'choice',
-        'prompt': 'Động từ trợ giúp nào dùng để đưa ra lời khuyên?',
+        'prompt': 'Which modal is used for advice?',
         'options': ['must', 'should', 'had to'],
         'answer': 'should',
       },
-      { 'type': 'fill', 'prompt': 'Tôi ___ (have to) làm việc muộn hôm qua.', 'answer': 'had to' },
+      { 'type': 'fill', 'prompt': 'I ___ (have to) work late yesterday.', 'answer': 'had to' },
       {
         'type': 'choice',
-        'prompt': 'Lời kết thúc nào là trang trọng cho thư xin việc?',
+        'prompt': 'Which sign-off is formal for a job application?',
         'options': ['Love,', 'Yours faithfully,', 'Best,'],
         'answer': 'Yours faithfully,',
       },
-      { 'type': 'fill', 'prompt': 'Dự án có ___ vào thứ Sáu tuần sau.', 'answer': 'deadline' },
+      { 'type': 'fill', 'prompt': 'The project has a ___ next Friday.', 'answer': 'deadline' },
       {
         'type': 'choice',
-        'prompt': 'Flexibility (sự linh hoạt) nghĩa là gì trong ngữ cảnh công việc?',
+        'prompt': "What does 'flexibility' mean in a work context?",
         'options':
           [
-            'Chỉ làm việc vào ban đêm',
-            'Có sự lựa chọn về thời gian hoặc cách làm việc',
-            'Rất nghiêm ngặt',
+            'Working only at night',
+            'Having choices about when or how you work',
+            'Being very strict',
           ],
-        'answer': 'Có sự lựa chọn về thời gian hoặc cách làm việc',
+        'answer': 'Having choices about when or how you work',
       },
     ],
+  'categoryEn': 'Independent Workplace Communication',
+  'categoryVi': 'Giao tiếp Công việc Độc lập',
+  'prerequisites': ['b1-09-job-application'],
 }
 ---
 
@@ -112,3 +115,42 @@ Trong Unit 2, bạn đã học bốn kỹ năng quan trọng cho nơi làm việ
 ## Bài học tiếp theo
 
 Tiếp tục với **B1-11-food-cooking** để học từ vựng về đồ ăn và nấu ăn trong Unit 3.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Ôn tập Unit 2** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** Let's review what we learned in Unit 2.
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Ôn tập Unit 2**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> Let's review what we learned in Unit 2. You can now talk about your job and workplace. You understand must, have to, should, and ought to. You can write a job application letter.
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+
+<!-- learning-loop:end -->

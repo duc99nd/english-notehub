@@ -11,7 +11,7 @@
   'skill': 'review',
   'order': 15,
   'cefr': 'A1',
-  'minutes': 10,
+  'minutes': 20,
   'tags': ['review', 'unit3', 'shopping', 'directions', 'describing', 'A1'],
   'audioScript': "Let's review Unit 3.\nYou can now ask for directions.\nYou can talk about abilities using can and can't.\nYou can describe people.\n",
   'listeningEnabled': true,
@@ -20,25 +20,28 @@
     [
       {
         'type': 'choice',
-        'prompt': "'How much does this cost?' có nghĩa là gì?",
-        'options': ['Bao nhiêu cái?', 'Giá bao nhiêu?', 'Ở đâu?'],
-        'answer': 'Giá bao nhiêu?',
+        'prompt': "'How much does this cost?' means:",
+        'options': ['How many?', 'What is the price?', 'Where is it?'],
+        'answer': 'What is the price?',
       },
       { 'type': 'fill', 'prompt': 'Turn ___ at the traffic light.', 'answer': 'left' },
       {
         'type': 'choice',
-        'prompt': 'Câu nào đúng?',
+        'prompt': 'Which is correct?',
         'options': ['I can to swim.', 'I can swim.', 'I can swimming.'],
         'answer': 'I can swim.',
       },
       { 'type': 'fill', 'prompt': 'She ___ black hair. (có)', 'answer': 'has' },
       {
         'type': 'choice',
-        'prompt': "'Friendly' mô tả điều gì?",
-        'options': ['Ngoại hình', 'Tính cách', 'Chiều cao'],
-        'answer': 'Tính cách',
+        'prompt': "What does 'friendly' describe?",
+        'options': ['Appearance', 'Personality', 'Height'],
+        'answer': 'Personality',
       },
     ],
+  'categoryEn': 'Foundation English',
+  'categoryVi': 'Tiếng Anh Nền tảng',
+  'prerequisites': ['a1-14-describing-people'],
 }
 ---
 
@@ -122,12 +125,12 @@ Nếu bạn làm bài tập mà không cần nhìn lại bài cũ, xin chúc m�
 
 Viết câu tiếng Anh trước, sau đó kiểm tra.
 
-| Tiếng Việt                 | Câu của bạn                          |
-| -------------------------- | ------------------------------------ |
-| Cái áo này bao nhiêu tiền? | **************\_\_\_\_************** |
-| Xin lỗi, ngân hàng ở đâu?  | **************\_\_\_\_************** |
-| Tôi không biết bơi.        | **************\_\_\_\_************** |
-| Bạn tôi cao và tóc nâu.    | **************\_\_\_\_************** |
+| Tiếng Việt                 | Câu của bạn                                      |
+| -------------------------- | ------------------------------------------------ |
+| Cái áo này bao nhiêu tiền? | **\*\***\*\***\*\***\_\_\_\_**\*\***\*\***\*\*** |
+| Xin lỗi, ngân hàng ở đâu?  | **\*\***\*\***\*\***\_\_\_\_**\*\***\*\***\*\*** |
+| Tôi không biết bơi.        | **\*\***\*\***\*\***\_\_\_\_**\*\***\*\***\*\*** |
+| Bạn tôi cao và tóc nâu.    | **\*\***\*\***\*\***\_\_\_\_**\*\***\*\***\*\*** |
 
 ### Bài tập 2: Điền vào chỗ trống
 
@@ -279,9 +282,48 @@ Bạn đã hoàn thành **cả ba unit của tiếng Anh A1**:
 Ở **A2**, bạn sẽ học:
 
 - **A2-01-asking-help**: câu hỏi phức tạp hơn
-- **A2-02-past-simple**: thì quá khứ kể chuyện
-- **A2-03-future-plans**: nói về ngày mai và tuần sau
-- **A2-04-comparisons**: so sánh (lớn hơn, nhanh hơn)
+- **A2-02-daily-routine**: mô tả thói quen hằng ngày chi tiết hơn
+- **A2-03-comparatives**: so sánh (lớn hơn, nhanh hơn)
+- **A2-04-past-events**: kể một câu chuyện ngắn trong quá khứ
 - ... và nhiều hơn nữa
 
 Tiếp tục nhé! Mỗi bài A2 xây dựng trên từ vựng A1, nên tất cả những gì bạn học ở đây là nền tảng.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Ôn tập Unit 3** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** Let's review Unit 3.
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Ôn tập Unit 3**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> Let's review Unit 3. You can now ask for directions. You can talk about abilities using can and can't. You can describe people.
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+
+<!-- learning-loop:end -->

@@ -11,7 +11,7 @@
   'skill': 'writing',
   'order': 4,
   'cefr': 'B1',
-  'minutes': 5,
+  'minutes': 12,
   'tags': ['writing', 'email', 'friend', 'informal', 'communication'],
   'audioScript': "Hi Emma, it's been a while since we last spoke!\nI'm writing to tell you about my trip to Tokyo last month.\nLet me know when you're free to catch up!\n",
   'listeningEnabled': true,
@@ -32,6 +32,9 @@
         'answer': 'Love,',
       },
     ],
+  'categoryEn': 'Independent Workplace Communication',
+  'categoryVi': 'Giao tiếp Công việc Độc lập',
+  'prerequisites': ['b1-03-travel-blogs'],
 }
 ---
 
@@ -119,3 +122,42 @@ Answer the three questions in the quiz section to finish this lesson.
 ## What to Learn Next
 
 In the next lesson **B1-05-review-unit1**, you will review everything from Unit 1: travel vocabulary, past tenses, reading, and writing.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to produce and revise a clear piece of writing about writing an email to a friend for a defined audience.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **writing an email to a friend** in this situation?
+>
+> **You:** Hi Emma, it's been a while since we last spoke!
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Write 80–120 words for a colleague or classmate. State the purpose early, support it with a concrete detail, and finish with a clear next step.
+
+### Model response
+
+> Hi Emma, it's been a while since we last spoke! I'm writing to tell you about my trip to Tokyo last month. Let me know when you're free to catch up!
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+
+<!-- learning-loop:end -->

@@ -11,7 +11,7 @@
   'skill': 'writing',
   'order': 9,
   'cefr': 'C1',
-  'minutes': 5,
+  'minutes': 11,
   'tags': ['writing', 'executive-summary', 'business', 'C1'],
   'audioScript': "The proposal requests board approval for a five million dollar investment in operational efficiency.\nIt is projected to generate a fifteen percent reduction in costs over eighteen months.\nManagement recommends approval.\n",
   'listeningEnabled': true,
@@ -36,6 +36,9 @@
         'answer': 'Recommendation',
       },
     ],
+  'categoryEn': 'Strategic Professional Communication',
+  'categoryVi': 'Giao tiếp Chuyên nghiệp Chiến lược',
+  'prerequisites': ['c1-08-policy-reading'],
 }
 ---
 
@@ -91,3 +94,47 @@ Ask: [Specific decision/action needed by specific date].
 ## What to learn next
 
 In the next lesson **C1-10-review-unit2**, you will consolidate Unit 2 skills.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to produce and revise a clear piece of writing about executive summary writing for a defined audience.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **executive summary writing** in this situation?
+>
+> **You:** The proposal requests board approval for a five million dollar investment in operational efficiency.
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Write 80–120 words for a colleague, client, and senior stakeholder. State the purpose early, support it with a concrete detail, and finish with a clear next step.
+
+### Model response
+
+> The proposal requests board approval for a five million dollar investment in operational efficiency. It is projected to generate a fifteen percent reduction in costs over eighteen months. Management recommends approval.
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Register switch
+
+Rewrite your response twice: first for a trusted teammate, then for a client or senior stakeholder. Keep the underlying message the same while changing directness, context, and the amount of explanation. Identify one phrase you softened, one detail you made explicit, and one assumption you removed.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+- [ ] I qualified claims where certainty was limited and adjusted the register for my audience.
+
+<!-- learning-loop:end -->

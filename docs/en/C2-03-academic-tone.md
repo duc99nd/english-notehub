@@ -11,7 +11,7 @@
   'skill': 'reading',
   'order': 3,
   'cefr': 'C2',
-  'minutes': 5,
+  'minutes': 12,
   'tags': ['academic', 'formal', 'register', 'writing', 'style'],
   'audioScript': "Academic prose prioritizes precision over elegance.\nHedging allows scholars to express uncertainty appropriately.\nPassive constructions remain common in scientific writing.\n",
   'listeningEnabled': true,
@@ -48,6 +48,9 @@
         'answer': 'consistent',
       },
     ],
+  'categoryEn': 'Expert Register and Influence',
+  'categoryVi': 'Sắc thái và Ảnh hưởng Chuyên sâu',
+  'prerequisites': ['c2-02-satire-irony'],
 }
 ---
 
@@ -128,3 +131,47 @@ Test your understanding of academic tone and hedging.
 ## What to learn next
 
 In **C2-04-whitepaper-writing**, you will apply academic skills to write professional whitepapers.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to identify the main point, supporting detail, and register choices in a text about academic tone & style.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **academic tone & style** in this situation?
+>
+> **You:** Academic prose prioritizes precision over elegance.
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Summarize the text in two sentences for a colleague, client, and senior stakeholder. Identify one claim, one supporting detail, and one phrase that signals the writer's attitude.
+
+### Model response
+
+> Academic prose prioritizes precision over elegance. Hedging allows scholars to express uncertainty appropriately. Passive constructions remain common in scientific writing.
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Register switch
+
+Rewrite your response twice: first for a trusted teammate, then for a client or senior stakeholder. Keep the underlying message the same while changing directness, context, and the amount of explanation. Identify one phrase you softened, one detail you made explicit, and one assumption you removed. Then write a plausible alternative interpretation of the model and explain which contextual evidence would help a reader choose between the two readings.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+- [ ] I qualified claims where certainty was limited and adjusted the register for my audience.
+
+<!-- learning-loop:end -->

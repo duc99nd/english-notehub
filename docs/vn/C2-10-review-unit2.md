@@ -11,8 +11,58 @@
   'skill': 'review',
   'order': 10,
   'cefr': 'C2',
-  'minutes': 10,
+  'minutes': 13,
   'tags': ['review', 'conference', 'panel', 'diplomacy', 'legal', 'consolidation'],
+  'categoryEn': 'Expert Register and Influence',
+  'categoryVi': 'Sắc thái và Ảnh hưởng Chuyên sâu',
+  'prerequisites': ['c2-09-legal-contracts'],
+  'audioScript': "Unit 2 advanced your professional communication skills across speaking, reading, and writing domains.\nConference discourse, panel grammar, diplomatic register, and legal precision represent pinnacle formal English.\nMastery of these registers distinguishes C2 speakers in international professional contexts.\n",
+  'listeningEnabled': true,
+  'flashcardCount': 10,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': 'Which phrase signals a speaker is presenting their central argument?',
+        'options': ['Moving on to...', 'I shall argue that...', 'In conclusion...', 'To sum up...'],
+        'answer': 'I shall argue that...',
+      },
+      {
+        'type': 'choice',
+        'prompt': 'In legal contracts, which word creates a mandatory obligation?',
+        'options': ['May', 'Might', 'Should', 'Shall'],
+        'answer': 'Shall',
+      },
+      {
+        'type': 'choice',
+        'prompt': "What does 'taking note of' imply in diplomatic language?",
+        'options':
+          [
+            'Strong agreement',
+            'Full commitment',
+            'Polite acknowledgment without commitment',
+            'Rejection',
+          ],
+        'answer': 'Polite acknowledgment without commitment',
+      },
+      {
+        'type': 'choice',
+        'prompt': 'Which grammatical structure is used for softened disagreement in panels?',
+        'options':
+          ['First conditional', 'Second conditional', 'Third conditional', 'Zero conditional'],
+        'answer': 'Second conditional',
+      },
+      {
+        'type': 'fill',
+        'prompt': 'The subjunctive is used after verbs of suggestion, demand, and ___.',
+        'answer': 'recommendation',
+      },
+      {
+        'type': 'fill',
+        'prompt': "In treaties, '___' means applying with necessary changes.",
+        'answer': 'mutatis mutandis',
+      },
+    ],
 }
 ---
 
@@ -101,3 +151,47 @@ Trong Unit 3, bạn sẽ áp dụng những kỹ năng chuyên nghiệp này và
 ## Bài học tiếp theo
 
 Trong **C2-11-research-presentation**, bạn sẽ làm chủ từ vựng của các bài thuyết trình nghiên cứu trang trọng và bảo vệ luận văn.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Ôn tập Unit 2** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** Unit 2 advanced your professional communication skills across speaking, reading, and writing domains.
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Ôn tập Unit 2**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> Unit 2 advanced your professional communication skills across speaking, reading, and writing domains. Conference discourse, panel grammar, diplomatic register, and legal precision represent pinnacle formal English. Mastery of these registers distinguishes C2 speakers in international professional contexts.
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Chuyển đổi register
+
+Viết lại câu trả lời hai lần: một bản cho đồng đội thân quen và một bản cho khách hàng hoặc stakeholder cấp cao. Giữ nguyên thông điệp nhưng thay đổi độ trực tiếp, lượng bối cảnh và mức giải thích. Chỉ ra một cụm từ bạn đã làm mềm, một chi tiết bạn nói rõ hơn và một giả định bạn đã loại bỏ. Sau đó, viết thêm một cách diễn giải hợp lý khác của bài mẫu và nêu bằng chứng ngữ cảnh cần có để chọn giữa hai cách hiểu.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+- [ ] Mình đã giới hạn mức độ chắc chắn của nhận định và điều chỉnh register theo người nghe.
+
+<!-- learning-loop:end -->

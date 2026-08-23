@@ -11,7 +11,7 @@
   'skill': 'reading',
   'order': 3,
   'cefr': 'A1',
-  'minutes': 8,
+  'minutes': 20,
   'tags': ['verbs', 'daily-routine', 'reading', 'speaking', 'foundation'],
   'audioScript': "I wake up at six in the morning.\nI eat breakfast at seven. I drink coffee every day.\nI go to work at eight. I come home at six.\nI read a book before I sleep at ten.\n",
   'listeningEnabled': true,
@@ -33,6 +33,9 @@
       },
       { 'type': 'fill', 'prompt': 'She ___ home at six in the evening. (đến)', 'answer': 'comes' },
     ],
+  'categoryEn': 'Foundation English',
+  'categoryVi': 'Tiếng Anh Nền tảng',
+  'prerequisites': ['a1-02-numbers'],
 }
 ---
 
@@ -190,3 +193,42 @@ Press play, then repeat each line aloud. Pause after each one.
 ## What to learn next
 
 In **A1-04-family**, you will learn the words for family members — mother, father, brother, sister, etc. — and how to talk about your family using the "s" rule from this lesson.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to identify the main point, supporting detail, and register choices in a text about daily verbs.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **daily verbs** in this situation?
+>
+> **You:** I wake up at six in the morning.
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Summarize the text in two sentences for a colleague or classmate. Identify one claim, one supporting detail, and one phrase that signals the writer's attitude.
+
+### Model response
+
+> I wake up at six in the morning. I eat breakfast at seven. I drink coffee every day. I go to work at eight. I come home at six. I read a book before I sleep at ten.
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+
+<!-- learning-loop:end -->

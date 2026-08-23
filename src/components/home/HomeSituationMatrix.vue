@@ -93,7 +93,7 @@ const matrixCategories: MatrixCategory[] = [
     relatedDocs: [
       { slug: 'client-situations', labelEn: 'Client Scenarios', labelVi: 'Tình huống Khách hàng' },
       {
-        slug: 'negotiating-deadlines',
+        slug: 'b2-01-negotiation-advanced',
         labelEn: 'Negotiate Deadlines',
         labelVi: 'Đàm phán Deadline',
       },
@@ -118,20 +118,20 @@ const matrixCategories: MatrixCategory[] = [
       'Nhận xét Pull Request xây dựng, thuyết phục sếp refactor code và phân tích trade-off hệ thống.',
     sampleFormula:
       '“What do you think about extracting this handler into a custom hook for better testability?”',
-    mainDocSlug: 'code-review-discussions',
+    mainDocSlug: 'b2-03-presenting-architecture',
     relatedDocs: [
       {
-        slug: 'code-review-discussions',
+        slug: 'b2-03-presenting-architecture',
         labelEn: 'Code Review Phrases',
         labelVi: 'Mẫu câu Code Review',
       },
       {
-        slug: 'comparing-technical-solutions',
+        slug: 'b2-08-data-storytelling',
         labelEn: 'Tech Trade-offs',
         labelVi: 'So sánh Giải pháp',
       },
       {
-        slug: 'pitching-code-refactoring',
+        slug: 'b2-07-proposal-writing',
         labelEn: 'Pitching Refactor',
         labelVi: 'Thuyết phục Refactor',
       },
@@ -153,8 +153,8 @@ const matrixCategories: MatrixCategory[] = [
     mainDocSlug: 'interview-preparation',
     relatedDocs: [
       { slug: 'interview-preparation', labelEn: 'Job Interviews', labelVi: 'Phỏng vấn Tuyển dụng' },
-      { slug: 'salary-negotiation', labelEn: 'Salary Negotiation', labelVi: 'Thương lượng Lương' },
-      { slug: 'elevator-pitch', labelEn: 'Elevator Pitch', labelVi: 'Giới thiệu 60s' },
+      { slug: 'b2-01-negotiation-advanced', labelEn: 'Negotiation', labelVi: 'Thương lượng' },
+      { slug: 'c1-02-board-presentations', labelEn: 'Executive Pitch', labelVi: 'Pitch Cấp cao' },
     ],
     lessonCount: 10,
   },
@@ -177,8 +177,8 @@ const matrixCategories: MatrixCategory[] = [
         labelEn: 'IT Pronunciation',
         labelVi: 'Phát âm Từ IT',
       },
-      { slug: 'confusing-words-in-it', labelEn: 'Confusing Words', labelVi: 'Từ dễ nhầm lẫn' },
-      { slug: 'phrasal-verbs-in-it', labelEn: 'IT Phrasal Verbs', labelVi: 'Phrasal Verbs IT' },
+      { slug: 'vocabulary-reference', labelEn: 'Confusing Words', labelVi: 'Từ dễ nhầm lẫn' },
+      { slug: 'speaking-grammar', labelEn: 'Speaking Patterns', labelVi: 'Mẫu câu Speaking' },
     ],
     lessonCount: 8,
   },

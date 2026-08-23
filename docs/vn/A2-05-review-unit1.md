@@ -13,32 +13,35 @@
   'cefr': 'A2',
   'minutes': 10,
   'tags': ['review', 'unit1', 'grammar', 'vocabulary'],
-  'audioScript': "Hãy ôn tập những gì chúng ta đã học trong Unit 1.\nBạn có thể hỏi giúp đỡ một cách lịch sự.\nBạn có thể nói về thói quen hàng ngày.\nBạn có thể so sánh sự vật.\nBạn có thể nói về các sự kiện quá khứ.\n",
+  'audioScript': "Let's review what we learned in Unit 1.\nYou can ask for help politely.\nYou can talk about your daily routine.\nYou can compare things.\nYou can talk about past events.\n",
   'listeningEnabled': true,
   'flashcardCount': 12,
   'quiz':
     [
       {
         'type': 'choice',
-        'prompt': 'Làm thế nào để hỏi giúp đỡ một cách lịch sự?',
+        'prompt': 'How do you politely ask for help?',
         'options': ['Give me help.', 'Could you help me, please?', 'Help me now!'],
         'answer': 'Could you help me, please?',
       },
       { 'type': 'fill', 'prompt': 'I wake ___ at six every morning.', 'answer': 'up' },
       {
         'type': 'choice',
-        'prompt': 'Hình thức so sánh nào đúng?',
+        'prompt': 'Which is the correct comparative form?',
         'options': ['more beautiful', 'beautifuller', 'beautfuller'],
         'answer': 'more beautiful',
       },
       { 'type': 'fill', 'prompt': 'Yesterday, she ___ to the market. (go)', 'answer': 'went' },
       {
         'type': 'choice',
-        'prompt': 'Câu nào ở thì quá khứ đơn?',
+        'prompt': 'Which sentence is in past simple?',
         'options': ['I work at home.', 'I am working.', 'I worked late.'],
         'answer': 'I worked late.',
       },
     ],
+  'categoryEn': 'Everyday Workplace English',
+  'categoryVi': 'Tiếng Anh Công việc Hằng ngày',
+  'prerequisites': ['a2-04-past-events'],
 }
 ---
 
@@ -88,3 +91,42 @@ Hãy làm bài quiz bên dưới để kiểm tra kiến thức của bạn. Ch�
 ## Bài học tiếp theo
 
 Tiếp tục với **A2-06-email-basics** để học cách viết email cơ bản bằng tiếng Anh.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Ôn tập Unit 1** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** Let's review what we learned in Unit 1.
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Ôn tập Unit 1**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> Let's review what we learned in Unit 1. You can ask for help politely. You can talk about your daily routine. You can compare things. You can talk about past events.
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+
+<!-- learning-loop:end -->

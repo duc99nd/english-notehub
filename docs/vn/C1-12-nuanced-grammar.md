@@ -11,37 +11,39 @@
   'skill': 'grammar',
   'order': 12,
   'cefr': 'C1',
-  'minutes': 5,
+  'minutes': 12,
   'tags': ['grammar', 'mixed-conditionals', 'modality', 'advanced', 'C1'],
-  'audioScript': "Nếu hội đồng đã phê duyệt đề xuất sớm hơn, chúng tôi sẽ đang hoạt động quốc tế ngày nay.\nNếu chúng tôi ra mắt trong Q1, chúng tôi sẽ thu hút những người dùng sớm.\nNếu hoàn cảnh thay đổi, chúng tôi đã sẵn sàng chuyển hướng.\n",
+  'audioScript': "Had the board approved the proposal earlier, we would be operating internationally today.\nWere we to launch in Q1, we would capture the early adopters.\nShould circumstances change, we are prepared to pivot.\n",
   'listeningEnabled': true,
   'flashcardCount': 6,
   'quiz':
     [
       {
         'type': 'choice',
-        'prompt': 'Đâu là câu điều kiện hỗn hợp?',
+        'prompt': 'Which is a mixed conditional?',
         'options':
           [
-            'Nếu trời mưa, tôi sẽ ở lại.',
-            'Nếu tôi đã học, giờ tôi sẽ là bác sĩ.',
-            'Nếu trời mưa, tôi đã ở lại.',
+            'If it rains, I will stay.',
+            'If I had studied, I would be a doctor now.',
+            'If it rains, I stayed.',
           ],
-        'answer': 'Nếu tôi đã học, giờ tôi sẽ là bác sĩ.',
+        'answer': 'If I had studied, I would be a doctor now.',
       },
       {
         'type': 'fill',
-        'prompt': '___ hoàn cảnh thay đổi, chúng tôi đã sẵn sàng chuyển hướng.',
-        'answer': 'Nếu',
+        'prompt': '___ circumstances change, we are prepared to pivot.',
+        'answer': 'Should',
       },
       {
         'type': 'choice',
-        'prompt': 'Modal perfect diễn đạt gì?',
-        'options':
-          ['Khả năng tương lai', 'Suy đoán / hối tiếc trong quá khứ', 'Thói quen hiện tại'],
-        'answer': 'Suy đoán / hối tiếc trong quá khứ',
+        'prompt': 'What does "modal perfect" express?',
+        'options': ['Future possibility', 'Past speculation / regret', 'Present habit'],
+        'answer': 'Past speculation / regret',
       },
     ],
+  'categoryEn': 'Strategic Professional Communication',
+  'categoryVi': 'Giao tiếp Chuyên nghiệp Chiến lược',
+  'prerequisites': ['c1-11-academic-discourse'],
 }
 ---
 
@@ -114,3 +116,47 @@ Hedge học thuật sử dụng **tạo khoảng cách** để thể hiện sự
 ## What to learn next
 
 Trong bài tiếp theo **C1-13-critical-reading**, bạn sẽ đọc và phê bình lập luận học thuật.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Ngữ pháp C1 tinh tế** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** Had the board approved the proposal earlier, we would be operating internationally today.
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Ngữ pháp C1 tinh tế**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> Had the board approved the proposal earlier, we would be operating internationally today. Were we to launch in Q1, we would capture the early adopters. Should circumstances change, we are prepared to pivot.
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Chuyển đổi register
+
+Viết lại câu trả lời hai lần: một bản cho đồng đội thân quen và một bản cho khách hàng hoặc stakeholder cấp cao. Giữ nguyên thông điệp nhưng thay đổi độ trực tiếp, lượng bối cảnh và mức giải thích. Chỉ ra một cụm từ bạn đã làm mềm, một chi tiết bạn nói rõ hơn và một giả định bạn đã loại bỏ.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+- [ ] Mình đã giới hạn mức độ chắc chắn của nhận định và điều chỉnh register theo người nghe.
+
+<!-- learning-loop:end -->

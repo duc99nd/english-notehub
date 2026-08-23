@@ -11,7 +11,7 @@
   'skill': 'grammar',
   'order': 5,
   'cefr': 'B2',
-  'minutes': 5,
+  'minutes': 11,
   'tags': ['grammar', 'persuasion', 'rhetoric', 'B2'],
   'audioScript': "Not only does this solution reduce costs, but it also improves scalability.\nThe more data we collect, the better our predictions become.\nIt is essential that we act now to remain competitive.\n",
   'listeningEnabled': true,
@@ -37,6 +37,9 @@
         'answer': 'Double comparative',
       },
     ],
+  'categoryEn': 'Technical Leadership Communication',
+  'categoryVi': 'Giao tiếp Dẫn dắt Kỹ thuật',
+  'prerequisites': ['b2-04-meeting-facilitation'],
 }
 ---
 
@@ -88,3 +91,46 @@ Test your persuasive grammar in the quiz section.
 ## What to learn next
 
 In the next lesson **B2-06-business-article**, you will read and analyze business articles and market reports.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to choose an appropriate structure and apply it accurately when discussing persuasive grammar.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **persuasive grammar** in this situation?
+>
+> **You:** Not only does this solution reduce costs, but it also improves scalability.
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Write four connected sentences for a colleague or classmate. Use the target structure twice, then revise one sentence to change its tone or emphasis.
+
+### Model response
+
+> Not only does this solution reduce costs, but it also improves scalability. The more data we collect, the better our predictions become. It is essential that we act now to remain competitive.
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Register switch
+
+Rewrite your response twice: first for a trusted teammate, then for a client or senior stakeholder. Keep the underlying message the same while changing directness, context, and the amount of explanation. Identify one phrase you softened, one detail you made explicit, and one assumption you removed.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+
+<!-- learning-loop:end -->

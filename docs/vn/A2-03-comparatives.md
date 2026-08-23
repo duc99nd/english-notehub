@@ -11,16 +11,16 @@
   'skill': 'reading',
   'order': 3,
   'cefr': 'A2',
-  'minutes': 5,
+  'minutes': 10,
   'tags': ['comparatives', 'adjectives', 'grammar', 'comparison'],
-  'audioScript': "Nhà tôi lớn hơn nhà bạn.\nTiếng Anh khó hơn tiếng Việt.\nCuốn sách này thú vị hơn cuốn kia.\n",
+  'audioScript': "My house is bigger than yours.\nEnglish is more difficult than Vietnamese.\nThis book is more interesting than that one.\n",
   'listeningEnabled': true,
   'flashcardCount': 6,
   'quiz':
     [
       {
         'type': 'choice',
-        'prompt': 'Câu nào đúng cho so sánh tính từ ngắn?',
+        'prompt': 'Which is correct for comparing two short adjectives?',
         'options': ['She is more tall than me.', 'She is taller than me.', 'She is tall than me.'],
         'answer': 'She is taller than me.',
       },
@@ -31,11 +31,14 @@
       },
       {
         'type': 'choice',
-        'prompt': "Tính từ nào cần 'more' trước nó?",
+        'prompt': "Which word needs 'more' before it?",
         'options': ['tall', 'beautiful', 'big'],
         'answer': 'beautiful',
       },
     ],
+  'categoryEn': 'Everyday Workplace English',
+  'categoryVi': 'Tiếng Anh Công việc Hằng ngày',
+  'prerequisites': ['a2-02-daily-routine'],
 }
 ---
 
@@ -85,3 +88,42 @@ Nhấn nút play để nghe audio. Sau đó lặp lại từng câu thành tiế
 ## Bài học tiếp theo
 
 Ở bài **A2-04-past-events**, bạn sẽ học cách nói về các sự kiện trong quá khứ sử dụng thì quá khứ đơn.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **So sánh hơn** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** My house is bigger than yours.
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **So sánh hơn**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> My house is bigger than yours. English is more difficult than Vietnamese. This book is more interesting than that one.
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+
+<!-- learning-loop:end -->

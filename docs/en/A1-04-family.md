@@ -11,7 +11,7 @@
   'skill': 'writing',
   'order': 4,
   'cefr': 'A1',
-  'minutes': 8,
+  'minutes': 20,
   'tags': ['family', 'vocabulary', 'writing', 'speaking', 'daily'],
   'audioScript': "This is my family. I have a mother and a father.\nI have two sisters. Their names are Mai and Lan.\nMy brother is older than me. His name is Tuan.\nMy grandmother is 70. She is kind and patient.\n",
   'listeningEnabled': true,
@@ -47,6 +47,9 @@
         'answer': 'His',
       },
     ],
+  'categoryEn': 'Foundation English',
+  'categoryVi': 'Tiếng Anh Nền tảng',
+  'prerequisites': ['a1-03-daily-verbs'],
 }
 ---
 
@@ -179,10 +182,10 @@ Notice how Duc uses **possessive adjectives** (my, your, his) and **he / she + i
 
 Fill in the blanks, then read it aloud.
 
-> This is my family. My father's name is ****\_\_****. He is **\_ years old.
-> My mother's name is **\_\_\_\_****. She is **_ years old.
+> This is my family. My father's name is \***\*\_\_\*\***. He is **\_ years old.
+> My mother's name is **\_\_\_\_\***\*. She is **_ years old.
 > I have _** brothers and **_ sisters. My _** (oldest) is **\_.
-> We live in **\_\_\_\_****. On weekends, we ****\_\_**** together.
+> We live in **\_\_\_\_\*\***. On weekends, we \***\*\_\_\*\*** together.
 
 **Self-check**:
 
@@ -211,3 +214,42 @@ Press play, then repeat each line aloud. Pause after each one.
 ## What to learn next
 
 In **A1-05-review-unit1**, you will review everything from Unit 1: greetings, numbers, daily verbs, and family. A short check to see what you remember.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to produce and revise a clear piece of writing about family members for a defined audience.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **family members** in this situation?
+>
+> **You:** This is my family. I have a mother and a father.
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Write 80–120 words for a colleague or classmate. State the purpose early, support it with a concrete detail, and finish with a clear next step.
+
+### Model response
+
+> This is my family. I have a mother and a father. I have two sisters. Their names are Mai and Lan. My brother is older than me. His name is Tuan. My grandmother is 70. She is kind and patient.
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+
+<!-- learning-loop:end -->

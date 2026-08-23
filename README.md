@@ -1,35 +1,64 @@
-# Vue 3 + TypeScript + Vite
+# English Notehub
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+English Notehub is a bilingual learning desk for software professionals who need clearer English for standups, client meetings, technical decisions, difficult conversations, and career growth.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+The product is organized around workplace outcomes. CEFR labels indicate approximate language difficulty; they are not a claim of formal assessment or certification.
 
-## Agentation
+## What learners get
 
-Agentation is mounted as a dev-only overlay for this Vue app. Start the project with:
+- Situation-first guides for Slack, meetings, code review, incidents, negotiation, and interviews.
+- Ninety paired EN/VI curriculum lessons from A1 to C2-aligned difficulty.
+- English listening input, interactive knowledge checks, practice tasks, model responses, and locally persisted lesson completion.
+- Search and filters by workplace category, CEFR level, and topic tag.
+
+## Local development
 
 ```bash
+pnpm install
 pnpm dev
 ```
 
-The toolbar will appear in development so you can annotate the UI directly.
+## Content quality
 
-Optional MCP sync:
-
-1. Register the MCP server with your coding agent:
+Run the hard content contract and the human-readable depth report before shipping editorial changes:
 
 ```bash
-npx add-mcp "npx -y agentation-mcp server"
+pnpm run content:check
+pnpm run content:audit
+pnpm run test:content
 ```
 
-2. Point the toolbar at the local MCP HTTP endpoint before starting Vite:
+The hard gate checks active links, paired locales, frontmatter identity, English audio, quiz structure, prerequisites, duration plausibility, learner outcomes, production activities, and self-check/model responses.
+
+Every curriculum lesson should contain:
+
+1. A concrete learner outcome.
+2. Contextual input such as a dialogue, scenario, text, or listening model.
+3. An explanation of useful language and register.
+4. A production task that requires the learner to speak or write.
+5. A model response or self-check rubric.
+6. A valid next step in the active curriculum.
+
+English metadata is canonical. Vietnamese lessons localize explanations, while listening input and assessed English answers remain consistent across locales.
+
+## Validation
 
 ```bash
-VITE_AGENTATION_ENDPOINT=http://localhost:4747 pnpm dev
+pnpm run content:check
+pnpm run test:content
+pnpm run type-check
+pnpm run lint
+pnpm run build
 ```
 
-3. Run the local sync server:
+## Project structure
 
-```bash
-pnpm agentation:mcp
+```text
+docs/en/                    English lesson content
+docs/vn/                    Vietnamese learning support
+docs/_archive/              Content excluded from the active product
+scripts/content-audit.cjs   Hard content contract
+scripts/quality-lint.cjs    Editorial depth report
+src/components/learn/       Lesson practice controls
+src/components/home/        Situation-first discovery experience
 ```

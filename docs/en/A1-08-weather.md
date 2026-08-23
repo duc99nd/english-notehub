@@ -11,7 +11,7 @@
   'skill': 'reading',
   'order': 8,
   'cefr': 'A1',
-  'minutes': 7,
+  'minutes': 21,
   'tags': ['weather', 'seasons', 'small-talk', 'reading'],
   'audioScript': "Today is sunny and hot. The temperature is 35 degrees.\nIn summer, it is very hot in Vietnam.\nIn winter, it is cold and sometimes rainy.\nI like spring because flowers are beautiful.\n",
   'listeningEnabled': true,
@@ -38,6 +38,9 @@
         'answer': 'summer',
       },
     ],
+  'categoryEn': 'Foundation English',
+  'categoryVi': 'Tiếng Anh Nền tảng',
+  'prerequisites': ['a1-07-food'],
 }
 ---
 
@@ -223,3 +226,42 @@ Press play, then repeat each line aloud.
 ## What to learn next
 
 In **A1-09-hobbies**, you will learn vocabulary for free-time activities — sports, music, reading, gaming — and how to talk about what you like to do in your free time.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to identify the main point, supporting detail, and register choices in a text about weather.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **weather** in this situation?
+>
+> **You:** Today is sunny and hot. The temperature is 35 degrees.
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Summarize the text in two sentences for a colleague or classmate. Identify one claim, one supporting detail, and one phrase that signals the writer's attitude.
+
+### Model response
+
+> Today is sunny and hot. The temperature is 35 degrees. In summer, it is very hot in Vietnam. In winter, it is cold and sometimes rainy. I like spring because flowers are beautiful.
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+
+<!-- learning-loop:end -->

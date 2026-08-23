@@ -11,7 +11,7 @@
   'skill': 'grammar',
   'order': 2,
   'cefr': 'A1',
-  'minutes': 8,
+  'minutes': 18,
   'tags': ['numbers', 'phone', 'counting', 'math', 'foundation'],
   'audioScript': "One, two, three, four, five.\nMy number is zero nine one, five six seven, eight nine zero.\nI have two sisters and one brother.\nFour plus five equals nine.\n",
   'listeningEnabled': true,
@@ -37,6 +37,9 @@
         'answer': 'plus',
       },
     ],
+  'categoryEn': 'Foundation English',
+  'categoryVi': 'Tiếng Anh Nền tảng',
+  'prerequisites': ['a1-01-greetings'],
 }
 ---
 
@@ -197,3 +200,42 @@ Press play and repeat each line. Pause after each one to copy the rhythm.
 ## What to learn next
 
 In **A1-03-daily-verbs**, you will learn the 20 most common English verbs — wake up, eat, go, work, sleep — to start building real daily-life sentences.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to choose an appropriate structure and apply it accurately when discussing numbers & phone numbers.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **numbers & phone numbers** in this situation?
+>
+> **You:** One, two, three, four, five.
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Write four connected sentences for a colleague or classmate. Use the target structure twice, then revise one sentence to change its tone or emphasis.
+
+### Model response
+
+> One, two, three, four, five. My number is zero nine one, five six seven, eight nine zero. I have two sisters and one brother. Four plus five equals nine.
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+
+<!-- learning-loop:end -->

@@ -11,8 +11,46 @@
   'skill': 'reading',
   'order': 8,
   'cefr': 'C2',
-  'minutes': 5,
+  'minutes': 14,
   'tags': ['diplomacy', 'treaties', 'formal', 'international', 'correspondence', 'register'],
+  'categoryEn': 'Expert Register and Influence',
+  'categoryVi': 'Sắc thái và Ảnh hưởng Chuyên sâu',
+  'prerequisites': ['c2-07-panel-discussion'],
+  'audioScript': "Diplomatic language prioritizes face-saving and ambiguity management.\nTreaties use deliberate vagueness to accommodate multiple interpretations.\nUnderstanding diplomatic register requires attention to what is NOT said.\n",
+  'listeningEnabled': true,
+  'flashcardCount': 6,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': 'What is the primary function of diplomatic language?',
+        'options':
+          [
+            'To be completely transparent',
+            'To preserve face and manage ambiguity',
+            'To confuse the opposition',
+            'To simplify complex issues',
+          ],
+        'answer': 'To preserve face and manage ambiguity',
+      },
+      {
+        'type': 'choice',
+        'prompt': "What does 'taking note of' typically imply in diplomatic language?",
+        'options':
+          [
+            'Strong agreement',
+            'Full endorsement',
+            'Polite acknowledgment without commitment',
+            'Rejection',
+          ],
+        'answer': 'Polite acknowledgment without commitment',
+      },
+      {
+        'type': 'fill',
+        'prompt': "The ambassador expressed 'grave concern' over the incident, signalling ___ displeasure.",
+        'answer': 'diplomatic',
+      },
+    ],
 }
 ---
 
@@ -35,13 +73,13 @@ Ngôn ngữ ngoại giao hoạt động dựa trên các nguyên tắc khác bi�
 
 ### Ngôn ngữ Hiệp ước
 
-Hiệp ước là những kiệt tác của sự mơ hồ có chủ đích:
+Hiệp ước đôi khi dùng ngôn ngữ được giới hạn cẩn thận để các bên thống nhất một nghĩa vụ khả thi. Hiệu lực của cụm từ còn phụ thuộc văn kiện, hệ thống pháp luật, định nghĩa và các điều khoản xung quanh; phần dưới chỉ hướng dẫn về ngôn ngữ, không phải diễn giải pháp lý.
 
-> **Mẫu câu**: `The parties shall endeavour to...` (không phải "will" — nghĩa vụ yếu hơn)
+> **Mẫu câu**: `The parties shall endeavour to...` (diễn đạt nghĩa vụ nỗ lực; hiệu lực pháp lý còn tùy ngữ cảnh)
 
 > **Mẫu câu**: `It is understood that...` (thiết lập diễn giải chung mà không ràng buộc pháp lý)
 
-> **Mẫu câu**: `Pending the outcome of consultations...` (trì hoãn vô thời hạn)
+> **Mẫu câu**: `Pending the outcome of consultations...` (hoãn hành động đến khi quy trình tham vấn có kết quả)
 
 ### Các Cụm từ Hiệp ước Phổ biến và Chức năng của chúng
 
@@ -72,11 +110,11 @@ Các tuyên bố chính thức sử dụng các register cụ thể:
 > Dịch: Một số tiến bộ, nhưng vẫn còn bất đồng đáng kể.
 
 > **Mẫu câu**: `Both parties exchanged views on...`
-> Dịch: Họ không đồng ý về mọi thứ và không tìm được tiếng nói chung.
+> Diễn giải: Đây là cách nói trung tính có chủ đích. Nó xác nhận đã có trao đổi nhưng không tự cho biết các bên đồng ý hay bất đồng.
 
 ## Mức độ Bất mãn Ngoại giao
 
-Hiểu các cấp độ leo thang là rất quan trọng:
+Các cách nói này có thể gợi mức độ quan ngại tăng dần nhưng không tạo thành một thang leo thang cố định áp dụng ở mọi nơi. Người nói, tổ chức, thời điểm và hành động đi kèm đều làm thay đổi sắc thái:
 
 | Biểu thức                     | Mức độ       | Hành động ngầm     |
 | ----------------------------- | ------------ | ------------------ |
@@ -98,3 +136,47 @@ Khi đọc các văn bản ngoại giao, hãy hỏi:
 ## Bài học tiếp theo
 
 Trong **C2-09-legal-contracts**, bạn sẽ áp dụng sự hiểu biết về giọng điệu trang trọng vào ngôn ngữ chính xác của các tài liệu pháp lý và hợp đồng.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Ngôn ngữ Ngoại giao** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** Diplomatic language prioritizes face-saving and ambiguity management.
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Ngôn ngữ Ngoại giao**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> Diplomatic language prioritizes face-saving and ambiguity management. Treaties use deliberate vagueness to accommodate multiple interpretations. Understanding diplomatic register requires attention to what is NOT said.
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Chuyển đổi register
+
+Viết lại câu trả lời hai lần: một bản cho đồng đội thân quen và một bản cho khách hàng hoặc stakeholder cấp cao. Giữ nguyên thông điệp nhưng thay đổi độ trực tiếp, lượng bối cảnh và mức giải thích. Chỉ ra một cụm từ bạn đã làm mềm, một chi tiết bạn nói rõ hơn và một giả định bạn đã loại bỏ. Sau đó, viết thêm một cách diễn giải hợp lý khác của bài mẫu và nêu bằng chứng ngữ cảnh cần có để chọn giữa hai cách hiểu.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+- [ ] Mình đã giới hạn mức độ chắc chắn của nhận định và điều chỉnh register theo người nghe.
+
+<!-- learning-loop:end -->

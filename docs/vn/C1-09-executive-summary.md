@@ -11,28 +11,34 @@
   'skill': 'writing',
   'order': 9,
   'cefr': 'C1',
-  'minutes': 5,
+  'minutes': 11,
   'tags': ['writing', 'executive-summary', 'business', 'C1'],
-  'audioScript': "Đề xuất yêu cầu hội đồng phê duyệt khoản đầu tư năm triệu đô vào hiệu quả vận hành.\nDự kiến sẽ tạo ra mười lăm phần trăm giảm chi phí trong mười tám tháng.\nBan quản lý đề xuất phê duyệt.\n",
+  'audioScript': "The proposal requests board approval for a five million dollar investment in operational efficiency.\nIt is projected to generate a fifteen percent reduction in costs over eighteen months.\nManagement recommends approval.\n",
   'listeningEnabled': true,
   'flashcardCount': 6,
   'quiz':
     [
       {
         'type': 'choice',
-        'prompt': 'Mục đích chính của tóm tắt điều hành là gì?',
-        'options':
-          ['Cung cấp chi tiết nền', 'Cho phép quyết định nhanh', 'Thể hiện chiều sâu nghiên cứu'],
-        'answer': 'Cho phép quyết định nhanh',
+        'prompt': 'What is the primary purpose of an executive summary?',
+        'options': ['Provide background details', 'Enable a quick decision', 'Show research depth'],
+        'answer': 'Enable a quick decision',
       },
-      { 'type': 'fill', 'prompt': 'Ban quản lý ___ phê duyệt đề xuất.', 'answer': 'đề xuất' },
+      {
+        'type': 'fill',
+        'prompt': 'Management ___ approval of the proposal.',
+        'answer': 'recommends',
+      },
       {
         'type': 'choice',
-        'prompt': 'Phần nào đến đầu tiên trong tóm tắt điều hành?',
-        'options': ['Rủi ro', 'Khuyến nghị', 'Bối cảnh'],
-        'answer': 'Khuyến nghị',
+        'prompt': 'Which section comes first in an executive summary?',
+        'options': ['Risks', 'Recommendation', 'Background'],
+        'answer': 'Recommendation',
       },
     ],
+  'categoryEn': 'Strategic Professional Communication',
+  'categoryVi': 'Giao tiếp Chuyên nghiệp Chiến lược',
+  'prerequisites': ['c1-08-policy-reading'],
 }
 ---
 
@@ -88,3 +94,47 @@ Yêu cầu: [Quyết định/hành động cụ thể cần thiết theo ngày c
 ## What to learn next
 
 Trong bài tiếp theo **C1-10-review-unit2**, bạn sẽ củng cố kỹ năng Unit 2.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Viết Tóm tắt Điều hành** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** The proposal requests board approval for a five million dollar investment in operational efficiency.
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Viết Tóm tắt Điều hành**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> The proposal requests board approval for a five million dollar investment in operational efficiency. It is projected to generate a fifteen percent reduction in costs over eighteen months. Management recommends approval.
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Chuyển đổi register
+
+Viết lại câu trả lời hai lần: một bản cho đồng đội thân quen và một bản cho khách hàng hoặc stakeholder cấp cao. Giữ nguyên thông điệp nhưng thay đổi độ trực tiếp, lượng bối cảnh và mức giải thích. Chỉ ra một cụm từ bạn đã làm mềm, một chi tiết bạn nói rõ hơn và một giả định bạn đã loại bỏ.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+- [ ] Mình đã giới hạn mức độ chắc chắn của nhận định và điều chỉnh register theo người nghe.
+
+<!-- learning-loop:end -->

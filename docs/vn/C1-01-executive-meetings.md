@@ -11,16 +11,16 @@
   'skill': 'vocab',
   'order': 1,
   'cefr': 'C1',
-  'minutes': 5,
+  'minutes': 11,
   'tags': ['executive', 'meetings', 'business', 'vocabulary', 'C1'],
-  'audioScript': "Xin chào mọi người. Hãy đồng thuận về dự kiến quý trước khi chúng ta tiếp tục.\nTôi muốn hoãn cuộc thảo luận này lại và quay lại trong chu kỳ tiếp theo.\nChúng ta có nên hoãn lại và quay lại vào quý sau không?\n",
+  'audioScript': "Good morning, everyone. Let's align on the quarterly projections before we proceed.\nI'd like to table this discussion for now and revisit it in the next cycle.\nShall we table this and revisit next quarter?\n",
   'listeningEnabled': true,
   'flashcardCount': 6,
   'quiz':
     [
       {
         'type': 'choice',
-        'prompt': 'Câu nào phù hợp nhất khi hoãn một cuộc thảo luận?',
+        'prompt': 'Which phrase is most appropriate when postponing a discussion?',
         'options':
           [
             "Let's table this for now.",
@@ -31,17 +31,20 @@
       },
       {
         'type': 'fill',
-        'prompt': 'Chúng ta cần ___ về các ưu tiên chiến lược trước cuộc họp hội đồng.',
+        'prompt': 'We need to ___ on our strategic priorities before the board meeting.',
         'answer': 'align',
       },
       {
         'type': 'choice',
-        'prompt': '"Actionable insights" nghĩa là gì?',
+        'prompt': "What does 'actionable insights' mean?",
         'options':
-          ['Những ý tưởng có thể áp dụng được', 'Những suy nghĩ ngẫu nhiên', 'Chỉ dữ liệu lịch sử'],
-        'answer': 'Những ý tưởng có thể áp dụng được',
+          ['Ideas that can be put into practice', 'Random thoughts', 'Historical data only'],
+        'answer': 'Ideas that can be put into practice',
       },
     ],
+  'categoryEn': 'Strategic Professional Communication',
+  'categoryVi': 'Giao tiếp Chuyên nghiệp Chiến lược',
+  'prerequisites': ['b2-15-review-unit3'],
 }
 ---
 
@@ -49,7 +52,7 @@
 
 ## Thiết lập Chương trình nghị sự
 
-Trong các cuộc họp cấp cao, ngôn ngữ chính xác thể hiện năng lực. Thay vì nói "hãy nói về," hãy dùng **"I'd like to align on"** hoặc **"let's synchronize regarding."**
+Trong các cuộc họp cấp cao, cách đặt vấn đề rõ ràng quan trọng hơn việc dùng từ nghe cầu kỳ. **"Let's discuss"** thường là lựa chọn tự nhiên nhất. Chỉ dùng **"I'd like to align on"** khi nhóm thực sự cần thống nhất quyết định hoặc định hướng.
 
 > **Mẫu câu**: `I'd like to align on [chủ đề] before we proceed.`
 
@@ -86,7 +89,7 @@ Khi bạn cần đưa cuộc thảo luận đến kết luận:
 
 - "Let's **circle back** on this."
 - "I propose we **move to a vote**."
-- "Can we **deem this ratified**?"
+- "Can we **record this as approved**?"
 
 | Thuật ngữ    | Ý nghĩa               | Ngữ cảnh                              |
 | ------------ | --------------------- | ------------------------------------- |
@@ -98,3 +101,47 @@ Khi bạn cần đưa cuộc thảo luận đến kết luận:
 ## Bài học tiếp theo
 
 Ở bài tiếp theo **C1-02-board-presentations**, bạn sẽ học các cấu trúc ngữ pháp để tạo bài thuyết trình hội đồng quản trị thuyết phục.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Từ vựng về Cuộc họp Cấp cao** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** Good morning, everyone. Let's align on the quarterly projections before we proceed.
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Từ vựng về Cuộc họp Cấp cao**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> Good morning, everyone. Let's align on the quarterly projections before we proceed. I'd like to table this discussion for now and revisit it in the next cycle. Shall we table this and revisit next quarter?
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Chuyển đổi register
+
+Viết lại câu trả lời hai lần: một bản cho đồng đội thân quen và một bản cho khách hàng hoặc stakeholder cấp cao. Giữ nguyên thông điệp nhưng thay đổi độ trực tiếp, lượng bối cảnh và mức giải thích. Chỉ ra một cụm từ bạn đã làm mềm, một chi tiết bạn nói rõ hơn và một giả định bạn đã loại bỏ.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+- [ ] Mình đã giới hạn mức độ chắc chắn của nhận định và điều chỉnh register theo người nghe.
+
+<!-- learning-loop:end -->

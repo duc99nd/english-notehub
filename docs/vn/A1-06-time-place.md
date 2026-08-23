@@ -11,7 +11,7 @@
   'skill': 'vocab',
   'order': 6,
   'cefr': 'A1',
-  'minutes': 8,
+  'minutes': 20,
   'tags': ['time', 'places', 'prepositions', 'vocab', 'daily'],
   'audioScript': "In the morning, I go to school.\nIn the afternoon, I study English at the library.\nIn the evening, I watch TV at home.\nOn Sunday, I visit my grandmother at her house.\n",
   'listeningEnabled': true,
@@ -20,21 +20,21 @@
     [
       {
         'type': 'choice',
-        'prompt': "Chọn giới từ đúng: 'I wake up ___ six in the morning.'",
+        'prompt': "Which preposition is correct? 'I wake up ___ six in the morning.'",
         'options': ['in', 'on', 'at', 'by'],
         'answer': 'at',
       },
       {
         'type': 'choice',
-        'prompt': "Điền: 'She works ___ a hospital.'",
+        'prompt': "Complete: 'She works ___ a hospital.'",
         'options': ['in', 'at', 'on'],
         'answer': 'at',
       },
       {
         'type': 'choice',
-        'prompt': "'Afternoon' là khoảng nào?",
-        'options': ['6 sáng - 12 trưa', '12 trưa - 6 chiều', '6 chiều - 12 đêm'],
-        'answer': '12 trưa - 6 chiều',
+        'prompt': "When is 'afternoon'?",
+        'options': ['6am - 12pm', '12pm - 6pm', '6pm - 12am'],
+        'answer': '12pm - 6pm',
       },
       {
         'type': 'fill',
@@ -42,6 +42,9 @@
         'answer': 'on',
       },
     ],
+  'categoryEn': 'Foundation English',
+  'categoryVi': 'Tiếng Anh Nền tảng',
+  'prerequisites': ['a1-05-review-unit1'],
 }
 ---
 
@@ -212,3 +215,42 @@ Nhấn play, sau đó lặp lại từng dòng.
 ## Bài học tiếp theo
 
 Ở bài **A1-07-food**, bạn sẽ học từ vựng về đồ ăn và đồ uống — trái cây, rau, thịt, nước — và cách gọi món ở nhà hàng hoặc quán cà phê bằng các giới từ từ bài này.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Thời gian & Địa điểm** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** In the morning, I go to school.
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Thời gian & Địa điểm**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> In the morning, I go to school. In the afternoon, I study English at the library. In the evening, I watch TV at home. On Sunday, I visit my grandmother at her house.
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+
+<!-- learning-loop:end -->

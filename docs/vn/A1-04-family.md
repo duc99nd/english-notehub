@@ -11,7 +11,7 @@
   'skill': 'writing',
   'order': 4,
   'cefr': 'A1',
-  'minutes': 8,
+  'minutes': 20,
   'tags': ['family', 'vocabulary', 'writing', 'speaking', 'daily'],
   'audioScript': "This is my family. I have a mother and a father.\nI have two sisters. Their names are Mai and Lan.\nMy brother is older than me. His name is Tuan.\nMy grandmother is 70. She is kind and patient.\n",
   'listeningEnabled': true,
@@ -20,26 +20,26 @@
     [
       {
         'type': 'choice',
-        'prompt': 'Anh trai trong tiếng Anh là gì?',
+        'prompt': "How do you say 'anh trai' in English?",
         'options': ['Father', 'Brother', 'Uncle', 'Son'],
         'answer': 'Brother',
       },
       {
         'type': 'fill',
-        'prompt': "My ___ is 70 years old. She is my mom's mother. (bà = grandmother)",
+        'prompt': "My ___ is 70 years old. She is my mom's mother. (bà)",
         'answer': 'grandmother',
       },
       {
         'type': 'choice',
-        'prompt': "'I have two sisters' có nghĩa là gì?",
+        'prompt': "What does 'I have two sisters' mean?",
         'options':
           [
-            'Tôi là một chị em gái.',
-            'Có hai cô gái là chị em gái của tôi.',
-            'Các chị em gái của tôi hai tuổi.',
-            'Tôi có hai anh em trai.',
+            'I am a sister.',
+            'There are two girls who are my sisters.',
+            'My sisters are two years old.',
+            'I have two brothers.',
           ],
-        'answer': 'Có hai cô gái là chị em gái của tôi.',
+        'answer': 'There are two girls who are my sisters.',
       },
       {
         'type': 'fill',
@@ -47,6 +47,9 @@
         'answer': 'His',
       },
     ],
+  'categoryEn': 'Foundation English',
+  'categoryVi': 'Tiếng Anh Nền tảng',
+  'prerequisites': ['a1-03-daily-verbs'],
 }
 ---
 
@@ -190,10 +193,10 @@ Lưu ý cách Đức dùng **tính từ sở hữu** (my, your, his) và **he / 
 
 Điền vào chỗ trống, sau đó đọc to.
 
-> This is my family. My father's name is ****\_\_****. He is **\_ years old.
-> My mother's name is **\_\_\_\_****. She is **_ years old.
+> This is my family. My father's name is \***\*\_\_\*\***. He is **\_ years old.
+> My mother's name is **\_\_\_\_\***\*. She is **_ years old.
 > I have _** brothers and **_ sisters. My _** (oldest) is **\_.
-> We live in **\_\_\_\_****. On weekends, we ****\_\_**** together.
+> We live in **\_\_\_\_\*\***. On weekends, we \***\*\_\_\*\*** together.
 
 **Tự kiểm tra**:
 
@@ -222,3 +225,42 @@ Nhấn play, sau đó lặp lại từng dòng. Tạm dừng sau mỗi câu.
 ## Bài học tiếp theo
 
 Ở bài **A1-05-review-unit1**, bạn sẽ ôn lại tất cả những gì đã học trong Unit 1: chào hỏi, số, động từ hàng ngày, và gia đình. Một bài kiểm tra ngắn để xem bạn nhớ bao nhiêu.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Các thành viên trong gia đình** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** This is my family. I have a mother and a father.
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Các thành viên trong gia đình**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> This is my family. I have a mother and a father. I have two sisters. Their names are Mai and Lan. My brother is older than me. His name is Tuan. My grandmother is 70. She is kind and patient.
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+
+<!-- learning-loop:end -->

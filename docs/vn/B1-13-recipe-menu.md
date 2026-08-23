@@ -11,27 +11,34 @@
   'skill': 'reading',
   'order': 13,
   'cefr': 'B1',
-  'minutes': 5,
+  'minutes': 12,
   'tags': ['reading', 'recipe', 'menu', 'food', 'cooking', 'restaurant'],
-  'audioScript': "Đầu tiên, làm nóng lò ở 180 độ.\nPhục vụ kèm salad tươi bên cạnh.\nCác món chính bao gồm cá hồi nướng và mì Ý.\n",
+  'audioScript': "First, preheat the oven to 180 degrees.\nServe with a fresh salad on the side.\nMain courses include grilled salmon and pasta.\n",
   'listeningEnabled': true,
   'flashcardCount': 8,
   'quiz':
     [
       {
         'type': 'choice',
-        'prompt': 'Preheat the oven (làm nóng lò trước) nghĩa là gì?',
-        'options': ['Tắt lò', 'Làm nóng lò trước khi sử dụng', 'Lau chùi lò'],
-        'answer': 'Làm nóng lò trước khi sử dụng',
+        'prompt': "What does 'preheat the oven' mean?",
+        'options': ['Turn off the oven', 'Heat the oven before using it', 'Clean the oven'],
+        'answer': 'Heat the oven before using it',
       },
-      { 'type': 'fill', 'prompt': 'Công thức nói để ___ hỗn hợp trong 5 phút.', 'answer': 'stir' },
+      {
+        'type': 'fill',
+        'prompt': 'The recipe says to ___ the mixture for 5 minutes.',
+        'answer': 'stir',
+      },
       {
         'type': 'choice',
-        'prompt': 'Appetizer (món khai vị) là gì?',
-        'options': ['Món chính', 'Món nhỏ ăn trước món chính', 'Món tráng miệng'],
-        'answer': 'Món nhỏ ăn trước món chính',
+        'prompt': "What is an 'appetizer'?",
+        'options': ['The main dish', 'A small dish before the main course', 'A dessert'],
+        'answer': 'A small dish before the main course',
       },
     ],
+  'categoryEn': 'Independent Workplace Communication',
+  'categoryVi': 'Giao tiếp Công việc Độc lập',
+  'prerequisites': ['b1-12-conditionals'],
 }
 ---
 
@@ -133,3 +140,42 @@ Trả lời ba câu hỏi trong phần quiz để hoàn thành bài học này.
 ## Bài học tiếp theo
 
 Ở bài **B1-14-blog-review**, bạn sẽ học cách viết bài đăng blog hoặc đánh giá.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Công thức Nấu ăn & Thực đơn** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** First, preheat the oven to 180 degrees.
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Công thức Nấu ăn & Thực đơn**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> First, preheat the oven to 180 degrees. Serve with a fresh salad on the side. Main courses include grilled salmon and pasta.
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+
+<!-- learning-loop:end -->

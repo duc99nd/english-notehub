@@ -63,7 +63,7 @@ const scenarios: ScenarioItem[] = [
     tag: 'Negotiating Deadlines',
     titleEn: 'Pushing back on unrealistic scope politely',
     titleVi: 'Từ chối dời deadline hoặc đề xuất cắt giảm scope',
-    targetDocSlug: 'negotiating-deadlines',
+    targetDocSlug: 'b2-01-negotiation-advanced',
     formula:
       'To ensure system stability, we can either ship the core checkout flow by Friday, or include all edge-case validations if we push the release to Tuesday.',
     highlightKeywords: [
@@ -72,7 +72,7 @@ const scenarios: ScenarioItem[] = [
       'if we push the release',
     ],
     explanationEn:
-      'Never just say "No". Give the stakeholder two clear trade-offs between scope and timeline.',
+      'Avoid a flat "No" when options exist. Give the stakeholder clear trade-offs between scope and timeline.',
     explanationVi:
       'Đừng bao giờ nói "Không làm được". Hãy đưa ra sự lựa chọn giữa chất lượng/tính năng và thời gian.',
     phoneticTip: "Pause briefly after 'stability' to give weight to engineering rigor.",
@@ -84,7 +84,7 @@ const scenarios: ScenarioItem[] = [
     tag: 'Code Review & PR',
     titleEn: 'Giving constructive code review feedback',
     titleVi: 'Góp ý PR nhẹ nhàng, mang tính xây dựng',
-    targetDocSlug: 'code-review-discussions',
+    targetDocSlug: 'b2-03-presenting-architecture',
     formula:
       'Nit: Consider memoizing this calculation with useMemo to prevent unnecessary re-renders when the parent component updates.',
     highlightKeywords: ['Nit:', 'Consider memoizing', 'to prevent unnecessary re-renders'],
@@ -101,7 +101,7 @@ const scenarios: ScenarioItem[] = [
     tag: 'Live Incident',
     titleEn: 'Communicating during a live outage',
     titleVi: 'Thông báo sự cố Production cho khách hàng',
-    targetDocSlug: 'production-incident-communication',
+    targetDocSlug: 'delivering-bad-news',
     formula:
       "We've identified elevated latency in the payment gateway; we've rolled back the latest release and error rates are now returning to normal.",
     highlightKeywords: ["We've identified", "we've rolled back", 'returning to normal'],
@@ -118,7 +118,7 @@ const scenarios: ScenarioItem[] = [
     tag: 'Salary & Offer',
     titleEn: 'Countering an offer professionally',
     titleVi: 'Thương lượng lương khéo léo khi nhận Offer',
-    targetDocSlug: 'salary-negotiation',
+    targetDocSlug: 'interview-preparation',
     formula:
       'Thank you for the offer! Given my hands-on experience scaling microservices and leading remote sprints, I was targeting a range closer to $X.',
     highlightKeywords: ['Given my hands-on experience', 'I was targeting a range closer to'],

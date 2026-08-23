@@ -11,7 +11,7 @@
   'skill': 'reading',
   'order': 3,
   'cefr': 'A1',
-  'minutes': 8,
+  'minutes': 20,
   'tags': ['verbs', 'daily-routine', 'reading', 'speaking', 'foundation'],
   'audioScript': "I wake up at six in the morning.\nI eat breakfast at seven. I drink coffee every day.\nI go to work at eight. I come home at six.\nI read a book before I sleep at ten.\n",
   'listeningEnabled': true,
@@ -20,23 +20,22 @@
     [
       {
         'type': 'choice',
-        'prompt': "Điền động từ: 'I ___ up at six in the morning.'",
+        'prompt': "Which verb completes the sentence? 'I ___ up at six in the morning.'",
         'options': ['wake', 'wakes', 'waking', 'woke'],
         'answer': 'wake',
       },
-      { 'type': 'fill', 'prompt': 'I ___ coffee every morning. (uống = drink)', 'answer': 'drink' },
+      { 'type': 'fill', 'prompt': 'I ___ coffee every morning. (uống)', 'answer': 'drink' },
       {
         'type': 'choice',
-        'prompt': "Trái nghĩa của 'come' là gì?",
+        'prompt': "What is the opposite of 'come'?",
         'options': ['go', 'stay', 'leave', 'arrive'],
         'answer': 'go',
       },
-      {
-        'type': 'fill',
-        'prompt': 'She ___ home at six in the evening. (đến = come)',
-        'answer': 'comes',
-      },
+      { 'type': 'fill', 'prompt': 'She ___ home at six in the evening. (đến)', 'answer': 'comes' },
     ],
+  'categoryEn': 'Foundation English',
+  'categoryVi': 'Tiếng Anh Nền tảng',
+  'prerequisites': ['a1-02-numbers'],
 }
 ---
 
@@ -203,3 +202,42 @@ Nhấn play, sau đó lặp lại từng dòng. Tạm dừng sau mỗi câu.
 ## Bài học tiếp theo
 
 Ở bài **A1-04-family**, bạn sẽ học các từ chỉ thành viên gia đình — mother, father, brother, sister, v.v. — và cách nói về gia đình mình bằng quy tắc thêm "s" từ bài này.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Động từ hàng ngày** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** I wake up at six in the morning.
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Động từ hàng ngày**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> I wake up at six in the morning. I eat breakfast at seven. I drink coffee every day. I go to work at eight. I come home at six. I read a book before I sleep at ten.
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+
+<!-- learning-loop:end -->

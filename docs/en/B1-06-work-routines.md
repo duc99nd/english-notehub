@@ -11,7 +11,7 @@
   'skill': 'vocab',
   'order': 6,
   'cefr': 'B1',
-  'minutes': 5,
+  'minutes': 11,
   'tags': ['work', 'job', 'office', 'workplace', 'daily-routine', 'career'],
   'audioScript': "I usually start work at 9 AM and finish at 6 PM.\nI have a meeting with my manager this afternoon.\nI need to finish this report by Friday.\n",
   'listeningEnabled': true,
@@ -37,6 +37,9 @@
         'answer': 'To supervise',
       },
     ],
+  'categoryEn': 'Independent Workplace Communication',
+  'categoryVi': 'Giao tiếp Công việc Độc lập',
+  'prerequisites': ['b1-05-review-unit1'],
 }
 ---
 
@@ -111,3 +114,42 @@ Answer the three questions in the quiz section to finish this lesson.
 ## What to Learn Next
 
 In the next lesson **B1-07-modals-obligation**, you will learn how to use modals for obligation and advice at work.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to select and use useful language for work & daily routines in a short, realistic exchange.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **work & daily routines** in this situation?
+>
+> **You:** I usually start work at 9 AM and finish at 6 PM.
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Create a four-line exchange with a colleague or classmate. Use at least three target expressions from **Work & Daily Routines** and add one follow-up question.
+
+### Model response
+
+> I usually start work at 9 AM and finish at 6 PM. I have a meeting with my manager this afternoon. I need to finish this report by Friday.
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+
+<!-- learning-loop:end -->

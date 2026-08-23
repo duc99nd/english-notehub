@@ -48,6 +48,9 @@
         'answer': 'Challenges or obstacles',
       },
     ],
+  'categoryEn': 'Strategic Professional Communication',
+  'categoryVi': 'Giao tiếp Chuyên nghiệp Chiến lược',
+  'prerequisites': ['c1-04-stakeholder-management'],
 }
 ---
 
@@ -105,6 +108,52 @@ In Unit 1, you built executive-level communication skills:
 
 Answer the five quiz questions to test your Unit 1 mastery.
 
+For each answer, identify the decision it supports and the stakeholder assumption behind it. C1 communication is effective when sophisticated language makes reasoning clearer rather than merely making the speaker sound more formal.
+
 ## What to learn next
 
 Continue to **Unit 2** with **C1-06-investor-relations**.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to combine the unit language to complete a realistic task about review unit 1.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **review unit 1** in this situation?
+>
+> **You:** Let's review Unit 1.
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Complete one integrated response for a colleague, client, and senior stakeholder using language from at least three lessons in this unit.
+
+### Model response
+
+> Let's review Unit 1. You can now lead executive meetings with confidence. You can present to the board effectively. You can analyze strategic documents. You can manage stakeholders.
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Register switch
+
+Rewrite your response twice: first for a trusted teammate, then for a client or senior stakeholder. Keep the underlying message the same while changing directness, context, and the amount of explanation. Identify one phrase you softened, one detail you made explicit, and one assumption you removed.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+- [ ] I qualified claims where certainty was limited and adjusted the register for my audience.
+
+<!-- learning-loop:end -->

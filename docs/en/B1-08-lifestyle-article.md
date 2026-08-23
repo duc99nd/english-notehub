@@ -11,7 +11,7 @@
   'skill': 'reading',
   'order': 8,
   'cefr': 'B1',
-  'minutes': 5,
+  'minutes': 12,
   'tags': ['reading', 'lifestyle', 'health', 'work-life-balance', 'article'],
   'audioScript': "More and more people are working remotely these days.\nExperts recommend taking regular breaks throughout the day.\nA healthy lifestyle includes both physical and mental well-being.\n",
   'listeningEnabled': true,
@@ -46,6 +46,9 @@
         'answer': 'A lifestyle with little physical activity',
       },
     ],
+  'categoryEn': 'Independent Workplace Communication',
+  'categoryVi': 'Giao tiếp Công việc Độc lập',
+  'prerequisites': ['b1-07-modals-obligation'],
 }
 ---
 
@@ -109,3 +112,42 @@ Answer the three questions in the quiz section to finish this lesson.
 ## What to Learn Next
 
 In the next lesson **B1-09-job-application**, you will learn how to write a job application letter.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to identify the main point, supporting detail, and register choices in a text about magazine article: healthy lifestyle.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **magazine article: healthy lifestyle** in this situation?
+>
+> **You:** More and more people are working remotely these days.
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Summarize the text in two sentences for a colleague or classmate. Identify one claim, one supporting detail, and one phrase that signals the writer's attitude.
+
+### Model response
+
+> More and more people are working remotely these days. Experts recommend taking regular breaks throughout the day. A healthy lifestyle includes both physical and mental well-being.
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+
+<!-- learning-loop:end -->

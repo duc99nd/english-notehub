@@ -11,7 +11,7 @@
   'skill': 'grammar',
   'order': 7,
   'cefr': 'A1',
-  'minutes': 8,
+  'minutes': 21,
   'tags': ['food', 'drinks', 'restaurant', 'countable', 'uncountable', 'grammar'],
   'audioScript': "I would like some rice and chicken, please.\nI drink water every day. Sometimes I drink coffee.\nFor breakfast, I eat bread and eggs.\nDo you like fruit?\n",
   'listeningEnabled': true,
@@ -44,6 +44,9 @@
       },
       { 'type': 'fill', 'prompt': 'I ___ like some chicken, please. (muốn)', 'answer': 'would' },
     ],
+  'categoryEn': 'Foundation English',
+  'categoryVi': 'Tiếng Anh Nền tảng',
+  'prerequisites': ['a1-06-time-place'],
 }
 ---
 
@@ -183,17 +186,17 @@ Imagine you're at a café. Write your order using **"I'd like..."** and **measur
 
 > Waiter: Are you ready to order?
 >
-> You: Yes. I'd like ****\_\_**** for my main, and ****\_\_**** to drink.
+> You: Yes. I'd like \***\*\_\_\*\*** for my main, and \***\*\_\_\*\*** to drink.
 >
 > Waiter: Anything else?
 >
-> You: ****\_\_****, please. (a dessert / side / extra)
+> You: \***\*\_\_\*\***, please. (a dessert / side / extra)
 >
 > Waiter: Sure. I'll be right back.
 
 Then write what the waiter brings:
 
-> The waiter brings: ****\_\_**** and ****\_\_****.
+> The waiter brings: \***\*\_\_\*\*** and \***\*\_\_\*\***.
 
 **Self-check**:
 
@@ -222,3 +225,42 @@ Press play, then repeat each line aloud.
 ## What to learn next
 
 In **A1-08-weather**, you will learn words for weather conditions (sunny, rainy, hot, cold) and how to talk about the weather — a guaranteed conversation starter with strangers.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to choose an appropriate structure and apply it accurately when discussing food & drinks.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **food & drinks** in this situation?
+>
+> **You:** I would like some rice and chicken, please.
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Write four connected sentences for a colleague or classmate. Use the target structure twice, then revise one sentence to change its tone or emphasis.
+
+### Model response
+
+> I would like some rice and chicken, please. I drink water every day. Sometimes I drink coffee. For breakfast, I eat bread and eggs. Do you like fruit?
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+
+<!-- learning-loop:end -->

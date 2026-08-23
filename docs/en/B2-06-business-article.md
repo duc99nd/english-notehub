@@ -11,7 +11,7 @@
   'skill': 'reading',
   'order': 6,
   'cefr': 'B2',
-  'minutes': 5,
+  'minutes': 11,
   'tags': ['reading', 'business', 'articles', 'B2'],
   'audioScript': "The company has reported a 15% year-over-year revenue growth.\nMarket analysts predict continued expansion into emerging economies.\nThe acquisition is expected to bolster the firm's market position.\n",
   'listeningEnabled': true,
@@ -37,6 +37,9 @@
         'answer': 'Developing countries with rapid growth',
       },
     ],
+  'categoryEn': 'Technical Leadership Communication',
+  'categoryVi': 'Giao tiếp Dẫn dắt Kỹ thuật',
+  'prerequisites': ['b2-05-persuasive-grammar'],
 }
 ---
 
@@ -86,3 +89,46 @@ Test your business article reading in the quiz section.
 ## What to learn next
 
 In the next lesson **B2-07-proposal-writing**, you will learn how to write compelling business proposals.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to identify the main point, supporting detail, and register choices in a text about business article reading.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **business article reading** in this situation?
+>
+> **You:** The company has reported a 15% year-over-year revenue growth.
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Summarize the text in two sentences for a colleague or classmate. Identify one claim, one supporting detail, and one phrase that signals the writer's attitude.
+
+### Model response
+
+> The company has reported a 15% year-over-year revenue growth. Market analysts predict continued expansion into emerging economies. The acquisition is expected to bolster the firm's market position.
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Register switch
+
+Rewrite your response twice: first for a trusted teammate, then for a client or senior stakeholder. Keep the underlying message the same while changing directness, context, and the amount of explanation. Identify one phrase you softened, one detail you made explicit, and one assumption you removed.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+
+<!-- learning-loop:end -->

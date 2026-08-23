@@ -11,7 +11,7 @@
   'skill': 'grammar',
   'order': 2,
   'cefr': 'B2',
-  'minutes': 5,
+  'minutes': 11,
   'tags': ['conflict', 'workplace', 'grammar', 'passive', 'conditionals'],
   'audioScript': "If the issue had been raised earlier, we could have avoided this.\nThe decision was made without consulting the team.\nHad we discussed this beforehand, things would have been different.\n",
   'listeningEnabled': true,
@@ -42,6 +42,9 @@
         'answer': 'If we had discussed this',
       },
     ],
+  'categoryEn': 'Technical Leadership Communication',
+  'categoryVi': 'Giao tiếp Dẫn dắt Kỹ thuật',
+  'prerequisites': ['b2-01-negotiation-advanced'],
 }
 ---
 
@@ -100,3 +103,46 @@ Test your passive voice and conditional knowledge in the quiz section.
 ## What to learn next
 
 In the next lesson **B2-03-presenting-architecture**, you will practice reading comprehension about technical presentations.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to choose an appropriate structure and apply it accurately when discussing conflict resolution grammar.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **conflict resolution grammar** in this situation?
+>
+> **You:** If the issue had been raised earlier, we could have avoided this.
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Write four connected sentences for a colleague or classmate. Use the target structure twice, then revise one sentence to change its tone or emphasis.
+
+### Model response
+
+> If the issue had been raised earlier, we could have avoided this. The decision was made without consulting the team. Had we discussed this beforehand, things would have been different.
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Register switch
+
+Rewrite your response twice: first for a trusted teammate, then for a client or senior stakeholder. Keep the underlying message the same while changing directness, context, and the amount of explanation. Identify one phrase you softened, one detail you made explicit, and one assumption you removed.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+
+<!-- learning-loop:end -->

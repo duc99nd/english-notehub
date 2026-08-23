@@ -11,31 +11,35 @@
   'skill': 'writing',
   'order': 9,
   'cefr': 'B1',
-  'minutes': 5,
+  'minutes': 12,
   'tags': ['writing', 'job', 'application', 'letter', 'professional', 'career'],
-  'audioScript': "Kính gửi ông Johnson, tôi viết thư này để ứng tuyển vị trí Quản lý Marketing.\nTôi có năm năm kinh nghiệm trong tiếp thị kỹ thuật số.\nTôi mong sớm nhận được phản hồi từ quý vị.\n",
+  'audioScript': "Dear Mr. Johnson, I am writing to apply for the Marketing Manager position.\nI have five years of experience in digital marketing.\nI look forward to hearing from you soon.\n",
   'listeningEnabled': true,
   'flashcardCount': 6,
   'quiz':
     [
       {
         'type': 'choice',
-        'prompt': 'Bạn nên đưa gì vào đoạn đầu tiên của thư xin việc?',
-        'options': ['Sở thích của bạn', 'Vị trí bạn đang ứng tuyển', 'Mức lương mong muốn'],
-        'answer': 'Vị trí bạn đang ứng tuyển',
+        'prompt': 'What should you include in the first paragraph of a job application?',
+        'options':
+          ['Your hobbies', 'The position you are applying for', 'Your salary expectations'],
+        'answer': 'The position you are applying for',
       },
       {
         'type': 'fill',
-        'prompt': 'Tôi viết thư này để ___ cho vị trí Quản lý Marketing.',
+        'prompt': 'I am writing to ___ for the Marketing Manager position.',
         'answer': 'apply',
       },
       {
         'type': 'choice',
-        'prompt': 'Lời kết thúc nào phù hợp cho thư xin việc chính thức?',
+        'prompt': 'Which sign-off is appropriate for a formal job application?',
         'options': ['Love,', 'Yours faithfully,', 'See ya!'],
         'answer': 'Yours faithfully,',
       },
     ],
+  'categoryEn': 'Independent Workplace Communication',
+  'categoryVi': 'Giao tiếp Công việc Độc lập',
+  'prerequisites': ['b1-08-lifestyle-article'],
 }
 ---
 
@@ -118,3 +122,42 @@ Trả lời ba câu hỏi trong phần quiz để hoàn thành bài học này.
 ## Bài học tiếp theo
 
 Ở bài **B1-10-review-unit2**, bạn sẽ ôn tập tất cả từ Unit 2: từ vựng công việc, động từ trợ giúp, đọc và viết.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Viết Thư Xin Việc** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** Dear Mr. Johnson, I am writing to apply for the Marketing Manager position.
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Viết Thư Xin Việc**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> Dear Mr. Johnson, I am writing to apply for the Marketing Manager position. I have five years of experience in digital marketing. I look forward to hearing from you soon.
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+
+<!-- learning-loop:end -->

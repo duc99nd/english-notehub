@@ -11,7 +11,7 @@
   'skill': 'review',
   'order': 10,
   'cefr': 'A1',
-  'minutes': 10,
+  'minutes': 19,
   'tags': ['review', 'unit2', 'all-skills', 'consolidation'],
   'audioScript': "In the morning, I go to school.\nI eat rice and chicken for lunch. I drink water.\nToday is sunny and hot. It is summer.\nIn my free time, I like to read books.\nI also enjoy listening to music.\n",
   'listeningEnabled': true,
@@ -47,6 +47,9 @@
         'answer': 'market',
       },
     ],
+  'categoryEn': 'Foundation English',
+  'categoryVi': 'Tiếng Anh Nền tảng',
+  'prerequisites': ['a1-09-hobbies'],
 }
 ---
 
@@ -133,13 +136,13 @@ You just finished Unit 2 — five lessons covering time, places, food, weather, 
 
 Write the English sentence first, then check.
 
-| Vietnamese                             | Your English                         |
-| -------------------------------------- | ------------------------------------ |
-| Tôi thức dậy lúc sáu rưỡi sáng.        | **************\_\_\_\_************** |
-| Tôi muốn gọi một ly cà phê.            | **************\_\_\_\_************** |
-| Hôm nay trời nóng và nắng.             | **************\_\_\_\_************** |
-| Tôi thích đọc sách vào thời gian rảnh. | **************\_\_\_\_************** |
-| Tôi đi chợ vào sáng thứ Bảy.           | **************\_\_\_\_************** |
+| Vietnamese                             | Your English                                     |
+| -------------------------------------- | ------------------------------------------------ |
+| Tôi thức dậy lúc sáu rưỡi sáng.        | **\*\***\*\***\*\***\_\_\_\_**\*\***\*\***\*\*** |
+| Tôi muốn gọi một ly cà phê.            | **\*\***\*\***\*\***\_\_\_\_**\*\***\*\***\*\*** |
+| Hôm nay trời nóng và nắng.             | **\*\***\*\***\*\***\_\_\_\_**\*\***\*\***\*\*** |
+| Tôi thích đọc sách vào thời gian rảnh. | **\*\***\*\***\*\***\_\_\_\_**\*\***\*\***\*\*** |
+| Tôi đi chợ vào sáng thứ Bảy.           | **\*\***\*\***\*\***\_\_\_\_**\*\***\*\***\*\*** |
 
 ### Exercise 2: Fill in the blank
 
@@ -248,3 +251,42 @@ Be honest. Score yourself.
 ## What to learn next
 
 In **A1-11-shopping-money**, you will learn the vocabulary for shopping — prices, currency, common items — and how to ask "How much is it?" in different situations.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to combine the unit language to complete a realistic task about review unit 2.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **review unit 2** in this situation?
+>
+> **You:** In the morning, I go to school.
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Complete one integrated response for a colleague or classmate using language from at least three lessons in this unit.
+
+### Model response
+
+> In the morning, I go to school. I eat rice and chicken for lunch. I drink water. Today is sunny and hot. It is summer. In my free time, I like to read books. I also enjoy listening to music.
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+
+<!-- learning-loop:end -->

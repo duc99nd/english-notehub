@@ -11,7 +11,7 @@
   'skill': 'writing',
   'order': 9,
   'cefr': 'B1',
-  'minutes': 5,
+  'minutes': 12,
   'tags': ['writing', 'job', 'application', 'letter', 'professional', 'career'],
   'audioScript': "Dear Mr. Johnson, I am writing to apply for the Marketing Manager position.\nI have five years of experience in digital marketing.\nI look forward to hearing from you soon.\n",
   'listeningEnabled': true,
@@ -37,6 +37,9 @@
         'answer': 'Yours faithfully,',
       },
     ],
+  'categoryEn': 'Independent Workplace Communication',
+  'categoryVi': 'Giao tiếp Công việc Độc lập',
+  'prerequisites': ['b1-08-lifestyle-article'],
 }
 ---
 
@@ -115,3 +118,42 @@ Answer the three questions in the quiz section to finish this lesson.
 ## What to Learn Next
 
 In the next lesson **B1-10-review-unit2**, you will review everything from Unit 2: work vocabulary, modals, reading, and writing.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to produce and revise a clear piece of writing about writing a job application letter for a defined audience.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **writing a job application letter** in this situation?
+>
+> **You:** Dear Mr. Johnson, I am writing to apply for the Marketing Manager position.
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Write 80–120 words for a colleague or classmate. State the purpose early, support it with a concrete detail, and finish with a clear next step.
+
+### Model response
+
+> Dear Mr. Johnson, I am writing to apply for the Marketing Manager position. I have five years of experience in digital marketing. I look forward to hearing from you soon.
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+
+<!-- learning-loop:end -->

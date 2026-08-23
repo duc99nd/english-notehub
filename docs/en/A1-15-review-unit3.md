@@ -11,7 +11,7 @@
   'skill': 'review',
   'order': 15,
   'cefr': 'A1',
-  'minutes': 10,
+  'minutes': 20,
   'tags': ['review', 'unit3', 'shopping', 'directions', 'describing', 'A1'],
   'audioScript': "Let's review Unit 3.\nYou can now ask for directions.\nYou can talk about abilities using can and can't.\nYou can describe people.\n",
   'listeningEnabled': true,
@@ -39,6 +39,9 @@
         'answer': 'Personality',
       },
     ],
+  'categoryEn': 'Foundation English',
+  'categoryVi': 'Tiếng Anh Nền tảng',
+  'prerequisites': ['a1-14-describing-people'],
 }
 ---
 
@@ -122,12 +125,12 @@ If you can do the practice without looking back at the lessons, congratulations 
 
 Write the English sentence first, then check.
 
-| Vietnamese                 | Your English                         |
-| -------------------------- | ------------------------------------ |
-| Cái áo này bao nhiêu tiền? | **************\_\_\_\_************** |
-| Xin lỗi, ngân hàng ở đâu?  | **************\_\_\_\_************** |
-| Tôi không biết bơi.        | **************\_\_\_\_************** |
-| Bạn tôi cao và tóc nâu.    | **************\_\_\_\_************** |
+| Vietnamese                 | Your English                                     |
+| -------------------------- | ------------------------------------------------ |
+| Cái áo này bao nhiêu tiền? | **\*\***\*\***\*\***\_\_\_\_**\*\***\*\***\*\*** |
+| Xin lỗi, ngân hàng ở đâu?  | **\*\***\*\***\*\***\_\_\_\_**\*\***\*\***\*\*** |
+| Tôi không biết bơi.        | **\*\***\*\***\*\***\_\_\_\_**\*\***\*\***\*\*** |
+| Bạn tôi cao và tóc nâu.    | **\*\***\*\***\*\***\_\_\_\_**\*\***\*\***\*\*** |
 
 ### Exercise 2: Fill in the blank
 
@@ -279,9 +282,48 @@ You have completed **all three units of A1 English**:
 In **A2**, you'll learn:
 
 - **A2-01-asking-help**: more complex questions
-- **A2-02-past-simple**: past tense storytelling
-- **A2-03-future-plans**: talking about tomorrow and next week
-- **A2-04-comparisons**: comparing things (bigger, faster)
+- **A2-02-daily-routine**: describing a fuller daily routine
+- **A2-03-comparatives**: comparing things (bigger, faster)
+- **A2-04-past-events**: telling a short story about the past
 - ... and more
 
 Keep going! Each A2 lesson builds on A1 vocabulary, so everything you learned here is the foundation.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to combine the unit language to complete a realistic task about review unit 3.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **review unit 3** in this situation?
+>
+> **You:** Let's review Unit 3.
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Complete one integrated response for a colleague or classmate using language from at least three lessons in this unit.
+
+### Model response
+
+> Let's review Unit 3. You can now ask for directions. You can talk about abilities using can and can't. You can describe people.
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+
+<!-- learning-loop:end -->

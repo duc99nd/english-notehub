@@ -11,27 +11,30 @@
   'skill': 'grammar',
   'order': 7,
   'cefr': 'A2',
-  'minutes': 5,
+  'minutes': 10,
   'tags': ['phone-call', 'speaking', 'grammar', 'communication'],
-  'audioScript': "Xin chào, tôi là Anna.\nTôi có thể nói chuyện với ông Smith không?\nTôi gọi về cuộc họp ngày mai của chúng ta.\n",
+  'audioScript': "Hello, this is Anna speaking.\nCan I speak to Mr. Smith, please?\nI'm calling about our meeting tomorrow.\n",
   'listeningEnabled': true,
   'flashcardCount': 6,
   'quiz':
     [
       {
         'type': 'choice',
-        'prompt': 'Làm thế nào để trả lời điện thoại một cách trang trọng?',
+        'prompt': 'How do you answer a phone call formally?',
         'options': ['Yeah, who are you?', 'Hello, this is [name] speaking.', "What's up?"],
         'answer': 'Hello, this is [name] speaking.',
       },
       { 'type': 'fill', 'prompt': 'Can I speak ___ Mr. Smith, please?', 'answer': 'to' },
       {
         'type': 'choice',
-        'prompt': 'Bạn nên nói gì nếu người đó không có mặt?',
+        'prompt': 'What should you say if the person is not available?',
         'options': ['Put him on!', 'Could you take a message, please?', 'Call back later.'],
         'answer': 'Could you take a message, please?',
       },
     ],
+  'categoryEn': 'Everyday Workplace English',
+  'categoryVi': 'Tiếng Anh Công việc Hằng ngày',
+  'prerequisites': ['a2-06-email-basics'],
 }
 ---
 
@@ -87,3 +90,42 @@ Nhấn nút play để nghe audio. Sau đó lặp lại từng câu thành tiế
 ## Bài học tiếp theo
 
 Ở bài **A2-08-future-plans**, bạn sẽ học cách nói về kế hoạch tương lai.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Cuộc gọi điện thoại** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** Hello, this is Anna speaking.
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Cuộc gọi điện thoại**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> Hello, this is Anna speaking. Can I speak to Mr. Smith, please? I'm calling about our meeting tomorrow.
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+
+<!-- learning-loop:end -->

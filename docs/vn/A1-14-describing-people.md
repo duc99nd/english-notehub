@@ -11,7 +11,7 @@
   'skill': 'vocab',
   'order': 14,
   'cefr': 'A1',
-  'minutes': 8,
+  'minutes': 20,
   'tags': ['describing', 'people', 'appearance', 'personality', 'vocab'],
   'audioScript': "She is tall with long black hair.\nHe is friendly and funny.\nMy brother has brown eyes and short hair.\nMy best friend is kind and patient.\n",
   'listeningEnabled': true,
@@ -20,19 +20,22 @@
     [
       {
         'type': 'choice',
-        'prompt': 'Từ nào mô tả độ dài tóc?',
+        'prompt': 'Which word describes hair length?',
         'options': ['tall', 'long', 'friendly', 'short'],
         'answer': 'long',
       },
       { 'type': 'fill', 'prompt': 'She is ___ and friendly. (cao = tall)', 'answer': 'tall' },
       {
         'type': 'choice',
-        'prompt': 'Đâu là tính cách?',
+        'prompt': 'Which is a personality trait?',
         'options': ['Hair color', 'Tall', 'Friendly', 'Young'],
         'answer': 'Friendly',
       },
       { 'type': 'fill', 'prompt': 'He ___ black hair. (động từ sở hữu)', 'answer': 'has' },
     ],
+  'categoryEn': 'Foundation English',
+  'categoryVi': 'Tiếng Anh Nền tảng',
+  'prerequisites': ['a1-13-can-cant'],
 }
 ---
 
@@ -215,3 +218,42 @@ Nhấn play, sau đó lặp lại từng dòng.
 ## Bài học tiếp theo
 
 Ở bài **A1-15-review-unit3**, bạn sẽ ôn lại tất cả những gì đã học trong Unit 3: mua sắm, tiền bạc, chỉ đường, và miêu tả con người. Bài kiểm tra cuối cùng trước khi sang A2.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Miêu tả con người** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** She is tall with long black hair.
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Miêu tả con người**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> She is tall with long black hair. He is friendly and funny. My brother has brown eyes and short hair. My best friend is kind and patient.
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+
+<!-- learning-loop:end -->

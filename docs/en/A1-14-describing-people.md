@@ -11,7 +11,7 @@
   'skill': 'vocab',
   'order': 14,
   'cefr': 'A1',
-  'minutes': 8,
+  'minutes': 20,
   'tags': ['describing', 'people', 'appearance', 'personality', 'vocab'],
   'audioScript': "She is tall with long black hair.\nHe is friendly and funny.\nMy brother has brown eyes and short hair.\nMy best friend is kind and patient.\n",
   'listeningEnabled': true,
@@ -33,6 +33,9 @@
       },
       { 'type': 'fill', 'prompt': 'He ___ black hair. (động từ sở hữu)', 'answer': 'has' },
     ],
+  'categoryEn': 'Foundation English',
+  'categoryVi': 'Tiếng Anh Nền tảng',
+  'prerequisites': ['a1-13-can-cant'],
 }
 ---
 
@@ -204,3 +207,42 @@ Press play, then repeat each line aloud.
 ## What to learn next
 
 In **A1-15-review-unit3**, you will review everything from Unit 3: shopping, money, directions, and describing people. A final check before moving to A2.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to select and use useful language for describing people in a short, realistic exchange.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **describing people** in this situation?
+>
+> **You:** She is tall with long black hair.
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Create a four-line exchange with a colleague or classmate. Use at least three target expressions from **Describing People** and add one follow-up question.
+
+### Model response
+
+> She is tall with long black hair. He is friendly and funny. My brother has brown eyes and short hair. My best friend is kind and patient.
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+
+<!-- learning-loop:end -->

@@ -11,7 +11,7 @@
   'skill': 'review',
   'order': 10,
   'cefr': 'B1',
-  'minutes': 10,
+  'minutes': 11,
   'tags': ['review', 'unit2', 'work', 'modals', 'writing', 'vocabulary', 'grammar'],
   'audioScript': "Let's review what we learned in Unit 2.\nYou can now talk about your job and workplace.\nYou understand must, have to, should, and ought to.\nYou can write a job application letter.\n",
   'listeningEnabled': true,
@@ -44,6 +44,9 @@
         'answer': 'Having choices about when or how you work',
       },
     ],
+  'categoryEn': 'Independent Workplace Communication',
+  'categoryVi': 'Giao tiếp Công việc Độc lập',
+  'prerequisites': ['b1-09-job-application'],
 }
 ---
 
@@ -112,3 +115,42 @@ In Unit 2, you learned four important skills for the workplace:
 ## What to Learn Next
 
 Continue to **B1-11-food-cooking** to learn vocabulary about food and cooking in Unit 3.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to combine the unit language to complete a realistic task about review unit 2.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **review unit 2** in this situation?
+>
+> **You:** Let's review what we learned in Unit 2.
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Complete one integrated response for a colleague or classmate using language from at least three lessons in this unit.
+
+### Model response
+
+> Let's review what we learned in Unit 2. You can now talk about your job and workplace. You understand must, have to, should, and ought to. You can write a job application letter.
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+
+<!-- learning-loop:end -->

@@ -11,8 +11,69 @@
   'skill': 'review',
   'order': 15,
   'cefr': 'C2',
-  'minutes': 10,
+  'minutes': 13,
   'tags': ['review', 'research', 'debate', 'publishing', 'poetry', 'consolidation', 'C2 mastery'],
+  'categoryEn': 'Expert Register and Influence',
+  'categoryVi': 'Sắc thái và Ảnh hưởng Chuyên sâu',
+  'prerequisites': ['c2-14-professional-poetry'],
+  'audioScript': "Unit 3 completes your C2 journey, integrating research, debate, publishing, and creative professional skills.\nYou now possess the full range of C2 communication competencies.\nThis review consolidates your mastery across all three units.\n",
+  'listeningEnabled': true,
+  'flashcardCount': 10,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': 'Which structure creates maximum emphasis in formal debate?',
+        'options': ['Simple sentence', 'Cleft sentence', 'Compound sentence', 'Question'],
+        'answer': 'Cleft sentence',
+      },
+      {
+        'type': 'choice',
+        'prompt': "What does a 'revise and resubmit' decision mean?",
+        'options':
+          [
+            'Rejected outright',
+            'Conditional acceptance pending revisions',
+            'Immediate acceptance',
+            'Transfer to another journal',
+          ],
+        'answer': 'Conditional acceptance pending revisions',
+      },
+      {
+        'type': 'choice',
+        'prompt': 'What is the primary purpose of professional poetry?',
+        'options':
+          [
+            'Personal artistic expression',
+            'Serving the occasion and audience',
+            'Challenging conventional forms',
+            'Demonstrating linguistic virtuosity',
+          ],
+        'answer': 'Serving the occasion and audience',
+      },
+      {
+        'type': 'choice',
+        'prompt': 'In research presentations, what balance must be maintained?',
+        'options':
+          [
+            'Speed and clarity',
+            'Confidence and epistemic humility',
+            'Length and depth',
+            'Theory and practice',
+          ],
+        'answer': 'Confidence and epistemic humility',
+      },
+      {
+        'type': 'fill',
+        'prompt': "In formal debate, 'It is not [X] but [Y] that matters' is an example of a ___ sentence.",
+        'answer': 'cleft',
+      },
+      {
+        'type': 'fill',
+        'prompt': 'When responding to peer reviewers, one should address each comment ___.',
+        'answer': 'in turn',
+      },
+    ],
 }
 ---
 
@@ -132,3 +193,47 @@ Chúc mừng bạn đã hoàn thành hành trình C2.
 ---
 
 _Đây là kết thúc chương trình C2. Tiếp tục thực hành các kỹ năng này trong các bối cảnh chuyên nghiệp và học thuật thực tế để duy trì sự làm chủ của bạn._
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Ôn tập Unit 3** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** Unit 3 completes your C2 journey, integrating research, debate, publishing, and creative professional skills.
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Ôn tập Unit 3**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> Unit 3 completes your C2 journey, integrating research, debate, publishing, and creative professional skills. You now possess the full range of C2 communication competencies. This review consolidates your mastery across all three units.
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Chuyển đổi register
+
+Viết lại câu trả lời hai lần: một bản cho đồng đội thân quen và một bản cho khách hàng hoặc stakeholder cấp cao. Giữ nguyên thông điệp nhưng thay đổi độ trực tiếp, lượng bối cảnh và mức giải thích. Chỉ ra một cụm từ bạn đã làm mềm, một chi tiết bạn nói rõ hơn và một giả định bạn đã loại bỏ. Sau đó, viết thêm một cách diễn giải hợp lý khác của bài mẫu và nêu bằng chứng ngữ cảnh cần có để chọn giữa hai cách hiểu.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+- [ ] Mình đã giới hạn mức độ chắc chắn của nhận định và điều chỉnh register theo người nghe.
+
+<!-- learning-loop:end -->

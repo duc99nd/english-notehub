@@ -11,7 +11,7 @@
   'skill': 'vocab',
   'order': 8,
   'cefr': 'B2',
-  'minutes': 5,
+  'minutes': 10,
   'tags': ['data', 'storytelling', 'presentation', 'B2'],
   'audioScript': "The data reveals a clear upward trend over the last quarter.\nOur findings underscore the need for immediate intervention.\nThis metric serves as a key indicator of customer satisfaction.\n",
   'listeningEnabled': true,
@@ -36,6 +36,9 @@
         'answer': 'Numbers are increasing',
       },
     ],
+  'categoryEn': 'Technical Leadership Communication',
+  'categoryVi': 'Giao tiếp Dẫn dắt Kỹ thuật',
+  'prerequisites': ['b2-07-proposal-writing'],
 }
 ---
 
@@ -80,3 +83,46 @@ Test your data storytelling vocabulary in the quiz section.
 ## What to learn next
 
 In the next lesson **B2-09-conditionals-advanced**, you will master third and mixed conditional structures.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to select and use useful language for data storytelling in a short, realistic exchange.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **data storytelling** in this situation?
+>
+> **You:** The data reveals a clear upward trend over the last quarter.
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Create a four-line exchange with a colleague or classmate. Use at least three target expressions from **Data Storytelling** and add one follow-up question.
+
+### Model response
+
+> The data reveals a clear upward trend over the last quarter. Our findings underscore the need for immediate intervention. This metric serves as a key indicator of customer satisfaction.
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Register switch
+
+Rewrite your response twice: first for a trusted teammate, then for a client or senior stakeholder. Keep the underlying message the same while changing directness, context, and the amount of explanation. Identify one phrase you softened, one detail you made explicit, and one assumption you removed.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+
+<!-- learning-loop:end -->

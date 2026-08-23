@@ -11,7 +11,7 @@
   'skill': 'grammar',
   'order': 2,
   'cefr': 'C1',
-  'minutes': 5,
+  'minutes': 12,
   'tags': ['grammar', 'conditionals', 'presentations', 'board', 'C1'],
   'audioScript': "Should we exceed our targets, we would consider expanding into adjacent markets.\nHad we not invested in R&D earlier, we wouldn't be positioned competitively today.\nWere the merger to proceed, stakeholders would receive significant upside.\n",
   'listeningEnabled': true,
@@ -41,6 +41,9 @@
         'answer': 'Inverted conditional (formal)',
       },
     ],
+  'categoryEn': 'Strategic Professional Communication',
+  'categoryVi': 'Giao tiếp Chuyên nghiệp Chiến lược',
+  'prerequisites': ['c1-01-executive-meetings'],
 }
 ---
 
@@ -98,3 +101,47 @@ Blend timelines for nuanced analysis:
 ## What to learn next
 
 In the next lesson **C1-03-writing-strategy**, you will practice reading comprehension for strategic business documents.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to choose an appropriate structure and apply it accurately when discussing board presentation grammar.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **board presentation grammar** in this situation?
+>
+> **You:** Should we exceed our targets, we would consider expanding into adjacent markets.
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Write four connected sentences for a colleague, client, and senior stakeholder. Use the target structure twice, then revise one sentence to change its tone or emphasis.
+
+### Model response
+
+> Should we exceed our targets, we would consider expanding into adjacent markets. Had we not invested in R&D earlier, we wouldn't be positioned competitively today. Were the merger to proceed, stakeholders would receive significant upside.
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Register switch
+
+Rewrite your response twice: first for a trusted teammate, then for a client or senior stakeholder. Keep the underlying message the same while changing directness, context, and the amount of explanation. Identify one phrase you softened, one detail you made explicit, and one assumption you removed.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+- [ ] I qualified claims where certainty was limited and adjusted the register for my audience.
+
+<!-- learning-loop:end -->

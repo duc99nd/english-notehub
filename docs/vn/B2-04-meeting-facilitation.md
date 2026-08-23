@@ -11,31 +11,30 @@
   'skill': 'vocab',
   'order': 4,
   'cefr': 'B2',
-  'minutes': 5,
+  'minutes': 12,
   'tags': ['meetings', 'facilitation', 'workplace', 'B2'],
-  'audioScript': "Hãy bắt đầu cuộc họp với một tóm tắt nhanh.\nChúng ta có thể tạm gác chủ đề đó cho phiên họp sau không?\nChúng ta cần một phiếu quyết định để tiến lên phía trước.\n",
+  'audioScript': "Let's kick off the meeting with a quick round-up.\nCould we park that topic for the next session?\nWe need a tiebreaker to move this forward.\n",
   'listeningEnabled': true,
   'flashcardCount': 6,
   'quiz':
     [
       {
         'type': 'choice',
-        'prompt': 'Kick off nghĩa là gì trong ngữ cảnh cuộc họp?',
-        'options': ['Kết thúc cuộc họp', 'Bắt đầu', 'Hủy bỏ'],
-        'answer': 'Bắt đầu',
+        'prompt': 'What does "kick off" mean in a meeting context?',
+        'options': ['To end a meeting', 'To start or begin', 'To cancel'],
+        'answer': 'To start or begin',
       },
-      {
-        'type': 'fill',
-        'prompt': 'Chúng ta hãy ___ chủ đề đó cho phiên họp sau.',
-        'answer': 'park',
-      },
+      { 'type': 'fill', 'prompt': "Let's ___ that topic for the next session.", 'answer': 'park' },
       {
         'type': 'choice',
-        'prompt': 'Tiebreaker là gì?',
-        'options': ['Một cách để phá vỡ bế tắc', 'Một loại cuộc họp', 'Một báo cáo cuối cùng'],
-        'answer': 'Một cách để phá vỡ bế tắc',
+        'prompt': 'What is a "tiebreaker"?',
+        'options': ['A way to break a deadlock', 'A type of meeting', 'A final report'],
+        'answer': 'A way to break a deadlock',
       },
     ],
+  'categoryEn': 'Technical Leadership Communication',
+  'categoryVi': 'Giao tiếp Dẫn dắt Kỹ thuật',
+  'prerequisites': ['b2-03-presenting-architecture'],
 }
 ---
 
@@ -94,3 +93,46 @@ Một người điều phối giỏi giữ cuộc họp đúng hướng, quản 
 ## Bài học tiếp theo
 
 Ở bài tiếp theo **B2-05-persuasive-grammar**, bạn sẽ học các mẫu ngữ pháp để đưa ra lập luận thuyết phục trong bối cảnh chuyên nghiệp.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Điều phối cuộc họp** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** Let's kick off the meeting with a quick round-up.
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Điều phối cuộc họp**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> Let's kick off the meeting with a quick round-up. Could we park that topic for the next session? We need a tiebreaker to move this forward.
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Chuyển đổi register
+
+Viết lại câu trả lời hai lần: một bản cho đồng đội thân quen và một bản cho khách hàng hoặc stakeholder cấp cao. Giữ nguyên thông điệp nhưng thay đổi độ trực tiếp, lượng bối cảnh và mức giải thích. Chỉ ra một cụm từ bạn đã làm mềm, một chi tiết bạn nói rõ hơn và một giả định bạn đã loại bỏ.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+
+<!-- learning-loop:end -->

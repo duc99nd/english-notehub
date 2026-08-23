@@ -11,7 +11,7 @@
   'skill': 'vocab',
   'order': 1,
   'cefr': 'C1',
-  'minutes': 5,
+  'minutes': 11,
   'tags': ['executive', 'meetings', 'business', 'vocabulary', 'C1'],
   'audioScript': "Good morning, everyone. Let's align on the quarterly projections before we proceed.\nI'd like to table this discussion for now and revisit it in the next cycle.\nShall we table this and revisit next quarter?\n",
   'listeningEnabled': true,
@@ -42,6 +42,9 @@
         'answer': 'Ideas that can be put into practice',
       },
     ],
+  'categoryEn': 'Strategic Professional Communication',
+  'categoryVi': 'Giao tiếp Chuyên nghiệp Chiến lược',
+  'prerequisites': ['b2-15-review-unit3'],
 }
 ---
 
@@ -49,7 +52,7 @@
 
 ## Setting the Agenda
 
-In executive meetings, precision language signals competence. Instead of saying "let's talk about," use **"I'd like to align on"** or **"let's synchronize regarding."**
+In executive meetings, clear framing matters more than impressive vocabulary. **"Let's discuss"** is often the most natural choice. Use **"I'd like to align on"** when the group genuinely needs a shared decision or direction.
 
 > **Pattern**: `I'd like to align on [topic] before we proceed.`
 
@@ -86,7 +89,7 @@ When you need to move discussions toward conclusions:
 
 - "Let's **circle back** on this."
 - "I propose we **move to a vote**."
-- "Can we **deem this ratified**?"
+- "Can we **record this as approved**?"
 
 | Term         | Meaning              | Context                                |
 | ------------ | -------------------- | -------------------------------------- |
@@ -98,3 +101,47 @@ When you need to move discussions toward conclusions:
 ## What to learn next
 
 In the next lesson **C1-02-board-presentations**, you will learn grammar structures for compelling board presentations.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to select and use useful language for executive meetings vocabulary in a short, realistic exchange.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **executive meetings vocabulary** in this situation?
+>
+> **You:** Good morning, everyone. Let's align on the quarterly projections before we proceed.
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Create a four-line exchange with a colleague, client, and senior stakeholder. Use at least three target expressions from **Executive Meetings Vocabulary** and add one follow-up question.
+
+### Model response
+
+> Good morning, everyone. Let's align on the quarterly projections before we proceed. I'd like to table this discussion for now and revisit it in the next cycle. Shall we table this and revisit next quarter?
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Register switch
+
+Rewrite your response twice: first for a trusted teammate, then for a client or senior stakeholder. Keep the underlying message the same while changing directness, context, and the amount of explanation. Identify one phrase you softened, one detail you made explicit, and one assumption you removed.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+- [ ] I qualified claims where certainty was limited and adjusted the register for my audience.
+
+<!-- learning-loop:end -->

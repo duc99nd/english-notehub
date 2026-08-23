@@ -11,7 +11,7 @@
   'skill': 'writing',
   'order': 9,
   'cefr': 'A1',
-  'minutes': 7,
+  'minutes': 19,
   'tags': ['hobbies', 'free-time', 'preferences', 'writing', 'speaking'],
   'audioScript': "In my free time, I like to read books.\nSometimes I play soccer with my friends.\nI enjoy listening to music. I also like cooking.\nOn weekends, I often watch movies.\n",
   'listeningEnabled': true,
@@ -20,7 +20,7 @@
     [
       {
         'type': 'choice',
-        'prompt': 'Câu nào đúng?',
+        'prompt': 'Which is correct?',
         'options':
           [
             'I enjoy to read books.',
@@ -32,7 +32,7 @@
       },
       {
         'type': 'choice',
-        'prompt': "Động từ nào đi với 'music'?",
+        'prompt': "Which verb goes with 'music'?",
         'options': ['play music', 'listen to music', 'watch music', 'do music'],
         'answer': 'listen to music',
       },
@@ -43,11 +43,14 @@
       },
       {
         'type': 'choice',
-        'prompt': "'Cooking' có nghĩa là gì?",
+        'prompt': "What does 'cooking' mean?",
         'options': ['nấu ăn', 'đọc sách', 'chơi bóng đá', 'nghe nhạc'],
         'answer': 'nấu ăn',
       },
     ],
+  'categoryEn': 'Foundation English',
+  'categoryVi': 'Tiếng Anh Nền tảng',
+  'prerequisites': ['a1-08-weather'],
 }
 ---
 
@@ -204,3 +207,42 @@ Nhấn play, sau đó lặp lại từng dòng.
 ## Bài học tiếp theo
 
 Ở bài **A1-10-review-unit2**, bạn sẽ ôn lại tất cả những gì đã học trong Unit 2: thời gian, địa điểm, thức ăn, thời tiết và sở thích. Một bài kiểm tra ngắn để xem bạn nhớ bao nhiêu.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Sở thích & Thời gian rảnh** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** In my free time, I like to read books.
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Sở thích & Thời gian rảnh**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> In my free time, I like to read books. Sometimes I play soccer with my friends. I enjoy listening to music. I also like cooking. On weekends, I often watch movies.
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+
+<!-- learning-loop:end -->

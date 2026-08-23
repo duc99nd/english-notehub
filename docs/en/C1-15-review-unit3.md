@@ -11,7 +11,7 @@
   'skill': 'review',
   'order': 15,
   'cefr': 'C1',
-  'minutes': 10,
+  'minutes': 11,
   'tags': ['review', 'unit3', 'academic', 'research', 'C1'],
   'audioScript': "Let's review Unit 3.\nYou can now use academic vocabulary and hedging.\nYou can apply nuanced C1 grammar structures.\nYou can critique academic arguments.\nYou can write research-style papers.\n",
   'listeningEnabled': true,
@@ -52,6 +52,9 @@
         'answer': 'Selective use of evidence',
       },
     ],
+  'categoryEn': 'Strategic Professional Communication',
+  'categoryVi': 'Giao tiếp Chuyên nghiệp Chiến lược',
+  'prerequisites': ['c1-14-research-writing'],
 }
 ---
 
@@ -121,3 +124,47 @@ Answer the five quiz questions to test your Unit 3 mastery.
 ## What to learn next
 
 Congratulations on completing the **C1 curriculum!** Continue to the **C2** level for advanced mastery.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to combine the unit language to complete a realistic task about review unit 3.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **review unit 3** in this situation?
+>
+> **You:** Let's review Unit 3.
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Complete one integrated response for a colleague, client, and senior stakeholder using language from at least three lessons in this unit.
+
+### Model response
+
+> Let's review Unit 3. You can now use academic vocabulary and hedging. You can apply nuanced C1 grammar structures. You can critique academic arguments. You can write research-style papers.
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Register switch
+
+Rewrite your response twice: first for a trusted teammate, then for a client or senior stakeholder. Keep the underlying message the same while changing directness, context, and the amount of explanation. Identify one phrase you softened, one detail you made explicit, and one assumption you removed.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+- [ ] I qualified claims where certainty was limited and adjusted the register for my audience.
+
+<!-- learning-loop:end -->

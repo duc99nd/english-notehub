@@ -11,31 +11,34 @@
   'skill': 'vocab',
   'order': 4,
   'cefr': 'C1',
-  'minutes': 5,
+  'minutes': 12,
   'tags': ['stakeholder', 'management', 'leadership', 'influence', 'C1'],
-  'audioScript': "Chúng ta cần đưa các bên liên quan không đồng thuận vào cuộc.\nSự ủng hộ của họ là yếu tố then chốt cho thành công của dự án.\nHãy thống nhất kỳ vọng trước khi tiến hành.\n",
+  'audioScript': "We need to bring the dissenting stakeholders on board.\nTheir buy-in is critical for the project's success.\nLet's align expectations before we move forward.\n",
   'listeningEnabled': true,
   'flashcardCount': 6,
   'quiz':
     [
       {
         'type': 'choice',
-        'prompt': 'Buy-in nghĩa là gì trong ngữ cảnh kinh doanh?',
-        'options': ['Mua cổ phiếu', 'Đồng thuận và ủng hộ', 'Lợi tức đầu tư'],
-        'answer': 'Đồng thuận và ủng hộ',
+        'prompt': "What does 'buy-in' mean in a business context?",
+        'options': ['Purchasing shares', 'Agreement and support', 'Investment return'],
+        'answer': 'Agreement and support',
       },
       {
         'type': 'fill',
-        'prompt': 'Chúng ta cần ___ kỳ vọng trước khi tiến hành sáng kiến.',
-        'answer': 'thống nhất',
+        'prompt': 'We need to ___ expectations before we move forward with the initiative.',
+        'answer': 'align',
       },
       {
         'type': 'choice',
-        'prompt': 'Cụm từ nào có nghĩa "có được sự ủng hộ cho quyết định"?',
-        'options': ['đưa vào cuộc', 'đặt sang một bên', 'bỏ lại phía sau'],
-        'answer': 'đưa vào cuộc',
+        'prompt': "Which phrase means 'to get someone's support for a decision'?",
+        'options': ['bring on board', 'put aside', 'leave behind'],
+        'answer': 'bring on board',
       },
     ],
+  'categoryEn': 'Strategic Professional Communication',
+  'categoryVi': 'Giao tiếp Chuyên nghiệp Chiến lược',
+  'prerequisites': ['c1-03-writing-strategy'],
 }
 ---
 
@@ -96,3 +99,47 @@ Khi cần thúc đẩy sáng kiến, xây dựng liên minh những người ủ
 ## What to learn next
 
 Trong bài tiếp theo **C1-05-review-unit1**, bạn sẽ củng cố từ vựng, ngữ pháp và kỹ năng đọc từ Unit 1 và chuẩn bị cho bài kiểm tra.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Quản lý các Bên liên quan** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** We need to bring the dissenting stakeholders on board.
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Quản lý các Bên liên quan**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> We need to bring the dissenting stakeholders on board. Their buy-in is critical for the project's success. Let's align expectations before we move forward.
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Chuyển đổi register
+
+Viết lại câu trả lời hai lần: một bản cho đồng đội thân quen và một bản cho khách hàng hoặc stakeholder cấp cao. Giữ nguyên thông điệp nhưng thay đổi độ trực tiếp, lượng bối cảnh và mức giải thích. Chỉ ra một cụm từ bạn đã làm mềm, một chi tiết bạn nói rõ hơn và một giả định bạn đã loại bỏ.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+- [ ] Mình đã giới hạn mức độ chắc chắn của nhận định và điều chỉnh register theo người nghe.
+
+<!-- learning-loop:end -->

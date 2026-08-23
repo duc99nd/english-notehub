@@ -11,27 +11,34 @@
   'skill': 'reading',
   'order': 14,
   'cefr': 'A2',
-  'minutes': 5,
+  'minutes': 10,
   'tags': ['reading', 'short-text', 'experiences', 'A2'],
-  'audioScript': "Maria đã đi du lịch mười hai quốc gia.\nTom đã làm việc ở cùng một công ty từ 2018.\nHọ đã học tiếng Anh trong nhiều năm.\n",
+  'audioScript': "Maria has traveled to twelve countries.\nTom has worked at the same company since 2018.\nThey have both learned English for many years.\n",
   'listeningEnabled': true,
   'flashcardCount': 6,
   'quiz':
     [
       {
         'type': 'choice',
-        'prompt': 'Maria đã đến bao nhiêu quốc gia?',
-        'options': ['Hai', 'Mười hai', 'Hai mươi'],
-        'answer': 'Mười hai',
+        'prompt': 'How many countries has Maria visited?',
+        'options': ['Two', 'Twelve', 'Twenty'],
+        'answer': 'Twelve',
       },
-      { 'type': 'fill', 'prompt': 'Tom đã làm ở cùng công ty ___ 2018.', 'answer': 'từ' },
+      {
+        'type': 'fill',
+        'prompt': 'Tom has worked at the same company ___ 2018.',
+        'answer': 'since',
+      },
       {
         'type': 'choice',
-        'prompt': 'Họ đã học tiếng Anh trong nhiều năm. Động từ "đã học" ở thì gì?',
-        'options': ['Quá khứ đơn', 'Hiện tại hoàn thành', 'Tương lai'],
-        'answer': 'Hiện tại hoàn thành',
+        'prompt': 'They have learned English for many years. What tense is "have learned"?',
+        'options': ['Past simple', 'Present perfect', 'Future'],
+        'answer': 'Present perfect',
       },
     ],
+  'categoryEn': 'Everyday Workplace English',
+  'categoryVi': 'Tiếng Anh Công việc Hằng ngày',
+  'prerequisites': ['a2-13-experiences'],
 }
 ---
 
@@ -92,3 +99,42 @@ Trả lời ba câu hỏi trong phần quiz để hoàn thành bài học.
 ## Bài học tiếp theo
 
 Ở bài **A2-15-review-unit3**, bạn sẽ ôn tập toàn bộ Unit 3.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Đọc Hiểu Ngắn** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** Maria has traveled to twelve countries.
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Đọc Hiểu Ngắn**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> Maria has traveled to twelve countries. Tom has worked at the same company since 2018. They have both learned English for many years.
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+
+<!-- learning-loop:end -->

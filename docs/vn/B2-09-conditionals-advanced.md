@@ -11,33 +11,40 @@
   'skill': 'grammar',
   'order': 9,
   'cefr': 'B2',
-  'minutes': 5,
+  'minutes': 11,
   'tags': ['grammar', 'conditionals', 'mixed', 'B2'],
-  'audioScript': "Nếu tôi đã học chăm hơn, tôi đã đậu kỳ thi.\nNếu cô ấy có kinh nghiệm hơn, cô ấy đã xử lý tốt hơn.\nGiá mà tôi biết về cuộc họp, tôi đã tham dự.\n",
+  'audioScript': "If I had studied harder, I would have passed the exam.\nIf she were more experienced, she would have handled it better.\nHad I known about the meeting, I would have attended.\n",
   'listeningEnabled': true,
   'flashcardCount': 8,
   'quiz':
     [
       {
         'type': 'choice',
-        'prompt': 'Khi nào dùng câu điều kiện loại 3?',
+        'prompt': 'When do we use the Third Conditional?',
         'options':
           [
-            'Cho tình huống tưởng tượng ở hiện tại',
-            'Cho tình huống giả định trong quá khứ',
-            'Cho khả năng thực tế trong tương lai',
+            'For imaginary present situations',
+            'For past hypothetical situations',
+            'For real future possibilities',
           ],
-        'answer': 'Cho tình huống giả định trong quá khứ',
+        'answer': 'For past hypothetical situations',
       },
-      { 'type': 'fill', 'prompt': 'Nếu tôi đã biết, tôi ___ đến sớm hơn.', 'answer': 'đã' },
+      { 'type': 'fill', 'prompt': 'If I had known, I ___ have come earlier.', 'answer': 'would' },
       {
         'type': 'choice',
-        'prompt': 'Câu điều kiện hỗn hợp là gì?',
+        'prompt': 'What is a mixed conditional?',
         'options':
-          ['Kết hợp giả định quá khứ và hiện tại', "Dùng 'if' với 'when'", 'Chỉ thì hiện tại'],
-        'answer': 'Kết hợp giả định quá khứ và hiện tại',
+          [
+            'Combining past and present hypotheticals',
+            "Using 'if' with 'when'",
+            'Only present tense',
+          ],
+        'answer': 'Combining past and present hypotheticals',
       },
     ],
+  'categoryEn': 'Technical Leadership Communication',
+  'categoryVi': 'Giao tiếp Dẫn dắt Kỹ thuật',
+  'prerequisites': ['b2-08-data-storytelling'],
 }
 ---
 
@@ -80,3 +87,46 @@ Kiểm tra khả năng điều kiện của bạn trong phần quiz.
 ## What to learn next
 
 Trong bài tiếp theo **B2-10-review-unit2**, bạn sẽ ôn tập nội dung Unit 2.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Câu điều kiện hỗn hợp nâng cao** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** If I had studied harder, I would have passed the exam.
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Câu điều kiện hỗn hợp nâng cao**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> If I had studied harder, I would have passed the exam. If she were more experienced, she would have handled it better. Had I known about the meeting, I would have attended.
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Chuyển đổi register
+
+Viết lại câu trả lời hai lần: một bản cho đồng đội thân quen và một bản cho khách hàng hoặc stakeholder cấp cao. Giữ nguyên thông điệp nhưng thay đổi độ trực tiếp, lượng bối cảnh và mức giải thích. Chỉ ra một cụm từ bạn đã làm mềm, một chi tiết bạn nói rõ hơn và một giả định bạn đã loại bỏ.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+
+<!-- learning-loop:end -->

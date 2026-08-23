@@ -11,36 +11,40 @@
   'skill': 'grammar',
   'order': 2,
   'cefr': 'B2',
-  'minutes': 5,
+  'minutes': 11,
   'tags': ['conflict', 'workplace', 'grammar', 'passive', 'conditionals'],
-  'audioScript': "Nếu vấn đề đã được nêu ra sớm hơn, chúng ta có thể đã tránh được điều này.\nQuyết định đã được đưa ra mà không hỏi ý kiến nhóm.\nNếu chúng ta đã thảo luận trước, mọi thứ đã khác rồi.\n",
+  'audioScript': "If the issue had been raised earlier, we could have avoided this.\nThe decision was made without consulting the team.\nHad we discussed this beforehand, things would have been different.\n",
   'listeningEnabled': true,
   'flashcardCount': 6,
   'quiz':
     [
       {
         'type': 'choice',
-        'prompt': 'Câu nào là câu bị động đúng?',
+        'prompt': 'Which sentence is correct passive voice?',
         'options':
           [
-            'Quyết định đã được đưa ra bởi họ.',
-            'Quyết định đã được đưa ra.',
-            'Quyết định được đưa ra bởi họ.',
+            'The mistake was made by them.',
+            'The mistake were made by them.',
+            'The mistake made by them.',
           ],
-        'answer': 'Quyết định đã được đưa ra.',
+        'answer': 'The mistake was made by them.',
       },
       {
         'type': 'fill',
-        'prompt': 'Nếu vấn đề đã được nêu ra sớm hơn, chúng ta ___ tránh được điều này.',
-        'answer': 'could have',
+        'prompt': 'If the issue ___ raised earlier, we could have avoided this.',
+        'answer': 'had been',
       },
       {
         'type': 'choice',
-        'prompt': 'Had it been raised nghĩa là gì?',
-        'options': ['Nếu nó sẽ được nêu ra', 'Nếu nó đã được nêu ra', 'Nó đã được nêu ra'],
-        'answer': 'Nếu nó đã được nêu ra',
+        'prompt': 'What does "Had we discussed this" mean?',
+        'options':
+          ['If we will discuss this', 'If we had discussed this', 'We should discuss this'],
+        'answer': 'If we had discussed this',
       },
     ],
+  'categoryEn': 'Technical Leadership Communication',
+  'categoryVi': 'Giao tiếp Dẫn dắt Kỹ thuật',
+  'prerequisites': ['b2-01-negotiation-advanced'],
 }
 ---
 
@@ -95,3 +99,46 @@ Dùng để mô tả các hành động xảy ra trước xung đột.
 ## Bài học tiếp theo
 
 Ở bài tiếp theo **B2-03-presenting-architecture**, bạn sẽ luyện đọc hiểu về thuyết trình kỹ thuật.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Ngữ pháp giải quyết xung đột** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** If the issue had been raised earlier, we could have avoided this.
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Ngữ pháp giải quyết xung đột**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> If the issue had been raised earlier, we could have avoided this. The decision was made without consulting the team. Had we discussed this beforehand, things would have been different.
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Chuyển đổi register
+
+Viết lại câu trả lời hai lần: một bản cho đồng đội thân quen và một bản cho khách hàng hoặc stakeholder cấp cao. Giữ nguyên thông điệp nhưng thay đổi độ trực tiếp, lượng bối cảnh và mức giải thích. Chỉ ra một cụm từ bạn đã làm mềm, một chi tiết bạn nói rõ hơn và một giả định bạn đã loại bỏ.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+
+<!-- learning-loop:end -->

@@ -13,37 +13,44 @@
   'cefr': 'C1',
   'minutes': 10,
   'tags': ['review', 'unit1', 'executive', 'board', 'strategy', 'C1'],
-  'audioScript': "Hãy ôn tập Unit 1.\nBây giờ bạn có thể dẫn dắt các cuộc họp điều hành tự tin.\nBạn có thể thuyết trình trước hội đồng hiệu quả.\nBạn có thể phân tích tài liệu chiến lược.\nBạn có thể quản lý các bên liên quan.\n",
+  'audioScript': "Let's review Unit 1.\nYou can now lead executive meetings with confidence.\nYou can present to the board effectively.\nYou can analyze strategic documents.\nYou can manage stakeholders.\n",
   'listeningEnabled': true,
   'flashcardCount': 20,
   'quiz':
     [
       {
         'type': 'choice',
-        'prompt': 'Buy-in nghĩa là gì trong ngữ cảnh kinh doanh?',
-        'options': ['Mua cổ phiếu', 'Đồng thuận và ủng hộ', 'Lợi tức đầu tư'],
-        'answer': 'Đồng thuận và ủng hộ',
+        'prompt': "What does 'buy-in' mean in a business context?",
+        'options': ['Purchasing shares', 'Agreement and support', 'Investment return'],
+        'answer': 'Agreement and support',
       },
       {
         'type': 'fill',
-        'prompt': 'Hội đồng đã ___ sự chuyển hướng sang năng lượng tái tạo.',
-        'answer': 'phê duyệt',
+        'prompt': 'The board has ___ a pivot toward renewable energy.',
+        'answer': 'endorsed',
       },
       {
         'type': 'choice',
-        'prompt': 'Cụm từ nào báo hiệu chuyển hướng chiến lược?',
+        'prompt': 'Which phrase signals a strategic shift?',
         'options':
-          ['Duy trì hiện trạng', 'Chuyển hướng sang giải pháp số', 'Tiếp tục hoạt động hiện tại'],
-        'answer': 'Chuyển hướng sang giải pháp số',
+          ['Maintain status quo', 'Pivot toward digital solutions', 'Continue current operations'],
+        'answer': 'Pivot toward digital solutions',
       },
-      { 'type': 'fill', 'prompt': 'Hãy ___ kỳ vọng trước khi tiến hành.', 'answer': 'thống nhất' },
+      {
+        'type': 'fill',
+        'prompt': "Let's ___ expectations before we move forward.",
+        'answer': 'align',
+      },
       {
         'type': 'choice',
-        'prompt': 'Headwinds trong kinh doanh thường nghĩa là:',
-        'options': ['Điều kiện thuận lợi', 'Thách thức hoặc trở ngại', 'Mô hình gió'],
-        'answer': 'Thách thức hoặc trở ngại',
+        'prompt': 'Headwinds in business typically means:',
+        'options': ['Favorable conditions', 'Challenges or obstacles', 'Wind patterns'],
+        'answer': 'Challenges or obstacles',
       },
     ],
+  'categoryEn': 'Strategic Professional Communication',
+  'categoryVi': 'Giao tiếp Chuyên nghiệp Chiến lược',
+  'prerequisites': ['c1-04-stakeholder-management'],
 }
 ---
 
@@ -101,6 +108,52 @@ Trong Unit 1, bạn đã xây dựng các kỹ năng giao tiếp cấp điều h
 
 Trả lời 5 câu quiz để kiểm tra sự thành thạo Unit 1 của bạn.
 
+Với mỗi đáp án, hãy xác định quyết định mà nó hỗ trợ và giả định về stakeholder phía sau. Giao tiếp C1 hiệu quả khi ngôn ngữ nâng cao làm lập luận rõ hơn, không chỉ khiến người nói nghe trang trọng hơn.
+
 ## What to learn next
 
 Tiếp tục **Unit 2** với **C1-06-investor-relations**.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Ôn tập Unit 1** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** Let's review Unit 1.
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Ôn tập Unit 1**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> Let's review Unit 1. You can now lead executive meetings with confidence. You can present to the board effectively. You can analyze strategic documents. You can manage stakeholders.
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Chuyển đổi register
+
+Viết lại câu trả lời hai lần: một bản cho đồng đội thân quen và một bản cho khách hàng hoặc stakeholder cấp cao. Giữ nguyên thông điệp nhưng thay đổi độ trực tiếp, lượng bối cảnh và mức giải thích. Chỉ ra một cụm từ bạn đã làm mềm, một chi tiết bạn nói rõ hơn và một giả định bạn đã loại bỏ.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+- [ ] Mình đã giới hạn mức độ chắc chắn của nhận định và điều chỉnh register theo người nghe.
+
+<!-- learning-loop:end -->

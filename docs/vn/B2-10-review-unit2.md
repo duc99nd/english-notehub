@@ -13,36 +13,39 @@
   'cefr': 'B2',
   'minutes': 10,
   'tags': ['review', 'unit2', 'B2', 'meetings', 'grammar'],
-  'audioScript': "Hãy cùng ôn tập Unit 2 của B2.\nBạn đã học cách điều phối cuộc họp.\nBây giờ bạn có thể dùng câu điều kiện nâng cao và ngữ pháp thuyết phục.\n",
+  'audioScript': "Let's review Unit 2 of B2.\nYou've learned how to facilitate meetings.\nYou can now use advanced conditionals and persuasive grammar.\n",
   'listeningEnabled': true,
   'flashcardCount': 16,
   'quiz':
     [
       {
         'type': 'choice',
-        'prompt': 'Kick off nghĩa là gì?',
-        'options': ['Kết thúc cuộc họp', 'Bắt đầu cuộc họp', 'Hủy cuộc họp'],
-        'answer': 'Bắt đầu cuộc họp',
+        'prompt': 'What does "kick off" mean?',
+        'options': ['To end a meeting', 'To start a meeting', 'To cancel a meeting'],
+        'answer': 'To start a meeting',
       },
-      { 'type': 'fill', 'prompt': 'Nếu tôi ___ (biết), tôi đã giúp.', 'answer': 'đã biết' },
+      { 'type': 'fill', 'prompt': 'If I ___ (know), I would have helped.', 'answer': 'had known' },
       {
         'type': 'choice',
-        'prompt': 'Cụm từ nào nghĩa là "tăng cường"?',
-        'options': ['Làm yếu', 'Bolster', 'Trì hoãn'],
+        'prompt': 'Which phrase means "to strengthen"?',
+        'options': ['Weaken', 'Bolster', 'Delay'],
         'answer': 'Bolster',
       },
       {
         'type': 'fill',
-        'prompt': 'Không chỉ ___ giảm chi phí, mà còn cải thiện hiệu suất.',
-        'answer': 'nó',
+        'prompt': 'Not only ___ it reduce costs, but it also improves performance.',
+        'answer': 'does',
       },
       {
         'type': 'choice',
-        'prompt': 'ROI là viết tắt của:',
-        'options': ['Lợi tức đầu tư', 'Tỷ suất thu nhập', 'Rủi ro triển khai'],
-        'answer': 'Lợi tức đầu tư',
+        'prompt': 'ROI stands for:',
+        'options': ['Return on Investment', 'Rate of Income', 'Risk of Implementation'],
+        'answer': 'Return on Investment',
       },
     ],
+  'categoryEn': 'Technical Leadership Communication',
+  'categoryVi': 'Giao tiếp Dẫn dắt Kỹ thuật',
+  'prerequisites': ['b2-09-conditionals-advanced'],
 }
 ---
 
@@ -91,3 +94,46 @@ Trả lời 5 câu quiz để kiểm tra sự thành thạo Unit 2 của bạn.
 ## What to learn next
 
 Tiếp tục **Unit 3** với **B2-11-cultural-nuances**.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Ôn tập Unit 2** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** Let's review Unit 2 of B2.
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Ôn tập Unit 2**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> Let's review Unit 2 of B2. You've learned how to facilitate meetings. You can now use advanced conditionals and persuasive grammar.
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Chuyển đổi register
+
+Viết lại câu trả lời hai lần: một bản cho đồng đội thân quen và một bản cho khách hàng hoặc stakeholder cấp cao. Giữ nguyên thông điệp nhưng thay đổi độ trực tiếp, lượng bối cảnh và mức giải thích. Chỉ ra một cụm từ bạn đã làm mềm, một chi tiết bạn nói rõ hơn và một giả định bạn đã loại bỏ.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+
+<!-- learning-loop:end -->

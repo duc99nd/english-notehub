@@ -11,7 +11,7 @@
   'skill': 'grammar',
   'order': 12,
   'cefr': 'C2',
-  'minutes': 5,
+  'minutes': 14,
   'tags': ['debate', 'parliament', 'grammar', 'formal', 'argument', 'rhetoric'],
   'audioScript': "Formal debate employs specific grammatical structures for maximum rhetorical impact.\nPassive constructions allow impersonal attribution of sources and claims.\ncleft sentences create emphasis crucial for persuasive argumentation.\n",
   'listeningEnabled': true,
@@ -42,6 +42,9 @@
         'answer': 'implementation',
       },
     ],
+  'categoryEn': 'Expert Register and Influence',
+  'categoryVi': 'Sắc thái và Ảnh hưởng Chuyên sâu',
+  'prerequisites': ['c2-11-research-presentation'],
 }
 ---
 
@@ -144,3 +147,47 @@ Test your mastery of formal debate grammar.
 ## What to learn next
 
 In **C2-13-write-publish**, you will explore the reading comprehension skills needed for scholarly journal articles and the publishing process.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to choose an appropriate structure and apply it accurately when discussing formal debate grammar.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **formal debate grammar** in this situation?
+>
+> **You:** Formal debate employs specific grammatical structures for maximum rhetorical impact.
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Write four connected sentences for a colleague, client, and senior stakeholder. Use the target structure twice, then revise one sentence to change its tone or emphasis.
+
+### Model response
+
+> Formal debate employs specific grammatical structures for maximum rhetorical impact. Passive constructions allow impersonal attribution of sources and claims. cleft sentences create emphasis crucial for persuasive argumentation.
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Register switch
+
+Rewrite your response twice: first for a trusted teammate, then for a client or senior stakeholder. Keep the underlying message the same while changing directness, context, and the amount of explanation. Identify one phrase you softened, one detail you made explicit, and one assumption you removed. Then write a plausible alternative interpretation of the model and explain which contextual evidence would help a reader choose between the two readings.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+- [ ] I qualified claims where certainty was limited and adjusted the register for my audience.
+
+<!-- learning-loop:end -->

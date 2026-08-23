@@ -11,31 +11,34 @@
   'skill': 'writing',
   'order': 7,
   'cefr': 'B2',
-  'minutes': 5,
+  'minutes': 10,
   'tags': ['writing', 'proposal', 'business', 'B2'],
-  'audioScript': "Đề xuất này phác thảo cách tiếp cận ba giai đoạn cho chuyển đổi số.\nGiải pháp của chúng tôi sẽ mang lại ROI rõ ràng trong vòng mười hai tháng.\nChúng tôi tin rằng quan hệ đối tác này sẽ tạo ra giá trị dài hạn đáng kể.\n",
+  'audioScript': "This proposal outlines our three-phase approach to digital transformation.\nOur solution will deliver measurable ROI within twelve months.\nWe are confident this partnership will yield significant long-term value.\n",
   'listeningEnabled': true,
   'flashcardCount': 6,
   'quiz':
     [
       {
         'type': 'choice',
-        'prompt': 'ROI là viết tắt của?',
-        'options': ['Tỷ suất thu nhập', 'Lợi tức đầu tư', 'Rủi ro triển khai'],
-        'answer': 'Lợi tức đầu tư',
+        'prompt': 'What does "ROI" stand for?',
+        'options': ['Rate of Income', 'Return on Investment', 'Risk of Implementation'],
+        'answer': 'Return on Investment',
       },
       {
         'type': 'fill',
-        'prompt': 'Đề xuất này ___ cách tiếp cận ba giai đoạn của chúng tôi.',
-        'answer': 'phác thảo',
+        'prompt': 'This proposal ___ our three-phase approach.',
+        'answer': 'outlines',
       },
       {
         'type': 'choice',
-        'prompt': 'Từ nào có nghĩa "tạo ra kết quả"?',
-        'options': ['trì hoãn', 'mang lại', 'tiêu thụ'],
-        'answer': 'mang lại',
+        'prompt': 'Which word means "to produce results"?',
+        'options': ['yield', 'delay', 'consume'],
+        'answer': 'yield',
       },
     ],
+  'categoryEn': 'Technical Leadership Communication',
+  'categoryVi': 'Giao tiếp Dẫn dắt Kỹ thuật',
+  'prerequisites': ['b2-06-business-article'],
 }
 ---
 
@@ -86,3 +89,46 @@ Kiểm tra kiến thức viết đề xuất trong phần quiz.
 ## What to learn next
 
 Trong bài tiếp theo **B2-08-data-storytelling**, bạn sẽ học cách trình bày insights dữ liệu có sức ảnh hưởng.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Viết đề xuất** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** This proposal outlines our three-phase approach to digital transformation.
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Viết đề xuất**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> This proposal outlines our three-phase approach to digital transformation. Our solution will deliver measurable ROI within twelve months. We are confident this partnership will yield significant long-term value.
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Chuyển đổi register
+
+Viết lại câu trả lời hai lần: một bản cho đồng đội thân quen và một bản cho khách hàng hoặc stakeholder cấp cao. Giữ nguyên thông điệp nhưng thay đổi độ trực tiếp, lượng bối cảnh và mức giải thích. Chỉ ra một cụm từ bạn đã làm mềm, một chi tiết bạn nói rõ hơn và một giả định bạn đã loại bỏ.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+
+<!-- learning-loop:end -->

@@ -8,6 +8,7 @@ import {
   ArrowRight,
   ArrowUp,
   BookOpenText,
+  CheckCircle2,
   ChevronUp,
   Languages,
   ListTree,
@@ -35,6 +36,7 @@ import { Button } from '@/components/ui/button'
 import { Sheet, SheetContent, SheetHeader, SheetTitle } from '@/components/ui/sheet'
 import { useTheme } from '@/composables/useTheme'
 import { Input } from '@/components/ui/input'
+import LessonPractice from '@/components/learn/LessonPractice.vue'
 
 const docs = getDocs()
 const route = useRoute()
@@ -53,6 +55,7 @@ const activeDoc = ref<DocItem | null>(null)
 const isDocLoading = ref(false)
 const docLoadError = ref(false)
 const sectionCountBySlug = ref<Record<string, number>>({})
+const lessonCompleted = ref(false)
 
 let headingElements: HTMLElement[] = []
 let rafId = 0
@@ -804,6 +807,16 @@ function scrollToTop(): void {
                     {{ currentLocale === 'vi' ? activeDoc.categoryVi : activeDoc.categoryEn }}
                   </span>
                 </div>
+
+                <div
+                  v-if="activeDoc && lessonCompleted"
+                  class="inline-flex items-center gap-2 rounded-full border border-emerald-500/30 bg-emerald-500/10 px-4 py-1.5"
+                >
+                  <CheckCircle2 class="size-4 text-emerald-500" aria-hidden="true" />
+                  <span class="notehub-label text-emerald-600 dark:text-emerald-400">{{
+                    t('lessonPractice.completed')
+                  }}</span>
+                </div>
               </div>
 
               <p class="mt-5 notehub-label text-muted-foreground/60">
@@ -882,6 +895,15 @@ function scrollToTop(): void {
           >
             <div v-html="activeDoc.html" />
           </div>
+
+          <LessonPractice
+            :key="activeDoc.slug"
+            :slug="activeDoc.slug"
+            :audio-script="activeDoc.audioScript"
+            :quiz="activeDoc.quiz"
+            :estimated-minutes="activeDoc.estimatedMinutes"
+            @completion-change="lessonCompleted = $event"
+          />
 
           <div class="border-t border-foreground/10 bg-background/50 px-6 py-6 sm:px-8">
             <div class="flex flex-col gap-5">

@@ -11,16 +11,16 @@
   'skill': 'grammar',
   'order': 12,
   'cefr': 'A2',
-  'minutes': 5,
+  'minutes': 10,
   'tags': ['opinions', 'grammar', 'speaking', 'thinking'],
-  'audioScript': "Tôi nghĩ đây là một bộ phim hay.\nTheo ý kiến của tôi, chúng ta nên đi sớm.\nTôi tin rằng việc học tiếng Anh rất quan trọng.\n",
+  'audioScript': "I think this is a great movie.\nIn my opinion, we should leave early.\nI believe learning English is important.\n",
   'listeningEnabled': true,
   'flashcardCount': 6,
   'quiz':
     [
       {
         'type': 'choice',
-        'prompt': 'Cụm từ nào đúng để diễn đạt ý kiến?',
+        'prompt': 'Which phrase is correct for giving an opinion?',
         'options':
           ['I am thinking this is good.', 'I think this is good.', 'I thinked this is good.'],
         'answer': 'I think this is good.',
@@ -32,11 +32,14 @@
       },
       {
         'type': 'choice',
-        'prompt': 'Đâu KHÔNG phải là cụm từ diễn đạt ý kiến?',
+        'prompt': 'Which is NOT a phrase for opinions?',
         'options': ['I believe', 'I want', 'I feel'],
         'answer': 'I want',
       },
     ],
+  'categoryEn': 'Everyday Workplace English',
+  'categoryVi': 'Tiếng Anh Công việc Hằng ngày',
+  'prerequisites': ['a2-11-small-talk'],
 }
 ---
 
@@ -89,3 +92,42 @@ Nhấn nút play để nghe audio. Sau đó lặp lại từng câu thành tiế
 ## Bài học tiếp theo
 
 Ở bài **A2-13-experiences**, bạn sẽ học cách nói về kinh nghiệm sử dụng thì hiện tại hoàn thành.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Ý kiến** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** I think this is a great movie.
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Ý kiến**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> I think this is a great movie. In my opinion, we should leave early. I believe learning English is important.
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+
+<!-- learning-loop:end -->

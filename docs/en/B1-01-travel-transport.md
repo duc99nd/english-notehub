@@ -11,7 +11,7 @@
   'skill': 'vocab',
   'order': 1,
   'cefr': 'B1',
-  'minutes': 5,
+  'minutes': 11,
   'tags': ['travel', 'transport', 'vocabulary', 'vacation', 'journey'],
   'audioScript': "I'm planning a trip to Barcelona next month.\nI usually take a flight because it's faster.\nCan you tell me how to get to the train station?\n",
   'listeningEnabled': true,
@@ -36,6 +36,9 @@
         'answer': 'Airplane',
       },
     ],
+  'categoryEn': 'Independent Workplace Communication',
+  'categoryVi': 'Giao tiếp Công việc Độc lập',
+  'prerequisites': ['a2-15-review-unit3'],
 }
 ---
 
@@ -104,3 +107,42 @@ Answer the three questions in the quiz section to finish this lesson.
 ## What to Learn Next
 
 In the next lesson **B1-02-past-tenses**, you will learn how to use past tenses to describe travel experiences and tell stories.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to select and use useful language for travel & transport in a short, realistic exchange.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **travel & transport** in this situation?
+>
+> **You:** I'm planning a trip to Barcelona next month.
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Create a four-line exchange with a colleague or classmate. Use at least three target expressions from **Travel & Transport** and add one follow-up question.
+
+### Model response
+
+> I'm planning a trip to Barcelona next month. I usually take a flight because it's faster. Can you tell me how to get to the train station?
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+
+<!-- learning-loop:end -->

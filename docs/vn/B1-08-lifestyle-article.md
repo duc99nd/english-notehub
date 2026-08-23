@@ -11,41 +11,44 @@
   'skill': 'reading',
   'order': 8,
   'cefr': 'B1',
-  'minutes': 5,
+  'minutes': 12,
   'tags': ['reading', 'lifestyle', 'health', 'work-life-balance', 'article'],
-  'audioScript': "Ngày càng có nhiều người làm việc từ xa ngày nay.\nCác chuyên gia khuyến khích nghỉ giải lao đều đặn trong ngày.\nMột lối sống lành mạnh bao gồm cả sức khỏe thể chất và tinh thần.\n",
+  'audioScript': "More and more people are working remotely these days.\nExperts recommend taking regular breaks throughout the day.\nA healthy lifestyle includes both physical and mental well-being.\n",
   'listeningEnabled': true,
   'flashcardCount': 8,
   'quiz':
     [
       {
         'type': 'choice',
-        'prompt': 'Work-life balance nghĩa là gì?',
+        'prompt': "What does 'work-life balance' mean?",
         'options':
           [
-            'Chỉ làm việc, không có cuộc sống cá nhân',
-            'Sự phân chia lành mạnh giữa công việc và thời gian cá nhân',
-            'Làm việc nhiều giờ hơn',
+            'Only working, no personal life',
+            'A healthy separation between job and personal time',
+            'Working more hours',
           ],
-        'answer': 'Sự phân chia lành mạnh giữa công việc và thời gian cá nhân',
+        'answer': 'A healthy separation between job and personal time',
       },
       {
         'type': 'fill',
-        'prompt': 'Bạn nên nghỉ giải lao ___ để giữ năng suất.',
+        'prompt': 'You should take regular ___ to stay productive.',
         'answer': 'breaks',
       },
       {
         'type': 'choice',
-        'prompt': 'Sedentary lifestyle (lối sống ít vận động) là gì?',
+        'prompt': "What is a 'sedentary lifestyle'?",
         'options':
           [
-            'Lối sống năng động với nhiều bài tập',
-            'Lối sống với ít hoạt động thể chất',
-            'Lịch trình rất bận rộn',
+            'An active lifestyle with lots of exercise',
+            'A lifestyle with little physical activity',
+            'A very busy schedule',
           ],
-        'answer': 'Lối sống với ít hoạt động thể chất',
+        'answer': 'A lifestyle with little physical activity',
       },
     ],
+  'categoryEn': 'Independent Workplace Communication',
+  'categoryVi': 'Giao tiếp Công việc Độc lập',
+  'prerequisites': ['b1-07-modals-obligation'],
 }
 ---
 
@@ -109,3 +112,42 @@ Trả lời ba câu hỏi trong phần quiz để hoàn thành bài học này.
 ## Bài học tiếp theo
 
 Ở bài **B1-09-job-application**, bạn sẽ học cách viết thư xin việc.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Bài báo Tạp chí: Lối sống lành mạnh** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** More and more people are working remotely these days.
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Bài báo Tạp chí: Lối sống lành mạnh**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> More and more people are working remotely these days. Experts recommend taking regular breaks throughout the day. A healthy lifestyle includes both physical and mental well-being.
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+
+<!-- learning-loop:end -->

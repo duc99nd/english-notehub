@@ -11,36 +11,39 @@
   'skill': 'grammar',
   'order': 7,
   'cefr': 'C1',
-  'minutes': 5,
+  'minutes': 12,
   'tags': ['grammar', 'inversion', 'subjunctive', 'advanced', 'C1'],
-  'audioScript': "Giá mà chúng tôi dự đoán được sự gián đoạn, chúng tôi đã đa dạng hóa sớm hơn.\nThương vụ không chỉ tạo ra sức mạnh tổng hợp mà còn mở rộng tầm ảnh hưởng.\nĐiều cấp bách là mọi bên liên quan phải được thông báo về những thay đổi.\n",
+  'audioScript': "Had we anticipated the disruption, we would have diversified earlier.\nNot only did the merger create synergies, but it also expanded our reach.\nIt is imperative that every stakeholder be informed of the changes.\n",
   'listeningEnabled': true,
   'flashcardCount': 6,
   'quiz':
     [
       {
         'type': 'choice',
-        'prompt': 'Đảo ngữ nào đúng?',
+        'prompt': 'Which is correct inversion?',
         'options':
           [
-            'Chúng tôi chưa bao giờ đã thấy tăng trưởng như vậy.',
-            'Chưa bao giờ chúng tôi lại thấy tăng trưởng như vậy.',
-            'Chưa bao giờ chúng tôi thấy tăng trưởng như vậy.',
+            'Never we have seen such growth.',
+            'Never have we seen such growth.',
+            'Never we seen have such growth.',
           ],
-        'answer': 'Chưa bao giờ chúng tôi lại thấy tăng trưởng như vậy.',
+        'answer': 'Never have we seen such growth.',
       },
       {
         'type': 'fill',
-        'prompt': 'Điều cần thiết là mọi thành viên ___ (được) thông báo.',
-        'answer': 'được',
+        'prompt': 'It is essential that every team member ___ (be) informed.',
+        'answer': 'be',
       },
       {
         'type': 'choice',
-        'prompt': 'Thức giả định được dùng để làm gì?',
-        'options': ['Thói quen quá khứ', 'Tình huống giả định/ước muốn', 'Kế hoạch tương lai'],
-        'answer': 'Tình huống giả định/ước muốn',
+        'prompt': 'What is the subjunctive mood used for?',
+        'options': ['Past habits', 'Hypothetical/wished situations', 'Future plans'],
+        'answer': 'Hypothetical/wished situations',
       },
     ],
+  'categoryEn': 'Strategic Professional Communication',
+  'categoryVi': 'Giao tiếp Chuyên nghiệp Chiến lược',
+  'prerequisites': ['c1-06-investor-relations'],
 }
 ---
 
@@ -101,3 +104,47 @@ Thức giả định diễn đạt ước muốn, giả định và khuyến ngh
 ## What to learn next
 
 Trong bài tiếp theo **C1-08-policy-reading**, bạn sẽ đọc và phân tích tài liệu chính sách.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Ngữ pháp C1 nâng cao** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** Had we anticipated the disruption, we would have diversified earlier.
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Ngữ pháp C1 nâng cao**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> Had we anticipated the disruption, we would have diversified earlier. Not only did the merger create synergies, but it also expanded our reach. It is imperative that every stakeholder be informed of the changes.
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Chuyển đổi register
+
+Viết lại câu trả lời hai lần: một bản cho đồng đội thân quen và một bản cho khách hàng hoặc stakeholder cấp cao. Giữ nguyên thông điệp nhưng thay đổi độ trực tiếp, lượng bối cảnh và mức giải thích. Chỉ ra một cụm từ bạn đã làm mềm, một chi tiết bạn nói rõ hơn và một giả định bạn đã loại bỏ.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+- [ ] Mình đã giới hạn mức độ chắc chắn của nhận định và điều chỉnh register theo người nghe.
+
+<!-- learning-loop:end -->

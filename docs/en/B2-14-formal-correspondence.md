@@ -11,7 +11,7 @@
   'skill': 'writing',
   'order': 14,
   'cefr': 'B2',
-  'minutes': 5,
+  'minutes': 11,
   'tags': ['writing', 'formal', 'correspondence', 'B2'],
   'audioScript': "I am writing to inquire about the position advertised on your website.\nI would be grateful if you could provide further information.\nI look forward to hearing from you at your earliest convenience.\n",
   'listeningEnabled': true,
@@ -32,6 +32,9 @@
         'answer': "When it's convenient for you",
       },
     ],
+  'categoryEn': 'Technical Leadership Communication',
+  'categoryVi': 'Giao tiếp Dẫn dắt Kỹ thuật',
+  'prerequisites': ['b2-13-editorial-reading'],
 }
 ---
 
@@ -91,3 +94,46 @@ Test your formal correspondence knowledge in the quiz section.
 ## What to learn next
 
 In the next lesson **B2-15-review-unit3**, you will review Unit 3 content.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to produce and revise a clear piece of writing about formal correspondence for a defined audience.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **formal correspondence** in this situation?
+>
+> **You:** I am writing to inquire about the position advertised on your website.
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Write 80–120 words for a colleague or classmate. State the purpose early, support it with a concrete detail, and finish with a clear next step.
+
+### Model response
+
+> I am writing to inquire about the position advertised on your website. I would be grateful if you could provide further information. I look forward to hearing from you at your earliest convenience.
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Register switch
+
+Rewrite your response twice: first for a trusted teammate, then for a client or senior stakeholder. Keep the underlying message the same while changing directness, context, and the amount of explanation. Identify one phrase you softened, one detail you made explicit, and one assumption you removed.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+
+<!-- learning-loop:end -->

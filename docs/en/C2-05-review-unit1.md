@@ -11,7 +11,7 @@
   'skill': 'review',
   'order': 5,
   'cefr': 'C2',
-  'minutes': 10,
+  'minutes': 13,
   'tags': ['review', 'humor', 'irony', 'academic', 'whitepaper', 'consolidation'],
   'audioScript': "Unit 1 covered four essential C2 skills: humor, irony, academic register, and whitepaper writing.\nEach skill builds upon the previous, creating a foundation for sophisticated English communication.\nReview these concepts regularly to maintain your C2 proficiency.\n",
   'listeningEnabled': true,
@@ -65,6 +65,9 @@
         'answer': 'hedging',
       },
     ],
+  'categoryEn': 'Expert Register and Influence',
+  'categoryVi': 'Sắc thái và Ảnh hưởng Chuyên sâu',
+  'prerequisites': ['c2-04-whitepaper-writing'],
 }
 ---
 
@@ -149,3 +152,47 @@ In Unit 2, you will apply these foundational skills to professional speaking con
 ## What to learn next
 
 In **C2-06-conference-talk**, you will master the vocabulary and discourse patterns of formal conference presentations.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to combine the unit language to complete a realistic task about review unit 1.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **review unit 1** in this situation?
+>
+> **You:** Unit 1 covered four essential C2 skills: humor, irony, academic register, and whitepaper writing.
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Complete one integrated response for a colleague, client, and senior stakeholder using language from at least three lessons in this unit.
+
+### Model response
+
+> Unit 1 covered four essential C2 skills: humor, irony, academic register, and whitepaper writing. Each skill builds upon the previous, creating a foundation for sophisticated English communication. Review these concepts regularly to maintain your C2 proficiency.
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Register switch
+
+Rewrite your response twice: first for a trusted teammate, then for a client or senior stakeholder. Keep the underlying message the same while changing directness, context, and the amount of explanation. Identify one phrase you softened, one detail you made explicit, and one assumption you removed. Then write a plausible alternative interpretation of the model and explain which contextual evidence would help a reader choose between the two readings.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+- [ ] I qualified claims where certainty was limited and adjusted the register for my audience.
+
+<!-- learning-loop:end -->

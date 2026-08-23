@@ -58,7 +58,7 @@ const scenarios: QuizScenario[] = [
         explanationVi: 'Quá cộc cằn và phá hỏng mối quan hệ hợp tác giữa Dev và QA.',
       },
     ],
-    relatedDocSlug: 'bug-reporting-troubleshooting',
+    relatedDocSlug: 'client-situations',
   },
   {
     id: 'scope-creep',
@@ -92,7 +92,7 @@ const scenarios: QuizScenario[] = [
           'Ghi nhận mong muốn của khách nhưng bảo vệ an toàn cho bản release kèm thời gian cụ thể.',
       },
     ],
-    relatedDocSlug: 'handling-scope-creep',
+    relatedDocSlug: 'b2-01-negotiation-advanced',
   },
   {
     id: 'standup-blocker',

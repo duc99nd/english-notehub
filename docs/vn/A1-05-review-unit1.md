@@ -11,7 +11,7 @@
   'skill': 'review',
   'order': 5,
   'cefr': 'A1',
-  'minutes': 10,
+  'minutes': 20,
   'tags': ['review', 'unit1', 'all-skills', 'consolidation'],
   'audioScript': "Hello! My name is Mai. I am a student.\nI have one sister and one brother.\nI wake up at six. I eat breakfast at seven.\nMy phone number is zero nine one, two three four, five six seven eight.\n",
   'listeningEnabled': true,
@@ -20,29 +20,32 @@
     [
       {
         'type': 'choice',
-        'prompt': 'Bạn giới thiệu bản thân bằng tiếng Anh như thế nào?',
+        'prompt': 'How do you introduce yourself in English?',
         'options': ['Me name is...', 'My name is...', 'I name is...'],
         'answer': 'My name is...',
       },
       {
         'type': 'fill',
-        'prompt': 'My phone number is zero nine one, five six seven, eight nine zero. Viết các chữ số:',
+        'prompt': 'My phone number is zero nine one, five six seven, eight nine zero. Write the digits:',
         'answer': '091567890',
       },
       {
         'type': 'choice',
-        'prompt': "Động từ nào có nghĩa là 'ăn'?",
+        'prompt': "Which verb means 'ăn'?",
         'options': ['drink', 'eat', 'sleep'],
         'answer': 'eat',
       },
       { 'type': 'fill', 'prompt': 'This is my ___. She is my mom. (mẹ)', 'answer': 'mother' },
       {
         'type': 'choice',
-        'prompt': "Bạn trả lời 'What time do you wake up?' như thế nào?",
-        'options': ['I sleep at six.', 'I wake up at six.', 'I eat at six.'],
+        'prompt': 'What time do you wake up? (thức dậy) Choose the right answer:',
+        'options': ['I sleep.', 'I wake up at six.', 'I eat.'],
         'answer': 'I wake up at six.',
       },
     ],
+  'categoryEn': 'Foundation English',
+  'categoryVi': 'Tiếng Anh Nền tảng',
+  'prerequisites': ['a1-04-family'],
 }
 ---
 
@@ -144,13 +147,13 @@ Nếu bạn làm bài tập mà không cần nhìn lại bài cũ, bạn đã s�
 
 Viết câu tiếng Anh trước, sau đó kiểm tra đáp án.
 
-| Tiếng Việt                                           | Câu của bạn                          |
-| ---------------------------------------------------- | ------------------------------------ |
-| Xin chào, tôi tên là Mai.                            | **************\_\_\_\_************** |
-| Tôi có hai chị em gái.                               | **************\_\_\_\_************** |
-| Tôi thức dậy lúc sáu giờ.                            | **************\_\_\_\_************** |
-| Số điện thoại của tôi là không chín một, hai ba bốn. | **************\_\_\_\_************** |
-| Đây là mẹ tôi. Tên bà là Lan.                        | **************\_\_\_\_************** |
+| Tiếng Việt                                           | Câu của bạn                                      |
+| ---------------------------------------------------- | ------------------------------------------------ |
+| Xin chào, tôi tên là Mai.                            | **\*\***\*\***\*\***\_\_\_\_**\*\***\*\***\*\*** |
+| Tôi có hai chị em gái.                               | **\*\***\*\***\*\***\_\_\_\_**\*\***\*\***\*\*** |
+| Tôi thức dậy lúc sáu giờ.                            | **\*\***\*\***\*\***\_\_\_\_**\*\***\*\***\*\*** |
+| Số điện thoại của tôi là không chín một, hai ba bốn. | **\*\***\*\***\*\***\_\_\_\_**\*\***\*\***\*\*** |
+| Đây là mẹ tôi. Tên bà là Lan.                        | **\*\***\*\***\*\***\_\_\_\_**\*\***\*\***\*\*** |
 
 ### Bài tập 2: Điền vào chỗ trống
 
@@ -188,11 +191,11 @@ Hãy tưởng tượng bạn gặp một người bạn mới trong lớp tiến
 
 > **Anna**: Hi! My name is Anna. \_\_\_?
 >
-> **Bạn**: I'm ****\_\_****. I'm from ****\_\_****.
+> **Bạn**: I'm \***\*\_\_\*\***. I'm from \***\*\_\_\*\***.
 >
 > **Anna**: Nice to meet you. What do you do?
 >
-> **Bạn**: I **\_ (work / study) at/in **\_\_\_\_****.
+> **Bạn**: I **\_ (work / study) at/in **\_\_\_\_\*\*\*\*.
 >
 > **Anna**: Cool. Do you have any siblings?
 >
@@ -200,7 +203,7 @@ Hãy tưởng tượng bạn gặp một người bạn mới trong lớp tiến
 >
 > **Anna**: What's your phone number?
 >
-> **Bạn**: It's zero ****\_\_****.
+> **Bạn**: It's zero \***\*\_\_\*\***.
 >
 > **Anna**: Great. See you next class!
 
@@ -242,3 +245,42 @@ Trung thực nhé. Tự chấm điểm.
 ## Bài học tiếp theo
 
 Ở bài **A1-06-time-place**, bạn sẽ học từ vựng về thời gian trong ngày (morning, afternoon, evening, night) và địa điểm (home, school, office, market) — xây dựng vốn từ cần thiết để nói về nơi bạn ở và khi nào mọi thứ xảy ra.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Ôn tập Unit 1** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** Hello! My name is Mai. I am a student.
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Ôn tập Unit 1**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> Hello! My name is Mai. I am a student. I have one sister and one brother. I wake up at six. I eat breakfast at seven. My phone number is zero nine one, two three four, five six seven eight.
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+
+<!-- learning-loop:end -->

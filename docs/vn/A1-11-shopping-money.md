@@ -11,7 +11,7 @@
   'skill': 'vocab',
   'order': 11,
   'cefr': 'A1',
-  'minutes': 8,
+  'minutes': 21,
   'tags': ['shopping', 'money', 'numbers', 'vocab', 'daily'],
   'audioScript': "How much does this shirt cost?\nIt costs fifty thousand dong.\nI would like to buy this book, please.\nDo you accept credit cards?\n",
   'listeningEnabled': true,
@@ -20,7 +20,7 @@
     [
       {
         'type': 'choice',
-        'prompt': 'Câu hỏi nào dùng để hỏi giá?',
+        'prompt': 'Which question asks for the price?',
         'options':
           [
             'How many is this?',
@@ -32,23 +32,22 @@
       },
       {
         'type': 'choice',
-        'prompt': "Trái nghĩa của 'cheap' là gì?",
+        'prompt': "What is the opposite of 'cheap'?",
         'options': ['small', 'expensive', 'free', 'discount'],
         'answer': 'expensive',
       },
-      {
-        'type': 'fill',
-        'prompt': 'It ___ 50 dollars. (động từ chỉ giá = costs)',
-        'answer': 'costs',
-      },
+      { 'type': 'fill', 'prompt': 'It ___ 50 dollars. (verb for price)', 'answer': 'costs' },
       {
         'type': 'choice',
-        'prompt': 'Bạn muốn trả bằng thẻ Visa. Bạn hỏi:',
+        'prompt': 'You want to pay with your Visa card. You ask:',
         'options':
           ['Where is the card?', 'Can I pay by card?', 'How many cards?', 'Do you take dollars?'],
         'answer': 'Can I pay by card?',
       },
     ],
+  'categoryEn': 'Foundation English',
+  'categoryVi': 'Tiếng Anh Nền tảng',
+  'prerequisites': ['a1-10-review-unit2'],
 }
 ---
 
@@ -246,3 +245,42 @@ Nhấn play, sau đó lặp lại từng dòng.
 ## Bài học tiếp theo
 
 Ở bài **A1-12-directions**, bạn sẽ học từ vựng về địa điểm và chỉ đường — trái, phải, thẳng, gần, xa — và cách hỏi và chỉ đường cho người lạ.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Mua sắm & Tiền bạc** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** How much does this shirt cost?
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Mua sắm & Tiền bạc**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> How much does this shirt cost? It costs fifty thousand dong. I would like to buy this book, please. Do you accept credit cards?
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+
+<!-- learning-loop:end -->

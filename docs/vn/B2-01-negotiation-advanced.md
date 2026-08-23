@@ -11,32 +11,34 @@
   'skill': 'vocab',
   'order': 1,
   'cefr': 'B2',
-  'minutes': 5,
+  'minutes': 11,
   'tags': ['negotiation', 'workplace', 'advanced', 'professional'],
-  'audioScript': "Để tôi chạy qua đề xuất này với bạn trước cuộc họp.\nChúng ta cần tìm điểm chung về timeline.\nNếu chúng ta quay lại tuần sau, chúng ta có thể hoàn tất các điều khoản.\n",
+  'audioScript': "Let me run this proposal by you before the meeting.\nWe need to find some middle ground on the timeline.\nIf we circle back next week, we can finalize the terms.\n",
   'listeningEnabled': true,
   'flashcardCount': 6,
   'quiz':
     [
       {
         'type': 'choice',
-        'prompt': 'Run something by someone nghĩa là gì?',
-        'options':
-          ['Từ chối một ý tưởng', 'Chia sẻ để lấy ý kiến phản hồi', 'Trì hoãn một quyết định'],
-        'answer': 'Chia sẻ để lấy ý kiến phản hồi',
+        'prompt': 'What does "run something by someone" mean?',
+        'options': ['To reject an idea', 'To share for feedback', 'To delay a decision'],
+        'answer': 'To share for feedback',
       },
       {
         'type': 'fill',
-        'prompt': 'Chúng ta cần tìm ___ ___ trước khi tiến hành.',
+        'prompt': 'We need to find some ___ ___ before we proceed.',
         'answer': 'middle ground',
       },
       {
         'type': 'choice',
-        'prompt': 'Cụm từ nào có nghĩa là "quay lại bàn bạc sau"?',
+        'prompt': 'Which phrase means "to return to a topic later"?',
         'options': ['buy in', 'circle back', 'deep dive'],
         'answer': 'circle back',
       },
     ],
+  'categoryEn': 'Technical Leadership Communication',
+  'categoryVi': 'Giao tiếp Dẫn dắt Kỹ thuật',
+  'prerequisites': ['b1-15-review-unit3'],
 }
 ---
 
@@ -87,3 +89,46 @@
 ## Bài học tiếp theo
 
 Ở bài tiếp theo **B2-02-conflict-resolution**, bạn sẽ học các mẫu ngữ pháp để giải quyết xung đột nơi làm việc một cách chuyên nghiệp.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Chiến lược đàm phán nâng cao** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** Let me run this proposal by you before the meeting.
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Chiến lược đàm phán nâng cao**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> Let me run this proposal by you before the meeting. We need to find some middle ground on the timeline. If we circle back next week, we can finalize the terms.
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Chuyển đổi register
+
+Viết lại câu trả lời hai lần: một bản cho đồng đội thân quen và một bản cho khách hàng hoặc stakeholder cấp cao. Giữ nguyên thông điệp nhưng thay đổi độ trực tiếp, lượng bối cảnh và mức giải thích. Chỉ ra một cụm từ bạn đã làm mềm, một chi tiết bạn nói rõ hơn và một giả định bạn đã loại bỏ.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+
+<!-- learning-loop:end -->

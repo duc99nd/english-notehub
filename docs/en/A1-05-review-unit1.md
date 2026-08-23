@@ -11,7 +11,7 @@
   'skill': 'review',
   'order': 5,
   'cefr': 'A1',
-  'minutes': 10,
+  'minutes': 20,
   'tags': ['review', 'unit1', 'all-skills', 'consolidation'],
   'audioScript': "Hello! My name is Mai. I am a student.\nI have one sister and one brother.\nI wake up at six. I eat breakfast at seven.\nMy phone number is zero nine one, two three four, five six seven eight.\n",
   'listeningEnabled': true,
@@ -43,6 +43,9 @@
         'answer': 'I wake up at six.',
       },
     ],
+  'categoryEn': 'Foundation English',
+  'categoryVi': 'Tiếng Anh Nền tảng',
+  'prerequisites': ['a1-04-family'],
 }
 ---
 
@@ -144,13 +147,13 @@ If you can do the practice without looking back at the lessons, you are ready fo
 
 Write the English sentence first, then check your answer.
 
-| Vietnamese                                           | Your English                         |
-| ---------------------------------------------------- | ------------------------------------ |
-| Xin chào, tôi tên là Mai.                            | **************\_\_\_\_************** |
-| Tôi có hai chị em gái.                               | **************\_\_\_\_************** |
-| Tôi thức dậy lúc sáu giờ.                            | **************\_\_\_\_************** |
-| Số điện thoại của tôi là không chín một, hai ba bốn. | **************\_\_\_\_************** |
-| Đây là mẹ tôi. Tên bà là Lan.                        | **************\_\_\_\_************** |
+| Vietnamese                                           | Your English                                     |
+| ---------------------------------------------------- | ------------------------------------------------ |
+| Xin chào, tôi tên là Mai.                            | **\*\***\*\***\*\***\_\_\_\_**\*\***\*\***\*\*** |
+| Tôi có hai chị em gái.                               | **\*\***\*\***\*\***\_\_\_\_**\*\***\*\***\*\*** |
+| Tôi thức dậy lúc sáu giờ.                            | **\*\***\*\***\*\***\_\_\_\_**\*\***\*\***\*\*** |
+| Số điện thoại của tôi là không chín một, hai ba bốn. | **\*\***\*\***\*\***\_\_\_\_**\*\***\*\***\*\*** |
+| Đây là mẹ tôi. Tên bà là Lan.                        | **\*\***\*\***\*\***\_\_\_\_**\*\***\*\***\*\*** |
 
 ### Exercise 2: Fill in the blank
 
@@ -188,11 +191,11 @@ Imagine you meet a new classmate in your English class. Write a short conversati
 
 > **Anna**: Hi! My name is Anna. \_\_\_?
 >
-> **You**: I'm ****\_\_****. I'm from ****\_\_****.
+> **You**: I'm \***\*\_\_\*\***. I'm from \***\*\_\_\*\***.
 >
 > **Anna**: Nice to meet you. What do you do?
 >
-> **You**: I **\_ (work / study) at/in **\_\_\_\_****.
+> **You**: I **\_ (work / study) at/in **\_\_\_\_\*\*\*\*.
 >
 > **Anna**: Cool. Do you have any siblings?
 >
@@ -200,7 +203,7 @@ Imagine you meet a new classmate in your English class. Write a short conversati
 >
 > **Anna**: What's your phone number?
 >
-> **You**: It's zero ****\_\_****.
+> **You**: It's zero \***\*\_\_\*\***.
 >
 > **Anna**: Great. See you next class!
 
@@ -242,3 +245,42 @@ Be honest. Score yourself.
 ## What to learn next
 
 In **A1-06-time-place**, you will learn the words for time of day (morning, afternoon, evening, night) and places (home, school, office, market) — building the vocabulary you need to talk about where you are and when things happen.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to combine the unit language to complete a realistic task about review unit 1.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **review unit 1** in this situation?
+>
+> **You:** Hello! My name is Mai. I am a student.
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Complete one integrated response for a colleague or classmate using language from at least three lessons in this unit.
+
+### Model response
+
+> Hello! My name is Mai. I am a student. I have one sister and one brother. I wake up at six. I eat breakfast at seven. My phone number is zero nine one, two three four, five six seven eight.
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+
+<!-- learning-loop:end -->

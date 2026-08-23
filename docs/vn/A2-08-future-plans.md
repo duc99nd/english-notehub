@@ -11,16 +11,16 @@
   'skill': 'reading',
   'order': 8,
   'cefr': 'A2',
-  'minutes': 5,
+  'minutes': 11,
   'tags': ['future', 'grammar', 'plans', 'reading'],
-  'audioScript': "Tôi sẽ đến thăm bà ngoại vào cuối tuần này.\nTôi sẽ gọi cho bạn sau.\nChúng tôi sẽ bắt đầu một dự án mới.\n",
+  'audioScript': "I am going to visit my grandmother this weekend.\nI will call you later.\nWe are going to start a new project.\n",
   'listeningEnabled': true,
   'flashcardCount': 6,
   'quiz':
     [
       {
         'type': 'choice',
-        'prompt': 'Câu nào đúng cho quyết định đã lên kế hoạch?',
+        'prompt': 'Which is correct for a planned decision?',
         'options':
           [
             'I will go to the cinema.',
@@ -36,16 +36,15 @@
       },
       {
         'type': 'choice',
-        'prompt': 'Khi nào chúng ta dùng "will"?',
+        'prompt': 'When do we use "will"?',
         'options':
-          [
-            'Cho quyết định đã lên kế hoạch',
-            'Cho quyết định tự phát hoặc dự đoán',
-            'Cho sự kiện quá khứ',
-          ],
-        'answer': 'Cho quyết định tự phát hoặc dự đoán',
+          ['For planned decisions', 'For spontaneous decisions or predictions', 'For past events'],
+        'answer': 'For spontaneous decisions or predictions',
       },
     ],
+  'categoryEn': 'Everyday Workplace English',
+  'categoryVi': 'Tiếng Anh Công việc Hằng ngày',
+  'prerequisites': ['a2-07-phone-call'],
 }
 ---
 
@@ -100,3 +99,42 @@ Nhấn nút play để nghe audio. Sau đó lặp lại từng câu thành tiế
 ## Bài học tiếp theo
 
 Ở bài **A2-09-should-must**, bạn sẽ học cách sử dụng should và must để đưa ra lời khuyên và nghĩa vụ.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Kế hoạch tương lai** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** I am going to visit my grandmother this weekend.
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Kế hoạch tương lai**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> I am going to visit my grandmother this weekend. I will call you later. We are going to start a new project.
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+
+<!-- learning-loop:end -->

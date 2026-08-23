@@ -11,7 +11,7 @@
   'skill': 'vocab',
   'order': 6,
   'cefr': 'A1',
-  'minutes': 8,
+  'minutes': 20,
   'tags': ['time', 'places', 'prepositions', 'vocab', 'daily'],
   'audioScript': "In the morning, I go to school.\nIn the afternoon, I study English at the library.\nIn the evening, I watch TV at home.\nOn Sunday, I visit my grandmother at her house.\n",
   'listeningEnabled': true,
@@ -42,6 +42,9 @@
         'answer': 'on',
       },
     ],
+  'categoryEn': 'Foundation English',
+  'categoryVi': 'Tiếng Anh Nền tảng',
+  'prerequisites': ['a1-05-review-unit1'],
 }
 ---
 
@@ -202,3 +205,42 @@ Press play, then repeat each line aloud.
 ## What to learn next
 
 In **A1-07-food**, you will learn the vocabulary for food and drinks — fruits, vegetables, meat, drinks — and how to order at a restaurant or café using the prepositions from this lesson.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to select and use useful language for time & places in a short, realistic exchange.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **time & places** in this situation?
+>
+> **You:** In the morning, I go to school.
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Create a four-line exchange with a colleague or classmate. Use at least three target expressions from **Time & Places** and add one follow-up question.
+
+### Model response
+
+> In the morning, I go to school. In the afternoon, I study English at the library. In the evening, I watch TV at home. On Sunday, I visit my grandmother at her house.
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+
+<!-- learning-loop:end -->

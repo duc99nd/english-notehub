@@ -11,7 +11,7 @@
   'skill': 'reading',
   'order': 3,
   'cefr': 'B2',
-  'minutes': 5,
+  'minutes': 11,
   'tags': ['architecture', 'system-design', 'reading', 'technical'],
   'audioScript': "The architecture we chose prioritizes scalability over simplicity.\nEach service handles its own data persistence layer.\nWe decided against a microservices approach for now.\n",
   'listeningEnabled': true,
@@ -41,6 +41,9 @@
         'answer': 'This may change in the future',
       },
     ],
+  'categoryEn': 'Technical Leadership Communication',
+  'categoryVi': 'Giao tiếp Dẫn dắt Kỹ thuật',
+  'prerequisites': ['b2-02-conflict-resolution'],
 }
 ---
 
@@ -86,4 +89,47 @@ We recommend moving to an event-driven architecture. Each domain — payments, i
 
 ## What to learn next
 
-In the next lesson **B2-04-persuasion**, you will practice writing persuasively about technical decisions.
+In the next lesson **B2-04-meeting-facilitation**, you will practice guiding a group toward a clear decision.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to identify the main point, supporting detail, and register choices in a text about presenting architecture decisions.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **presenting architecture decisions** in this situation?
+>
+> **You:** The architecture we chose prioritizes scalability over simplicity.
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Summarize the text in two sentences for a colleague or classmate. Identify one claim, one supporting detail, and one phrase that signals the writer's attitude.
+
+### Model response
+
+> The architecture we chose prioritizes scalability over simplicity. Each service handles its own data persistence layer. We decided against a microservices approach for now.
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Register switch
+
+Rewrite your response twice: first for a trusted teammate, then for a client or senior stakeholder. Keep the underlying message the same while changing directness, context, and the amount of explanation. Identify one phrase you softened, one detail you made explicit, and one assumption you removed.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+
+<!-- learning-loop:end -->

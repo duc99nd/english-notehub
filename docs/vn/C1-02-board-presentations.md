@@ -11,36 +11,39 @@
   'skill': 'grammar',
   'order': 2,
   'cefr': 'C1',
-  'minutes': 5,
+  'minutes': 12,
   'tags': ['grammar', 'conditionals', 'presentations', 'board', 'C1'],
-  'audioScript': "Nếu chúng ta vượt mục tiêu, chúng tôi sẽ cân nhắc mở rộng sang các thị trường liền kề.\nNếu chúng tôi không đầu tư vào R&D sớm hơn, chúng tôi sẽ không ở vị thế cạnh tranh như hiện tại.\nNếu việc sáp nhập tiến hành, các bên liên quan sẽ nhận được lợi ích đáng kể.\n",
+  'audioScript': "Should we exceed our targets, we would consider expanding into adjacent markets.\nHad we not invested in R&D earlier, we wouldn't be positioned competitively today.\nWere the merger to proceed, stakeholders would receive significant upside.\n",
   'listeningEnabled': true,
   'flashcardCount': 6,
   'quiz':
     [
       {
         'type': 'choice',
-        'prompt': 'Cấu trúc điều kiện nào dùng cho điều kiện không có thật ở quá khứ?',
+        'prompt': 'Which conditional is used for past unreal conditions?',
         'options':
           [
-            'Third conditional (if + quá khứ hoàn thành, would have)',
-            'First conditional (if + hiện tại, will)',
-            'Zero conditional (if + hiện tại, hiện tại)',
+            'Third conditional (if + past perfect, would have)',
+            'First conditional (if + present, will)',
+            'Zero conditional (if + present, present)',
           ],
-        'answer': 'Third conditional (if + quá khứ hoàn thành, would have)',
+        'answer': 'Third conditional (if + past perfect, would have)',
       },
       {
         'type': 'fill',
-        'prompt': '___ chúng tôi có thêm vốn, chúng tôi có thể đẩy nhanh tiến độ.',
+        'prompt': '___ we secure additional funding, we could accelerate our timeline.',
         'answer': 'Should',
       },
       {
         'type': 'choice',
-        'prompt': '"Were the board to approve..." là ví dụ của:',
-        'options': ['Điều kiện đảo ngược (trang trọng)', 'First conditional', 'Second conditional'],
-        'answer': 'Điều kiện đảo ngược (trang trọng)',
+        'prompt': '"Were the board to approve..." is an example of:',
+        'options': ['Inverted conditional (formal)', 'First conditional', 'Second conditional'],
+        'answer': 'Inverted conditional (formal)',
       },
     ],
+  'categoryEn': 'Strategic Professional Communication',
+  'categoryVi': 'Giao tiếp Chuyên nghiệp Chiến lược',
+  'prerequisites': ['c1-01-executive-meetings'],
 }
 ---
 
@@ -98,3 +101,47 @@ Kết hợp các thì để phân tích sắc thái:
 ## Bài học tiếp theo
 
 Ở bài tiếp theo **C1-03-writing-strategy**, bạn sẽ luyện đọc hiểu các tài liệu kinh doanh chiến lược.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Ngữ pháp Thuyết trình Hội đồng Quản trị** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** Should we exceed our targets, we would consider expanding into adjacent markets.
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Ngữ pháp Thuyết trình Hội đồng Quản trị**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> Should we exceed our targets, we would consider expanding into adjacent markets. Had we not invested in R&D earlier, we wouldn't be positioned competitively today. Were the merger to proceed, stakeholders would receive significant upside.
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Chuyển đổi register
+
+Viết lại câu trả lời hai lần: một bản cho đồng đội thân quen và một bản cho khách hàng hoặc stakeholder cấp cao. Giữ nguyên thông điệp nhưng thay đổi độ trực tiếp, lượng bối cảnh và mức giải thích. Chỉ ra một cụm từ bạn đã làm mềm, một chi tiết bạn nói rõ hơn và một giả định bạn đã loại bỏ.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+- [ ] Mình đã giới hạn mức độ chắc chắn của nhận định và điều chỉnh register theo người nghe.
+
+<!-- learning-loop:end -->

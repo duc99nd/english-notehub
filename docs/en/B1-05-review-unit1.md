@@ -11,7 +11,7 @@
   'skill': 'review',
   'order': 5,
   'cefr': 'B1',
-  'minutes': 10,
+  'minutes': 11,
   'tags': ['review', 'unit1', 'travel', 'past-tenses', 'writing', 'vocabulary', 'grammar'],
   'audioScript': "Let's review what we learned in Unit 1.\nYou can now talk about travel and transport.\nYou can describe past events using different tenses.\nYou can read and write travel blogs and emails.\n",
   'listeningEnabled': true,
@@ -48,6 +48,9 @@
         'answer': 'I was walking when I saw her.',
       },
     ],
+  'categoryEn': 'Independent Workplace Communication',
+  'categoryVi': 'Giao tiếp Công việc Độc lập',
+  'prerequisites': ['b1-04-email-friend'],
 }
 ---
 
@@ -109,3 +112,42 @@ In Unit 1, you learned four important skills for talking about travel:
 ## What to Learn Next
 
 Continue to **B1-06-work-routines** to learn vocabulary about work and daily routines in Unit 2.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to combine the unit language to complete a realistic task about review unit 1.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **review unit 1** in this situation?
+>
+> **You:** Let's review what we learned in Unit 1.
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Complete one integrated response for a colleague or classmate using language from at least three lessons in this unit.
+
+### Model response
+
+> Let's review what we learned in Unit 1. You can now talk about travel and transport. You can describe past events using different tenses. You can read and write travel blogs and emails.
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+
+<!-- learning-loop:end -->

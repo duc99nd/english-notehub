@@ -11,32 +11,35 @@
   'skill': 'grammar',
   'order': 5,
   'cefr': 'B2',
-  'minutes': 5,
+  'minutes': 11,
   'tags': ['grammar', 'persuasion', 'rhetoric', 'B2'],
-  'audioScript': "Giải pháp này không chỉ giảm chi phí mà còn cải thiện khả năng mở rộng.\nCàng thu thập nhiều dữ liệu, dự đoán của chúng ta càng chính xác.\nĐiều cần thiết là chúng ta phải hành động ngay để duy trì tính cạnh tranh.\n",
+  'audioScript': "Not only does this solution reduce costs, but it also improves scalability.\nThe more data we collect, the better our predictions become.\nIt is essential that we act now to remain competitive.\n",
   'listeningEnabled': true,
   'flashcardCount': 6,
   'quiz':
     [
       {
         'type': 'choice',
-        'prompt': 'Cấu trúc nào nhấn mạnh tầm quan trọng?',
+        'prompt': 'Which structure emphasizes importance?',
         'options':
-          ['Có lẽ sẽ hữu ích nếu...', 'Điều cần thiết là chúng ta...', 'Chúng ta có thể...'],
-        'answer': 'Điều cần thiết là chúng ta...',
+          ['It might be helpful to...', 'It is essential that we...', 'We could possibly...'],
+        'answer': 'It is essential that we...',
       },
       {
         'type': 'fill',
-        'prompt': 'Không chỉ ___ giảm chi phí, mà còn cải thiện khả năng mở rộng.',
-        'answer': 'nó',
+        'prompt': 'Not only ___ it reduce costs, but it also improves scalability.',
+        'answer': 'does',
       },
       {
         'type': 'choice',
-        'prompt': 'Càng kiểm thử nhiều, kết quả càng tốt là ví dụ của:',
-        'options': ['Cấu trúc so sánh', 'So sánh kép', 'Câu điều kiện'],
-        'answer': 'So sánh kép',
+        'prompt': 'The more we test, the better the result becomes. is an example of:',
+        'options': ['Comparative structure', 'Double comparative', 'Conditional structure'],
+        'answer': 'Double comparative',
       },
     ],
+  'categoryEn': 'Technical Leadership Communication',
+  'categoryVi': 'Giao tiếp Dẫn dắt Kỹ thuật',
+  'prerequisites': ['b2-04-meeting-facilitation'],
 }
 ---
 
@@ -88,3 +91,46 @@ Kiểm tra ngữ pháp thuyết phục của bạn trong phần quiz.
 ## What to learn next
 
 Trong bài tiếp theo **B2-06-business-article**, bạn sẽ đọc và phân tích các bài báo kinh doanh và báo cáo thị trường.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Ngữ pháp thuyết phục** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** Not only does this solution reduce costs, but it also improves scalability.
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Ngữ pháp thuyết phục**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> Not only does this solution reduce costs, but it also improves scalability. The more data we collect, the better our predictions become. It is essential that we act now to remain competitive.
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Chuyển đổi register
+
+Viết lại câu trả lời hai lần: một bản cho đồng đội thân quen và một bản cho khách hàng hoặc stakeholder cấp cao. Giữ nguyên thông điệp nhưng thay đổi độ trực tiếp, lượng bối cảnh và mức giải thích. Chỉ ra một cụm từ bạn đã làm mềm, một chi tiết bạn nói rõ hơn và một giả định bạn đã loại bỏ.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+
+<!-- learning-loop:end -->

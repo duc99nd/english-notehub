@@ -11,7 +11,7 @@
   'skill': 'grammar',
   'order': 13,
   'cefr': 'A1',
-  'minutes': 8,
+  'minutes': 18,
   'tags': ['can', 'cant', 'ability', 'permission', 'modal', 'grammar'],
   'audioScript': "I can swim very well. Can you swim?\nShe can't speak French, but she can speak English.\nExcuse me, can I sit here?\nCan you help me, please?\n",
   'listeningEnabled': true,
@@ -38,6 +38,9 @@
       },
       { 'type': 'fill', 'prompt': 'Excuse me, ___ I open the window? (xin phép)', 'answer': 'can' },
     ],
+  'categoryEn': 'Foundation English',
+  'categoryVi': 'Tiếng Anh Nền tảng',
+  'prerequisites': ['a1-12-directions'],
 }
 ---
 
@@ -163,7 +166,7 @@ Notice the rhythm: every "can / can't" answers the question directly. There are 
 
 Fill in the blanks, then read out loud.
 
-> My name is ****\_\_****. I can ****\_\_**** very well, but I can't ****\_\_****. I can also ****\_\_****. Can you ****\_\_****?
+> My name is \***\*\_\_\*\***. I can \***\*\_\_\*\*** very well, but I can't \***\*\_\_\*\***. I can also \***\*\_\_\*\***. Can you \***\*\_\_\*\***?
 
 **Now ask a partner the same questions:**
 
@@ -200,3 +203,42 @@ Press play, then repeat each line aloud. Pause after each one.
 ## What to learn next
 
 In **A1-14-describing-people**, you will learn the vocabulary to describe people — height, hair, eyes, personality — so you can talk about your friends, family, and colleagues in English.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to choose an appropriate structure and apply it accurately when discussing can and can't.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **can and can't** in this situation?
+>
+> **You:** I can swim very well. Can you swim?
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Write four connected sentences for a colleague or classmate. Use the target structure twice, then revise one sentence to change its tone or emphasis.
+
+### Model response
+
+> I can swim very well. Can you swim? She can't speak French, but she can speak English. Excuse me, can I sit here? Can you help me, please?
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+
+<!-- learning-loop:end -->

@@ -11,7 +11,7 @@
   'skill': 'vocab',
   'order': 11,
   'cefr': 'A1',
-  'minutes': 8,
+  'minutes': 21,
   'tags': ['shopping', 'money', 'numbers', 'vocab', 'daily'],
   'audioScript': "How much does this shirt cost?\nIt costs fifty thousand dong.\nI would like to buy this book, please.\nDo you accept credit cards?\n",
   'listeningEnabled': true,
@@ -45,6 +45,9 @@
         'answer': 'Can I pay by card?',
       },
     ],
+  'categoryEn': 'Foundation English',
+  'categoryVi': 'Tiếng Anh Nền tảng',
+  'prerequisites': ['a1-10-review-unit2'],
 }
 ---
 
@@ -228,3 +231,42 @@ Press play, then repeat each line aloud.
 ## What to learn next
 
 In **A1-12-directions**, you will learn vocabulary for places and directions — left, right, straight, near, far — and how to ask for and give directions to a stranger.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to select and use useful language for shopping & money in a short, realistic exchange.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **shopping & money** in this situation?
+>
+> **You:** How much does this shirt cost?
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Create a four-line exchange with a colleague or classmate. Use at least three target expressions from **Shopping & Money** and add one follow-up question.
+
+### Model response
+
+> How much does this shirt cost? It costs fifty thousand dong. I would like to buy this book, please. Do you accept credit cards?
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+
+<!-- learning-loop:end -->

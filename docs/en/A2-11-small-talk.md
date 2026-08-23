@@ -11,7 +11,7 @@
   'skill': 'vocab',
   'order': 11,
   'cefr': 'A2',
-  'minutes': 5,
+  'minutes': 10,
   'tags': ['small-talk', 'speaking', 'vocabulary', 'conversation'],
   'audioScript': "Nice weather today, isn't it?\nHow was your weekend?\nI really enjoyed that coffee.\n",
   'listeningEnabled': true,
@@ -32,6 +32,9 @@
         'answer': 'How much do you earn?',
       },
     ],
+  'categoryEn': 'Everyday Workplace English',
+  'categoryVi': 'Tiếng Anh Công việc Hằng ngày',
+  'prerequisites': ['a2-10-review-unit2'],
 }
 ---
 
@@ -90,3 +93,42 @@ Answer the three questions in the quiz section to finish this lesson.
 ## What to learn next
 
 In the next lesson **A2-12-opinions**, you will learn how to express your opinions in English.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to select and use useful language for small talk in a short, realistic exchange.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **small talk** in this situation?
+>
+> **You:** Nice weather today, isn't it?
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Create a four-line exchange with a colleague or classmate. Use at least three target expressions from **Small Talk** and add one follow-up question.
+
+### Model response
+
+> Nice weather today, isn't it? How was your weekend? I really enjoyed that coffee.
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+
+<!-- learning-loop:end -->

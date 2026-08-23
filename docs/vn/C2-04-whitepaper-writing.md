@@ -11,8 +11,46 @@
   'skill': 'writing',
   'order': 4,
   'cefr': 'C2',
-  'minutes': 5,
+  'minutes': 13,
   'tags': ['whitepaper', 'business', 'technical', 'persuasion', 'professional'],
+  'categoryEn': 'Expert Register and Influence',
+  'categoryVi': 'Sắc thái và Ảnh hưởng Chuyên sâu',
+  'prerequisites': ['c2-03-academic-tone'],
+  'audioScript': "A whitepaper blends analytical rigor with persuasive rhetoric.\nExecutive summaries distil complex arguments into actionable insights.\nThe target audience dictates tone, depth, and evidentiary standards.\n",
+  'listeningEnabled': true,
+  'flashcardCount': 6,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': 'What is the primary purpose of an executive summary in a whitepaper?',
+        'options':
+          [
+            'To entertain the reader',
+            'To distil key arguments for time-pressed executives',
+            'To list all technical details',
+            'To thank the sponsors',
+          ],
+        'answer': 'To distil key arguments for time-pressed executives',
+      },
+      {
+        'type': 'choice',
+        'prompt': 'Which rhetorical approach is most effective in a whitepaper?',
+        'options':
+          [
+            'Emotional appeal alone',
+            'Evidence-based argumentation',
+            'Personal anecdotes',
+            'Humorous anecdotes',
+          ],
+        'answer': 'Evidence-based argumentation',
+      },
+      {
+        'type': 'fill',
+        'prompt': 'The whitepaper must anticipate and refute potential ___ from stakeholders.',
+        'answer': 'objections',
+      },
+    ],
 }
 ---
 
@@ -93,3 +131,47 @@ Kết thúc bằng một yêu cầu rõ ràng, cụ thể:
 ## Bài học tiếp theo
 
 Trong **C2-05-review-unit1**, bạn sẽ củng cố từ vựng, ngữ pháp, và kỹ năng viết từ Unit 1.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Viết Whitepaper** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** A whitepaper blends analytical rigor with persuasive rhetoric.
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Viết Whitepaper**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> A whitepaper blends analytical rigor with persuasive rhetoric. Executive summaries distil complex arguments into actionable insights. The target audience dictates tone, depth, and evidentiary standards.
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Chuyển đổi register
+
+Viết lại câu trả lời hai lần: một bản cho đồng đội thân quen và một bản cho khách hàng hoặc stakeholder cấp cao. Giữ nguyên thông điệp nhưng thay đổi độ trực tiếp, lượng bối cảnh và mức giải thích. Chỉ ra một cụm từ bạn đã làm mềm, một chi tiết bạn nói rõ hơn và một giả định bạn đã loại bỏ. Sau đó, viết thêm một cách diễn giải hợp lý khác của bài mẫu và nêu bằng chứng ngữ cảnh cần có để chọn giữa hai cách hiểu.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+- [ ] Mình đã giới hạn mức độ chắc chắn của nhận định và điều chỉnh register theo người nghe.
+
+<!-- learning-loop:end -->

@@ -11,7 +11,7 @@
   'skill': 'review',
   'order': 15,
   'cefr': 'B1',
-  'minutes': 10,
+  'minutes': 11,
   'tags': ['review', 'unit3', 'food', 'conditionals', 'writing', 'vocabulary', 'grammar'],
   'audioScript': "Let's review what we learned in Unit 3.\nYou can now talk about food and cooking.\nYou understand first and second conditionals.\nYou can write reviews and blog posts.\n",
   'listeningEnabled': true,
@@ -49,6 +49,9 @@
         'answer': 'In general / considering everything',
       },
     ],
+  'categoryEn': 'Independent Workplace Communication',
+  'categoryVi': 'Giao tiếp Công việc Độc lập',
+  'prerequisites': ['b1-14-blog-review'],
 }
 ---
 
@@ -116,3 +119,42 @@ You have completed all three units of B1 English! Keep practicing and reviewing 
 ## What to Learn Next
 
 Congratulations on finishing B1 level! Continue to more advanced lessons in B2 to expand your English skills.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to combine the unit language to complete a realistic task about review unit 3.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **review unit 3** in this situation?
+>
+> **You:** Let's review what we learned in Unit 3.
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Complete one integrated response for a colleague or classmate using language from at least three lessons in this unit.
+
+### Model response
+
+> Let's review what we learned in Unit 3. You can now talk about food and cooking. You understand first and second conditionals. You can write reviews and blog posts.
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+
+<!-- learning-loop:end -->

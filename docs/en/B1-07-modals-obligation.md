@@ -11,7 +11,7 @@
   'skill': 'grammar',
   'order': 7,
   'cefr': 'B1',
-  'minutes': 5,
+  'minutes': 11,
   'tags': ['modals', 'obligation', 'advice', 'must', 'should', 'grammar'],
   'audioScript': "You must submit the report by Friday.\nYou should take a break — you've been working all day.\nI had to reschedule the meeting because of the holiday.\n",
   'listeningEnabled': true,
@@ -36,6 +36,9 @@
         'answer': 'had to',
       },
     ],
+  'categoryEn': 'Independent Workplace Communication',
+  'categoryVi': 'Giao tiếp Công việc Độc lập',
+  'prerequisites': ['b1-06-work-routines'],
 }
 ---
 
@@ -118,3 +121,42 @@ Answer the three questions in the quiz section to finish this lesson.
 ## What to Learn Next
 
 In the next lesson **B1-08-lifestyle-article**, you will read a magazine article about healthy lifestyle habits.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to choose an appropriate structure and apply it accurately when discussing modals of obligation & advice.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **modals of obligation & advice** in this situation?
+>
+> **You:** You must submit the report by Friday.
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Write four connected sentences for a colleague or classmate. Use the target structure twice, then revise one sentence to change its tone or emphasis.
+
+### Model response
+
+> You must submit the report by Friday. You should take a break — you've been working all day. I had to reschedule the meeting because of the holiday.
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+
+<!-- learning-loop:end -->

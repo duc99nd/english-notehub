@@ -11,31 +11,34 @@
   'skill': 'grammar',
   'order': 7,
   'cefr': 'B1',
-  'minutes': 5,
+  'minutes': 11,
   'tags': ['modals', 'obligation', 'advice', 'must', 'should', 'grammar'],
-  'audioScript': "Bạn phải nộp báo cáo trước thứ Sáu.\nBạn nên nghỉ giải lao — bạn đã làm việc cả ngày rồi.\nTôi đã phải thay đổi lịch họp vì ngày nghỉ.\n",
+  'audioScript': "You must submit the report by Friday.\nYou should take a break — you've been working all day.\nI had to reschedule the meeting because of the holiday.\n",
   'listeningEnabled': true,
   'flashcardCount': 8,
   'quiz':
     [
       {
         'type': 'choice',
-        'prompt': 'Động từ trợ giúp nào dùng cho nghĩa vụ mạnh từ quy tắc bên ngoài?',
+        'prompt': 'Which modal is used for strong obligation from an external rule?',
         'options': ['should', 'must', 'might'],
         'answer': 'must',
       },
       {
         'type': 'fill',
-        'prompt': 'Bạn ___ đi khám bác sĩ — bạn trông mệt thật đấy.',
+        'prompt': 'You ___ see a doctor — you look really tired.',
         'answer': 'should',
       },
       {
         'type': 'choice',
-        'prompt': 'Dạng quá khứ của "have to" là gì?',
+        'prompt': 'What is the past form of "have to"?',
         'options': ['must', 'had to', 'should have'],
         'answer': 'had to',
       },
     ],
+  'categoryEn': 'Independent Workplace Communication',
+  'categoryVi': 'Giao tiếp Công việc Độc lập',
+  'prerequisites': ['b1-06-work-routines'],
 }
 ---
 
@@ -118,3 +121,42 @@ Trả lời ba câu hỏi trong phần quiz để hoàn thành bài học này.
 ## Bài học tiếp theo
 
 Ở bài **B1-08-lifestyle-article**, bạn sẽ đọc một bài báo tạp chí về thói quen lối sống lành mạnh.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Động từ Trợ giúp Chỉ Nghĩa vụ & Lời khuyên** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** You must submit the report by Friday.
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Động từ Trợ giúp Chỉ Nghĩa vụ & Lời khuyên**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> You must submit the report by Friday. You should take a break — you've been working all day. I had to reschedule the meeting because of the holiday.
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+
+<!-- learning-loop:end -->

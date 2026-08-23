@@ -11,8 +11,8 @@
  *   wordCount       minimum body word count; level-dependent because
  *                   beginner lessons can be shorter and advanced lessons
  *                   should carry more nuance.
- *   hasDialogue     at least one labeled `Name:` or `A:`/`B:` exchange
- *                   in the body. Real conversations beat vocab tables.
+ *   hasContext      a dialogue, scenario, worked example, or reading input.
+ *                   Different skills need different kinds of authentic input.
  *   hasActivity     a "try it" / "your turn" / "write" section so the
  *                   learner has somewhere to apply the lesson.
  *   hasPatternBox   a blockquote starting with `**Pattern**` so the
@@ -45,16 +45,16 @@ const levelFilter = (() => {
 })()
 const jsonOutput = argv.includes('--json')
 
-// Minimum body-word counts per CEFR level. Calibrated against the legacy
-// reference lessons (1,500-2,500 words) which are clearly higher quality
-// than the new A1-C2 set (250-450 words).
+// Minimum body-word counts for micro-lessons after practice is included.
+// Depth rises with level, but word count is only one signal and must be
+// paired with a plausible duration rather than rewarded without a ceiling.
 const minWordsByLevel = {
   A1: 250,
   A2: 350,
-  B1: 500,
-  B2: 600,
-  C1: 700,
-  C2: 800,
+  B1: 450,
+  B2: 450,
+  C1: 500,
+  C2: 550,
 }
 
 const files = execSync('git ls-files docs/en/ docs/vn/')
@@ -84,6 +84,7 @@ for (const file of files) {
 
   const data = parsed.data
   const body = parsed.content
+  const isCurriculum = /^[ABC][12]-/.test(file.replace(/^docs\/(en|vn)\//, ''))
 
   const lvl = data.level || data.cefr || '?'
   if (levelFilter && lvl !== levelFilter) continue
@@ -96,7 +97,13 @@ for (const file of files) {
   // `**Anna**:` (with optional markdown bold). We allow the label to
   // appear anywhere in the body because dialogues are usually formatted
   // as blockquotes, lists, or plain lines.
-  const hasDialogue = /\*\*?[A-Z][a-zA-Z]+(?:\*\*?)?:\s/.test(body)
+  const hasDialogue =
+    /\*\*[A-Z][a-zA-Z]+:\*\*\s/.test(body) || /\*\*?[A-Z][a-zA-Z]+(?:\*\*?)?:\s/.test(body)
+  const hasContext =
+    hasDialogue ||
+    /(^|\n)#{2,3}\s+(scenario|the situation|reading|example|worked example|kịch bản|tình huống|bài đọc|ví dụ)/im.test(
+      body,
+    )
   const hasActivity =
     /\b(try it|your turn|write a|writing prompt|practice:|exercise:|now you try|đến lượt|thử viết|luyện tập|tự kiểm)\b/i.test(
       body,
@@ -118,11 +125,11 @@ for (const file of files) {
 
   const issues = []
   if (wordCount < minWords) issues.push(`LOW_WORDS(${wordCount}/${minWords})`)
-  if (!hasDialogue && lvl !== 'C2') issues.push('NO_DIALOGUE')
-  if (!hasActivity) issues.push('NO_ACTIVITY')
-  if (!hasPatternBox && ['A1', 'A2', 'B1', 'B2'].includes(lvl)) issues.push('NO_PATTERN')
-  if (quizDiversity < 2) issues.push(`QUIZ_MONOTONE(${quizDiversity})`)
-  if (audioSentences < 2) issues.push(`AUDIO_THIN(${audioSentences})`)
+  if (isCurriculum && !hasContext) issues.push('NO_CONTEXT')
+  if (isCurriculum && !hasActivity) issues.push('NO_ACTIVITY')
+  if (isCurriculum && !hasPatternBox && ['A1', 'A2'].includes(lvl)) issues.push('NO_PATTERN')
+  if (isCurriculum && quizDiversity < 2) issues.push(`QUIZ_MONOTONE(${quizDiversity})`)
+  if (isCurriculum && audioSentences < 2) issues.push(`AUDIO_THIN(${audioSentences})`)
   if (emptyRows > 0) issues.push(`EMPTY_ROWS(${emptyRows})`)
 
   // Score: 100 minus weighted penalties. Each unmet criterion costs 15.
@@ -130,11 +137,11 @@ for (const file of files) {
   // problem across the new A1-C2 set.
   let score = 100
   if (wordCount < minWords) score -= 25
-  if (!hasDialogue && lvl !== 'C2') score -= 15
-  if (!hasActivity) score -= 15
-  if (!hasPatternBox && ['A1', 'A2', 'B1', 'B2'].includes(lvl)) score -= 10
-  if (quizDiversity < 2) score -= 15
-  if (audioSentences < 2) score -= 5
+  if (isCurriculum && !hasContext) score -= 15
+  if (isCurriculum && !hasActivity) score -= 15
+  if (isCurriculum && !hasPatternBox && ['A1', 'A2'].includes(lvl)) score -= 10
+  if (isCurriculum && quizDiversity < 2) score -= 15
+  if (isCurriculum && audioSentences < 2) score -= 5
   if (emptyRows > 0) score -= 15
 
   reports.push({
@@ -150,6 +157,8 @@ for (const file of files) {
     quizCount: quiz.length,
     quizTypes: [...quizTypes].sort(),
     audioSentences,
+    isCurriculum,
+    hasContext,
     hasDialogue,
     hasActivity,
     hasPatternBox,

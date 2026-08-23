@@ -11,7 +11,7 @@
   'skill': 'grammar',
   'order': 13,
   'cefr': 'A1',
-  'minutes': 8,
+  'minutes': 18,
   'tags': ['can', 'cant', 'ability', 'permission', 'modal', 'grammar'],
   'audioScript': "I can swim very well. Can you swim?\nShe can't speak French, but she can speak English.\nExcuse me, can I sit here?\nCan you help me, please?\n",
   'listeningEnabled': true,
@@ -20,24 +20,27 @@
     [
       {
         'type': 'choice',
-        'prompt': 'Câu nào đúng?',
+        'prompt': 'Which sentence is correct?',
         'options': ['I can to swim.', 'I can swimming.', 'I can swim.', 'I can swim to.'],
         'answer': 'I can swim.',
       },
       {
         'type': 'choice',
-        'prompt': "Phủ định của 'I can swim' là gì?",
+        'prompt': "What is the negative of 'I can swim'?",
         'options': ['I can not to swim.', "I don't can swim.", "I can't swim.", 'I no can swim.'],
         'answer': "I can't swim.",
       },
       {
         'type': 'choice',
-        'prompt': "Một người bạn hỏi: 'Can you play the guitar?' Bạn không chơi. Bạn nói gì?",
+        'prompt': "A friend asks: 'Can you play the guitar?' You don't play. What do you say?",
         'options': ['Yes, I can.', "No, I can't.", "Yes, I can't.", 'I can.'],
         'answer': "No, I can't.",
       },
       { 'type': 'fill', 'prompt': 'Excuse me, ___ I open the window? (xin phép)', 'answer': 'can' },
     ],
+  'categoryEn': 'Foundation English',
+  'categoryVi': 'Tiếng Anh Nền tảng',
+  'prerequisites': ['a1-12-directions'],
 }
 ---
 
@@ -173,7 +176,7 @@ Lưu ý nhịp điệu: mỗi "can / can't" trả lời trực tiếp câu hỏi
 
 Điền vào chỗ trống, sau đó đọc to.
 
-> My name is ****\_\_****. I can ****\_\_**** very well, but I can't ****\_\_****. I can also ****\_\_****. Can you ****\_\_****?
+> My name is \***\*\_\_\*\***. I can \***\*\_\_\*\*** very well, but I can't \***\*\_\_\*\***. I can also \***\*\_\_\*\***. Can you \***\*\_\_\*\***?
 
 **Hỏi một người bạn cùng câu hỏi:**
 
@@ -210,3 +213,42 @@ Nhấn play, sau đó lặp lại từng dòng. Tạm dừng sau mỗi câu.
 ## Bài học tiếp theo
 
 Ở bài **A1-14-describing-people**, bạn sẽ học từ vựng để miêu tả con người — chiều cao, tóc, mắt, tính cách — để có thể nói về bạn bè, gia đình và đồng nghiệp bằng tiếng Anh.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Can và Can't** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** I can swim very well. Can you swim?
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Can và Can't**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> I can swim very well. Can you swim? She can't speak French, but she can speak English. Excuse me, can I sit here? Can you help me, please?
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+
+<!-- learning-loop:end -->

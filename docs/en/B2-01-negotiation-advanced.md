@@ -11,7 +11,7 @@
   'skill': 'vocab',
   'order': 1,
   'cefr': 'B2',
-  'minutes': 5,
+  'minutes': 11,
   'tags': ['negotiation', 'workplace', 'advanced', 'professional'],
   'audioScript': "Let me run this proposal by you before the meeting.\nWe need to find some middle ground on the timeline.\nIf we circle back next week, we can finalize the terms.\n",
   'listeningEnabled': true,
@@ -36,6 +36,9 @@
         'answer': 'circle back',
       },
     ],
+  'categoryEn': 'Technical Leadership Communication',
+  'categoryVi': 'Giao tiếp Dẫn dắt Kỹ thuật',
+  'prerequisites': ['b1-15-review-unit3'],
 }
 ---
 
@@ -90,3 +93,46 @@ Match each phrase to its meaning in the quiz section.
 ## What to learn next
 
 In the next lesson **B2-02-conflict-resolution**, you will learn grammar patterns for resolving workplace conflicts professionally.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to select and use useful language for advanced negotiation strategies in a short, realistic exchange.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **advanced negotiation strategies** in this situation?
+>
+> **You:** Let me run this proposal by you before the meeting.
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Create a four-line exchange with a colleague or classmate. Use at least three target expressions from **Advanced Negotiation Strategies** and add one follow-up question.
+
+### Model response
+
+> Let me run this proposal by you before the meeting. We need to find some middle ground on the timeline. If we circle back next week, we can finalize the terms.
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Register switch
+
+Rewrite your response twice: first for a trusted teammate, then for a client or senior stakeholder. Keep the underlying message the same while changing directness, context, and the amount of explanation. Identify one phrase you softened, one detail you made explicit, and one assumption you removed.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+
+<!-- learning-loop:end -->

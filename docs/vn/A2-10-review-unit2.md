@@ -13,14 +13,14 @@
   'cefr': 'A2',
   'minutes': 10,
   'tags': ['review', 'unit2', 'grammar', 'vocabulary'],
-  'audioScript': "Hãy ôn tập Unit 2.\nBạn đã học về từ vựng email.\nBạn đã thực hành các cụm từ gọi điện.\nBạn đã học về thì tương lai.\nBạn đã học should và must.\n",
+  'audioScript': "Let's review Unit 2.\nYou learned about email vocabulary.\nYou practiced phone call phrases.\nYou studied future tenses.\nYou learned should and must.\n",
   'listeningEnabled': true,
   'flashcardCount': 12,
   'quiz':
     [
       {
         'type': 'choice',
-        'prompt': 'Làm thế nào để bắt đầu một email trang trọng?',
+        'prompt': 'How do you start a formal email?',
         'options': ['Hey buddy!', 'Dear Sir or Madam,', "What's up?"],
         'answer': 'Dear Sir or Madam,',
       },
@@ -31,7 +31,7 @@
       },
       {
         'type': 'choice',
-        'prompt': 'Câu nào là ví dụ của must (nghĩa vụ)?',
+        'prompt': 'Which sentence is an example of must (obligation)?',
         'options':
           ['You should eat vegetables.', 'You must wear a helmet.', 'You will come tomorrow.'],
         'answer': 'You must wear a helmet.',
@@ -39,11 +39,14 @@
       { 'type': 'fill', 'prompt': 'Can I speak ___ Mr. Smith, please?', 'answer': 'to' },
       {
         'type': 'choice',
-        'prompt': 'Cụm từ nào kết thúc một email trang trọng?',
+        'prompt': 'Which phrase ends a formal email?',
         'options': ['Talk soon!', 'Best regards,', 'Cheers mate!'],
         'answer': 'Best regards,',
       },
     ],
+  'categoryEn': 'Everyday Workplace English',
+  'categoryVi': 'Tiếng Anh Công việc Hằng ngày',
+  'prerequisites': ['a2-09-should-must'],
 }
 ---
 
@@ -89,3 +92,42 @@ Hãy làm bài quiz bên dưới để kiểm tra kiến thức của bạn. Ch�
 ## Bài học tiếp theo
 
 Tiếp tục với **A2-11-small-talk** để học cách tán gẫu bằng tiếng Anh.
+
+<!-- learning-loop:start -->
+
+## Kết quả học tập
+
+Sau bài này, bạn có thể vận dụng ngôn ngữ của chủ đề **Ôn tập Unit 2** vào một tình huống thực tế thay vì chỉ nhận biết từ vựng.
+
+## Phòng luyện tập
+
+### Nhận diện cách diễn đạt
+
+Đọc tình huống, sau đó nghe bài mẫu một lần để nắm ý và một lần để chú ý cách diễn đạt.
+
+> **Colleague:** How would you handle this situation?
+>
+> **You:** Let's review Unit 2.
+
+Đừng chỉ chép lại câu chữ. Hãy nhận diện ba chức năng của câu trả lời: nêu ý chính, cung cấp đủ bối cảnh và đưa ra bước tiếp theo.
+
+> **Mẫu câu**: ý chính rõ ràng + chi tiết hoặc lý do cụ thể + bước tiếp theo phù hợp
+
+### Đến lượt bạn
+
+Tạo một câu trả lời mới cho chủ đề **Ôn tập Unit 2**. Dùng ít nhất hai cụm từ trong bài, thêm một chi tiết cụ thể và kết thúc bằng câu hỏi hoặc bước tiếp theo phù hợp.
+
+### Bài mẫu
+
+> Let's review Unit 2. You learned about email vocabulary. You practiced phone call phrases. You studied future tenses. You learned should and must.
+
+Đây là một phương án tham khảo, không phải đoạn bắt buộc phải học thuộc. So sánh mục đích, độ chi tiết và tông giọng với câu trả lời của bạn rồi sửa lại một lần.
+
+### Tự kiểm tra
+
+- [ ] Mình hoàn thành nhiệm vụ mà không dịch nguyên câu tiếng Việt từng từ một.
+- [ ] Mình dùng ít nhất hai cách diễn đạt hữu ích trong bài.
+- [ ] Người nghe có thể nhận ra ý chính ngay.
+- [ ] Mình đưa ra chi tiết, lý do hoặc bước tiếp theo cụ thể.
+
+<!-- learning-loop:end -->

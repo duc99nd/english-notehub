@@ -11,7 +11,7 @@
   'skill': 'grammar',
   'order': 7,
   'cefr': 'A2',
-  'minutes': 5,
+  'minutes': 10,
   'tags': ['phone-call', 'speaking', 'grammar', 'communication'],
   'audioScript': "Hello, this is Anna speaking.\nCan I speak to Mr. Smith, please?\nI'm calling about our meeting tomorrow.\n",
   'listeningEnabled': true,
@@ -32,6 +32,9 @@
         'answer': 'Could you take a message, please?',
       },
     ],
+  'categoryEn': 'Everyday Workplace English',
+  'categoryVi': 'Tiếng Anh Công việc Hằng ngày',
+  'prerequisites': ['a2-06-email-basics'],
 }
 ---
 
@@ -91,3 +94,42 @@ Answer the three questions in the quiz section to finish this lesson.
 ## What to learn next
 
 In the next lesson **A2-08-future-plans**, you will learn how to talk about future plans.
+
+<!-- learning-loop:start -->
+
+## Learning outcome
+
+By the end of this lesson, you will be able to choose an appropriate structure and apply it accurately when discussing phone call.
+
+## Practice lab
+
+### Notice the language
+
+Read the situation, then listen to the model once for meaning and once for phrasing.
+
+> **Colleague:** How would you handle **phone call** in this situation?
+>
+> **You:** Hello, this is Anna speaking.
+
+Notice what the response does before you copy its wording: it gives the listener a clear point, enough context, and a usable next step.
+
+> **Pattern**: clear point + concrete detail or reason + appropriate next step
+
+### Your turn
+
+Write four connected sentences for a colleague or classmate. Use the target structure twice, then revise one sentence to change its tone or emphasis.
+
+### Model response
+
+> Hello, this is Anna speaking. Can I speak to Mr. Smith, please? I'm calling about our meeting tomorrow.
+
+The model is one possible response, not a script you must memorize. Compare its purpose, level of detail, and tone with your version, then revise once.
+
+### Self-check
+
+- [ ] I completed the task without translating a full Vietnamese sentence word for word.
+- [ ] I used at least two useful expressions from the lesson.
+- [ ] My main point is easy to identify.
+- [ ] I included a concrete detail, reason, or next step.
+
+<!-- learning-loop:end -->
