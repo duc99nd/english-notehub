@@ -1,68 +1,43 @@
 ---
 {
-  "id": "a1-13-can-cant",
-  "slug": "a1-13-can-cant",
-  "titleEn": "Can and Can't",
-  "titleVi": "Can và Can't",
-  "subtitleEn": "Talk about abilities, ask permission, and make polite requests",
-  "subtitleVi": "Nói về năng lực, xin phép và đưa ra yêu cầu lịch sự",
-  "level": "A1",
-  "unit": 3,
-  "skill": "grammar",
-  "order": 13,
-  "cefr": "A1",
-  "minutes": 8,
-  "tags": [
-    "can",
-    "cant",
-    "ability",
-    "permission",
-    "modal",
-    "grammar"
-  ],
-  "audioScript": "I can swim very well. Can you swim?\nShe can't speak French, but she can speak English.\nExcuse me, can I sit here?\nCan you help me, please?\n",
-  "listeningEnabled": true,
-  "flashcardCount": 8,
-  "quiz": [
-    {
-      "type": "choice",
-      "prompt": "Which sentence is correct?",
-      "options": [
-        "I can to swim.",
-        "I can swimming.",
-        "I can swim.",
-        "I can swim to."
-      ],
-      "answer": "I can swim."
-    },
-    {
-      "type": "choice",
-      "prompt": "What is the negative of 'I can swim'?",
-      "options": [
-        "I can not to swim.",
-        "I don't can swim.",
-        "I can't swim.",
-        "I no can swim."
-      ],
-      "answer": "I can't swim."
-    },
-    {
-      "type": "choice",
-      "prompt": "A friend asks: 'Can you play the guitar?' You don't play. What do you say?",
-      "options": [
-        "Yes, I can.",
-        "No, I can't.",
-        "Yes, I can't.",
-        "I can."
-      ],
-      "answer": "No, I can't."
-    },
-    {
-      "type": "fill",
-      "prompt": "Excuse me, ___ I open the window? (xin phép)",
-      "answer": "can"
-    }
-  ]
+  'id': 'a1-13-can-cant',
+  'slug': 'a1-13-can-cant',
+  'titleEn': "Can and Can't",
+  'titleVi': "Can và Can't",
+  'subtitleEn': 'Talk about abilities, ask permission, and make polite requests',
+  'subtitleVi': 'Nói về năng lực, xin phép và đưa ra yêu cầu lịch sự',
+  'level': 'A1',
+  'unit': 3,
+  'skill': 'grammar',
+  'order': 13,
+  'cefr': 'A1',
+  'minutes': 8,
+  'tags': ['can', 'cant', 'ability', 'permission', 'modal', 'grammar'],
+  'audioScript': "I can swim very well. Can you swim?\nShe can't speak French, but she can speak English.\nExcuse me, can I sit here?\nCan you help me, please?\n",
+  'listeningEnabled': true,
+  'flashcardCount': 8,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': 'Which sentence is correct?',
+        'options': ['I can to swim.', 'I can swimming.', 'I can swim.', 'I can swim to.'],
+        'answer': 'I can swim.',
+      },
+      {
+        'type': 'choice',
+        'prompt': "What is the negative of 'I can swim'?",
+        'options': ['I can not to swim.', "I don't can swim.", "I can't swim.", 'I no can swim.'],
+        'answer': "I can't swim.",
+      },
+      {
+        'type': 'choice',
+        'prompt': "A friend asks: 'Can you play the guitar?' You don't play. What do you say?",
+        'options': ['Yes, I can.', "No, I can't.", "Yes, I can't.", 'I can.'],
+        'answer': "No, I can't.",
+      },
+      { 'type': 'fill', 'prompt': 'Excuse me, ___ I open the window? (xin phép)', 'answer': 'can' },
+    ],
 }
 ---
 
@@ -86,11 +61,11 @@ The negative **can't** works for all three:
 
 ## Three forms
 
-| Use | Pattern | Example |
-| --- | --- | --- |
-| Positive | `S + can + verb` | I can swim. |
+| Use      | Pattern            | Example       |
+| -------- | ------------------ | ------------- |
+| Positive | `S + can + verb`   | I can swim.   |
 | Negative | `S + can't + verb` | I can't swim. |
-| Question | `Can + S + verb?` | Can you swim? |
+| Question | `Can + S + verb?`  | Can you swim? |
 
 > **Note**: There is **no "s"** on "can", even with he/she/it. "She **cans** swim" is wrong. "Can" is the same for every subject.
 
@@ -98,13 +73,13 @@ The negative **can't** works for all three:
 
 > **Pattern**: `Subject + can / can't + verb` (for skills you have or don't have right now)
 
-| English | Vietnamese |
-| --- | --- |
-| I can speak English. | Tôi có thể nói tiếng Anh. |
-| She can play the piano. | Cô ấy có thể chơi piano. |
-| He can't drive a car. | Anh ấy không biết lái xe. |
-| They can cook very well. | Họ nấu ăn rất ngon. |
-| We can't come today. | Hôm nay chúng tôi không đến được. |
+| English                  | Vietnamese                        |
+| ------------------------ | --------------------------------- |
+| I can speak English.     | Tôi có thể nói tiếng Anh.         |
+| She can play the piano.  | Cô ấy có thể chơi piano.          |
+| He can't drive a car.    | Anh ấy không biết lái xe.         |
+| They can cook very well. | Họ nấu ăn rất ngon.               |
+| We can't come today.     | Hôm nay chúng tôi không đến được. |
 
 Two important points:
 
@@ -115,12 +90,12 @@ Two important points:
 
 > **Pattern**: `Can I + verb?` (= Is it OK for me to ...?)
 
-| English | Use |
-| --- | --- |
-| Can I sit here? | Asking about a seat |
-| Can I open the window? | Asking before doing something |
-| Can I use your phone? | Asking to borrow |
-| Can I leave early today? | Asking your boss |
+| English                  | Use                           |
+| ------------------------ | ----------------------------- |
+| Can I sit here?          | Asking about a seat           |
+| Can I open the window?   | Asking before doing something |
+| Can I use your phone?    | Asking to borrow              |
+| Can I leave early today? | Asking your boss              |
 
 Soft alternatives (more polite):
 
@@ -132,22 +107,22 @@ Soft alternatives (more polite):
 
 > **Pattern**: `Can you + verb?` (= Would you ... please?)
 
-| English | Use |
-| --- | --- |
-| Can you help me? | Asking for help |
-| Can you pass the salt? | At the dinner table |
-| Can you say that again? | You didn't hear |
-| Can you wait a moment? | Asking someone to wait |
+| English                 | Use                    |
+| ----------------------- | ---------------------- |
+| Can you help me?        | Asking for help        |
+| Can you pass the salt?  | At the dinner table    |
+| Can you say that again? | You didn't hear        |
+| Can you wait a moment?  | Asking someone to wait |
 
 > **Tip**: Add "**please**" or "**excuse me**" to make requests softer. "Can you help me, **please**?" sounds much better than just "Can you help me?"
 
 ## Short answers
 
-| Question | Yes | No |
-| --- | --- | --- |
-| Can you swim? | Yes, I can. | No, I can't. |
-| Can she cook? | Yes, she can. | No, she can't. |
-| Can he drive? | Yes, he can. | No, he can't. |
+| Question       | Yes            | No              |
+| -------------- | -------------- | --------------- |
+| Can you swim?  | Yes, I can.    | No, I can't.    |
+| Can she cook?  | Yes, she can.  | No, she can't.  |
+| Can he drive?  | Yes, he can.   | No, he can't.   |
 | Can they come? | Yes, they can. | No, they can't. |
 
 > **Pattern**: Don't say "**Yes, I can't**" — that's a contradiction. The negative answer is just "No, I can't."
@@ -188,7 +163,7 @@ Notice the rhythm: every "can / can't" answers the question directly. There are 
 
 Fill in the blanks, then read out loud.
 
-> My name is __________. I can __________ very well, but I can't __________. I can also __________. Can you __________?
+> My name is ****\_\_****. I can ****\_\_**** very well, but I can't ****\_\_****. I can also ****\_\_****. Can you ****\_\_****?
 
 **Now ask a partner the same questions:**
 

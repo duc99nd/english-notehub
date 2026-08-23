@@ -1,84 +1,65 @@
 ---
 {
-  "id": "c2-10-review-unit2",
-  "slug": "c2-10-review-unit2",
-  "titleEn": "Review Unit 2",
-  "titleVi": "Ôn tập Unit 2",
-  "subtitleEn": "Consolidate your mastery of conference discourse, panel grammar, diplomacy, and legal writing",
-  "subtitleVi": "Củng cố khả năng làm chủ diễn ngôn hội nghị, ngữ pháp bàn tròn, ngoại giao và viết pháp lý",
-  "level": "C2",
-  "unit": 2,
-  "skill": "review",
-  "order": 10,
-  "cefr": "C2",
-  "minutes": 10,
-  "tags": [
-    "review",
-    "conference",
-    "panel",
-    "diplomacy",
-    "legal",
-    "consolidation"
-  ],
-  "audioScript": "Unit 2 advanced your professional communication skills across speaking, reading, and writing domains.\nConference discourse, panel grammar, diplomatic register, and legal precision represent pinnacle formal English.\nMastery of these registers distinguishes C2 speakers in international professional contexts.\n",
-  "listeningEnabled": true,
-  "flashcardCount": 10,
-  "quiz": [
-    {
-      "type": "choice",
-      "prompt": "Which phrase signals a speaker is presenting their central argument?",
-      "options": [
-        "Moving on to...",
-        "I shall argue that...",
-        "In conclusion...",
-        "To sum up..."
-      ],
-      "answer": "I shall argue that..."
-    },
-    {
-      "type": "choice",
-      "prompt": "In legal contracts, which word creates a mandatory obligation?",
-      "options": [
-        "May",
-        "Might",
-        "Should",
-        "Shall"
-      ],
-      "answer": "Shall"
-    },
-    {
-      "type": "choice",
-      "prompt": "What does 'taking note of' imply in diplomatic language?",
-      "options": [
-        "Strong agreement",
-        "Full commitment",
-        "Polite acknowledgment without commitment",
-        "Rejection"
-      ],
-      "answer": "Polite acknowledgment without commitment"
-    },
-    {
-      "type": "choice",
-      "prompt": "Which grammatical structure is used for softened disagreement in panels?",
-      "options": [
-        "First conditional",
-        "Second conditional",
-        "Third conditional",
-        "Zero conditional"
-      ],
-      "answer": "Second conditional"
-    },
-    {
-      "type": "fill",
-      "prompt": "The subjunctive is used after verbs of suggestion, demand, and ___.",
-      "answer": "recommendation"
-    },
-    {
-      "type": "fill",
-      "prompt": "In treaties, '___' means applying with necessary changes.",
-      "answer": "mutatis mutandis"
-    }
-  ]
+  'id': 'c2-10-review-unit2',
+  'slug': 'c2-10-review-unit2',
+  'titleEn': 'Review Unit 2',
+  'titleVi': 'Ôn tập Unit 2',
+  'subtitleEn': 'Consolidate your mastery of conference discourse, panel grammar, diplomacy, and legal writing',
+  'subtitleVi': 'Củng cố khả năng làm chủ diễn ngôn hội nghị, ngữ pháp bàn tròn, ngoại giao và viết pháp lý',
+  'level': 'C2',
+  'unit': 2,
+  'skill': 'review',
+  'order': 10,
+  'cefr': 'C2',
+  'minutes': 10,
+  'tags': ['review', 'conference', 'panel', 'diplomacy', 'legal', 'consolidation'],
+  'audioScript': "Unit 2 advanced your professional communication skills across speaking, reading, and writing domains.\nConference discourse, panel grammar, diplomatic register, and legal precision represent pinnacle formal English.\nMastery of these registers distinguishes C2 speakers in international professional contexts.\n",
+  'listeningEnabled': true,
+  'flashcardCount': 10,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': 'Which phrase signals a speaker is presenting their central argument?',
+        'options': ['Moving on to...', 'I shall argue that...', 'In conclusion...', 'To sum up...'],
+        'answer': 'I shall argue that...',
+      },
+      {
+        'type': 'choice',
+        'prompt': 'In legal contracts, which word creates a mandatory obligation?',
+        'options': ['May', 'Might', 'Should', 'Shall'],
+        'answer': 'Shall',
+      },
+      {
+        'type': 'choice',
+        'prompt': "What does 'taking note of' imply in diplomatic language?",
+        'options':
+          [
+            'Strong agreement',
+            'Full commitment',
+            'Polite acknowledgment without commitment',
+            'Rejection',
+          ],
+        'answer': 'Polite acknowledgment without commitment',
+      },
+      {
+        'type': 'choice',
+        'prompt': 'Which grammatical structure is used for softened disagreement in panels?',
+        'options':
+          ['First conditional', 'Second conditional', 'Third conditional', 'Zero conditional'],
+        'answer': 'Second conditional',
+      },
+      {
+        'type': 'fill',
+        'prompt': 'The subjunctive is used after verbs of suggestion, demand, and ___.',
+        'answer': 'recommendation',
+      },
+      {
+        'type': 'fill',
+        'prompt': "In treaties, '___' means applying with necessary changes.",
+        'answer': 'mutatis mutandis',
+      },
+    ],
 }
 ---
 

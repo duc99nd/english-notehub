@@ -1,71 +1,53 @@
 ---
 {
-  "id": "b1-05-review-unit1",
-  "slug": "b1-05-review-unit1",
-  "titleEn": "Review Unit 1",
-  "titleVi": "Ôn tập Unit 1",
-  "subtitleEn": "Review travel vocabulary, past tenses, reading, and writing",
-  "subtitleVi": "Ôn tập từ vựng du lịch, các thì quá khứ, đọc và viết",
-  "level": "B1",
-  "unit": 1,
-  "skill": "review",
-  "order": 5,
-  "cefr": "B1",
-  "minutes": 10,
-  "tags": [
-    "review",
-    "unit1",
-    "travel",
-    "past-tenses",
-    "writing",
-    "vocabulary",
-    "grammar"
-  ],
-  "audioScript": "Let's review what we learned in Unit 1.\nYou can now talk about travel and transport.\nYou can describe past events using different tenses.\nYou can read and write travel blogs and emails.\n",
-  "listeningEnabled": true,
-  "flashcardCount": 16,
-  "quiz": [
-    {
-      "type": "choice",
-      "prompt": "What is the Past Continuous form of \"walk\" for \"she\"?",
-      "options": [
-        "She walked",
-        "She was walking",
-        "She is walking"
-      ],
-      "answer": "She was walking"
-    },
-    {
-      "type": "fill",
-      "prompt": "I ___ (see) the movie before you recommended it. (Past Perfect)",
-      "answer": "had seen"
-    },
-    {
-      "type": "choice",
-      "prompt": "Which is the correct way to say goodbye to a friend in an email?",
-      "options": [
-        "Yours faithfully,",
-        "To whom it may concern,",
-        "Love,"
-      ],
-      "answer": "Love,"
-    },
-    {
-      "type": "fill",
-      "prompt": "My flight ___ at 8 PM tomorrow.",
-      "answer": "departs"
-    },
-    {
-      "type": "choice",
-      "prompt": "Which sentence correctly uses past tenses?",
-      "options": [
-        "I was walking when I saw her.",
-        "I walking when I saw her.",
-        "I was walk when I saw her."
-      ],
-      "answer": "I was walking when I saw her."
-    }
-  ]
+  'id': 'b1-05-review-unit1',
+  'slug': 'b1-05-review-unit1',
+  'titleEn': 'Review Unit 1',
+  'titleVi': 'Ôn tập Unit 1',
+  'subtitleEn': 'Review travel vocabulary, past tenses, reading, and writing',
+  'subtitleVi': 'Ôn tập từ vựng du lịch, các thì quá khứ, đọc và viết',
+  'level': 'B1',
+  'unit': 1,
+  'skill': 'review',
+  'order': 5,
+  'cefr': 'B1',
+  'minutes': 10,
+  'tags': ['review', 'unit1', 'travel', 'past-tenses', 'writing', 'vocabulary', 'grammar'],
+  'audioScript': "Let's review what we learned in Unit 1.\nYou can now talk about travel and transport.\nYou can describe past events using different tenses.\nYou can read and write travel blogs and emails.\n",
+  'listeningEnabled': true,
+  'flashcardCount': 16,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': 'What is the Past Continuous form of "walk" for "she"?',
+        'options': ['She walked', 'She was walking', 'She is walking'],
+        'answer': 'She was walking',
+      },
+      {
+        'type': 'fill',
+        'prompt': 'I ___ (see) the movie before you recommended it. (Past Perfect)',
+        'answer': 'had seen',
+      },
+      {
+        'type': 'choice',
+        'prompt': 'Which is the correct way to say goodbye to a friend in an email?',
+        'options': ['Yours faithfully,', 'To whom it may concern,', 'Love,'],
+        'answer': 'Love,',
+      },
+      { 'type': 'fill', 'prompt': 'My flight ___ at 8 PM tomorrow.', 'answer': 'departs' },
+      {
+        'type': 'choice',
+        'prompt': 'Which sentence correctly uses past tenses?',
+        'options':
+          [
+            'I was walking when I saw her.',
+            'I walking when I saw her.',
+            'I was walk when I saw her.',
+          ],
+        'answer': 'I was walking when I saw her.',
+      },
+    ],
 }
 ---
 

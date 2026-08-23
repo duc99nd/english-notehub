@@ -1,24 +1,18 @@
 ---
 {
-  "id": "c2-03-academic-tone",
-  "slug": "c2-03-academic-tone",
-  "titleEn": "Academic Tone & Style",
-  "titleVi": "Giọng điệu & Phong cách học thuật",
-  "subtitleEn": "Master the formal academic register used in journals and dissertations",
-  "subtitleVi": "Làm chủ giọng điệu học thuật trang trọng dùng trong tạp chí và luận văn",
-  "level": "C2",
-  "unit": 1,
-  "skill": "reading",
-  "order": 3,
-  "cefr": "C2",
-  "minutes": 5,
-  "tags": [
-    "academic",
-    "formal",
-    "register",
-    "writing",
-    "style"
-  ]
+  'id': 'c2-03-academic-tone',
+  'slug': 'c2-03-academic-tone',
+  'titleEn': 'Academic Tone & Style',
+  'titleVi': 'Giọng điệu & Phong cách học thuật',
+  'subtitleEn': 'Master the formal academic register used in journals and dissertations',
+  'subtitleVi': 'Làm chủ giọng điệu học thuật trang trọng dùng trong tạp chí và luận văn',
+  'level': 'C2',
+  'unit': 1,
+  'skill': 'reading',
+  'order': 3,
+  'cefr': 'C2',
+  'minutes': 5,
+  'tags': ['academic', 'formal', 'register', 'writing', 'style'],
 }
 ---
 

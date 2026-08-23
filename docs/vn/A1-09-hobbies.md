@@ -1,67 +1,53 @@
 ---
 {
-  "id": "a1-09-hobbies",
-  "slug": "a1-09-hobbies",
-  "titleEn": "Hobbies & Free Time",
-  "titleVi": "Sở thích & Thời gian rảnh",
-  "subtitleEn": "Talk about your hobbies using 'like', 'love', and 'enjoy'",
-  "subtitleVi": "Nói về sở thích bằng 'like', 'love', và 'enjoy'",
-  "level": "A1",
-  "unit": 2,
-  "skill": "writing",
-  "order": 9,
-  "cefr": "A1",
-  "minutes": 7,
-  "tags": [
-    "hobbies",
-    "free-time",
-    "preferences",
-    "writing",
-    "speaking"
-  ],
-  "audioScript": "In my free time, I like to read books.\nSometimes I play soccer with my friends.\nI enjoy listening to music. I also like cooking.\nOn weekends, I often watch movies.\n",
-  "listeningEnabled": true,
-  "flashcardCount": 12,
-  "quiz": [
-    {
-      "type": "choice",
-      "prompt": "Câu nào đúng?",
-      "options": [
-        "I enjoy to read books.",
-        "I enjoy reading books.",
-        "I enjoy read books.",
-        "I enjoying read books."
-      ],
-      "answer": "I enjoy reading books."
-    },
-    {
-      "type": "choice",
-      "prompt": "Động từ nào đi với 'music'?",
-      "options": [
-        "play music",
-        "listen to music",
-        "watch music",
-        "do music"
-      ],
-      "answer": "listen to music"
-    },
-    {
-      "type": "fill",
-      "prompt": "I ___ playing soccer on weekends. (rất thích = love)",
-      "answer": "love"
-    },
-    {
-      "type": "choice",
-      "prompt": "'Cooking' có nghĩa là gì?",
-      "options": [
-        "nấu ăn",
-        "đọc sách",
-        "chơi bóng đá",
-        "nghe nhạc"
-      ],
-      "answer": "nấu ăn"
-    }
-  ]
+  'id': 'a1-09-hobbies',
+  'slug': 'a1-09-hobbies',
+  'titleEn': 'Hobbies & Free Time',
+  'titleVi': 'Sở thích & Thời gian rảnh',
+  'subtitleEn': "Talk about your hobbies using 'like', 'love', and 'enjoy'",
+  'subtitleVi': "Nói về sở thích bằng 'like', 'love', và 'enjoy'",
+  'level': 'A1',
+  'unit': 2,
+  'skill': 'writing',
+  'order': 9,
+  'cefr': 'A1',
+  'minutes': 7,
+  'tags': ['hobbies', 'free-time', 'preferences', 'writing', 'speaking'],
+  'audioScript': "In my free time, I like to read books.\nSometimes I play soccer with my friends.\nI enjoy listening to music. I also like cooking.\nOn weekends, I often watch movies.\n",
+  'listeningEnabled': true,
+  'flashcardCount': 12,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': 'Câu nào đúng?',
+        'options':
+          [
+            'I enjoy to read books.',
+            'I enjoy reading books.',
+            'I enjoy read books.',
+            'I enjoying read books.',
+          ],
+        'answer': 'I enjoy reading books.',
+      },
+      {
+        'type': 'choice',
+        'prompt': "Động từ nào đi với 'music'?",
+        'options': ['play music', 'listen to music', 'watch music', 'do music'],
+        'answer': 'listen to music',
+      },
+      {
+        'type': 'fill',
+        'prompt': 'I ___ playing soccer on weekends. (rất thích = love)',
+        'answer': 'love',
+      },
+      {
+        'type': 'choice',
+        'prompt': "'Cooking' có nghĩa là gì?",
+        'options': ['nấu ăn', 'đọc sách', 'chơi bóng đá', 'nghe nhạc'],
+        'answer': 'nấu ăn',
+      },
+    ],
 }
 ---
 
@@ -73,28 +59,28 @@
 
 ## Sở thích theo nhóm
 
-| Nhóm | Sở thích | Tiếng Việt |
-| --- | --- | --- |
-| Sáng tạo | draw / paint | vẽ |
-| Sáng tạo | write (stories, blogs) | viết |
-| Sáng tạo | play the piano / guitar / violin | chơi piano / guitar / violin |
-| Sáng tạo | take photos | chụp ảnh |
-| Sáng tạo | cook | nấu ăn |
-| Sáng tạo | dance | nhảy |
-| Năng động | play soccer / football | chơi bóng đá |
-| Năng động | play basketball / tennis | chơi bóng rổ / quần vợt |
-| Năng động | swim | bơi |
-| Năng động | run / jog | chạy bộ |
-| Năng động | go to the gym | đi tập gym |
-| Năng động | cycle / bike | đạp xe |
-| Năng động | hike / go hiking | đi bộ đường dài |
-| Yên tĩnh | read (books) | đọc sách |
-| Yên tĩnh | listen to music | nghe nhạc |
-| Yên tĩnh | watch movies | xem phim |
-| Yên tĩnh | play video games | chơi game |
-| Xã hội | hang out with friends | đi chơi với bạn |
-| Xã hội | travel | du lịch |
-| Xã hội | go to the café | đi quán cà phê |
+| Nhóm      | Sở thích                         | Tiếng Việt                   |
+| --------- | -------------------------------- | ---------------------------- |
+| Sáng tạo  | draw / paint                     | vẽ                           |
+| Sáng tạo  | write (stories, blogs)           | viết                         |
+| Sáng tạo  | play the piano / guitar / violin | chơi piano / guitar / violin |
+| Sáng tạo  | take photos                      | chụp ảnh                     |
+| Sáng tạo  | cook                             | nấu ăn                       |
+| Sáng tạo  | dance                            | nhảy                         |
+| Năng động | play soccer / football           | chơi bóng đá                 |
+| Năng động | play basketball / tennis         | chơi bóng rổ / quần vợt      |
+| Năng động | swim                             | bơi                          |
+| Năng động | run / jog                        | chạy bộ                      |
+| Năng động | go to the gym                    | đi tập gym                   |
+| Năng động | cycle / bike                     | đạp xe                       |
+| Năng động | hike / go hiking                 | đi bộ đường dài              |
+| Yên tĩnh  | read (books)                     | đọc sách                     |
+| Yên tĩnh  | listen to music                  | nghe nhạc                    |
+| Yên tĩnh  | watch movies                     | xem phim                     |
+| Yên tĩnh  | play video games                 | chơi game                    |
+| Xã hội    | hang out with friends            | đi chơi với bạn              |
+| Xã hội    | travel                           | du lịch                      |
+| Xã hội    | go to the café                   | đi quán cà phê               |
 
 > **Chọn động từ đúng**: "play" đi với **nhạc cụ và thể thao đồng đội**. "go + to + the + danh từ" đi với **nơi chốn** (go to the gym, go to the café). "do" là động từ chung cho **hoạt động** (do yoga, do exercise).
 
@@ -102,21 +88,21 @@
 
 > **Mẫu**: `play [nhạc cụ]` và `play [thể thao dùng bóng]`
 
-| Tiếng Anh | Vì sao dùng "play" |
-| --- | --- |
-| play the piano / guitar / drums | nhạc cụ |
+| Tiếng Anh                         | Vì sao dùng "play"        |
+| --------------------------------- | ------------------------- |
+| play the piano / guitar / drums   | nhạc cụ                   |
 | play soccer / basketball / tennis | thể thao đồng đội có bóng |
-| play games / video games | hoạt động cạnh tranh |
+| play games / video games          | hoạt động cạnh tranh      |
 
 > **Lỗi thường gặp**: ❌ "I **listen** music." — "listen" cần "**to**". ✅ "I listen **to** music." ❌ "I **play** music." — có thể nhưng nghĩa là "biểu diễn nhạc". Cụm chuẩn là "I **listen to** music".
 
 ## Ba động từ chỉ sở thích: like, love, enjoy
 
-| Động từ | Mức độ | Mẫu | Ví dụ |
-| --- | --- | --- | --- |
-| like | trung tính | `I like to [verb]` hoặc `I like [verb-ing]` | I like to read. |
-| love | mạnh | `I love to [verb]` hoặc `I love [verb-ing]` | I love cooking. |
-| enjoy | trang trọng | `I enjoy [verb-ing]` (không "to") | I enjoy reading. |
+| Động từ | Mức độ      | Mẫu                                         | Ví dụ            |
+| ------- | ----------- | ------------------------------------------- | ---------------- |
+| like    | trung tính  | `I like to [verb]` hoặc `I like [verb-ing]` | I like to read.  |
+| love    | mạnh        | `I love to [verb]` hoặc `I love [verb-ing]` | I love cooking.  |
+| enjoy   | trang trọng | `I enjoy [verb-ing]` (không "to")           | I enjoy reading. |
 
 > **Mẫu**: Với **enjoy**, động từ phải là **-ing**, KHÔNG phải "to + verb". Đây là điều ngược lại với "like" và "love".
 >
@@ -126,14 +112,14 @@
 
 ## Từ chỉ tần suất — bao lâu?
 
-| Từ | Tần suất | Ví dụ |
-| --- | --- | --- |
-| always | 100% | I always drink coffee. |
-| usually | ~80% | I usually read at night. |
-| often | ~60-70% | I often play soccer on weekends. |
-| sometimes | ~30-40% | I sometimes watch movies. |
-| rarely / hardly ever | ~10% | I rarely play games. |
-| never | 0% | I never play tennis. |
+| Từ                   | Tần suất | Ví dụ                            |
+| -------------------- | -------- | -------------------------------- |
+| always               | 100%     | I always drink coffee.           |
+| usually              | ~80%     | I usually read at night.         |
+| often                | ~60-70%  | I often play soccer on weekends. |
+| sometimes            | ~30-40%  | I sometimes watch movies.        |
+| rarely / hardly ever | ~10%     | I rarely play games.             |
+| never                | 0%       | I never play tennis.             |
 
 > **Mẫu**: `tần suất + chủ ngữ + động từ`. "I **often** read." "She **sometimes** cooks."
 
@@ -184,10 +170,10 @@
 
 Điền vào chỗ trống bằng sở thích của bạn.
 
-> In my free time, I like to ___. I do this ___ (bao lâu một lần).
-> I also enjoy ___. Sometimes I ___ with my friends.
-> My favorite hobby is ___ because ___.
-> I don't like ___ because ___.
+> In my free time, I like to **_. I do this _** (bao lâu một lần).
+> I also enjoy **_. Sometimes I _** with my friends.
+> My favorite hobby is **_ because _**.
+> I don't like **_ because _**.
 
 **Tự kiểm tra**:
 

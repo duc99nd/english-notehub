@@ -1,53 +1,42 @@
 ---
 {
-  "id": "a2-12-opinions",
-  "slug": "a2-12-opinions",
-  "titleEn": "Opinions",
-  "titleVi": "Ý kiến",
-  "subtitleEn": "Diễn đạt ý kiến sử dụng I think và I believe",
-  "subtitleVi": "Diễn đạt ý kiến sử dụng I think và I believe",
-  "level": "A2",
-  "unit": 3,
-  "skill": "grammar",
-  "order": 12,
-  "cefr": "A2",
-  "minutes": 5,
-  "tags": [
-    "opinions",
-    "grammar",
-    "speaking",
-    "thinking"
-  ],
-  "audioScript": "Tôi nghĩ đây là một bộ phim hay.\nTheo ý kiến của tôi, chúng ta nên đi sớm.\nTôi tin rằng việc học tiếng Anh rất quan trọng.\n",
-  "listeningEnabled": true,
-  "flashcardCount": 6,
-  "quiz": [
-    {
-      "type": "choice",
-      "prompt": "Cụm từ nào đúng để diễn đạt ý kiến?",
-      "options": [
-        "I am thinking this is good.",
-        "I think this is good.",
-        "I thinked this is good."
-      ],
-      "answer": "I think this is good."
-    },
-    {
-      "type": "fill",
-      "prompt": "In my ___, we should try again. (opinion)",
-      "answer": "opinion"
-    },
-    {
-      "type": "choice",
-      "prompt": "Đâu KHÔNG phải là cụm từ diễn đạt ý kiến?",
-      "options": [
-        "I believe",
-        "I want",
-        "I feel"
-      ],
-      "answer": "I want"
-    }
-  ]
+  'id': 'a2-12-opinions',
+  'slug': 'a2-12-opinions',
+  'titleEn': 'Opinions',
+  'titleVi': 'Ý kiến',
+  'subtitleEn': 'Diễn đạt ý kiến sử dụng I think và I believe',
+  'subtitleVi': 'Diễn đạt ý kiến sử dụng I think và I believe',
+  'level': 'A2',
+  'unit': 3,
+  'skill': 'grammar',
+  'order': 12,
+  'cefr': 'A2',
+  'minutes': 5,
+  'tags': ['opinions', 'grammar', 'speaking', 'thinking'],
+  'audioScript': "Tôi nghĩ đây là một bộ phim hay.\nTheo ý kiến của tôi, chúng ta nên đi sớm.\nTôi tin rằng việc học tiếng Anh rất quan trọng.\n",
+  'listeningEnabled': true,
+  'flashcardCount': 6,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': 'Cụm từ nào đúng để diễn đạt ý kiến?',
+        'options':
+          ['I am thinking this is good.', 'I think this is good.', 'I thinked this is good.'],
+        'answer': 'I think this is good.',
+      },
+      {
+        'type': 'fill',
+        'prompt': 'In my ___, we should try again. (opinion)',
+        'answer': 'opinion',
+      },
+      {
+        'type': 'choice',
+        'prompt': 'Đâu KHÔNG phải là cụm từ diễn đạt ý kiến?',
+        'options': ['I believe', 'I want', 'I feel'],
+        'answer': 'I want',
+      },
+    ],
 }
 ---
 

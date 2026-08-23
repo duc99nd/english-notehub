@@ -1,54 +1,51 @@
 ---
 {
-  "id": "b1-12-conditionals",
-  "slug": "b1-12-conditionals",
-  "titleEn": "First & Second Conditionals",
-  "titleVi": "Câu Điều kiện Loại 1 & Loại 2",
-  "subtitleEn": "Nói về các tình huống thực và tưởng tượng",
-  "subtitleVi": "Nói về các tình huống thực và tưởng tượng",
-  "level": "B1",
-  "unit": 3,
-  "skill": "grammar",
-  "order": 12,
-  "cefr": "B1",
-  "minutes": 5,
-  "tags": [
-    "conditionals",
-    "grammar",
-    "if-clause",
-    "first-conditional",
-    "second-conditional"
-  ],
-  "audioScript": "Nếu trời mưa ngày mai, tôi sẽ ở nhà.\nNếu tôi trúng xổ số, tôi sẽ đi du lịch khắp thế giới.\nNếu tôi có nhiều thời gian hơn, tôi sẽ học nấu ăn.\n",
-  "listeningEnabled": true,
-  "flashcardCount": 8,
-  "quiz": [
-    {
-      "type": "choice",
-      "prompt": "Khi nào chúng ta dùng Câu Điều kiện Loại 1?",
-      "options": [
-        "Cho các tình huống tưởng tượng",
-        "Cho các tình huống thực và có thể xảy ra",
-        "Cho các sự kiện quá khứ"
-      ],
-      "answer": "Cho các tình huống thực và có thể xảy ra"
-    },
-    {
-      "type": "fill",
-      "prompt": "If I ___ (have) nhiều tiền hơn, tôi sẽ mua một chiếc ô tô.",
-      "answer": "had"
-    },
-    {
-      "type": "choice",
-      "prompt": "Dạng đúng của Câu Điều kiện Loại 2 là gì?",
-      "options": [
-        "If she studies, she passes.",
-        "If she studied, she would pass.",
-        "If she studied, she passes."
-      ],
-      "answer": "If she studied, she would pass."
-    }
-  ]
+  'id': 'b1-12-conditionals',
+  'slug': 'b1-12-conditionals',
+  'titleEn': 'First & Second Conditionals',
+  'titleVi': 'Câu Điều kiện Loại 1 & Loại 2',
+  'subtitleEn': 'Nói về các tình huống thực và tưởng tượng',
+  'subtitleVi': 'Nói về các tình huống thực và tưởng tượng',
+  'level': 'B1',
+  'unit': 3,
+  'skill': 'grammar',
+  'order': 12,
+  'cefr': 'B1',
+  'minutes': 5,
+  'tags': ['conditionals', 'grammar', 'if-clause', 'first-conditional', 'second-conditional'],
+  'audioScript': "Nếu trời mưa ngày mai, tôi sẽ ở nhà.\nNếu tôi trúng xổ số, tôi sẽ đi du lịch khắp thế giới.\nNếu tôi có nhiều thời gian hơn, tôi sẽ học nấu ăn.\n",
+  'listeningEnabled': true,
+  'flashcardCount': 8,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': 'Khi nào chúng ta dùng Câu Điều kiện Loại 1?',
+        'options':
+          [
+            'Cho các tình huống tưởng tượng',
+            'Cho các tình huống thực và có thể xảy ra',
+            'Cho các sự kiện quá khứ',
+          ],
+        'answer': 'Cho các tình huống thực và có thể xảy ra',
+      },
+      {
+        'type': 'fill',
+        'prompt': 'If I ___ (have) nhiều tiền hơn, tôi sẽ mua một chiếc ô tô.',
+        'answer': 'had',
+      },
+      {
+        'type': 'choice',
+        'prompt': 'Dạng đúng của Câu Điều kiện Loại 2 là gì?',
+        'options':
+          [
+            'If she studies, she passes.',
+            'If she studied, she would pass.',
+            'If she studied, she passes.',
+          ],
+        'answer': 'If she studied, she would pass.',
+      },
+    ],
 }
 ---
 

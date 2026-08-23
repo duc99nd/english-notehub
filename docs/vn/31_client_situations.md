@@ -1,20 +1,20 @@
 ---
 {
-  "id": "client-situations",
-  "slug": "client-situations",
-  "titleEn": "English Client Situations Reference",
-  "titleVi": "Tình huống khó với khách hàng",
-  "subtitleEn": "Practical English for difficult client situations",
-  "subtitleVi": "Mẫu câu để phản hồi lịch sự và chắc chắn",
-  "level": "B2",
-  "cefr": "B2",
-  "skill": "speaking",
-  "order": 31,
-  "minutes": 7,
-  "categoryEn": "Difficult Situations",
-  "categoryVi": "Tình huống Khó",
-  "tags": [],
-  "isArchived": false
+  'id': 'client-situations',
+  'slug': 'client-situations',
+  'titleEn': 'English Client Situations Reference',
+  'titleVi': 'Tình huống khó với khách hàng',
+  'subtitleEn': 'Practical English for difficult client situations',
+  'subtitleVi': 'Mẫu câu để phản hồi lịch sự và chắc chắn',
+  'level': 'B2',
+  'cefr': 'B2',
+  'skill': 'speaking',
+  'order': 31,
+  'minutes': 7,
+  'categoryEn': 'Difficult Situations',
+  'categoryVi': 'Tình huống Khó',
+  'tags': [],
+  'isArchived': false,
 }
 ---
 

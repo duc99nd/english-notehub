@@ -1,89 +1,70 @@
 ---
 {
-  "id": "c2-05-review-unit1",
-  "slug": "c2-05-review-unit1",
-  "titleEn": "Review Unit 1",
-  "titleVi": "Ôn tập Unit 1",
-  "subtitleEn": "Consolidate your mastery of C2 humor, irony, academic tone, and whitepaper writing",
-  "subtitleVi": "Củng cố khả năng làm chủ hài hước, irony, giọng điệu học thuật và viết whitepaper ở C2",
-  "level": "C2",
-  "unit": 1,
-  "skill": "review",
-  "order": 5,
-  "cefr": "C2",
-  "minutes": 10,
-  "tags": [
-    "review",
-    "humor",
-    "irony",
-    "academic",
-    "whitepaper",
-    "consolidation"
-  ],
-  "audioScript": "Unit 1 covered four essential C2 skills: humor, irony, academic register, and whitepaper writing.\nEach skill builds upon the previous, creating a foundation for sophisticated English communication.\nReview these concepts regularly to maintain your C2 proficiency.\n",
-  "listeningEnabled": true,
-  "flashcardCount": 10,
-  "quiz": [
-    {
-      "type": "choice",
-      "prompt": "Which type of humor relies on saying the opposite of what you mean?",
-      "options": [
-        "Pun",
-        "Satire",
-        "Verbal irony",
-        "Understatement"
-      ],
-      "answer": "Verbal irony"
-    },
-    {
-      "type": "choice",
-      "prompt": "What grammatical mood is commonly used to signal sarcasm?",
-      "options": [
-        "Indicative",
-        "Imperative",
-        "Subjunctive",
-        "Conditional"
-      ],
-      "answer": "Subjunctive"
-    },
-    {
-      "type": "choice",
-      "prompt": "Which hedging phrase expresses the strongest certainty?",
-      "options": [
-        "It appears that...",
-        "The data may suggest...",
-        "It is evident that...",
-        "One might argue..."
-      ],
-      "answer": "It is evident that..."
-    },
-    {
-      "type": "choice",
-      "prompt": "What is the most-read section of a whitepaper?",
-      "options": [
-        "The conclusion",
-        "The executive summary",
-        "The table of contents",
-        "The references"
-      ],
-      "answer": "The executive summary"
-    },
-    {
-      "type": "fill",
-      "prompt": "British humor often relies on ___ and dry wit.",
-      "answer": "understatement"
-    },
-    {
-      "type": "fill",
-      "prompt": "When the audience knows more than the characters, this is called ___ irony.",
-      "answer": "dramatic"
-    },
-    {
-      "type": "fill",
-      "prompt": "Academic writers use ___ language to express appropriate levels of certainty.",
-      "answer": "hedging"
-    }
-  ]
+  'id': 'c2-05-review-unit1',
+  'slug': 'c2-05-review-unit1',
+  'titleEn': 'Review Unit 1',
+  'titleVi': 'Ôn tập Unit 1',
+  'subtitleEn': 'Consolidate your mastery of C2 humor, irony, academic tone, and whitepaper writing',
+  'subtitleVi': 'Củng cố khả năng làm chủ hài hước, irony, giọng điệu học thuật và viết whitepaper ở C2',
+  'level': 'C2',
+  'unit': 1,
+  'skill': 'review',
+  'order': 5,
+  'cefr': 'C2',
+  'minutes': 10,
+  'tags': ['review', 'humor', 'irony', 'academic', 'whitepaper', 'consolidation'],
+  'audioScript': "Unit 1 covered four essential C2 skills: humor, irony, academic register, and whitepaper writing.\nEach skill builds upon the previous, creating a foundation for sophisticated English communication.\nReview these concepts regularly to maintain your C2 proficiency.\n",
+  'listeningEnabled': true,
+  'flashcardCount': 10,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': 'Which type of humor relies on saying the opposite of what you mean?',
+        'options': ['Pun', 'Satire', 'Verbal irony', 'Understatement'],
+        'answer': 'Verbal irony',
+      },
+      {
+        'type': 'choice',
+        'prompt': 'What grammatical mood is commonly used to signal sarcasm?',
+        'options': ['Indicative', 'Imperative', 'Subjunctive', 'Conditional'],
+        'answer': 'Subjunctive',
+      },
+      {
+        'type': 'choice',
+        'prompt': 'Which hedging phrase expresses the strongest certainty?',
+        'options':
+          [
+            'It appears that...',
+            'The data may suggest...',
+            'It is evident that...',
+            'One might argue...',
+          ],
+        'answer': 'It is evident that...',
+      },
+      {
+        'type': 'choice',
+        'prompt': 'What is the most-read section of a whitepaper?',
+        'options':
+          ['The conclusion', 'The executive summary', 'The table of contents', 'The references'],
+        'answer': 'The executive summary',
+      },
+      {
+        'type': 'fill',
+        'prompt': 'British humor often relies on ___ and dry wit.',
+        'answer': 'understatement',
+      },
+      {
+        'type': 'fill',
+        'prompt': 'When the audience knows more than the characters, this is called ___ irony.',
+        'answer': 'dramatic',
+      },
+      {
+        'type': 'fill',
+        'prompt': 'Academic writers use ___ language to express appropriate levels of certainty.',
+        'answer': 'hedging',
+      },
+    ],
 }
 ---
 

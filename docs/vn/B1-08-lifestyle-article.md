@@ -1,54 +1,51 @@
 ---
 {
-  "id": "b1-08-lifestyle-article",
-  "slug": "b1-08-lifestyle-article",
-  "titleEn": "Magazine Article: Healthy Lifestyle",
-  "titleVi": "Bài báo Tạp chí: Lối sống lành mạnh",
-  "subtitleEn": "Đọc bài viết về việc duy trì sự cân bằng công việc và cuộc sống",
-  "subtitleVi": "Đọc bài viết về việc duy trì sự cân bằng công việc và cuộc sống",
-  "level": "B1",
-  "unit": 2,
-  "skill": "reading",
-  "order": 8,
-  "cefr": "B1",
-  "minutes": 5,
-  "tags": [
-    "reading",
-    "lifestyle",
-    "health",
-    "work-life-balance",
-    "article"
-  ],
-  "audioScript": "Ngày càng có nhiều người làm việc từ xa ngày nay.\nCác chuyên gia khuyến khích nghỉ giải lao đều đặn trong ngày.\nMột lối sống lành mạnh bao gồm cả sức khỏe thể chất và tinh thần.\n",
-  "listeningEnabled": true,
-  "flashcardCount": 8,
-  "quiz": [
-    {
-      "type": "choice",
-      "prompt": "Work-life balance nghĩa là gì?",
-      "options": [
-        "Chỉ làm việc, không có cuộc sống cá nhân",
-        "Sự phân chia lành mạnh giữa công việc và thời gian cá nhân",
-        "Làm việc nhiều giờ hơn"
-      ],
-      "answer": "Sự phân chia lành mạnh giữa công việc và thời gian cá nhân"
-    },
-    {
-      "type": "fill",
-      "prompt": "Bạn nên nghỉ giải lao ___ để giữ năng suất.",
-      "answer": "breaks"
-    },
-    {
-      "type": "choice",
-      "prompt": "Sedentary lifestyle (lối sống ít vận động) là gì?",
-      "options": [
-        "Lối sống năng động với nhiều bài tập",
-        "Lối sống với ít hoạt động thể chất",
-        "Lịch trình rất bận rộn"
-      ],
-      "answer": "Lối sống với ít hoạt động thể chất"
-    }
-  ]
+  'id': 'b1-08-lifestyle-article',
+  'slug': 'b1-08-lifestyle-article',
+  'titleEn': 'Magazine Article: Healthy Lifestyle',
+  'titleVi': 'Bài báo Tạp chí: Lối sống lành mạnh',
+  'subtitleEn': 'Đọc bài viết về việc duy trì sự cân bằng công việc và cuộc sống',
+  'subtitleVi': 'Đọc bài viết về việc duy trì sự cân bằng công việc và cuộc sống',
+  'level': 'B1',
+  'unit': 2,
+  'skill': 'reading',
+  'order': 8,
+  'cefr': 'B1',
+  'minutes': 5,
+  'tags': ['reading', 'lifestyle', 'health', 'work-life-balance', 'article'],
+  'audioScript': "Ngày càng có nhiều người làm việc từ xa ngày nay.\nCác chuyên gia khuyến khích nghỉ giải lao đều đặn trong ngày.\nMột lối sống lành mạnh bao gồm cả sức khỏe thể chất và tinh thần.\n",
+  'listeningEnabled': true,
+  'flashcardCount': 8,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': 'Work-life balance nghĩa là gì?',
+        'options':
+          [
+            'Chỉ làm việc, không có cuộc sống cá nhân',
+            'Sự phân chia lành mạnh giữa công việc và thời gian cá nhân',
+            'Làm việc nhiều giờ hơn',
+          ],
+        'answer': 'Sự phân chia lành mạnh giữa công việc và thời gian cá nhân',
+      },
+      {
+        'type': 'fill',
+        'prompt': 'Bạn nên nghỉ giải lao ___ để giữ năng suất.',
+        'answer': 'breaks',
+      },
+      {
+        'type': 'choice',
+        'prompt': 'Sedentary lifestyle (lối sống ít vận động) là gì?',
+        'options':
+          [
+            'Lối sống năng động với nhiều bài tập',
+            'Lối sống với ít hoạt động thể chất',
+            'Lịch trình rất bận rộn',
+          ],
+        'answer': 'Lối sống với ít hoạt động thể chất',
+      },
+    ],
 }
 ---
 

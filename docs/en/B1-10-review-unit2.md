@@ -1,71 +1,49 @@
 ---
 {
-  "id": "b1-10-review-unit2",
-  "slug": "b1-10-review-unit2",
-  "titleEn": "Review Unit 2",
-  "titleVi": "Ôn tập Unit 2",
-  "subtitleEn": "Review work vocabulary, modals, reading, and writing",
-  "subtitleVi": "Ôn tập từ vựng công việc, động từ trợ giúp, đọc và viết",
-  "level": "B1",
-  "unit": 2,
-  "skill": "review",
-  "order": 10,
-  "cefr": "B1",
-  "minutes": 10,
-  "tags": [
-    "review",
-    "unit2",
-    "work",
-    "modals",
-    "writing",
-    "vocabulary",
-    "grammar"
-  ],
-  "audioScript": "Let's review what we learned in Unit 2.\nYou can now talk about your job and workplace.\nYou understand must, have to, should, and ought to.\nYou can write a job application letter.\n",
-  "listeningEnabled": true,
-  "flashcardCount": 16,
-  "quiz": [
-    {
-      "type": "choice",
-      "prompt": "Which modal is used for advice?",
-      "options": [
-        "must",
-        "should",
-        "had to"
-      ],
-      "answer": "should"
-    },
-    {
-      "type": "fill",
-      "prompt": "I ___ (have to) work late yesterday.",
-      "answer": "had to"
-    },
-    {
-      "type": "choice",
-      "prompt": "Which sign-off is formal for a job application?",
-      "options": [
-        "Love,",
-        "Yours faithfully,",
-        "Best,"
-      ],
-      "answer": "Yours faithfully,"
-    },
-    {
-      "type": "fill",
-      "prompt": "The project has a ___ next Friday.",
-      "answer": "deadline"
-    },
-    {
-      "type": "choice",
-      "prompt": "What does 'flexibility' mean in a work context?",
-      "options": [
-        "Working only at night",
-        "Having choices about when or how you work",
-        "Being very strict"
-      ],
-      "answer": "Having choices about when or how you work"
-    }
-  ]
+  'id': 'b1-10-review-unit2',
+  'slug': 'b1-10-review-unit2',
+  'titleEn': 'Review Unit 2',
+  'titleVi': 'Ôn tập Unit 2',
+  'subtitleEn': 'Review work vocabulary, modals, reading, and writing',
+  'subtitleVi': 'Ôn tập từ vựng công việc, động từ trợ giúp, đọc và viết',
+  'level': 'B1',
+  'unit': 2,
+  'skill': 'review',
+  'order': 10,
+  'cefr': 'B1',
+  'minutes': 10,
+  'tags': ['review', 'unit2', 'work', 'modals', 'writing', 'vocabulary', 'grammar'],
+  'audioScript': "Let's review what we learned in Unit 2.\nYou can now talk about your job and workplace.\nYou understand must, have to, should, and ought to.\nYou can write a job application letter.\n",
+  'listeningEnabled': true,
+  'flashcardCount': 16,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': 'Which modal is used for advice?',
+        'options': ['must', 'should', 'had to'],
+        'answer': 'should',
+      },
+      { 'type': 'fill', 'prompt': 'I ___ (have to) work late yesterday.', 'answer': 'had to' },
+      {
+        'type': 'choice',
+        'prompt': 'Which sign-off is formal for a job application?',
+        'options': ['Love,', 'Yours faithfully,', 'Best,'],
+        'answer': 'Yours faithfully,',
+      },
+      { 'type': 'fill', 'prompt': 'The project has a ___ next Friday.', 'answer': 'deadline' },
+      {
+        'type': 'choice',
+        'prompt': "What does 'flexibility' mean in a work context?",
+        'options':
+          [
+            'Working only at night',
+            'Having choices about when or how you work',
+            'Being very strict',
+          ],
+        'answer': 'Having choices about when or how you work',
+      },
+    ],
 }
 ---
 

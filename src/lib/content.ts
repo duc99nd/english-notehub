@@ -965,15 +965,27 @@ function buildSummaryFromFrontmatter(
 ): DocSummary {
   const fallbackSlug = fallback?.slug ?? slugify(fileName)
   const fallbackTitle = fallback
-    ? { titleEn: fallback.titleEn, titleVi: fallback.titleVi, subtitleEn: fallback.subtitleEn, subtitleVi: fallback.subtitleVi }
-    : { titleEn: createFallbackTitle(fileName), titleVi: createFallbackTitle(fileName), subtitleEn: '', subtitleVi: '' }
+    ? {
+        titleEn: fallback.titleEn,
+        titleVi: fallback.titleVi,
+        subtitleEn: fallback.subtitleEn,
+        subtitleVi: fallback.subtitleVi,
+      }
+    : {
+        titleEn: createFallbackTitle(fileName),
+        titleVi: createFallbackTitle(fileName),
+        subtitleEn: '',
+        subtitleVi: '',
+      }
 
   const slug = typeof data.slug === 'string' && data.slug.trim() ? data.slug.trim() : fallbackSlug
   const id = typeof data.id === 'string' && data.id.trim() ? data.id.trim() : deriveIdFromSlug(slug)
   const titleEn = typeof data.titleEn === 'string' ? data.titleEn : fallbackTitle.titleEn
   const titleVi = typeof data.titleVi === 'string' ? data.titleVi : fallbackTitle.titleVi
-  const subtitleEn = typeof data.subtitleEn === 'string' ? data.subtitleEn : fallbackTitle.subtitleEn
-  const subtitleVi = typeof data.subtitleVi === 'string' ? data.subtitleVi : fallbackTitle.subtitleVi
+  const subtitleEn =
+    typeof data.subtitleEn === 'string' ? data.subtitleEn : fallbackTitle.subtitleEn
+  const subtitleVi =
+    typeof data.subtitleVi === 'string' ? data.subtitleVi : fallbackTitle.subtitleVi
   const order = typeof data.order === 'number' ? data.order : (fallback?.order ?? 999)
 
   const cefr = ((): CefrLevel | undefined => {
@@ -984,9 +996,10 @@ function buildSummaryFromFrontmatter(
 
   const level = typeof data.level === 'string' ? (data.level as CefrLevel) : cefr
 
-  const unit = typeof data.unit === 'number' && [1, 2, 3].includes(data.unit)
-    ? (data.unit as 1 | 2 | 3)
-    : undefined
+  const unit =
+    typeof data.unit === 'number' && [1, 2, 3].includes(data.unit)
+      ? (data.unit as 1 | 2 | 3)
+      : undefined
 
   const skill = typeof data.skill === 'string' ? (data.skill as SkillKind) : undefined
 
@@ -998,17 +1011,19 @@ function buildSummaryFromFrontmatter(
     ? data.tags.filter((value): value is string => typeof value === 'string')
     : (fallback?.tags ?? [])
 
-  const estimatedMinutes = typeof data.minutes === 'number'
-    ? data.minutes
-    : (typeof data.estimatedMinutes === 'number' ? data.estimatedMinutes : fallback?.estimatedMinutes)
+  const estimatedMinutes =
+    typeof data.minutes === 'number'
+      ? data.minutes
+      : typeof data.estimatedMinutes === 'number'
+        ? data.estimatedMinutes
+        : fallback?.estimatedMinutes
 
   const audioScript = typeof data.audioScript === 'string' ? data.audioScript : undefined
-  const listeningEnabled = typeof data.listeningEnabled === 'boolean' ? data.listeningEnabled : Boolean(audioScript)
+  const listeningEnabled =
+    typeof data.listeningEnabled === 'boolean' ? data.listeningEnabled : Boolean(audioScript)
   const flashcardCount = typeof data.flashcardCount === 'number' ? data.flashcardCount : undefined
 
-  const quiz = Array.isArray(data.quiz)
-    ? (data.quiz as QuizItem[])
-    : undefined
+  const quiz = Array.isArray(data.quiz) ? (data.quiz as QuizItem[]) : undefined
 
   return {
     id,
@@ -1251,10 +1266,7 @@ export function getDocsByLevel(level: CefrLevel): DocSummary[] {
   return docs.filter((doc) => (doc.level ?? doc.cefr) === level)
 }
 
-export function getDocBySlug(
-  slug: string,
-  locale: AppLocale = 'en',
-): Promise<DocItem | undefined> {
+export function getDocBySlug(slug: string, locale: AppLocale = 'en'): Promise<DocItem | undefined> {
   const cacheKey = `${slug}:${locale}`
 
   if (cacheByKey.has(cacheKey)) {
@@ -1285,10 +1297,7 @@ export function getDocBySlug(
   return pending
 }
 
-export function getDocById(
-  id: string,
-  locale: AppLocale = 'en',
-): Promise<DocItem | undefined> {
+export function getDocById(id: string, locale: AppLocale = 'en'): Promise<DocItem | undefined> {
   const summary = docById.get(id)
   if (!summary) {
     return Promise.resolve(undefined)

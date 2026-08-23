@@ -1,66 +1,43 @@
 ---
 {
-  "id": "a1-08-weather",
-  "slug": "a1-08-weather",
-  "titleEn": "Weather",
-  "titleVi": "Thời tiết",
-  "subtitleEn": "Describe weather conditions, seasons, and small talk about the day",
-  "subtitleVi": "Mô tả thời tiết, các mùa và nói chuyện phiếm về thời tiết",
-  "level": "A1",
-  "unit": 2,
-  "skill": "reading",
-  "order": 8,
-  "cefr": "A1",
-  "minutes": 7,
-  "tags": [
-    "weather",
-    "seasons",
-    "small-talk",
-    "reading"
-  ],
-  "audioScript": "Today is sunny and hot. The temperature is 35 degrees.\nIn summer, it is very hot in Vietnam.\nIn winter, it is cold and sometimes rainy.\nI like spring because flowers are beautiful.\n",
-  "listeningEnabled": true,
-  "flashcardCount": 10,
-  "quiz": [
-    {
-      "type": "choice",
-      "prompt": "Which is the correct sentence?",
-      "options": [
-        "Today is sun.",
-        "Today is sunny.",
-        "Today is a sun.",
-        "Today is the sun."
-      ],
-      "answer": "Today is sunny."
-    },
-    {
-      "type": "choice",
-      "prompt": "How do you say 'mưa'?",
-      "options": [
-        "cloudy",
-        "sunny",
-        "rainy",
-        "windy"
-      ],
-      "answer": "rainy"
-    },
-    {
-      "type": "fill",
-      "prompt": "In summer, it is very ___. (nóng)",
-      "answer": "hot"
-    },
-    {
-      "type": "choice",
-      "prompt": "Which season is hot in Vietnam?",
-      "options": [
-        "spring",
-        "summer",
-        "autumn",
-        "winter"
-      ],
-      "answer": "summer"
-    }
-  ]
+  'id': 'a1-08-weather',
+  'slug': 'a1-08-weather',
+  'titleEn': 'Weather',
+  'titleVi': 'Thời tiết',
+  'subtitleEn': 'Describe weather conditions, seasons, and small talk about the day',
+  'subtitleVi': 'Mô tả thời tiết, các mùa và nói chuyện phiếm về thời tiết',
+  'level': 'A1',
+  'unit': 2,
+  'skill': 'reading',
+  'order': 8,
+  'cefr': 'A1',
+  'minutes': 7,
+  'tags': ['weather', 'seasons', 'small-talk', 'reading'],
+  'audioScript': "Today is sunny and hot. The temperature is 35 degrees.\nIn summer, it is very hot in Vietnam.\nIn winter, it is cold and sometimes rainy.\nI like spring because flowers are beautiful.\n",
+  'listeningEnabled': true,
+  'flashcardCount': 10,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': 'Which is the correct sentence?',
+        'options': ['Today is sun.', 'Today is sunny.', 'Today is a sun.', 'Today is the sun.'],
+        'answer': 'Today is sunny.',
+      },
+      {
+        'type': 'choice',
+        'prompt': "How do you say 'mưa'?",
+        'options': ['cloudy', 'sunny', 'rainy', 'windy'],
+        'answer': 'rainy',
+      },
+      { 'type': 'fill', 'prompt': 'In summer, it is very ___. (nóng)', 'answer': 'hot' },
+      {
+        'type': 'choice',
+        'prompt': 'Which season is hot in Vietnam?',
+        'options': ['spring', 'summer', 'autumn', 'winter'],
+        'answer': 'summer',
+      },
+    ],
 }
 ---
 
@@ -72,20 +49,20 @@ Weather is the #1 small-talk topic in English. You can start a conversation with
 
 ## Weather adjectives
 
-| English | Vietnamese | Use with "it is" |
-| --- | --- | --- |
-| sunny | nắng | It is sunny today. |
-| cloudy | có mây / u ám | It is cloudy. |
-| rainy | mưa (tính từ) | It is rainy today. |
-| windy | có gió | It is windy. |
-| hot | nóng | It is hot. |
-| cold | lạnh | It is cold. |
-| warm | ấm | It is warm. |
-| cool | mát / se lạnh | It is cool. |
-| snowy | có tuyết | It is snowy. |
-| humid | ẩm ướt | It is humid. |
-| foggy | có sương mù | It is foggy. |
-| stormy | có bão | It is stormy. |
+| English | Vietnamese    | Use with "it is"   |
+| ------- | ------------- | ------------------ |
+| sunny   | nắng          | It is sunny today. |
+| cloudy  | có mây / u ám | It is cloudy.      |
+| rainy   | mưa (tính từ) | It is rainy today. |
+| windy   | có gió        | It is windy.       |
+| hot     | nóng          | It is hot.         |
+| cold    | lạnh          | It is cold.        |
+| warm    | ấm            | It is warm.        |
+| cool    | mát / se lạnh | It is cool.        |
+| snowy   | có tuyết      | It is snowy.       |
+| humid   | ẩm ướt        | It is humid.       |
+| foggy   | có sương mù   | It is foggy.       |
+| stormy  | có bão        | It is stormy.      |
 
 > **Pattern**: All weather adjectives go with **"it is"**, NOT "the weather is" or "today is". "It is **sunny**" — never "It is **sun**" or "It is **a sun**."
 
@@ -93,18 +70,18 @@ Weather is the #1 small-talk topic in English. You can start a conversation with
 
 When you want to talk about the **thing** (not just the adjective), use the noun with "the":
 
-| Noun | Vietnamese | Example |
-| --- | --- | --- |
-| the sun | mặt trời | The sun is bright today. |
-| the rain | mưa | The rain is heavy. |
-| the wind | gió | The wind is strong. |
-| the snow | tuyết | The snow is white. |
-| the cloud | mây | The clouds are dark. |
-| the sky | bầu trời | The sky is blue. |
-| the temperature | nhiệt độ | The temperature is 30°C. |
-| the weather | thời tiết | The weather is nice. |
+| Noun            | Vietnamese | Example                  |
+| --------------- | ---------- | ------------------------ |
+| the sun         | mặt trời   | The sun is bright today. |
+| the rain        | mưa        | The rain is heavy.       |
+| the wind        | gió        | The wind is strong.      |
+| the snow        | tuyết      | The snow is white.       |
+| the cloud       | mây        | The clouds are dark.     |
+| the sky         | bầu trời   | The sky is blue.         |
+| the temperature | nhiệt độ   | The temperature is 30°C. |
+| the weather     | thời tiết  | The weather is nice.     |
 
-> **Pattern**: "The **noun** is + adjective". "The rain is heavy." "The wind is strong." This pattern is great for adding details after "It is ___".
+> **Pattern**: "The **noun** is + adjective". "The rain is heavy." "The wind is strong." This pattern is great for adding details after "It is \_\_\_".
 
 ## Weather verbs
 
@@ -116,24 +93,24 @@ Three useful verbs go with weather.
 >
 > **Pattern C — present progressive (right now)**: `It is raining right now.`
 
-| Verb form | Example |
-| --- | --- |
-| rain (verb) | It rains a lot in April. (habit) |
+| Verb form   | Example                              |
+| ----------- | ------------------------------------ |
+| rain (verb) | It rains a lot in April. (habit)     |
 | snow (verb) | It snows in winter. (sometimes true) |
-| is raining | It is raining right now. (right now) |
-| is snowing | It is snowing! (right now) |
-| get / gets | It gets hot in May. (changing) |
+| is raining  | It is raining right now. (right now) |
+| is snowing  | It is snowing! (right now)           |
+| get / gets  | It gets hot in May. (changing)       |
 
 > **Tip**: Use **is + -ing** ("is raining", "is snowing") for **right now**. Use **simple form** ("rains", "snows") for **usually / often**.
 
 ## Seasons
 
-| English | Vietnamese | Weather |
-| --- | --- | --- |
-| spring | mùa xuân | warm, flowers bloom |
-| summer | mùa hè | hot, sunny, humid |
-| autumn / fall | mùa thu | cool, leaves change |
-| winter | mùa đông | cold, sometimes snow |
+| English       | Vietnamese | Weather              |
+| ------------- | ---------- | -------------------- |
+| spring        | mùa xuân   | warm, flowers bloom  |
+| summer        | mùa hè     | hot, sunny, humid    |
+| autumn / fall | mùa thu    | cool, leaves change  |
+| winter        | mùa đông   | cold, sometimes snow |
 
 > **Note**: "Autumn" and "fall" mean the same thing. "Fall" is more common in the US; "autumn" is more common in the UK and in writing.
 
@@ -141,12 +118,12 @@ Three useful verbs go with weather.
 
 > **Pattern**: `In [season], it is [weather].`
 
-| English | Vietnamese |
-| --- | --- |
+| English                                  | Vietnamese                  |
+| ---------------------------------------- | --------------------------- |
 | In spring, it is warm and flowers bloom. | Mùa xuân trời ấm và hoa nở. |
-| In summer, it is hot and humid. | Mùa hè trời nóng và ẩm. |
-| In autumn, it is cool. | Mùa thu trời mát. |
-| In winter, it is cold. | Mùa đông trời lạnh. |
+| In summer, it is hot and humid.          | Mùa hè trời nóng và ẩm.     |
+| In autumn, it is cool.                   | Mùa thu trời mát.           |
+| In winter, it is cold.                   | Mùa đông trời lạnh.         |
 
 ## Small talk — five weather phrases
 
@@ -160,15 +137,15 @@ Three useful verbs go with weather.
 >
 > **Pattern E — Agreeing**: `Yes, but I heard it will be sunny tomorrow.`
 
-| Phrase | Tone |
-| --- | --- |
-| Lovely day, isn't it? | friendly |
-| Beautiful weather today! | friendly |
-| It's so hot today! | casual |
-| It's freezing! | casual (very cold) |
-| What a terrible day. | complaining |
-| Perfect weather for a walk. | friendly |
-| I wish it would stop raining. | casual |
+| Phrase                        | Tone               |
+| ----------------------------- | ------------------ |
+| Lovely day, isn't it?         | friendly           |
+| Beautiful weather today!      | friendly           |
+| It's so hot today!            | casual             |
+| It's freezing!                | casual (very cold) |
+| What a terrible day.          | complaining        |
+| Perfect weather for a walk.   | friendly           |
+| I wish it would stop raining. | casual             |
 
 > **Tip**: Weather is a "safe topic" — it can't offend anyone. Use these phrases with strangers, in elevators, at the bus stop.
 
@@ -210,12 +187,12 @@ Three useful verbs go with weather.
 
 Imagine you are a TV weather reporter. Write 4 sentences about today's weather.
 
-> "Good morning. Today in Hanoi, it is ___ and ___. The temperature is ___ degrees. In the afternoon, it will ___. Tomorrow, we expect ___."
+> "Good morning. Today in Hanoi, it is **_ and _**. The temperature is **_ degrees. In the afternoon, it will _**. Tomorrow, we expect \_\_\_."
 >
-> 1. _______________________________________
-> 2. _______________________________________
-> 3. _______________________________________
-> 4. _______________________________________
+> 1. ***
+> 2. ***
+> 3. ***
+> 4. ***
 
 **Self-check**:
 

@@ -5,13 +5,13 @@ In software development, mistakes happen. Code breaks, deployments fail, or dead
 ```mermaid
 flowchart TD
     Incident[An Incident Occurs / Accusation Made ⚠️] --> ResponseType{Reaction Strategy}
-    
+
     ResponseType -->|Defensive / Toxic Loop ❌| ToxicStart["Get Defensive & Angry<br/>• React emotionally"]
     ToxicStart --> Accuse["Point Fingers & Excuse<br/>• Push blame away"]
     Accuse --> Morale["Morale Drops & Trust Broken<br/>• Silos form"]
     Morale --> Repeats["No Process Improvements<br/>• Same bug repeats"]
     Repeats --> ToxicStart
-    
+
     ResponseType -->|Professional / Blameless Loop ✅| ProfStart["Maintain Composure 🧘<br/>• Stay objective & calm"]
     ProfStart --> Facts["Present Facts & Data<br/>• Check logs/git commits"]
     Facts --> Constructive["Acknowledge Constructively<br/>• Own actual mistakes"]
@@ -19,7 +19,7 @@ flowchart TD
     Steer --> PostMortem["Blameless Post-Mortem<br/>• Document timeline"]
     PostMortem --> Guardrails["Add Guardrails<br/>• Code gates/tests"]
     Guardrails --> Success([System Stable & Team Stronger])
-    
+
     style Incident fill:#fee2e2,stroke:#ef4444,stroke-width:2px
     style ToxicStart fill:#fff1f2,stroke:#f43f5e,stroke-width:1px
     style ProfStart fill:#f0fdf4,stroke:#22c55e,stroke-width:1px

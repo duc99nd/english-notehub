@@ -1,54 +1,37 @@
 ---
 {
-  "id": "b1-04-email-friend",
-  "slug": "b1-04-email-friend",
-  "titleEn": "Writing an Email to a Friend",
-  "titleVi": "Viết Email Cho Bạn bè",
-  "subtitleEn": "Học cách viết email thân mật, cá nhân",
-  "subtitleVi": "Học cách viết email thân mật, cá nhân",
-  "level": "B1",
-  "unit": 1,
-  "skill": "writing",
-  "order": 4,
-  "cefr": "B1",
-  "minutes": 5,
-  "tags": [
-    "writing",
-    "email",
-    "friend",
-    "informal",
-    "communication"
-  ],
-  "audioScript": "Chào Emma, đã lâu rồi chúng ta chưa nói chuyện!\nTôi viết email này để kể cho bạn về chuyến đi Tokyo tháng trước.\nCho tôi biết khi nào bạn rảnh để gặp nhé!\n",
-  "listeningEnabled": true,
-  "flashcardCount": 6,
-  "quiz": [
-    {
-      "type": "choice",
-      "prompt": "Lời chào nào phù hợp nhất với bạn thân?",
-      "options": [
-        "Dear Sir/Madam,",
-        "Hi [Name],",
-        "To Whom It May Concern,"
-      ],
-      "answer": "Hi [Name],"
-    },
-    {
-      "type": "fill",
-      "prompt": "Đã lâu rồi ___ chúng ta chưa nói chuyện.",
-      "answer": "since"
-    },
-    {
-      "type": "choice",
-      "prompt": "Lời kết thúc nào phù hợp nhất cho email thân mật?",
-      "options": [
-        "Yours faithfully,",
-        "Best regards,",
-        "Love,"
-      ],
-      "answer": "Love,"
-    }
-  ]
+  'id': 'b1-04-email-friend',
+  'slug': 'b1-04-email-friend',
+  'titleEn': 'Writing an Email to a Friend',
+  'titleVi': 'Viết Email Cho Bạn bè',
+  'subtitleEn': 'Học cách viết email thân mật, cá nhân',
+  'subtitleVi': 'Học cách viết email thân mật, cá nhân',
+  'level': 'B1',
+  'unit': 1,
+  'skill': 'writing',
+  'order': 4,
+  'cefr': 'B1',
+  'minutes': 5,
+  'tags': ['writing', 'email', 'friend', 'informal', 'communication'],
+  'audioScript': "Chào Emma, đã lâu rồi chúng ta chưa nói chuyện!\nTôi viết email này để kể cho bạn về chuyến đi Tokyo tháng trước.\nCho tôi biết khi nào bạn rảnh để gặp nhé!\n",
+  'listeningEnabled': true,
+  'flashcardCount': 6,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': 'Lời chào nào phù hợp nhất với bạn thân?',
+        'options': ['Dear Sir/Madam,', 'Hi [Name],', 'To Whom It May Concern,'],
+        'answer': 'Hi [Name],',
+      },
+      { 'type': 'fill', 'prompt': 'Đã lâu rồi ___ chúng ta chưa nói chuyện.', 'answer': 'since' },
+      {
+        'type': 'choice',
+        'prompt': 'Lời kết thúc nào phù hợp nhất cho email thân mật?',
+        'options': ['Yours faithfully,', 'Best regards,', 'Love,'],
+        'answer': 'Love,',
+      },
+    ],
 }
 ---
 

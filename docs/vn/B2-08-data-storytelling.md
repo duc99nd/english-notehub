@@ -1,53 +1,41 @@
 ---
 {
-  "id": "b2-08-data-storytelling",
-  "slug": "b2-08-data-storytelling",
-  "titleEn": "Data Storytelling",
-  "titleVi": "Kể chuyện bằng dữ liệu",
-  "subtitleEn": "Present data insights with impact",
-  "subtitleVi": "Trình bày insights dữ liệu có sức ảnh hưởng",
-  "level": "B2",
-  "unit": 2,
-  "skill": "vocab",
-  "order": 8,
-  "cefr": "B2",
-  "minutes": 5,
-  "tags": [
-    "data",
-    "storytelling",
-    "presentation",
-    "B2"
-  ],
-  "audioScript": "Dữ liệu cho thấy xu hướng tăng rõ rệt trong quý vừa qua.\nPhát hiện của chúng tôi nhấn mạnh sự cần thiết phải can thiệp ngay.\nSố liệu này là chỉ số quan trọng về sự hài lòng của khách hàng.\n",
-  "listeningEnabled": true,
-  "flashcardCount": 6,
-  "quiz": [
-    {
-      "type": "choice",
-      "prompt": "Underscore có nghĩa là gì?",
-      "options": [
-        "Ẩn giấu",
-        "Nhấn mạnh",
-        "Tính toán"
-      ],
-      "answer": "Nhấn mạnh"
-    },
-    {
-      "type": "fill",
-      "prompt": "Số liệu này ___ như một chỉ số quan trọng.",
-      "answer": "đóng vai trò"
-    },
-    {
-      "type": "choice",
-      "prompt": "Xu hướng đi lên nghĩa là:",
-      "options": [
-        "Số liệu đang giảm",
-        "Số liệu đang tăng",
-        "Số liệu ổn định"
-      ],
-      "answer": "Số liệu đang tăng"
-    }
-  ]
+  'id': 'b2-08-data-storytelling',
+  'slug': 'b2-08-data-storytelling',
+  'titleEn': 'Data Storytelling',
+  'titleVi': 'Kể chuyện bằng dữ liệu',
+  'subtitleEn': 'Present data insights with impact',
+  'subtitleVi': 'Trình bày insights dữ liệu có sức ảnh hưởng',
+  'level': 'B2',
+  'unit': 2,
+  'skill': 'vocab',
+  'order': 8,
+  'cefr': 'B2',
+  'minutes': 5,
+  'tags': ['data', 'storytelling', 'presentation', 'B2'],
+  'audioScript': "Dữ liệu cho thấy xu hướng tăng rõ rệt trong quý vừa qua.\nPhát hiện của chúng tôi nhấn mạnh sự cần thiết phải can thiệp ngay.\nSố liệu này là chỉ số quan trọng về sự hài lòng của khách hàng.\n",
+  'listeningEnabled': true,
+  'flashcardCount': 6,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': 'Underscore có nghĩa là gì?',
+        'options': ['Ẩn giấu', 'Nhấn mạnh', 'Tính toán'],
+        'answer': 'Nhấn mạnh',
+      },
+      {
+        'type': 'fill',
+        'prompt': 'Số liệu này ___ như một chỉ số quan trọng.',
+        'answer': 'đóng vai trò',
+      },
+      {
+        'type': 'choice',
+        'prompt': 'Xu hướng đi lên nghĩa là:',
+        'options': ['Số liệu đang giảm', 'Số liệu đang tăng', 'Số liệu ổn định'],
+        'answer': 'Số liệu đang tăng',
+      },
+    ],
 }
 ---
 

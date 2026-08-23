@@ -6,6 +6,7 @@ import { RouterLink, useRoute, useRouter } from 'vue-router'
 import {
   ArrowLeft,
   ArrowRight,
+  ArrowUp,
   BookOpenText,
   ChevronUp,
   Languages,
@@ -31,12 +32,7 @@ import {
 } from '@/lib/content'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
-import {
-  Sheet,
-  SheetContent,
-  SheetHeader,
-  SheetTitle,
-} from '@/components/ui/sheet'
+import { Sheet, SheetContent, SheetHeader, SheetTitle } from '@/components/ui/sheet'
 import { useTheme } from '@/composables/useTheme'
 import { Input } from '@/components/ui/input'
 
@@ -673,13 +669,20 @@ function scrollToTop(): void {
                 :key="level"
                 type="button"
                 class="rounded-full border px-2.5 py-1 text-[0.68rem] font-semibold transition-colors"
-                :class="selectedLevel === level ? 'border-primary bg-primary text-primary-foreground' : 'border-foreground/10 bg-background text-muted-foreground hover:border-primary/40 hover:text-foreground'"
+                :class="
+                  selectedLevel === level
+                    ? 'border-primary bg-primary text-primary-foreground'
+                    : 'border-foreground/10 bg-background text-muted-foreground hover:border-primary/40 hover:text-foreground'
+                "
                 @click="selectedLevel = selectedLevel === level ? '' : level"
               >
                 {{ level }}
               </button>
             </div>
-            <div v-if="allTags.length" class="mt-3 flex max-h-24 flex-wrap gap-1.5 overflow-y-auto pr-1">
+            <div
+              v-if="allTags.length"
+              class="mt-3 flex max-h-24 flex-wrap gap-1.5 overflow-y-auto pr-1"
+            >
               <button
                 v-for="tag in allTags"
                 :key="tag"
@@ -881,7 +884,7 @@ function scrollToTop(): void {
           </div>
 
           <div class="border-t border-foreground/10 bg-background/50 px-6 py-6 sm:px-8">
-            <div class="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
+            <div class="flex flex-col gap-5">
               <div>
                 <p class="notehub-label text-muted-foreground">{{ t('labels.continueReading') }}</p>
                 <p class="mt-2 max-w-xl text-sm leading-6 text-muted-foreground">
@@ -889,11 +892,11 @@ function scrollToTop(): void {
                 </p>
               </div>
 
-              <div class="grid gap-3 sm:grid-cols-2">
+              <div class="grid w-full gap-3 sm:grid-cols-2">
                 <RouterLink
                   v-if="previousDoc"
                   :to="{ name: 'docs', params: { slug: previousDoc.slug } }"
-                  class="group flex min-w-[220px] items-center gap-3 rounded-xl border border-border bg-card px-4 py-3 text-left transition-[transform,border-color,box-shadow] duration-200 hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-[0_8px_24px_rgba(59,130,246,0.10)]"
+                  class="group flex min-w-0 items-center gap-3 rounded-xl border border-border bg-card px-4 py-3 text-left transition-[transform,border-color,box-shadow] duration-200 hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-[0_8px_24px_rgba(59,130,246,0.10)]"
                 >
                   <span
                     class="flex size-9 items-center justify-center rounded-full bg-background text-foreground"
@@ -913,7 +916,7 @@ function scrollToTop(): void {
                 <RouterLink
                   v-if="nextDoc"
                   :to="{ name: 'docs', params: { slug: nextDoc.slug } }"
-                  class="group flex min-w-[220px] items-center gap-3 rounded-xl border border-border bg-card px-4 py-3 text-left transition-[transform,border-color,box-shadow] duration-200 hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-[0_8px_24px_rgba(59,130,246,0.10)]"
+                  class="group flex min-w-0 items-center gap-3 rounded-xl border border-border bg-card px-4 py-3 text-left transition-[transform,border-color,box-shadow] duration-200 hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-[0_8px_24px_rgba(59,130,246,0.10)]"
                 >
                   <span
                     class="flex size-9 items-center justify-center rounded-full bg-background text-foreground"
@@ -950,7 +953,12 @@ function scrollToTop(): void {
           <p class="mt-2 text-sm leading-6">
             {{ docLoadError ? t('labels.loadErrorDescription') : t('labels.noSections') }}
           </p>
-          <Button v-if="docLoadError" class="mt-5" size="sm" @click="loadActiveDocBySlug(activeSlug)">
+          <Button
+            v-if="docLoadError"
+            class="mt-5"
+            size="sm"
+            @click="loadActiveDocBySlug(activeSlug)"
+          >
             {{ t('actions.retry') }}
           </Button>
         </div>
@@ -1004,9 +1012,18 @@ function scrollToTop(): void {
 
             <div class="mt-auto pt-5">
               <div class="h-px bg-foreground/10" />
-              <Button size="sm" variant="outline" class="mt-5 w-full" @click="scrollToTop">
-                <ChevronUp class="size-4" aria-hidden="true" />
-                {{ t('actions.backToTop') }}
+              <Button
+                size="default"
+                variant="outline"
+                class="group mt-5 h-11 w-full rounded-xl border-foreground/10 bg-background/60 px-4 text-sm shadow-none"
+                @click="scrollToTop"
+              >
+                <span
+                  class="flex size-7 items-center justify-center rounded-full bg-foreground/5 text-muted-foreground transition-[background-color,color] duration-200 group-hover:bg-primary/15 group-hover:text-primary"
+                >
+                  <ArrowUp aria-hidden="true" />
+                </span>
+                <span>{{ t('actions.backToTop') }}</span>
               </Button>
             </div>
           </div>
@@ -1156,9 +1173,18 @@ function scrollToTop(): void {
             </p>
 
             <div class="mt-5 h-px bg-foreground/10" />
-            <Button size="sm" variant="outline" class="mt-5 w-full" @click="scrollToTop">
-              <ChevronUp class="size-4" aria-hidden="true" />
-              {{ t('actions.backToTop') }}
+            <Button
+              size="default"
+              variant="outline"
+              class="group mt-5 h-11 w-full rounded-xl border-foreground/10 bg-background/60 px-4 text-sm shadow-none"
+              @click="scrollToTop"
+            >
+              <span
+                class="flex size-7 items-center justify-center rounded-full bg-foreground/5 text-muted-foreground transition-[background-color,color] duration-200 group-hover:bg-primary/15 group-hover:text-primary"
+              >
+                <ArrowUp aria-hidden="true" />
+              </span>
+              <span>{{ t('actions.backToTop') }}</span>
             </Button>
           </div>
         </div>

@@ -26,10 +26,7 @@ const matter = require('gray-matter')
 const fs = require('fs')
 const { execSync } = require('child_process')
 
-const files = execSync('git ls-files docs/en/ docs/vn/')
-  .toString()
-  .trim()
-  .split('\n')
+const files = execSync('git ls-files docs/en/ docs/vn/').toString().trim().split('\n')
 
 let fixed = 0
 let skipped = 0
@@ -54,13 +51,10 @@ function fixUnquotedColons(text) {
 // `prompt: An "upward trend" means:` ends with a colon, which YAML
 // reads as a mapping separator. Wrap the whole value in quotes.
 function fixIndentedPromptColons(text) {
-  return text.replace(
-    /^(\s+prompt:[ \t]+)([^"'\n][^\n]*?:[ \t]*)$/gm,
-    (_m, prefix, value) => {
-      const escaped = value.replace(/\\/g, '\\\\').replace(/"/g, '\\"')
-      return `${prefix}"${escaped}"`
-    },
-  )
+  return text.replace(/^(\s+prompt:[ \t]+)([^"'\n][^\n]*?:[ \t]*)$/gm, (_m, prefix, value) => {
+    const escaped = value.replace(/\\/g, '\\\\').replace(/"/g, '\\"')
+    return `${prefix}"${escaped}"`
+  })
 }
 
 // Fix pattern 2: merge `prompt: "X" trailing text` (or single-quote

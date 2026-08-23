@@ -1,57 +1,53 @@
 ---
 {
-  "id": "c2-13-write-publish",
-  "slug": "c2-13-write-publish",
-  "titleEn": "Writing for Publication",
-  "titleVi": "Viết để Xuất bản",
-  "subtitleEn": "Navigate the scholarly publishing process and peer review discourse",
-  "subtitleVi": "Điều hướng quy trình xuất bản học thuật và diễn ngôn phản biện đồng nghiệp",
-  "level": "C2",
-  "unit": 3,
-  "skill": "reading",
-  "order": 13,
-  "cefr": "C2",
-  "minutes": 5,
-  "tags": [
-    "publishing",
-    "peer review",
-    "academic",
-    "journal",
-    "writing",
-    "scholarly"
-  ],
-  "audioScript": "Scholarly publishing follows established conventions and workflows.\nUnderstanding peer review discourse helps navigate revision requests.\nCover letters and response letters are genres unto themselves.\n",
-  "listeningEnabled": true,
-  "flashcardCount": 6,
-  "quiz": [
-    {
-      "type": "choice",
-      "prompt": "What is the purpose of a 'revise and resubmit' decision?",
-      "options": [
-        "Complete rejection",
-        "Conditional acceptance pending revisions",
-        "Immediate acceptance",
-        "Transfer to another journal"
-      ],
-      "answer": "Conditional acceptance pending revisions"
-    },
-    {
-      "type": "choice",
-      "prompt": "What should a cover letter NOT include according to journal conventions?",
-      "options": [
-        "Submission title and authors",
-        "Statement of originality",
-        "Detailed statistical methods",
-        "Suggested reviewers"
-      ],
-      "answer": "Detailed statistical methods"
-    },
-    {
-      "type": "fill",
-      "prompt": "The reviewer described the methodology as '___', indicating serious methodological concerns.",
-      "answer": "flawed"
-    }
-  ]
+  'id': 'c2-13-write-publish',
+  'slug': 'c2-13-write-publish',
+  'titleEn': 'Writing for Publication',
+  'titleVi': 'Viết để Xuất bản',
+  'subtitleEn': 'Navigate the scholarly publishing process and peer review discourse',
+  'subtitleVi': 'Điều hướng quy trình xuất bản học thuật và diễn ngôn phản biện đồng nghiệp',
+  'level': 'C2',
+  'unit': 3,
+  'skill': 'reading',
+  'order': 13,
+  'cefr': 'C2',
+  'minutes': 5,
+  'tags': ['publishing', 'peer review', 'academic', 'journal', 'writing', 'scholarly'],
+  'audioScript': "Scholarly publishing follows established conventions and workflows.\nUnderstanding peer review discourse helps navigate revision requests.\nCover letters and response letters are genres unto themselves.\n",
+  'listeningEnabled': true,
+  'flashcardCount': 6,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': "What is the purpose of a 'revise and resubmit' decision?",
+        'options':
+          [
+            'Complete rejection',
+            'Conditional acceptance pending revisions',
+            'Immediate acceptance',
+            'Transfer to another journal',
+          ],
+        'answer': 'Conditional acceptance pending revisions',
+      },
+      {
+        'type': 'choice',
+        'prompt': 'What should a cover letter NOT include according to journal conventions?',
+        'options':
+          [
+            'Submission title and authors',
+            'Statement of originality',
+            'Detailed statistical methods',
+            'Suggested reviewers',
+          ],
+        'answer': 'Detailed statistical methods',
+      },
+      {
+        'type': 'fill',
+        'prompt': "The reviewer described the methodology as '___', indicating serious methodological concerns.",
+        'answer': 'flawed',
+      },
+    ],
 }
 ---
 

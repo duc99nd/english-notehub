@@ -1,20 +1,20 @@
 ---
 {
-  "id": "professional-chat-communication",
-  "slug": "professional-chat-communication",
-  "titleEn": "Professional Chat Communication",
-  "titleVi": "Tiếng Anh chat Slack/Teams chuyên nghiệp",
-  "subtitleEn": "English for Slack and Teams",
-  "subtitleVi": "Giao tiếp nhanh gọn qua tin nhắn",
-  "level": "A2",
-  "cefr": "A2",
-  "skill": "speaking",
-  "order": 5,
-  "minutes": 3,
-  "categoryEn": "Foundation & Daily Communication",
-  "categoryVi": "Nền tảng Kỹ năng",
-  "tags": [],
-  "isArchived": false
+  'id': 'professional-chat-communication',
+  'slug': 'professional-chat-communication',
+  'titleEn': 'Professional Chat Communication',
+  'titleVi': 'Tiếng Anh chat Slack/Teams chuyên nghiệp',
+  'subtitleEn': 'English for Slack and Teams',
+  'subtitleVi': 'Giao tiếp nhanh gọn qua tin nhắn',
+  'level': 'A2',
+  'cefr': 'A2',
+  'skill': 'speaking',
+  'order': 5,
+  'minutes': 3,
+  'categoryEn': 'Foundation & Daily Communication',
+  'categoryVi': 'Nền tảng Kỹ năng',
+  'tags': [],
+  'isArchived': false,
 }
 ---
 

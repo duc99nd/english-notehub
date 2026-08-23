@@ -1,20 +1,20 @@
 ---
 {
-  "id": "asking-for-help-support",
-  "slug": "asking-for-help-support",
-  "titleEn": "Asking for Help & Support",
-  "titleVi": "Nhờ vả và yêu cầu hỗ trợ từ đồng nghiệp",
-  "subtitleEn": "Requesting assistance from colleagues",
-  "subtitleVi": "Cách nhờ hỗ trợ lịch sự, hiệu quả",
-  "level": "A2",
-  "cefr": "A2",
-  "skill": "speaking",
-  "order": 7,
-  "minutes": 5,
-  "categoryEn": "Foundation & Daily Communication",
-  "categoryVi": "Nền tảng Kỹ năng",
-  "tags": [],
-  "isArchived": false
+  'id': 'asking-for-help-support',
+  'slug': 'asking-for-help-support',
+  'titleEn': 'Asking for Help & Support',
+  'titleVi': 'Nhờ vả và yêu cầu hỗ trợ từ đồng nghiệp',
+  'subtitleEn': 'Requesting assistance from colleagues',
+  'subtitleVi': 'Cách nhờ hỗ trợ lịch sự, hiệu quả',
+  'level': 'A2',
+  'cefr': 'A2',
+  'skill': 'speaking',
+  'order': 7,
+  'minutes': 5,
+  'categoryEn': 'Foundation & Daily Communication',
+  'categoryVi': 'Nền tảng Kỹ năng',
+  'tags': [],
+  'isArchived': false,
 }
 ---
 

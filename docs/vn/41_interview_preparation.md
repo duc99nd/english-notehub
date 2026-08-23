@@ -1,20 +1,20 @@
 ---
 {
-  "id": "interview-preparation",
-  "slug": "interview-preparation",
-  "titleEn": "Job Interview Preparation",
-  "titleVi": "Chuẩn bị phỏng vấn tiếng Anh",
-  "subtitleEn": "Standard QA and strategies for professional English interviews",
-  "subtitleVi": "Câu hỏi thường gặp và chiến thuật trả lời phỏng vấn",
-  "level": "B1",
-  "cefr": "B1",
-  "skill": "speaking",
-  "order": 41,
-  "minutes": 5,
-  "categoryEn": "Career Growth & Interviews",
-  "categoryVi": "Sự nghiệp & Phỏng vấn",
-  "tags": [],
-  "isArchived": false
+  'id': 'interview-preparation',
+  'slug': 'interview-preparation',
+  'titleEn': 'Job Interview Preparation',
+  'titleVi': 'Chuẩn bị phỏng vấn tiếng Anh',
+  'subtitleEn': 'Standard QA and strategies for professional English interviews',
+  'subtitleVi': 'Câu hỏi thường gặp và chiến thuật trả lời phỏng vấn',
+  'level': 'B1',
+  'cefr': 'B1',
+  'skill': 'speaking',
+  'order': 41,
+  'minutes': 5,
+  'categoryEn': 'Career Growth & Interviews',
+  'categoryVi': 'Sự nghiệp & Phỏng vấn',
+  'tags': [],
+  'isArchived': false,
 }
 ---
 

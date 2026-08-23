@@ -1,57 +1,53 @@
 ---
 {
-  "id": "c2-11-research-presentation",
-  "slug": "c2-11-research-presentation",
-  "titleEn": "Research Presentation Vocabulary",
-  "titleVi": "Từ vựng Thuyết trình Nghiên cứu",
-  "subtitleEn": "Command the discourse of PhD defenses and research seminars",
-  "subtitleVi": "Làm chủ diễn ngôn của các buổi bảo vệ tiến sĩ và hội thảo nghiên cứu",
-  "level": "C2",
-  "unit": 3,
-  "skill": "vocab",
-  "order": 11,
-  "cefr": "C2",
-  "minutes": 5,
-  "tags": [
-    "research",
-    "academic",
-    "defense",
-    "PhD",
-    "methodology",
-    "vocabulary"
-  ],
-  "audioScript": "Research presentations require precise methodological vocabulary.\nDefense rhetoric balances confidence with epistemic humility.\nScholarly hedging maintains credibility while asserting findings.\n",
-  "listeningEnabled": true,
-  "flashcardCount": 6,
-  "quiz": [
-    {
-      "type": "choice",
-      "prompt": "Which phrase is most appropriate when acknowledging a study's limitations?",
-      "options": [
-        "The study has no limitations",
-        "Notwithstanding the limitations...",
-        "The limitations are irrelevant",
-        "We ignored the limitations"
-      ],
-      "answer": "Notwithstanding the limitations..."
-    },
-    {
-      "type": "choice",
-      "prompt": "What does 'methodological triangulation' mean?",
-      "options": [
-        "Using multiple research methods to verify findings",
-        "A type of statistical analysis",
-        "A research ethics framework",
-        "A citation style"
-      ],
-      "answer": "Using multiple research methods to verify findings"
-    },
-    {
-      "type": "fill",
-      "prompt": "The findings are ___ with the theoretical framework proposed in the literature.",
-      "answer": "consistent"
-    }
-  ]
+  'id': 'c2-11-research-presentation',
+  'slug': 'c2-11-research-presentation',
+  'titleEn': 'Research Presentation Vocabulary',
+  'titleVi': 'Từ vựng Thuyết trình Nghiên cứu',
+  'subtitleEn': 'Command the discourse of PhD defenses and research seminars',
+  'subtitleVi': 'Làm chủ diễn ngôn của các buổi bảo vệ tiến sĩ và hội thảo nghiên cứu',
+  'level': 'C2',
+  'unit': 3,
+  'skill': 'vocab',
+  'order': 11,
+  'cefr': 'C2',
+  'minutes': 5,
+  'tags': ['research', 'academic', 'defense', 'PhD', 'methodology', 'vocabulary'],
+  'audioScript': "Research presentations require precise methodological vocabulary.\nDefense rhetoric balances confidence with epistemic humility.\nScholarly hedging maintains credibility while asserting findings.\n",
+  'listeningEnabled': true,
+  'flashcardCount': 6,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': "Which phrase is most appropriate when acknowledging a study's limitations?",
+        'options':
+          [
+            'The study has no limitations',
+            'Notwithstanding the limitations...',
+            'The limitations are irrelevant',
+            'We ignored the limitations',
+          ],
+        'answer': 'Notwithstanding the limitations...',
+      },
+      {
+        'type': 'choice',
+        'prompt': "What does 'methodological triangulation' mean?",
+        'options':
+          [
+            'Using multiple research methods to verify findings',
+            'A type of statistical analysis',
+            'A research ethics framework',
+            'A citation style',
+          ],
+        'answer': 'Using multiple research methods to verify findings',
+      },
+      {
+        'type': 'fill',
+        'prompt': 'The findings are ___ with the theoretical framework proposed in the literature.',
+        'answer': 'consistent',
+      },
+    ],
 }
 ---
 

@@ -1,53 +1,41 @@
 ---
 {
-  "id": "a2-01-asking-help",
-  "slug": "a2-01-asking-help",
-  "titleEn": "Asking for Help",
-  "titleVi": "Hỏi xin giúp đỡ",
-  "subtitleEn": "Learn how to ask for help politely in everyday situations",
-  "subtitleVi": "Học cách hỏi xin giúp đỡ một cách lịch sự trong các tình huống hàng ngày",
-  "level": "A2",
-  "unit": 1,
-  "skill": "vocab",
-  "order": 1,
-  "cefr": "A2",
-  "minutes": 5,
-  "tags": [
-    "asking-help",
-    "polite",
-    "daily",
-    "vocabulary"
-  ],
-  "audioScript": "Excuse me, could you help me with this bag?\nSorry to bother you, but I need some help.\nWould you mind helping me, please?\n",
-  "listeningEnabled": true,
-  "flashcardCount": 6,
-  "quiz": [
-    {
-      "type": "choice",
-      "prompt": "How do you politely ask someone to help you carry a heavy box?",
-      "options": [
-        "Give me that box.",
-        "Could you help me with this box, please?",
-        "Help!"
-      ],
-      "answer": "Could you help me with this box, please?"
-    },
-    {
-      "type": "fill",
-      "prompt": "Excuse me, ___ you help me find the station?",
-      "answer": "could"
-    },
-    {
-      "type": "choice",
-      "prompt": "Which phrase is the most polite?",
-      "options": [
-        "Do this for me.",
-        "Would you mind helping me?",
-        "Come here!"
-      ],
-      "answer": "Would you mind helping me?"
-    }
-  ]
+  'id': 'a2-01-asking-help',
+  'slug': 'a2-01-asking-help',
+  'titleEn': 'Asking for Help',
+  'titleVi': 'Hỏi xin giúp đỡ',
+  'subtitleEn': 'Learn how to ask for help politely in everyday situations',
+  'subtitleVi': 'Học cách hỏi xin giúp đỡ một cách lịch sự trong các tình huống hàng ngày',
+  'level': 'A2',
+  'unit': 1,
+  'skill': 'vocab',
+  'order': 1,
+  'cefr': 'A2',
+  'minutes': 5,
+  'tags': ['asking-help', 'polite', 'daily', 'vocabulary'],
+  'audioScript': "Excuse me, could you help me with this bag?\nSorry to bother you, but I need some help.\nWould you mind helping me, please?\n",
+  'listeningEnabled': true,
+  'flashcardCount': 6,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': 'How do you politely ask someone to help you carry a heavy box?',
+        'options': ['Give me that box.', 'Could you help me with this box, please?', 'Help!'],
+        'answer': 'Could you help me with this box, please?',
+      },
+      {
+        'type': 'fill',
+        'prompt': 'Excuse me, ___ you help me find the station?',
+        'answer': 'could',
+      },
+      {
+        'type': 'choice',
+        'prompt': 'Which phrase is the most polite?',
+        'options': ['Do this for me.', 'Would you mind helping me?', 'Come here!'],
+        'answer': 'Would you mind helping me?',
+      },
+    ],
 }
 ---
 

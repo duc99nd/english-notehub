@@ -88,9 +88,7 @@ for (const file of files) {
   const lvl = data.level || data.cefr || '?'
   if (levelFilter && lvl !== levelFilter) continue
 
-  const bodyText = body
-    .replace(/```[\s\S]*?```/g, ' ')
-    .replace(/\|/g, ' ')
+  const bodyText = body.replace(/```[\s\S]*?```/g, ' ').replace(/\|/g, ' ')
   const wordCount = bodyText.split(/\s+/).filter((w) => w.length).length
   const minWords = minWordsByLevel[lvl] ?? 400
 
@@ -99,7 +97,10 @@ for (const file of files) {
   // appear anywhere in the body because dialogues are usually formatted
   // as blockquotes, lists, or plain lines.
   const hasDialogue = /\*\*?[A-Z][a-zA-Z]+(?:\*\*?)?:\s/.test(body)
-  const hasActivity = /\b(try it|your turn|write a|writing prompt|practice:|exercise:|now you try|đến lượt|thử viết|luyện tập|tự kiểm)\b/i.test(body)
+  const hasActivity =
+    /\b(try it|your turn|write a|writing prompt|practice:|exercise:|now you try|đến lượt|thử viết|luyện tập|tự kiểm)\b/i.test(
+      body,
+    )
   const hasPatternBox = /\*\*Pattern\b|\*\*Mẫu[^\*]*?\*\*|\*\*Pattern\s+[A-Z]/i.test(body)
   const emptyRows = (body.match(/^\|[ \t]*\|[ \t]*\|?[ \t]*$/gm) || []).length
   const h2Count = (body.match(/^## /gm) || []).length
@@ -172,9 +173,7 @@ const tier = (score) => {
   return 'CRITICAL'
 }
 
-console.log(
-  'TIER    SCORE  WORDS   ISSUES                              FILE',
-)
+console.log('TIER    SCORE  WORDS   ISSUES                              FILE')
 console.log('-'.repeat(96))
 for (const r of reports) {
   const issues = r.issues.length ? r.issues.join(' ').padEnd(36).slice(0, 36) : '-'.padEnd(36)

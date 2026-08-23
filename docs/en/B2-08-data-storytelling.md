@@ -1,53 +1,41 @@
 ---
 {
-  "id": "b2-08-data-storytelling",
-  "slug": "b2-08-data-storytelling",
-  "titleEn": "Data Storytelling",
-  "titleVi": "Kể chuyện bằng dữ liệu",
-  "subtitleEn": "Present data insights with impact",
-  "subtitleVi": "Trình bày insights dữ liệu có sức ảnh hưởng",
-  "level": "B2",
-  "unit": 2,
-  "skill": "vocab",
-  "order": 8,
-  "cefr": "B2",
-  "minutes": 5,
-  "tags": [
-    "data",
-    "storytelling",
-    "presentation",
-    "B2"
-  ],
-  "audioScript": "The data reveals a clear upward trend over the last quarter.\nOur findings underscore the need for immediate intervention.\nThis metric serves as a key indicator of customer satisfaction.\n",
-  "listeningEnabled": true,
-  "flashcardCount": 6,
-  "quiz": [
-    {
-      "type": "choice",
-      "prompt": "What does \"underscore\" mean?",
-      "options": [
-        "To hide",
-        "To emphasize",
-        "To calculate"
-      ],
-      "answer": "To emphasize"
-    },
-    {
-      "type": "fill",
-      "prompt": "This metric ___ as a key indicator of customer satisfaction.",
-      "answer": "serves"
-    },
-    {
-      "type": "choice",
-      "prompt": "An \\ upward trend\\\" means:\"",
-      "options": [
-        "Numbers are decreasing",
-        "Numbers are increasing",
-        "Numbers are stable"
-      ],
-      "answer": "Numbers are increasing"
-    }
-  ]
+  'id': 'b2-08-data-storytelling',
+  'slug': 'b2-08-data-storytelling',
+  'titleEn': 'Data Storytelling',
+  'titleVi': 'Kể chuyện bằng dữ liệu',
+  'subtitleEn': 'Present data insights with impact',
+  'subtitleVi': 'Trình bày insights dữ liệu có sức ảnh hưởng',
+  'level': 'B2',
+  'unit': 2,
+  'skill': 'vocab',
+  'order': 8,
+  'cefr': 'B2',
+  'minutes': 5,
+  'tags': ['data', 'storytelling', 'presentation', 'B2'],
+  'audioScript': "The data reveals a clear upward trend over the last quarter.\nOur findings underscore the need for immediate intervention.\nThis metric serves as a key indicator of customer satisfaction.\n",
+  'listeningEnabled': true,
+  'flashcardCount': 6,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': 'What does "underscore" mean?',
+        'options': ['To hide', 'To emphasize', 'To calculate'],
+        'answer': 'To emphasize',
+      },
+      {
+        'type': 'fill',
+        'prompt': 'This metric ___ as a key indicator of customer satisfaction.',
+        'answer': 'serves',
+      },
+      {
+        'type': 'choice',
+        'prompt': "An \\ upward trend\\\" means:\"",
+        'options': ['Numbers are decreasing', 'Numbers are increasing', 'Numbers are stable'],
+        'answer': 'Numbers are increasing',
+      },
+    ],
 }
 ---
 

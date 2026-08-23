@@ -1,54 +1,47 @@
 ---
 {
-  "id": "a2-09-should-must",
-  "slug": "a2-09-should-must",
-  "titleEn": "Should and Must",
-  "titleVi": "Should và Must",
-  "subtitleEn": "Give advice and express obligation using modal verbs",
-  "subtitleVi": "Đưa ra lời khuyên và diễn đạt nghĩa vụ sử dụng động từ khiếm khuyết",
-  "level": "A2",
-  "unit": 2,
-  "skill": "writing",
-  "order": 9,
-  "cefr": "A2",
-  "minutes": 5,
-  "tags": [
-    "should",
-    "must",
-    "modal-verbs",
-    "advice",
-    "writing"
-  ],
-  "audioScript": "You should study harder for the exam.\nYou must finish your homework before going out.\nYou should drink more water every day.\n",
-  "listeningEnabled": true,
-  "flashcardCount": 6,
-  "quiz": [
-    {
-      "type": "choice",
-      "prompt": "Which sentence gives advice?",
-      "options": [
-        "You must be on time.",
-        "You should try this restaurant.",
-        "You will go to school."
-      ],
-      "answer": "You should try this restaurant."
-    },
-    {
-      "type": "fill",
-      "prompt": "You ___ finish your work before the deadline. (must/should)",
-      "answer": "must"
-    },
-    {
-      "type": "choice",
-      "prompt": "What's the difference between should and must?",
-      "options": [
-        "They mean the same thing.",
-        "Should is advice, must is strong obligation.",
-        "Must is for past tense."
-      ],
-      "answer": "Should is advice, must is strong obligation."
-    }
-  ]
+  'id': 'a2-09-should-must',
+  'slug': 'a2-09-should-must',
+  'titleEn': 'Should and Must',
+  'titleVi': 'Should và Must',
+  'subtitleEn': 'Give advice and express obligation using modal verbs',
+  'subtitleVi': 'Đưa ra lời khuyên và diễn đạt nghĩa vụ sử dụng động từ khiếm khuyết',
+  'level': 'A2',
+  'unit': 2,
+  'skill': 'writing',
+  'order': 9,
+  'cefr': 'A2',
+  'minutes': 5,
+  'tags': ['should', 'must', 'modal-verbs', 'advice', 'writing'],
+  'audioScript': "You should study harder for the exam.\nYou must finish your homework before going out.\nYou should drink more water every day.\n",
+  'listeningEnabled': true,
+  'flashcardCount': 6,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': 'Which sentence gives advice?',
+        'options':
+          ['You must be on time.', 'You should try this restaurant.', 'You will go to school.'],
+        'answer': 'You should try this restaurant.',
+      },
+      {
+        'type': 'fill',
+        'prompt': 'You ___ finish your work before the deadline. (must/should)',
+        'answer': 'must',
+      },
+      {
+        'type': 'choice',
+        'prompt': "What's the difference between should and must?",
+        'options':
+          [
+            'They mean the same thing.',
+            'Should is advice, must is strong obligation.',
+            'Must is for past tense.',
+          ],
+        'answer': 'Should is advice, must is strong obligation.',
+      },
+    ],
 }
 ---
 

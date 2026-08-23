@@ -1,20 +1,20 @@
 ---
 {
-  "id": "small-talk-rapport",
-  "slug": "small-talk-rapport",
-  "titleEn": "English Small Talk And Rapport",
-  "titleVi": "Small talk và tạo kết nối tự nhiên",
-  "subtitleEn": "Natural opening and closing lines for meetings",
-  "subtitleVi": "Mở và đóng hội họp thân thiện hơn",
-  "level": "A2",
-  "cefr": "A2",
-  "skill": "speaking",
-  "order": 25,
-  "minutes": 4,
-  "categoryEn": "Agile & Meetings",
-  "categoryVi": "Hội họp & Quy trình",
-  "tags": [],
-  "isArchived": false
+  'id': 'small-talk-rapport',
+  'slug': 'small-talk-rapport',
+  'titleEn': 'English Small Talk And Rapport',
+  'titleVi': 'Small talk và tạo kết nối tự nhiên',
+  'subtitleEn': 'Natural opening and closing lines for meetings',
+  'subtitleVi': 'Mở và đóng hội họp thân thiện hơn',
+  'level': 'A2',
+  'cefr': 'A2',
+  'skill': 'speaking',
+  'order': 25,
+  'minutes': 4,
+  'categoryEn': 'Agile & Meetings',
+  'categoryVi': 'Hội họp & Quy trình',
+  'tags': [],
+  'isArchived': false,
 }
 ---
 

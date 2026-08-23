@@ -5,13 +5,13 @@ Trong phát triển phần mềm, sai sót là điều khó tránh. Code bị l�
 ```mermaid
 flowchart TD
     Incident[Sự cố xảy ra / Lời cáo buộc ⚠️] --> ResponseType{Chiến lược phản ứng}
-    
+
     ResponseType -->|Vòng lặp Phòng thủ / Đổ lỗi ❌| ToxicStart["Tức giận & Phòng thủ<br/>• Phản ứng theo cảm xúc"]
     ToxicStart --> Accuse["Đổ lỗi & Bao biện<br/>• Đùn đẩy trách nhiệm"]
     Accuse --> Morale["Giảm nhuệ khí & Mất lòng tin<br/>• Tạo khoảng cách phòng ban"]
     Morale --> Repeats["Không cải tiến quy trình<br/>• Lỗi cũ lặp lại"]
     Repeats --> ToxicStart
-    
+
     ResponseType -->|Vòng lặp Chuyên nghiệp / Không đổ lỗi ✅| ProfStart["Giữ bình tĩnh 🧘<br/>• Khách quan & kiểm soát cảm xúc"]
     ProfStart --> Facts["Trình bày sự thật & Dữ liệu<br/>• Check logs/git commits"]
     Facts --> Constructive["Thừa nhận có xây dựng<br/>• Nhận sai sót thực tế của mình"]
@@ -19,7 +19,7 @@ flowchart TD
     Steer --> PostMortem["Họp rút kinh nghiệm Post-Mortem<br/>• Ghi lại timeline chi tiết"]
     PostMortem --> Guardrails["Cải tiến quy trình<br/>• Thêm test cases/checks"]
     Guardrails --> Success([Hệ thống khôi phục & Team gắn kết hơn])
-    
+
     style Incident fill:#fee2e2,stroke:#ef4444,stroke-width:2px
     style ToxicStart fill:#fff1f2,stroke:#f43f5e,stroke-width:1px
     style ProfStart fill:#f0fdf4,stroke:#22c55e,stroke-width:1px

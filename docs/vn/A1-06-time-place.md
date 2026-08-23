@@ -1,65 +1,47 @@
 ---
 {
-  "id": "a1-06-time-place",
-  "slug": "a1-06-time-place",
-  "titleEn": "Time & Places",
-  "titleVi": "Thời gian & Địa điểm",
-  "subtitleEn": "Tell time, name places, and use the right preposition for each",
-  "subtitleVi": "Nói giờ, gọi tên địa điểm và dùng đúng giới từ cho mỗi trường hợp",
-  "level": "A1",
-  "unit": 2,
-  "skill": "vocab",
-  "order": 6,
-  "cefr": "A1",
-  "minutes": 8,
-  "tags": [
-    "time",
-    "places",
-    "prepositions",
-    "vocab",
-    "daily"
-  ],
-  "audioScript": "In the morning, I go to school.\nIn the afternoon, I study English at the library.\nIn the evening, I watch TV at home.\nOn Sunday, I visit my grandmother at her house.\n",
-  "listeningEnabled": true,
-  "flashcardCount": 10,
-  "quiz": [
-    {
-      "type": "choice",
-      "prompt": "Chọn giới từ đúng: 'I wake up ___ six in the morning.'",
-      "options": [
-        "in",
-        "on",
-        "at",
-        "by"
-      ],
-      "answer": "at"
-    },
-    {
-      "type": "choice",
-      "prompt": "Điền: 'She works ___ a hospital.'",
-      "options": [
-        "in",
-        "at",
-        "on"
-      ],
-      "answer": "at"
-    },
-    {
-      "type": "choice",
-      "prompt": "'Afternoon' là khoảng nào?",
-      "options": [
-        "6 sáng - 12 trưa",
-        "12 trưa - 6 chiều",
-        "6 chiều - 12 đêm"
-      ],
-      "answer": "12 trưa - 6 chiều"
-    },
-    {
-      "type": "fill",
-      "prompt": "I have a meeting ___ Monday morning. (giới từ)",
-      "answer": "on"
-    }
-  ]
+  'id': 'a1-06-time-place',
+  'slug': 'a1-06-time-place',
+  'titleEn': 'Time & Places',
+  'titleVi': 'Thời gian & Địa điểm',
+  'subtitleEn': 'Tell time, name places, and use the right preposition for each',
+  'subtitleVi': 'Nói giờ, gọi tên địa điểm và dùng đúng giới từ cho mỗi trường hợp',
+  'level': 'A1',
+  'unit': 2,
+  'skill': 'vocab',
+  'order': 6,
+  'cefr': 'A1',
+  'minutes': 8,
+  'tags': ['time', 'places', 'prepositions', 'vocab', 'daily'],
+  'audioScript': "In the morning, I go to school.\nIn the afternoon, I study English at the library.\nIn the evening, I watch TV at home.\nOn Sunday, I visit my grandmother at her house.\n",
+  'listeningEnabled': true,
+  'flashcardCount': 10,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': "Chọn giới từ đúng: 'I wake up ___ six in the morning.'",
+        'options': ['in', 'on', 'at', 'by'],
+        'answer': 'at',
+      },
+      {
+        'type': 'choice',
+        'prompt': "Điền: 'She works ___ a hospital.'",
+        'options': ['in', 'at', 'on'],
+        'answer': 'at',
+      },
+      {
+        'type': 'choice',
+        'prompt': "'Afternoon' là khoảng nào?",
+        'options': ['6 sáng - 12 trưa', '12 trưa - 6 chiều', '6 chiều - 12 đêm'],
+        'answer': '12 trưa - 6 chiều',
+      },
+      {
+        'type': 'fill',
+        'prompt': 'I have a meeting ___ Monday morning. (giới từ)',
+        'answer': 'on',
+      },
+    ],
 }
 ---
 
@@ -71,28 +53,28 @@ Mọi câu tiếng Anh nói về đời thực đều cần thời gian và đ�
 
 ## Thời gian trong ngày
 
-| Tiếng Anh | Tiếng Việt | Khoảng |
-| --- | --- | --- |
-| morning | buổi sáng | 6 sáng – 12 trưa |
-| noon / midday | buổi trưa | 12 trưa |
-| afternoon | buổi chiều | 12 trưa – 6 chiều |
-| evening | buổi tối (sớm) | 6 chiều – 10 tối |
-| night | ban đêm | 10 tối – 6 sáng |
-| midnight | nửa đêm | 12 đêm |
+| Tiếng Anh     | Tiếng Việt     | Khoảng            |
+| ------------- | -------------- | ----------------- |
+| morning       | buổi sáng      | 6 sáng – 12 trưa  |
+| noon / midday | buổi trưa      | 12 trưa           |
+| afternoon     | buổi chiều     | 12 trưa – 6 chiều |
+| evening       | buổi tối (sớm) | 6 chiều – 10 tối  |
+| night         | ban đêm        | 10 tối – 6 sáng   |
+| midnight      | nửa đêm        | 12 đêm            |
 
 > **Mẹo**: "Evening" và "night" có thể chồng lấn. Trong đời thường, bất cứ lúc nào sau khi trời tối là "evening" cho tới khi đi ngủ; sau đó là "night". Bữa tối lúc 7 giờ tối là "evening"; tiệc lúc 2 giờ sáng là "night".
 
 ## Các ngày trong tuần
 
-| Tiếng Anh | Tiếng Việt | Viết tắt | Mẹo phát âm |
-| --- | --- | --- | --- |
-| Monday | thứ Hai | Mon | "Mun-day" |
-| Tuesday | thứ Ba | Tue | "Tyooz-day" |
-| Wednesday | thứ Tư | Wed | "Wenz-day" |
-| Thursday | thứ Năm | Thu | "Thurz-day" |
-| Friday | thứ Sáu | Fri | "Fry-day" |
-| Saturday | thứ Bảy | Sat | "Sat-ur-day" |
-| Sunday | Chủ Nhật | Sun | "Sun-day" |
+| Tiếng Anh | Tiếng Việt | Viết tắt | Mẹo phát âm  |
+| --------- | ---------- | -------- | ------------ |
+| Monday    | thứ Hai    | Mon      | "Mun-day"    |
+| Tuesday   | thứ Ba     | Tue      | "Tyooz-day"  |
+| Wednesday | thứ Tư     | Wed      | "Wenz-day"   |
+| Thursday  | thứ Năm    | Thu      | "Thurz-day"  |
+| Friday    | thứ Sáu    | Fri      | "Fry-day"    |
+| Saturday  | thứ Bảy    | Sat      | "Sat-ur-day" |
+| Sunday    | Chủ Nhật   | Sun      | "Sun-day"    |
 
 > **Mẹo**: Phần "-day" là khó nhất cho người Việt. "Wednesday" chỉ là **một âm tiết cộng -day**: /wenz-day/, KHÔNG phải "Wed-nes-day". Tương tự với "Saturday", "Tuesday", "Thursday".
 
@@ -101,54 +83,57 @@ Mọi câu tiếng Anh nói về đời thực đều cần thời gian và đ�
 Đây là một trong những quyết định ngữ pháp đầu tiên mà người học phải đưa ra — và khó vì cùng một từ có thể thay đổi nghĩa.
 
 > **Mẫu A**: `at [giờ cụ thể]`
+>
 > - `at 7 o'clock`, `at noon`, `at night`, `at midnight`
 >
 > **Mẫu B**: `in [khoảng thời gian]`
+>
 > - `in the morning`, `in the afternoon`, `in May`, `in 2026`
 >
 > **Mẫu C**: `on [ngày / ngày cụ thể]`
+>
 > - `on Monday`, `on Sunday`, `on July 4th`, `on my birthday`
 
 ### Ngoại lệ "at home"
 
 Khi nơi chốn là "home", "work", hoặc "school" (một nhóm nhỏ nơi bạn "ở"), dùng **at** — không phải "in":
 
-| Tiếng Anh | Vì sao |
-| --- | --- |
-| `I am at home.` | (home là nơi bạn sống, coi như một điểm) |
-| `I am at work.` | (work là nơi làm việc) |
-| `I am at school.` | (school là nơi học) |
-| `I am in the office.` | (một tòa nhà cụ thể, dùng "in") |
-| `I am in the library.` | (một phòng trong tòa nhà, dùng "in") |
+| Tiếng Anh              | Vì sao                                   |
+| ---------------------- | ---------------------------------------- |
+| `I am at home.`        | (home là nơi bạn sống, coi như một điểm) |
+| `I am at work.`        | (work là nơi làm việc)                   |
+| `I am at school.`      | (school là nơi học)                      |
+| `I am in the office.`  | (một tòa nhà cụ thể, dùng "in")          |
+| `I am in the library.` | (một phòng trong tòa nhà, dùng "in")     |
 
 > **Quy tắc nhanh**: "at" cho **nơi-như-hoạt-động** (home, work, school), "in" cho **nơi-như-không-gian** (the office, the library, Vietnam).
 
 ### Giới từ + địa điểm — bảng đầy đủ
 
-| Cụm | Giới từ | Ví dụ |
-| --- | --- | --- |
-| at home / at work / at school | **at** | I am at home. |
-| in the office / in the library | **in** | I work in the office. |
-| at the bank / at the restaurant / at the park | **at** | I am at the bank. |
-| on the bus / on the train | **on** | I am on the bus. |
-| in Vietnam / in Hanoi | **in** | I live in Vietnam. |
+| Cụm                                           | Giới từ | Ví dụ                 |
+| --------------------------------------------- | ------- | --------------------- |
+| at home / at work / at school                 | **at**  | I am at home.         |
+| in the office / in the library                | **in**  | I work in the office. |
+| at the bank / at the restaurant / at the park | **at**  | I am at the bank.     |
+| on the bus / on the train                     | **on**  | I am on the bus.      |
+| in Vietnam / in Hanoi                         | **in**  | I live in Vietnam.    |
 
 ## Từ vựng địa điểm phổ biến
 
-| Tiếng Anh | Tiếng Việt | Ví dụ |
-| --- | --- | --- |
-| home | nhà | I go home at 6 PM. |
-| school | trường | The children are at school. |
-| office | văn phòng | I work in an office. |
-| hospital | bệnh viện | She is at the hospital. |
-| restaurant | nhà hàng | We eat at a restaurant. |
-| market | chợ | I buy food at the market. |
-| park | công viên | They walk in the park. |
-| library | thư viện | I study at the library. |
-| gym | phòng tập | He works out at the gym. |
-| bank | ngân hàng | I go to the bank on Friday. |
-| coffee shop / café | quán cà phê | We meet at a café. |
-| supermarket | siêu thị | She buys food at the supermarket. |
+| Tiếng Anh          | Tiếng Việt  | Ví dụ                             |
+| ------------------ | ----------- | --------------------------------- |
+| home               | nhà         | I go home at 6 PM.                |
+| school             | trường      | The children are at school.       |
+| office             | văn phòng   | I work in an office.              |
+| hospital           | bệnh viện   | She is at the hospital.           |
+| restaurant         | nhà hàng    | We eat at a restaurant.           |
+| market             | chợ         | I buy food at the market.         |
+| park               | công viên   | They walk in the park.            |
+| library            | thư viện    | I study at the library.           |
+| gym                | phòng tập   | He works out at the gym.          |
+| bank               | ngân hàng   | I go to the bank on Friday.       |
+| coffee shop / café | quán cà phê | We meet at a café.                |
+| supermarket        | siêu thị    | She buys food at the supermarket. |
 
 ## Nghe một cuộc trò chuyện cuối tuần thật
 
@@ -196,10 +181,10 @@ Lưu ý cách Đức dùng **on + ngày**, **in + phần ngày**, và **at + gi�
 
 Điền vào chỗ trống với giới từ đúng (at, in, on).
 
-> I wake up ___ 6:30 ___ the morning. I have breakfast ___ home.
-> I go ___ school ___ Monday, Wednesday, and Friday. ___ the afternoon, I study ___ the library.
-> ___ Saturday, I go ___ the market ___ the morning. ___ the evening, I rest ___ home.
-> ___ Sunday, my family goes ___ the park.
+> I wake up **_ 6:30 _** the morning. I have breakfast **_ home.
+> I go _** school **_ Monday, Wednesday, and Friday. _** the afternoon, I study **_ the library.
+> _** Saturday, I go **_ the market _** the morning. **_ the evening, I rest _** home.
+> **_ Sunday, my family goes _** the park.
 
 **Tự kiểm tra**:
 

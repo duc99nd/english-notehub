@@ -1,54 +1,47 @@
 ---
 {
-  "id": "b2-02-conflict-resolution",
-  "slug": "b2-02-conflict-resolution",
-  "titleEn": "Conflict Resolution Grammar",
-  "titleVi": "Ngữ pháp giải quyết xung đột",
-  "subtitleEn": "Use passive voice and conditionals for tactful communication",
-  "subtitleVi": "Dùng câu bị động và câu điều kiện để giao tiếp khéo léo",
-  "level": "B2",
-  "unit": 1,
-  "skill": "grammar",
-  "order": 2,
-  "cefr": "B2",
-  "minutes": 5,
-  "tags": [
-    "conflict",
-    "workplace",
-    "grammar",
-    "passive",
-    "conditionals"
-  ],
-  "audioScript": "If the issue had been raised earlier, we could have avoided this.\nThe decision was made without consulting the team.\nHad we discussed this beforehand, things would have been different.\n",
-  "listeningEnabled": true,
-  "flashcardCount": 6,
-  "quiz": [
-    {
-      "type": "choice",
-      "prompt": "Which sentence is correct passive voice?",
-      "options": [
-        "The mistake was made by them.",
-        "The mistake were made by them.",
-        "The mistake made by them."
-      ],
-      "answer": "The mistake was made by them."
-    },
-    {
-      "type": "fill",
-      "prompt": "If the issue ___ raised earlier, we could have avoided this.",
-      "answer": "had been"
-    },
-    {
-      "type": "choice",
-      "prompt": "What does \"Had we discussed this\" mean?",
-      "options": [
-        "If we will discuss this",
-        "If we had discussed this",
-        "We should discuss this"
-      ],
-      "answer": "If we had discussed this"
-    }
-  ]
+  'id': 'b2-02-conflict-resolution',
+  'slug': 'b2-02-conflict-resolution',
+  'titleEn': 'Conflict Resolution Grammar',
+  'titleVi': 'Ngữ pháp giải quyết xung đột',
+  'subtitleEn': 'Use passive voice and conditionals for tactful communication',
+  'subtitleVi': 'Dùng câu bị động và câu điều kiện để giao tiếp khéo léo',
+  'level': 'B2',
+  'unit': 1,
+  'skill': 'grammar',
+  'order': 2,
+  'cefr': 'B2',
+  'minutes': 5,
+  'tags': ['conflict', 'workplace', 'grammar', 'passive', 'conditionals'],
+  'audioScript': "If the issue had been raised earlier, we could have avoided this.\nThe decision was made without consulting the team.\nHad we discussed this beforehand, things would have been different.\n",
+  'listeningEnabled': true,
+  'flashcardCount': 6,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': 'Which sentence is correct passive voice?',
+        'options':
+          [
+            'The mistake was made by them.',
+            'The mistake were made by them.',
+            'The mistake made by them.',
+          ],
+        'answer': 'The mistake was made by them.',
+      },
+      {
+        'type': 'fill',
+        'prompt': 'If the issue ___ raised earlier, we could have avoided this.',
+        'answer': 'had been',
+      },
+      {
+        'type': 'choice',
+        'prompt': 'What does "Had we discussed this" mean?',
+        'options':
+          ['If we will discuss this', 'If we had discussed this', 'We should discuss this'],
+        'answer': 'If we had discussed this',
+      },
+    ],
 }
 ---
 

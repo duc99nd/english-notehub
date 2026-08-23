@@ -1,67 +1,54 @@
 ---
 {
-  "id": "a1-11-shopping-money",
-  "slug": "a1-11-shopping-money",
-  "titleEn": "Shopping & Money",
-  "titleVi": "Mua sắm & Tiền bạc",
-  "subtitleEn": "Ask about prices, talk about money, and shop in English",
-  "subtitleVi": "Hỏi giá, nói về tiền và mua sắm bằng tiếng Anh",
-  "level": "A1",
-  "unit": 3,
-  "skill": "vocab",
-  "order": 11,
-  "cefr": "A1",
-  "minutes": 8,
-  "tags": [
-    "shopping",
-    "money",
-    "numbers",
-    "vocab",
-    "daily"
-  ],
-  "audioScript": "How much does this shirt cost?\nIt costs fifty thousand dong.\nI would like to buy this book, please.\nDo you accept credit cards?\n",
-  "listeningEnabled": true,
-  "flashcardCount": 12,
-  "quiz": [
-    {
-      "type": "choice",
-      "prompt": "Câu hỏi nào dùng để hỏi giá?",
-      "options": [
-        "How many is this?",
-        "How much is this?",
-        "How old is this?",
-        "How much money do you have?"
-      ],
-      "answer": "How much is this?"
-    },
-    {
-      "type": "choice",
-      "prompt": "Trái nghĩa của 'cheap' là gì?",
-      "options": [
-        "small",
-        "expensive",
-        "free",
-        "discount"
-      ],
-      "answer": "expensive"
-    },
-    {
-      "type": "fill",
-      "prompt": "It ___ 50 dollars. (động từ chỉ giá = costs)",
-      "answer": "costs"
-    },
-    {
-      "type": "choice",
-      "prompt": "Bạn muốn trả bằng thẻ Visa. Bạn hỏi:",
-      "options": [
-        "Where is the card?",
-        "Can I pay by card?",
-        "How many cards?",
-        "Do you take dollars?"
-      ],
-      "answer": "Can I pay by card?"
-    }
-  ]
+  'id': 'a1-11-shopping-money',
+  'slug': 'a1-11-shopping-money',
+  'titleEn': 'Shopping & Money',
+  'titleVi': 'Mua sắm & Tiền bạc',
+  'subtitleEn': 'Ask about prices, talk about money, and shop in English',
+  'subtitleVi': 'Hỏi giá, nói về tiền và mua sắm bằng tiếng Anh',
+  'level': 'A1',
+  'unit': 3,
+  'skill': 'vocab',
+  'order': 11,
+  'cefr': 'A1',
+  'minutes': 8,
+  'tags': ['shopping', 'money', 'numbers', 'vocab', 'daily'],
+  'audioScript': "How much does this shirt cost?\nIt costs fifty thousand dong.\nI would like to buy this book, please.\nDo you accept credit cards?\n",
+  'listeningEnabled': true,
+  'flashcardCount': 12,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': 'Câu hỏi nào dùng để hỏi giá?',
+        'options':
+          [
+            'How many is this?',
+            'How much is this?',
+            'How old is this?',
+            'How much money do you have?',
+          ],
+        'answer': 'How much is this?',
+      },
+      {
+        'type': 'choice',
+        'prompt': "Trái nghĩa của 'cheap' là gì?",
+        'options': ['small', 'expensive', 'free', 'discount'],
+        'answer': 'expensive',
+      },
+      {
+        'type': 'fill',
+        'prompt': 'It ___ 50 dollars. (động từ chỉ giá = costs)',
+        'answer': 'costs',
+      },
+      {
+        'type': 'choice',
+        'prompt': 'Bạn muốn trả bằng thẻ Visa. Bạn hỏi:',
+        'options':
+          ['Where is the card?', 'Can I pay by card?', 'How many cards?', 'Do you take dollars?'],
+        'answer': 'Can I pay by card?',
+      },
+    ],
 }
 ---
 
@@ -77,30 +64,30 @@
 >
 > **Mẫu B — How many + đếm được (số lượng)**: `How many apples do you want?` `How many shirts are there?`
 
-| Câu hỏi | Dùng cho | Ví dụ |
-| --- | --- | --- |
-| How much is this? | giá một món | "How much is this shirt?" |
-| How much are these? | giá nhiều món | "How much are these apples?" |
-| How much does it cost? | giá (trang trọng) | "How much does this phone cost?" |
-| How many do you want? | số lượng | "How many coffees would you like?" |
-| How many are there? | số lượng | "How many shirts do you have?" |
+| Câu hỏi                | Dùng cho          | Ví dụ                              |
+| ---------------------- | ----------------- | ---------------------------------- |
+| How much is this?      | giá một món       | "How much is this shirt?"          |
+| How much are these?    | giá nhiều món     | "How much are these apples?"       |
+| How much does it cost? | giá (trang trọng) | "How much does this phone cost?"   |
+| How many do you want?  | số lượng          | "How many coffees would you like?" |
+| How many are there?    | số lượng          | "How many shirts do you have?"     |
 
 ## Từ vựng tiền bạc
 
-| Tiếng Anh | Tiếng Việt | Ví dụ |
-| --- | --- | --- |
-| money | tiền | I don't have any money. |
-| price | giá | What's the price? |
-| cheap | rẻ | This shirt is cheap. |
-| expensive | đắt | That phone is expensive. |
-| free | miễn phí | The coffee is free. |
-| discount | giảm giá | Is there a discount? |
-| sale | khuyến mãi | The shirts are on sale. |
-| cash | tiền mặt | I pay in cash. |
-| credit card | thẻ tín dụng | Do you take credit cards? |
-| change (coins) | tiền lẻ / tiền thừa | Keep the change. |
-| receipt | hóa đơn | Can I have a receipt? |
-| bill | hóa đơn (US) | The bill, please. |
+| Tiếng Anh      | Tiếng Việt          | Ví dụ                     |
+| -------------- | ------------------- | ------------------------- |
+| money          | tiền                | I don't have any money.   |
+| price          | giá                 | What's the price?         |
+| cheap          | rẻ                  | This shirt is cheap.      |
+| expensive      | đắt                 | That phone is expensive.  |
+| free           | miễn phí            | The coffee is free.       |
+| discount       | giảm giá            | Is there a discount?      |
+| sale           | khuyến mãi          | The shirts are on sale.   |
+| cash           | tiền mặt            | I pay in cash.            |
+| credit card    | thẻ tín dụng        | Do you take credit cards? |
+| change (coins) | tiền lẻ / tiền thừa | Keep the change.          |
+| receipt        | hóa đơn             | Can I have a receipt?     |
+| bill           | hóa đơn (US)        | The bill, please.         |
 
 > **Lưu ý**: "Bill" ở Mỹ = hóa đơn ở nhà hàng, VÀ tờ tiền (a $5 bill). "Change" nghĩa là cả "tiền xu" và "tiền thừa trả lại" — cùng một từ, hai nghĩa.
 
@@ -108,29 +95,29 @@
 
 > **Mẫu**: `It costs [số] [tiền tệ].`
 
-| Tiếng Anh | Tiếng Việt |
-| --- | --- |
-| It costs $10. | Nó giá 10 đô. |
-| It costs 50,000 dong. | Nó giá 50.000 đồng. |
-| It costs £5.50 (five pounds fifty). | Nó giá 5,50 bảng. |
-| It costs €20 (twenty euros). | Nó giá 20 euro. |
+| Tiếng Anh                           | Tiếng Việt          |
+| ----------------------------------- | ------------------- |
+| It costs $10.                       | Nó giá 10 đô.       |
+| It costs 50,000 dong.               | Nó giá 50.000 đồng. |
+| It costs £5.50 (five pounds fifty). | Nó giá 5,50 bảng.   |
+| It costs €20 (twenty euros).        | Nó giá 20 euro.     |
 
 > **Mẹo**: Khi nói số thập phân, nói "**point**" hoặc "**and**" giữa phần nguyên và phần lẻ. "$5.50" = "five dollars **fifty**" hoặc "five dollars **and fifty cents**".
 
 ## Nơi để mua sắm
 
-| Nơi | Tiếng Việt | Mua gì |
-| --- | --- | --- |
-| supermarket | siêu thị | đồ ăn, đồ dùng hàng ngày |
-| market | chợ | đồ ăn tươi, quần áo |
-| shopping mall | trung tâm thương mại | quần áo, đồ điện tử |
-| bookstore | hiệu sách | sách |
-| pharmacy / drugstore | nhà thuốc | thuốc, đồ vệ sinh cá nhân |
-| clothing store | cửa hàng quần áo | quần áo |
-| convenience store | cửa hàng tiện lợi | đồ ăn vặt, đồ uống |
-| bakery | tiệm bánh | bánh mì, bánh ngọt |
-| butcher | tiệm thịt | thịt |
-| greengrocer | tiệm trái cây / rau | trái cây, rau |
+| Nơi                  | Tiếng Việt           | Mua gì                    |
+| -------------------- | -------------------- | ------------------------- |
+| supermarket          | siêu thị             | đồ ăn, đồ dùng hàng ngày  |
+| market               | chợ                  | đồ ăn tươi, quần áo       |
+| shopping mall        | trung tâm thương mại | quần áo, đồ điện tử       |
+| bookstore            | hiệu sách            | sách                      |
+| pharmacy / drugstore | nhà thuốc            | thuốc, đồ vệ sinh cá nhân |
+| clothing store       | cửa hàng quần áo     | quần áo                   |
+| convenience store    | cửa hàng tiện lợi    | đồ ăn vặt, đồ uống        |
+| bakery               | tiệm bánh            | bánh mì, bánh ngọt        |
+| butcher              | tiệm thịt            | thịt                      |
+| greengrocer          | tiệm trái cây / rau  | trái cây, rau             |
 
 ## Cụm mua sắm — kịch bản
 
@@ -142,15 +129,15 @@
 >
 > **Mẫu D — Trả tiền**: `Can I pay by card?` / `I'll pay in cash.`
 
-| Bước | Câu nói |
-| --- | --- |
-| 1. Xem | (Nhìn quanh. Cầm một món lên.) |
-| 2. Hỏi giá | "Excuse me, how much is this?" |
+| Bước                 | Câu nói                                             |
+| -------------------- | --------------------------------------------------- |
+| 1. Xem               | (Nhìn quanh. Cầm một món lên.)                      |
+| 2. Hỏi giá           | "Excuse me, how much is this?"                      |
 | 3. Mặc cả (tùy chọn) | "It's a bit expensive. Can you give me a discount?" |
-| 4. Quyết định | "I'll take it." / "Just looking, thanks." |
-| 5. Trả tiền | "Can I pay by card?" / "I'll pay in cash." |
-| 6. Tiền thừa | "Keep the change, thanks." |
-| 7. Hóa đơn | "Can I have a receipt, please?" |
+| 4. Quyết định        | "I'll take it." / "Just looking, thanks."           |
+| 5. Trả tiền          | "Can I pay by card?" / "I'll pay in cash."          |
+| 6. Tiền thừa         | "Keep the change, thanks."                          |
+| 7. Hóa đơn           | "Can I have a receipt, please?"                     |
 
 > **Mẹo**: "I'll take it" nghĩa là "Tôi sẽ mua". "Just looking, thanks" nghĩa là "Tôi chỉ xem thôi, cảm ơn" — dùng khi nhân viên đến hỏi bạn.
 
@@ -212,23 +199,23 @@ Lưu ý cách Anna mặc cả lịch sự ("a bit expensive", "a better price").
 
 Tưởng tượng bạn ở một khu chợ ở Việt Nam. Luyện đoạn hội thoại này to.
 
-> **You**: "Excuse me, ___ (hỏi về một cái áo)"
+> **You**: "Excuse me, \_\_\_ (hỏi về một cái áo)"
 >
 > **Seller**: "It's 200,000 dong."
 >
-> **You**: "___ (mặc cả: quá đắt)"
+> **You**: "\_\_\_ (mặc cả: quá đắt)"
 >
 > **Seller**: "OK, 150,000."
 >
-> **You**: "___ (quyết định)"
+> **You**: "\_\_\_ (quyết định)"
 >
 > **Seller**: "How do you pay?"
 >
-> **You**: "___ (tiền mặt hay thẻ)"
+> **You**: "\_\_\_ (tiền mặt hay thẻ)"
 >
 > **Seller**: "Thanks!"
 >
-> **You**: "___ (kết thúc lịch sự)"
+> **You**: "\_\_\_ (kết thúc lịch sự)"
 
 **Tự kiểm tra**:
 

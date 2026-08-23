@@ -1,20 +1,20 @@
 ---
 {
-  "id": "summarizing-meeting-minutes",
-  "slug": "summarizing-meeting-minutes",
-  "titleEn": "Summarizing Meeting Minutes",
-  "titleVi": "Cách chốt biên bản cuộc họp (MOM)",
-  "subtitleEn": "Writing and confirming meeting takeaways",
-  "subtitleVi": "Tóm tắt Action Items và gửi email xác nhận",
-  "level": "B1",
-  "cefr": "B1",
-  "skill": "speaking",
-  "order": 30,
-  "minutes": 5,
-  "categoryEn": "Agile & Meetings",
-  "categoryVi": "Hội họp & Quy trình",
-  "tags": [],
-  "isArchived": false
+  'id': 'summarizing-meeting-minutes',
+  'slug': 'summarizing-meeting-minutes',
+  'titleEn': 'Summarizing Meeting Minutes',
+  'titleVi': 'Cách chốt biên bản cuộc họp (MOM)',
+  'subtitleEn': 'Writing and confirming meeting takeaways',
+  'subtitleVi': 'Tóm tắt Action Items và gửi email xác nhận',
+  'level': 'B1',
+  'cefr': 'B1',
+  'skill': 'speaking',
+  'order': 30,
+  'minutes': 5,
+  'categoryEn': 'Agile & Meetings',
+  'categoryVi': 'Hội họp & Quy trình',
+  'tags': [],
+  'isArchived': false,
 }
 ---
 

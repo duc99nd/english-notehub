@@ -1,53 +1,37 @@
 ---
 {
-  "id": "b2-14-formal-correspondence",
-  "slug": "b2-14-formal-correspondence",
-  "titleEn": "Formal Correspondence",
-  "titleVi": "Thư tín trang trọng",
-  "subtitleEn": "Write professional letters and formal emails",
-  "subtitleVi": "Viết thư và email trang trọng chuyên nghiệp",
-  "level": "B2",
-  "unit": 3,
-  "skill": "writing",
-  "order": 14,
-  "cefr": "B2",
-  "minutes": 5,
-  "tags": [
-    "writing",
-    "formal",
-    "correspondence",
-    "B2"
-  ],
-  "audioScript": "I am writing to inquire about the position advertised on your website.\nI would be grateful if you could provide further information.\nI look forward to hearing from you at your earliest convenience.\n",
-  "listeningEnabled": true,
-  "flashcardCount": 6,
-  "quiz": [
-    {
-      "type": "choice",
-      "prompt": "Which is a formal opening?",
-      "options": [
-        "Hey!",
-        "Dear Sir or Madam,",
-        "What's up?"
-      ],
-      "answer": "Dear Sir or Madam,"
-    },
-    {
-      "type": "fill",
-      "prompt": "I am writing to ___ about the position.",
-      "answer": "inquire"
-    },
-    {
-      "type": "choice",
-      "prompt": "At your earliest convenience means:",
-      "options": [
-        "Immediately",
-        "When it's convenient for you",
-        "Never"
-      ],
-      "answer": "When it's convenient for you"
-    }
-  ]
+  'id': 'b2-14-formal-correspondence',
+  'slug': 'b2-14-formal-correspondence',
+  'titleEn': 'Formal Correspondence',
+  'titleVi': 'Thư tín trang trọng',
+  'subtitleEn': 'Write professional letters and formal emails',
+  'subtitleVi': 'Viết thư và email trang trọng chuyên nghiệp',
+  'level': 'B2',
+  'unit': 3,
+  'skill': 'writing',
+  'order': 14,
+  'cefr': 'B2',
+  'minutes': 5,
+  'tags': ['writing', 'formal', 'correspondence', 'B2'],
+  'audioScript': "I am writing to inquire about the position advertised on your website.\nI would be grateful if you could provide further information.\nI look forward to hearing from you at your earliest convenience.\n",
+  'listeningEnabled': true,
+  'flashcardCount': 6,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': 'Which is a formal opening?',
+        'options': ['Hey!', 'Dear Sir or Madam,', "What's up?"],
+        'answer': 'Dear Sir or Madam,',
+      },
+      { 'type': 'fill', 'prompt': 'I am writing to ___ about the position.', 'answer': 'inquire' },
+      {
+        'type': 'choice',
+        'prompt': 'At your earliest convenience means:',
+        'options': ['Immediately', "When it's convenient for you", 'Never'],
+        'answer': "When it's convenient for you",
+      },
+    ],
 }
 ---
 

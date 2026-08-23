@@ -1,53 +1,41 @@
 ---
 {
-  "id": "a2-06-email-basics",
-  "slug": "a2-06-email-basics",
-  "titleEn": "Email Basics",
-  "titleVi": "Email cơ bản",
-  "subtitleEn": "Learn key vocabulary and phrases for writing emails",
-  "subtitleVi": "Học từ vựng và cụm từ quan trọng để viết email",
-  "level": "A2",
-  "unit": 2,
-  "skill": "vocab",
-  "order": 6,
-  "cefr": "A2",
-  "minutes": 5,
-  "tags": [
-    "email",
-    "writing",
-    "vocabulary",
-    "communication"
-  ],
-  "audioScript": "Dear Sir or Madam, I am writing to inquire about your services.\nThank you for your email.\nI look forward to hearing from you.\n",
-  "listeningEnabled": true,
-  "flashcardCount": 6,
-  "quiz": [
-    {
-      "type": "choice",
-      "prompt": "Which greeting is formal for business emails?",
-      "options": [
-        "Hey there!",
-        "Dear Sir or Madam,",
-        "Hi mate!"
-      ],
-      "answer": "Dear Sir or Madam,"
-    },
-    {
-      "type": "fill",
-      "prompt": "I am writing to ___ about your product. (inquire)",
-      "answer": "inquire"
-    },
-    {
-      "type": "choice",
-      "prompt": "Which closing phrase is the most formal?",
-      "options": [
-        "Cheers",
-        "Best regards",
-        "Talk soon"
-      ],
-      "answer": "Best regards"
-    }
-  ]
+  'id': 'a2-06-email-basics',
+  'slug': 'a2-06-email-basics',
+  'titleEn': 'Email Basics',
+  'titleVi': 'Email cơ bản',
+  'subtitleEn': 'Learn key vocabulary and phrases for writing emails',
+  'subtitleVi': 'Học từ vựng và cụm từ quan trọng để viết email',
+  'level': 'A2',
+  'unit': 2,
+  'skill': 'vocab',
+  'order': 6,
+  'cefr': 'A2',
+  'minutes': 5,
+  'tags': ['email', 'writing', 'vocabulary', 'communication'],
+  'audioScript': "Dear Sir or Madam, I am writing to inquire about your services.\nThank you for your email.\nI look forward to hearing from you.\n",
+  'listeningEnabled': true,
+  'flashcardCount': 6,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': 'Which greeting is formal for business emails?',
+        'options': ['Hey there!', 'Dear Sir or Madam,', 'Hi mate!'],
+        'answer': 'Dear Sir or Madam,',
+      },
+      {
+        'type': 'fill',
+        'prompt': 'I am writing to ___ about your product. (inquire)',
+        'answer': 'inquire',
+      },
+      {
+        'type': 'choice',
+        'prompt': 'Which closing phrase is the most formal?',
+        'options': ['Cheers', 'Best regards', 'Talk soon'],
+        'answer': 'Best regards',
+      },
+    ],
 }
 ---
 

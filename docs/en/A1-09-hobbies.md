@@ -1,67 +1,53 @@
 ---
 {
-  "id": "a1-09-hobbies",
-  "slug": "a1-09-hobbies",
-  "titleEn": "Hobbies & Free Time",
-  "titleVi": "Sở thích & Thời gian rảnh",
-  "subtitleEn": "Talk about your hobbies using 'like', 'love', and 'enjoy'",
-  "subtitleVi": "Nói về sở thích bằng 'like', 'love', và 'enjoy'",
-  "level": "A1",
-  "unit": 2,
-  "skill": "writing",
-  "order": 9,
-  "cefr": "A1",
-  "minutes": 7,
-  "tags": [
-    "hobbies",
-    "free-time",
-    "preferences",
-    "writing",
-    "speaking"
-  ],
-  "audioScript": "In my free time, I like to read books.\nSometimes I play soccer with my friends.\nI enjoy listening to music. I also like cooking.\nOn weekends, I often watch movies.\n",
-  "listeningEnabled": true,
-  "flashcardCount": 12,
-  "quiz": [
-    {
-      "type": "choice",
-      "prompt": "Which is correct?",
-      "options": [
-        "I enjoy to read books.",
-        "I enjoy reading books.",
-        "I enjoy read books.",
-        "I enjoying read books."
-      ],
-      "answer": "I enjoy reading books."
-    },
-    {
-      "type": "choice",
-      "prompt": "Which verb goes with 'music'?",
-      "options": [
-        "play music",
-        "listen to music",
-        "watch music",
-        "do music"
-      ],
-      "answer": "listen to music"
-    },
-    {
-      "type": "fill",
-      "prompt": "I ___ playing soccer on weekends. (rất thích = love)",
-      "answer": "love"
-    },
-    {
-      "type": "choice",
-      "prompt": "What does 'cooking' mean?",
-      "options": [
-        "nấu ăn",
-        "đọc sách",
-        "chơi bóng đá",
-        "nghe nhạc"
-      ],
-      "answer": "nấu ăn"
-    }
-  ]
+  'id': 'a1-09-hobbies',
+  'slug': 'a1-09-hobbies',
+  'titleEn': 'Hobbies & Free Time',
+  'titleVi': 'Sở thích & Thời gian rảnh',
+  'subtitleEn': "Talk about your hobbies using 'like', 'love', and 'enjoy'",
+  'subtitleVi': "Nói về sở thích bằng 'like', 'love', và 'enjoy'",
+  'level': 'A1',
+  'unit': 2,
+  'skill': 'writing',
+  'order': 9,
+  'cefr': 'A1',
+  'minutes': 7,
+  'tags': ['hobbies', 'free-time', 'preferences', 'writing', 'speaking'],
+  'audioScript': "In my free time, I like to read books.\nSometimes I play soccer with my friends.\nI enjoy listening to music. I also like cooking.\nOn weekends, I often watch movies.\n",
+  'listeningEnabled': true,
+  'flashcardCount': 12,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': 'Which is correct?',
+        'options':
+          [
+            'I enjoy to read books.',
+            'I enjoy reading books.',
+            'I enjoy read books.',
+            'I enjoying read books.',
+          ],
+        'answer': 'I enjoy reading books.',
+      },
+      {
+        'type': 'choice',
+        'prompt': "Which verb goes with 'music'?",
+        'options': ['play music', 'listen to music', 'watch music', 'do music'],
+        'answer': 'listen to music',
+      },
+      {
+        'type': 'fill',
+        'prompt': 'I ___ playing soccer on weekends. (rất thích = love)',
+        'answer': 'love',
+      },
+      {
+        'type': 'choice',
+        'prompt': "What does 'cooking' mean?",
+        'options': ['nấu ăn', 'đọc sách', 'chơi bóng đá', 'nghe nhạc'],
+        'answer': 'nấu ăn',
+      },
+    ],
 }
 ---
 
@@ -73,28 +59,28 @@
 
 ## Hobbies by category
 
-| Category | Hobby | Vietnamese |
-| --- | --- | --- |
-| Creative | draw / paint | vẽ |
-| Creative | write (stories, blogs) | viết |
+| Category | Hobby                            | Vietnamese                   |
+| -------- | -------------------------------- | ---------------------------- |
+| Creative | draw / paint                     | vẽ                           |
+| Creative | write (stories, blogs)           | viết                         |
 | Creative | play the piano / guitar / violin | chơi piano / guitar / violin |
-| Creative | take photos | chụp ảnh |
-| Creative | cook | nấu ăn |
-| Creative | dance | nhảy |
-| Active | play soccer / football | chơi bóng đá |
-| Active | play basketball / tennis | chơi bóng rổ / quần vợt |
-| Active | swim | bơi |
-| Active | run / jog | chạy bộ |
-| Active | go to the gym | đi tập gym |
-| Active | cycle / bike | đạp xe |
-| Active | hike / go hiking | đi bộ đường dài |
-| Quiet | read (books) | đọc sách |
-| Quiet | listen to music | nghe nhạc |
-| Quiet | watch movies | xem phim |
-| Quiet | play video games | chơi game |
-| Social | hang out with friends | đi chơi với bạn |
-| Social | travel | du lịch |
-| Social | go to the café | đi quán cà phê |
+| Creative | take photos                      | chụp ảnh                     |
+| Creative | cook                             | nấu ăn                       |
+| Creative | dance                            | nhảy                         |
+| Active   | play soccer / football           | chơi bóng đá                 |
+| Active   | play basketball / tennis         | chơi bóng rổ / quần vợt      |
+| Active   | swim                             | bơi                          |
+| Active   | run / jog                        | chạy bộ                      |
+| Active   | go to the gym                    | đi tập gym                   |
+| Active   | cycle / bike                     | đạp xe                       |
+| Active   | hike / go hiking                 | đi bộ đường dài              |
+| Quiet    | read (books)                     | đọc sách                     |
+| Quiet    | listen to music                  | nghe nhạc                    |
+| Quiet    | watch movies                     | xem phim                     |
+| Quiet    | play video games                 | chơi game                    |
+| Social   | hang out with friends            | đi chơi với bạn              |
+| Social   | travel                           | du lịch                      |
+| Social   | go to the café                   | đi quán cà phê               |
 
 > **Verb choice matters**: "play" goes with **instruments and team sports**. "go + to + the + noun" goes with **places** (go to the gym, go to the café). "do" is the catch-all for activities (do yoga, do exercise).
 
@@ -102,21 +88,21 @@
 
 > **Pattern**: `play [instrument]` and `play [sport with ball]`
 
-| English | Why "play" |
-| --- | --- |
-| play the piano / guitar / drums | instrument |
+| English                           | Why "play"             |
+| --------------------------------- | ---------------------- |
+| play the piano / guitar / drums   | instrument             |
 | play soccer / basketball / tennis | team sport with a ball |
-| play games / video games | competitive activity |
+| play games / video games          | competitive activity   |
 
 > **Common mistake**: ❌ "I **listen** music." — "listen" needs "**to**". ✅ "I listen **to** music." ❌ "I **play** music." — possible but means "perform music". The standard phrase is "I **listen to** music."
 
 ## Three verbs of preference: like, love, enjoy
 
-| Verb | Strength | Pattern | Example |
-| --- | --- | --- | --- |
-| like | neutral | `I like to [verb]` or `I like [verb-ing]` | I like to read. |
-| love | strong | `I love to [verb]` or `I love [verb-ing]` | I love cooking. |
-| enjoy | formal | `I enjoy [verb-ing]` (no "to") | I enjoy reading. |
+| Verb  | Strength | Pattern                                   | Example          |
+| ----- | -------- | ----------------------------------------- | ---------------- |
+| like  | neutral  | `I like to [verb]` or `I like [verb-ing]` | I like to read.  |
+| love  | strong   | `I love to [verb]` or `I love [verb-ing]` | I love cooking.  |
+| enjoy | formal   | `I enjoy [verb-ing]` (no "to")            | I enjoy reading. |
 
 > **Pattern**: With **enjoy**, the verb must be **-ing**, NOT "to + verb". This is the opposite of "like" and "love".
 >
@@ -126,14 +112,14 @@
 
 ## Frequency words — how often?
 
-| Word | Frequency | Example |
-| --- | --- | --- |
-| always | 100% | I always drink coffee. |
-| usually | ~80% | I usually read at night. |
-| often | ~60-70% | I often play soccer on weekends. |
-| sometimes | ~30-40% | I sometimes watch movies. |
-| rarely / hardly ever | ~10% | I rarely play games. |
-| never | 0% | I never play tennis. |
+| Word                 | Frequency | Example                          |
+| -------------------- | --------- | -------------------------------- |
+| always               | 100%      | I always drink coffee.           |
+| usually              | ~80%      | I usually read at night.         |
+| often                | ~60-70%   | I often play soccer on weekends. |
+| sometimes            | ~30-40%   | I sometimes watch movies.        |
+| rarely / hardly ever | ~10%      | I rarely play games.             |
+| never                | 0%        | I never play tennis.             |
 
 > **Pattern**: `frequency word + subject + verb`. "I **often** read." "She **sometimes** cooks."
 
@@ -173,10 +159,10 @@
 
 Fill in the blanks with your own hobbies.
 
-> In my free time, I like to ___. I do this ___ (how often).
-> I also enjoy ___. Sometimes I ___ with my friends.
-> My favorite hobby is ___ because ___.
-> I don't like ___ because ___.
+> In my free time, I like to **_. I do this _** (how often).
+> I also enjoy **_. Sometimes I _** with my friends.
+> My favorite hobby is **_ because _**.
+> I don't like **_ because _**.
 
 **Self-check**:
 

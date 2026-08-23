@@ -1,53 +1,41 @@
 ---
 {
-  "id": "a2-06-email-basics",
-  "slug": "a2-06-email-basics",
-  "titleEn": "Email Basics",
-  "titleVi": "Email cơ bản",
-  "subtitleEn": "Học từ vựng và cụm từ quan trọng để viết email",
-  "subtitleVi": "Học từ vựng và cụm từ quan trọng để viết email",
-  "level": "A2",
-  "unit": 2,
-  "skill": "vocab",
-  "order": 6,
-  "cefr": "A2",
-  "minutes": 5,
-  "tags": [
-    "email",
-    "writing",
-    "vocabulary",
-    "communication"
-  ],
-  "audioScript": "Kính gửi ông/bà, tôi viết để hỏi về dịch vụ của bạn.\nCảm ơn bạn đã gửi email.\nTôi mong chờ tin từ bạn.\n",
-  "listeningEnabled": true,
-  "flashcardCount": 6,
-  "quiz": [
-    {
-      "type": "choice",
-      "prompt": "Lời chào nào là trang trọng cho email công việc?",
-      "options": [
-        "Hey there!",
-        "Dear Sir or Madam,",
-        "Hi mate!"
-      ],
-      "answer": "Dear Sir or Madam,"
-    },
-    {
-      "type": "fill",
-      "prompt": "I am writing to ___ about your product. (inquire)",
-      "answer": "inquire"
-    },
-    {
-      "type": "choice",
-      "prompt": "Cụm từ kết thúc nào trang trọng nhất?",
-      "options": [
-        "Cheers",
-        "Best regards",
-        "Talk soon"
-      ],
-      "answer": "Best regards"
-    }
-  ]
+  'id': 'a2-06-email-basics',
+  'slug': 'a2-06-email-basics',
+  'titleEn': 'Email Basics',
+  'titleVi': 'Email cơ bản',
+  'subtitleEn': 'Học từ vựng và cụm từ quan trọng để viết email',
+  'subtitleVi': 'Học từ vựng và cụm từ quan trọng để viết email',
+  'level': 'A2',
+  'unit': 2,
+  'skill': 'vocab',
+  'order': 6,
+  'cefr': 'A2',
+  'minutes': 5,
+  'tags': ['email', 'writing', 'vocabulary', 'communication'],
+  'audioScript': "Kính gửi ông/bà, tôi viết để hỏi về dịch vụ của bạn.\nCảm ơn bạn đã gửi email.\nTôi mong chờ tin từ bạn.\n",
+  'listeningEnabled': true,
+  'flashcardCount': 6,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': 'Lời chào nào là trang trọng cho email công việc?',
+        'options': ['Hey there!', 'Dear Sir or Madam,', 'Hi mate!'],
+        'answer': 'Dear Sir or Madam,',
+      },
+      {
+        'type': 'fill',
+        'prompt': 'I am writing to ___ about your product. (inquire)',
+        'answer': 'inquire',
+      },
+      {
+        'type': 'choice',
+        'prompt': 'Cụm từ kết thúc nào trang trọng nhất?',
+        'options': ['Cheers', 'Best regards', 'Talk soon'],
+        'answer': 'Best regards',
+      },
+    ],
 }
 ---
 

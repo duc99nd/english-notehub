@@ -1,53 +1,42 @@
 ---
 {
-  "id": "b2-01-negotiation-advanced",
-  "slug": "b2-01-negotiation-advanced",
-  "titleEn": "Advanced Negotiation Strategies",
-  "titleVi": "Chiến lược đàm phán nâng cao",
-  "subtitleEn": "Master workplace negotiation phrases and idioms",
-  "subtitleVi": "Làm chủ các cụm từ và thành ngữ đàm phán",
-  "level": "B2",
-  "unit": 1,
-  "skill": "vocab",
-  "order": 1,
-  "cefr": "B2",
-  "minutes": 5,
-  "tags": [
-    "negotiation",
-    "workplace",
-    "advanced",
-    "professional"
-  ],
-  "audioScript": "Để tôi chạy qua đề xuất này với bạn trước cuộc họp.\nChúng ta cần tìm điểm chung về timeline.\nNếu chúng ta quay lại tuần sau, chúng ta có thể hoàn tất các điều khoản.\n",
-  "listeningEnabled": true,
-  "flashcardCount": 6,
-  "quiz": [
-    {
-      "type": "choice",
-      "prompt": "Run something by someone nghĩa là gì?",
-      "options": [
-        "Từ chối một ý tưởng",
-        "Chia sẻ để lấy ý kiến phản hồi",
-        "Trì hoãn một quyết định"
-      ],
-      "answer": "Chia sẻ để lấy ý kiến phản hồi"
-    },
-    {
-      "type": "fill",
-      "prompt": "Chúng ta cần tìm ___ ___ trước khi tiến hành.",
-      "answer": "middle ground"
-    },
-    {
-      "type": "choice",
-      "prompt": "Cụm từ nào có nghĩa là \"quay lại bàn bạc sau\"?",
-      "options": [
-        "buy in",
-        "circle back",
-        "deep dive"
-      ],
-      "answer": "circle back"
-    }
-  ]
+  'id': 'b2-01-negotiation-advanced',
+  'slug': 'b2-01-negotiation-advanced',
+  'titleEn': 'Advanced Negotiation Strategies',
+  'titleVi': 'Chiến lược đàm phán nâng cao',
+  'subtitleEn': 'Master workplace negotiation phrases and idioms',
+  'subtitleVi': 'Làm chủ các cụm từ và thành ngữ đàm phán',
+  'level': 'B2',
+  'unit': 1,
+  'skill': 'vocab',
+  'order': 1,
+  'cefr': 'B2',
+  'minutes': 5,
+  'tags': ['negotiation', 'workplace', 'advanced', 'professional'],
+  'audioScript': "Để tôi chạy qua đề xuất này với bạn trước cuộc họp.\nChúng ta cần tìm điểm chung về timeline.\nNếu chúng ta quay lại tuần sau, chúng ta có thể hoàn tất các điều khoản.\n",
+  'listeningEnabled': true,
+  'flashcardCount': 6,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': 'Run something by someone nghĩa là gì?',
+        'options':
+          ['Từ chối một ý tưởng', 'Chia sẻ để lấy ý kiến phản hồi', 'Trì hoãn một quyết định'],
+        'answer': 'Chia sẻ để lấy ý kiến phản hồi',
+      },
+      {
+        'type': 'fill',
+        'prompt': 'Chúng ta cần tìm ___ ___ trước khi tiến hành.',
+        'answer': 'middle ground',
+      },
+      {
+        'type': 'choice',
+        'prompt': 'Cụm từ nào có nghĩa là "quay lại bàn bạc sau"?',
+        'options': ['buy in', 'circle back', 'deep dive'],
+        'answer': 'circle back',
+      },
+    ],
 }
 ---
 

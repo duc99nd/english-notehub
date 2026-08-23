@@ -1,25 +1,18 @@
 ---
 {
-  "id": "c2-08-diplomatic-language",
-  "slug": "c2-08-diplomatic-language",
-  "titleEn": "Diplomatic Language",
-  "titleVi": "Ngôn ngữ Ngoại giao",
-  "subtitleEn": "Decipher the nuanced register of diplomatic correspondence and treaties",
-  "subtitleVi": "Giải mã giọng điệu tinh vi của các văn bản ngoại giao và hiệp ước",
-  "level": "C2",
-  "unit": 2,
-  "skill": "reading",
-  "order": 8,
-  "cefr": "C2",
-  "minutes": 5,
-  "tags": [
-    "diplomacy",
-    "treaties",
-    "formal",
-    "international",
-    "correspondence",
-    "register"
-  ]
+  'id': 'c2-08-diplomatic-language',
+  'slug': 'c2-08-diplomatic-language',
+  'titleEn': 'Diplomatic Language',
+  'titleVi': 'Ngôn ngữ Ngoại giao',
+  'subtitleEn': 'Decipher the nuanced register of diplomatic correspondence and treaties',
+  'subtitleVi': 'Giải mã giọng điệu tinh vi của các văn bản ngoại giao và hiệp ước',
+  'level': 'C2',
+  'unit': 2,
+  'skill': 'reading',
+  'order': 8,
+  'cefr': 'C2',
+  'minutes': 5,
+  'tags': ['diplomacy', 'treaties', 'formal', 'international', 'correspondence', 'register'],
 }
 ---
 

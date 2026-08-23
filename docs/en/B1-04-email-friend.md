@@ -1,54 +1,37 @@
 ---
 {
-  "id": "b1-04-email-friend",
-  "slug": "b1-04-email-friend",
-  "titleEn": "Writing an Email to a Friend",
-  "titleVi": "Viết Email Cho Bạn bè",
-  "subtitleEn": "Learn to write friendly, personal emails",
-  "subtitleVi": "Học cách viết email thân mật, cá nhân",
-  "level": "B1",
-  "unit": 1,
-  "skill": "writing",
-  "order": 4,
-  "cefr": "B1",
-  "minutes": 5,
-  "tags": [
-    "writing",
-    "email",
-    "friend",
-    "informal",
-    "communication"
-  ],
-  "audioScript": "Hi Emma, it's been a while since we last spoke!\nI'm writing to tell you about my trip to Tokyo last month.\nLet me know when you're free to catch up!\n",
-  "listeningEnabled": true,
-  "flashcardCount": 6,
-  "quiz": [
-    {
-      "type": "choice",
-      "prompt": "Which greeting is most appropriate for a close friend?",
-      "options": [
-        "Dear Sir/Madam,",
-        "Hi [Name],",
-        "To Whom It May Concern,"
-      ],
-      "answer": "Hi [Name],"
-    },
-    {
-      "type": "fill",
-      "prompt": "It's been a while ___ we last spoke.",
-      "answer": "since"
-    },
-    {
-      "type": "choice",
-      "prompt": "Which closing is most suitable for an informal email?",
-      "options": [
-        "Yours faithfully,",
-        "Best regards,",
-        "Love,"
-      ],
-      "answer": "Love,"
-    }
-  ]
+  'id': 'b1-04-email-friend',
+  'slug': 'b1-04-email-friend',
+  'titleEn': 'Writing an Email to a Friend',
+  'titleVi': 'Viết Email Cho Bạn bè',
+  'subtitleEn': 'Learn to write friendly, personal emails',
+  'subtitleVi': 'Học cách viết email thân mật, cá nhân',
+  'level': 'B1',
+  'unit': 1,
+  'skill': 'writing',
+  'order': 4,
+  'cefr': 'B1',
+  'minutes': 5,
+  'tags': ['writing', 'email', 'friend', 'informal', 'communication'],
+  'audioScript': "Hi Emma, it's been a while since we last spoke!\nI'm writing to tell you about my trip to Tokyo last month.\nLet me know when you're free to catch up!\n",
+  'listeningEnabled': true,
+  'flashcardCount': 6,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': 'Which greeting is most appropriate for a close friend?',
+        'options': ['Dear Sir/Madam,', 'Hi [Name],', 'To Whom It May Concern,'],
+        'answer': 'Hi [Name],',
+      },
+      { 'type': 'fill', 'prompt': "It's been a while ___ we last spoke.", 'answer': 'since' },
+      {
+        'type': 'choice',
+        'prompt': 'Which closing is most suitable for an informal email?',
+        'options': ['Yours faithfully,', 'Best regards,', 'Love,'],
+        'answer': 'Love,',
+      },
+    ],
 }
 ---
 

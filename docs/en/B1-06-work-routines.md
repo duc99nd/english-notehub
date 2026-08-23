@@ -1,55 +1,42 @@
 ---
 {
-  "id": "b1-06-work-routines",
-  "slug": "b1-06-work-routines",
-  "titleEn": "Work & Daily Routines",
-  "titleVi": "Công việc & Thói quen hàng ngày",
-  "subtitleEn": "Talk about your job, workplace, and daily work activities",
-  "subtitleVi": "Nói về công việc, nơi làm việc và các hoạt động công việc hàng ngày",
-  "level": "B1",
-  "unit": 2,
-  "skill": "vocab",
-  "order": 6,
-  "cefr": "B1",
-  "minutes": 5,
-  "tags": [
-    "work",
-    "job",
-    "office",
-    "workplace",
-    "daily-routine",
-    "career"
-  ],
-  "audioScript": "I usually start work at 9 AM and finish at 6 PM.\nI have a meeting with my manager this afternoon.\nI need to finish this report by Friday.\n",
-  "listeningEnabled": true,
-  "flashcardCount": 8,
-  "quiz": [
-    {
-      "type": "choice",
-      "prompt": "What is a 'deadline'?",
-      "options": [
-        "A type of office chair",
-        "The time when something must be finished",
-        "A meeting room"
-      ],
-      "answer": "The time when something must be finished"
-    },
-    {
-      "type": "fill",
-      "prompt": "I need to ___ this document before the meeting.",
-      "answer": "review"
-    },
-    {
-      "type": "choice",
-      "prompt": "Which word means 'to manage a team'?",
-      "options": [
-        "To work",
-        "To supervise",
-        "To vacation"
-      ],
-      "answer": "To supervise"
-    }
-  ]
+  'id': 'b1-06-work-routines',
+  'slug': 'b1-06-work-routines',
+  'titleEn': 'Work & Daily Routines',
+  'titleVi': 'Công việc & Thói quen hàng ngày',
+  'subtitleEn': 'Talk about your job, workplace, and daily work activities',
+  'subtitleVi': 'Nói về công việc, nơi làm việc và các hoạt động công việc hàng ngày',
+  'level': 'B1',
+  'unit': 2,
+  'skill': 'vocab',
+  'order': 6,
+  'cefr': 'B1',
+  'minutes': 5,
+  'tags': ['work', 'job', 'office', 'workplace', 'daily-routine', 'career'],
+  'audioScript': "I usually start work at 9 AM and finish at 6 PM.\nI have a meeting with my manager this afternoon.\nI need to finish this report by Friday.\n",
+  'listeningEnabled': true,
+  'flashcardCount': 8,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': "What is a 'deadline'?",
+        'options':
+          ['A type of office chair', 'The time when something must be finished', 'A meeting room'],
+        'answer': 'The time when something must be finished',
+      },
+      {
+        'type': 'fill',
+        'prompt': 'I need to ___ this document before the meeting.',
+        'answer': 'review',
+      },
+      {
+        'type': 'choice',
+        'prompt': "Which word means 'to manage a team'?",
+        'options': ['To work', 'To supervise', 'To vacation'],
+        'answer': 'To supervise',
+      },
+    ],
 }
 ---
 

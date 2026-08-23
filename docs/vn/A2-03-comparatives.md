@@ -1,53 +1,41 @@
 ---
 {
-  "id": "a2-03-comparatives",
-  "slug": "a2-03-comparatives",
-  "titleEn": "Comparatives",
-  "titleVi": "So sánh hơn",
-  "subtitleEn": "So sánh sự vật và con người sử dụng -er và more",
-  "subtitleVi": "So sánh sự vật và con người sử dụng -er và more",
-  "level": "A2",
-  "unit": 1,
-  "skill": "reading",
-  "order": 3,
-  "cefr": "A2",
-  "minutes": 5,
-  "tags": [
-    "comparatives",
-    "adjectives",
-    "grammar",
-    "comparison"
-  ],
-  "audioScript": "Nhà tôi lớn hơn nhà bạn.\nTiếng Anh khó hơn tiếng Việt.\nCuốn sách này thú vị hơn cuốn kia.\n",
-  "listeningEnabled": true,
-  "flashcardCount": 6,
-  "quiz": [
-    {
-      "type": "choice",
-      "prompt": "Câu nào đúng cho so sánh tính từ ngắn?",
-      "options": [
-        "She is more tall than me.",
-        "She is taller than me.",
-        "She is tall than me."
-      ],
-      "answer": "She is taller than me."
-    },
-    {
-      "type": "fill",
-      "prompt": "This task is ___ than the last one. (easy)",
-      "answer": "easier"
-    },
-    {
-      "type": "choice",
-      "prompt": "Tính từ nào cần 'more' trước nó?",
-      "options": [
-        "tall",
-        "beautiful",
-        "big"
-      ],
-      "answer": "beautiful"
-    }
-  ]
+  'id': 'a2-03-comparatives',
+  'slug': 'a2-03-comparatives',
+  'titleEn': 'Comparatives',
+  'titleVi': 'So sánh hơn',
+  'subtitleEn': 'So sánh sự vật và con người sử dụng -er và more',
+  'subtitleVi': 'So sánh sự vật và con người sử dụng -er và more',
+  'level': 'A2',
+  'unit': 1,
+  'skill': 'reading',
+  'order': 3,
+  'cefr': 'A2',
+  'minutes': 5,
+  'tags': ['comparatives', 'adjectives', 'grammar', 'comparison'],
+  'audioScript': "Nhà tôi lớn hơn nhà bạn.\nTiếng Anh khó hơn tiếng Việt.\nCuốn sách này thú vị hơn cuốn kia.\n",
+  'listeningEnabled': true,
+  'flashcardCount': 6,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': 'Câu nào đúng cho so sánh tính từ ngắn?',
+        'options': ['She is more tall than me.', 'She is taller than me.', 'She is tall than me.'],
+        'answer': 'She is taller than me.',
+      },
+      {
+        'type': 'fill',
+        'prompt': 'This task is ___ than the last one. (easy)',
+        'answer': 'easier',
+      },
+      {
+        'type': 'choice',
+        'prompt': "Tính từ nào cần 'more' trước nó?",
+        'options': ['tall', 'beautiful', 'big'],
+        'answer': 'beautiful',
+      },
+    ],
 }
 ---
 

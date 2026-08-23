@@ -1,24 +1,18 @@
 ---
 {
-  "id": "c2-04-whitepaper-writing",
-  "slug": "c2-04-whitepaper-writing",
-  "titleEn": "Whitepaper Writing",
-  "titleVi": "Viết Whitepaper",
-  "subtitleEn": "Craft persuasive, evidence-based whitepapers that influence decision-makers",
-  "subtitleVi": "Viết whitepaper thuyết phục, dựa trên bằng chứng để tác động đến người ra quyết định",
-  "level": "C2",
-  "unit": 1,
-  "skill": "writing",
-  "order": 4,
-  "cefr": "C2",
-  "minutes": 5,
-  "tags": [
-    "whitepaper",
-    "business",
-    "technical",
-    "persuasion",
-    "professional"
-  ]
+  'id': 'c2-04-whitepaper-writing',
+  'slug': 'c2-04-whitepaper-writing',
+  'titleEn': 'Whitepaper Writing',
+  'titleVi': 'Viết Whitepaper',
+  'subtitleEn': 'Craft persuasive, evidence-based whitepapers that influence decision-makers',
+  'subtitleVi': 'Viết whitepaper thuyết phục, dựa trên bằng chứng để tác động đến người ra quyết định',
+  'level': 'C2',
+  'unit': 1,
+  'skill': 'writing',
+  'order': 4,
+  'cefr': 'C2',
+  'minutes': 5,
+  'tags': ['whitepaper', 'business', 'technical', 'persuasion', 'professional'],
 }
 ---
 

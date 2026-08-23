@@ -1,53 +1,37 @@
 ---
 {
-  "id": "a2-14-short-reading",
-  "slug": "a2-14-short-reading",
-  "titleEn": "Short Reading",
-  "titleVi": "Đọc Hiểu Ngắn",
-  "subtitleEn": "Read short personal stories about travel and work",
-  "subtitleVi": "Đọc các câu chuyện ngắn về du lịch và công việc",
-  "level": "A2",
-  "unit": 3,
-  "skill": "reading",
-  "order": 14,
-  "cefr": "A2",
-  "minutes": 5,
-  "tags": [
-    "reading",
-    "short-text",
-    "experiences",
-    "A2"
-  ],
-  "audioScript": "Maria đã đi du lịch mười hai quốc gia.\nTom đã làm việc ở cùng một công ty từ 2018.\nHọ đã học tiếng Anh trong nhiều năm.\n",
-  "listeningEnabled": true,
-  "flashcardCount": 6,
-  "quiz": [
-    {
-      "type": "choice",
-      "prompt": "Maria đã đến bao nhiêu quốc gia?",
-      "options": [
-        "Hai",
-        "Mười hai",
-        "Hai mươi"
-      ],
-      "answer": "Mười hai"
-    },
-    {
-      "type": "fill",
-      "prompt": "Tom đã làm ở cùng công ty ___ 2018.",
-      "answer": "từ"
-    },
-    {
-      "type": "choice",
-      "prompt": "Họ đã học tiếng Anh trong nhiều năm. Động từ \"đã học\" ở thì gì?",
-      "options": [
-        "Quá khứ đơn",
-        "Hiện tại hoàn thành",
-        "Tương lai"
-      ],
-      "answer": "Hiện tại hoàn thành"
-    }
-  ]
+  'id': 'a2-14-short-reading',
+  'slug': 'a2-14-short-reading',
+  'titleEn': 'Short Reading',
+  'titleVi': 'Đọc Hiểu Ngắn',
+  'subtitleEn': 'Read short personal stories about travel and work',
+  'subtitleVi': 'Đọc các câu chuyện ngắn về du lịch và công việc',
+  'level': 'A2',
+  'unit': 3,
+  'skill': 'reading',
+  'order': 14,
+  'cefr': 'A2',
+  'minutes': 5,
+  'tags': ['reading', 'short-text', 'experiences', 'A2'],
+  'audioScript': "Maria đã đi du lịch mười hai quốc gia.\nTom đã làm việc ở cùng một công ty từ 2018.\nHọ đã học tiếng Anh trong nhiều năm.\n",
+  'listeningEnabled': true,
+  'flashcardCount': 6,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': 'Maria đã đến bao nhiêu quốc gia?',
+        'options': ['Hai', 'Mười hai', 'Hai mươi'],
+        'answer': 'Mười hai',
+      },
+      { 'type': 'fill', 'prompt': 'Tom đã làm ở cùng công ty ___ 2018.', 'answer': 'từ' },
+      {
+        'type': 'choice',
+        'prompt': 'Họ đã học tiếng Anh trong nhiều năm. Động từ "đã học" ở thì gì?',
+        'options': ['Quá khứ đơn', 'Hiện tại hoàn thành', 'Tương lai'],
+        'answer': 'Hiện tại hoàn thành',
+      },
+    ],
 }
 ---
 
@@ -65,13 +49,13 @@
 
 ## Từ vựng chính
 
-| Từ | Nghĩa |
-| --- | --- |
-| traveled (đã đi) | visited places (đã đến thăm các nơi) |
-| tried (đã thử) | attempted / tested (đã thử) |
-| finished (đã xong) | completed (đã hoàn thành) |
-| just (vừa) | recently (gần đây) |
-| completed (hoàn thành) | finished (xong) |
+| Từ                     | Nghĩa                                |
+| ---------------------- | ------------------------------------ |
+| traveled (đã đi)       | visited places (đã đến thăm các nơi) |
+| tried (đã thử)         | attempted / tested (đã thử)          |
+| finished (đã xong)     | completed (đã hoàn thành)            |
+| just (vừa)             | recently (gần đây)                   |
+| completed (hoàn thành) | finished (xong)                      |
 
 ## Đọc hiểu
 
@@ -91,11 +75,11 @@ Trả lời các câu hỏi:
 
 ## Chiến lược đọc
 
-| Chiến lược | Ví dụ |
-| --- | --- |
-| Tìm từ đã biết | "làm việc", "quốc gia", "London" |
-| Tìm dấu thời gian | "năm năm", "từ 2018" |
-| Nhận diện động từ | "đã đi", "đã thử" |
+| Chiến lược        | Ví dụ                            |
+| ----------------- | -------------------------------- |
+| Tìm từ đã biết    | "làm việc", "quốc gia", "London" |
+| Tìm dấu thời gian | "năm năm", "từ 2018"             |
+| Nhận diện động từ | "đã đi", "đã thử"                |
 
 ## Nghe và lặp lại
 

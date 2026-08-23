@@ -1,54 +1,46 @@
 ---
 {
-  "id": "b2-11-cultural-nuances",
-  "slug": "b2-11-cultural-nuances",
-  "titleEn": "Cultural Nuances",
-  "titleVi": "Những sắc thái văn hóa",
-  "subtitleEn": "Navigate cultural differences in international business contexts",
-  "subtitleVi": "Điều hướng sự khác biệt văn hóa trong bối cảnh kinh doanh quốc tế",
-  "level": "B2",
-  "unit": 3,
-  "skill": "vocab",
-  "order": 11,
-  "cefr": "B2",
-  "minutes": 5,
-  "tags": [
-    "culture",
-    "international",
-    "business",
-    "communication",
-    "B2"
-  ],
-  "audioScript": "It's considered impolite to refuse a gift directly in some cultures.\nWe need to be mindful of different communication styles.\nBuilding rapport takes time in high-context cultures.\n",
-  "listeningEnabled": true,
-  "flashcardCount": 6,
-  "quiz": [
-    {
-      "type": "choice",
-      "prompt": "What is a \"high-context\" culture?",
-      "options": [
-        "A culture that prioritizes written contracts",
-        "A culture where meaning is conveyed through context and relationships",
-        "A culture with fast-paced communication"
-      ],
-      "answer": "A culture where meaning is conveyed through context and relationships"
-    },
-    {
-      "type": "fill",
-      "prompt": "Building ___ takes time in high-context cultures.",
-      "answer": "rapport"
-    },
-    {
-      "type": "choice",
-      "prompt": "What does \"mindful of\" mean?",
-      "options": [
-        "Ignoring",
-        "Being aware and considerate of",
-        "Rejecting"
-      ],
-      "answer": "Being aware and considerate of"
-    }
-  ]
+  'id': 'b2-11-cultural-nuances',
+  'slug': 'b2-11-cultural-nuances',
+  'titleEn': 'Cultural Nuances',
+  'titleVi': 'Những sắc thái văn hóa',
+  'subtitleEn': 'Navigate cultural differences in international business contexts',
+  'subtitleVi': 'Điều hướng sự khác biệt văn hóa trong bối cảnh kinh doanh quốc tế',
+  'level': 'B2',
+  'unit': 3,
+  'skill': 'vocab',
+  'order': 11,
+  'cefr': 'B2',
+  'minutes': 5,
+  'tags': ['culture', 'international', 'business', 'communication', 'B2'],
+  'audioScript': "It's considered impolite to refuse a gift directly in some cultures.\nWe need to be mindful of different communication styles.\nBuilding rapport takes time in high-context cultures.\n",
+  'listeningEnabled': true,
+  'flashcardCount': 6,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': 'What is a "high-context" culture?',
+        'options':
+          [
+            'A culture that prioritizes written contracts',
+            'A culture where meaning is conveyed through context and relationships',
+            'A culture with fast-paced communication',
+          ],
+        'answer': 'A culture where meaning is conveyed through context and relationships',
+      },
+      {
+        'type': 'fill',
+        'prompt': 'Building ___ takes time in high-context cultures.',
+        'answer': 'rapport',
+      },
+      {
+        'type': 'choice',
+        'prompt': 'What does "mindful of" mean?',
+        'options': ['Ignoring', 'Being aware and considerate of', 'Rejecting'],
+        'answer': 'Being aware and considerate of',
+      },
+    ],
 }
 ---
 

@@ -19,7 +19,7 @@ flowchart TD
     StatusOk -->|Có| Resolve[6. Đóng sự cố & Cập nhật Status Page ✅]
     Resolve --> PostMortem[7. Họp rút kinh nghiệm Post-Mortem 📝]
     PostMortem --> End([Cải thiện quy trình & Hệ thống])
-    
+
     style Start fill:#fee2e2,stroke:#ef4444,stroke-width:2px
     style End fill:#dcfce7,stroke:#22c55e,stroke-width:2px
     style IC fill:#eff6ff,stroke:#3b82f6,stroke-width:1px

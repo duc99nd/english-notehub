@@ -158,7 +158,7 @@ Người phỏng vấn thường yêu cầu bạn đi sâu vào 1-2 thành phầ
 4. "I'd design the URL table with columns for the short code, the original URL, the creation timestamp, and an expiration date." _(Tôi sẽ thiết kế bảng URL với các cột: short code, URL gốc, thời gian tạo và ngày hết hạn.)_
 5. "To handle the massive read volume, I'd set up read replicas so that read queries are distributed across multiple database instances." _(Để xử lý lượng đọc khổng lồ, tôi sẽ thiết lập read replicas để phân tải query đọc.)_
 6. "For the chat system, I'd use a combination of PostgreSQL for message metadata and Cassandra for message storage, since Cassandra handles high write throughput very well." _(Cho chat system, tôi sẽ kết hợp PostgreSQL cho metadata tin nhắn và Cassandra cho lưu trữ tin nhắn, vì Cassandra xử lý ghi rất tốt.)_
-7. "I'd add an index on the short_code column to ensure O(1) lookups for redirects." _(Tôi sẽ thêm index cho cột short_code để đảm bảo tra cứu O(1) cho redirect.)_
+7. "I'd add an index on the short*code column to ensure O(1) lookups for redirects." *(Tôi sẽ thêm index cho cột short*code để đảm bảo tra cứu O(1) cho redirect.)*
 8. "If the data grows beyond a single node, I'd implement sharding based on the user ID, so all data for a given user lives on the same shard." _(Nếu dữ liệu vượt quá một node, tôi sẽ triển khai sharding dựa trên user ID.)_
 
 ## 4.2. Caching (Bộ nhớ đệm)

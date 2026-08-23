@@ -1,53 +1,37 @@
 ---
 {
-  "id": "a2-02-daily-routine",
-  "slug": "a2-02-daily-routine",
-  "titleEn": "Daily Routine",
-  "titleVi": "Thói quen hàng ngày",
-  "subtitleEn": "Nói về các hoạt động hàng ngày sử dụng thì hiện tại đơn",
-  "subtitleVi": "Nói về các hoạt động hàng ngày sử dụng thì hiện tại đơn",
-  "level": "A2",
-  "unit": 1,
-  "skill": "grammar",
-  "order": 2,
-  "cefr": "A2",
-  "minutes": 5,
-  "tags": [
-    "daily-routine",
-    "present-simple",
-    "grammar",
-    "time"
-  ],
-  "audioScript": "Tôi thức dậy lúc sáu mỗi sáng.\nTôi thường ăn sáng lúc bảy.\nTôi đi làm bằng xe buýt mỗi ngày.\n",
-  "listeningEnabled": true,
-  "flashcardCount": 6,
-  "quiz": [
-    {
-      "type": "choice",
-      "prompt": "Câu nào đúng cho thói quen hàng ngày?",
-      "options": [
-        "I wakes up at six.",
-        "I wake up at six.",
-        "I waking up at six."
-      ],
-      "answer": "I wake up at six."
-    },
-    {
-      "type": "fill",
-      "prompt": "She ___ to school every morning. (go)",
-      "answer": "goes"
-    },
-    {
-      "type": "choice",
-      "prompt": "Khi nào chúng ta thêm 's' hoặc 'es' vào động từ?",
-      "options": [
-        "Với I, you, we, they",
-        "Với he, she, it",
-        "Không bao giờ"
-      ],
-      "answer": "Với he, she, it"
-    }
-  ]
+  'id': 'a2-02-daily-routine',
+  'slug': 'a2-02-daily-routine',
+  'titleEn': 'Daily Routine',
+  'titleVi': 'Thói quen hàng ngày',
+  'subtitleEn': 'Nói về các hoạt động hàng ngày sử dụng thì hiện tại đơn',
+  'subtitleVi': 'Nói về các hoạt động hàng ngày sử dụng thì hiện tại đơn',
+  'level': 'A2',
+  'unit': 1,
+  'skill': 'grammar',
+  'order': 2,
+  'cefr': 'A2',
+  'minutes': 5,
+  'tags': ['daily-routine', 'present-simple', 'grammar', 'time'],
+  'audioScript': "Tôi thức dậy lúc sáu mỗi sáng.\nTôi thường ăn sáng lúc bảy.\nTôi đi làm bằng xe buýt mỗi ngày.\n",
+  'listeningEnabled': true,
+  'flashcardCount': 6,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': 'Câu nào đúng cho thói quen hàng ngày?',
+        'options': ['I wakes up at six.', 'I wake up at six.', 'I waking up at six.'],
+        'answer': 'I wake up at six.',
+      },
+      { 'type': 'fill', 'prompt': 'She ___ to school every morning. (go)', 'answer': 'goes' },
+      {
+        'type': 'choice',
+        'prompt': "Khi nào chúng ta thêm 's' hoặc 'es' vào động từ?",
+        'options': ['Với I, you, we, they', 'Với he, she, it', 'Không bao giờ'],
+        'answer': 'Với he, she, it',
+      },
+    ],
 }
 ---
 

@@ -1,55 +1,41 @@
 ---
 {
-  "id": "b1-13-recipe-menu",
-  "slug": "b1-13-recipe-menu",
-  "titleEn": "Recipes & Menus",
-  "titleVi": "Công thức Nấu ăn & Thực đơn",
-  "subtitleEn": "Read recipes and restaurant menus with confidence",
-  "subtitleVi": "Đọc công thức nấu ăn và thực đơn nhà hàng một cách tự tin",
-  "level": "B1",
-  "unit": 3,
-  "skill": "reading",
-  "order": 13,
-  "cefr": "B1",
-  "minutes": 5,
-  "tags": [
-    "reading",
-    "recipe",
-    "menu",
-    "food",
-    "cooking",
-    "restaurant"
-  ],
-  "audioScript": "First, preheat the oven to 180 degrees.\nServe with a fresh salad on the side.\nMain courses include grilled salmon and pasta.\n",
-  "listeningEnabled": true,
-  "flashcardCount": 8,
-  "quiz": [
-    {
-      "type": "choice",
-      "prompt": "What does 'preheat the oven' mean?",
-      "options": [
-        "Turn off the oven",
-        "Heat the oven before using it",
-        "Clean the oven"
-      ],
-      "answer": "Heat the oven before using it"
-    },
-    {
-      "type": "fill",
-      "prompt": "The recipe says to ___ the mixture for 5 minutes.",
-      "answer": "stir"
-    },
-    {
-      "type": "choice",
-      "prompt": "What is an 'appetizer'?",
-      "options": [
-        "The main dish",
-        "A small dish before the main course",
-        "A dessert"
-      ],
-      "answer": "A small dish before the main course"
-    }
-  ]
+  'id': 'b1-13-recipe-menu',
+  'slug': 'b1-13-recipe-menu',
+  'titleEn': 'Recipes & Menus',
+  'titleVi': 'Công thức Nấu ăn & Thực đơn',
+  'subtitleEn': 'Read recipes and restaurant menus with confidence',
+  'subtitleVi': 'Đọc công thức nấu ăn và thực đơn nhà hàng một cách tự tin',
+  'level': 'B1',
+  'unit': 3,
+  'skill': 'reading',
+  'order': 13,
+  'cefr': 'B1',
+  'minutes': 5,
+  'tags': ['reading', 'recipe', 'menu', 'food', 'cooking', 'restaurant'],
+  'audioScript': "First, preheat the oven to 180 degrees.\nServe with a fresh salad on the side.\nMain courses include grilled salmon and pasta.\n",
+  'listeningEnabled': true,
+  'flashcardCount': 8,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': "What does 'preheat the oven' mean?",
+        'options': ['Turn off the oven', 'Heat the oven before using it', 'Clean the oven'],
+        'answer': 'Heat the oven before using it',
+      },
+      {
+        'type': 'fill',
+        'prompt': 'The recipe says to ___ the mixture for 5 minutes.',
+        'answer': 'stir',
+      },
+      {
+        'type': 'choice',
+        'prompt': "What is an 'appetizer'?",
+        'options': ['The main dish', 'A small dish before the main course', 'A dessert'],
+        'answer': 'A small dish before the main course',
+      },
+    ],
 }
 ---
 

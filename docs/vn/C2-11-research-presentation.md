@@ -1,25 +1,18 @@
 ---
 {
-  "id": "c2-11-research-presentation",
-  "slug": "c2-11-research-presentation",
-  "titleEn": "Research Presentation Vocabulary",
-  "titleVi": "Từ vựng Thuyết trình Nghiên cứu",
-  "subtitleEn": "Command the discourse of PhD defenses and research seminars",
-  "subtitleVi": "Làm chủ diễn ngôn của các buổi bảo vệ tiến sĩ và hội thảo nghiên cứu",
-  "level": "C2",
-  "unit": 3,
-  "skill": "vocab",
-  "order": 11,
-  "cefr": "C2",
-  "minutes": 5,
-  "tags": [
-    "research",
-    "academic",
-    "defense",
-    "PhD",
-    "methodology",
-    "vocabulary"
-  ]
+  'id': 'c2-11-research-presentation',
+  'slug': 'c2-11-research-presentation',
+  'titleEn': 'Research Presentation Vocabulary',
+  'titleVi': 'Từ vựng Thuyết trình Nghiên cứu',
+  'subtitleEn': 'Command the discourse of PhD defenses and research seminars',
+  'subtitleVi': 'Làm chủ diễn ngôn của các buổi bảo vệ tiến sĩ và hội thảo nghiên cứu',
+  'level': 'C2',
+  'unit': 3,
+  'skill': 'vocab',
+  'order': 11,
+  'cefr': 'C2',
+  'minutes': 5,
+  'tags': ['research', 'academic', 'defense', 'PhD', 'methodology', 'vocabulary'],
 }
 ---
 

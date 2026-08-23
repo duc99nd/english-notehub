@@ -1,57 +1,53 @@
 ---
 {
-  "id": "c2-06-conference-talk",
-  "slug": "c2-06-conference-talk",
-  "titleEn": "Conference Talk Vocabulary",
-  "titleVi": "Từ vựng buổi thuyết trình hội nghị",
-  "subtitleEn": "Command the specialized discourse of academic and professional conferences",
-  "subtitleVi": "Làm chủ diễn ngôn chuyên biệt của các hội nghị học thuật và chuyên nghiệp",
-  "level": "C2",
-  "unit": 2,
-  "skill": "vocab",
-  "order": 6,
-  "cefr": "C2",
-  "minutes": 5,
-  "tags": [
-    "conference",
-    "presentation",
-    "academic",
-    "professional",
-    "discourse",
-    "speaking"
-  ],
-  "audioScript": "Conference discourse has its own conventions and rituals.\nPhrases like \"I shall argue\" signal a deliberate rhetorical move.\nAudience engagement phrases maintain the presenter-attendee dynamic.\n",
-  "listeningEnabled": true,
-  "flashcardCount": 6,
-  "quiz": [
-    {
-      "type": "choice",
-      "prompt": "Which phrase signals a speaker is about to present their central argument?",
-      "options": [
-        "Moving on to...",
-        "I shall argue that...",
-        "In conclusion...",
-        "Thank you for your attention..."
-      ],
-      "answer": "I shall argue that..."
-    },
-    {
-      "type": "choice",
-      "prompt": "What is the appropriate response when asked a challenging question at a conference?",
-      "options": [
-        "That's a stupid question",
-        "I'm glad you raised that point",
-        "I don't know",
-        "We have no time for questions"
-      ],
-      "answer": "I'm glad you raised that point"
-    },
-    {
-      "type": "fill",
-      "prompt": "The speaker acknowledged the ___ of the previous research while introducing her own methodology.",
-      "answer": "limitations"
-    }
-  ]
+  'id': 'c2-06-conference-talk',
+  'slug': 'c2-06-conference-talk',
+  'titleEn': 'Conference Talk Vocabulary',
+  'titleVi': 'Từ vựng buổi thuyết trình hội nghị',
+  'subtitleEn': 'Command the specialized discourse of academic and professional conferences',
+  'subtitleVi': 'Làm chủ diễn ngôn chuyên biệt của các hội nghị học thuật và chuyên nghiệp',
+  'level': 'C2',
+  'unit': 2,
+  'skill': 'vocab',
+  'order': 6,
+  'cefr': 'C2',
+  'minutes': 5,
+  'tags': ['conference', 'presentation', 'academic', 'professional', 'discourse', 'speaking'],
+  'audioScript': "Conference discourse has its own conventions and rituals.\nPhrases like \"I shall argue\" signal a deliberate rhetorical move.\nAudience engagement phrases maintain the presenter-attendee dynamic.\n",
+  'listeningEnabled': true,
+  'flashcardCount': 6,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': 'Which phrase signals a speaker is about to present their central argument?',
+        'options':
+          [
+            'Moving on to...',
+            'I shall argue that...',
+            'In conclusion...',
+            'Thank you for your attention...',
+          ],
+        'answer': 'I shall argue that...',
+      },
+      {
+        'type': 'choice',
+        'prompt': 'What is the appropriate response when asked a challenging question at a conference?',
+        'options':
+          [
+            "That's a stupid question",
+            "I'm glad you raised that point",
+            "I don't know",
+            'We have no time for questions',
+          ],
+        'answer': "I'm glad you raised that point",
+      },
+      {
+        'type': 'fill',
+        'prompt': 'The speaker acknowledged the ___ of the previous research while introducing her own methodology.',
+        'answer': 'limitations',
+      },
+    ],
 }
 ---
 

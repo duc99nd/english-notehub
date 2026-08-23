@@ -1,20 +1,20 @@
 ---
 {
-  "id": "interrupting-holding-floor",
-  "slug": "interrupting-holding-floor",
-  "titleEn": "Interrupting & Holding the Floor",
-  "titleVi": "Kỹ năng ngắt lời và giành lại quyền nói",
-  "subtitleEn": "Polite interruption strategies",
-  "subtitleVi": "Cách chen ngang lịch sự trong cuộc họp",
-  "level": "B2",
-  "cefr": "B2",
-  "skill": "speaking",
-  "order": 29,
-  "minutes": 4,
-  "categoryEn": "Agile & Meetings",
-  "categoryVi": "Hội họp & Quy trình",
-  "tags": [],
-  "isArchived": false
+  'id': 'interrupting-holding-floor',
+  'slug': 'interrupting-holding-floor',
+  'titleEn': 'Interrupting & Holding the Floor',
+  'titleVi': 'Kỹ năng ngắt lời và giành lại quyền nói',
+  'subtitleEn': 'Polite interruption strategies',
+  'subtitleVi': 'Cách chen ngang lịch sự trong cuộc họp',
+  'level': 'B2',
+  'cefr': 'B2',
+  'skill': 'speaking',
+  'order': 29,
+  'minutes': 4,
+  'categoryEn': 'Agile & Meetings',
+  'categoryVi': 'Hội họp & Quy trình',
+  'tags': [],
+  'isArchived': false,
 }
 ---
 

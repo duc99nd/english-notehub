@@ -1,56 +1,47 @@
 ---
 {
-  "id": "c2-02-satire-irony",
-  "slug": "c2-02-satire-irony",
-  "titleEn": "Satire & Irony",
-  "titleVi": "Satire & Irony",
-  "subtitleEn": "Analyze sophisticated satire and irony in political and media discourse",
-  "subtitleVi": "Phân tích satire và irony tinh vi trong diễn ngôn chính trị và truyền thông",
-  "level": "C2",
-  "unit": 1,
-  "skill": "grammar",
-  "order": 2,
-  "cefr": "C2",
-  "minutes": 5,
-  "tags": [
-    "satire",
-    "irony",
-    "rhetoric",
-    "politics",
-    "media"
-  ],
-  "audioScript": "Satire uses humor to critique power and expose weakness.\nVerbal irony says the opposite of what is meant.\nSarcasm is typically harsher and more direct than irony.\n",
-  "listeningEnabled": true,
-  "flashcardCount": 6,
-  "quiz": [
-    {
-      "type": "choice",
-      "prompt": "What is the grammatical marker often used to signal verbal irony?",
-      "options": [
-        "Exclamation marks",
-        "Of course",
-        "As if",
-        "The subjunctive mood"
-      ],
-      "answer": "The subjunctive mood"
-    },
-    {
-      "type": "choice",
-      "prompt": "Which sentence demonstrates situational irony?",
-      "options": [
-        "A fire station burns down.",
-        "A teacher says 'How clever' to a foolish action.",
-        "A surgeon operates on her own leg.",
-        "The weather forecast was wrong again."
-      ],
-      "answer": "A fire station burns down."
-    },
-    {
-      "type": "fill",
-      "prompt": "The article was dripping with ___ when it called the failure a 'resounding success'.",
-      "answer": "sarcasm"
-    }
-  ]
+  'id': 'c2-02-satire-irony',
+  'slug': 'c2-02-satire-irony',
+  'titleEn': 'Satire & Irony',
+  'titleVi': 'Satire & Irony',
+  'subtitleEn': 'Analyze sophisticated satire and irony in political and media discourse',
+  'subtitleVi': 'Phân tích satire và irony tinh vi trong diễn ngôn chính trị và truyền thông',
+  'level': 'C2',
+  'unit': 1,
+  'skill': 'grammar',
+  'order': 2,
+  'cefr': 'C2',
+  'minutes': 5,
+  'tags': ['satire', 'irony', 'rhetoric', 'politics', 'media'],
+  'audioScript': "Satire uses humor to critique power and expose weakness.\nVerbal irony says the opposite of what is meant.\nSarcasm is typically harsher and more direct than irony.\n",
+  'listeningEnabled': true,
+  'flashcardCount': 6,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': 'What is the grammatical marker often used to signal verbal irony?',
+        'options': ['Exclamation marks', 'Of course', 'As if', 'The subjunctive mood'],
+        'answer': 'The subjunctive mood',
+      },
+      {
+        'type': 'choice',
+        'prompt': 'Which sentence demonstrates situational irony?',
+        'options':
+          [
+            'A fire station burns down.',
+            "A teacher says 'How clever' to a foolish action.",
+            'A surgeon operates on her own leg.',
+            'The weather forecast was wrong again.',
+          ],
+        'answer': 'A fire station burns down.',
+      },
+      {
+        'type': 'fill',
+        'prompt': "The article was dripping with ___ when it called the failure a 'resounding success'.",
+        'answer': 'sarcasm',
+      },
+    ],
 }
 ---
 

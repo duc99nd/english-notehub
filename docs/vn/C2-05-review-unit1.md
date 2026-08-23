@@ -1,25 +1,18 @@
 ---
 {
-  "id": "c2-05-review-unit1",
-  "slug": "c2-05-review-unit1",
-  "titleEn": "Review Unit 1",
-  "titleVi": "Ôn tập Unit 1",
-  "subtitleEn": "Consolidate your mastery of C2 humor, irony, academic tone, and whitepaper writing",
-  "subtitleVi": "Củng cố khả năng làm chủ hài hước, irony, giọng điệu học thuật và viết whitepaper ở C2",
-  "level": "C2",
-  "unit": 1,
-  "skill": "review",
-  "order": 5,
-  "cefr": "C2",
-  "minutes": 10,
-  "tags": [
-    "review",
-    "humor",
-    "irony",
-    "academic",
-    "whitepaper",
-    "consolidation"
-  ]
+  'id': 'c2-05-review-unit1',
+  'slug': 'c2-05-review-unit1',
+  'titleEn': 'Review Unit 1',
+  'titleVi': 'Ôn tập Unit 1',
+  'subtitleEn': 'Consolidate your mastery of C2 humor, irony, academic tone, and whitepaper writing',
+  'subtitleVi': 'Củng cố khả năng làm chủ hài hước, irony, giọng điệu học thuật và viết whitepaper ở C2',
+  'level': 'C2',
+  'unit': 1,
+  'skill': 'review',
+  'order': 5,
+  'cefr': 'C2',
+  'minutes': 10,
+  'tags': ['review', 'humor', 'irony', 'academic', 'whitepaper', 'consolidation'],
 }
 ---
 

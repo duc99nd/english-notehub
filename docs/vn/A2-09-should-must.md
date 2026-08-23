@@ -1,54 +1,47 @@
 ---
 {
-  "id": "a2-09-should-must",
-  "slug": "a2-09-should-must",
-  "titleEn": "Should and Must",
-  "titleVi": "Should và Must",
-  "subtitleEn": "Đưa ra lời khuyên và diễn đạt nghĩa vụ sử dụng động từ khiếm khuyết",
-  "subtitleVi": "Đưa ra lời khuyên và diễn đạt nghĩa vụ sử dụng động từ khiếm khuyết",
-  "level": "A2",
-  "unit": 2,
-  "skill": "writing",
-  "order": 9,
-  "cefr": "A2",
-  "minutes": 5,
-  "tags": [
-    "should",
-    "must",
-    "modal-verbs",
-    "advice",
-    "writing"
-  ],
-  "audioScript": "Bạn nên học chăm hơn cho kỳ thi.\nBạn phải hoàn thành bài tập trước khi ra ngoài.\nBạn nên uống nhiều nước hơn mỗi ngày.\n",
-  "listeningEnabled": true,
-  "flashcardCount": 6,
-  "quiz": [
-    {
-      "type": "choice",
-      "prompt": "Câu nào đưa ra lời khuyên?",
-      "options": [
-        "You must be on time.",
-        "You should try this restaurant.",
-        "You will go to school."
-      ],
-      "answer": "You should try this restaurant."
-    },
-    {
-      "type": "fill",
-      "prompt": "You ___ finish your work before the deadline. (must/should)",
-      "answer": "must"
-    },
-    {
-      "type": "choice",
-      "prompt": "Sự khác biệt giữa should và must là gì?",
-      "options": [
-        "Chúng có nghĩa giống nhau.",
-        "Should là lời khuyên, must là nghĩa vụ mạnh.",
-        "Must dùng cho quá khứ."
-      ],
-      "answer": "Should là lời khuyên, must là nghĩa vụ mạnh."
-    }
-  ]
+  'id': 'a2-09-should-must',
+  'slug': 'a2-09-should-must',
+  'titleEn': 'Should and Must',
+  'titleVi': 'Should và Must',
+  'subtitleEn': 'Đưa ra lời khuyên và diễn đạt nghĩa vụ sử dụng động từ khiếm khuyết',
+  'subtitleVi': 'Đưa ra lời khuyên và diễn đạt nghĩa vụ sử dụng động từ khiếm khuyết',
+  'level': 'A2',
+  'unit': 2,
+  'skill': 'writing',
+  'order': 9,
+  'cefr': 'A2',
+  'minutes': 5,
+  'tags': ['should', 'must', 'modal-verbs', 'advice', 'writing'],
+  'audioScript': "Bạn nên học chăm hơn cho kỳ thi.\nBạn phải hoàn thành bài tập trước khi ra ngoài.\nBạn nên uống nhiều nước hơn mỗi ngày.\n",
+  'listeningEnabled': true,
+  'flashcardCount': 6,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': 'Câu nào đưa ra lời khuyên?',
+        'options':
+          ['You must be on time.', 'You should try this restaurant.', 'You will go to school.'],
+        'answer': 'You should try this restaurant.',
+      },
+      {
+        'type': 'fill',
+        'prompt': 'You ___ finish your work before the deadline. (must/should)',
+        'answer': 'must',
+      },
+      {
+        'type': 'choice',
+        'prompt': 'Sự khác biệt giữa should và must là gì?',
+        'options':
+          [
+            'Chúng có nghĩa giống nhau.',
+            'Should là lời khuyên, must là nghĩa vụ mạnh.',
+            'Must dùng cho quá khứ.',
+          ],
+        'answer': 'Should là lời khuyên, must là nghĩa vụ mạnh.',
+      },
+    ],
 }
 ---
 

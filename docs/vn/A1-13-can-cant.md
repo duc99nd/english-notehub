@@ -1,68 +1,43 @@
 ---
 {
-  "id": "a1-13-can-cant",
-  "slug": "a1-13-can-cant",
-  "titleEn": "Can and Can't",
-  "titleVi": "Can và Can't",
-  "subtitleEn": "Talk about abilities, ask permission, and make polite requests",
-  "subtitleVi": "Nói về năng lực, xin phép và đưa ra yêu cầu lịch sự",
-  "level": "A1",
-  "unit": 3,
-  "skill": "grammar",
-  "order": 13,
-  "cefr": "A1",
-  "minutes": 8,
-  "tags": [
-    "can",
-    "cant",
-    "ability",
-    "permission",
-    "modal",
-    "grammar"
-  ],
-  "audioScript": "I can swim very well. Can you swim?\nShe can't speak French, but she can speak English.\nExcuse me, can I sit here?\nCan you help me, please?\n",
-  "listeningEnabled": true,
-  "flashcardCount": 8,
-  "quiz": [
-    {
-      "type": "choice",
-      "prompt": "Câu nào đúng?",
-      "options": [
-        "I can to swim.",
-        "I can swimming.",
-        "I can swim.",
-        "I can swim to."
-      ],
-      "answer": "I can swim."
-    },
-    {
-      "type": "choice",
-      "prompt": "Phủ định của 'I can swim' là gì?",
-      "options": [
-        "I can not to swim.",
-        "I don't can swim.",
-        "I can't swim.",
-        "I no can swim."
-      ],
-      "answer": "I can't swim."
-    },
-    {
-      "type": "choice",
-      "prompt": "Một người bạn hỏi: 'Can you play the guitar?' Bạn không chơi. Bạn nói gì?",
-      "options": [
-        "Yes, I can.",
-        "No, I can't.",
-        "Yes, I can't.",
-        "I can."
-      ],
-      "answer": "No, I can't."
-    },
-    {
-      "type": "fill",
-      "prompt": "Excuse me, ___ I open the window? (xin phép)",
-      "answer": "can"
-    }
-  ]
+  'id': 'a1-13-can-cant',
+  'slug': 'a1-13-can-cant',
+  'titleEn': "Can and Can't",
+  'titleVi': "Can và Can't",
+  'subtitleEn': 'Talk about abilities, ask permission, and make polite requests',
+  'subtitleVi': 'Nói về năng lực, xin phép và đưa ra yêu cầu lịch sự',
+  'level': 'A1',
+  'unit': 3,
+  'skill': 'grammar',
+  'order': 13,
+  'cefr': 'A1',
+  'minutes': 8,
+  'tags': ['can', 'cant', 'ability', 'permission', 'modal', 'grammar'],
+  'audioScript': "I can swim very well. Can you swim?\nShe can't speak French, but she can speak English.\nExcuse me, can I sit here?\nCan you help me, please?\n",
+  'listeningEnabled': true,
+  'flashcardCount': 8,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': 'Câu nào đúng?',
+        'options': ['I can to swim.', 'I can swimming.', 'I can swim.', 'I can swim to.'],
+        'answer': 'I can swim.',
+      },
+      {
+        'type': 'choice',
+        'prompt': "Phủ định của 'I can swim' là gì?",
+        'options': ['I can not to swim.', "I don't can swim.", "I can't swim.", 'I no can swim.'],
+        'answer': "I can't swim.",
+      },
+      {
+        'type': 'choice',
+        'prompt': "Một người bạn hỏi: 'Can you play the guitar?' Bạn không chơi. Bạn nói gì?",
+        'options': ['Yes, I can.', "No, I can't.", "Yes, I can't.", 'I can.'],
+        'answer': "No, I can't.",
+      },
+      { 'type': 'fill', 'prompt': 'Excuse me, ___ I open the window? (xin phép)', 'answer': 'can' },
+    ],
 }
 ---
 
@@ -86,11 +61,11 @@ Phủ định **can't** cũng phục vụ cả ba mục đích trên:
 
 ## Ba dạng câu
 
-| Cách dùng | Mẫu | Ví dụ |
-| --- | --- | --- |
-| Khẳng định | `S + can + V` | I can swim. |
-| Phủ định | `S + can't + V` | I can't swim. |
-| Câu hỏi | `Can + S + V?` | Can you swim? |
+| Cách dùng  | Mẫu             | Ví dụ         |
+| ---------- | --------------- | ------------- |
+| Khẳng định | `S + can + V`   | I can swim.   |
+| Phủ định   | `S + can't + V` | I can't swim. |
+| Câu hỏi    | `Can + S + V?`  | Can you swim? |
 
 > **Lưu ý**: KHÔNG thêm "s" vào "can", kể cả với he/she/it. "She **cans** swim" là sai. "Can" giống nhau cho mọi chủ ngữ.
 
@@ -98,13 +73,13 @@ Phủ định **can't** cũng phục vụ cả ba mục đích trên:
 
 > **Mẫu**: `Chủ ngữ + can / can't + V` (cho kỹ năng bạn có hoặc không có ngay bây giờ)
 
-| English | Vietnamese |
-| --- | --- |
-| I can speak English. | Tôi có thể nói tiếng Anh. |
-| She can play the piano. | Cô ấy có thể chơi piano. |
-| He can't drive a car. | Anh ấy không biết lái xe. |
-| They can cook very well. | Họ nấu ăn rất ngon. |
-| We can't come today. | Hôm nay chúng tôi không đến được. |
+| English                  | Vietnamese                        |
+| ------------------------ | --------------------------------- |
+| I can speak English.     | Tôi có thể nói tiếng Anh.         |
+| She can play the piano.  | Cô ấy có thể chơi piano.          |
+| He can't drive a car.    | Anh ấy không biết lái xe.         |
+| They can cook very well. | Họ nấu ăn rất ngon.               |
+| We can't come today.     | Hôm nay chúng tôi không đến được. |
 
 Hai điểm quan trọng:
 
@@ -115,12 +90,12 @@ Hai điểm quan trọng:
 
 > **Mẫu**: `Can I + V?` (= Việc này có ổn không nếu tôi ...?)
 
-| English | Khi nào dùng |
-| --- | --- |
-| Can I sit here? | Hỏi về chỗ ngồi |
-| Can I open the window? | Hỏi trước khi làm gì |
-| Can I use your phone? | Xin mượn |
-| Can I leave early today? | Hỏi sếp |
+| English                  | Khi nào dùng         |
+| ------------------------ | -------------------- |
+| Can I sit here?          | Hỏi về chỗ ngồi      |
+| Can I open the window?   | Hỏi trước khi làm gì |
+| Can I use your phone?    | Xin mượn             |
+| Can I leave early today? | Hỏi sếp              |
 
 Các cách nói lịch sự hơn:
 
@@ -132,22 +107,22 @@ Các cách nói lịch sự hơn:
 
 > **Mẫu**: `Can you + V?` (= Bạn làm ơn ... được không?)
 
-| English | Khi nào dùng |
-| --- | --- |
-| Can you help me? | Xin giúp đỡ |
-| Can you pass the salt? | Ở bàn ăn |
+| English                 | Khi nào dùng      |
+| ----------------------- | ----------------- |
+| Can you help me?        | Xin giúp đỡ       |
+| Can you pass the salt?  | Ở bàn ăn          |
 | Can you say that again? | Bạn không nghe rõ |
-| Can you wait a moment? | Bảo ai đó đợi |
+| Can you wait a moment?  | Bảo ai đó đợi     |
 
 > **Mẹo**: Thêm "**please**" hoặc "**excuse me**" để yêu cầu mềm mại hơn. "Can you help me, **please**?" nghe hay hơn nhiều so với chỉ "Can you help me?"
 
 ## Câu trả lời ngắn
 
-| Câu hỏi | Có | Không |
-| --- | --- | --- |
-| Can you swim? | Yes, I can. | No, I can't. |
-| Can she cook? | Yes, she can. | No, she can't. |
-| Can he drive? | Yes, he can. | No, he can't. |
+| Câu hỏi        | Có             | Không           |
+| -------------- | -------------- | --------------- |
+| Can you swim?  | Yes, I can.    | No, I can't.    |
+| Can she cook?  | Yes, she can.  | No, she can't.  |
+| Can he drive?  | Yes, he can.   | No, he can't.   |
 | Can they come? | Yes, they can. | No, they can't. |
 
 > **Mẫu**: Đừng nói "**Yes, I can't**" — đó là mâu thuẫn. Câu trả lời phủ định chỉ là "No, I can't."
@@ -198,7 +173,7 @@ Lưu ý nhịp điệu: mỗi "can / can't" trả lời trực tiếp câu hỏi
 
 Điền vào chỗ trống, sau đó đọc to.
 
-> My name is __________. I can __________ very well, but I can't __________. I can also __________. Can you __________?
+> My name is ****\_\_****. I can ****\_\_**** very well, but I can't ****\_\_****. I can also ****\_\_****. Can you ****\_\_****?
 
 **Hỏi một người bạn cùng câu hỏi:**
 

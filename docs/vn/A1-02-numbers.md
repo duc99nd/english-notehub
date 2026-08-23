@@ -1,61 +1,42 @@
 ---
 {
-  "id": "a1-02-numbers",
-  "slug": "a1-02-numbers",
-  "titleEn": "Numbers & Phone Numbers",
-  "titleVi": "Số đếm & Số điện thoại",
-  "subtitleEn": "Count 1–100 and say phone numbers the way native speakers actually say them",
-  "subtitleVi": "Đếm 1–100 và nói số điện thoại đúng cách người bản xứ nói",
-  "level": "A1",
-  "unit": 1,
-  "skill": "grammar",
-  "order": 2,
-  "cefr": "A1",
-  "minutes": 8,
-  "tags": [
-    "numbers",
-    "phone",
-    "counting",
-    "math",
-    "foundation"
-  ],
-  "audioScript": "One, two, three, four, five.\nMy number is zero nine one, five six seven, eight nine zero.\nI have two sisters and one brother.\nFour plus five equals nine.\n",
-  "listeningEnabled": true,
-  "flashcardCount": 8,
-  "quiz": [
-    {
-      "type": "fill",
-      "prompt": "Viết bằng chữ: 14 → ___",
-      "answer": "fourteen"
-    },
-    {
-      "type": "choice",
-      "prompt": "Ai đó nói: 'My number is zero nine one, two three four, five six seven.' Số đó là gì?",
-      "options": [
-        "091234567",
-        "91234567",
-        "0912345678",
-        "9234567"
-      ],
-      "answer": "091234567"
-    },
-    {
-      "type": "choice",
-      "prompt": "Cách viết nào đúng cho số 40?",
-      "options": [
-        "fourty",
-        "forty",
-        "fourti",
-        "fourteen"
-      ],
-      "answer": "forty"
-    },
-    {
-      "type": "fill",
-      "prompt": "Six ___ two equals eight. (plus / minus / times)",
-      "answer": "plus"
-    }
-  ]
+  'id': 'a1-02-numbers',
+  'slug': 'a1-02-numbers',
+  'titleEn': 'Numbers & Phone Numbers',
+  'titleVi': 'Số đếm & Số điện thoại',
+  'subtitleEn': 'Count 1–100 and say phone numbers the way native speakers actually say them',
+  'subtitleVi': 'Đếm 1–100 và nói số điện thoại đúng cách người bản xứ nói',
+  'level': 'A1',
+  'unit': 1,
+  'skill': 'grammar',
+  'order': 2,
+  'cefr': 'A1',
+  'minutes': 8,
+  'tags': ['numbers', 'phone', 'counting', 'math', 'foundation'],
+  'audioScript': "One, two, three, four, five.\nMy number is zero nine one, five six seven, eight nine zero.\nI have two sisters and one brother.\nFour plus five equals nine.\n",
+  'listeningEnabled': true,
+  'flashcardCount': 8,
+  'quiz':
+    [
+      { 'type': 'fill', 'prompt': 'Viết bằng chữ: 14 → ___', 'answer': 'fourteen' },
+      {
+        'type': 'choice',
+        'prompt': "Ai đó nói: 'My number is zero nine one, two three four, five six seven.' Số đó là gì?",
+        'options': ['091234567', '91234567', '0912345678', '9234567'],
+        'answer': '091234567',
+      },
+      {
+        'type': 'choice',
+        'prompt': 'Cách viết nào đúng cho số 40?',
+        'options': ['fourty', 'forty', 'fourti', 'fourteen'],
+        'answer': 'forty',
+      },
+      {
+        'type': 'fill',
+        'prompt': 'Six ___ two equals eight. (plus / minus / times)',
+        'answer': 'plus',
+      },
+    ],
 }
 ---
 
@@ -69,18 +50,18 @@ Sau câu "What's your name?", câu hỏi tiếp theo hầu như luôn là một 
 
 Hầu hết các số từ 1 đến 12 là **những từ riêng biệt** — bạn chỉ cần học thuộc. Từ 13 trở đi, một quy luật rõ ràng bắt đầu.
 
-| 1–10 | 11–20 |
-| --- | --- |
-| 1 one | 11 eleven |
-| 2 two | 12 twelve |
+| 1–10    | 11–20                        |
+| ------- | ---------------------------- |
+| 1 one   | 11 eleven                    |
+| 2 two   | 12 twelve                    |
 | 3 three | 13 thirteen (= three + teen) |
-| 4 four | 14 fourteen (= four + teen) |
-| 5 five | 15 fifteen (= five + teen) |
-| 6 six | 16 sixteen |
-| 7 seven | 17 seventeen |
-| 8 eight | 18 eighteen |
-| 9 nine | 19 nineteen |
-| 10 ten | 20 twenty |
+| 4 four  | 14 fourteen (= four + teen)  |
+| 5 five  | 15 fifteen (= five + teen)   |
+| 6 six   | 16 sixteen                   |
+| 7 seven | 17 seventeen                 |
+| 8 eight | 18 eighteen                  |
+| 9 nine  | 19 nineteen                  |
+| 10 ten  | 20 twenty                    |
 
 > **Mẫu**: 13–19 = `[3–9] + teen`. Lưu ý: **five** + teen = **fifteen** (mất chữ "e"), và **eight** + teen = **eighteen** (mất chữ "t").
 
@@ -88,17 +69,17 @@ Hầu hết các số từ 1 đến 12 là **những từ riêng biệt** — b�
 
 Từ 20 trở đi, quy luật là `[số] + ty`.
 
-| Số | Cách viết | Ghi chú |
-| --- | --- | --- |
-| 20 | twenty | dạng gốc |
-| 30 | thirty | bỏ chữ "e" trong three |
-| 40 | **forty** | KHÔNG viết "fourty" — lỗi chính tả phổ biến |
-| 50 | **fifty** | KHÔNG viết "fivety" — bỏ chữ "e" trong five |
-| 60 | sixty | bỏ chữ "x" trong six |
-| 70 | seventy | giữ chữ "v" trong seven |
-| 80 | eighty | bỏ MỘT chữ "t" trong eight |
-| 90 | ninety | bỏ chữ "e" trong nine |
-| 100 | one hundred | dùng "a" hoặc "one" đều được |
+| Số  | Cách viết   | Ghi chú                                     |
+| --- | ----------- | ------------------------------------------- |
+| 20  | twenty      | dạng gốc                                    |
+| 30  | thirty      | bỏ chữ "e" trong three                      |
+| 40  | **forty**   | KHÔNG viết "fourty" — lỗi chính tả phổ biến |
+| 50  | **fifty**   | KHÔNG viết "fivety" — bỏ chữ "e" trong five |
+| 60  | sixty       | bỏ chữ "x" trong six                        |
+| 70  | seventy     | giữ chữ "v" trong seven                     |
+| 80  | eighty      | bỏ MỘT chữ "t" trong eight                  |
+| 90  | ninety      | bỏ chữ "e" trong nine                       |
+| 100 | one hundred | dùng "a" hoặc "one" đều được                |
 
 > **Mẹo**: Twenty, thirty, forty, fifty, sixty, seventy, eighty, ninety, hundred — đọc theo thứ tự cho quen. Nhịp (hai âm tiết, nhấn âm đầu) lặp lại giống nhau.
 
@@ -106,15 +87,15 @@ Từ 20 trở đi, quy luật là `[số] + ty`.
 
 Từ 21 đến 99, dùng gạch nối: `[số chục] + [-] + [số đơn vị]`.
 
-| Số | Cách đọc |
-| --- | --- |
-| 21 | twenty-one |
-| 35 | thirty-five |
-| 48 | forty-eight |
-| 67 | sixty-seven |
-| 99 | ninety-nine |
-| 100 | one hundred |
-| 101 | one hundred **and** one |
+| Số  | Cách đọc                                            |
+| --- | --------------------------------------------------- |
+| 21  | twenty-one                                          |
+| 35  | thirty-five                                         |
+| 48  | forty-eight                                         |
+| 67  | sixty-seven                                         |
+| 99  | ninety-nine                                         |
+| 100 | one hundred                                         |
+| 101 | one hundred **and** one                             |
 | 250 | two hundred fifty (hoặc "two fifty" khi nói thường) |
 
 > **Mẫu**: Từ 101 trở lên, tiếng Anh dùng **"and"** trước phần cuối. "One hundred **and** five" = 105. (Tiếng Anh Mỹ thỉnh thoảng bỏ "and", nhưng khi viết luôn có "and".)
@@ -125,11 +106,11 @@ Từ 21 đến 99, dùng gạch nối: `[số chục] + [-] + [số đơn vị]`
 >
 > `0 = oh` (hoặc "zero"), `1 = one`, `2 = two`, ..., `9 = nine`
 
-| Viết | Cách bạn đọc |
-| --- | --- |
+| Viết         | Cách bạn đọc                                          |
+| ------------ | ----------------------------------------------------- |
 | 091 234 5678 | "Zero nine one, two three four, five six seven eight" |
-| 098 765 4321 | "Oh nine eight, seven six five, four three two one" |
-| 1900 1530 | "One nine zero zero, one five three zero" |
+| 098 765 4321 | "Oh nine eight, seven six five, four three two one"   |
+| 1900 1530    | "One nine zero zero, one five three zero"             |
 
 Hai thói quen quan trọng:
 
@@ -139,17 +120,18 @@ Hai thói quen quan trọng:
 ## Phép tính đơn giản
 
 > **Mẫu**:
+>
 > - `X plus Y` = cộng
 > - `X minus Y` = trừ
 > - `X times Y` = nhân
 > - `X divided by Y` = chia
 > - `X equals Y` = bằng
 
-| Cách đọc | Nghĩa |
-| --- | --- |
-| One plus two equals three. | 1 + 2 = 3 |
-| Ten minus four equals six. | 10 − 4 = 6 |
-| Three times five equals fifteen. | 3 × 5 = 15 |
+| Cách đọc                             | Nghĩa      |
+| ------------------------------------ | ---------- |
+| One plus two equals three.           | 1 + 2 = 3  |
+| Ten minus four equals six.           | 10 − 4 = 6 |
+| Three times five equals fifteen.     | 3 × 5 = 15 |
 | Twelve divided by four equals three. | 12 ÷ 4 = 3 |
 
 ## Nghe một cuộc gọi đặt bàn thật
@@ -191,12 +173,12 @@ Lưu ý cách lễ tân **đọc lại số điện thoại** để xác nhận.
 
 Tập đọc to mỗi số ba lần. Sau đó viết lại các số mà bạn bè bạn đọc cho bạn nghe.
 
-| Số | Bạn nói thế nào |
-| --- | --- |
-| 27 | twenty-___ |
-| 48 | ___ |
-| 091 555 1234 | "Zero nine one, ___, ___" |
-| 199 | one ___ and ___ |
+| Số           | Bạn nói thế nào           |
+| ------------ | ------------------------- |
+| 27           | twenty-\_\_\_             |
+| 48           | \_\_\_                    |
+| 091 555 1234 | "Zero nine one, **_, _**" |
+| 199          | one **_ and _**           |
 
 **Tự kiểm tra**:
 

@@ -1,67 +1,49 @@
 ---
 {
-  "id": "a1-07-food",
-  "slug": "a1-07-food",
-  "titleEn": "Food & Drinks",
-  "titleVi": "Thức ăn & Đồ uống",
-  "subtitleEn": "Order food, talk about meals, and use 'some' / 'a cup of' correctly",
-  "subtitleVi": "Gọi món, nói về bữa ăn và dùng đúng 'some' / 'a cup of'",
-  "level": "A1",
-  "unit": 2,
-  "skill": "grammar",
-  "order": 7,
-  "cefr": "A1",
-  "minutes": 8,
-  "tags": [
-    "food",
-    "drinks",
-    "restaurant",
-    "countable",
-    "uncountable",
-    "grammar"
-  ],
-  "audioScript": "I would like some rice and chicken, please.\nI drink water every day. Sometimes I drink coffee.\nFor breakfast, I eat bread and eggs.\nDo you like fruit?\n",
-  "listeningEnabled": true,
-  "flashcardCount": 12,
-  "quiz": [
-    {
-      "type": "choice",
-      "prompt": "Complete: 'I would like ___ rice, please.'",
-      "options": [
-        "any",
-        "some",
-        "a"
-      ],
-      "answer": "some"
-    },
-    {
-      "type": "choice",
-      "prompt": "Which is correct?",
-      "options": [
-        "I would like a water, please.",
-        "I would like a glass of water, please.",
-        "I would like a waters, please.",
-        "I would like waters, please."
-      ],
-      "answer": "I would like a glass of water, please."
-    },
-    {
-      "type": "choice",
-      "prompt": "What is the polite way to ask for the check at a restaurant?",
-      "options": [
-        "Money now.",
-        "Pay me.",
-        "The bill, please.",
-        "Check please give."
-      ],
-      "answer": "The bill, please."
-    },
-    {
-      "type": "fill",
-      "prompt": "I ___ like some chicken, please. (muốn)",
-      "answer": "would"
-    }
-  ]
+  'id': 'a1-07-food',
+  'slug': 'a1-07-food',
+  'titleEn': 'Food & Drinks',
+  'titleVi': 'Thức ăn & Đồ uống',
+  'subtitleEn': "Order food, talk about meals, and use 'some' / 'a cup of' correctly",
+  'subtitleVi': "Gọi món, nói về bữa ăn và dùng đúng 'some' / 'a cup of'",
+  'level': 'A1',
+  'unit': 2,
+  'skill': 'grammar',
+  'order': 7,
+  'cefr': 'A1',
+  'minutes': 8,
+  'tags': ['food', 'drinks', 'restaurant', 'countable', 'uncountable', 'grammar'],
+  'audioScript': "I would like some rice and chicken, please.\nI drink water every day. Sometimes I drink coffee.\nFor breakfast, I eat bread and eggs.\nDo you like fruit?\n",
+  'listeningEnabled': true,
+  'flashcardCount': 12,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': "Complete: 'I would like ___ rice, please.'",
+        'options': ['any', 'some', 'a'],
+        'answer': 'some',
+      },
+      {
+        'type': 'choice',
+        'prompt': 'Which is correct?',
+        'options':
+          [
+            'I would like a water, please.',
+            'I would like a glass of water, please.',
+            'I would like a waters, please.',
+            'I would like waters, please.',
+          ],
+        'answer': 'I would like a glass of water, please.',
+      },
+      {
+        'type': 'choice',
+        'prompt': 'What is the polite way to ask for the check at a restaurant?',
+        'options': ['Money now.', 'Pay me.', 'The bill, please.', 'Check please give.'],
+        'answer': 'The bill, please.',
+      },
+      { 'type': 'fill', 'prompt': 'I ___ like some chicken, please. (muốn)', 'answer': 'would' },
+    ],
 }
 ---
 
@@ -73,11 +55,11 @@ Every meal is a vocabulary test. In one restaurant visit you say "I'd like", "Ca
 
 ## Three food categories
 
-| Category | Vietnamese | Rule | Examples |
-| --- | --- | --- | --- |
-| Countable | thứ đếm được | You can use "a / an" and plural | apple, egg, chicken, sandwich |
-| Uncountable | thứ không đếm được | No plural, no "a/an", needs "some" / "a cup of" | rice, water, milk, bread, meat |
-| Both | dùng cả hai | Depends on meaning | coffee (drink vs. portion), fruit (uncountable vs. specific types) |
+| Category    | Vietnamese         | Rule                                            | Examples                                                           |
+| ----------- | ------------------ | ----------------------------------------------- | ------------------------------------------------------------------ |
+| Countable   | thứ đếm được       | You can use "a / an" and plural                 | apple, egg, chicken, sandwich                                      |
+| Uncountable | thứ không đếm được | No plural, no "a/an", needs "some" / "a cup of" | rice, water, milk, bread, meat                                     |
+| Both        | dùng cả hai        | Depends on meaning                              | coffee (drink vs. portion), fruit (uncountable vs. specific types) |
 
 > **Pattern**: "a/an" goes with **singular countable**: an apple, an egg. **Uncountable** nouns need "**some**" or a **measure word**: some rice, a cup of coffee, two glasses of water.
 
@@ -85,53 +67,53 @@ Every meal is a vocabulary test. In one restaurant visit you say "I'd like", "Ca
 
 ### Countable
 
-| English | Vietnamese | Example |
-| --- | --- | --- |
-| apple | quả táo | I eat an apple. |
-| egg | quả trứng | I eat two eggs. |
-| sandwich | bánh sandwich | I have a sandwich. |
-| chicken (as meat) | thịt gà | I like chicken. |
-| fish (whole) | con cá | I catch a fish. |
-| pizza | bánh pizza | We order a pizza. |
-| hamburger | hamburger | He eats a hamburger. |
+| English           | Vietnamese    | Example              |
+| ----------------- | ------------- | -------------------- |
+| apple             | quả táo       | I eat an apple.      |
+| egg               | quả trứng     | I eat two eggs.      |
+| sandwich          | bánh sandwich | I have a sandwich.   |
+| chicken (as meat) | thịt gà       | I like chicken.      |
+| fish (whole)      | con cá        | I catch a fish.      |
+| pizza             | bánh pizza    | We order a pizza.    |
+| hamburger         | hamburger     | He eats a hamburger. |
 
 ### Uncountable
 
-| English | Vietnamese | Example |
-| --- | --- | --- |
-| rice | cơm / gạo | I eat rice every day. |
-| bread | bánh mì | I have bread for breakfast. |
-| water | nước | I drink water. |
-| coffee | cà phê | I love coffee. |
-| tea | trà | She drinks tea. |
-| milk | sữa | He drinks milk. |
-| meat | thịt (nói chung) | I don't eat meat. |
-| fish (as food) | cá (làm món) | I like fish. |
-| fruit | trái cây (nói chung) | I love fruit. |
-| information | thông tin | I need information. |
+| English        | Vietnamese           | Example                     |
+| -------------- | -------------------- | --------------------------- |
+| rice           | cơm / gạo            | I eat rice every day.       |
+| bread          | bánh mì              | I have bread for breakfast. |
+| water          | nước                 | I drink water.              |
+| coffee         | cà phê               | I love coffee.              |
+| tea            | trà                  | She drinks tea.             |
+| milk           | sữa                  | He drinks milk.             |
+| meat           | thịt (nói chung)     | I don't eat meat.           |
+| fish (as food) | cá (làm món)         | I like fish.                |
+| fruit          | trái cây (nói chung) | I love fruit.               |
+| information    | thông tin            | I need information.         |
 
 ## Common drinks
 
-| English | Vietnamese | Count? | Container |
-| --- | --- | --- | --- |
-| water | nước | uncountable | a glass of / a bottle of |
-| coffee | cà phê | uncountable | a cup of / a mug of |
-| tea | trà | uncountable | a cup of / a pot of |
-| milk | sữa | uncountable | a glass of |
-| juice | nước ép | uncountable | a glass of |
-| soda / coke | nước ngọt | count or uncountable | a can of / a glass of |
-| beer | bia | count or uncountable | a bottle of / a glass of |
+| English     | Vietnamese | Count?               | Container                |
+| ----------- | ---------- | -------------------- | ------------------------ |
+| water       | nước       | uncountable          | a glass of / a bottle of |
+| coffee      | cà phê     | uncountable          | a cup of / a mug of      |
+| tea         | trà        | uncountable          | a cup of / a pot of      |
+| milk        | sữa        | uncountable          | a glass of               |
+| juice       | nước ép    | uncountable          | a glass of               |
+| soda / coke | nước ngọt  | count or uncountable | a can of / a glass of    |
+| beer        | bia        | count or uncountable | a bottle of / a glass of |
 
 > **Pattern for containers**: `a cup of coffee`, `a glass of water`, `a bottle of wine`, `a can of soda`. The noun after "of" is **always singular**, even for multiple cups: "two cups of coffee" — not "two coffees" in formal English, though "two coffees" is fine in casual speech.
 
 ## Countable vs uncountable — the four key words
 
-| Word | Use with uncountable | Use with countable |
-| --- | --- | --- |
-| some / any | I have **some** rice. (✓) | I have **some** apples. (✓ also) |
-| a lot of | a lot of rice | a lot of apples |
-| much / many | much rice (✓) | **many** apples (✓) — not "much" |
-| little / few | little rice (✓) | **few** apples (✓) — not "little" |
+| Word         | Use with uncountable      | Use with countable                |
+| ------------ | ------------------------- | --------------------------------- |
+| some / any   | I have **some** rice. (✓) | I have **some** apples. (✓ also)  |
+| a lot of     | a lot of rice             | a lot of apples                   |
+| much / many  | much rice (✓)             | **many** apples (✓) — not "much"  |
+| little / few | little rice (✓)           | **few** apples (✓) — not "little" |
 
 > **Note**: "**Some**" works with both. The classic mistake is using "many" with uncountable: ❌ "I have many water." ✅ "I have much water." (or better: "I have a lot of water.")
 
@@ -145,15 +127,15 @@ Every meal is a vocabulary test. In one restaurant visit you say "I'd like", "Ca
 
 ### Step-by-step ordering
 
-| Step | What to say |
-| --- | --- |
-| 1. Sit down | (Nothing — wait to be seated) |
-| 2. Get menu | "Could I see the menu, please?" |
-| 3. Ask about dish | "What do you recommend?" or "What's in the [dish]?" |
-| 4. Order | "I'd like the chicken, please." or "I'll have the fish." |
-| 5. Order drinks | "A glass of water, please." |
-| 6. Ask for the check | "Could I have the bill, please?" |
-| 7. Pay + tip | (Tip 15-20% in the US; not customary in many countries) |
+| Step                 | What to say                                              |
+| -------------------- | -------------------------------------------------------- |
+| 1. Sit down          | (Nothing — wait to be seated)                            |
+| 2. Get menu          | "Could I see the menu, please?"                          |
+| 3. Ask about dish    | "What do you recommend?" or "What's in the [dish]?"      |
+| 4. Order             | "I'd like the chicken, please." or "I'll have the fish." |
+| 5. Order drinks      | "A glass of water, please."                              |
+| 6. Ask for the check | "Could I have the bill, please?"                         |
+| 7. Pay + tip         | (Tip 15-20% in the US; not customary in many countries)  |
 
 > **Tip**: "**I'd like**" is short for "I would like". Both are correct, but "I'd like" is faster and friendlier. "**I'll have**" is even more casual — like talking to a friend at a café.
 
@@ -167,7 +149,7 @@ Every meal is a vocabulary test. In one restaurant visit you say "I'd like", "Ca
 >
 > **Anna**: Of course. I'll come back.
 >
-> *(a minute later)*
+> _(a minute later)_
 >
 > **Waiter**: I'm ready. I'd like the chicken with rice, please.
 >
@@ -201,17 +183,17 @@ Imagine you're at a café. Write your order using **"I'd like..."** and **measur
 
 > Waiter: Are you ready to order?
 >
-> You: Yes. I'd like __________ for my main, and __________ to drink.
+> You: Yes. I'd like ****\_\_**** for my main, and ****\_\_**** to drink.
 >
 > Waiter: Anything else?
 >
-> You: __________, please. (a dessert / side / extra)
+> You: ****\_\_****, please. (a dessert / side / extra)
 >
 > Waiter: Sure. I'll be right back.
 
 Then write what the waiter brings:
 
-> The waiter brings: __________ and __________.
+> The waiter brings: ****\_\_**** and ****\_\_****.
 
 **Self-check**:
 

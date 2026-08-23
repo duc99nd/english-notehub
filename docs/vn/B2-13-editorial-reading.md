@@ -1,54 +1,46 @@
 ---
 {
-  "id": "b2-13-editorial-reading",
-  "slug": "b2-13-editorial-reading",
-  "titleEn": "Editorial and Opinion Reading",
-  "titleVi": "Đọc bài xã luận và quan điểm",
-  "subtitleEn": "Read and analyze opinion pieces, editorials, and analytical commentary",
-  "subtitleVi": "Đọc và phân tích các bài luận, xã luận và bình luận phân tích",
-  "level": "B2",
-  "unit": 3,
-  "skill": "reading",
-  "order": 13,
-  "cefr": "B2",
-  "minutes": 5,
-  "tags": [
-    "reading",
-    "editorial",
-    "opinion",
-    "analysis",
-    "B2"
-  ],
-  "audioScript": "The proposed regulation fails to address the root cause.\nIn light of recent events, it's time to reconsider our position.\nCritics argue that the policy overlooks key stakeholder concerns.\n",
-  "listeningEnabled": true,
-  "flashcardCount": 6,
-  "quiz": [
-    {
-      "type": "choice",
-      "prompt": "What does \"overlooks\" mean in the context of the article?",
-      "options": [
-        "Looks over something physically",
-        "Fails to notice or consider",
-        "Celebrates"
-      ],
-      "answer": "Fails to notice or consider"
-    },
-    {
-      "type": "fill",
-      "prompt": "___ recent events, it's time to reconsider our position.",
-      "answer": "In light of"
-    },
-    {
-      "type": "choice",
-      "prompt": "What is a \"stakeholder\"?",
-      "options": [
-        "A person who owns shares in a company",
-        "A person or group with an interest in an issue",
-        "A government official"
-      ],
-      "answer": "A person or group with an interest in an issue"
-    }
-  ]
+  'id': 'b2-13-editorial-reading',
+  'slug': 'b2-13-editorial-reading',
+  'titleEn': 'Editorial and Opinion Reading',
+  'titleVi': 'Đọc bài xã luận và quan điểm',
+  'subtitleEn': 'Read and analyze opinion pieces, editorials, and analytical commentary',
+  'subtitleVi': 'Đọc và phân tích các bài luận, xã luận và bình luận phân tích',
+  'level': 'B2',
+  'unit': 3,
+  'skill': 'reading',
+  'order': 13,
+  'cefr': 'B2',
+  'minutes': 5,
+  'tags': ['reading', 'editorial', 'opinion', 'analysis', 'B2'],
+  'audioScript': "The proposed regulation fails to address the root cause.\nIn light of recent events, it's time to reconsider our position.\nCritics argue that the policy overlooks key stakeholder concerns.\n",
+  'listeningEnabled': true,
+  'flashcardCount': 6,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': 'What does "overlooks" mean in the context of the article?',
+        'options': ['Looks over something physically', 'Fails to notice or consider', 'Celebrates'],
+        'answer': 'Fails to notice or consider',
+      },
+      {
+        'type': 'fill',
+        'prompt': "___ recent events, it's time to reconsider our position.",
+        'answer': 'In light of',
+      },
+      {
+        'type': 'choice',
+        'prompt': 'What is a "stakeholder"?',
+        'options':
+          [
+            'A person who owns shares in a company',
+            'A person or group with an interest in an issue',
+            'A government official',
+          ],
+        'answer': 'A person or group with an interest in an issue',
+      },
+    ],
 }
 ---
 

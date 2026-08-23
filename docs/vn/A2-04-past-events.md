@@ -1,53 +1,37 @@
 ---
 {
-  "id": "a2-04-past-events",
-  "slug": "a2-04-past-events",
-  "titleEn": "Past Events",
-  "titleVi": "Sự kiện trong quá khứ",
-  "subtitleEn": "Nói về những gì đã xảy ra sử dụng thì quá khứ đơn",
-  "subtitleVi": "Nói về những gì đã xảy ra sử dụng thì quá khứ đơn",
-  "level": "A2",
-  "unit": 1,
-  "skill": "writing",
-  "order": 4,
-  "cefr": "A2",
-  "minutes": 5,
-  "tags": [
-    "past-simple",
-    "verbs",
-    "writing",
-    "events"
-  ],
-  "audioScript": "Hôm qua tôi đã đi chợ.\nCô ấy gọi cho tôi tối qua.\nHọ đã chơi bóng đá sáng nay.\n",
-  "listeningEnabled": true,
-  "flashcardCount": 6,
-  "quiz": [
-    {
-      "type": "choice",
-      "prompt": "Câu nào dùng thì quá khứ đơn đúng?",
-      "options": [
-        "I goed to school.",
-        "I went to school.",
-        "I goed at school."
-      ],
-      "answer": "I went to school."
-    },
-    {
-      "type": "fill",
-      "prompt": "Yesterday, she ___ a new dress. (buy)",
-      "answer": "bought"
-    },
-    {
-      "type": "choice",
-      "prompt": "Khi nào chúng ta dùng 'was'?",
-      "options": [
-        "Với I, he, she, it",
-        "Với you, we, they",
-        "Với tất cả chủ ngữ"
-      ],
-      "answer": "Với I, he, she, it"
-    }
-  ]
+  'id': 'a2-04-past-events',
+  'slug': 'a2-04-past-events',
+  'titleEn': 'Past Events',
+  'titleVi': 'Sự kiện trong quá khứ',
+  'subtitleEn': 'Nói về những gì đã xảy ra sử dụng thì quá khứ đơn',
+  'subtitleVi': 'Nói về những gì đã xảy ra sử dụng thì quá khứ đơn',
+  'level': 'A2',
+  'unit': 1,
+  'skill': 'writing',
+  'order': 4,
+  'cefr': 'A2',
+  'minutes': 5,
+  'tags': ['past-simple', 'verbs', 'writing', 'events'],
+  'audioScript': "Hôm qua tôi đã đi chợ.\nCô ấy gọi cho tôi tối qua.\nHọ đã chơi bóng đá sáng nay.\n",
+  'listeningEnabled': true,
+  'flashcardCount': 6,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': 'Câu nào dùng thì quá khứ đơn đúng?',
+        'options': ['I goed to school.', 'I went to school.', 'I goed at school.'],
+        'answer': 'I went to school.',
+      },
+      { 'type': 'fill', 'prompt': 'Yesterday, she ___ a new dress. (buy)', 'answer': 'bought' },
+      {
+        'type': 'choice',
+        'prompt': "Khi nào chúng ta dùng 'was'?",
+        'options': ['Với I, he, she, it', 'Với you, we, they', 'Với tất cả chủ ngữ'],
+        'answer': 'Với I, he, she, it',
+      },
+    ],
 }
 ---
 

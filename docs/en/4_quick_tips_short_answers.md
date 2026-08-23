@@ -1,20 +1,20 @@
 ---
 {
-  "id": "quick-tips-short-answers",
-  "slug": "quick-tips-short-answers",
-  "titleEn": "Quick Tips & Short Answers",
-  "titleVi": "Mẹo Nhanh & Câu Trả Lời Ngắn",
-  "subtitleEn": "Grammar hacks, vocabulary tips, and short professional responses",
-  "subtitleVi": "Mẹo ngữ pháp, từ vựng và phản hồi ngắn chuyên nghiệp",
-  "level": "A2",
-  "cefr": "A2",
-  "skill": "speaking",
-  "order": 4,
-  "minutes": 3,
-  "categoryEn": "Foundation & Daily Communication",
-  "categoryVi": "Nền tảng Kỹ năng",
-  "tags": [],
-  "isArchived": false
+  'id': 'quick-tips-short-answers',
+  'slug': 'quick-tips-short-answers',
+  'titleEn': 'Quick Tips & Short Answers',
+  'titleVi': 'Mẹo Nhanh & Câu Trả Lời Ngắn',
+  'subtitleEn': 'Grammar hacks, vocabulary tips, and short professional responses',
+  'subtitleVi': 'Mẹo ngữ pháp, từ vựng và phản hồi ngắn chuyên nghiệp',
+  'level': 'A2',
+  'cefr': 'A2',
+  'skill': 'speaking',
+  'order': 4,
+  'minutes': 3,
+  'categoryEn': 'Foundation & Daily Communication',
+  'categoryVi': 'Nền tảng Kỹ năng',
+  'tags': [],
+  'isArchived': false,
 }
 ---
 

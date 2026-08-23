@@ -1,20 +1,20 @@
 ---
 {
-  "id": "conversation-scenarios",
-  "slug": "conversation-scenarios",
-  "titleEn": "Real-world Conversation Scenarios",
-  "titleVi": "Kịch bản hội thoại thực tế",
-  "subtitleEn": "Bilingual reading comprehension dialogues for daily work and meetings",
-  "subtitleVi": "Hội thoại mẫu đọc hiểu cho standup, client meeting và phỏng vấn",
-  "level": "B1",
-  "cefr": "B1",
-  "skill": "speaking",
-  "order": 22,
-  "minutes": 6,
-  "categoryEn": "Agile & Meetings",
-  "categoryVi": "Hội họp & Quy trình",
-  "tags": [],
-  "isArchived": false
+  'id': 'conversation-scenarios',
+  'slug': 'conversation-scenarios',
+  'titleEn': 'Real-world Conversation Scenarios',
+  'titleVi': 'Kịch bản hội thoại thực tế',
+  'subtitleEn': 'Bilingual reading comprehension dialogues for daily work and meetings',
+  'subtitleVi': 'Hội thoại mẫu đọc hiểu cho standup, client meeting và phỏng vấn',
+  'level': 'B1',
+  'cefr': 'B1',
+  'skill': 'speaking',
+  'order': 22,
+  'minutes': 6,
+  'categoryEn': 'Agile & Meetings',
+  'categoryVi': 'Hội họp & Quy trình',
+  'tags': [],
+  'isArchived': false,
 }
 ---
 

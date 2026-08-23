@@ -1,71 +1,57 @@
 ---
 {
-  "id": "b1-05-review-unit1",
-  "slug": "b1-05-review-unit1",
-  "titleEn": "Review Unit 1",
-  "titleVi": "Ôn tập Unit 1",
-  "subtitleEn": "Ôn tập từ vựng du lịch, các thì quá khứ, đọc và viết",
-  "subtitleVi": "Ôn tập từ vựng du lịch, các thì quá khứ, đọc và viết",
-  "level": "B1",
-  "unit": 1,
-  "skill": "review",
-  "order": 5,
-  "cefr": "B1",
-  "minutes": 10,
-  "tags": [
-    "review",
-    "unit1",
-    "travel",
-    "past-tenses",
-    "writing",
-    "vocabulary",
-    "grammar"
-  ],
-  "audioScript": "Hãy ôn tập những gì chúng ta đã học trong Unit 1.\nBây giờ bạn có thể nói về du lịch và phương tiện.\nBạn có thể mô tả các sự kiện quá khứ sử dụng các thì khác nhau.\nBạn có thể đọc và viết blog du lịch và email.\n",
-  "listeningEnabled": true,
-  "flashcardCount": 16,
-  "quiz": [
-    {
-      "type": "choice",
-      "prompt": "Dạng Quá khứ tiếp diễn của \"walk\" với chủ ngữ \"she\" là gì?",
-      "options": [
-        "She walked",
-        "She was walking",
-        "She is walking"
-      ],
-      "answer": "She was walking"
-    },
-    {
-      "type": "fill",
-      "prompt": "Tôi ___ (see) phim rồi trước khi bạn giới thiệu. (Quá khứ hoàn thành)",
-      "answer": "had seen"
-    },
-    {
-      "type": "choice",
-      "prompt": "Cách nào đúng để chào tạm biệt bạn trong email?",
-      "options": [
-        "Yours faithfully,",
-        "To whom it may concern,",
-        "Love,"
-      ],
-      "answer": "Love,"
-    },
-    {
-      "type": "fill",
-      "prompt": "Chuyến bay của tôi ___ lúc 8 giờ tối mai.",
-      "answer": "departs"
-    },
-    {
-      "type": "choice",
-      "prompt": "Câu nào sử dụng đúng các thì quá khứ?",
-      "options": [
-        "I was walking when I saw her.",
-        "I walking when I saw her.",
-        "I was walk when I saw her."
-      ],
-      "answer": "I was walking when I saw her."
-    }
-  ]
+  'id': 'b1-05-review-unit1',
+  'slug': 'b1-05-review-unit1',
+  'titleEn': 'Review Unit 1',
+  'titleVi': 'Ôn tập Unit 1',
+  'subtitleEn': 'Ôn tập từ vựng du lịch, các thì quá khứ, đọc và viết',
+  'subtitleVi': 'Ôn tập từ vựng du lịch, các thì quá khứ, đọc và viết',
+  'level': 'B1',
+  'unit': 1,
+  'skill': 'review',
+  'order': 5,
+  'cefr': 'B1',
+  'minutes': 10,
+  'tags': ['review', 'unit1', 'travel', 'past-tenses', 'writing', 'vocabulary', 'grammar'],
+  'audioScript': "Hãy ôn tập những gì chúng ta đã học trong Unit 1.\nBây giờ bạn có thể nói về du lịch và phương tiện.\nBạn có thể mô tả các sự kiện quá khứ sử dụng các thì khác nhau.\nBạn có thể đọc và viết blog du lịch và email.\n",
+  'listeningEnabled': true,
+  'flashcardCount': 16,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': 'Dạng Quá khứ tiếp diễn của "walk" với chủ ngữ "she" là gì?',
+        'options': ['She walked', 'She was walking', 'She is walking'],
+        'answer': 'She was walking',
+      },
+      {
+        'type': 'fill',
+        'prompt': 'Tôi ___ (see) phim rồi trước khi bạn giới thiệu. (Quá khứ hoàn thành)',
+        'answer': 'had seen',
+      },
+      {
+        'type': 'choice',
+        'prompt': 'Cách nào đúng để chào tạm biệt bạn trong email?',
+        'options': ['Yours faithfully,', 'To whom it may concern,', 'Love,'],
+        'answer': 'Love,',
+      },
+      {
+        'type': 'fill',
+        'prompt': 'Chuyến bay của tôi ___ lúc 8 giờ tối mai.',
+        'answer': 'departs',
+      },
+      {
+        'type': 'choice',
+        'prompt': 'Câu nào sử dụng đúng các thì quá khứ?',
+        'options':
+          [
+            'I was walking when I saw her.',
+            'I walking when I saw her.',
+            'I was walk when I saw her.',
+          ],
+        'answer': 'I was walking when I saw her.',
+      },
+    ],
 }
 ---
 

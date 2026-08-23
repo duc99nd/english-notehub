@@ -1,68 +1,49 @@
 ---
 {
-  "id": "a2-10-review-unit2",
-  "slug": "a2-10-review-unit2",
-  "titleEn": "Review Unit 2",
-  "titleVi": "Ôn tập Unit 2",
-  "subtitleEn": "Ôn tập email cơ bản, cuộc gọi điện thoại, kế hoạch tương lai và động từ khiếm khuyết",
-  "subtitleVi": "Ôn tập email cơ bản, cuộc gọi điện thoại, kế hoạch tương lai và động từ khiếm khuyết",
-  "level": "A2",
-  "unit": 2,
-  "skill": "review",
-  "order": 10,
-  "cefr": "A2",
-  "minutes": 10,
-  "tags": [
-    "review",
-    "unit2",
-    "grammar",
-    "vocabulary"
-  ],
-  "audioScript": "Hãy ôn tập Unit 2.\nBạn đã học về từ vựng email.\nBạn đã thực hành các cụm từ gọi điện.\nBạn đã học về thì tương lai.\nBạn đã học should và must.\n",
-  "listeningEnabled": true,
-  "flashcardCount": 12,
-  "quiz": [
-    {
-      "type": "choice",
-      "prompt": "Làm thế nào để bắt đầu một email trang trọng?",
-      "options": [
-        "Hey buddy!",
-        "Dear Sir or Madam,",
-        "What's up?"
-      ],
-      "answer": "Dear Sir or Madam,"
-    },
-    {
-      "type": "fill",
-      "prompt": "I ___ (go) to Hanoi next week. Choose: will / am going to",
-      "answer": "am going to"
-    },
-    {
-      "type": "choice",
-      "prompt": "Câu nào là ví dụ của must (nghĩa vụ)?",
-      "options": [
-        "You should eat vegetables.",
-        "You must wear a helmet.",
-        "You will come tomorrow."
-      ],
-      "answer": "You must wear a helmet."
-    },
-    {
-      "type": "fill",
-      "prompt": "Can I speak ___ Mr. Smith, please?",
-      "answer": "to"
-    },
-    {
-      "type": "choice",
-      "prompt": "Cụm từ nào kết thúc một email trang trọng?",
-      "options": [
-        "Talk soon!",
-        "Best regards,",
-        "Cheers mate!"
-      ],
-      "answer": "Best regards,"
-    }
-  ]
+  'id': 'a2-10-review-unit2',
+  'slug': 'a2-10-review-unit2',
+  'titleEn': 'Review Unit 2',
+  'titleVi': 'Ôn tập Unit 2',
+  'subtitleEn': 'Ôn tập email cơ bản, cuộc gọi điện thoại, kế hoạch tương lai và động từ khiếm khuyết',
+  'subtitleVi': 'Ôn tập email cơ bản, cuộc gọi điện thoại, kế hoạch tương lai và động từ khiếm khuyết',
+  'level': 'A2',
+  'unit': 2,
+  'skill': 'review',
+  'order': 10,
+  'cefr': 'A2',
+  'minutes': 10,
+  'tags': ['review', 'unit2', 'grammar', 'vocabulary'],
+  'audioScript': "Hãy ôn tập Unit 2.\nBạn đã học về từ vựng email.\nBạn đã thực hành các cụm từ gọi điện.\nBạn đã học về thì tương lai.\nBạn đã học should và must.\n",
+  'listeningEnabled': true,
+  'flashcardCount': 12,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': 'Làm thế nào để bắt đầu một email trang trọng?',
+        'options': ['Hey buddy!', 'Dear Sir or Madam,', "What's up?"],
+        'answer': 'Dear Sir or Madam,',
+      },
+      {
+        'type': 'fill',
+        'prompt': 'I ___ (go) to Hanoi next week. Choose: will / am going to',
+        'answer': 'am going to',
+      },
+      {
+        'type': 'choice',
+        'prompt': 'Câu nào là ví dụ của must (nghĩa vụ)?',
+        'options':
+          ['You should eat vegetables.', 'You must wear a helmet.', 'You will come tomorrow.'],
+        'answer': 'You must wear a helmet.',
+      },
+      { 'type': 'fill', 'prompt': 'Can I speak ___ Mr. Smith, please?', 'answer': 'to' },
+      {
+        'type': 'choice',
+        'prompt': 'Cụm từ nào kết thúc một email trang trọng?',
+        'options': ['Talk soon!', 'Best regards,', 'Cheers mate!'],
+        'answer': 'Best regards,',
+      },
+    ],
 }
 ---
 

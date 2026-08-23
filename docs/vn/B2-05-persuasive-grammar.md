@@ -1,53 +1,42 @@
 ---
 {
-  "id": "b2-05-persuasive-grammar",
-  "slug": "b2-05-persuasive-grammar",
-  "titleEn": "Persuasive Grammar",
-  "titleVi": "Ngữ pháp thuyết phục",
-  "subtitleEn": "Use grammar structures to build compelling arguments",
-  "subtitleVi": "Sử dụng cấu trúc ngữ pháp để xây dựng luận điểm thuyết phục",
-  "level": "B2",
-  "unit": 2,
-  "skill": "grammar",
-  "order": 5,
-  "cefr": "B2",
-  "minutes": 5,
-  "tags": [
-    "grammar",
-    "persuasion",
-    "rhetoric",
-    "B2"
-  ],
-  "audioScript": "Giải pháp này không chỉ giảm chi phí mà còn cải thiện khả năng mở rộng.\nCàng thu thập nhiều dữ liệu, dự đoán của chúng ta càng chính xác.\nĐiều cần thiết là chúng ta phải hành động ngay để duy trì tính cạnh tranh.\n",
-  "listeningEnabled": true,
-  "flashcardCount": 6,
-  "quiz": [
-    {
-      "type": "choice",
-      "prompt": "Cấu trúc nào nhấn mạnh tầm quan trọng?",
-      "options": [
-        "Có lẽ sẽ hữu ích nếu...",
-        "Điều cần thiết là chúng ta...",
-        "Chúng ta có thể..."
-      ],
-      "answer": "Điều cần thiết là chúng ta..."
-    },
-    {
-      "type": "fill",
-      "prompt": "Không chỉ ___ giảm chi phí, mà còn cải thiện khả năng mở rộng.",
-      "answer": "nó"
-    },
-    {
-      "type": "choice",
-      "prompt": "Càng kiểm thử nhiều, kết quả càng tốt là ví dụ của:",
-      "options": [
-        "Cấu trúc so sánh",
-        "So sánh kép",
-        "Câu điều kiện"
-      ],
-      "answer": "So sánh kép"
-    }
-  ]
+  'id': 'b2-05-persuasive-grammar',
+  'slug': 'b2-05-persuasive-grammar',
+  'titleEn': 'Persuasive Grammar',
+  'titleVi': 'Ngữ pháp thuyết phục',
+  'subtitleEn': 'Use grammar structures to build compelling arguments',
+  'subtitleVi': 'Sử dụng cấu trúc ngữ pháp để xây dựng luận điểm thuyết phục',
+  'level': 'B2',
+  'unit': 2,
+  'skill': 'grammar',
+  'order': 5,
+  'cefr': 'B2',
+  'minutes': 5,
+  'tags': ['grammar', 'persuasion', 'rhetoric', 'B2'],
+  'audioScript': "Giải pháp này không chỉ giảm chi phí mà còn cải thiện khả năng mở rộng.\nCàng thu thập nhiều dữ liệu, dự đoán của chúng ta càng chính xác.\nĐiều cần thiết là chúng ta phải hành động ngay để duy trì tính cạnh tranh.\n",
+  'listeningEnabled': true,
+  'flashcardCount': 6,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': 'Cấu trúc nào nhấn mạnh tầm quan trọng?',
+        'options':
+          ['Có lẽ sẽ hữu ích nếu...', 'Điều cần thiết là chúng ta...', 'Chúng ta có thể...'],
+        'answer': 'Điều cần thiết là chúng ta...',
+      },
+      {
+        'type': 'fill',
+        'prompt': 'Không chỉ ___ giảm chi phí, mà còn cải thiện khả năng mở rộng.',
+        'answer': 'nó',
+      },
+      {
+        'type': 'choice',
+        'prompt': 'Càng kiểm thử nhiều, kết quả càng tốt là ví dụ của:',
+        'options': ['Cấu trúc so sánh', 'So sánh kép', 'Câu điều kiện'],
+        'answer': 'So sánh kép',
+      },
+    ],
 }
 ---
 

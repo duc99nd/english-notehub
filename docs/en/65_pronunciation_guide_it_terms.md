@@ -1,24 +1,20 @@
 ---
 {
-  "id": "pronunciation-guide-it-terms",
-  "slug": "pronunciation-guide-it-terms",
-  "titleEn": "Pronunciation Guide for IT Terms",
-  "titleVi": "Hướng Dẫn Phát Âm Từ Vựng IT",
-  "subtitleEn": "IPA phonetics and stress patterns for commonly mispronounced tech words",
-  "subtitleVi": "Phiên âm IPA và trọng âm cho các từ kỹ thuật hay bị đọc sai",
-  "level": "A2",
-  "cefr": "A2",
-  "skill": "speaking",
-  "order": 65,
-  "minutes": 5,
-  "categoryEn": "Pronunciation & Fluency",
-  "categoryVi": "Phát Âm & Trôi Chảy",
-  "tags": [
-    "pronunciation",
-    "vocabulary",
-    "speaking"
-  ],
-  "isArchived": false
+  'id': 'pronunciation-guide-it-terms',
+  'slug': 'pronunciation-guide-it-terms',
+  'titleEn': 'Pronunciation Guide for IT Terms',
+  'titleVi': 'Hướng Dẫn Phát Âm Từ Vựng IT',
+  'subtitleEn': 'IPA phonetics and stress patterns for commonly mispronounced tech words',
+  'subtitleVi': 'Phiên âm IPA và trọng âm cho các từ kỹ thuật hay bị đọc sai',
+  'level': 'A2',
+  'cefr': 'A2',
+  'skill': 'speaking',
+  'order': 65,
+  'minutes': 5,
+  'categoryEn': 'Pronunciation & Fluency',
+  'categoryVi': 'Phát Âm & Trôi Chảy',
+  'tags': ['pronunciation', 'vocabulary', 'speaking'],
+  'isArchived': false,
 }
 ---
 

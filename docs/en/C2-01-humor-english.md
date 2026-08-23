@@ -1,56 +1,41 @@
 ---
 {
-  "id": "c2-01-humor-english",
-  "slug": "c2-01-humor-english",
-  "titleEn": "Humor in English",
-  "titleVi": "Humor trong tiếng Anh",
-  "subtitleEn": "Master the art of wit, wordplay, and cultural humor in English",
-  "subtitleVi": "Làm chủ nghệ thuật hài hước, chơi chữ và kỹ thuật hài trong tiếng Anh",
-  "level": "C2",
-  "unit": 1,
-  "skill": "vocab",
-  "order": 1,
-  "cefr": "C2",
-  "minutes": 5,
-  "tags": [
-    "humor",
-    "wordplay",
-    "idiom",
-    "culture",
-    "wit"
-  ],
-  "audioScript": "British humor often relies on understatement and irony.\nAmerican comedians prefer directness and self-deprecation.\nPuns work across languages but lose nuance in translation.\n",
-  "listeningEnabled": true,
-  "flashcardCount": 6,
-  "quiz": [
-    {
-      "type": "choice",
-      "prompt": "Which type of humor relies on saying the opposite of what you mean?",
-      "options": [
-        "Pun",
-        "Irony",
-        "Malapropism",
-        "Innuendo"
-      ],
-      "answer": "Irony"
-    },
-    {
-      "type": "choice",
-      "prompt": "What is a 'play on words' also called?",
-      "options": [
-        "Parody",
-        "Pun",
-        "Paradox",
-        "Preamble"
-      ],
-      "answer": "Pun"
-    },
-    {
-      "type": "fill",
-      "prompt": "The comedian's self-___ made the audience feel at ease.",
-      "answer": "self-deprecation"
-    }
-  ]
+  'id': 'c2-01-humor-english',
+  'slug': 'c2-01-humor-english',
+  'titleEn': 'Humor in English',
+  'titleVi': 'Humor trong tiếng Anh',
+  'subtitleEn': 'Master the art of wit, wordplay, and cultural humor in English',
+  'subtitleVi': 'Làm chủ nghệ thuật hài hước, chơi chữ và kỹ thuật hài trong tiếng Anh',
+  'level': 'C2',
+  'unit': 1,
+  'skill': 'vocab',
+  'order': 1,
+  'cefr': 'C2',
+  'minutes': 5,
+  'tags': ['humor', 'wordplay', 'idiom', 'culture', 'wit'],
+  'audioScript': "British humor often relies on understatement and irony.\nAmerican comedians prefer directness and self-deprecation.\nPuns work across languages but lose nuance in translation.\n",
+  'listeningEnabled': true,
+  'flashcardCount': 6,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': 'Which type of humor relies on saying the opposite of what you mean?',
+        'options': ['Pun', 'Irony', 'Malapropism', 'Innuendo'],
+        'answer': 'Irony',
+      },
+      {
+        'type': 'choice',
+        'prompt': "What is a 'play on words' also called?",
+        'options': ['Parody', 'Pun', 'Paradox', 'Preamble'],
+        'answer': 'Pun',
+      },
+      {
+        'type': 'fill',
+        'prompt': "The comedian's self-___ made the audience feel at ease.",
+        'answer': 'self-deprecation',
+      },
+    ],
 }
 ---
 

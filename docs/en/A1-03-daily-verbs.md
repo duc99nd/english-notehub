@@ -1,61 +1,38 @@
 ---
 {
-  "id": "a1-03-daily-verbs",
-  "slug": "a1-03-daily-verbs",
-  "titleEn": "Daily Verbs",
-  "titleVi": "Động từ hàng ngày",
-  "subtitleEn": "Use 20 essential verbs to describe your day in English",
-  "subtitleVi": "Dùng 20 động từ thiết yếu để kể về một ngày của bạn bằng tiếng Anh",
-  "level": "A1",
-  "unit": 1,
-  "skill": "reading",
-  "order": 3,
-  "cefr": "A1",
-  "minutes": 8,
-  "tags": [
-    "verbs",
-    "daily-routine",
-    "reading",
-    "speaking",
-    "foundation"
-  ],
-  "audioScript": "I wake up at six in the morning.\nI eat breakfast at seven. I drink coffee every day.\nI go to work at eight. I come home at six.\nI read a book before I sleep at ten.\n",
-  "listeningEnabled": true,
-  "flashcardCount": 10,
-  "quiz": [
-    {
-      "type": "choice",
-      "prompt": "Which verb completes the sentence? 'I ___ up at six in the morning.'",
-      "options": [
-        "wake",
-        "wakes",
-        "waking",
-        "woke"
-      ],
-      "answer": "wake"
-    },
-    {
-      "type": "fill",
-      "prompt": "I ___ coffee every morning. (uống)",
-      "answer": "drink"
-    },
-    {
-      "type": "choice",
-      "prompt": "What is the opposite of 'come'?",
-      "options": [
-        "go",
-        "stay",
-        "leave",
-        "arrive"
-      ],
-      "answer": "go"
-    },
-    {
-      "type": "fill",
-      "prompt": "She ___ home at six in the evening. (đến)",
-      "answer": "comes"
-    }
-  ]
+  'id': 'a1-03-daily-verbs',
+  'slug': 'a1-03-daily-verbs',
+  'titleEn': 'Daily Verbs',
+  'titleVi': 'Động từ hàng ngày',
+  'subtitleEn': 'Use 20 essential verbs to describe your day in English',
+  'subtitleVi': 'Dùng 20 động từ thiết yếu để kể về một ngày của bạn bằng tiếng Anh',
+  'level': 'A1',
+  'unit': 1,
+  'skill': 'reading',
+  'order': 3,
+  'cefr': 'A1',
+  'minutes': 8,
+  'tags': ['verbs', 'daily-routine', 'reading', 'speaking', 'foundation'],
+  'audioScript': "I wake up at six in the morning.\nI eat breakfast at seven. I drink coffee every day.\nI go to work at eight. I come home at six.\nI read a book before I sleep at ten.\n",
+  'listeningEnabled': true,
+  'flashcardCount': 10,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': "Which verb completes the sentence? 'I ___ up at six in the morning.'",
+        'options': ['wake', 'wakes', 'waking', 'woke'],
+        'answer': 'wake',
+      },
+      { 'type': 'fill', 'prompt': 'I ___ coffee every morning. (uống)', 'answer': 'drink' },
+      {
+        'type': 'choice',
+        'prompt': "What is the opposite of 'come'?",
+        'options': ['go', 'stay', 'leave', 'arrive'],
+        'answer': 'go',
+      },
+      { 'type': 'fill', 'prompt': 'She ___ home at six in the evening. (đến)', 'answer': 'comes' },
+    ],
 }
 ---
 
@@ -89,46 +66,47 @@ That's eight verbs in nine sentences. Notice: every verb here is in the **base f
 
 ## The 20 daily verbs
 
-| Verb | Vietnamese | Example |
-| --- | --- | --- |
-| wake up | thức dậy | I wake up at 6. |
-| get up | trở dậy (ra khỏi giường) | I get up early. |
-| eat | ăn | I eat breakfast. |
-| drink | uống | I drink water. |
-| cook | nấu | I cook dinner. |
-| go | đi | I go to school. |
-| come | đến | I come home. |
-| work | làm việc | I work at home. |
-| study | học | I study English. |
-| read | đọc | I read books. |
-| write | viết | I write emails. |
-| watch | xem | I watch TV. |
-| listen | nghe | I listen to music. |
-| play | chơi | I play games. |
-| run | chạy | I run in the park. |
-| walk | đi bộ | I walk to work. |
-| drive | lái xe | I drive to work. |
-| sleep | ngủ | I sleep well. |
-| buy | mua | I buy coffee. |
-| talk / speak | nói | I speak English. |
+| Verb         | Vietnamese               | Example            |
+| ------------ | ------------------------ | ------------------ |
+| wake up      | thức dậy                 | I wake up at 6.    |
+| get up       | trở dậy (ra khỏi giường) | I get up early.    |
+| eat          | ăn                       | I eat breakfast.   |
+| drink        | uống                     | I drink water.     |
+| cook         | nấu                      | I cook dinner.     |
+| go           | đi                       | I go to school.    |
+| come         | đến                      | I come home.       |
+| work         | làm việc                 | I work at home.    |
+| study        | học                      | I study English.   |
+| read         | đọc                      | I read books.      |
+| write        | viết                     | I write emails.    |
+| watch        | xem                      | I watch TV.        |
+| listen       | nghe                     | I listen to music. |
+| play         | chơi                     | I play games.      |
+| run          | chạy                     | I run in the park. |
+| walk         | đi bộ                    | I walk to work.    |
+| drive        | lái xe                   | I drive to work.   |
+| sleep        | ngủ                      | I sleep well.      |
+| buy          | mua                      | I buy coffee.      |
+| talk / speak | nói                      | I speak English.   |
 
 > **Pattern**: `wake up` and `get up` are similar but different. **Wake up** = mở mắt (your eyes open). **Get up** = ra khỏi giường (you stand up). You can wake up and stay in bed for an hour before you get up.
 
 ## Subject + verb — the most important rule in English
 
 > **Pattern**:
+>
 > - `I` / `you` / `we` / `they` + **base verb** (no change)
 > - `he` / `she` / `it` + **verb + s** (the "s" rule)
 
-| Subject | Verb form | Example |
-| --- | --- | --- |
-| I | base | I eat rice. |
-| you | base | You eat rice. |
-| we | base | We eat rice. |
-| they | base | They eat rice. |
-| he | base + s | **He eats** rice. |
-| she | base + s | **She eats** rice. |
-| it | base + s | **It eats** rice. (for an animal) |
+| Subject | Verb form | Example                           |
+| ------- | --------- | --------------------------------- |
+| I       | base      | I eat rice.                       |
+| you     | base      | You eat rice.                     |
+| we      | base      | We eat rice.                      |
+| they    | base      | They eat rice.                    |
+| he      | base + s  | **He eats** rice.                 |
+| she     | base + s  | **She eats** rice.                |
+| it      | base + s  | **It eats** rice. (for an animal) |
 
 > **Note for Vietnamese speakers**: Vietnamese doesn't add "s" to verbs based on subject ("tôi ăn" / "cô ấy ăn" are identical). English DOES add "s" for he/she/it. This is one of the most common beginner mistakes.
 
@@ -136,16 +114,16 @@ That's eight verbs in nine sentences. Notice: every verb here is in the **base f
 
 Pair these verbs with time and you have 80% of daily-life sentences.
 
-| Time phrase | Use with |
-| --- | --- |
-| in the morning | wake up, eat breakfast, drink coffee |
-| in the afternoon | work, study, run, walk |
-| in the evening | cook, eat dinner, watch TV, read |
-| at night | sleep, read |
-| at 6 / at seven o'clock | any verb (specific time) |
-| every day / every morning | habits (no specific time) |
-| from 9 to 5 | work, study (range) |
-| after work / before bed | cook, read, sleep (sequence) |
+| Time phrase               | Use with                             |
+| ------------------------- | ------------------------------------ |
+| in the morning            | wake up, eat breakfast, drink coffee |
+| in the afternoon          | work, study, run, walk               |
+| in the evening            | cook, eat dinner, watch TV, read     |
+| at night                  | sleep, read                          |
+| at 6 / at seven o'clock   | any verb (specific time)             |
+| every day / every morning | habits (no specific time)            |
+| from 9 to 5               | work, study (range)                  |
+| after work / before bed   | cook, read, sleep (sequence)         |
 
 > **Pattern**: `I [verb] [time phrase]`. "I **eat** breakfast **in the morning**." "I **work** **from nine to five**."
 
@@ -183,10 +161,10 @@ Notice the pattern: **What time do you [verb]?** — the question is asked with 
 
 Fill in the blanks with the right verb (wake up, eat, drink, go, come, work, sleep).
 
-> I ___ at 6:30 in the morning. I ___ breakfast at 7:00, and I ___ coffee.
-> I ___ to work at 8:00. I ___ from 9:00 to 6:00.
-> I ___ home at 6:30 and ___ dinner with my family.
-> I ___ TV for one hour, then I ___ at 11:00.
+> I **_ at 6:30 in the morning. I _** breakfast at 7:00, and I **_ coffee.
+> I _** to work at 8:00. I **_ from 9:00 to 6:00.
+> I _** home at 6:30 and **_ dinner with my family.
+> I _** TV for one hour, then I \_\_\_ at 11:00.
 
 **Self-check**:
 

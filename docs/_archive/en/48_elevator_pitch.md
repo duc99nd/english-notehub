@@ -274,14 +274,14 @@ The extended pitch adds achievements, context, and aspirations to your core intr
 
 Complete this pitch with your own information:
 
-> "Hi, I'm ****\_\_\_\_****. I'm a ****\_\_\_\_**** with ****\_\_\_\_**** years of experience. I currently work at ****\_\_\_\_****, where I ****\_\_\_\_****. One thing I'm proud of is ****\_\_\_\_****. I'm particularly interested in ****\_\_\_\_****, and I'm always happy to connect with people who share that passion."
+> "Hi, I'm \***\*\_\_\_\_\*\***. I'm a \***\*\_\_\_\_\*\*** with \***\*\_\_\_\_\*\*** years of experience. I currently work at \***\*\_\_\_\_\*\***, where I \***\*\_\_\_\_\*\***. One thing I'm proud of is \***\*\_\_\_\_\*\***. I'm particularly interested in \***\*\_\_\_\_\*\***, and I'm always happy to connect with people who share that passion."
 
 Practice variations:
 
-- "In my current role, I focus on ****\_\_\_\_****."
-- "My biggest professional achievement so far is ****\_\_\_\_****."
-- "What excites me most about my field is ****\_\_\_\_****."
-- "I'm looking to ****\_\_\_\_**** in the next stage of my career."
+- "In my current role, I focus on \***\*\_\_\_\_\*\***."
+- "My biggest professional achievement so far is \***\*\_\_\_\_\*\***."
+- "What excites me most about my field is \***\*\_\_\_\_\*\***."
+- "I'm looking to \***\*\_\_\_\_\*\*** in the next stage of my career."
 
 ## Common Mistakes to Avoid
 

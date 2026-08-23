@@ -1,55 +1,42 @@
 ---
 {
-  "id": "b1-09-job-application",
-  "slug": "b1-09-job-application",
-  "titleEn": "Writing a Job Application Letter",
-  "titleVi": "Viết Thư Xin Việc",
-  "subtitleEn": "Learn to write a professional job application",
-  "subtitleVi": "Học cách viết đơn xin việc chuyên nghiệp",
-  "level": "B1",
-  "unit": 2,
-  "skill": "writing",
-  "order": 9,
-  "cefr": "B1",
-  "minutes": 5,
-  "tags": [
-    "writing",
-    "job",
-    "application",
-    "letter",
-    "professional",
-    "career"
-  ],
-  "audioScript": "Dear Mr. Johnson, I am writing to apply for the Marketing Manager position.\nI have five years of experience in digital marketing.\nI look forward to hearing from you soon.\n",
-  "listeningEnabled": true,
-  "flashcardCount": 6,
-  "quiz": [
-    {
-      "type": "choice",
-      "prompt": "What should you include in the first paragraph of a job application?",
-      "options": [
-        "Your hobbies",
-        "The position you are applying for",
-        "Your salary expectations"
-      ],
-      "answer": "The position you are applying for"
-    },
-    {
-      "type": "fill",
-      "prompt": "I am writing to ___ for the Marketing Manager position.",
-      "answer": "apply"
-    },
-    {
-      "type": "choice",
-      "prompt": "Which sign-off is appropriate for a formal job application?",
-      "options": [
-        "Love,",
-        "Yours faithfully,",
-        "See ya!"
-      ],
-      "answer": "Yours faithfully,"
-    }
-  ]
+  'id': 'b1-09-job-application',
+  'slug': 'b1-09-job-application',
+  'titleEn': 'Writing a Job Application Letter',
+  'titleVi': 'Viết Thư Xin Việc',
+  'subtitleEn': 'Learn to write a professional job application',
+  'subtitleVi': 'Học cách viết đơn xin việc chuyên nghiệp',
+  'level': 'B1',
+  'unit': 2,
+  'skill': 'writing',
+  'order': 9,
+  'cefr': 'B1',
+  'minutes': 5,
+  'tags': ['writing', 'job', 'application', 'letter', 'professional', 'career'],
+  'audioScript': "Dear Mr. Johnson, I am writing to apply for the Marketing Manager position.\nI have five years of experience in digital marketing.\nI look forward to hearing from you soon.\n",
+  'listeningEnabled': true,
+  'flashcardCount': 6,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': 'What should you include in the first paragraph of a job application?',
+        'options':
+          ['Your hobbies', 'The position you are applying for', 'Your salary expectations'],
+        'answer': 'The position you are applying for',
+      },
+      {
+        'type': 'fill',
+        'prompt': 'I am writing to ___ for the Marketing Manager position.',
+        'answer': 'apply',
+      },
+      {
+        'type': 'choice',
+        'prompt': 'Which sign-off is appropriate for a formal job application?',
+        'options': ['Love,', 'Yours faithfully,', 'See ya!'],
+        'answer': 'Yours faithfully,',
+      },
+    ],
 }
 ---
 

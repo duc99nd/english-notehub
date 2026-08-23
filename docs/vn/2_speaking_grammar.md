@@ -1,20 +1,20 @@
 ---
 {
-  "id": "speaking-grammar",
-  "slug": "speaking-grammar",
-  "titleEn": "English Speaking Grammar Reference",
-  "titleVi": "Ngữ pháp speaking thực dụng",
-  "subtitleEn": "Practical grammar for meetings and work communication",
-  "subtitleVi": "Công thức ngắn gọn để nói trong meeting",
-  "level": "A2",
-  "cefr": "A2",
-  "skill": "speaking",
-  "order": 2,
-  "minutes": 5,
-  "categoryEn": "Foundation & Daily Communication",
-  "categoryVi": "Nền tảng Kỹ năng",
-  "tags": [],
-  "isArchived": false
+  'id': 'speaking-grammar',
+  'slug': 'speaking-grammar',
+  'titleEn': 'English Speaking Grammar Reference',
+  'titleVi': 'Ngữ pháp speaking thực dụng',
+  'subtitleEn': 'Practical grammar for meetings and work communication',
+  'subtitleVi': 'Công thức ngắn gọn để nói trong meeting',
+  'level': 'A2',
+  'cefr': 'A2',
+  'skill': 'speaking',
+  'order': 2,
+  'minutes': 5,
+  'categoryEn': 'Foundation & Daily Communication',
+  'categoryVi': 'Nền tảng Kỹ năng',
+  'tags': [],
+  'isArchived': false,
 }
 ---
 

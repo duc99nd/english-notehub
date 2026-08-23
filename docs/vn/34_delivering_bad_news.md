@@ -1,20 +1,20 @@
 ---
 {
-  "id": "delivering-bad-news",
-  "slug": "delivering-bad-news",
-  "titleEn": "Delivering Bad News",
-  "titleVi": "Báo tin xấu (Sập Server / Mất Data)",
-  "subtitleEn": "Reporting critical failures and data loss",
-  "subtitleVi": "Giao tiếp khi có sự cố nghiêm trọng",
-  "level": "B2",
-  "cefr": "B2",
-  "skill": "speaking",
-  "order": 34,
-  "minutes": 6,
-  "categoryEn": "Difficult Situations",
-  "categoryVi": "Tình huống Khó",
-  "tags": [],
-  "isArchived": false
+  'id': 'delivering-bad-news',
+  'slug': 'delivering-bad-news',
+  'titleEn': 'Delivering Bad News',
+  'titleVi': 'Báo tin xấu (Sập Server / Mất Data)',
+  'subtitleEn': 'Reporting critical failures and data loss',
+  'subtitleVi': 'Giao tiếp khi có sự cố nghiêm trọng',
+  'level': 'B2',
+  'cefr': 'B2',
+  'skill': 'speaking',
+  'order': 34,
+  'minutes': 6,
+  'categoryEn': 'Difficult Situations',
+  'categoryVi': 'Tình huống Khó',
+  'tags': [],
+  'isArchived': false,
 }
 ---
 

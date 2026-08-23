@@ -1,67 +1,47 @@
 ---
 {
-  "id": "a1-12-directions",
-  "slug": "a1-12-directions",
-  "titleEn": "Directions & Places",
-  "titleVi": "Đường đi & Địa điểm",
-  "subtitleEn": "Ask for and give directions in a city",
-  "subtitleVi": "Hỏi và chỉ đường trong thành phố",
-  "level": "A1",
-  "unit": 3,
-  "skill": "vocab",
-  "order": 12,
-  "cefr": "A1",
-  "minutes": 7,
-  "tags": [
-    "directions",
-    "places",
-    "prepositions",
-    "vocab",
-    "travel"
-  ],
-  "audioScript": "Excuse me, where is the bank?\nTurn left at the traffic light.\nGo straight for two blocks.\nThe hotel is on your right.\n",
-  "listeningEnabled": true,
-  "flashcardCount": 10,
-  "quiz": [
-    {
-      "type": "choice",
-      "prompt": "How do you ask for directions?",
-      "options": [
-        "Where is the bank?",
-        "I am the bank.",
-        "Bank is where?",
-        "Bank what?"
-      ],
-      "answer": "Where is the bank?"
-    },
-    {
-      "type": "choice",
-      "prompt": "What does 'turn left' mean?",
-      "options": [
-        "rẽ trái",
-        "rẽ phải",
-        "đi thẳng",
-        "quay lại"
-      ],
-      "answer": "rẽ trái"
-    },
-    {
-      "type": "fill",
-      "prompt": "Go ___ for two blocks. (đi thẳng = straight)",
-      "answer": "straight"
-    },
-    {
-      "type": "choice",
-      "prompt": "What is the opposite of 'far'?",
-      "options": [
-        "near",
-        "right",
-        "left",
-        "straight"
-      ],
-      "answer": "near"
-    }
-  ]
+  'id': 'a1-12-directions',
+  'slug': 'a1-12-directions',
+  'titleEn': 'Directions & Places',
+  'titleVi': 'Đường đi & Địa điểm',
+  'subtitleEn': 'Ask for and give directions in a city',
+  'subtitleVi': 'Hỏi và chỉ đường trong thành phố',
+  'level': 'A1',
+  'unit': 3,
+  'skill': 'vocab',
+  'order': 12,
+  'cefr': 'A1',
+  'minutes': 7,
+  'tags': ['directions', 'places', 'prepositions', 'vocab', 'travel'],
+  'audioScript': "Excuse me, where is the bank?\nTurn left at the traffic light.\nGo straight for two blocks.\nThe hotel is on your right.\n",
+  'listeningEnabled': true,
+  'flashcardCount': 10,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': 'How do you ask for directions?',
+        'options': ['Where is the bank?', 'I am the bank.', 'Bank is where?', 'Bank what?'],
+        'answer': 'Where is the bank?',
+      },
+      {
+        'type': 'choice',
+        'prompt': "What does 'turn left' mean?",
+        'options': ['rẽ trái', 'rẽ phải', 'đi thẳng', 'quay lại'],
+        'answer': 'rẽ trái',
+      },
+      {
+        'type': 'fill',
+        'prompt': 'Go ___ for two blocks. (đi thẳng = straight)',
+        'answer': 'straight',
+      },
+      {
+        'type': 'choice',
+        'prompt': "What is the opposite of 'far'?",
+        'options': ['near', 'right', 'left', 'straight'],
+        'answer': 'near',
+      },
+    ],
 }
 ---
 
@@ -69,23 +49,23 @@
 
 ## Why directions matter
 
-Getting lost is universal, and "Excuse me, where is the ___?" is the second most useful phrase in any travel situation (after "How much is this?"). Knowing ten direction words + five prepositions turns a confusing city into a navigable one.
+Getting lost is universal, and "Excuse me, where is the \_\_\_?" is the second most useful phrase in any travel situation (after "How much is this?"). Knowing ten direction words + five prepositions turns a confusing city into a navigable one.
 
 ## Direction words
 
-| English | Vietnamese | Icon |
-| --- | --- | --- |
-| left | trái | ← |
-| right | phải | → |
-| straight | thẳng | ↑ |
-| forward | phía trước | ↑ |
-| back / backward | phía sau | ↓ |
-| up | lên trên | ↑ |
-| down | xuống dưới | ↓ |
-| north | bắc | ↑ |
-| south | nam | ↓ |
-| east | đông | → |
-| west | tây | ← |
+| English         | Vietnamese | Icon |
+| --------------- | ---------- | ---- |
+| left            | trái       | ←    |
+| right           | phải       | →    |
+| straight        | thẳng      | ↑    |
+| forward         | phía trước | ↑    |
+| back / backward | phía sau   | ↓    |
+| up              | lên trên   | ↑    |
+| down            | xuống dưới | ↓    |
+| north           | bắc        | ↑    |
+| south           | nam        | ↓    |
+| east            | đông       | →    |
+| west            | tây        | ←    |
 
 > **Tip**: Compass directions (north, south, east, west) are useful on maps but rarely in casual conversation. "Turn left at the next corner" is more common than "Go east for two blocks."
 
@@ -95,36 +75,36 @@ Getting lost is universal, and "Excuse me, where is the ___?" is the second most
 >
 > **Pattern B — direction**: `Walk [direction] for [distance].`
 
-| Preposition | Vietnamese | Example |
-| --- | --- | --- |
-| next to | bên cạnh | The café is next to the bank. |
-| in front of | phía trước | The park is in front of the school. |
-| behind | phía sau | The library is behind the post office. |
-| between | ở giữa | The restaurant is between the bank and the hotel. |
-| across from | đối diện | The hotel is across from the park. |
-| on the corner of | ở góc | The shop is on the corner of Main Street. |
-| on the left/right | bên trái / phải | The bank is on the right. |
-| opposite | đối diện | The school is opposite the church. |
+| Preposition       | Vietnamese      | Example                                           |
+| ----------------- | --------------- | ------------------------------------------------- |
+| next to           | bên cạnh        | The café is next to the bank.                     |
+| in front of       | phía trước      | The park is in front of the school.               |
+| behind            | phía sau        | The library is behind the post office.            |
+| between           | ở giữa          | The restaurant is between the bank and the hotel. |
+| across from       | đối diện        | The hotel is across from the park.                |
+| on the corner of  | ở góc           | The shop is on the corner of Main Street.         |
+| on the left/right | bên trái / phải | The bank is on the right.                         |
+| opposite          | đối diện        | The school is opposite the church.                |
 
 ## Landmarks and places
 
-| English | Vietnamese |
-| --- | --- |
-| bank | ngân hàng |
-| hospital | bệnh viện |
-| police station | đồn cảnh sát |
-| restaurant | nhà hàng |
-| hotel | khách sạn |
-| park | công viên |
-| school | trường học |
-| library | thư viện |
-| post office | bưu điện |
-| traffic light | đèn giao thông |
-| corner | góc đường |
-| street | đường phố |
-| bridge | cầu |
-| station | ga / trạm |
-| airport | sân bay |
+| English        | Vietnamese     |
+| -------------- | -------------- |
+| bank           | ngân hàng      |
+| hospital       | bệnh viện      |
+| police station | đồn cảnh sát   |
+| restaurant     | nhà hàng       |
+| hotel          | khách sạn      |
+| park           | công viên      |
+| school         | trường học     |
+| library        | thư viện       |
+| post office    | bưu điện       |
+| traffic light  | đèn giao thông |
+| corner         | góc đường      |
+| street         | đường phố      |
+| bridge         | cầu            |
+| station        | ga / trạm      |
+| airport        | sân bay        |
 
 ## Asking for directions
 
@@ -134,13 +114,13 @@ Getting lost is universal, and "Excuse me, where is the ___?" is the second most
 >
 > **Pattern C — Distance**: `Is it far from here?`
 
-| English | Vietnamese | Tone |
-| --- | --- | --- |
-| Excuse me, where is the bank? | Xin lỗi, ngân hàng ở đâu? | polite |
-| How do I get to the station? | Làm sao để đến ga? | needs route |
-| Is it far from here? | Nó có xa từ đây không? | asking distance |
-| Could you show me on the map? | Bạn chỉ trên bản đồ được không? | very polite |
-| I'm lost. | Tôi bị lạc. | admitting confusion |
+| English                       | Vietnamese                      | Tone                |
+| ----------------------------- | ------------------------------- | ------------------- |
+| Excuse me, where is the bank? | Xin lỗi, ngân hàng ở đâu?       | polite              |
+| How do I get to the station?  | Làm sao để đến ga?              | needs route         |
+| Is it far from here?          | Nó có xa từ đây không?          | asking distance     |
+| Could you show me on the map? | Bạn chỉ trên bản đồ được không? | very polite         |
+| I'm lost.                     | Tôi bị lạc.                     | admitting confusion |
 
 > **Tip**: Always start with "Excuse me" when asking a stranger. Without it, you sound rude. Smiling helps.
 
@@ -156,25 +136,25 @@ Getting lost is universal, and "Excuse me, where is the ___?" is the second most
 
 ### The complete recipe
 
-| Step | Phrase |
-| --- | --- |
-| 1 | "Go straight for [distance]." |
-| 2 | "Turn left at the [landmark]." |
-| 3 | "Go straight for [distance]." |
-| 4 | "Turn right at the [landmark]." |
-| 5 | "It's [on your right / next to X / across from Y]." |
+| Step | Phrase                                              |
+| ---- | --------------------------------------------------- |
+| 1    | "Go straight for [distance]."                       |
+| 2    | "Turn left at the [landmark]."                      |
+| 3    | "Go straight for [distance]."                       |
+| 4    | "Turn right at the [landmark]."                     |
+| 5    | "It's [on your right / next to X / across from Y]." |
 
 ### Examples
 
-| English | Vietnamese |
-| --- | --- |
-| Go straight for two blocks. | Đi thẳng hai dãy nhà. |
-| Turn left at the traffic light. | Rẽ trái ở đèn giao thông. |
-| Turn right at the corner. | Rẽ phải ở góc đường. |
-| Go past the bank. | Đi qua ngân hàng. |
+| English                           | Vietnamese                 |
+| --------------------------------- | -------------------------- |
+| Go straight for two blocks.       | Đi thẳng hai dãy nhà.      |
+| Turn left at the traffic light.   | Rẽ trái ở đèn giao thông.  |
+| Turn right at the corner.         | Rẽ phải ở góc đường.       |
+| Go past the bank.                 | Đi qua ngân hàng.          |
 | It's on the corner of 5th Avenue. | Nó ở góc đường 5th Avenue. |
-| It's next to the post office. | Nó ở bên cạnh bưu điện. |
-| It's across from the park. | Nó đối diện công viên. |
+| It's next to the post office.     | Nó ở bên cạnh bưu điện.    |
+| It's across from the park.        | Nó đối diện công viên.     |
 
 > **"Go past X"** = walk beyond X, keep going. "Past" means "further than". "Walk past the bank" means "walk, going by the bank, keep going past it."
 
@@ -214,8 +194,8 @@ Notice how the local breaks the route into 3-4 simple steps, names landmarks (tr
 
 Pick a place you know well (a market, a friend's house, a café). Write the directions from your home to that place.
 
-> "From my home, go ___ for ___ meters. Then turn ___ at the ___.
-> Go ___ for ___ meters. The ___ is on your ___."
+> "From my home, go **_ for _** meters. Then turn **_ at the _**.
+> Go **_ for _** meters. The **_ is on your _**."
 
 **Self-check**:
 

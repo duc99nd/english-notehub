@@ -1,54 +1,46 @@
 ---
 {
-  "id": "b2-02-conflict-resolution",
-  "slug": "b2-02-conflict-resolution",
-  "titleEn": "Conflict Resolution Grammar",
-  "titleVi": "Ngữ pháp giải quyết xung đột",
-  "subtitleEn": "Use passive voice and conditionals for tactful communication",
-  "subtitleVi": "Dùng câu bị động và câu điều kiện để giao tiếp khéo léo",
-  "level": "B2",
-  "unit": 1,
-  "skill": "grammar",
-  "order": 2,
-  "cefr": "B2",
-  "minutes": 5,
-  "tags": [
-    "conflict",
-    "workplace",
-    "grammar",
-    "passive",
-    "conditionals"
-  ],
-  "audioScript": "Nếu vấn đề đã được nêu ra sớm hơn, chúng ta có thể đã tránh được điều này.\nQuyết định đã được đưa ra mà không hỏi ý kiến nhóm.\nNếu chúng ta đã thảo luận trước, mọi thứ đã khác rồi.\n",
-  "listeningEnabled": true,
-  "flashcardCount": 6,
-  "quiz": [
-    {
-      "type": "choice",
-      "prompt": "Câu nào là câu bị động đúng?",
-      "options": [
-        "Quyết định đã được đưa ra bởi họ.",
-        "Quyết định đã được đưa ra.",
-        "Quyết định được đưa ra bởi họ."
-      ],
-      "answer": "Quyết định đã được đưa ra."
-    },
-    {
-      "type": "fill",
-      "prompt": "Nếu vấn đề đã được nêu ra sớm hơn, chúng ta ___ tránh được điều này.",
-      "answer": "could have"
-    },
-    {
-      "type": "choice",
-      "prompt": "Had it been raised nghĩa là gì?",
-      "options": [
-        "Nếu nó sẽ được nêu ra",
-        "Nếu nó đã được nêu ra",
-        "Nó đã được nêu ra"
-      ],
-      "answer": "Nếu nó đã được nêu ra"
-    }
-  ]
+  'id': 'b2-02-conflict-resolution',
+  'slug': 'b2-02-conflict-resolution',
+  'titleEn': 'Conflict Resolution Grammar',
+  'titleVi': 'Ngữ pháp giải quyết xung đột',
+  'subtitleEn': 'Use passive voice and conditionals for tactful communication',
+  'subtitleVi': 'Dùng câu bị động và câu điều kiện để giao tiếp khéo léo',
+  'level': 'B2',
+  'unit': 1,
+  'skill': 'grammar',
+  'order': 2,
+  'cefr': 'B2',
+  'minutes': 5,
+  'tags': ['conflict', 'workplace', 'grammar', 'passive', 'conditionals'],
+  'audioScript': "Nếu vấn đề đã được nêu ra sớm hơn, chúng ta có thể đã tránh được điều này.\nQuyết định đã được đưa ra mà không hỏi ý kiến nhóm.\nNếu chúng ta đã thảo luận trước, mọi thứ đã khác rồi.\n",
+  'listeningEnabled': true,
+  'flashcardCount': 6,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': 'Câu nào là câu bị động đúng?',
+        'options':
+          [
+            'Quyết định đã được đưa ra bởi họ.',
+            'Quyết định đã được đưa ra.',
+            'Quyết định được đưa ra bởi họ.',
+          ],
+        'answer': 'Quyết định đã được đưa ra.',
+      },
+      {
+        'type': 'fill',
+        'prompt': 'Nếu vấn đề đã được nêu ra sớm hơn, chúng ta ___ tránh được điều này.',
+        'answer': 'could have',
+      },
+      {
+        'type': 'choice',
+        'prompt': 'Had it been raised nghĩa là gì?',
+        'options': ['Nếu nó sẽ được nêu ra', 'Nếu nó đã được nêu ra', 'Nó đã được nêu ra'],
+        'answer': 'Nếu nó đã được nêu ra',
+      },
+    ],
 }
 ---
 

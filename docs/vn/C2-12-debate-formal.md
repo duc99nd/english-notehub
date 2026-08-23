@@ -1,25 +1,18 @@
 ---
 {
-  "id": "c2-12-debate-formal",
-  "slug": "c2-12-debate-formal",
-  "titleEn": "Formal Debate Grammar",
-  "titleVi": "Ngữ pháp Tranh luận Trang trọng",
-  "subtitleEn": "Master the grammatical structures of parliamentary and competitive debate",
-  "subtitleVi": "Làm chủ các cấu trúc ngữ pháp của tranh luận nghị viện và thi đấu",
-  "level": "C2",
-  "unit": 3,
-  "skill": "grammar",
-  "order": 12,
-  "cefr": "C2",
-  "minutes": 5,
-  "tags": [
-    "debate",
-    "parliament",
-    "grammar",
-    "formal",
-    "argument",
-    "rhetoric"
-  ]
+  'id': 'c2-12-debate-formal',
+  'slug': 'c2-12-debate-formal',
+  'titleEn': 'Formal Debate Grammar',
+  'titleVi': 'Ngữ pháp Tranh luận Trang trọng',
+  'subtitleEn': 'Master the grammatical structures of parliamentary and competitive debate',
+  'subtitleVi': 'Làm chủ các cấu trúc ngữ pháp của tranh luận nghị viện và thi đấu',
+  'level': 'C2',
+  'unit': 3,
+  'skill': 'grammar',
+  'order': 12,
+  'cefr': 'C2',
+  'minutes': 5,
+  'tags': ['debate', 'parliament', 'grammar', 'formal', 'argument', 'rhetoric'],
 }
 ---
 

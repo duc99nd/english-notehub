@@ -1,61 +1,52 @@
 ---
 {
-  "id": "a1-04-family",
-  "slug": "a1-04-family",
-  "titleEn": "Family Members",
-  "titleVi": "Các thành viên trong gia đình",
-  "subtitleEn": "Talk about your family using the right vocabulary and possessives",
-  "subtitleVi": "Nói về gia đình bằng từ vựng chuẩn và đại từ sở hữu",
-  "level": "A1",
-  "unit": 1,
-  "skill": "writing",
-  "order": 4,
-  "cefr": "A1",
-  "minutes": 8,
-  "tags": [
-    "family",
-    "vocabulary",
-    "writing",
-    "speaking",
-    "daily"
-  ],
-  "audioScript": "This is my family. I have a mother and a father.\nI have two sisters. Their names are Mai and Lan.\nMy brother is older than me. His name is Tuan.\nMy grandmother is 70. She is kind and patient.\n",
-  "listeningEnabled": true,
-  "flashcardCount": 10,
-  "quiz": [
-    {
-      "type": "choice",
-      "prompt": "Anh trai trong tiếng Anh là gì?",
-      "options": [
-        "Father",
-        "Brother",
-        "Uncle",
-        "Son"
-      ],
-      "answer": "Brother"
-    },
-    {
-      "type": "fill",
-      "prompt": "My ___ is 70 years old. She is my mom's mother. (bà = grandmother)",
-      "answer": "grandmother"
-    },
-    {
-      "type": "choice",
-      "prompt": "'I have two sisters' có nghĩa là gì?",
-      "options": [
-        "Tôi là một chị em gái.",
-        "Có hai cô gái là chị em gái của tôi.",
-        "Các chị em gái của tôi hai tuổi.",
-        "Tôi có hai anh em trai."
-      ],
-      "answer": "Có hai cô gái là chị em gái của tôi."
-    },
-    {
-      "type": "fill",
-      "prompt": "This is my brother. ___ name is Tuan. (đại từ sở hữu)",
-      "answer": "His"
-    }
-  ]
+  'id': 'a1-04-family',
+  'slug': 'a1-04-family',
+  'titleEn': 'Family Members',
+  'titleVi': 'Các thành viên trong gia đình',
+  'subtitleEn': 'Talk about your family using the right vocabulary and possessives',
+  'subtitleVi': 'Nói về gia đình bằng từ vựng chuẩn và đại từ sở hữu',
+  'level': 'A1',
+  'unit': 1,
+  'skill': 'writing',
+  'order': 4,
+  'cefr': 'A1',
+  'minutes': 8,
+  'tags': ['family', 'vocabulary', 'writing', 'speaking', 'daily'],
+  'audioScript': "This is my family. I have a mother and a father.\nI have two sisters. Their names are Mai and Lan.\nMy brother is older than me. His name is Tuan.\nMy grandmother is 70. She is kind and patient.\n",
+  'listeningEnabled': true,
+  'flashcardCount': 10,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': 'Anh trai trong tiếng Anh là gì?',
+        'options': ['Father', 'Brother', 'Uncle', 'Son'],
+        'answer': 'Brother',
+      },
+      {
+        'type': 'fill',
+        'prompt': "My ___ is 70 years old. She is my mom's mother. (bà = grandmother)",
+        'answer': 'grandmother',
+      },
+      {
+        'type': 'choice',
+        'prompt': "'I have two sisters' có nghĩa là gì?",
+        'options':
+          [
+            'Tôi là một chị em gái.',
+            'Có hai cô gái là chị em gái của tôi.',
+            'Các chị em gái của tôi hai tuổi.',
+            'Tôi có hai anh em trai.',
+          ],
+        'answer': 'Có hai cô gái là chị em gái của tôi.',
+      },
+      {
+        'type': 'fill',
+        'prompt': 'This is my brother. ___ name is Tuan. (đại từ sở hữu)',
+        'answer': 'His',
+      },
+    ],
 }
 ---
 
@@ -67,21 +58,21 @@ Hầu hết các cuộc hội thoại tiếng Anh bắt đầu bằng "How are y
 
 ## Từ vựng cốt lõi
 
-| Tiếng Anh | Tiếng Việt | Ghi chú |
-| --- | --- | --- |
-| mother / mom / mummy | mẹ | "Mom" thân mật, "mother" trang trọng |
-| father / dad / daddy | bố / cha / ba | "Dad" thân mật, "father" trang trọng |
-| sister | chị / em gái | tiếng Anh không phân biệt lớn / nhỏ |
-| brother | anh / em trai | giống trên — không phân biệt tuổi |
-| daughter | con gái (của cha mẹ) | con gái của ai |
-| son | con trai (của cha mẹ) | con trai của ai |
-| grandmother / grandma | bà | mẹ của bố/mẹ |
-| grandfather / grandpa | ông | bố của bố/mẹ |
-| aunt | cô / dì / bác gái | chị em gái của bố/mẹ, hoặc vợ của anh em trai |
-| uncle | chú / bác / cậu | anh em trai của bố/mẹ, hoặc chồng của chị em gái |
-| cousin | anh chị em họ | con của cô/dì/chú/bác |
-| wife | vợ | người phụ nữ bạn kết hôn |
-| husband | chồng | người đàn ông bạn kết hôn |
+| Tiếng Anh             | Tiếng Việt            | Ghi chú                                          |
+| --------------------- | --------------------- | ------------------------------------------------ |
+| mother / mom / mummy  | mẹ                    | "Mom" thân mật, "mother" trang trọng             |
+| father / dad / daddy  | bố / cha / ba         | "Dad" thân mật, "father" trang trọng             |
+| sister                | chị / em gái          | tiếng Anh không phân biệt lớn / nhỏ              |
+| brother               | anh / em trai         | giống trên — không phân biệt tuổi                |
+| daughter              | con gái (của cha mẹ)  | con gái của ai                                   |
+| son                   | con trai (của cha mẹ) | con trai của ai                                  |
+| grandmother / grandma | bà                    | mẹ của bố/mẹ                                     |
+| grandfather / grandpa | ông                   | bố của bố/mẹ                                     |
+| aunt                  | cô / dì / bác gái     | chị em gái của bố/mẹ, hoặc vợ của anh em trai    |
+| uncle                 | chú / bác / cậu       | anh em trai của bố/mẹ, hoặc chồng của chị em gái |
+| cousin                | anh chị em họ         | con của cô/dì/chú/bác                            |
+| wife                  | vợ                    | người phụ nữ bạn kết hôn                         |
+| husband               | chồng                 | người đàn ông bạn kết hôn                        |
 
 > **Mẹo**: Tiếng Việt phân biệt **chị/em gái** và **anh/em trai**. Tiếng Anh dùng **một từ** cho cả hai. Muốn nói tuổi trong tiếng Anh thì thêm một từ: "my **older** sister" / "my **younger** brother".
 
@@ -90,27 +81,28 @@ Hầu hết các cuộc hội thoại tiếng Anh bắt đầu bằng "How are y
 Khi một thứ thuộc về thành viên gia đình, bạn dùng **dạng sở hữu**.
 
 > **Mẫu**:
+>
 > - Số ít + **`'s`**: `my brother's name` (cái tên của anh trai tôi)
 > - Số nhiều + **`s'`**: `my brothers' names` (các cái tên của các anh trai tôi)
 
-| Dạng | Ví dụ |
-| --- | --- |
-| My **mother's** name is Lan. | (một mẹ) |
-| My **parents'** house is small. | (mẹ + bố) |
-| My **sister's** job is interesting. | (một chị) |
+| Dạng                                | Ví dụ                       |
+| ----------------------------------- | --------------------------- |
+| My **mother's** name is Lan.        | (một mẹ)                    |
+| My **parents'** house is small.     | (mẹ + bố)                   |
+| My **sister's** job is interesting. | (một chị)                   |
 | My **sisters'** jobs are different. | (hai hoặc nhiều chị em gái) |
 
 Với đại từ, tiếng Anh dùng các từ khác nhau:
 
 | Đại từ chủ ngữ | Tính từ sở hữu | Đại từ sở hữu |
-| --- | --- | --- |
-| I | **my** | **mine** |
-| you | your | yours |
-| he | **his** | his |
-| she | **her** | hers |
-| it | its | its |
-| we | our | ours |
-| they | their | theirs |
+| -------------- | -------------- | ------------- |
+| I              | **my**         | **mine**      |
+| you            | your           | yours         |
+| he             | **his**        | his           |
+| she            | **her**        | hers          |
+| it             | its            | its           |
+| we             | our            | ours          |
+| they           | their          | theirs        |
 
 > **Mẹo**: "This is **my** brother. **His** name is Tuan." "My" đi cùng danh từ phía sau. "His" đứng một mình. Hai cái này dễ nhầm — hãy luyện cả hai.
 
@@ -120,34 +112,34 @@ Với đại từ, tiếng Anh dùng các từ khác nhau:
 
 > **Mẫu**: `This is my [thành viên]. [His/Her] name is [tên].`
 
-| Tiếng Anh | Tiếng Việt |
-| --- | --- |
-| This is my mother. Her name is Lan. | Đây là mẹ tôi. Tên bà là Lan. |
-| This is my father. His name is Hung. | Đây là bố tôi. Tên ông là Hưng. |
+| Tiếng Anh                             | Tiếng Việt                               |
+| ------------------------------------- | ---------------------------------------- |
+| This is my mother. Her name is Lan.   | Đây là mẹ tôi. Tên bà là Lan.            |
+| This is my father. His name is Hung.  | Đây là bố tôi. Tên ông là Hưng.          |
 | This is my brother. His name is Tuan. | Đây là anh trai tôi. Tên anh ấy là Tuấn. |
-| This is my sister. Her name is Mai. | Đây là chị gái tôi. Tên chị ấy là Mai. |
+| This is my sister. Her name is Mai.   | Đây là chị gái tôi. Tên chị ấy là Mai.   |
 
 ### Mẫu 2: "I have..."
 
 > **Mẫu**: `I have [số lượng] + [thành viên].`
 
-| Tiếng Anh | Tiếng Việt |
-| --- | --- |
-| I have one brother. | Tôi có một anh trai. |
-| I have two sisters. | Tôi có hai chị em gái. |
-| I have no children. | Tôi không có con. |
+| Tiếng Anh            | Tiếng Việt               |
+| -------------------- | ------------------------ |
+| I have one brother.  | Tôi có một anh trai.     |
+| I have two sisters.  | Tôi có hai chị em gái.   |
+| I have no children.  | Tôi không có con.        |
 | I have a big family. | Tôi có một gia đình lớn. |
 
 ### Mẫu 3: "He / She is..."
 
 > **Mẫu**: `[Chủ ngữ] is [tuổi] [years old]. [Chủ ngữ] is [tính từ].`
 
-| Tiếng Anh | Tiếng Việt |
-| --- | --- |
-| My mother is 50 years old. | Mẹ tôi 50 tuổi. |
-| My father is very kind. | Bố tôi rất tốt bụng. |
-| My brother is a teacher. | Anh trai tôi là giáo viên. |
-| My grandmother is patient. | Bà tôi kiên nhẫn. |
+| Tiếng Anh                  | Tiếng Việt                 |
+| -------------------------- | -------------------------- |
+| My mother is 50 years old. | Mẹ tôi 50 tuổi.            |
+| My father is very kind.    | Bố tôi rất tốt bụng.       |
+| My brother is a teacher.   | Anh trai tôi là giáo viên. |
+| My grandmother is patient. | Bà tôi kiên nhẫn.          |
 
 ## Nghe một buổi giới thiệu thật
 
@@ -198,17 +190,17 @@ Lưu ý cách Đức dùng **tính từ sở hữu** (my, your, his) và **he / 
 
 Điền vào chỗ trống, sau đó đọc to.
 
-> This is my family. My father's name is __________. He is ___ years old.
-> My mother's name is __________. She is ___ years old.
-> I have ___ brothers and ___ sisters. My ___ (oldest) is ___.
-> We live in __________. On weekends, we __________ together.
+> This is my family. My father's name is ****\_\_****. He is **\_ years old.
+> My mother's name is **\_\_\_\_****. She is **_ years old.
+> I have _** brothers and **_ sisters. My _** (oldest) is **\_.
+> We live in **\_\_\_\_****. On weekends, we ****\_\_**** together.
 
 **Tự kiểm tra**:
 
 - [ ] Mình dùng "my" + danh từ (my father)
 - [ ] Mình dùng "his" / "her" + danh từ (his name)
 - [ ] Mình dùng "his / her name is..."
-- [ ] Mình dùng "is ___ years old" cho tuổi
+- [ ] Mình dùng "is \_\_\_ years old" cho tuổi
 
 ## Ghi chú văn hóa: quy mô gia đình và cách xưng hô
 

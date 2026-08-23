@@ -1,24 +1,18 @@
 ---
 {
-  "id": "c2-02-satire-irony",
-  "slug": "c2-02-satire-irony",
-  "titleEn": "Satire & Irony",
-  "titleVi": "Satire & Irony",
-  "subtitleEn": "Analyze sophisticated satire and irony in political and media discourse",
-  "subtitleVi": "Phân tích satire và irony tinh vi trong diễn ngôn chính trị và truyền thông",
-  "level": "C2",
-  "unit": 1,
-  "skill": "grammar",
-  "order": 2,
-  "cefr": "C2",
-  "minutes": 5,
-  "tags": [
-    "satire",
-    "irony",
-    "rhetoric",
-    "politics",
-    "media"
-  ]
+  'id': 'c2-02-satire-irony',
+  'slug': 'c2-02-satire-irony',
+  'titleEn': 'Satire & Irony',
+  'titleVi': 'Satire & Irony',
+  'subtitleEn': 'Analyze sophisticated satire and irony in political and media discourse',
+  'subtitleVi': 'Phân tích satire và irony tinh vi trong diễn ngôn chính trị và truyền thông',
+  'level': 'C2',
+  'unit': 1,
+  'skill': 'grammar',
+  'order': 2,
+  'cefr': 'C2',
+  'minutes': 5,
+  'tags': ['satire', 'irony', 'rhetoric', 'politics', 'media'],
 }
 ---
 

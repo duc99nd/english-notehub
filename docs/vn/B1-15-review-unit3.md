@@ -1,71 +1,53 @@
 ---
 {
-  "id": "b1-15-review-unit3",
-  "slug": "b1-15-review-unit3",
-  "titleEn": "Review Unit 3",
-  "titleVi": "Ôn tập Unit 3",
-  "subtitleEn": "Ôn tập từ vựng đồ ăn, câu điều kiện, đọc và viết",
-  "subtitleVi": "Ôn tập từ vựng đồ ăn, câu điều kiện, đọc và viết",
-  "level": "B1",
-  "unit": 3,
-  "skill": "review",
-  "order": 15,
-  "cefr": "B1",
-  "minutes": 10,
-  "tags": [
-    "review",
-    "unit3",
-    "food",
-    "conditionals",
-    "writing",
-    "vocabulary",
-    "grammar"
-  ],
-  "audioScript": "Hãy ôn tập những gì chúng ta đã học trong Unit 3.\nBây giờ bạn có thể nói về đồ ăn và nấu ăn.\nBạn hiểu câu điều kiện loại 1 và loại 2.\nBạn có thể viết đánh giá và bài đăng blog.\n",
-  "listeningEnabled": true,
-  "flashcardCount": 16,
-  "quiz": [
-    {
-      "type": "choice",
-      "prompt": "Phương pháp nấu nào nghĩa là nấu trong dầu nóng?",
-      "options": [
-        "Đun sôi",
-        "Nướng",
-        "Chiên"
-      ],
-      "answer": "Chiên"
-    },
-    {
-      "type": "fill",
-      "prompt": "If I ___ (have) nhiều tiền hơn, tôi sẽ mua một ngôi nhà.",
-      "answer": "had"
-    },
-    {
-      "type": "choice",
-      "prompt": "Câu nào là Câu Điều kiện Loại 1 đúng?",
-      "options": [
-        "If I studied, I would pass.",
-        "If I study, I will pass.",
-        "If I studied, I will pass."
-      ],
-      "answer": "If I study, I will pass."
-    },
-    {
-      "type": "fill",
-      "prompt": "Đồ ăn tuyệt đến mức — nó ngon không thể tin được!",
-      "answer": "delicious"
-    },
-    {
-      "type": "choice",
-      "prompt": "Overall (nhìn chung) nghĩa là gì trong một bài đánh giá?",
-      "options": [
-        "Ở phần mở đầu",
-        "Nói chung / Xem xét tất cả",
-        "Chỉ các điểm tích cực"
-      ],
-      "answer": "Nói chung / Xem xét tất cả"
-    }
-  ]
+  'id': 'b1-15-review-unit3',
+  'slug': 'b1-15-review-unit3',
+  'titleEn': 'Review Unit 3',
+  'titleVi': 'Ôn tập Unit 3',
+  'subtitleEn': 'Ôn tập từ vựng đồ ăn, câu điều kiện, đọc và viết',
+  'subtitleVi': 'Ôn tập từ vựng đồ ăn, câu điều kiện, đọc và viết',
+  'level': 'B1',
+  'unit': 3,
+  'skill': 'review',
+  'order': 15,
+  'cefr': 'B1',
+  'minutes': 10,
+  'tags': ['review', 'unit3', 'food', 'conditionals', 'writing', 'vocabulary', 'grammar'],
+  'audioScript': "Hãy ôn tập những gì chúng ta đã học trong Unit 3.\nBây giờ bạn có thể nói về đồ ăn và nấu ăn.\nBạn hiểu câu điều kiện loại 1 và loại 2.\nBạn có thể viết đánh giá và bài đăng blog.\n",
+  'listeningEnabled': true,
+  'flashcardCount': 16,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': 'Phương pháp nấu nào nghĩa là nấu trong dầu nóng?',
+        'options': ['Đun sôi', 'Nướng', 'Chiên'],
+        'answer': 'Chiên',
+      },
+      {
+        'type': 'fill',
+        'prompt': 'If I ___ (have) nhiều tiền hơn, tôi sẽ mua một ngôi nhà.',
+        'answer': 'had',
+      },
+      {
+        'type': 'choice',
+        'prompt': 'Câu nào là Câu Điều kiện Loại 1 đúng?',
+        'options':
+          ['If I studied, I would pass.', 'If I study, I will pass.', 'If I studied, I will pass.'],
+        'answer': 'If I study, I will pass.',
+      },
+      {
+        'type': 'fill',
+        'prompt': 'Đồ ăn tuyệt đến mức — nó ngon không thể tin được!',
+        'answer': 'delicious',
+      },
+      {
+        'type': 'choice',
+        'prompt': 'Overall (nhìn chung) nghĩa là gì trong một bài đánh giá?',
+        'options': ['Ở phần mở đầu', 'Nói chung / Xem xét tất cả', 'Chỉ các điểm tích cực'],
+        'answer': 'Nói chung / Xem xét tất cả',
+      },
+    ],
 }
 ---
 

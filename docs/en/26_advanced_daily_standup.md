@@ -1,20 +1,20 @@
 ---
 {
-  "id": "advanced-daily-standup",
-  "slug": "advanced-daily-standup",
-  "titleEn": "Advanced Daily Standup",
-  "titleVi": "Báo cáo tiến độ (Daily Standup Nâng cao)",
-  "subtitleEn": "Providing clear and concise status updates",
-  "subtitleVi": "Mẫu câu standup chuyên nghiệp và ngắn gọn",
-  "level": "B1",
-  "cefr": "B1",
-  "skill": "speaking",
-  "order": 26,
-  "minutes": 5,
-  "categoryEn": "Agile & Meetings",
-  "categoryVi": "Hội họp & Quy trình",
-  "tags": [],
-  "isArchived": false
+  'id': 'advanced-daily-standup',
+  'slug': 'advanced-daily-standup',
+  'titleEn': 'Advanced Daily Standup',
+  'titleVi': 'Báo cáo tiến độ (Daily Standup Nâng cao)',
+  'subtitleEn': 'Providing clear and concise status updates',
+  'subtitleVi': 'Mẫu câu standup chuyên nghiệp và ngắn gọn',
+  'level': 'B1',
+  'cefr': 'B1',
+  'skill': 'speaking',
+  'order': 26,
+  'minutes': 5,
+  'categoryEn': 'Agile & Meetings',
+  'categoryVi': 'Hội họp & Quy trình',
+  'tags': [],
+  'isArchived': false,
 }
 ---
 

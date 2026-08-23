@@ -1,61 +1,42 @@
 ---
 {
-  "id": "a1-02-numbers",
-  "slug": "a1-02-numbers",
-  "titleEn": "Numbers & Phone Numbers",
-  "titleVi": "Số đếm & Số điện thoại",
-  "subtitleEn": "Count 1–100 and say phone numbers the way native speakers actually say them",
-  "subtitleVi": "Đếm 1–100 và nói số điện thoại đúng cách người bản xứ nói",
-  "level": "A1",
-  "unit": 1,
-  "skill": "grammar",
-  "order": 2,
-  "cefr": "A1",
-  "minutes": 8,
-  "tags": [
-    "numbers",
-    "phone",
-    "counting",
-    "math",
-    "foundation"
-  ],
-  "audioScript": "One, two, three, four, five.\nMy number is zero nine one, five six seven, eight nine zero.\nI have two sisters and one brother.\nFour plus five equals nine.\n",
-  "listeningEnabled": true,
-  "flashcardCount": 8,
-  "quiz": [
-    {
-      "type": "fill",
-      "prompt": "How do you spell the number 14? ___",
-      "answer": "fourteen"
-    },
-    {
-      "type": "choice",
-      "prompt": "Someone says: 'My number is zero nine one, two three four, five six seven.' What is the number?",
-      "options": [
-        "091234567",
-        "91234567",
-        "0912345678",
-        "9234567"
-      ],
-      "answer": "091234567"
-    },
-    {
-      "type": "choice",
-      "prompt": "Which is the correct spelling for 40?",
-      "options": [
-        "fourty",
-        "forty",
-        "fourti",
-        "fourteen"
-      ],
-      "answer": "forty"
-    },
-    {
-      "type": "fill",
-      "prompt": "Six ___ two equals eight. (plus / minus / times)",
-      "answer": "plus"
-    }
-  ]
+  'id': 'a1-02-numbers',
+  'slug': 'a1-02-numbers',
+  'titleEn': 'Numbers & Phone Numbers',
+  'titleVi': 'Số đếm & Số điện thoại',
+  'subtitleEn': 'Count 1–100 and say phone numbers the way native speakers actually say them',
+  'subtitleVi': 'Đếm 1–100 và nói số điện thoại đúng cách người bản xứ nói',
+  'level': 'A1',
+  'unit': 1,
+  'skill': 'grammar',
+  'order': 2,
+  'cefr': 'A1',
+  'minutes': 8,
+  'tags': ['numbers', 'phone', 'counting', 'math', 'foundation'],
+  'audioScript': "One, two, three, four, five.\nMy number is zero nine one, five six seven, eight nine zero.\nI have two sisters and one brother.\nFour plus five equals nine.\n",
+  'listeningEnabled': true,
+  'flashcardCount': 8,
+  'quiz':
+    [
+      { 'type': 'fill', 'prompt': 'How do you spell the number 14? ___', 'answer': 'fourteen' },
+      {
+        'type': 'choice',
+        'prompt': "Someone says: 'My number is zero nine one, two three four, five six seven.' What is the number?",
+        'options': ['091234567', '91234567', '0912345678', '9234567'],
+        'answer': '091234567',
+      },
+      {
+        'type': 'choice',
+        'prompt': 'Which is the correct spelling for 40?',
+        'options': ['fourty', 'forty', 'fourti', 'fourteen'],
+        'answer': 'forty',
+      },
+      {
+        'type': 'fill',
+        'prompt': 'Six ___ two equals eight. (plus / minus / times)',
+        'answer': 'plus',
+      },
+    ],
 }
 ---
 
@@ -69,18 +50,18 @@ After "What's your name?", the next question is almost always a number: phone, a
 
 Most of the numbers from 1 to 12 are **unique words** — you just memorize them. From 13 onwards, a clear pattern starts.
 
-| 1–10 | 11–20 |
-| --- | --- |
-| 1 one | 11 eleven |
-| 2 two | 12 twelve |
+| 1–10    | 11–20                        |
+| ------- | ---------------------------- |
+| 1 one   | 11 eleven                    |
+| 2 two   | 12 twelve                    |
 | 3 three | 13 thirteen (= three + teen) |
-| 4 four | 14 fourteen (= four + teen) |
-| 5 five | 15 fifteen (= five + teen) |
-| 6 six | 16 sixteen |
-| 7 seven | 17 seventeen |
-| 8 eight | 18 eighteen |
-| 9 nine | 19 nineteen |
-| 10 ten | 20 twenty |
+| 4 four  | 14 fourteen (= four + teen)  |
+| 5 five  | 15 fifteen (= five + teen)   |
+| 6 six   | 16 sixteen                   |
+| 7 seven | 17 seventeen                 |
+| 8 eight | 18 eighteen                  |
+| 9 nine  | 19 nineteen                  |
+| 10 ten  | 20 twenty                    |
 
 > **Pattern**: 13–19 = `[3–9] + teen`. Note: **five** + teen = **fifteen** (drop the "v"), and **eight** + teen = **eighteen** (drop the "t").
 
@@ -88,17 +69,17 @@ Most of the numbers from 1 to 12 are **unique words** — you just memorize them
 
 From 20 onwards, the pattern is `[number] + ty`.
 
-| Number | Spelling | Note |
-| --- | --- | --- |
-| 20 | twenty | base form |
-| 30 | thirty | drop the "e" in three |
-| 40 | **forty** | not "fourty" — common spelling trap |
-| 50 | **fifty** | not "fivety" — drop the "e" in five |
-| 60 | sixty | drop the "x" in six |
-| 70 | seventy | keep the "v" in seven |
-| 80 | eighty | drop one "t" in eight |
-| 90 | ninety | drop the "e" in nine |
-| 100 | one hundred | "a" or "one" both work |
+| Number | Spelling    | Note                                |
+| ------ | ----------- | ----------------------------------- |
+| 20     | twenty      | base form                           |
+| 30     | thirty      | drop the "e" in three               |
+| 40     | **forty**   | not "fourty" — common spelling trap |
+| 50     | **fifty**   | not "fivety" — drop the "e" in five |
+| 60     | sixty       | drop the "x" in six                 |
+| 70     | seventy     | keep the "v" in seven               |
+| 80     | eighty      | drop one "t" in eight               |
+| 90     | ninety      | drop the "e" in nine                |
+| 100    | one hundred | "a" or "one" both work              |
 
 > **Tip**: Twenty, thirty, forty, fifty, sixty, seventy, eighty, ninety, hundred — practice saying them in order. The rhythm (two syllables, stress on the first) is the same every time.
 
@@ -106,16 +87,16 @@ From 20 onwards, the pattern is `[number] + ty`.
 
 For 21 to 99, use a hyphen: `[tens] + [-] + [unit]`.
 
-| Number | Spoken |
-| --- | --- |
-| 21 | twenty-one |
-| 35 | thirty-five |
-| 48 | forty-eight |
-| 67 | sixty-seven |
-| 99 | ninety-nine |
-| 100 | one hundred |
-| 101 | one hundred and one |
-| 250 | two hundred fifty (or "two fifty" in casual speech) |
+| Number | Spoken                                              |
+| ------ | --------------------------------------------------- |
+| 21     | twenty-one                                          |
+| 35     | thirty-five                                         |
+| 48     | forty-eight                                         |
+| 67     | sixty-seven                                         |
+| 99     | ninety-nine                                         |
+| 100    | one hundred                                         |
+| 101    | one hundred and one                                 |
+| 250    | two hundred fifty (or "two fifty" in casual speech) |
 
 > **Pattern**: For 101+, English uses **"and"** before the last digits. "One hundred **and** five" = 105. (American English sometimes drops the "and", but in writing always include it.)
 
@@ -125,11 +106,11 @@ For 21 to 99, use a hyphen: `[tens] + [-] + [unit]`.
 >
 > `0 = oh` (or "zero"), `1 = one`, `2 = two`, ..., `9 = nine`
 
-| Written | How you say it |
-| --- | --- |
+| Written      | How you say it                                        |
+| ------------ | ----------------------------------------------------- |
 | 091 234 5678 | "Zero nine one, two three four, five six seven eight" |
-| 098 765 4321 | "Oh nine eight, seven six five, four three two one" |
-| 1900 1530 | "One nine zero zero, one five three zero" |
+| 098 765 4321 | "Oh nine eight, seven six five, four three two one"   |
+| 1900 1530    | "One nine zero zero, one five three zero"             |
 
 Two important habits:
 
@@ -139,17 +120,18 @@ Two important habits:
 ## Simple math
 
 > **Pattern**:
+>
 > - `X plus Y` = cộng
 > - `X minus Y` = trừ
 > - `X times Y` = nhân
 > - `X divided by Y` = chia
 > - `X equals Y` = bằng
 
-| Spoken | Meaning |
-| --- | --- |
-| One plus two equals three. | 1 + 2 = 3 |
-| Ten minus four equals six. | 10 − 4 = 6 |
-| Three times five equals fifteen. | 3 × 5 = 15 |
+| Spoken                               | Meaning    |
+| ------------------------------------ | ---------- |
+| One plus two equals three.           | 1 + 2 = 3  |
+| Ten minus four equals six.           | 10 − 4 = 6 |
+| Three times five equals fifteen.     | 3 × 5 = 15 |
 | Twelve divided by four equals three. | 12 ÷ 4 = 3 |
 
 ## Listen to a real phone-call introduction
@@ -183,12 +165,12 @@ Notice how the receptionist **repeats the number back** to confirm. This is the 
 
 Practice saying each number out loud three times. Then write the digits you hear a friend say.
 
-| Number | How you say it |
-| --- | --- |
-| 27 | twenty-___ |
-| 48 | ___ |
-| 091 555 1234 | "Zero nine one, ___, ___" |
-| 199 | one ___ and ___ |
+| Number       | How you say it            |
+| ------------ | ------------------------- |
+| 27           | twenty-\_\_\_             |
+| 48           | \_\_\_                    |
+| 091 555 1234 | "Zero nine one, **_, _**" |
+| 199          | one **_ and _**           |
 
 **Self-check**:
 

@@ -1,70 +1,44 @@
 ---
 {
-  "id": "a1-15-review-unit3",
-  "slug": "a1-15-review-unit3",
-  "titleEn": "Review Unit 3",
-  "titleVi": "Ôn tập Unit 3",
-  "subtitleEn": "Review shopping, directions, can/can't, and describing people",
-  "subtitleVi": "Ôn tập mua sắm, đường đi, can/can't và miêu tả con người",
-  "level": "A1",
-  "unit": 3,
-  "skill": "review",
-  "order": 15,
-  "cefr": "A1",
-  "minutes": 10,
-  "tags": [
-    "review",
-    "unit3",
-    "shopping",
-    "directions",
-    "describing",
-    "A1"
-  ],
-  "audioScript": "Let's review Unit 3.\nYou can now ask for directions.\nYou can talk about abilities using can and can't.\nYou can describe people.\n",
-  "listeningEnabled": true,
-  "flashcardCount": 12,
-  "quiz": [
-    {
-      "type": "choice",
-      "prompt": "'How much does this cost?' means:",
-      "options": [
-        "How many?",
-        "What is the price?",
-        "Where is it?"
-      ],
-      "answer": "What is the price?"
-    },
-    {
-      "type": "fill",
-      "prompt": "Turn ___ at the traffic light.",
-      "answer": "left"
-    },
-    {
-      "type": "choice",
-      "prompt": "Which is correct?",
-      "options": [
-        "I can to swim.",
-        "I can swim.",
-        "I can swimming."
-      ],
-      "answer": "I can swim."
-    },
-    {
-      "type": "fill",
-      "prompt": "She ___ black hair. (có)",
-      "answer": "has"
-    },
-    {
-      "type": "choice",
-      "prompt": "What does 'friendly' describe?",
-      "options": [
-        "Appearance",
-        "Personality",
-        "Height"
-      ],
-      "answer": "Personality"
-    }
-  ]
+  'id': 'a1-15-review-unit3',
+  'slug': 'a1-15-review-unit3',
+  'titleEn': 'Review Unit 3',
+  'titleVi': 'Ôn tập Unit 3',
+  'subtitleEn': "Review shopping, directions, can/can't, and describing people",
+  'subtitleVi': "Ôn tập mua sắm, đường đi, can/can't và miêu tả con người",
+  'level': 'A1',
+  'unit': 3,
+  'skill': 'review',
+  'order': 15,
+  'cefr': 'A1',
+  'minutes': 10,
+  'tags': ['review', 'unit3', 'shopping', 'directions', 'describing', 'A1'],
+  'audioScript': "Let's review Unit 3.\nYou can now ask for directions.\nYou can talk about abilities using can and can't.\nYou can describe people.\n",
+  'listeningEnabled': true,
+  'flashcardCount': 12,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': "'How much does this cost?' means:",
+        'options': ['How many?', 'What is the price?', 'Where is it?'],
+        'answer': 'What is the price?',
+      },
+      { 'type': 'fill', 'prompt': 'Turn ___ at the traffic light.', 'answer': 'left' },
+      {
+        'type': 'choice',
+        'prompt': 'Which is correct?',
+        'options': ['I can to swim.', 'I can swim.', 'I can swimming.'],
+        'answer': 'I can swim.',
+      },
+      { 'type': 'fill', 'prompt': 'She ___ black hair. (có)', 'answer': 'has' },
+      {
+        'type': 'choice',
+        'prompt': "What does 'friendly' describe?",
+        'options': ['Appearance', 'Personality', 'Height'],
+        'answer': 'Personality',
+      },
+    ],
 }
 ---
 
@@ -83,49 +57,49 @@ If you can do the practice without looking back at the lessons, congratulations 
 
 ## What you learned
 
-| Lesson | Skill | Key outcome |
-| --- | --- | --- |
-| A1-11 Shopping & Money | vocab | how to ask prices + shop politely |
-| A1-12 Directions | vocab | asking for and giving directions |
-| A1-13 Can / Can't | grammar | talking about ability |
-| A1-14 Describing People | vocab | appearance + personality |
+| Lesson                  | Skill   | Key outcome                       |
+| ----------------------- | ------- | --------------------------------- |
+| A1-11 Shopping & Money  | vocab   | how to ask prices + shop politely |
+| A1-12 Directions        | vocab   | asking for and giving directions  |
+| A1-13 Can / Can't       | grammar | talking about ability             |
+| A1-14 Describing People | vocab   | appearance + personality          |
 
 ## Lesson 11 — Shopping snapshot
 
-| English | Vietnamese |
-| --- | --- |
-| How much is this? | Cái này bao nhiêu? |
-| It costs 50,000 dong. | Nó giá 50.000 đồng. |
-| cheap / expensive | rẻ / đắt |
-| Can I pay by card? | Trả bằng thẻ được không? |
-| The bill, please. | Tính tiền ạ. |
+| English               | Vietnamese               |
+| --------------------- | ------------------------ |
+| How much is this?     | Cái này bao nhiêu?       |
+| It costs 50,000 dong. | Nó giá 50.000 đồng.      |
+| cheap / expensive     | rẻ / đắt                 |
+| Can I pay by card?    | Trả bằng thẻ được không? |
+| The bill, please.     | Tính tiền ạ.             |
 
 ## Lesson 12 — Directions snapshot
 
-| English | Vietnamese |
-| --- | --- |
-| Turn left / right | Rẽ trái / phải |
-| Go straight | Đi thẳng |
-| next to / behind | bên cạnh / phía sau |
-| Excuse me, where is...? | Xin lỗi, ... ở đâu? |
-| Is it far from here? | Nó có xa từ đây không? |
+| English                 | Vietnamese             |
+| ----------------------- | ---------------------- |
+| Turn left / right       | Rẽ trái / phải         |
+| Go straight             | Đi thẳng               |
+| next to / behind        | bên cạnh / phía sau    |
+| Excuse me, where is...? | Xin lỗi, ... ở đâu?    |
+| Is it far from here?    | Nó có xa từ đây không? |
 
 ## Lesson 13 — Can / Can't snapshot
 
-| Pattern | Example |
-| --- | --- |
-| `Subject + can + verb` | I can swim. |
+| Pattern                  | Example          |
+| ------------------------ | ---------------- |
+| `Subject + can + verb`   | I can swim.      |
 | `Subject + can't + verb` | She can't drive. |
-| `Can + subject + verb?` | Can you help me? |
+| `Can + subject + verb?`  | Can you help me? |
 
 > **Critical rule**: After **can / can't**, use the **base verb**, NEVER "to + verb" or "-ing". "I **can** swim" ✅ / "I **can to** swim" ❌ / "I **can swimming**" ❌.
 
 ## Lesson 14 — Describing people snapshot
 
-| Type | Verb | Example |
-| --- | --- | --- |
-| Height/build | **is** + adj | She **is** tall. |
-| Personality | **is** + adj | He **is** friendly. |
+| Type                  | Verb                  | Example                      |
+| --------------------- | --------------------- | ---------------------------- |
+| Height/build          | **is** + adj          | She **is** tall.             |
+| Personality           | **is** + adj          | He **is** friendly.          |
 | Hair / eyes / glasses | **has / have** + noun | She **has** long black hair. |
 
 ## Key patterns across all four lessons
@@ -148,20 +122,20 @@ If you can do the practice without looking back at the lessons, congratulations 
 
 Write the English sentence first, then check.
 
-| Vietnamese | Your English |
-| --- | --- |
-| Cái áo này bao nhiêu tiền? | ________________________________ |
-| Xin lỗi, ngân hàng ở đâu? | ________________________________ |
-| Tôi không biết bơi. | ________________________________ |
-| Bạn tôi cao và tóc nâu. | ________________________________ |
+| Vietnamese                 | Your English                         |
+| -------------------------- | ------------------------------------ |
+| Cái áo này bao nhiêu tiền? | **************\_\_\_\_************** |
+| Xin lỗi, ngân hàng ở đâu?  | **************\_\_\_\_************** |
+| Tôi không biết bơi.        | **************\_\_\_\_************** |
+| Bạn tôi cao và tóc nâu.    | **************\_\_\_\_************** |
 
 ### Exercise 2: Fill in the blank
 
-1. ___ much is this shirt? (How / What)
-2. Turn ___ at the traffic light. (left / to left)
-3. I ___ speak English. (can / cans)
-4. She ___ long black hair. (has / is)
-5. He is very ___ and patient. (kind / tall) — wait, which is correct here?
+1. \_\_\_ much is this shirt? (How / What)
+2. Turn \_\_\_ at the traffic light. (left / to left)
+3. I \_\_\_ speak English. (can / cans)
+4. She \_\_\_ long black hair. (has / is)
+5. He is very \_\_\_ and patient. (kind / tall) — wait, which is correct here?
 
 ### Exercise 3: Spot the mistake
 
@@ -177,33 +151,33 @@ Each sentence has one error. Find and fix.
 
 Fill in the gaps to complete the conversation.
 
-> **Anna**: Excuse me, ___ (ask about a scarf)
+> **Anna**: Excuse me, \_\_\_ (ask about a scarf)
 >
 > **Shop assistant**: It's 200,000 dong.
 >
-> **Anna**: Hmm, ___ (negotiate politely)
+> **Anna**: Hmm, \_\_\_ (negotiate politely)
 >
 > **Shop assistant**: 150,000. That's the best I can do.
 >
-> **Anna**: OK, ___ (decide to buy)
+> **Anna**: OK, \_\_\_ (decide to buy)
 >
-> **Shop assistant**: ___ (ask how to pay)
+> **Shop assistant**: \_\_\_ (ask how to pay)
 >
-> **Anna**: ___ (your preferred method)
+> **Anna**: \_\_\_ (your preferred method)
 
 ### Exercise 5: Role-play — ask for directions
 
 Imagine you are lost in HCMC and need to find the post office. Ask a stranger for help.
 
-> **You**: "Excuse me, ___ (start politely)"
+> **You**: "Excuse me, \_\_\_ (start politely)"
 >
 > **Local**: "Sure, where?"
 >
-> **You**: "___ (state your destination)"
+> **You**: "\_\_\_ (state your destination)"
 >
 > **Local**: "Go straight for two blocks..."
 >
-> **You**: ___ (follow the directions and repeat back)
+> **You**: \_\_\_ (follow the directions and repeat back)
 >
 > **Local**: "Yes, you'll see it on your right."
 
@@ -211,15 +185,20 @@ Imagine you are lost in HCMC and need to find the post office. Ask a stranger fo
 
 Describe a friend in 4-5 sentences covering appearance AND personality.
 
-> ________________________________
-> ________________________________
-> ________________________________
-> ________________________________
-> ________________________________
+> ---
+>
+> ---
+>
+> ---
+>
+> ---
+>
+> ---
 
 ## Your turn: integrated dialogue
 
 Imagine you bump into a friend you haven't seen in a while. Write a 6-8 line dialogue that uses:
+
 - Greeting + name (Unit 1)
 - Asking how they are (Unit 1)
 - Talking about a recent activity (Unit 2)
@@ -227,48 +206,55 @@ Imagine you bump into a friend you haven't seen in a while. Write a 6-8 line dia
 - Talking about what you can do (Unit 3)
 - Describing a new person you both know (Unit 3)
 
-> ________________________________
-> ________________________________
-> ________________________________
-> ________________________________
-> ________________________________
-> ________________________________
-> ________________________________
-> ________________________________
+> ---
+>
+> ---
+>
+> ---
+>
+> ---
+>
+> ---
+>
+> ---
+>
+> ---
+>
+> ---
 
 **Self-check**: did you use vocabulary from all three units?
 
-| Unit | Used? |
-| --- | --- |
-| Unit 1 (greetings, family, numbers) | |
-| Unit 2 (time, food, hobbies, weather) | |
-| Unit 3 (shopping, directions, describing) | |
+| Unit                                      | Used? |
+| ----------------------------------------- | ----- |
+| Unit 1 (greetings, family, numbers)       |       |
+| Unit 2 (time, food, hobbies, weather)     |       |
+| Unit 3 (shopping, directions, describing) |       |
 
 ## Self-check
 
 Be honest. Score yourself.
 
-| Skill | Question | Yes / No |
-| --- | --- | --- |
-| Shopping | Can I ask about price and pay politely? | |
-| Directions | Can I ask for and give directions? | |
-| Can / Can't | Can I talk about abilities? | |
-| Describing | Can I describe a friend's appearance + personality? | |
+| Skill       | Question                                            | Yes / No |
+| ----------- | --------------------------------------------------- | -------- |
+| Shopping    | Can I ask about price and pay politely?             |          |
+| Directions  | Can I ask for and give directions?                  |          |
+| Can / Can't | Can I talk about abilities?                         |          |
+| Describing  | Can I describe a friend's appearance + personality? |          |
 
-| Score | Meaning |
-| --- | --- |
+| Score     | Meaning                             |
+| --------- | ----------------------------------- |
 | 4/4 "Yes" | Move on to A2. You've completed A1! |
 | 2-3 "Yes" | Re-read 1-2 lessons, then continue. |
-| 0-1 "Yes" | Re-do Unit 3 from scratch. |
+| 0-1 "Yes" | Re-do Unit 3 from scratch.          |
 
 ## If you need more practice
 
-| If you feel weak on... | Do this |
-| --- | --- |
-| Shopping & money | Re-read A1-11. Role-play buying a shirt. |
-| Directions | Re-read A1-12. Write directions from your home to your favorite place. |
-| Can / Can't | Re-read A1-13. List 5 things you can do and 5 you can't. |
-| Describing people | Re-read A1-14. Describe 3 friends with appearance + personality. |
+| If you feel weak on... | Do this                                                                |
+| ---------------------- | ---------------------------------------------------------------------- |
+| Shopping & money       | Re-read A1-11. Role-play buying a shirt.                               |
+| Directions             | Re-read A1-12. Write directions from your home to your favorite place. |
+| Can / Can't            | Re-read A1-13. List 5 things you can do and 5 you can't.               |
+| Describing people      | Re-read A1-14. Describe 3 friends with appearance + personality.       |
 
 ## Congratulations on finishing A1!
 
@@ -280,17 +266,18 @@ You have completed **all three units of A1 English**:
 
 ### What you can do now
 
-| Skill | You can now... |
-| --- | --- |
-| Speak | Greet people, introduce yourself, ask questions |
-| Listen | Understand slow, clear English on familiar topics |
-| Read | Read short passages about everyday life |
-| Write | Write a short paragraph about yourself, family, friends |
-| Vocabulary | ~250-300 most common English words |
+| Skill      | You can now...                                          |
+| ---------- | ------------------------------------------------------- |
+| Speak      | Greet people, introduce yourself, ask questions         |
+| Listen     | Understand slow, clear English on familiar topics       |
+| Read       | Read short passages about everyday life                 |
+| Write      | Write a short paragraph about yourself, family, friends |
+| Vocabulary | ~250-300 most common English words                      |
 
 ### What's next
 
 In **A2**, you'll learn:
+
 - **A2-01-asking-help**: more complex questions
 - **A2-02-past-simple**: past tense storytelling
 - **A2-03-future-plans**: talking about tomorrow and next week

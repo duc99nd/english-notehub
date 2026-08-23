@@ -1,54 +1,41 @@
 ---
 {
-  "id": "b1-01-travel-transport",
-  "slug": "b1-01-travel-transport",
-  "titleEn": "Travel & Transport",
-  "titleVi": "Du lịch & Phương tiện đi lại",
-  "subtitleEn": "Học từ vựng du lịch thiết yếu để di chuyển",
-  "subtitleVi": "Học từ vựng du lịch thiết yếu để di chuyển",
-  "level": "B1",
-  "unit": 1,
-  "skill": "vocab",
-  "order": 1,
-  "cefr": "B1",
-  "minutes": 5,
-  "tags": [
-    "travel",
-    "transport",
-    "vocabulary",
-    "vacation",
-    "journey"
-  ],
-  "audioScript": "Tôi đang lên kế hoạch cho chuyến đi Barcelona vào tháng sau.\nTôi thường đi máy bay vì nó nhanh hơn.\nBạn có thể cho tôi biết làm sao để đến nhà ga được không?\n",
-  "listeningEnabled": true,
-  "flashcardCount": 8,
-  "quiz": [
-    {
-      "type": "choice",
-      "prompt": "Bạn cần làm gì trước khi lên máy bay?",
-      "options": [
-        "Check-in trực tuyến",
-        "Đi bơi",
-        "Nấu cơm tối"
-      ],
-      "answer": "Check-in trực tuyến"
-    },
-    {
-      "type": "fill",
-      "prompt": "Tôi cần ___ hộ chiếu trước khi đi nước ngoài.",
-      "answer": "gia hạn"
-    },
-    {
-      "type": "choice",
-      "prompt": "Phương tiện nào thường nhanh nhất cho quãng đường dài?",
-      "options": [
-        "Xe đạp",
-        "Máy bay",
-        "Đi bộ"
-      ],
-      "answer": "Máy bay"
-    }
-  ]
+  'id': 'b1-01-travel-transport',
+  'slug': 'b1-01-travel-transport',
+  'titleEn': 'Travel & Transport',
+  'titleVi': 'Du lịch & Phương tiện đi lại',
+  'subtitleEn': 'Học từ vựng du lịch thiết yếu để di chuyển',
+  'subtitleVi': 'Học từ vựng du lịch thiết yếu để di chuyển',
+  'level': 'B1',
+  'unit': 1,
+  'skill': 'vocab',
+  'order': 1,
+  'cefr': 'B1',
+  'minutes': 5,
+  'tags': ['travel', 'transport', 'vocabulary', 'vacation', 'journey'],
+  'audioScript': "Tôi đang lên kế hoạch cho chuyến đi Barcelona vào tháng sau.\nTôi thường đi máy bay vì nó nhanh hơn.\nBạn có thể cho tôi biết làm sao để đến nhà ga được không?\n",
+  'listeningEnabled': true,
+  'flashcardCount': 8,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': 'Bạn cần làm gì trước khi lên máy bay?',
+        'options': ['Check-in trực tuyến', 'Đi bơi', 'Nấu cơm tối'],
+        'answer': 'Check-in trực tuyến',
+      },
+      {
+        'type': 'fill',
+        'prompt': 'Tôi cần ___ hộ chiếu trước khi đi nước ngoài.',
+        'answer': 'gia hạn',
+      },
+      {
+        'type': 'choice',
+        'prompt': 'Phương tiện nào thường nhanh nhất cho quãng đường dài?',
+        'options': ['Xe đạp', 'Máy bay', 'Đi bộ'],
+        'answer': 'Máy bay',
+      },
+    ],
 }
 ---
 

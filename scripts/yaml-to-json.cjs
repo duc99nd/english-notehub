@@ -23,10 +23,7 @@ const matter = require('gray-matter')
 const fs = require('fs')
 const { execSync } = require('child_process')
 
-const files = execSync('git ls-files docs/en/ docs/vn/')
-  .toString()
-  .trim()
-  .split('\n')
+const files = execSync('git ls-files docs/en/ docs/vn/').toString().trim().split('\n')
 
 let converted = 0
 let skipped = 0

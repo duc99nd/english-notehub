@@ -1,76 +1,64 @@
 ---
 {
-  "id": "b2-15-review-unit3",
-  "slug": "b2-15-review-unit3",
-  "titleEn": "Review Unit 3",
-  "titleVi": "Ôn tập Unit 3",
-  "subtitleEn": "Consolidate your mastery of cultural nuances, complex structures, editorial reading, and formal correspondence",
-  "subtitleVi": "Củng cố khả năng làm chủ sắc thái văn hóa, cấu trúc phức, đọc xã luận và thư tín trang trọng",
-  "level": "B2",
-  "unit": 3,
-  "skill": "review",
-  "order": 15,
-  "cefr": "B2",
-  "minutes": 10,
-  "tags": [
-    "review",
-    "culture",
-    "grammar",
-    "reading",
-    "writing",
-    "consolidation",
-    "B2"
-  ],
-  "audioScript": "Unit 3 completes your B2 journey, integrating cultural awareness, complex grammar, analytical reading, and formal writing.\nYou now possess the complete range of B2 competencies for professional English.\nThis review consolidates your mastery across all three units.\n",
-  "listeningEnabled": true,
-  "flashcardCount": 10,
-  "quiz": [
-    {
-      "type": "choice",
-      "prompt": "What is a characteristic of high-context cultures?",
-      "options": [
-        "Direct communication is preferred",
-        "Meaning is conveyed through context and relationships",
-        "Written contracts are always required"
-      ],
-      "answer": "Meaning is conveyed through context and relationships"
-    },
-    {
-      "type": "choice",
-      "prompt": "Which sentence uses a non-defining relative clause correctly?",
-      "options": [
-        "The report that was published highlights key trends.",
-        "The report, which was published, highlights key trends.",
-        "The report which was published highlights key trends."
-      ],
-      "answer": "The report, which was published, highlights key trends."
-    },
-    {
-      "type": "choice",
-      "prompt": "What does \"in light of\" mean in formal writing?",
-      "options": [
-        "Inside a building",
-        "Considering or taking into account",
-        "Because of bright light"
-      ],
-      "answer": "Considering or taking into account"
-    },
-    {
-      "type": "choice",
-      "prompt": "Which phrase is appropriate for a formal email closing?",
-      "options": [
-        "Catch you later!",
-        "I look forward to your response.",
-        "Thanks a bunch!"
-      ],
-      "answer": "I look forward to your response."
-    },
-    {
-      "type": "fill",
-      "prompt": "Please find ___ the requested documentation.",
-      "answer": "attached"
-    }
-  ]
+  'id': 'b2-15-review-unit3',
+  'slug': 'b2-15-review-unit3',
+  'titleEn': 'Review Unit 3',
+  'titleVi': 'Ôn tập Unit 3',
+  'subtitleEn': 'Consolidate your mastery of cultural nuances, complex structures, editorial reading, and formal correspondence',
+  'subtitleVi': 'Củng cố khả năng làm chủ sắc thái văn hóa, cấu trúc phức, đọc xã luận và thư tín trang trọng',
+  'level': 'B2',
+  'unit': 3,
+  'skill': 'review',
+  'order': 15,
+  'cefr': 'B2',
+  'minutes': 10,
+  'tags': ['review', 'culture', 'grammar', 'reading', 'writing', 'consolidation', 'B2'],
+  'audioScript': "Unit 3 completes your B2 journey, integrating cultural awareness, complex grammar, analytical reading, and formal writing.\nYou now possess the complete range of B2 competencies for professional English.\nThis review consolidates your mastery across all three units.\n",
+  'listeningEnabled': true,
+  'flashcardCount': 10,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': 'What is a characteristic of high-context cultures?',
+        'options':
+          [
+            'Direct communication is preferred',
+            'Meaning is conveyed through context and relationships',
+            'Written contracts are always required',
+          ],
+        'answer': 'Meaning is conveyed through context and relationships',
+      },
+      {
+        'type': 'choice',
+        'prompt': 'Which sentence uses a non-defining relative clause correctly?',
+        'options':
+          [
+            'The report that was published highlights key trends.',
+            'The report, which was published, highlights key trends.',
+            'The report which was published highlights key trends.',
+          ],
+        'answer': 'The report, which was published, highlights key trends.',
+      },
+      {
+        'type': 'choice',
+        'prompt': 'What does "in light of" mean in formal writing?',
+        'options':
+          ['Inside a building', 'Considering or taking into account', 'Because of bright light'],
+        'answer': 'Considering or taking into account',
+      },
+      {
+        'type': 'choice',
+        'prompt': 'Which phrase is appropriate for a formal email closing?',
+        'options': ['Catch you later!', 'I look forward to your response.', 'Thanks a bunch!'],
+        'answer': 'I look forward to your response.',
+      },
+      {
+        'type': 'fill',
+        'prompt': 'Please find ___ the requested documentation.',
+        'answer': 'attached',
+      },
+    ],
 }
 ---
 

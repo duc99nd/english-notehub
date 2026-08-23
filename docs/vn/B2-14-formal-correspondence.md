@@ -1,55 +1,51 @@
 ---
 {
-  "id": "b2-14-formal-correspondence",
-  "slug": "b2-14-formal-correspondence",
-  "titleEn": "Formal Correspondence",
-  "titleVi": "Thư tín trang trọng",
-  "subtitleEn": "Write professional emails, letters, and formal communications",
-  "subtitleVi": "Viết email, thư và giao tiếp trang trọng chuyên nghiệp",
-  "level": "B2",
-  "unit": 3,
-  "skill": "writing",
-  "order": 14,
-  "cefr": "B2",
-  "minutes": 5,
-  "tags": [
-    "writing",
-    "email",
-    "formal",
-    "correspondence",
-    "business",
-    "B2"
-  ],
-  "audioScript": "I am writing to follow up on our conversation from last week.\nPlease find attached the requested documentation.\nI look forward to your response at your earliest convenience.\n",
-  "listeningEnabled": true,
-  "flashcardCount": 6,
-  "quiz": [
-    {
-      "type": "choice",
-      "prompt": "Which phrase is most appropriate for a formal email opening?",
-      "options": [
-        "Hey there, just wanted to check in...",
-        "I am writing to follow up on our conversation...",
-        "Yo, what's up?"
-      ],
-      "answer": "I am writing to follow up on our conversation..."
-    },
-    {
-      "type": "fill",
-      "prompt": "Please find ___ the requested documentation.",
-      "answer": "attached"
-    },
-    {
-      "type": "choice",
-      "prompt": "What does \"at your earliest convenience\" imply?",
-      "options": [
-        "As soon as possible, no rush",
-        "When you have time, politely urgent",
-        "Immediately, drop everything"
-      ],
-      "answer": "When you have time, politely urgent"
-    }
-  ]
+  'id': 'b2-14-formal-correspondence',
+  'slug': 'b2-14-formal-correspondence',
+  'titleEn': 'Formal Correspondence',
+  'titleVi': 'Thư tín trang trọng',
+  'subtitleEn': 'Write professional emails, letters, and formal communications',
+  'subtitleVi': 'Viết email, thư và giao tiếp trang trọng chuyên nghiệp',
+  'level': 'B2',
+  'unit': 3,
+  'skill': 'writing',
+  'order': 14,
+  'cefr': 'B2',
+  'minutes': 5,
+  'tags': ['writing', 'email', 'formal', 'correspondence', 'business', 'B2'],
+  'audioScript': "I am writing to follow up on our conversation from last week.\nPlease find attached the requested documentation.\nI look forward to your response at your earliest convenience.\n",
+  'listeningEnabled': true,
+  'flashcardCount': 6,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': 'Which phrase is most appropriate for a formal email opening?',
+        'options':
+          [
+            'Hey there, just wanted to check in...',
+            'I am writing to follow up on our conversation...',
+            "Yo, what's up?",
+          ],
+        'answer': 'I am writing to follow up on our conversation...',
+      },
+      {
+        'type': 'fill',
+        'prompt': 'Please find ___ the requested documentation.',
+        'answer': 'attached',
+      },
+      {
+        'type': 'choice',
+        'prompt': 'What does "at your earliest convenience" imply?',
+        'options':
+          [
+            'As soon as possible, no rush',
+            'When you have time, politely urgent',
+            'Immediately, drop everything',
+          ],
+        'answer': 'When you have time, politely urgent',
+      },
+    ],
 }
 ---
 

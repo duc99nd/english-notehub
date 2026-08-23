@@ -1,53 +1,51 @@
 ---
 {
-  "id": "a2-08-future-plans",
-  "slug": "a2-08-future-plans",
-  "titleEn": "Future Plans",
-  "titleVi": "Kế hoạch tương lai",
-  "subtitleEn": "Nói về ý định và kế hoạch sử dụng going to và will",
-  "subtitleVi": "Nói về ý định và kế hoạch sử dụng going to và will",
-  "level": "A2",
-  "unit": 2,
-  "skill": "reading",
-  "order": 8,
-  "cefr": "A2",
-  "minutes": 5,
-  "tags": [
-    "future",
-    "grammar",
-    "plans",
-    "reading"
-  ],
-  "audioScript": "Tôi sẽ đến thăm bà ngoại vào cuối tuần này.\nTôi sẽ gọi cho bạn sau.\nChúng tôi sẽ bắt đầu một dự án mới.\n",
-  "listeningEnabled": true,
-  "flashcardCount": 6,
-  "quiz": [
-    {
-      "type": "choice",
-      "prompt": "Câu nào đúng cho quyết định đã lên kế hoạch?",
-      "options": [
-        "I will go to the cinema.",
-        "I am going to go to the cinema.",
-        "I going to go to the cinema."
-      ],
-      "answer": "I am going to go to the cinema."
-    },
-    {
-      "type": "fill",
-      "prompt": "She ___ (call) you tomorrow. Choose: will / is going to",
-      "answer": "will"
-    },
-    {
-      "type": "choice",
-      "prompt": "Khi nào chúng ta dùng \"will\"?",
-      "options": [
-        "Cho quyết định đã lên kế hoạch",
-        "Cho quyết định tự phát hoặc dự đoán",
-        "Cho sự kiện quá khứ"
-      ],
-      "answer": "Cho quyết định tự phát hoặc dự đoán"
-    }
-  ]
+  'id': 'a2-08-future-plans',
+  'slug': 'a2-08-future-plans',
+  'titleEn': 'Future Plans',
+  'titleVi': 'Kế hoạch tương lai',
+  'subtitleEn': 'Nói về ý định và kế hoạch sử dụng going to và will',
+  'subtitleVi': 'Nói về ý định và kế hoạch sử dụng going to và will',
+  'level': 'A2',
+  'unit': 2,
+  'skill': 'reading',
+  'order': 8,
+  'cefr': 'A2',
+  'minutes': 5,
+  'tags': ['future', 'grammar', 'plans', 'reading'],
+  'audioScript': "Tôi sẽ đến thăm bà ngoại vào cuối tuần này.\nTôi sẽ gọi cho bạn sau.\nChúng tôi sẽ bắt đầu một dự án mới.\n",
+  'listeningEnabled': true,
+  'flashcardCount': 6,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': 'Câu nào đúng cho quyết định đã lên kế hoạch?',
+        'options':
+          [
+            'I will go to the cinema.',
+            'I am going to go to the cinema.',
+            'I going to go to the cinema.',
+          ],
+        'answer': 'I am going to go to the cinema.',
+      },
+      {
+        'type': 'fill',
+        'prompt': 'She ___ (call) you tomorrow. Choose: will / is going to',
+        'answer': 'will',
+      },
+      {
+        'type': 'choice',
+        'prompt': 'Khi nào chúng ta dùng "will"?',
+        'options':
+          [
+            'Cho quyết định đã lên kế hoạch',
+            'Cho quyết định tự phát hoặc dự đoán',
+            'Cho sự kiện quá khứ',
+          ],
+        'answer': 'Cho quyết định tự phát hoặc dự đoán',
+      },
+    ],
 }
 ---
 

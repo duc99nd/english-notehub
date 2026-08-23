@@ -1,67 +1,49 @@
 ---
 {
-  "id": "a1-01-greetings",
-  "slug": "a1-01-greetings",
-  "titleEn": "Greetings & Self-introduction",
-  "titleVi": "Chào hỏi & Giới thiệu bản thân",
-  "subtitleEn": "Say hello, give your name, and make a first impression in English",
-  "subtitleVi": "Chào hỏi, nói tên và tạo ấn tượng đầu tiên bằng tiếng Anh",
-  "level": "A1",
-  "unit": 1,
-  "skill": "vocab",
-  "order": 1,
-  "cefr": "A1",
-  "minutes": 8,
-  "tags": [
-    "greetings",
-    "introduction",
-    "daily",
-    "foundation",
-    "speaking"
-  ],
-  "audioScript": "Hello. My name is Anna. Nice to meet you.\nHi, I'm Duc. I'm from Vietnam.\nGood morning. How are you today?\nI'm fine, thank you. And you?\n",
-  "listeningEnabled": true,
-  "flashcardCount": 8,
-  "quiz": [
-    {
-      "type": "fill",
-      "prompt": "Hello, my ___ is Anna.",
-      "answer": "name"
-    },
-    {
-      "type": "choice",
-      "prompt": "Which greeting is most appropriate when you meet your new boss for the first time?",
-      "options": [
-        "Hey, what's up?",
-        "Yo bro!",
-        "Good morning. Nice to meet you.",
-        "Sup?"
-      ],
-      "answer": "Good morning. Nice to meet you."
-    },
-    {
-      "type": "choice",
-      "prompt": "Your colleague says 'How are you?' What is a polite reply?",
-      "options": [
-        "I'm twenty.",
-        "I'm fine, thank you. And you?",
-        "My name is Anna.",
-        "Goodbye."
-      ],
-      "answer": "I'm fine, thank you. And you?"
-    },
-    {
-      "type": "choice",
-      "prompt": "What does 'Nice to meet you' mean?",
-      "options": [
-        "I want to leave now.",
-        "I'm happy to know you (first meeting).",
-        "I have known you for a long time.",
-        "Please call me later."
-      ],
-      "answer": "I'm happy to know you (first meeting)."
-    }
-  ]
+  'id': 'a1-01-greetings',
+  'slug': 'a1-01-greetings',
+  'titleEn': 'Greetings & Self-introduction',
+  'titleVi': 'Chào hỏi & Giới thiệu bản thân',
+  'subtitleEn': 'Say hello, give your name, and make a first impression in English',
+  'subtitleVi': 'Chào hỏi, nói tên và tạo ấn tượng đầu tiên bằng tiếng Anh',
+  'level': 'A1',
+  'unit': 1,
+  'skill': 'vocab',
+  'order': 1,
+  'cefr': 'A1',
+  'minutes': 8,
+  'tags': ['greetings', 'introduction', 'daily', 'foundation', 'speaking'],
+  'audioScript': "Hello. My name is Anna. Nice to meet you.\nHi, I'm Duc. I'm from Vietnam.\nGood morning. How are you today?\nI'm fine, thank you. And you?\n",
+  'listeningEnabled': true,
+  'flashcardCount': 8,
+  'quiz':
+    [
+      { 'type': 'fill', 'prompt': 'Hello, my ___ is Anna.', 'answer': 'name' },
+      {
+        'type': 'choice',
+        'prompt': 'Which greeting is most appropriate when you meet your new boss for the first time?',
+        'options': ["Hey, what's up?", 'Yo bro!', 'Good morning. Nice to meet you.', 'Sup?'],
+        'answer': 'Good morning. Nice to meet you.',
+      },
+      {
+        'type': 'choice',
+        'prompt': "Your colleague says 'How are you?' What is a polite reply?",
+        'options': ["I'm twenty.", "I'm fine, thank you. And you?", 'My name is Anna.', 'Goodbye.'],
+        'answer': "I'm fine, thank you. And you?",
+      },
+      {
+        'type': 'choice',
+        'prompt': "What does 'Nice to meet you' mean?",
+        'options':
+          [
+            'I want to leave now.',
+            "I'm happy to know you (first meeting).",
+            'I have known you for a long time.',
+            'Please call me later.',
+          ],
+        'answer': "I'm happy to know you (first meeting).",
+      },
+    ],
 }
 ---
 
@@ -79,11 +61,11 @@ The first ten seconds of any conversation set the tone. In English, a good greet
 >
 > **Pattern C**: `Good [morning / afternoon / evening].`
 
-| Pattern | Use when | Example |
-| --- | --- | --- |
-| A | First meeting, formal | Hello, my name is Anna. |
-| B | Friendly, first meeting | Hi, I'm Duc. |
-| C | Time-specific, polite | Good morning, Mrs. Linh. |
+| Pattern | Use when                | Example                  |
+| ------- | ----------------------- | ------------------------ |
+| A       | First meeting, formal   | Hello, my name is Anna.  |
+| B       | Friendly, first meeting | Hi, I'm Duc.             |
+| C       | Time-specific, polite   | Good morning, Mrs. Linh. |
 
 ## Formal vs informal
 
@@ -124,13 +106,13 @@ Notice how Duc turns the question back to Anna with **"And you?"** — this is h
 
 When you meet someone, they usually ask a few questions in a row. Memorize the pattern.
 
-| Question | What they want to know | Common answer |
-| --- | --- | --- |
-| What's your name? | Your full name | My name is Anna. / I'm Anna. |
-| Where are you from? | Your home country / city | I'm from Vietnam. / I'm from Hanoi. |
-| What do you do? | Your job | I'm a student. / I work as a designer. |
-| How are you? | If you're well today | I'm fine, thank you. And you? |
-| Nice to meet you? | Polite phrase after introductions | Nice to meet you too. |
+| Question            | What they want to know            | Common answer                          |
+| ------------------- | --------------------------------- | -------------------------------------- |
+| What's your name?   | Your full name                    | My name is Anna. / I'm Anna.           |
+| Where are you from? | Your home country / city          | I'm from Vietnam. / I'm from Hanoi.    |
+| What do you do?     | Your job                          | I'm a student. / I work as a designer. |
+| How are you?        | If you're well today              | I'm fine, thank you. And you?          |
+| Nice to meet you?   | Polite phrase after introductions | Nice to meet you too.                  |
 
 > **Pattern**: Always reply to a question, then **ask it back**. "I'm a designer. And you?"
 
@@ -144,7 +126,7 @@ When you meet someone, they usually ask a few questions in a row. Memorize the p
 
 Fill in the blanks, then read the introduction out loud three times.
 
-> My name is __________. I'm from __________. I work as __________. In my free time, I like to __________.
+> My name is ****\_\_****. I'm from ****\_\_****. I work as ****\_\_****. In my free time, I like to ****\_\_****.
 
 **Self-check**:
 

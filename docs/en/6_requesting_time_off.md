@@ -1,20 +1,20 @@
 ---
 {
-  "id": "requesting-time-off",
-  "slug": "requesting-time-off",
-  "titleEn": "Requesting Time Off",
-  "titleVi": "Cách xin nghỉ phép và báo ốm",
-  "subtitleEn": "Asking for leave and reporting sick",
-  "subtitleVi": "Xin nghỉ phép hợp lý và lịch sự",
-  "level": "A2",
-  "cefr": "A2",
-  "skill": "speaking",
-  "order": 6,
-  "minutes": 6,
-  "categoryEn": "Foundation & Daily Communication",
-  "categoryVi": "Nền tảng Kỹ năng",
-  "tags": [],
-  "isArchived": false
+  'id': 'requesting-time-off',
+  'slug': 'requesting-time-off',
+  'titleEn': 'Requesting Time Off',
+  'titleVi': 'Cách xin nghỉ phép và báo ốm',
+  'subtitleEn': 'Asking for leave and reporting sick',
+  'subtitleVi': 'Xin nghỉ phép hợp lý và lịch sự',
+  'level': 'A2',
+  'cefr': 'A2',
+  'skill': 'speaking',
+  'order': 6,
+  'minutes': 6,
+  'categoryEn': 'Foundation & Daily Communication',
+  'categoryVi': 'Nền tảng Kỹ năng',
+  'tags': [],
+  'isArchived': false,
 }
 ---
 

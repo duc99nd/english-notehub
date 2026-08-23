@@ -1,67 +1,50 @@
 ---
 {
-  "id": "a1-11-shopping-money",
-  "slug": "a1-11-shopping-money",
-  "titleEn": "Shopping & Money",
-  "titleVi": "Mua sắm & Tiền bạc",
-  "subtitleEn": "Ask about prices, talk about money, and shop in English",
-  "subtitleVi": "Hỏi giá, nói về tiền và mua sắm bằng tiếng Anh",
-  "level": "A1",
-  "unit": 3,
-  "skill": "vocab",
-  "order": 11,
-  "cefr": "A1",
-  "minutes": 8,
-  "tags": [
-    "shopping",
-    "money",
-    "numbers",
-    "vocab",
-    "daily"
-  ],
-  "audioScript": "How much does this shirt cost?\nIt costs fifty thousand dong.\nI would like to buy this book, please.\nDo you accept credit cards?\n",
-  "listeningEnabled": true,
-  "flashcardCount": 12,
-  "quiz": [
-    {
-      "type": "choice",
-      "prompt": "Which question asks for the price?",
-      "options": [
-        "How many is this?",
-        "How much is this?",
-        "How old is this?",
-        "How much money do you have?"
-      ],
-      "answer": "How much is this?"
-    },
-    {
-      "type": "choice",
-      "prompt": "What is the opposite of 'cheap'?",
-      "options": [
-        "small",
-        "expensive",
-        "free",
-        "discount"
-      ],
-      "answer": "expensive"
-    },
-    {
-      "type": "fill",
-      "prompt": "It ___ 50 dollars. (verb for price)",
-      "answer": "costs"
-    },
-    {
-      "type": "choice",
-      "prompt": "You want to pay with your Visa card. You ask:",
-      "options": [
-        "Where is the card?",
-        "Can I pay by card?",
-        "How many cards?",
-        "Do you take dollars?"
-      ],
-      "answer": "Can I pay by card?"
-    }
-  ]
+  'id': 'a1-11-shopping-money',
+  'slug': 'a1-11-shopping-money',
+  'titleEn': 'Shopping & Money',
+  'titleVi': 'Mua sắm & Tiền bạc',
+  'subtitleEn': 'Ask about prices, talk about money, and shop in English',
+  'subtitleVi': 'Hỏi giá, nói về tiền và mua sắm bằng tiếng Anh',
+  'level': 'A1',
+  'unit': 3,
+  'skill': 'vocab',
+  'order': 11,
+  'cefr': 'A1',
+  'minutes': 8,
+  'tags': ['shopping', 'money', 'numbers', 'vocab', 'daily'],
+  'audioScript': "How much does this shirt cost?\nIt costs fifty thousand dong.\nI would like to buy this book, please.\nDo you accept credit cards?\n",
+  'listeningEnabled': true,
+  'flashcardCount': 12,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': 'Which question asks for the price?',
+        'options':
+          [
+            'How many is this?',
+            'How much is this?',
+            'How old is this?',
+            'How much money do you have?',
+          ],
+        'answer': 'How much is this?',
+      },
+      {
+        'type': 'choice',
+        'prompt': "What is the opposite of 'cheap'?",
+        'options': ['small', 'expensive', 'free', 'discount'],
+        'answer': 'expensive',
+      },
+      { 'type': 'fill', 'prompt': 'It ___ 50 dollars. (verb for price)', 'answer': 'costs' },
+      {
+        'type': 'choice',
+        'prompt': 'You want to pay with your Visa card. You ask:',
+        'options':
+          ['Where is the card?', 'Can I pay by card?', 'How many cards?', 'Do you take dollars?'],
+        'answer': 'Can I pay by card?',
+      },
+    ],
 }
 ---
 
@@ -77,30 +60,30 @@ In any English-speaking country, you'll shop within 24 hours of arrival: a coffe
 >
 > **Pattern B — How many + countable (number)**: `How many apples do you want?` `How many shirts are there?`
 
-| Question | Use for | Example |
-| --- | --- | --- |
-| How much is this? | price of one item | "How much is this shirt?" |
-| How much are these? | price of many items | "How much are these apples?" |
-| How much does it cost? | price (formal) | "How much does this phone cost?" |
-| How many do you want? | quantity | "How many coffees would you like?" |
-| How many are there? | number | "How many shirts do you have?" |
+| Question               | Use for             | Example                            |
+| ---------------------- | ------------------- | ---------------------------------- |
+| How much is this?      | price of one item   | "How much is this shirt?"          |
+| How much are these?    | price of many items | "How much are these apples?"       |
+| How much does it cost? | price (formal)      | "How much does this phone cost?"   |
+| How many do you want?  | quantity            | "How many coffees would you like?" |
+| How many are there?    | number              | "How many shirts do you have?"     |
 
 ## Money vocabulary
 
-| English | Vietnamese | Example |
-| --- | --- | --- |
-| money | tiền | I don't have any money. |
-| price | giá | What's the price? |
-| cheap | rẻ | This shirt is cheap. |
-| expensive | đắt | That phone is expensive. |
-| free | miễn phí | The coffee is free. |
-| discount | giảm giá | Is there a discount? |
-| sale | khuyến mãi | The shirts are on sale. |
-| cash | tiền mặt | I pay in cash. |
-| credit card | thẻ tín dụng | Do you take credit cards? |
-| change (coins) | tiền lẻ / tiền thừa | Keep the change. |
-| receipt | hóa đơn | Can I have a receipt? |
-| bill | hóa đơn (US) | The bill, please. |
+| English        | Vietnamese          | Example                   |
+| -------------- | ------------------- | ------------------------- |
+| money          | tiền                | I don't have any money.   |
+| price          | giá                 | What's the price?         |
+| cheap          | rẻ                  | This shirt is cheap.      |
+| expensive      | đắt                 | That phone is expensive.  |
+| free           | miễn phí            | The coffee is free.       |
+| discount       | giảm giá            | Is there a discount?      |
+| sale           | khuyến mãi          | The shirts are on sale.   |
+| cash           | tiền mặt            | I pay in cash.            |
+| credit card    | thẻ tín dụng        | Do you take credit cards? |
+| change (coins) | tiền lẻ / tiền thừa | Keep the change.          |
+| receipt        | hóa đơn             | Can I have a receipt?     |
+| bill           | hóa đơn (US)        | The bill, please.         |
 
 > **Note**: "Bill" in the US = the check at a restaurant, AND a paper money (a $5 bill). "Change" means both "coins" and "money returned to you after paying" — same word, two meanings.
 
@@ -108,29 +91,29 @@ In any English-speaking country, you'll shop within 24 hours of arrival: a coffe
 
 > **Pattern**: `It costs [number] [currency].`
 
-| English | Vietnamese |
-| --- | --- |
-| It costs $10. | Nó giá 10 đô. |
-| It costs 50,000 dong. | Nó giá 50.000 đồng. |
-| It costs £5.50 (five pounds fifty). | Nó giá 5,50 bảng. |
-| It costs €20 (twenty euros). | Nó giá 20 euro. |
+| English                             | Vietnamese          |
+| ----------------------------------- | ------------------- |
+| It costs $10.                       | Nó giá 10 đô.       |
+| It costs 50,000 dong.               | Nó giá 50.000 đồng. |
+| It costs £5.50 (five pounds fifty). | Nó giá 5,50 bảng.   |
+| It costs €20 (twenty euros).        | Nó giá 20 euro.     |
 
 > **Tip**: When saying decimals, say "**point**" or "**and**" between whole and part. "$5.50" = "five dollars **fifty**" or "five dollars **and fifty cents**".
 
 ## Where to shop
 
-| Place | Vietnamese | What you buy |
-| --- | --- | --- |
-| supermarket | siêu thị | food, daily items |
-| market | chợ | fresh food, clothes |
-| shopping mall | trung tâm thương mại | clothes, electronics |
-| bookstore | hiệu sách | books |
-| pharmacy / drugstore | nhà thuốc | medicine, toiletries |
-| clothing store | cửa hàng quần áo | clothes |
-| convenience store | cửa hàng tiện lợi | snacks, drinks |
-| bakery | tiệm bánh | bread, cakes |
-| butcher | tiệm thịt | meat |
-| greengrocer | tiệm trái cây / rau | fruit, vegetables |
+| Place                | Vietnamese           | What you buy         |
+| -------------------- | -------------------- | -------------------- |
+| supermarket          | siêu thị             | food, daily items    |
+| market               | chợ                  | fresh food, clothes  |
+| shopping mall        | trung tâm thương mại | clothes, electronics |
+| bookstore            | hiệu sách            | books                |
+| pharmacy / drugstore | nhà thuốc            | medicine, toiletries |
+| clothing store       | cửa hàng quần áo     | clothes              |
+| convenience store    | cửa hàng tiện lợi    | snacks, drinks       |
+| bakery               | tiệm bánh            | bread, cakes         |
+| butcher              | tiệm thịt            | meat                 |
+| greengrocer          | tiệm trái cây / rau  | fruit, vegetables    |
 
 ## Shopping phrases — the script
 
@@ -142,15 +125,15 @@ In any English-speaking country, you'll shop within 24 hours of arrival: a coffe
 >
 > **Pattern D — Pay**: `Can I pay by card?` / `I'll pay in cash.`
 
-| Step | What to say |
-| --- | --- |
-| 1. Browse | (Look around. Pick up an item.) |
-| 2. Ask price | "Excuse me, how much is this?" |
+| Step                    | What to say                                         |
+| ----------------------- | --------------------------------------------------- |
+| 1. Browse               | (Look around. Pick up an item.)                     |
+| 2. Ask price            | "Excuse me, how much is this?"                      |
 | 3. Negotiate (optional) | "It's a bit expensive. Can you give me a discount?" |
-| 4. Decide | "I'll take it." / "Just looking, thanks." |
-| 5. Pay | "Can I pay by card?" / "I'll pay in cash." |
-| 6. Get change | "Keep the change, thanks." |
-| 7. Receipt | "Can I have a receipt, please?" |
+| 4. Decide               | "I'll take it." / "Just looking, thanks."           |
+| 5. Pay                  | "Can I pay by card?" / "I'll pay in cash."          |
+| 6. Get change           | "Keep the change, thanks."                          |
+| 7. Receipt              | "Can I have a receipt, please?"                     |
 
 > **Tip**: "I'll take it" means "I'll buy it". "Just looking, thanks" means "I don't need help right now" — use this when a shop assistant approaches you.
 
@@ -198,23 +181,23 @@ Notice how Anna negotiates politely ("a bit expensive", "a better price"). In Vi
 
 Imagine you are at a market in Vietnam. Practice this conversation out loud.
 
-> **You**: "Excuse me, ___ (ask about a shirt)"
+> **You**: "Excuse me, \_\_\_ (ask about a shirt)"
 >
 > **Seller**: "It's 200,000 dong."
 >
-> **You**: "___ (negotiate: too expensive)"
+> **You**: "\_\_\_ (negotiate: too expensive)"
 >
 > **Seller**: "OK, 150,000."
 >
-> **You**: "___ (decide)"
+> **You**: "\_\_\_ (decide)"
 >
 > **Seller**: "How do you pay?"
 >
-> **You**: "___ (cash or card)"
+> **You**: "\_\_\_ (cash or card)"
 >
 > **Seller**: "Thanks!"
 >
-> **You**: "___ (politely end)"
+> **You**: "\_\_\_ (politely end)"
 
 **Self-check**:
 

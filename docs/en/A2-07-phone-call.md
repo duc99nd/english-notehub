@@ -1,53 +1,37 @@
 ---
 {
-  "id": "a2-07-phone-call",
-  "slug": "a2-07-phone-call",
-  "titleEn": "Phone Call",
-  "titleVi": "Cuộc gọi điện thoại",
-  "subtitleEn": "Practice making and receiving phone calls",
-  "subtitleVi": "Thực hành thực hiện và nhận cuộc gọi điện thoại",
-  "level": "A2",
-  "unit": 2,
-  "skill": "grammar",
-  "order": 7,
-  "cefr": "A2",
-  "minutes": 5,
-  "tags": [
-    "phone-call",
-    "speaking",
-    "grammar",
-    "communication"
-  ],
-  "audioScript": "Hello, this is Anna speaking.\nCan I speak to Mr. Smith, please?\nI'm calling about our meeting tomorrow.\n",
-  "listeningEnabled": true,
-  "flashcardCount": 6,
-  "quiz": [
-    {
-      "type": "choice",
-      "prompt": "How do you answer a phone call formally?",
-      "options": [
-        "Yeah, who are you?",
-        "Hello, this is [name] speaking.",
-        "What's up?"
-      ],
-      "answer": "Hello, this is [name] speaking."
-    },
-    {
-      "type": "fill",
-      "prompt": "Can I speak ___ Mr. Smith, please?",
-      "answer": "to"
-    },
-    {
-      "type": "choice",
-      "prompt": "What should you say if the person is not available?",
-      "options": [
-        "Put him on!",
-        "Could you take a message, please?",
-        "Call back later."
-      ],
-      "answer": "Could you take a message, please?"
-    }
-  ]
+  'id': 'a2-07-phone-call',
+  'slug': 'a2-07-phone-call',
+  'titleEn': 'Phone Call',
+  'titleVi': 'Cuộc gọi điện thoại',
+  'subtitleEn': 'Practice making and receiving phone calls',
+  'subtitleVi': 'Thực hành thực hiện và nhận cuộc gọi điện thoại',
+  'level': 'A2',
+  'unit': 2,
+  'skill': 'grammar',
+  'order': 7,
+  'cefr': 'A2',
+  'minutes': 5,
+  'tags': ['phone-call', 'speaking', 'grammar', 'communication'],
+  'audioScript': "Hello, this is Anna speaking.\nCan I speak to Mr. Smith, please?\nI'm calling about our meeting tomorrow.\n",
+  'listeningEnabled': true,
+  'flashcardCount': 6,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': 'How do you answer a phone call formally?',
+        'options': ['Yeah, who are you?', 'Hello, this is [name] speaking.', "What's up?"],
+        'answer': 'Hello, this is [name] speaking.',
+      },
+      { 'type': 'fill', 'prompt': 'Can I speak ___ Mr. Smith, please?', 'answer': 'to' },
+      {
+        'type': 'choice',
+        'prompt': 'What should you say if the person is not available?',
+        'options': ['Put him on!', 'Could you take a message, please?', 'Call back later.'],
+        'answer': 'Could you take a message, please?',
+      },
+    ],
 }
 ---
 

@@ -1,61 +1,42 @@
 ---
 {
-  "id": "a1-03-daily-verbs",
-  "slug": "a1-03-daily-verbs",
-  "titleEn": "Daily Verbs",
-  "titleVi": "Động từ hàng ngày",
-  "subtitleEn": "Use 20 essential verbs to describe your day in English",
-  "subtitleVi": "Dùng 20 động từ thiết yếu để kể về một ngày của bạn bằng tiếng Anh",
-  "level": "A1",
-  "unit": 1,
-  "skill": "reading",
-  "order": 3,
-  "cefr": "A1",
-  "minutes": 8,
-  "tags": [
-    "verbs",
-    "daily-routine",
-    "reading",
-    "speaking",
-    "foundation"
-  ],
-  "audioScript": "I wake up at six in the morning.\nI eat breakfast at seven. I drink coffee every day.\nI go to work at eight. I come home at six.\nI read a book before I sleep at ten.\n",
-  "listeningEnabled": true,
-  "flashcardCount": 10,
-  "quiz": [
-    {
-      "type": "choice",
-      "prompt": "Điền động từ: 'I ___ up at six in the morning.'",
-      "options": [
-        "wake",
-        "wakes",
-        "waking",
-        "woke"
-      ],
-      "answer": "wake"
-    },
-    {
-      "type": "fill",
-      "prompt": "I ___ coffee every morning. (uống = drink)",
-      "answer": "drink"
-    },
-    {
-      "type": "choice",
-      "prompt": "Trái nghĩa của 'come' là gì?",
-      "options": [
-        "go",
-        "stay",
-        "leave",
-        "arrive"
-      ],
-      "answer": "go"
-    },
-    {
-      "type": "fill",
-      "prompt": "She ___ home at six in the evening. (đến = come)",
-      "answer": "comes"
-    }
-  ]
+  'id': 'a1-03-daily-verbs',
+  'slug': 'a1-03-daily-verbs',
+  'titleEn': 'Daily Verbs',
+  'titleVi': 'Động từ hàng ngày',
+  'subtitleEn': 'Use 20 essential verbs to describe your day in English',
+  'subtitleVi': 'Dùng 20 động từ thiết yếu để kể về một ngày của bạn bằng tiếng Anh',
+  'level': 'A1',
+  'unit': 1,
+  'skill': 'reading',
+  'order': 3,
+  'cefr': 'A1',
+  'minutes': 8,
+  'tags': ['verbs', 'daily-routine', 'reading', 'speaking', 'foundation'],
+  'audioScript': "I wake up at six in the morning.\nI eat breakfast at seven. I drink coffee every day.\nI go to work at eight. I come home at six.\nI read a book before I sleep at ten.\n",
+  'listeningEnabled': true,
+  'flashcardCount': 10,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': "Điền động từ: 'I ___ up at six in the morning.'",
+        'options': ['wake', 'wakes', 'waking', 'woke'],
+        'answer': 'wake',
+      },
+      { 'type': 'fill', 'prompt': 'I ___ coffee every morning. (uống = drink)', 'answer': 'drink' },
+      {
+        'type': 'choice',
+        'prompt': "Trái nghĩa của 'come' là gì?",
+        'options': ['go', 'stay', 'leave', 'arrive'],
+        'answer': 'go',
+      },
+      {
+        'type': 'fill',
+        'prompt': 'She ___ home at six in the evening. (đến = come)',
+        'answer': 'comes',
+      },
+    ],
 }
 ---
 
@@ -89,46 +70,47 @@ Tám động từ trong chín câu. Lưu ý: mọi động từ ở đây là **
 
 ## 20 động từ hàng ngày
 
-| Động từ | Tiếng Việt | Ví dụ |
-| --- | --- | --- |
-| wake up | thức dậy | I wake up at 6. |
-| get up | ra khỏi giường | I get up early. |
-| eat | ăn | I eat breakfast. |
-| drink | uống | I drink water. |
-| cook | nấu | I cook dinner. |
-| go | đi | I go to school. |
-| come | đến | I come home. |
-| work | làm việc | I work at home. |
-| study | học | I study English. |
-| read | đọc | I read books. |
-| write | viết | I write emails. |
-| watch | xem | I watch TV. |
-| listen | nghe | I listen to music. |
-| play | chơi | I play games. |
-| run | chạy | I run in the park. |
-| walk | đi bộ | I walk to work. |
-| drive | lái xe | I drive to work. |
-| sleep | ngủ | I sleep well. |
-| buy | mua | I buy coffee. |
-| talk / speak | nói | I speak English. |
+| Động từ      | Tiếng Việt     | Ví dụ              |
+| ------------ | -------------- | ------------------ |
+| wake up      | thức dậy       | I wake up at 6.    |
+| get up       | ra khỏi giường | I get up early.    |
+| eat          | ăn             | I eat breakfast.   |
+| drink        | uống           | I drink water.     |
+| cook         | nấu            | I cook dinner.     |
+| go           | đi             | I go to school.    |
+| come         | đến            | I come home.       |
+| work         | làm việc       | I work at home.    |
+| study        | học            | I study English.   |
+| read         | đọc            | I read books.      |
+| write        | viết           | I write emails.    |
+| watch        | xem            | I watch TV.        |
+| listen       | nghe           | I listen to music. |
+| play         | chơi           | I play games.      |
+| run          | chạy           | I run in the park. |
+| walk         | đi bộ          | I walk to work.    |
+| drive        | lái xe         | I drive to work.   |
+| sleep        | ngủ            | I sleep well.      |
+| buy          | mua            | I buy coffee.      |
+| talk / speak | nói            | I speak English.   |
 
 > **Mẹo**: "wake up" và "get up" gần nghĩa nhưng khác nhau. **Wake up** = mở mắt. **Get up** = ra khỏi giường. Bạn có thể wake up rồi nằm thêm một tiếng trước khi get up.
 
 ## Chủ ngữ + động từ — quy tắc quan trọng nhất trong tiếng Anh
 
 > **Mẫu**:
+>
 > - `I` / `you` / `we` / `they` + **động từ dạng gốc** (không đổi)
 > - `he` / `she` / `it` + **động từ + s** (quy tắc thêm "s")
 
-| Chủ ngữ | Dạng động từ | Ví dụ |
-| --- | --- | --- |
-| I | gốc | I eat rice. |
-| you | gốc | You eat rice. |
-| we | gốc | We eat rice. |
-| they | gốc | They eat rice. |
-| he | gốc + s | **He eats** rice. |
-| she | gốc + s | **She eats** rice. |
-| it | gốc + s | **It eats** rice. (với con vật) |
+| Chủ ngữ | Dạng động từ | Ví dụ                           |
+| ------- | ------------ | ------------------------------- |
+| I       | gốc          | I eat rice.                     |
+| you     | gốc          | You eat rice.                   |
+| we      | gốc          | We eat rice.                    |
+| they    | gốc          | They eat rice.                  |
+| he      | gốc + s      | **He eats** rice.               |
+| she     | gốc + s      | **She eats** rice.              |
+| it      | gốc + s      | **It eats** rice. (với con vật) |
 
 > **Lưu ý cho người Việt**: Tiếng Việt không thêm "s" theo chủ ngữ ("tôi ăn" / "cô ấy ăn" giống nhau). Tiếng Anh THÌ thêm "s" cho he/she/it. Đây là một trong những lỗi phổ biến nhất của người mới học.
 
@@ -136,16 +118,16 @@ Tám động từ trong chín câu. Lưu ý: mọi động từ ở đây là **
 
 Ghép các động từ với thời gian, bạn có 80% câu nói đời thường.
 
-| Cụm thời gian | Dùng với |
-| --- | --- |
-| in the morning | wake up, eat breakfast, drink coffee |
-| in the afternoon | work, study, run, walk |
-| in the evening | cook, eat dinner, watch TV, read |
-| at night | sleep, read |
-| at 6 / at seven o'clock | bất kỳ động từ nào (giờ cụ thể) |
-| every day / every morning | thói quen (không cần giờ cụ thể) |
-| from 9 to 5 | work, study (khoảng thời gian) |
-| after work / before bed | cook, read, sleep (trình tự) |
+| Cụm thời gian             | Dùng với                             |
+| ------------------------- | ------------------------------------ |
+| in the morning            | wake up, eat breakfast, drink coffee |
+| in the afternoon          | work, study, run, walk               |
+| in the evening            | cook, eat dinner, watch TV, read     |
+| at night                  | sleep, read                          |
+| at 6 / at seven o'clock   | bất kỳ động từ nào (giờ cụ thể)      |
+| every day / every morning | thói quen (không cần giờ cụ thể)     |
+| from 9 to 5               | work, study (khoảng thời gian)       |
+| after work / before bed   | cook, read, sleep (trình tự)         |
 
 > **Mẫu**: `I [verb] [time phrase]`. "I **eat** breakfast **in the morning**." "I **work** **from nine to five**."
 
@@ -192,10 +174,10 @@ Lưu ý mẫu câu: **What time do you [verb]?** — câu hỏi dùng động t�
 
 Điền vào chỗ trống với động từ thích hợp (wake up, eat, drink, go, come, work, sleep).
 
-> I ___ at 6:30 in the morning. I ___ breakfast at 7:00, and I ___ coffee.
-> I ___ to work at 8:00. I ___ from 9:00 to 6:00.
-> I ___ home at 6:30 and ___ dinner with my family.
-> I ___ TV for one hour, then I ___ at 11:00.
+> I **_ at 6:30 in the morning. I _** breakfast at 7:00, and I **_ coffee.
+> I _** to work at 8:00. I **_ from 9:00 to 6:00.
+> I _** home at 6:30 and **_ dinner with my family.
+> I _** TV for one hour, then I \_\_\_ at 11:00.
 
 **Tự kiểm tra**:
 

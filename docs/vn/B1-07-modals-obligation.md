@@ -1,55 +1,41 @@
 ---
 {
-  "id": "b1-07-modals-obligation",
-  "slug": "b1-07-modals-obligation",
-  "titleEn": "Modals of Obligation & Advice",
-  "titleVi": "Động từ Trợ giúp Chỉ Nghĩa vụ & Lời khuyên",
-  "subtitleEn": "Học must, have to, should và ought to",
-  "subtitleVi": "Học must, have to, should và ought to",
-  "level": "B1",
-  "unit": 2,
-  "skill": "grammar",
-  "order": 7,
-  "cefr": "B1",
-  "minutes": 5,
-  "tags": [
-    "modals",
-    "obligation",
-    "advice",
-    "must",
-    "should",
-    "grammar"
-  ],
-  "audioScript": "Bạn phải nộp báo cáo trước thứ Sáu.\nBạn nên nghỉ giải lao — bạn đã làm việc cả ngày rồi.\nTôi đã phải thay đổi lịch họp vì ngày nghỉ.\n",
-  "listeningEnabled": true,
-  "flashcardCount": 8,
-  "quiz": [
-    {
-      "type": "choice",
-      "prompt": "Động từ trợ giúp nào dùng cho nghĩa vụ mạnh từ quy tắc bên ngoài?",
-      "options": [
-        "should",
-        "must",
-        "might"
-      ],
-      "answer": "must"
-    },
-    {
-      "type": "fill",
-      "prompt": "Bạn ___ đi khám bác sĩ — bạn trông mệt thật đấy.",
-      "answer": "should"
-    },
-    {
-      "type": "choice",
-      "prompt": "Dạng quá khứ của \"have to\" là gì?",
-      "options": [
-        "must",
-        "had to",
-        "should have"
-      ],
-      "answer": "had to"
-    }
-  ]
+  'id': 'b1-07-modals-obligation',
+  'slug': 'b1-07-modals-obligation',
+  'titleEn': 'Modals of Obligation & Advice',
+  'titleVi': 'Động từ Trợ giúp Chỉ Nghĩa vụ & Lời khuyên',
+  'subtitleEn': 'Học must, have to, should và ought to',
+  'subtitleVi': 'Học must, have to, should và ought to',
+  'level': 'B1',
+  'unit': 2,
+  'skill': 'grammar',
+  'order': 7,
+  'cefr': 'B1',
+  'minutes': 5,
+  'tags': ['modals', 'obligation', 'advice', 'must', 'should', 'grammar'],
+  'audioScript': "Bạn phải nộp báo cáo trước thứ Sáu.\nBạn nên nghỉ giải lao — bạn đã làm việc cả ngày rồi.\nTôi đã phải thay đổi lịch họp vì ngày nghỉ.\n",
+  'listeningEnabled': true,
+  'flashcardCount': 8,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': 'Động từ trợ giúp nào dùng cho nghĩa vụ mạnh từ quy tắc bên ngoài?',
+        'options': ['should', 'must', 'might'],
+        'answer': 'must',
+      },
+      {
+        'type': 'fill',
+        'prompt': 'Bạn ___ đi khám bác sĩ — bạn trông mệt thật đấy.',
+        'answer': 'should',
+      },
+      {
+        'type': 'choice',
+        'prompt': 'Dạng quá khứ của "have to" là gì?',
+        'options': ['must', 'had to', 'should have'],
+        'answer': 'had to',
+      },
+    ],
 }
 ---
 

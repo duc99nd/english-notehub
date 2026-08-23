@@ -1,61 +1,38 @@
 ---
 {
-  "id": "a1-14-describing-people",
-  "slug": "a1-14-describing-people",
-  "titleEn": "Describing People",
-  "titleVi": "Miêu tả con người",
-  "subtitleEn": "Describe appearance and personality using the right adjectives",
-  "subtitleVi": "Miêu tả ngoại hình và tính cách bằng đúng tính từ",
-  "level": "A1",
-  "unit": 3,
-  "skill": "vocab",
-  "order": 14,
-  "cefr": "A1",
-  "minutes": 8,
-  "tags": [
-    "describing",
-    "people",
-    "appearance",
-    "personality",
-    "vocab"
-  ],
-  "audioScript": "She is tall with long black hair.\nHe is friendly and funny.\nMy brother has brown eyes and short hair.\nMy best friend is kind and patient.\n",
-  "listeningEnabled": true,
-  "flashcardCount": 14,
-  "quiz": [
-    {
-      "type": "choice",
-      "prompt": "Từ nào mô tả độ dài tóc?",
-      "options": [
-        "tall",
-        "long",
-        "friendly",
-        "short"
-      ],
-      "answer": "long"
-    },
-    {
-      "type": "fill",
-      "prompt": "She is ___ and friendly. (cao = tall)",
-      "answer": "tall"
-    },
-    {
-      "type": "choice",
-      "prompt": "Đâu là tính cách?",
-      "options": [
-        "Hair color",
-        "Tall",
-        "Friendly",
-        "Young"
-      ],
-      "answer": "Friendly"
-    },
-    {
-      "type": "fill",
-      "prompt": "He ___ black hair. (động từ sở hữu)",
-      "answer": "has"
-    }
-  ]
+  'id': 'a1-14-describing-people',
+  'slug': 'a1-14-describing-people',
+  'titleEn': 'Describing People',
+  'titleVi': 'Miêu tả con người',
+  'subtitleEn': 'Describe appearance and personality using the right adjectives',
+  'subtitleVi': 'Miêu tả ngoại hình và tính cách bằng đúng tính từ',
+  'level': 'A1',
+  'unit': 3,
+  'skill': 'vocab',
+  'order': 14,
+  'cefr': 'A1',
+  'minutes': 8,
+  'tags': ['describing', 'people', 'appearance', 'personality', 'vocab'],
+  'audioScript': "She is tall with long black hair.\nHe is friendly and funny.\nMy brother has brown eyes and short hair.\nMy best friend is kind and patient.\n",
+  'listeningEnabled': true,
+  'flashcardCount': 14,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': 'Từ nào mô tả độ dài tóc?',
+        'options': ['tall', 'long', 'friendly', 'short'],
+        'answer': 'long',
+      },
+      { 'type': 'fill', 'prompt': 'She is ___ and friendly. (cao = tall)', 'answer': 'tall' },
+      {
+        'type': 'choice',
+        'prompt': 'Đâu là tính cách?',
+        'options': ['Hair color', 'Tall', 'Friendly', 'Young'],
+        'answer': 'Friendly',
+      },
+      { 'type': 'fill', 'prompt': 'He ___ black hair. (động từ sở hữu)', 'answer': 'has' },
+    ],
 }
 ---
 
@@ -76,85 +53,85 @@
 > **Mẫu C — Chiều cao/dáng người**: `Subject + is + [tính từ]`
 > "He **is** tall."
 
-| Loại | Mẫu động từ | Ví dụ |
-| --- | --- | --- |
-| Đặc điểm cơ thể (tóc, mắt, kính) | has / have | She **has** brown eyes. |
-| Chiều cao, dáng người | is + tính từ | He **is** tall. |
-| Tuổi | is + tính từ | She **is** young. |
-| Tính cách | is + tính từ | He **is** friendly. |
+| Loại                             | Mẫu động từ  | Ví dụ                   |
+| -------------------------------- | ------------ | ----------------------- |
+| Đặc điểm cơ thể (tóc, mắt, kính) | has / have   | She **has** brown eyes. |
+| Chiều cao, dáng người            | is + tính từ | He **is** tall.         |
+| Tuổi                             | is + tính từ | She **is** young.       |
+| Tính cách                        | is + tính từ | He **is** friendly.     |
 
 > **Lỗi thường gặp**: ❌ "She **has** tall." ✅ "She **is** tall." Dùng **is** cho miêu tả toàn người; dùng **has** cho thứ gắn với người (tóc, mắt, kính, râu).
 
 ## Tóc
 
-| Tiếng Anh | Tiếng Việt | Ví dụ |
-| --- | --- | --- |
-| short hair | tóc ngắn | She has short hair. |
-| long hair | tóc dài | He has long hair. |
-| black hair | tóc đen | My brother has black hair. |
-| blonde / blond hair | tóc vàng | Anna has blonde hair. |
-| brown hair | tóc nâu | Duc has brown hair. |
-| grey / gray hair | tóc bạc | My grandfather has grey hair. |
-| curly hair | tóc xoăn | She has curly hair. |
-| straight hair | tóc thẳng | He has straight hair. |
-| wavy hair | tóc gợn sóng | She has wavy hair. |
-| bald | hói | He is bald. |
+| Tiếng Anh           | Tiếng Việt   | Ví dụ                         |
+| ------------------- | ------------ | ----------------------------- |
+| short hair          | tóc ngắn     | She has short hair.           |
+| long hair           | tóc dài      | He has long hair.             |
+| black hair          | tóc đen      | My brother has black hair.    |
+| blonde / blond hair | tóc vàng     | Anna has blonde hair.         |
+| brown hair          | tóc nâu      | Duc has brown hair.           |
+| grey / gray hair    | tóc bạc      | My grandfather has grey hair. |
+| curly hair          | tóc xoăn     | She has curly hair.           |
+| straight hair       | tóc thẳng    | He has straight hair.         |
+| wavy hair           | tóc gợn sóng | She has wavy hair.            |
+| bald                | hói          | He is bald.                   |
 
 > **Mẹo**: "blond" cho nam, "blonde" cho nữ (trong tiếng Anh Anh). Trong tiếng Anh Mỹ, cả hai đều OK. "Grey" (Anh) = "Gray" (Mỹ). Cùng nghĩa.
 
 ## Mắt
 
-| Tiếng Anh | Tiếng Việt | Ví dụ |
-| --- | --- | --- |
-| brown eyes | mắt nâu | She has brown eyes. |
-| black eyes | mắt đen | He has black eyes. |
-| blue eyes | mắt xanh dương | Anna has blue eyes. |
-| green eyes | mắt xanh lá | John has green eyes. |
-| big eyes | mắt to | The child has big eyes. |
-| small eyes | mắt nhỏ | He has small eyes. |
+| Tiếng Anh  | Tiếng Việt     | Ví dụ                   |
+| ---------- | -------------- | ----------------------- |
+| brown eyes | mắt nâu        | She has brown eyes.     |
+| black eyes | mắt đen        | He has black eyes.      |
+| blue eyes  | mắt xanh dương | Anna has blue eyes.     |
+| green eyes | mắt xanh lá    | John has green eyes.    |
+| big eyes   | mắt to         | The child has big eyes. |
+| small eyes | mắt nhỏ        | He has small eyes.      |
 
 ## Chiều cao và dáng người
 
-| Tiếng Anh | Tiếng Việt | Ghi chú |
-| --- | --- | --- |
-| tall | cao | She is tall. |
-| short | thấp | He is short. |
-| medium height | cao trung bình | She is medium height. |
-| thin / skinny | gầy / mảnh | He is thin. |
-| slim | mảnh khảnh | She is slim. |
-| fat | mập | He is fat. (từ nhạy cảm) |
-| overweight | thừa cân | He is overweight. (lịch sự) |
+| Tiếng Anh     | Tiếng Việt     | Ghi chú                     |
+| ------------- | -------------- | --------------------------- |
+| tall          | cao            | She is tall.                |
+| short         | thấp           | He is short.                |
+| medium height | cao trung bình | She is medium height.       |
+| thin / skinny | gầy / mảnh     | He is thin.                 |
+| slim          | mảnh khảnh     | She is slim.                |
+| fat           | mập            | He is fat. (từ nhạy cảm)    |
+| overweight    | thừa cân       | He is overweight. (lịch sự) |
 
 > **Mẹo**: "Fat" có thể nghe thiếu lịch sự. Trong hội thoại cẩn thận, dùng **"overweight"** hoặc **"a bit heavy"**. "Slim" hoặc "thin" trung tính hơn "skinny".
 
 ## Tuổi
 
-| Tiếng Anh | Tiếng Việt | Ví dụ |
-| --- | --- | --- |
-| young | trẻ | She is young. |
-| old | già | He is old. (nhạy cảm) |
-| middle-aged | trung niên | She is middle-aged. |
-| elderly | lớn tuổi | He is elderly. (lịch sự) |
-| in his / her 20s, 30s, 40s | ở độ tuổi 20, 30, 40 | She is in her 30s. |
+| Tiếng Anh                  | Tiếng Việt           | Ví dụ                    |
+| -------------------------- | -------------------- | ------------------------ |
+| young                      | trẻ                  | She is young.            |
+| old                        | già                  | He is old. (nhạy cảm)    |
+| middle-aged                | trung niên           | She is middle-aged.      |
+| elderly                    | lớn tuổi             | He is elderly. (lịch sự) |
+| in his / her 20s, 30s, 40s | ở độ tuổi 20, 30, 40 | She is in her 30s.       |
 
 > **Mẹo**: Khi hỏi tuổi ai đó bằng tiếng Anh, không bao giờ hỏi trực tiếp phụ nữ. Thay vào đó, nói "How old do you think she is?" hoặc đợi họ nhắc tới. Với nam, hỏi tuổi phổ biến hơn.
 
 ## Tính cách
 
-| Tích cực | Tiếng Việt | Tiêu cực | Tiếng Việt |
-| --- | --- | --- | --- |
-| friendly | thân thiện | unfriendly | không thân thiện |
-| kind | tốt bụng | unkind | không tốt bụng |
-| funny | vui tính | boring | nhàm chán |
-| smart / clever / intelligent | thông minh | stupid / dumb (thô lỗ) | ngu ngốc |
-| quiet | yên tĩnh | loud | ồn ào |
-| shy | nhút nhát | arrogant / bossy | kiêu ngạo / hách dịch |
-| serious | nghiêm túc | careless | cẩu thả |
-| hardworking | chăm chỉ | lazy | lười biếng |
-| honest | trung thực | dishonest | không trung thực |
-| patient | kiên nhẫn | impatient | thiếu kiên nhẫn |
-| polite | lịch sự | rude | bất lịch sự |
-| kind | tốt bụng | mean / cruel | độc ác |
+| Tích cực                     | Tiếng Việt | Tiêu cực               | Tiếng Việt            |
+| ---------------------------- | ---------- | ---------------------- | --------------------- |
+| friendly                     | thân thiện | unfriendly             | không thân thiện      |
+| kind                         | tốt bụng   | unkind                 | không tốt bụng        |
+| funny                        | vui tính   | boring                 | nhàm chán             |
+| smart / clever / intelligent | thông minh | stupid / dumb (thô lỗ) | ngu ngốc              |
+| quiet                        | yên tĩnh   | loud                   | ồn ào                 |
+| shy                          | nhút nhát  | arrogant / bossy       | kiêu ngạo / hách dịch |
+| serious                      | nghiêm túc | careless               | cẩu thả               |
+| hardworking                  | chăm chỉ   | lazy                   | lười biếng            |
+| honest                       | trung thực | dishonest              | không trung thực      |
+| patient                      | kiên nhẫn  | impatient              | thiếu kiên nhẫn       |
+| polite                       | lịch sự    | rude                   | bất lịch sự           |
+| kind                         | tốt bụng   | mean / cruel           | độc ác                |
 
 > **Mẫu**: Để tạo từ trái nghĩa, thêm **"un-"** (unfriendly, unfashionable) — phổ biến nhất. Với những từ khác, dùng từ khác (lazy ↔ hardworking).
 
@@ -205,9 +182,9 @@
 
 Viết 5-6 câu miêu tả ai đó bạn biết (bạn bè, đồng nghiệp, người nhà).
 
-> My friend ___ is ___ (chiều cao). He/She has ___ hair and ___ eyes.
-> He/She is ___ (3 tính từ tính cách). He/She is ___ years old.
-> He/She ___ (sở thích hoặc công việc).
+> My friend **_ is _** (chiều cao). He/She has **_ hair and _** eyes.
+> He/She is **_ (3 tính từ tính cách). He/She is _** years old.
+> He/She \_\_\_ (sở thích hoặc công việc).
 
 **Tự kiểm tra**:
 

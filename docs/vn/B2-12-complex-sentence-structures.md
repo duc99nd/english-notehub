@@ -1,54 +1,46 @@
 ---
 {
-  "id": "b2-12-complex-sentence-structures",
-  "slug": "b2-12-complex-sentence-structures",
-  "titleEn": "Complex Sentence Structures",
-  "titleVi": "Cấu trúc câu phức",
-  "subtitleEn": "Use relative clauses, participles, and noun clauses for sophisticated expression",
-  "subtitleVi": "Sử dụng mệnh đề quan hệ, phân từ và mệnh đề danh từ để diễn đạt tinh vi",
-  "level": "B2",
-  "unit": 3,
-  "skill": "grammar",
-  "order": 12,
-  "cefr": "B2",
-  "minutes": 5,
-  "tags": [
-    "grammar",
-    "complex-sentences",
-    "writing",
-    "formal",
-    "B2"
-  ],
-  "audioScript": "The report, which was published last month, highlights key trends.\nHaving reviewed the data, we can conclude that performance improved.\nWhat concerns us most is the declining market share.\n",
-  "listeningEnabled": true,
-  "flashcardCount": 6,
-  "quiz": [
-    {
-      "type": "choice",
-      "prompt": "Which sentence uses a non-defining relative clause correctly?",
-      "options": [
-        "The report that was published last month highlights key trends.",
-        "The report, which was published last month, highlights key trends.",
-        "The report which was published last month highlights key trends."
-      ],
-      "answer": "The report, which was published last month, highlights key trends."
-    },
-    {
-      "type": "fill",
-      "prompt": "___ the data, we can conclude that performance improved.",
-      "answer": "Having reviewed"
-    },
-    {
-      "type": "choice",
-      "prompt": "What type of clause is \"What concerns us most\"?",
-      "options": [
-        "Relative clause",
-        "Noun clause",
-        "Adverbial clause"
-      ],
-      "answer": "Noun clause"
-    }
-  ]
+  'id': 'b2-12-complex-sentence-structures',
+  'slug': 'b2-12-complex-sentence-structures',
+  'titleEn': 'Complex Sentence Structures',
+  'titleVi': 'Cấu trúc câu phức',
+  'subtitleEn': 'Use relative clauses, participles, and noun clauses for sophisticated expression',
+  'subtitleVi': 'Sử dụng mệnh đề quan hệ, phân từ và mệnh đề danh từ để diễn đạt tinh vi',
+  'level': 'B2',
+  'unit': 3,
+  'skill': 'grammar',
+  'order': 12,
+  'cefr': 'B2',
+  'minutes': 5,
+  'tags': ['grammar', 'complex-sentences', 'writing', 'formal', 'B2'],
+  'audioScript': "The report, which was published last month, highlights key trends.\nHaving reviewed the data, we can conclude that performance improved.\nWhat concerns us most is the declining market share.\n",
+  'listeningEnabled': true,
+  'flashcardCount': 6,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': 'Which sentence uses a non-defining relative clause correctly?',
+        'options':
+          [
+            'The report that was published last month highlights key trends.',
+            'The report, which was published last month, highlights key trends.',
+            'The report which was published last month highlights key trends.',
+          ],
+        'answer': 'The report, which was published last month, highlights key trends.',
+      },
+      {
+        'type': 'fill',
+        'prompt': '___ the data, we can conclude that performance improved.',
+        'answer': 'Having reviewed',
+      },
+      {
+        'type': 'choice',
+        'prompt': 'What type of clause is "What concerns us most"?',
+        'options': ['Relative clause', 'Noun clause', 'Adverbial clause'],
+        'answer': 'Noun clause',
+      },
+    ],
 }
 ---
 

@@ -1,53 +1,41 @@
 ---
 {
-  "id": "b2-12-complex-sentence-structures",
-  "slug": "b2-12-complex-sentence-structures",
-  "titleEn": "Complex Sentence Structures",
-  "titleVi": "Cấu trúc câu phức tạp",
-  "subtitleEn": "Build sophisticated sentences with subordinate clauses",
-  "subtitleVi": "Xây dựng câu phức tạp với mệnh đề phụ",
-  "level": "B2",
-  "unit": 3,
-  "skill": "grammar",
-  "order": 12,
-  "cefr": "B2",
-  "minutes": 5,
-  "tags": [
-    "grammar",
-    "sentences",
-    "clauses",
-    "B2"
-  ],
-  "audioScript": "Although the deadline is tight, we will deliver quality work.\nGiven the complexity of the project, we recommend additional resources.\nUnless we act now, we risk losing our competitive edge.\n",
-  "listeningEnabled": true,
-  "flashcardCount": 6,
-  "quiz": [
-    {
-      "type": "choice",
-      "prompt": "Which word introduces a contrast?",
-      "options": [
-        "Because",
-        "Although",
-        "And"
-      ],
-      "answer": "Although"
-    },
-    {
-      "type": "fill",
-      "prompt": "___ the complexity, we recommend additional support.",
-      "answer": "Given"
-    },
-    {
-      "type": "choice",
-      "prompt": "Unless we act now, we... expresses:",
-      "options": [
-        "Condition with negative",
-        "Past habit",
-        "Future certainty"
-      ],
-      "answer": "Condition with negative"
-    }
-  ]
+  'id': 'b2-12-complex-sentence-structures',
+  'slug': 'b2-12-complex-sentence-structures',
+  'titleEn': 'Complex Sentence Structures',
+  'titleVi': 'Cấu trúc câu phức tạp',
+  'subtitleEn': 'Build sophisticated sentences with subordinate clauses',
+  'subtitleVi': 'Xây dựng câu phức tạp với mệnh đề phụ',
+  'level': 'B2',
+  'unit': 3,
+  'skill': 'grammar',
+  'order': 12,
+  'cefr': 'B2',
+  'minutes': 5,
+  'tags': ['grammar', 'sentences', 'clauses', 'B2'],
+  'audioScript': "Although the deadline is tight, we will deliver quality work.\nGiven the complexity of the project, we recommend additional resources.\nUnless we act now, we risk losing our competitive edge.\n",
+  'listeningEnabled': true,
+  'flashcardCount': 6,
+  'quiz':
+    [
+      {
+        'type': 'choice',
+        'prompt': 'Which word introduces a contrast?',
+        'options': ['Because', 'Although', 'And'],
+        'answer': 'Although',
+      },
+      {
+        'type': 'fill',
+        'prompt': '___ the complexity, we recommend additional support.',
+        'answer': 'Given',
+      },
+      {
+        'type': 'choice',
+        'prompt': 'Unless we act now, we... expresses:',
+        'options': ['Condition with negative', 'Past habit', 'Future certainty'],
+        'answer': 'Condition with negative',
+      },
+    ],
 }
 ---
 
